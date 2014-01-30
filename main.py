@@ -10,7 +10,7 @@ c = cytoplasm.localizer
 Metabolite.default_location = cytoplasm
 
 
-
+# this is a comment
 
 
 atp = Metabolite("atp")
