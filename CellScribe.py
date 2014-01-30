@@ -1,5 +1,7 @@
 
 class Logicable(object):
+    # this is an Abstract Base Class
+
     def __and__(self, other):
         return And(self, other)
 
@@ -56,6 +58,7 @@ class Gene(Logicable):
 
 
 class Association(object):
+    # this is an Abstract Base Class
     pass
 
 
@@ -70,9 +73,7 @@ class GeneAssociation(Association):
 
 
 class Reactable(object):
-    # this is an Abstract base class; no constructor
-    #def __init__(self, name):
-    #    self.name = name
+    # this is an Abstract Base Class
 
     def __mul__(self, other):
         return StoichiometricPair(metabolite=self, coefficient=other)
