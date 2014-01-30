@@ -10,9 +10,6 @@ c = cytoplasm.localizer
 Metabolite.default_location = cytoplasm
 
 
-# this is a comment
-
-
 atp = Metabolite("atp")
 adp = Metabolite("adp")
 glucose = Metabolite("glucose")
@@ -27,22 +24,22 @@ glucokinase = Reaction(name="glucosekinase",
 SP_0068 = Gene("SP_0068")
 glucokinase_GA = GeneAssociation(glucokinase, SP_0068)
 
-
-
-
-
-
-
-
 glucose_transport1 = Reaction(name="glucose_transport1",
                               reactants=e(glucose) + atp,
-                              products=glucose + adp)
+                              products=glucose + adp,
+                              pairs=[(atp, adp)],
+                              minors=[atp, adp])
 
 SP_1000 = Gene("SP_1000")
 SP_1001 = Gene("SP_1001")
 SP_1002 = Gene("SP_1002")
 
 glucose_transport1_GA = GeneAssociation(glucose_transport1, SP_1000 & (SP_1001 | SP_1002))
+
+
+
+
+
 
 if __name__ == "__main__":
     print glucokinase
