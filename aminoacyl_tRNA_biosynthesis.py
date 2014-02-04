@@ -10,7 +10,6 @@ cytoplasm = Location("Cytoplasm", 'c')
 c = cytoplasm.localizer
 Metabolite.default_location = cytoplasm
 
-
 tRNA_val = RNA("tRNA_val")
 L_valine = Metabolite("L_valine")
 L_valyl_tRNA = RNA("L_valyl_tRNA")
