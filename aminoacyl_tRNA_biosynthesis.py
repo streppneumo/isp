@@ -13,12 +13,16 @@ Metabolite.default_location = cytoplasm
 
 tRNA_val = RNA("tRNA_val")
 L_valine = Metabolite("L_valine")
+L_valyl_tRNA = RNA("L_valyl_tRNA")
 atp = Metabolite("atp")
-adp = Metabolite("adp")
+amp = Metabolite("adp")
 #need to create tRNA...write RNA class? or use metabolite?
 
-chargeValRNA = Reaction(name = 'chargeValRNA'
-                        reactants= tRNA_val + L_valine)
+chargeValRNA = Reaction(name='chargeValRNA',
+                        reactants=tRNA_val + L_valine,
+                        products=L_valyl_tRNA + amp,
+                        pairs=[(tRNA_val, L_valyl_tRNA), (atp, amp)],
+                        minors=[atp, amp])
 
 SP_0568 = Gene("SP_0568")
 chargeValRNA_GA = GeneAssociation(chargeValRNA, SP_0568)
