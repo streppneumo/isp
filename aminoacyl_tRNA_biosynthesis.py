@@ -33,7 +33,7 @@ L_valyl_tRNA = RNA("L_valyl_tRNA")
 #need to create tRNA...write RNA class? or use metabolite?
 
 chargeValRNA = Reaction(name='chargeValRNA',
-                        reactants=tRNA_val + L_valine,
+                        reactants=tRNA_val + L_valine + atp,
                         products=L_valyl_tRNA + amp,
                         pairs=[(tRNA_val, L_valyl_tRNA), (atp, amp)],
                         minors=[atp, amp])
@@ -50,7 +50,7 @@ L_phenylalanine = Metabolite("L_phenylalanine")
 L_phenylalanyl_tRNA = Metabolite("L_phenylalanyl_tRNA")
 
 chargePheRNA = Reaction(name='chargePheRNA',
-                        reactants=tRNA_phe + L_phenylalanine,
+                        reactants=tRNA_phe + L_phenylalanine + atp,
                         products=L_phenylalanyl_tRNA + amp,
                         pairs=[(tRNA_phe, L_phenylalanyl_tRNA), (atp, amp)],
                         minors=[atp, amp])
