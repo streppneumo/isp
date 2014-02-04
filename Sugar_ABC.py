@@ -10,10 +10,12 @@ Metabolite.default_location = cytoplasm
 
 atp = Metabolite("atp")
 adp = Metabolite("adp")
-phosphate = Metabolite("phosphate"
+phosphate = Metabolite("phosphate")
 H20 = Metabolite("H20")
-spermidine = Metabolite("spermidine")
-putrescine = Metabolite("putrescine")
+spermidine = Metabolite("spermidine", kegg="C00315")
+putrescine = Metabolite("putrescine", kegg="C00134")
+
+
 
 spermidine = Reaction(name="spermidine",
                       reactants=e(spermidine) + H20 + atp,
