@@ -17,7 +17,7 @@ H20 = Metabolite("H20")
 maltodextrin = Metabolite("maltodextrin")
 
 βmaltose_transport = Reaction(name="βmaltose_transport",
-                       reactants=βmaltose + H20+ atp,
+                       reactants=e(βmaltose) + H20+ atp,
                        products=βmaltose + adp + phosphate,
                        pairs=[(atp, adp)],
                        minors=[atp, adp])
@@ -30,7 +30,7 @@ SP_2110 = Gene("SP_2110")
 
 
 maltodextrin_transport = Reaction(name="maltodextrin_transport",
-                       reactants=maltodextrin + H20+ atp,
+                       reactants=e(maltodextrin) + H20+ atp,
                        products=maltodextrin + adp + phosphate,
                        pairs=[(atp, adp)],
                        minors=[atp, adp])
