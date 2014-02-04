@@ -18,6 +18,8 @@ Metabolite.default_location = cytoplasm
 #GENE = Gene("GENE")
 #REACTIONNAME_GA = GeneAssociation(REACTIONNAME, GENE)
 
+#comment
+
 phosphoenol_pyruvate = Metabolite ("PEP")
 pyruvate = Metabolite ("pyruvate")
 ADP = Metabolite ("ADP")
