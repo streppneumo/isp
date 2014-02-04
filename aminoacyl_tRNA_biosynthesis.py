@@ -21,7 +21,7 @@ c = cytoplasm.localizer
 Metabolite.default_location = cytoplasm
 
 atp = Metabolite("atp")
-amp = Metabolite("adp")
+amp = Metabolite("amp")
 
 #CHARGE tRNA-Val REACTION. reaction is identical for following amino acids (gene associations below):
 #Leucine, Isoleucine, Arginine, Proline, Histidine, Tyrosine, Tryptophan, Alanine, Threonine, Serine, Methionine
