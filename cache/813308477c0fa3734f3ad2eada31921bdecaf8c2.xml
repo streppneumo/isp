@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='17.5' xml:base='http://BioCyc.org/apixml?fn=enzymes-of-reaction%26id=SPNE170187:PEPDEPHOS-RXN%26detail=LOW'>
+  <metadata>
+    <url>http://BioCyc.org/</url>
+    <service_name>apixml</service_name>
+    <query>fn=enzymes-of-reaction&amp;id=SPNE170187:PEPDEPHOS-RXN&amp;detail=LOW</query>
+    <num_results>1</num_results>
+    <PGDB orgid='SPNE170187' version='17.5'>
+      <species datatype='string'>Streptococcus pneumoniae</species>
+      <strain datatype='string'>TIGR4</strain>
+    </PGDB>
+  </metadata>
+  <Protein ID='SPNE170187:GHGN-902-MONOMER' orgid='SPNE170187' frameid='GHGN-902-MONOMER' detail='low'>
+    <parent>
+      <Protein resource='getxml?SPNE170187:Polypeptides' orgid='SPNE170187' frameid='Polypeptides' class='true'/>
+    </parent>
+    <catalyzes>
+      <Enzymatic-Reaction ID='SPNE170187:ENZRXNHGN-200' orgid='SPNE170187' frameid='ENZRXNHGN-200' detail='low'>
+        <reaction>
+          <Reaction resource='getxml?SPNE170187:PEPDEPHOS-RXN' orgid='SPNE170187' frameid='PEPDEPHOS-RXN'/>
+        </reaction>
+        <enzyme>
+          <Protein resource='#SPNE170187:GHGN-902-MONOMER' orgid='SPNE170187' frameid='GHGN-902-MONOMER'/>
+        </enzyme>
+        <common-name datatype='string'>pyruvate kinase</common-name>
+      </Enzymatic-Reaction>
+    </catalyzes>
+    <gene>
+      <Gene resource='getxml?SPNE170187:GHGN-902' orgid='SPNE170187' frameid='GHGN-902'/>
+    </gene>
+    <common-name datatype='string'>pyruvate kinase</common-name>
+  </Protein>
+</ptools-xml>
