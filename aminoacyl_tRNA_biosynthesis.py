@@ -42,3 +42,20 @@ SP_0568 = Gene("SP_0568")
 chargeValRNA_GA = GeneAssociation(chargeValRNA, SP_0568)
 #gene association: valyl-tRNA synthetase
 
+#CHARGE tRNA-Phe REACTION. reaction is not simple because phenylalyl-tRNA synthetase has alpha and beta subunits (two GAs)
+#system is similar to Glycine, which also has alpha and beta subunits
+
+tRNA_phe = RNA("tRNA_phe")
+L_phenylalanine = Metabolite("L_phenylalanine")
+L_phenylalanyl_tRNA = Metabolite("L_phenylalanyl_tRNA")
+
+chargePheRNA = Reaction(name='chargePheRNA',
+                        reactants=tRNA_phe + L_phenylalanine,
+                        products=L_phenylalanyl_tRNA + amp,
+                        pairs=[(tRNA_phe, L_phenylalanyl_tRNA), (atp, amp)],
+                        minors=[atp, amp])
+
+SP_0581 = Gene("SP_0581") #beta subunit
+SP_0579 = Gene("SP_0579") #alpha subunit
+chargePheRNA_GA = GeneAssociation(chargePheRNA, SP_0581 & SP_0579)
+#gene association: phenylalanyl-tRNA synthetase subunits
