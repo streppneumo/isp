@@ -1,33 +1,34 @@
 
 from CellScribe import *
 
+##extracellular = Location("Extracellular", 'e')
+##e = extracellular.localizer
+##
+##cytoplasm = Location("Cytoplasm", 'c')
+##c = cytoplasm.localizer
+##Metabolite.default_location = cytoplasm
 
-extracellular = Location("Extracellular", 'e')
-e = extracellular.localizer
 
-cytoplasm = Location("Cytoplasm", 'c')
-c = cytoplasm.localizer
-Metabolite.default_location = cytoplasm
+#MAKE TONS OF LISTS for each gene pairrrs
+
+S16 = [Gene("SP_0838") & Gene("SP_0085")]
+S =
 
 
-S4psubunit = Metabolite("S4psubunit")
+subunits = Gene("dsadsa")]
 S20psubunit = Metabolite("S20psubunit")
 S16psubunit = Metabolite("S16psubunit")
 
-S16psubunit = Reaction(name="S16psubunit",
-                       reactants=S4psubunit + S20psubunit,
-                       products=S16psubunit
-                       #pairs=[(glucose, glucose6phosphate), (atp, adp)],
-                       #minors=[atp, adp])
-
-SP_0775 = Gene("SP_0775")
-S16psubunit_GA = GeneAssociation(S16psubunit, SP_0085 & SP_0838)
+def proteinSubunits(subunits, builtPsubunit):
+for i in subunits:
+    for k in builtPSubunit:
+    Reaction(name="builtPSubunit",
+            reactants= subunits,
+            products=builtPsubunit)
 
 
-
-
-
-
+            #pairs=[(glucose, glucose6phosphate), (atp, adp)],
+            #minors=[atp, adp])
 
 
 ##glucose_transport1 = Reaction(name="glucose_transport1",
