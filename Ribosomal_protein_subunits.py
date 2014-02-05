@@ -11,21 +11,25 @@ from CellScribe import *
 
 #MAKE TONS OF LISTS for each gene pairrrs
 
-S16 = [Gene("SP_0838") & Gene("SP_0085")]
-S =
-
-
 subunits = Gene("dsadsa")]
 S20psubunit = Metabolite("S20psubunit")
 S16psubunit = Metabolite("S16psubunit")
 
 def proteinSubunits(subunits, builtPsubunit):
-for i in subunits:
-    for k in builtPSubunit:
+    #for i in subunits
     Reaction(name="builtPSubunit",
             reactants= subunits,
             products=builtPsubunit)
 
+proteinSubunits(Gene("SP_0838") & Gene("SP_0085"), Gene)
+proteinSubunits(subunits, buildPsubunit)
+proteinSubunits(subunits, buildPsubunit)
+proteinSubunits(subunits, buildPsubunit)
+proteinSubunits(subunits, buildPsubunit)
+proteinSubunits(subunits, buildPsubunit)
+proteinSubunits(subunits, buildPsubunit)
+proteinSubunits(subunits, buildPsubunit)
+proteinSubunits(subunits, buildPsubunit)
 
             #pairs=[(glucose, glucose6phosphate), (atp, adp)],
             #minors=[atp, adp])
