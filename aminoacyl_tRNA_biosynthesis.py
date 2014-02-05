@@ -23,39 +23,36 @@ Metabolite.default_location = cytoplasm
 atp = Metabolite("atp")
 amp = Metabolite("amp")
 
-#CHARGE tRNA-Val REACTION. reaction is identical for following amino acids (gene associations below):
-#Leucine, Isoleucine, Arginine, Proline, Histidine, Tyrosine, Tryptophan, Alanine, Threonine, Serine, Methionine
-#SP_0254.... 1659..... 2078.... 0264...... 2121...... 2100...... 2229.... 1383..... 1639...... 0411..... 0788
+#generic charge simple tRNA
 
-tRNA_val = RNA("tRNA_val")
-L_valine = Metabolite("L_valine")
-L_valyl_tRNA = RNA("L_valyl_tRNA")
-#need to create tRNA...write RNA class? or use metabolite?
 
-chargeValRNA = Reaction(name='chargeValRNA',
-                        reactants=tRNA_val + L_valine + atp,
-                        products=L_valyl_tRNA + amp,
-                        pairs=[(tRNA_val, L_valyl_tRNA), (atp, amp)],
-                        minors=[atp, amp])
+def charge_trna_simple(aaname, trnaname, chargedrna_name, *associated_genes):
 
-SP_0568 = Gene("SP_0568")
-chargeValRNA_GA = GeneAssociation(chargeValRNA, SP_0568)
-#gene association: valyl-tRNA synthetase
+    trna = RNA(trnaname)
+    amino_acid = Metabolite(aaname)
+    charged_trna = Metabolite(chargedrna_name)
 
-#CHARGE tRNA-Phe REACTION. reaction is not simple because phenylalyl-tRNA synthetase has alpha and beta subunits (two GAs)
-#system is similar to Glycine, which also has alpha and beta subunits
+    charge_trna = Reaction(name='charge' + aaname,
+                           reactants=trna + amino_acid + atp,
+                           products=charged_trna + amp,
+                           pairs=[(trna, charged_trna), (atp, amp)],
+                           minors=[atp, amp])
 
-tRNA_phe = RNA("tRNA_phe")
-L_phenylalanine = Metabolite("L_phenylalanine")
-L_phenylalanyl_tRNA = Metabolite("L_phenylalanyl_tRNA")
+    GeneAssociation(charge_trna, associated_genes)
 
-chargePheRNA = Reaction(name='chargePheRNA',
-                        reactants=tRNA_phe + L_phenylalanine + atp,
-                        products=L_phenylalanyl_tRNA + amp,
-                        pairs=[(tRNA_phe, L_phenylalanyl_tRNA), (atp, amp)],
-                        minors=[atp, amp])
+charge_trna_simple("L-valine", "tRNA_val", "L_valyl_tRNA", Gene('SP_0568'))
+charge_trna_simple("L_leucine", "tRNA_leu", "L_leucyl_tRNA", Gene('SP_0254'))
+charge_trna_simple("L_isoleucine", "tRNA_ile", "L_isoleucyl_tRNA", Gene('SP_1659'))
+charge_trna_simple("L-lysine", "tRNA_lys", "L_lysyl_tRNA", Gene('SP_0713'))
+charge_trna_simple("L_arginine", "tRNA_arg", "L_arginyl_tRNA", Gene('SP_2078'))
+charge_trna_simple("L_proline", "tRNA_pro", "L_prolyl_tRNA", Gene('SP_0264'))
+charge_trna_simple("L_histidine", "tRNA_his", "L_histidyl_tRNA", Gene('SP_2121'))
+charge_trna_simple("L_phenylalanine", "tRNA_phe", "L_phenylalanyl_tRNA", Gene('SP_0581') & Gene('SP_0579'))
+charge_trna_simple("L_tyrosine", "tRNA_tyr", "L_tyrosyl_tRNA", Gene('SP_2100'))
+charge_trna_simple("L_tryptophan", "tRNA_trp", "L_tryptophanyl_tRNA", Gene('SP_2229'))
+charge_trna_simple("L_alanine", "tRNA_ala", "L_alanyl_tRNA", Gene('SP_1383'))
+charge_trna_simple("L_glycine", "tRNA_gly", "L_glycyl_tRNA", Gene('SP_1474') & Gene('SP_1475'))
+charge_trna_simple("L_threonine", "tRNA_thr", "L_threonyl_tRNA", Gene('1631'))
+charge_trna_simple("L_serine", "tRNA_ser", "L_seryl_tRNA", Gene('SP_0411'))
+charge_trna_simple("L_methionine", "tRNA_met", "L_methionyl_tRNA", Gene('SP_0788'))
 
-SP_0581 = Gene("SP_0581") #beta subunit
-SP_0579 = Gene("SP_0579") #alpha subunit
-chargePheRNA_GA = GeneAssociation(chargePheRNA, SP_0581 & SP_0579)
-#gene association: phenylalanyl-tRNA synthetase subunits
