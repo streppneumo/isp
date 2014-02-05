@@ -9,19 +9,12 @@ from CellScribe import *
 ##Metabolite.default_location = cytoplasm
 
 
-#MAKE TONS OF LISTS for each gene pairrrs
-
-subunits = Gene("dsadsa")]
-S20psubunit = Metabolite("S20psubunit")
-S16psubunit = Metabolite("S16psubunit")
-
 def proteinSubunits(subunits, builtPsubunit):
-    #for i in subunits
     Reaction(name="builtPSubunit",
             reactants= subunits,
             products=builtPsubunit)
 
-proteinSubunits(Gene("SP_0838") & Gene("SP_0085"), Gene)
+proteinSubunits(Gene("SP_0838") & Gene("SP_0085"), Gene("SP_0775"))
 proteinSubunits(subunits, buildPsubunit)
 proteinSubunits(subunits, buildPsubunit)
 proteinSubunits(subunits, buildPsubunit)
