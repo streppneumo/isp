@@ -14,13 +14,17 @@ def proteinSubunits(subunits, builtPsubunit):
             reactants= subunits,
             products=builtPsubunit)
 
-proteinSubunits(Gene("SP_0838") & Gene("SP_0085"), Gene("SP_0775"))
-proteinSubunits(subunits, buildPsubunit)
-proteinSubunits(subunits, buildPsubunit)
-proteinSubunits(subunits, buildPsubunit)
-proteinSubunits(subunits, buildPsubunit)
-proteinSubunits(subunits, buildPsubunit)
-proteinSubunits(subunits, buildPsubunit)
+proteinSubunits(Gene("SP_0838") & Gene("SP_0085"), Gene("SP_0775")) #S16
+proteinSubunits(Gene("SP_0272"), Gene("SP_0295")) #S9
+proteinSubunits(Gene("SP_0272"), Gene("SP_0234"))#S13
+proteinSubunits(Gene("SP_0272"), Gene("SP_0213"))#S19
+proteinSubunits(Gene("SP_0218") & Gene("SP_0272"), buildPsubunit)#S12
+proteinSubunits(subunits, buildPsubunit)#S5
+proteinSubunits(subunits, buildPsubunit)#S11
+proteinSubunits(subunits, buildPsubunit)#S21
+proteinSubunits(subunits, buildPsubunit)#S10
+proteinSubunits(subunits, buildPsubunit)#S14
+proteinSubunits(subunits, buildPsubunit)#S3
 proteinSubunits(subunits, buildPsubunit)
 proteinSubunits(subunits, buildPsubunit)
 
