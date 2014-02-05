@@ -2,17 +2,6 @@ __author__ = 'Corey'
 
 from CellScribe import *
 
-#REACTION TEMPLATE
-#NAME = Reaction(name="NAME",
-#                       reactants=REACT1 + REACT2,
-#                       products=PROD1 + PROD2,
-#                       pairs=[(pair1, pair1), (pair2, pair2)],
-#                       minors=[minor1, minor2])
-
-#GENE ASSOCIATION TEMPLATE
-#GENE = Gene("GENE")
-#REACTIONNAME_GA = GeneAssociation(REACTIONNAME, GENE)
-
 extracellular = Location("Extracellular", 'e')
 e = extracellular.localizer
 
