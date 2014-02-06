@@ -45,3 +45,22 @@ charge_trna_simple("L_threonine", "tRNA_thr", "L_threonyl_tRNA", Gene('1631'))
 charge_trna_simple("L_serine", "tRNA_ser", "L_seryl_tRNA", Gene('SP_0411'))
 charge_trna_simple("L_methionine", "tRNA_met", "L_methionyl_tRNA", Gene('SP_0788'))
 
+# L_glutamyl_tRNA from glutamate and tRNA_gln. get to L_glutaminyl_tRNA through SP_0436, SP_0437, SP_0438
+charge_trna_simple("L_glutamate", "tRNA_gln", "L_glutamyl_tRNA", "SP_2069")
+
+# L_seryl_tRNA using
+
+# make N_formyl_methionyl_tRNA
+ten_formyl_THF = Metabolite("ten_formyl_THF")
+L_methionyl_tRNA = Metabolite("L_methionyl_tRNA")
+THF = Metabolite("THF")
+N_formylmethionyl_tRNA = Metabolite("N_formylmethionyl_tRNA")
+h2o = Metabolite("h2o")
+
+met_tRNA_formyltransferase = Reaction(name='met_tRNA_formyltransferase',
+                                      reactants=h2o + ten_formyl_THF + L_methionyl_tRNA,
+                                      products=THF + N_formylmethionyl_tRNA,
+                                      pairs=[(ten_formyl_THF, THF), (L_methionyl_tRNA, N_formylmethionyl_tRNA)],
+                                      minors=[h2o])
+
+GeneAssociation(met_tRNA_formyltransferase, Gene('SP_1735'))
