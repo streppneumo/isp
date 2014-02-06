@@ -14,6 +14,18 @@ def proteinSubunits(subunits, builtPsubunit):
             reactants= subunits,
             products=builtPsubunit)
 
+S16_complex = Complex("S16_complex")
+S16_complex = Complex("S16_complex")
+S16_complex = Complex("S16_complex")
+S16_complex = Complex("S16_complex")
+S16_complex = Complex("S16_complex")
+S16_complex = Complex("S16_complex")
+S16_complex = Complex("S16_complex")
+S16_complex = Complex("S16_complex")
+S16_complex = Complex("S16_complex")
+
+
+
 proteinSubunits(Gene("SP_0838") & Gene("SP_0085"), Gene("SP_0775")) #S16
 proteinSubunits(Gene("SP_0272"), Gene("SP_0295")) #S9
 proteinSubunits(Gene("SP_0272"), Gene("SP_0234"))#S13
