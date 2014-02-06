@@ -25,9 +25,9 @@ proteinSubunits(Gene("SP_1541") & Gene("SP_1539") & Gene("SP_0227"), Gene("SP_14
 proteinSubunits(Gene("SP_1626"), Gene("SP_1541") & Gene("SP_1539"))#S6/S18 complex (heterodimers)
 proteinSubunits(Gene("SP_0295"),  Gene("SP_0208"))#S10
 proteinSubunits(Gene("SP_0208") & Gene("SP_0295") & Gene("SP_0213"), Gene("SP_0222"))#S14
-proteinSubunits(subunits, buildPsubunit)#S3
-proteinSubunits(subunits, buildPsubunit)
-proteinSubunits(subunits, buildPsubunit)
+proteinSubunits(Gene("SP_0227") & Gene("SP_0208"), Gene("SP_0215"))#S3
+proteinSubunits(Gene("SP_0215"), Gene("SP_2215"))#S2
+#proteinSubunits(subunits, buildPsubunit)
 
 
 
