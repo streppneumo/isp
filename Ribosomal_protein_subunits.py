@@ -31,12 +31,12 @@ S2_complex = Complex("S2_complex")
 
 proteinSubunits(Gene("SP_0838") & Gene("SP_0085") & Gene("SP_0775"), S16_complex) #S16
 proteinSubunits(Gene("SP_0272") & Gene("SP_0295"), S9_complex) #S9
-proteinSubunits(Gene("SP_0272"), Gene("SP_0234"))#S13
-proteinSubunits(Gene("SP_0272"), Gene("SP_0213"))#S19
-proteinSubunits(Gene("SP_0218") & Gene("SP_0775") & Gene("SP_0224") & Gene("SP_0227"), Gene("SP_0271"))#S12
-proteinSubunits(Gene("SP_0775") & Gene("SP_0224"), Gene("SP_0227"))#S5
-proteinSubunits(Gene("SP_1541") & Gene("SP_1539"), Gene("SP_0235"))#S11
-proteinSubunits(Gene("SP_1541") & Gene("SP_1539") & Gene("SP_0227"), Gene("SP_1414"))#S21
+proteinSubunits(Gene("SP_0272")& Gene("SP_0234"), S13_complex)#S13
+proteinSubunits(Gene("SP_0272") & Gene("SP_0213"), S19_complex)#S19
+proteinSubunits(Gene("SP_0218") & Gene("SP_0775") & Gene("SP_0224") & Gene("SP_0227") & Gene("SP_0271"), S12_complex)#S12
+proteinSubunits(Gene("SP_0775") & Gene("SP_0224") & Gene("SP_0227"), S5_complex)#S5
+proteinSubunits(Gene("SP_1541") & Gene("SP_1539") & Gene("SP_0235"), S11_complex)#S11
+proteinSubunits(Gene("SP_1541") & Gene("SP_1539") & Gene("SP_0227") & Gene("SP_1414"), S21_complex)#S21
 proteinSubunits(Gene("SP_1626"), Gene("SP_1541") & Gene("SP_1539"))#S6_S18 complex (heterodimers)
 proteinSubunits(Gene("SP_0295"),  Gene("SP_0208"))#S10
 proteinSubunits(Gene("SP_0208") & Gene("SP_0295") & Gene("SP_0213"), Gene("SP_0222"))#S14
