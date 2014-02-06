@@ -36,7 +36,8 @@ charge_trna_simple("L_lysine", "C00047", "tRNA_lys", "L_lysyl_tRNA", "C01931", G
 charge_trna_simple("L_arginine", "C00062", "tRNA_arg", "L_arginyl_tRNA", "C02163", Gene('SP_2078'))
 charge_trna_simple("L_proline", "C00148", "tRNA_pro", "L_prolyl_tRNA", "C02702", Gene('SP_0264'))
 charge_trna_simple("L_histidine", "C00135", "tRNA_his", "L_histidyl_tRNA", "C02988", Gene('SP_2121'))
-charge_trna_simple("L_phenylalanine", "C00079", "tRNA_phe", "L_phenylalanyl_tRNA", "C03511", Gene('SP_0581') & Gene('SP_0579'))
+charge_trna_simple("L_phenylalanine", "C00079", "tRNA_phe", "L_phenylalanyl_tRNA", "C03511",
+                   Gene('SP_0581') & Gene('SP_0579'))
 charge_trna_simple("L_tyrosine", "C00082", "tRNA_tyr", "L_tyrosyl_tRNA", "C02839", Gene('SP_2100'))
 charge_trna_simple("L_tryptophan", "C00078", "tRNA_trp", "L_tryptophanyl_tRNA", "C03512", Gene('SP_2229'))
 charge_trna_simple("L_alanine", "C00041", "tRNA_ala", "L_alanyl_tRNA", "C00886", Gene('SP_1383'))
