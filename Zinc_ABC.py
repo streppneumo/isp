@@ -20,7 +20,7 @@ zinc = Reaction(name="zinc",
                       minors=[atp, adp])
 
 SP_2169 = Gene("SP_2169")
-SP_2170 = Gene("SP_21170")
+SP_2170 = Gene("SP_2170")
 SP_2171 = Gene("SP_2171")
 zinc_GA = GeneAssociation(zinc, SP_2169 & SP_2170 & SP_2171)
 
