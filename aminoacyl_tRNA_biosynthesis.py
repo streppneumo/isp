@@ -15,7 +15,7 @@ amp = Metabolite("amp", kegg="C00020")
 #generic charge simple tRNA
 
 
-def charge_trna_simple(aaname, aakegg, trnaname, chargedrna_name, chargedkegg, *associated_genes):
+def charge_trna_simple(aaname, aakegg, trnaname, chargedrna_name, chargedkegg, associated_genes):
 
     trna = RNA(trnaname)  # do tRNAs have kegg IDs?
     amino_acid = Metabolite(aaname, kegg=aakegg)

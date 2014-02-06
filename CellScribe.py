@@ -179,6 +179,15 @@ class Location(object):
         return lambda m: LocalizedMetabolite(m, self)
 
 
+class RNA(Reactable):
+    def __init__(self, name, **kwargs):
+        self.name = name
+        self.fields = kwargs
+
+    def __str__(self):
+        return self.name
+
+
 class Metabolite(Reactable):
     default_location = None
 
