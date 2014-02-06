@@ -18,15 +18,23 @@ proteinSubunits(Gene("SP_0838") & Gene("SP_0085"), Gene("SP_0775")) #S16
 proteinSubunits(Gene("SP_0272"), Gene("SP_0295")) #S9
 proteinSubunits(Gene("SP_0272"), Gene("SP_0234"))#S13
 proteinSubunits(Gene("SP_0272"), Gene("SP_0213"))#S19
-proteinSubunits(Gene("SP_0218") & Gene("SP_0272"), buildPsubunit)#S12
-proteinSubunits(subunits, buildPsubunit)#S5
-proteinSubunits(subunits, buildPsubunit)#S11
-proteinSubunits(subunits, buildPsubunit)#S21
-proteinSubunits(subunits, buildPsubunit)#S10
-proteinSubunits(subunits, buildPsubunit)#S14
+proteinSubunits(Gene("SP_0218") & Gene("SP_0775") & Gene("SP_0224") & Gene("SP_0227"), Gene("SP_0271"))#S12
+proteinSubunits(Gene("SP_0775") & Gene("SP_0224"), Gene("SP_0227"))#S5
+proteinSubunits(Gene("SP_1541") & Gene("SP_1539"), Gene("SP_0235"))#S11
+proteinSubunits(Gene("SP_1541") & Gene("SP_1539") & Gene("SP_0227"), Gene("SP_1414"))#S21
+proteinSubunits(Gene("SP_1626"), Gene("SP_1541") & Gene("SP_1539"))#S6/S18 complex (heterodimers)
+proteinSubunits(Gene("SP_0295"),  Gene("SP_0208"))#S10
+proteinSubunits(Gene("SP_0208") & Gene("SP_0295") & Gene("SP_0213"), Gene("SP_0222"))#S14
 proteinSubunits(subunits, buildPsubunit)#S3
 proteinSubunits(subunits, buildPsubunit)
 proteinSubunits(subunits, buildPsubunit)
+
+
+
+
+
+
+
 
             #pairs=[(glucose, glucose6phosphate), (atp, adp)],
             #minors=[atp, adp])
