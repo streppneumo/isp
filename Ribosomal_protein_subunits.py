@@ -29,8 +29,8 @@ S2_complex = Complex("S2_complex")
 
 
 
-proteinSubunits(Gene("SP_0838") & Gene("SP_0085") & Gene("SP_0775"), ) #S16
-proteinSubunits(Gene("SP_0272"), Gene("SP_0295")) #S9
+proteinSubunits(Gene("SP_0838") & Gene("SP_0085") & Gene("SP_0775"), S16_complex) #S16
+proteinSubunits(Gene("SP_0272") & Gene("SP_0295"), S9_complex) #S9
 proteinSubunits(Gene("SP_0272"), Gene("SP_0234"))#S13
 proteinSubunits(Gene("SP_0272"), Gene("SP_0213"))#S19
 proteinSubunits(Gene("SP_0218") & Gene("SP_0775") & Gene("SP_0224") & Gene("SP_0227"), Gene("SP_0271"))#S12
