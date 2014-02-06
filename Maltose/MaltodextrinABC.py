@@ -12,9 +12,9 @@ Metabolite.default_location = cytoplasm
 
 atp = Metabolite("atp")
 adp = Metabolite("adp")
-H20 = Metabolite("H20")
-βmaltose = Metabolite("βmaltose")
-maltodextrin = Metabolite("maltodextrin")
+H20 = Metabolite("H20", kegg="C00001")
+βmaltose = Metabolite("βmaltose", kegg="C00208")
+maltodextrin = Metabolite("maltodextrin", kegg="C01935")
 
 βmaltose_transport = Reaction(name="βmaltose_transport",
                        reactants=e(βmaltose) + H20+ atp,

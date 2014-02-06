@@ -11,7 +11,7 @@ Metabolite.default_location = cytoplasm
 atp = Metabolite("atp")
 adp = Metabolite("adp")
 phosphate = Metabolite("phosphate")
-H20 = Metabolite("H20")
+H20 = Metabolite("H20",kegg="C00001")
 spermidine = Metabolite("spermidine", kegg="C00315")
 putrescine = Metabolite("putrescine", kegg="C00134")
 
