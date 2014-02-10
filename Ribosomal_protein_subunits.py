@@ -51,9 +51,9 @@ def proteinSubunitsL(subunitsL, builtPsubunitL):
             products=builtPsubunitL)
 
 L13_complex = Complex("L13_complex")
+L2_complex = Complex("L2_complex")
 L22_complex = Complex("L22_complex")
 L17_complex = Complex("L17_complex")
-L3_complex = Complex("L3_complex")
 L21_complex = Complex("L21_complex")
 L29_complex = Complex("L29_complex")
 L15_complex = Complex("L15_complex")
@@ -65,19 +65,19 @@ L28_complex = Complex("L28_complex")
 L27_complex = Complex("L27_complex")
 L25_complex = Complex("L25_complex")
 
-proteinSubunitsL(Gene("SP_0838") & Gene("SP_0085") & Gene("SP_0775"), L13_complex) #S16
-proteinSubunitsL(Gene("SP_0272") & Gene("SP_0295"), L22_complex) #S9
-proteinSubunitsL(Gene("SP_0272") & Gene("SP_0234"), L17_complex)#S13
-proteinSubunitsL(Gene("SP_0272") & Gene("SP_0213"), L3_complex)#S19
-proteinSubunitsL(Gene("SP_0218") & Gene("SP_0775") & Gene("SP_0224") & Gene("SP_0227") & Gene("SP_0271"), L21_complex)#S12
-proteinSubunitsL(Gene("SP_0775") & Gene("SP_0224") & Gene("SP_0227"), L29_complex)#S5
-proteinSubunitsL(Gene("SP_1541") & Gene("SP_1539") & Gene("SP_0235"), L15_complex)#S11
-proteinSubunitsL(Gene("SP_1541") & Gene("SP_1539") & Gene("SP_0227") & Gene("SP_1414"), L33_complex)#S21
-proteinSubunitsL(Gene("SP_1626") & Gene("SP_1541") & Gene("SP_1539"), L18_complex)#S6_S18 complex (heterodimers)
-proteinSubunitsL(Gene("SP_0295") & Gene("SP_0208"), L5_complex)#S10
-proteinSubunitsL(Gene("SP_0208") & Gene("SP_0295") & Gene("SP_0213") & Gene("SP_0222"), L10_complex)#S14
-proteinSubunitsL(Gene("SP_0227") & Gene("SP_0208") & Gene("SP_0215"), L28_complex)#S3
-proteinSubunitsL(Gene("SP_0215") & Gene("SP_2215"), L27_complex)#S2
-proteinSubunitsL(Gene("SP_0215") & Gene("SP_2215"), L25_complex)#S2
+proteinSubunitsL(Gene("SP_0961") & Gene("SP_0294"), L13_complex)
+proteinSubunitsL(Gene("SP_0210") & Gene("SP_0212"), L2_complex)
+proteinSubunitsL(Gene("SP_0210") & Gene("SP_0220") & Gene("SP_0237") & Gene("SP_0214"), L22_complex) 
+proteinSubunitsL(Gene("SP_0272")L15 & Gene("SP_0234")L3 & Gene("SP_0295"), L17_complex)
+proteinSubunitsL(Gene("SP_0218")L20 & Gene("SP_0271"), L21_complex)
+proteinSubunitsL(Gene("SP_0775")L4 & Gene("SP_0227"), L29_complex)
+proteinSubunitsL(Gene("SP_1541")L4 & Gene("SP_1539")L3 & Gene("SP_0235")L2 & Gene("SP_0235"), L15_complex)
+proteinSubunitsL(Gene("SP_1541")L28 & Gene("SP_1414"), L33_complex)
+proteinSubunitsL(Gene("SP_1626")L15 & Gene("SP_1539"), L18_complex)
+proteinSubunitsL(Gene("SP_0295")L2 & Gene("SP_0208"), L5_complex)
+proteinSubunitsL(Gene("SP_0208")L15 & Gene("SP_0222"), L10_complex)
+proteinSubunitsL(Gene("SP_0227")L15 & Gene("SP_0208")L17 & Gene("SP_0215"), L28_complex)
+proteinSubunitsL(Gene("SP_0215")L15 & Gene("SP_2215"), L27_complex)
+proteinSubunitsL(Gene("SP_0215")L15 & Gene("SP_2215"), L25_complex)
 
 
