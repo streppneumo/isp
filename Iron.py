@@ -22,10 +22,10 @@ ferrichrome = Reaction(name="ferrichrome_ABC",
                       pairs=[(atp, adp)],
                       minors=[atp, adp])
 
-SP_1386 = Gene("SP_1032")
-SP_1387 = Gene("SP_1033")
-SP_1388 = Gene("SP_1034")
-SP_1389 = Gene("SP_1035")
+SP_1032 = Gene("SP_1032")
+SP_1033 = Gene("SP_1033")
+SP_1034 = Gene("SP_1034")
+SP_1035 = Gene("SP_1035")
 ferrichrome_GA = GeneAssociation(ferrichrome, SP_1032 & SP_1033 & SP_1034 & SP_1035)
 
 # also (SP_1869 SP_1870 SP_1871 SP_1872) another cluster
