@@ -132,12 +132,72 @@ MP_GA = GeneAssociation(MP, SP_0394 & (SP_0396))
 
 #MANNOSE FAMILY
 
+mannose = Metabolite("mannose", kegg=C00159)
+mannose_6_phosphate = Metabolite("M6P", kegg=C00275)
 
+mannose_phosphorylation = Reaction(name="M2P",
+                                   reactants="mannose" + "ATP",
+                                   products="M6P" + "ADP",
+                                   pairs=[("mannose", "M2P"),("ATP", "ADP")],
+                                   minors=["ATP", "ADP"])
+SP_0062 = Gene("SP_0062")
+SP_0283 = Gene("SP_0283")
+SP_2162 = Gene("SP_2162")
+SP_0063 = Gene("SP_0063")
+SP_0282 = Gene("SP_0282")
+SP_2161 = Gene("SP_2161")
+SP_0061 = Gene("SP_0061")
+SP_0064 = Gene("SP_0064")
+SP_0284 = Gene("SP_0284")
+SP_2163 = Gene("SP_2163")
+SP_2164 = Gene("SP_2164")
+M2P_GA = GeneAssociation(M2P, SP_0062 & (SP_0283 | SP_2162 | SP_0063 | SP_0282 | SP_2161 | SP_0061 | SP_0064 | SP_0284
+                                         | SP_2163 | SP_2164))
 
+n_acetyl_galactosamine = Metabolite("NAG", kegg=C01132)
+n_acetyl_galactosamine_6_phosphate = Metabolite("NAG6P", kegg=C06376)
+
+n_acetyl_galactosamine_phosphorylation = Reaction(name="NAGP",
+                                                  reactants="NAG" + "ATP",
+                                                  products="NAG6P" + "ADP",
+                                                  pairs=[("NAG" + "NAG6P"),("ATP", "ADP")],
+                                                  minors=["ATP", "ADP"])
+SP_0324 = Gene("SP_0324")
+SP_0325 = Gene("SP_0325")
+SP_0321 = Gene("SP_0321")
+SP_0323 = Gene("SP_0323")
+NAGP_GA = GeneAssociation(NAGP, SP_0324 & (SP_0325 | SP_0321 | SP_0323))
 
 #OTHER FAMILY
+galactitol = Metabolite("galactitol", kegg=C01697)
+galactitol_1_phosphate = Metabolite("G1P", kegg=C06311)
 
+galactitol_phosphorylation = Reaction(name="G2P",
+                                      reactants="galactitol" + "ATP",
+                                      products="G1P" + "ADP",
+                                      pairs=[("galactitol", "G1P"),("ATP", "ADP")],
+                                      minors=["ATP", "ADP"])
+SP_0647 = Gene("SP_0647")
+SP_0645 = Gene("SP_0645")
+SP_1198 = Gene("SP_1198")
+SP_0646 = Gene("SP_0646")
+SP_1197 = Gene("SP_1197")
+G2P_GA = GeneAssociation(G2P, SP_0647 & (SP_0645 | SP_1198 | SP_0646 | SP_1197))
 
+l_ascorbate = Metabolite("LA", kegg=C00072)
+l_ascorbate_6_phosphate = Metabolute("LA6P", kegg=C16186)
+
+l_ascorbate_phosphorylation = Reaction(name="LAP",
+                                       reactants="LA" + "ATP",
+                                       products="LA6P" + "ADP",
+                                       pairs=[("LA", "LA6P"),("ATP","ADP")],
+                                       minors=["ATP", "ADP"])
+SP_2038 = Gene("SP_2038")
+SP_2129 = Gene("SP_2129")
+SP_2036 = Gene("SP_2036")
+SP_2037 = Gene("SP_2037")
+SP_2130 = Gene("SP_2130")
+LAP_GA = GeneAssociation(LAP, SP_2038 & (SP_2129 | SP_2036 | SP_2037 | SP_2130))
 
 #NITROGEN REGULATION
 
