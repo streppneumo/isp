@@ -14,6 +14,7 @@ phosphate = Metabolite("phosphate")
 H20 = Metabolite("H20",kegg="C00001")
 l-lysine = Metabolite("l-lysine", kegg="C00047")
 l-glutamate = Metabolite("l-glutamate", kegg="C00064")
+l-valine = Metabolite("l-valine", kegg="C00183")
 
 
 
@@ -39,3 +40,18 @@ SP_0607 = Gene("SP_0607")
 SP_0608 = Gene("SP_0608")
 SP_0610 = Gene("SP_0610")
 l-glutamate_GA = GeneAssociation(l-glutamate, SP_0609 & SP_0607 & SP_0608 & SP_0610)
+
+
+
+l-valine = Reaction(name="l-valine",
+                    reactants=e(l-valine) + H20 + atp,
+                    products=l-valine + adp + phosphate,
+                    pairs=[(atp, adp)],
+                    minors=[atp, adp])
+
+SP_0749 = Gene("SP_0749")
+SP_0750 = Gene("SP_0750")
+SP_0751 = Gene("SP_0751")
+SP_0752 = Gene("SP_0752")
+SP_0753 = Gene("SP_0753")
+l-valine_GA = GeneAssociation(l-valine, SP_0749 & SP_0750 & SP_0751 & SP_0752 & SP_0753)
