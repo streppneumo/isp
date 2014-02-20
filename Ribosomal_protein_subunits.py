@@ -14,9 +14,9 @@ from CellScribe import *
 L33_L28_operon = Operon("L33_L28_operon")
 
 
-16S_rna = RNA("16S_rna")
-5S_rna = RNA("5S_rna")
-23S_rna = RNA("23S_rna")
+16S_rrna = RRNA("16S_rrna")
+5S_rrna = RRNA("5S_rrna")
+23S_rrna = RRNA("23S_rrna")
 
 
 def proteinSubunits(subunits, builtPsubunit):
@@ -39,10 +39,6 @@ S2_complex = Complex("S2_complex")
 
 
 
-
-
-
-
 proteinSubunits(Gene("SP_0838") & Gene("SP_0085") & Gene("SP_0775"), S16_complex) #S16
 proteinSubunits(Gene("SP_0272") & Gene("SP_0295"), S9_complex) #S9
 proteinSubunits(Gene("SP_0272") & Gene("SP_0234"), S13_complex)#S13
@@ -56,9 +52,10 @@ proteinSubunits(Gene("SP_0295") & Gene("SP_0208"), S10_complex)#S10
 proteinSubunits(Gene("SP_0208") & Gene("SP_0295") & Gene("SP_0213") & Gene("SP_0222"), S14_complex)#S14
 proteinSubunits(Gene("SP_0227") & Gene("SP_0208") & Gene("SP_0215"), S3_complex)#S3
 proteinSubunits(Gene("SP_0215") & Gene("SP_2215"), S2_complex)#S2
-#proteinSubunits(subunits, buildPsubunit)
-
-
+#proteinSubunits(subunits, buildPsubunit) Below is the rRNA 16S interaction:
+proteinSubunits(Gene("SP_0218") & Gene("SP_0838") & Gene("SP_0085") & Gene("SP_0224") & Gene("SP_1626") & Gene("SP_0272") \
+                & Gene("SP_rrnaA16S"), 16S_rrna)
+                
 def proteinSubunitsL(subunitsL, builtPsubunitL):
     Reaction(name="builtPSubunitL",
             reactants= subunitsL,
@@ -93,5 +90,6 @@ proteinSubunitsL(Gene("SP_0229") & Gene("SP_1355"), L10_complex)
 proteinSubunitsL(Gene("SP_0229") & Gene("SP_0237") & Gene("SP_0441"), L28_complex) #operon with L33 subunit
 proteinSubunitsL(Gene("SP_0229") & Gene("SP_1107"), L27_complex)
 #proteinSubunitsL(Gene("SP_0229") & Gene("SP_2215"), L25_complex) NOT IN STREP. BUT IT IS IN E. COLI
+proteinSubunitsL(Gene("SP_0221") & Gene("SP_0229") & Gene("SP_0226") & 
 
 
