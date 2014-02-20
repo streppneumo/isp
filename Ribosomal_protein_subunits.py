@@ -14,9 +14,9 @@ from CellScribe import *
 L33_L28_operon = Operon("L33_L28_operon")
 
 
-16S_rrna = RRNA("16S_rrna")
-5S_rrna = RRNA("5S_rrna")
-23S_rrna = RRNA("23S_rrna")
+16S_rrna = rRNA("16S_rrna")
+5S_rrna = rRNA("5S_rrna")
+23S_rrna = rRNA("23S_rrna")
 
 
 def proteinSubunits(subunits, builtPsubunit):
@@ -90,6 +90,7 @@ proteinSubunitsL(Gene("SP_0229") & Gene("SP_1355"), L10_complex)
 proteinSubunitsL(Gene("SP_0229") & Gene("SP_0237") & Gene("SP_0441"), L28_complex) #operon with L33 subunit
 proteinSubunitsL(Gene("SP_0229") & Gene("SP_1107"), L27_complex)
 #proteinSubunitsL(Gene("SP_0229") & Gene("SP_2215"), L25_complex) NOT IN STREP. BUT IT IS IN E. COLI
-proteinSubunitsL(Gene("SP_0221") & Gene("SP_0229") & Gene("SP_0226") & 
+proteinSubunitsL(Gene("SP_0221") & Gene("SP_0229") & Gene("SP_0226") & Gene("SP_rrnaA5S"), 5S_rrna)
+proteinSubunitsL(Gene("SP_0220") & Gene("SP_0961") & Gene("SP_0226") & Gene("SP_rrnaA5S"), 23S_rrna)
 
 
