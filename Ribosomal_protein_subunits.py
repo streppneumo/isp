@@ -97,4 +97,6 @@ proteinSubunitsL(Gene("SP_0220") & Gene("SP_0961") & Gene("SP_0210") & Gene("SP_
                  & Gene("SP_2204") & Gene("SP_0631") & Gene("SP_0212"), & Gene("SP_rrnaA23S"), 23S_rrna)
 
 
+#FOR LATER: add to 5S binding that any TWO of the proteins L2, L3, and L4 are necessary for
+#the binding of 5S to 23S RNA. Do as another fxn call!!
 
