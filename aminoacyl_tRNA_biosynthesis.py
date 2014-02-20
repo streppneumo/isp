@@ -19,7 +19,7 @@ def charge_trna(reactionkegg, aaname, aakegg, trnaname, trnakegg, chargedrna_nam
 
     charge_rxn = Reaction(name='charge' + aaname,
                           reactants=trna + amino_acid + atp,
-                          products=charged_trna + amp,
+                          products=charged_trna + amp + diphosphate,
                           pairs=[(trna, charged_trna), (atp, amp)],
                           minors=[atp, amp],
                           kegg=reactionkegg)
