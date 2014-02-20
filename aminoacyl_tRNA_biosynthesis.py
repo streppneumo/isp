@@ -1,5 +1,3 @@
-__author__ = 'Corey'
-
 from CellScribe import *
 
 extracellular = Location("Extracellular", 'e')
