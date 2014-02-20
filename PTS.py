@@ -35,8 +35,8 @@ ATP_GA = GeneAssociation(ATP, SP_1176)
 
 
 #GLUCOSE FAMILY
-glucose = Metabolite  ("glucose", kegg=C00031)
-glucose_6_phosphate = Metabolite ("glucose6phosphate", kegg=C00092)
+glucose = Metabolite("glucose", kegg=C00031)
+glucose_6_phosphate = Metabolite("glucose6phosphate", kegg=C00092)
 
 glucose_phosphorylation = Reaction(name="GP",
                         reactants="glucose" + "ATP",
@@ -48,6 +48,37 @@ SP_0758 = Gene("SP_0758")
 SP_1684 = Gene("SP_1684")
 GP_GA = GeneAssociation(GP, SP_0758 & (SP_1684))
 
+#Still don't know genes for the following:
+n_acetyl_d_glucosamine = Metabolite("NADG", kegg=C00140)
+n_acetyl_d_glucosamine_6_phosphate = Metabolite("NADG6P", kegg=C00357)
+
+n_acetyl_d_glucosamine_phosphorylation = Reaction(name="NADGP",
+                                                  reactants="NADG" + "ATP",
+                                                  products="NADG6P" + "ADP",
+                                                  pairs=[("NADG","NADG6P"), ("ATP", "ADP")],
+                                                  minors=["ATP", "ADP"])
+
+#Only know one gene for the following:
+maltose = Metabolite("maltose", kegg=C00208)
+maltose_6_phosphate = Metabolite("maltose6P", kegg=C05737)
+
+maltose_phosphorylation = Reaction(name="MaP",
+                                   reactants="maltose" + "ATP",
+                                   products="maltose6P" + "ADP",
+                                   pairs=[("maltose", "maltose6P"), ("ATP", "ADP")],
+                                   minors=["ATP", "ADP"])
+
+MaP_GA = GeneAssociation(MaP, SP_0758)
+
+#Still don't know genes for the following:
+d_glucosamine = Metabolite("DG", kegg=C00329)
+d_glucosamine_6_phosphate = Metabolite("DG6P", kegg=C00352)
+
+d_glucosamine_phosphorylation = Reaction(name="DGP",
+                                         reactants="DG" + "ATP",
+                                         products="DG6P" + "ADP",
+                                         pairs=[("DG","DG6P"), ("ATP" + "ADP")],
+                                         minors=["ATP", "ADP"])
 
 sucrose = Metabolite("sucrose", kegg=C00089)
 sucrose_6_phosphate = Metabolite("sucrose6phosphate", kegg=C16688)
@@ -66,12 +97,35 @@ phospho_beta_glucoside = Metabolite("PBG", kegg=C01135)
 
 beta_glucosides_phosphorylation = Reaction(name="BGP",
                                 reactants="BG" + "ATP",
-                                products = "PBG" + "ADP",
+                                products="PBG" + "ADP",
                                 pairs=[("BG", "PBG"),("ATP", "ADP")],
                                 minors=["ATP","ADP"])
 SP_0577 = Gene("SP_0577")
 BGP_GA+ GeneAssociation(BGP, SP_0577)
 
+#Only know one gene for the following:
+arbutin = Metabolite ("arbutin", kegg=C06186)
+arbutin_6_phosphate = Metabolite ("arbutin6P", kegg=C06187)
+
+arbutin_phosphorylation = Reaction(name="ArP",
+                                   reactants="arbutin" + "ATP",
+                                   products="arbutin6P" + "ADP",
+                                   pairs=[("arbutin", "arbutin6P"), ("ATP", "ADP")],
+                                   minors=["ATP", "ADP"])
+ArP_GA = GeneAssociation (ArP, SP_0758)
+
+
+#Only know one gene for the following:
+salicin = Metabolite("salicin", kegg=C01451)
+salicin_6_phosphate = Metabolite("Sa6P", kegg=C06188)
+
+salicin_phosphorylation = Reaction(name="SaP",
+                                   reactants="salicin" + "ATP",
+                                   products="Sa6P" + "ADP",
+                                   pairs=[("salicin", "Sa6P"), ("ATP", "ADP")],
+                                   minors=["ATP", "ADP"])
+
+SaP_GA = GeneAssociation (SaP, SP_0758)
 
 trehalose = Metabolite("trehalose", kegg=C01083)
 trehalose_6_phosphate = Metabolite("T6P",kegg=C00689)
@@ -101,6 +155,24 @@ SP_1185 = Gene("SP_1185")
 SP_0476 = Gene("SP_0476")
 SP_1186 = Gene("SP_1186")
 LP_GA = GeneAssociation(LP, SP_0474 & (SP_0478 | SP_0476 | SP_1185 | SP_1186))
+
+#Cellbiose pathway is incomplete on Kegg so this could be incorrect
+cellobiose = Metabolite("cellobiose", kegg=C00185)
+cellobiose_monophosphate = Metabolite("COM")
+
+cellobiose_phosphorylation = Reaction(name="COP",
+                                      reactants="cellobiose" + "ATP",
+                                      products="COM" + "ADP",
+                                      pairs=[("cellobiose", "COM"),("ATP","ADP")],
+                                      minors=["ATP","ADP"])
+SP_0250 = Gene("SP_0250")
+SP_2022 = Gene("SP_2022")
+SP_1617 = Gene("SP_1617")
+SP_0249 = Gene("SP_0249")
+SP_2023 = Gene("SP_2023")
+SP_2024 = Gene("SP_2024")
+SP_0305 = Gene("SP_0305")
+COP_GA = GeneAssociation(COP, SP_0250 & (SP_2022 | SP_1617 | SP_2049 | SP_2023 | SP_2024 | SP_0305))
 
 
 #FRUCTOSE FAMILY
