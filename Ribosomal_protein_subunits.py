@@ -74,6 +74,7 @@ L5_complex = Complex("L5_complex")
 L10_complex = Complex("L10_complex")
 L28_complex = Complex("L28_complex")
 L27_complex = Complex("L27_complex")
+L16_complex = Complex("L16_complex")
 #L25_complex = Complex("L25_complex") NOT IN STREP. BUT IT IS IN E. COLI
 
 proteinSubunitsL(Gene("SP_0961") & Gene("SP_0294"), L13_complex)
@@ -89,8 +90,11 @@ proteinSubunitsL(Gene("SP_0212") & Gene("SP_0221"), L5_complex)
 proteinSubunitsL(Gene("SP_0229") & Gene("SP_1355"), L10_complex)
 proteinSubunitsL(Gene("SP_0229") & Gene("SP_0237") & Gene("SP_0441"), L28_complex) #operon with L33 subunit
 proteinSubunitsL(Gene("SP_0229") & Gene("SP_1107"), L27_complex)
+proteinSubunitsL(Gene("SP_0225") & Gene("SP_1355") & Gene("SP_0630") & Gene("SP_0216"), L16_complex)
 #proteinSubunitsL(Gene("SP_0229") & Gene("SP_2215"), L25_complex) NOT IN STREP. BUT IT IS IN E. COLI
 proteinSubunitsL(Gene("SP_0221") & Gene("SP_0229") & Gene("SP_0226") & Gene("SP_rrnaA5S"), 5S_rrna)
-proteinSubunitsL(Gene("SP_0220") & Gene("SP_0961") & Gene("SP_0226") & Gene("SP_rrnaA5S"), 23S_rrna)
+proteinSubunitsL(Gene("SP_0220") & Gene("SP_0961") & Gene("SP_0210") & Gene("SP_0211") & Gene("SP_0209")\
+                 & Gene("SP_2204") & Gene("SP_0631") & Gene("SP_0212"), & Gene("SP_rrnaA23S"), 23S_rrna)
+
 
 
