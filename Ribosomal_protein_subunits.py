@@ -10,7 +10,13 @@ from CellScribe import *
 
 
 16S_5S_23S_operon = Operon("16S_5S_23S_operon")
+
+L33_L28_operon = Operon("L33_L28_operon")
+
+
 16S_rna = RNA("16S_rna")
+5S_rna = RNA("5S_rna")
+23S_rna = RNA("23S_rna")
 
 
 def proteinSubunits(subunits, builtPsubunit):
