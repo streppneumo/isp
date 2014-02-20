@@ -9,7 +9,7 @@ Metabolite.default_location = cytoplasm
 
 atp = Metabolite("atp", kegg="C00002")
 amp = Metabolite("amp", kegg="C00020")
-
+diphosphate = Metabolite("diphosphate", kegg="C00013")
 
 def charge_trna(reactionkegg, aaname, aakegg, trnaname, trnakegg, chargedrna_name, chargedkegg, associated_genes):
 
