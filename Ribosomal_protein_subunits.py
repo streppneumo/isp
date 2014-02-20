@@ -9,6 +9,10 @@ from CellScribe import *
 ##Metabolite.default_location = cytoplasm
 
 
+16S_5S_23S_operon = Operon("16S_5S_23S_operon")
+16S_rna = RNA("16S_rna")
+
+
 def proteinSubunits(subunits, builtPsubunit):
     Reaction(name="builtPSubunit",
             reactants= subunits,
@@ -26,6 +30,10 @@ S10_complex = Complex("S10_complex")
 S14_complex = Complex("S14_complex")
 S3_complex = Complex("S3_complex")
 S2_complex = Complex("S2_complex")
+
+
+
+
 
 
 
