@@ -1,6 +1,7 @@
 from CellScribe import *
 
-# test comment
+# TYPE ANYTHING
+
 
 extracellular = Location("Extracellular", 'e')
 e = extracellular.localizer
