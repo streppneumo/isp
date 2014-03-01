@@ -134,10 +134,22 @@ trehalose_phosphorylation = Reaction(name="TP",
                             reactants="trehalose" + "ATP",
                             products="T6P" + "ADP",
                             pairs=[("trehalose", "T6P"),("ATP", "ADP")],
-                            minors=["ATP","ADP"])
+                            minors=["ATP", "ADP"])
 SP_1884 = Gene("SP_1884")
 SP_0758 = Gene("SP_0758")
 TP_GA = GeneAssociation(TP, SP_1884 & (SP_0758))
+
+#Only know one gene for the following:
+N_acetylmuramic_acid = Metabolite("NAMA", kegg=C02713)
+N_acetylmuramic_acid_6_phosphate = Metabolite("NAMA6P", kegg=C16698)
+
+N_acetylmuramic_acid_phosphorylation = Reaction(name="NAMAP",
+                                                reactants="NAMA" + "ATP",
+                                                products="NAMA6P" + "ADP",
+                                                pairs=[("NAMA", "NAMA6P"),("ATP", "ADP")],
+                                                minors=["ATP", "ADP"])
+SP_0758 = Gene("SP_0758")
+NAMAP_GA = GeneAssociation(NAMAP, SP_0758)
 
 
 #LACTOSE FAMILY
@@ -190,6 +202,7 @@ SP_1618 = Gene("SP_1618")
 SP_1619 = Gene("SP_1619")
 FP_GA = GeneAssociation(FP, SP_0877 & (SP_1617 | SP_1618 | SP_1619))
 
+
 mannitol = Metabolite("mannitol",kegg=C00392)
 mannitol_1_phosphate = Metabolite("M1P",kegg=C00644)
 
@@ -201,6 +214,16 @@ mannitol_phosphorylation = Reaction(name="MP",
 SP_0394 = Gene("SP_0394")
 SP_0396 = Gene("SP_0396")
 MP_GA = GeneAssociation(MP, SP_0394 & (SP_0396))
+
+#Incomplete pathway; no genes:
+two_o_alpha_mannosyl_D_glycerate = Metabolite("2OAMDG", kegg=C11544)
+two_o_6_phospho_alpha_mannosyl_D_glycerate = Metabolite("2O6PAMDG", kegg=C16699)
+
+two_o_alpha_mannosyl_D_glycerate_phosphorylation = Reaction(name="2OAMDGP",
+                                                            reactants= "20AMDG" + "ATP",
+                                                            products= "206PAMDG" + "ADP",
+                                                            pairs=[("20AMDG", "206PAMDG"), ("ATP", "ADP")],
+                                                            minors=["ATP", "ADP"])
 
 #MANNOSE FAMILY
 
@@ -226,6 +249,16 @@ SP_2164 = Gene("SP_2164")
 M2P_GA = GeneAssociation(M2P, SP_0062 & (SP_0283 | SP_2162 | SP_0063 | SP_0282 | SP_2161 | SP_0061 | SP_0064 | SP_0284
                                          | SP_2163 | SP_2164))
 
+#Incomplete pathway; no genes:
+sorbose = Metabolite("sorbose", kegg=C01452)
+sorbose_1_phosphate = Metabolite("S1P", kegg=C02888)
+
+sorbose_phosphorylation = Reaction(name="S2P",
+                                   reactants= "sorbose" + "ATP",
+                                   products="S1P" + "ADP",
+                                   pairs=[("sorbose", "S1P"), ("ATP", "ADP")],
+                                   minors=["ATP", "ADP"])
+
 n_acetyl_galactosamine = Metabolite("NAG", kegg=C01132)
 n_acetyl_galactosamine_6_phosphate = Metabolite("NAG6P", kegg=C06376)
 
@@ -240,7 +273,39 @@ SP_0321 = Gene("SP_0321")
 SP_0323 = Gene("SP_0323")
 NAGP_GA = GeneAssociation(NAGP, SP_0324 & (SP_0325 | SP_0321 | SP_0323))
 
+#Only know one gene from the following:
+galactosamine = Metabolite("galactosamine", kegg=C02262)
+galactosamine_6_phospate = Metabolite("Ga6P", kegg=C06377)
+
+galactosamine_phosphorylation = Reaction(name="Ga2P",
+                                         reactants="galactosamine" + "ATP",
+                                         products="Ga6P" + "ADP",
+                                         pairs=[("galactosamine", "Ga6P"), ("ATP", "ADP")],
+                                         minors=["ATP", "ADP"])
+SP_0321 = Gene("SP_0321")
+Ga2P_GA = GeneAssociation(Ga2P, SP_0321)
+
+#Incomplete pathway, no genes listed:
+d_glucosaminate = Metabolite("DGL", kegg=C03752)
+d_glucosaminate_6_phosphate = Metabolite("DG6P", kegg=C20589)
+
+d_glucosaminate_phosphorylation = Reaction(name="DGLP",
+                                           reactants="DGL" + "ATP",
+                                           products="DG6P" + "ADP",
+                                           pairs=[("DGL", "DG6P"), ("ATP", "ADP")],
+                                           minors=["ATP", "ADP"])
+
 #OTHER FAMILY
+#Incomplete pathway, no genes listed:
+sorbitol = Metabolite("sorbitol", kegg=C00794)
+sorbitol_6_phosphate = Metabolite("SO6P", kegg=C01096)
+
+sorbitol_phosphorylation = Reaction(name="SoP",
+                                    reactants="sorbitol" + "ATP",
+                                    products="SO6P" + "ADP",
+                                    pairs=[("sorbitol", "SO6P"), ("ATP", "ADP")],
+                                    minors=["ATP", "ADP"])
+
 galactitol = Metabolite("galactitol", kegg=C01697)
 galactitol_1_phosphate = Metabolite("G1P", kegg=C06311)
 
@@ -272,5 +337,5 @@ SP_2130 = Gene("SP_2130")
 LAP_GA = GeneAssociation(LAP, SP_2038 & (SP_2129 | SP_2036 | SP_2037 | SP_2130))
 
 #NITROGEN REGULATION
-
+#No reactants listed for this pathway?
 
