@@ -10,7 +10,8 @@ Metabolite.default_location = cytoplasm
 
 atp = Metabolite("atp")
 adp = Metabolite("adp")
-phosphate = Metabolite("phosphate")
+phosphate = Metabolite("phosphate", kegg="C00009")
+diphosphate = Metabolite("diphosphate", kegg="C00013")
 H20 = Metabolite("H20",kegg="C00001")
 l-lysine = Metabolite("l-lysine", kegg="C00047")
 l-glutamate = Metabolite("l-glutamate", kegg="C00064")
@@ -32,7 +33,7 @@ l-lysine_GA = GeneAssociation(l-lysine, SP_0452 & SP_0453)
 
 
 l-glutamate= Reaction(name="l-glutamate",
-                      reactants=e(l-glutamate) + H20+ atp,
+                      reactants=e(l-glutamate) + H20 + atp,
                       products=l-glutamate + adp + phosphate)
 
 SP_0609 = Gene("SP_0609")
@@ -55,3 +56,16 @@ SP_0751 = Gene("SP_0751")
 SP_0752 = Gene("SP_0752")
 SP_0753 = Gene("SP_0753")
 l-valine_GA = GeneAssociation(l-valine, SP_0749 & SP_0750 & SP_0751 & SP_0752 & SP_0753)
+
+
+
+phosphate= Reaction(name="phosphate",
+                    reactants=e(diphosphate) + H20,
+                    products=phosphate)
+
+SP_1396 = Gene("SP_1396")
+SP_1397 = Gene("SP_1397")
+SP_1398 = Gene("SP_1398")
+SP_1399 = Gene("SP_1399")
+SP_1400 = Gene("SP_1400")
+phosphate_GA = GeneAssociation(phosphate, SP_1396 & SP_1397 & SP_1398 & SP_1399 & SP_1400)
