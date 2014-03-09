@@ -14,6 +14,8 @@ phosphate = Metabolite("phosphate")
 H20 = Metabolite("H20",kegg="C00001")
 spermidine = Metabolite("spermidine", kegg="C00315")
 putrescine = Metabolite("putrescine", kegg="C00134")
+cellobiose = Metabolite("cellobiose", kegg="C00185")
+chitobiose = Metabolite("chitobiose", kegg="C01674")
 
 
 
@@ -40,3 +42,18 @@ SP_1387 = Gene("SP_1387")
 SP_1388 = Gene("SP_1388")
 SP_1389 = Gene("SP_1389")
 putrescine_GA = GeneAssociation(putrescine, SP_1386 & SP_1387 & SP_1388 & SP_1389)
+
+cellobiose = Reaction(name="cellobiose",
+                      reactants=e(cellobiose) + H20,
+                      products=cellobiose)
+
+SP_1580 = Gene("SP_1580")
+cellobiose = GeneAssociation(cellobiose or chitobiose, SP_1580)
+
+chitobiose = Reaction(name="chitobiose",
+                      reactants=e(chitobiose) + H20,
+                      products=chitobiose)
+
+SP_1580 = Gene("SP_1580")
+chitobiose = GeneAssociation(chitobiose or cellobiose, SP_1580)
+
