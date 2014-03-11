@@ -25,8 +25,8 @@ l-lysine = Reaction(name="l-lysine",
                     pairs=[(atp, adp)],
                     minors=[atp, adp])
 
-SP_1386 = Gene("SP_0452")
-SP_1387 = Gene("SP_0453")
+SP_0452 = Gene("SP_0452")
+SP_0453 = Gene("SP_0453")
 
 l-lysine_GA = GeneAssociation(l-lysine, SP_0452 & SP_0453)
 
