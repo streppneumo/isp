@@ -24,14 +24,14 @@ pyruvate = Metabolite ("pyruvate", kegg=C00022)
 ADP = Metabolite ("ADP")
 ATP = Metabolite ("ATP")
 
-ATPgeneration = Reaction(name="ATP",
+ATPgeneration = Reaction(name="ATPG",
                 reactants="PEP" + "ADP",
                 products="pyruvate" + "ATP",
                 pairs=[("PEP", "pyruvate"),("ADP","ATP")],
                 minors=["PEP", "pyruvate"])
 
 SP_1176 = Gene("SP_1176")
-ATP_GA = GeneAssociation(ATP, SP_1176)
+ATPG_GA = GeneAssociation(ATPG, SP_1176)
 
 
 #GLUCOSE FAMILY
