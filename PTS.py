@@ -21,32 +21,44 @@ Metabolite.default_location = cytoplasm
 
 phosphoenol_pyruvate = Metabolite ("PEP", kegg=C00074)
 pyruvate = Metabolite ("pyruvate", kegg=C00022)
+phosphoenol_group = Metabolite("PHG")
 ADP = Metabolite ("ADP")
 ATP = Metabolite ("ATP")
 
-ATPgeneration = Reaction(name="ATPG",
-                reactants="PEP" + "ADP",
-                products="pyruvate" + "ATP",
-                pairs=[("PEP", "pyruvate"),("ADP","ATP")],
-                minors=["PEP", "pyruvate"])
+Pyr_Generation = Reaction(name="PYRG",
+                reactants="PEP"
+                products="pyruvate" + "PHG",
+                pairs=[("PEP", "pyruvate"),],
+                minors=["PHG"])
 
 SP_1176 = Gene("SP_1176")
-ATPG_GA = GeneAssociation(ATPG, SP_1176)
+SP_1177 = Gene("SP_1177")
+PYRG_GA = GeneAssociation(ATPG, SP_1176 & (SP_1177))
 
+PYRGOperon = Operon(SP_1176, SP_1177)
+
+Modification (SP_1176, "PHG", modification="phosphorylation")
+    phosphorylates("PHG", SP_1176)
+    ModifiedProtein(SP_1177, modification="phosphorylation")
+    phospho(SP_1176) = SP_1177
 
 #GLUCOSE FAMILY
 glucose = Metabolite("glucose", kegg=C00031)
 glucose_6_phosphate = Metabolite("glucose6phosphate", kegg=C00092)
 
 glucose_phosphorylation = Reaction(name="GP",
-                        reactants="glucose" + "ATP",
-                        products="glucose6phosphate" + "ADP",
-                        pairs=[("glucose", "glucose6phosphate"), ("ATP", "ADP")],
-                        minors=["ATP", "ADP"])
+                        reactants="glucose" + "PHG",
+                        products="glucose6phosphate",
+                        pairs=[("glucose", "glucose6phosphate")],
+                        minors=["PHG"])
 
 SP_0758 = Gene("SP_0758")
 SP_1684 = Gene("SP_1684")
 GP_GA = GeneAssociation(GP, SP_0758 & (SP_1684))
+
+gluOperon = Operon(SP_0758, SP_1684)
+
+Iff (c(glucose), activates (glucose, gluOperon))
 
 #Still don't know genes for the following:
 n_acetyl_d_glucosamine = Metabolite("NADG", kegg=C00140)
@@ -69,6 +81,10 @@ maltose_phosphorylation = Reaction(name="MaP",
                                    minors=["ATP", "ADP"])
 
 MaP_GA = GeneAssociation(MaP, SP_0758)
+malOperon = Operon(SP_0758)
+
+If (c(maltose), activates(malOperon, maltose))
+Iff (c(glucose), represses(malOperon, glucose))
 
 #Still don't know genes for the following:
 d_glucosamine = Metabolite("DG", kegg=C00329)
@@ -102,6 +118,7 @@ beta_glucosides_phosphorylation = Reaction(name="BGP",
                                 minors=["ATP","ADP"])
 SP_0577 = Gene("SP_0577")
 BGP_GA+ GeneAssociation(BGP, SP_0577)
+bgluOperon = Operon(SP_0577)
 
 #Only know one gene for the following:
 arbutin = Metabolite ("arbutin", kegg=C06186)
