@@ -21,15 +21,15 @@ Metabolite.default_location = cytoplasm
 
 phosphoenol_pyruvate = Metabolite ("PEP", kegg=C00074)
 pyruvate = Metabolite ("pyruvate", kegg=C00022)
-phosphoenol_group = Metabolite("PHG")
+phosphate_group = Metabolite("PG")
 ADP = Metabolite ("ADP")
 ATP = Metabolite ("ATP")
 
 Pyr_Generation = Reaction(name="PYRG",
                 reactants="PEP"
-                products="pyruvate" + "PHG",
+                products="pyruvate" + "PG",
                 pairs=[("PEP", "pyruvate"),],
-                minors=["PHG"])
+                minors=["PG"])
 
 SP_1176 = Gene("SP_1176")
 SP_1177 = Gene("SP_1177")
@@ -37,20 +37,23 @@ PYRG_GA = GeneAssociation(ATPG, SP_1176 & (SP_1177))
 
 PYRGOperon = Operon(SP_1176, SP_1177)
 
-Modification (SP_1176, "PHG", modification="phosphorylation")
-    phosphorylates("PHG", SP_1176)
+Modification (SP_1176, "PG", modification="phosphorylation")
+    phosphorylates("PG", SP_1176)
+    ModifiedProtein(SP_1176, modification="phosphorylation")
+
+Modification (SP_1177, SP_1176, modification="phosphorylation")
+    phosphorylates(SP_1176, SP_1177)
     ModifiedProtein(SP_1177, modification="phosphorylation")
-    phospho(SP_1176) = SP_1177
 
 #GLUCOSE FAMILY
 glucose = Metabolite("glucose", kegg=C00031)
 glucose_6_phosphate = Metabolite("glucose6phosphate", kegg=C00092)
 
 glucose_phosphorylation = Reaction(name="GP",
-                        reactants="glucose" + "PHG",
+                        reactants="glucose" + "PG",
                         products="glucose6phosphate",
                         pairs=[("glucose", "glucose6phosphate")],
-                        minors=["PHG"])
+                        minors=["PG"])
 
 SP_0758 = Gene("SP_0758")
 SP_1684 = Gene("SP_1684")
@@ -58,78 +61,104 @@ GP_GA = GeneAssociation(GP, SP_0758 & (SP_1684))
 
 gluOperon = Operon(SP_0758, SP_1684)
 
-Iff (c(glucose), activates (glucose, gluOperon))
+If (c(glucose), activates (phospho(SP_1177), gluOperon))
+
+Modification (SP_0758, phospho(SP_1177), modification="phosphorylation")
+    phosphorylates(phospho(SP_1177), SP_0758)
+    ModifiedProtein(SP_0758, modification="phosphorylation")
 
 #Still don't know genes for the following:
 n_acetyl_d_glucosamine = Metabolite("NADG", kegg=C00140)
 n_acetyl_d_glucosamine_6_phosphate = Metabolite("NADG6P", kegg=C00357)
 
 n_acetyl_d_glucosamine_phosphorylation = Reaction(name="NADGP",
-                                                  reactants="NADG" + "ATP",
-                                                  products="NADG6P" + "ADP",
-                                                  pairs=[("NADG","NADG6P"), ("ATP", "ADP")],
-                                                  minors=["ATP", "ADP"])
+                                                  reactants="NADG" + "PG",
+                                                  products="NADG6P",
+                                                  pairs=[("NADG","NADG6P"),],
+                                                  minors=["PG"])
 
 #Only know one gene for the following:
 maltose = Metabolite("maltose", kegg=C00208)
 maltose_6_phosphate = Metabolite("maltose6P", kegg=C05737)
 
 maltose_phosphorylation = Reaction(name="MaP",
-                                   reactants="maltose" + "ATP",
-                                   products="maltose6P" + "ADP",
-                                   pairs=[("maltose", "maltose6P"), ("ATP", "ADP")],
-                                   minors=["ATP", "ADP"])
+                                   reactants="maltose" + "PG",
+                                   products="maltose6P",
+                                   pairs=[("maltose", "maltose6P")],
+                                   minors=["PG"])
 
 MaP_GA = GeneAssociation(MaP, SP_0758)
 malOperon = Operon(SP_0758)
 
-If (c(maltose), activates(malOperon, maltose))
-Iff (c(glucose), represses(malOperon, glucose))
+Iff (c(maltose), activates(phospho(SP_1177), malOperon))
+Iff (~c(glucose), activates(phospho(SP_1177), malOperon))
+Iff (~c(sucrose), activates(phospho(SP_1177), malOperon))
+
 
 #Still don't know genes for the following:
 d_glucosamine = Metabolite("DG", kegg=C00329)
 d_glucosamine_6_phosphate = Metabolite("DG6P", kegg=C00352)
 
 d_glucosamine_phosphorylation = Reaction(name="DGP",
-                                         reactants="DG" + "ATP",
-                                         products="DG6P" + "ADP",
-                                         pairs=[("DG","DG6P"), ("ATP" + "ADP")],
-                                         minors=["ATP", "ADP"])
+                                         reactants="DG" + "PG",
+                                         products="DG6P",
+                                         pairs=[("DG","DG6P")],
+                                         minors=["PG"])
 
 sucrose = Metabolite("sucrose", kegg=C00089)
 sucrose_6_phosphate = Metabolite("sucrose6phosphate", kegg=C16688)
 
 sucrose_phosphorylation = Reaction(name="SP",
-                        reactants="sucrose" + "ATP",
-                        products="sucrose6phosphate" + "ADP",
-                        pairs=[("sucrose", "sucrose6phosphate"), ("ATP", "ADP")],
-                        minors=["ATP", "ADP"])
+                        reactants="sucrose" + "PG",
+                        products="sucrose6phosphate",
+                        pairs=[("sucrose", "sucrose6phosphate")],
+                        minors=["PG"])
 SP_1722 = Gene("SP_1722")
 SP_GA = GeneAssociation(SP, SP_1722)
+
+Iff (c(sucrose), activates(phospho(SP_1177), SP_1722))
+Iff (~c(glucose), activates(phospho(SP_1177), SP_1722))
+
+Modification (SP_1722, phospho(SP_1177), modification="phosphorylation")
+    phosphorylates(phospho(SP_1177), SP_1722)
+    ModifiedProtein(SP_1722, modification="phosphorylation")
 
 
 beta_glucosides = Metabolite("BG", kegg=C00963)
 phospho_beta_glucoside = Metabolite("PBG", kegg=C01135)
 
 beta_glucosides_phosphorylation = Reaction(name="BGP",
-                                reactants="BG" + "ATP",
-                                products="PBG" + "ADP",
-                                pairs=[("BG", "PBG"),("ATP", "ADP")],
-                                minors=["ATP","ADP"])
+                                reactants="BG" + "PG",
+                                products="PBG",
+                                pairs=[("BG", "PBG")],
+                                minors=["PG"])
 SP_0577 = Gene("SP_0577")
 BGP_GA+ GeneAssociation(BGP, SP_0577)
-bgluOperon = Operon(SP_0577)
+
+Iff (~c(sucrose), activates(phospho(SP_1177), SP_0577))
+Iff (~c(sucrose), activates(phospho(SP_1177), SP_0577))
+Iff (c("BG"), activates(phospho(SP_1177), SP_0577))
+
+Modification (SP_0577, phospho(SP_1177), modification="phosphorylation")
+    phosphorylates(phospho(SP_1177), SP_0577)
+    ModifiedProtein(SP_0577, modification="phosphorylation")
 
 #Only know one gene for the following:
 arbutin = Metabolite ("arbutin", kegg=C06186)
 arbutin_6_phosphate = Metabolite ("arbutin6P", kegg=C06187)
 
 arbutin_phosphorylation = Reaction(name="ArP",
-                                   reactants="arbutin" + "ATP",
-                                   products="arbutin6P" + "ADP",
-                                   pairs=[("arbutin", "arbutin6P"), ("ATP", "ADP")],
-                                   minors=["ATP", "ADP"])
+                                   reactants="arbutin" + "PG",
+                                   products="arbutin6P",
+                                   pairs=[("arbutin", "arbutin6P")],
+                                   minors=["PG"])
 ArP_GA = GeneAssociation (ArP, SP_0758)
+ArPOperon = Operon(SP_0758)
+
+Iff(c(arbutin), activates(phospho(SP_1177), ArPOperon))
+Iff(~c(glucose), activates(phospho(SP_1177), ArPOperon))
+Iff(~c(sucrose), activates(phospho(SP_1177), ArPOperon))
+
 
 
 #Only know one gene for the following:
@@ -137,10 +166,10 @@ salicin = Metabolite("salicin", kegg=C01451)
 salicin_6_phosphate = Metabolite("Sa6P", kegg=C06188)
 
 salicin_phosphorylation = Reaction(name="SaP",
-                                   reactants="salicin" + "ATP",
-                                   products="Sa6P" + "ADP",
-                                   pairs=[("salicin", "Sa6P"), ("ATP", "ADP")],
-                                   minors=["ATP", "ADP"])
+                                   reactants="salicin" + "PG",
+                                   products="Sa6P",
+                                   pairs=[("salicin", "Sa6P")],
+                                   minors=["PG"])
 
 SaP_GA = GeneAssociation (SaP, SP_0758)
 
@@ -148,10 +177,10 @@ trehalose = Metabolite("trehalose", kegg=C01083)
 trehalose_6_phosphate = Metabolite("T6P",kegg=C00689)
 
 trehalose_phosphorylation = Reaction(name="TP",
-                            reactants="trehalose" + "ATP",
-                            products="T6P" + "ADP",
-                            pairs=[("trehalose", "T6P"),("ATP", "ADP")],
-                            minors=["ATP", "ADP"])
+                            reactants="trehalose" + "PG",
+                            products="T6P",
+                            pairs=[("trehalose", "T6P")],
+                            minors=["PG"])
 SP_1884 = Gene("SP_1884")
 SP_0758 = Gene("SP_0758")
 TP_GA = GeneAssociation(TP, SP_1884 & (SP_0758))
@@ -161,10 +190,10 @@ N_acetylmuramic_acid = Metabolite("NAMA", kegg=C02713)
 N_acetylmuramic_acid_6_phosphate = Metabolite("NAMA6P", kegg=C16698)
 
 N_acetylmuramic_acid_phosphorylation = Reaction(name="NAMAP",
-                                                reactants="NAMA" + "ATP",
-                                                products="NAMA6P" + "ADP",
-                                                pairs=[("NAMA", "NAMA6P"),("ATP", "ADP")],
-                                                minors=["ATP", "ADP"])
+                                                reactants="NAMA" + "PG",
+                                                products="NAMA6P",
+                                                pairs=[("NAMA", "NAMA6P")],
+                                                minors=["PG"])
 SP_0758 = Gene("SP_0758")
 NAMAP_GA = GeneAssociation(NAMAP, SP_0758)
 
@@ -174,10 +203,10 @@ lactose = Metabolite("lactose", kegg=C00243)
 lactose_6_phosphate = Metabolite("L6P", kegg=C05396)
 
 lactose_phosphorylation = Reaction(name="LP",
-                        reactants="lactose" + "ATP",
-                        products="L6P" + "ADP",
-                        pairs=[("lactose","L6P"),("ATP","ADP")],
-                        minors=["ATP","ADP"])
+                        reactants="lactose" + "PG",
+                        products="L6P",
+                        pairs=[("lactose","L6P")],
+                        minors=["PG"])
 SP_0474 = Gene("SP_0474")
 SP_0478 = Gene("SP_0478")
 SP_1185 = Gene("SP_1185")
@@ -185,15 +214,16 @@ SP_0476 = Gene("SP_0476")
 SP_1186 = Gene("SP_1186")
 LP_GA = GeneAssociation(LP, SP_0474 & (SP_0478 | SP_0476 | SP_1185 | SP_1186))
 
+
 #Cellbiose pathway is incomplete on Kegg so this could be incorrect
 cellobiose = Metabolite("cellobiose", kegg=C00185)
 cellobiose_monophosphate = Metabolite("COM")
 
 cellobiose_phosphorylation = Reaction(name="COP",
-                                      reactants="cellobiose" + "ATP",
-                                      products="COM" + "ADP",
-                                      pairs=[("cellobiose", "COM"),("ATP","ADP")],
-                                      minors=["ATP","ADP"])
+                                      reactants="cellobiose" + "PG",
+                                      products="COM",
+                                      pairs=[("cellobiose", "COM")],
+                                      minors=["PG"])
 SP_0250 = Gene("SP_0250")
 SP_2022 = Gene("SP_2022")
 SP_1617 = Gene("SP_1617")
@@ -209,10 +239,10 @@ fructose = Metabolite("fructose",kegg=C00095)
 fructose_1_phosphate = Metabolite("F1P",kegg=C01094)
 
 fructose_phosphorylation = Reaction(name="FP",
-                            reactants="fructose" + "ATP",
-                            products="F1P" + "ADP",
-                            pairs=[("fructose","F1P"),("ATP", "ADP")],
-                            minors=["ATP", "ADP"])
+                            reactants="fructose" + "PG",
+                            products="F1P",
+                            pairs=[("fructose","F1P")],
+                            minors=["PG"])
 SP_0877 = Gene("SP_0877")
 SP_1617 = Gene("SP_1617")
 SP_1618 = Gene("SP_1618")
@@ -224,10 +254,10 @@ mannitol = Metabolite("mannitol",kegg=C00392)
 mannitol_1_phosphate = Metabolite("M1P",kegg=C00644)
 
 mannitol_phosphorylation = Reaction(name="MP",
-                            reactants="mannitol" + "ATP",
+                            reactants="mannitol" + "PG",
                             products="M1P" + "ADP",
-                            pairs=[("mannitol", "MP"),("ATP", "ADP")],
-                            minors=["ATP", "ADP"])
+                            pairs=[("mannitol", "MP")],
+                            minors=["PG"])
 SP_0394 = Gene("SP_0394")
 SP_0396 = Gene("SP_0396")
 MP_GA = GeneAssociation(MP, SP_0394 & (SP_0396))
@@ -237,10 +267,10 @@ two_o_alpha_mannosyl_D_glycerate = Metabolite("2OAMDG", kegg=C11544)
 two_o_6_phospho_alpha_mannosyl_D_glycerate = Metabolite("2O6PAMDG", kegg=C16699)
 
 two_o_alpha_mannosyl_D_glycerate_phosphorylation = Reaction(name="2OAMDGP",
-                                                            reactants= "20AMDG" + "ATP",
-                                                            products= "206PAMDG" + "ADP",
-                                                            pairs=[("20AMDG", "206PAMDG"), ("ATP", "ADP")],
-                                                            minors=["ATP", "ADP"])
+                                                            reactants= "20AMDG" + "PG",
+                                                            products= "206PAMDG",
+                                                            pairs=[("20AMDG", "206PAMDG")],
+                                                            minors=["PG"])
 
 #MANNOSE FAMILY
 
@@ -248,10 +278,10 @@ mannose = Metabolite("mannose", kegg=C00159)
 mannose_6_phosphate = Metabolite("M6P", kegg=C00275)
 
 mannose_phosphorylation = Reaction(name="M2P",
-                                   reactants="mannose" + "ATP",
-                                   products="M6P" + "ADP",
-                                   pairs=[("mannose", "M2P"),("ATP", "ADP")],
-                                   minors=["ATP", "ADP"])
+                                   reactants="mannose" + "PG",
+                                   products="M6P",
+                                   pairs=[("mannose", "M2P")],
+                                   minors=["PG"])
 SP_0062 = Gene("SP_0062")
 SP_0283 = Gene("SP_0283")
 SP_2162 = Gene("SP_2162")
@@ -271,19 +301,19 @@ sorbose = Metabolite("sorbose", kegg=C01452)
 sorbose_1_phosphate = Metabolite("S1P", kegg=C02888)
 
 sorbose_phosphorylation = Reaction(name="S2P",
-                                   reactants= "sorbose" + "ATP",
-                                   products="S1P" + "ADP",
-                                   pairs=[("sorbose", "S1P"), ("ATP", "ADP")],
-                                   minors=["ATP", "ADP"])
+                                   reactants= "sorbose" + "PG",
+                                   products="S1P",
+                                   pairs=[("sorbose", "S1P")],
+                                   minors=["PG"])
 
 n_acetyl_galactosamine = Metabolite("NAG", kegg=C01132)
 n_acetyl_galactosamine_6_phosphate = Metabolite("NAG6P", kegg=C06376)
 
 n_acetyl_galactosamine_phosphorylation = Reaction(name="NAGP",
-                                                  reactants="NAG" + "ATP",
-                                                  products="NAG6P" + "ADP",
-                                                  pairs=[("NAG" + "NAG6P"),("ATP", "ADP")],
-                                                  minors=["ATP", "ADP"])
+                                                  reactants="NAG" + "PG",
+                                                  products="NAG6P",
+                                                  pairs=[("NAG" + "NAG6P")],
+                                                  minors=["PG"])
 SP_0324 = Gene("SP_0324")
 SP_0325 = Gene("SP_0325")
 SP_0321 = Gene("SP_0321")
@@ -295,10 +325,10 @@ galactosamine = Metabolite("galactosamine", kegg=C02262)
 galactosamine_6_phospate = Metabolite("Ga6P", kegg=C06377)
 
 galactosamine_phosphorylation = Reaction(name="Ga2P",
-                                         reactants="galactosamine" + "ATP",
-                                         products="Ga6P" + "ADP",
-                                         pairs=[("galactosamine", "Ga6P"), ("ATP", "ADP")],
-                                         minors=["ATP", "ADP"])
+                                         reactants="galactosamine" + "PG",
+                                         products="Ga6P",
+                                         pairs=[("galactosamine", "Ga6P")],
+                                         minors=["PG"])
 SP_0321 = Gene("SP_0321")
 Ga2P_GA = GeneAssociation(Ga2P, SP_0321)
 
@@ -318,19 +348,19 @@ sorbitol = Metabolite("sorbitol", kegg=C00794)
 sorbitol_6_phosphate = Metabolite("SO6P", kegg=C01096)
 
 sorbitol_phosphorylation = Reaction(name="SoP",
-                                    reactants="sorbitol" + "ATP",
-                                    products="SO6P" + "ADP",
-                                    pairs=[("sorbitol", "SO6P"), ("ATP", "ADP")],
-                                    minors=["ATP", "ADP"])
+                                    reactants="sorbitol" + "PG",
+                                    products="SO6P",
+                                    pairs=[("sorbitol", "SO6P")],
+                                    minors=["PG"])
 
 galactitol = Metabolite("galactitol", kegg=C01697)
 galactitol_1_phosphate = Metabolite("G1P", kegg=C06311)
 
 galactitol_phosphorylation = Reaction(name="G2P",
-                                      reactants="galactitol" + "ATP",
-                                      products="G1P" + "ADP",
-                                      pairs=[("galactitol", "G1P"),("ATP", "ADP")],
-                                      minors=["ATP", "ADP"])
+                                      reactants="galactitol" + "PG",
+                                      products="G1P",
+                                      pairs=[("galactitol", "G1P")],
+                                      minors=["PG"])
 SP_0647 = Gene("SP_0647")
 SP_0645 = Gene("SP_0645")
 SP_1198 = Gene("SP_1198")
@@ -342,10 +372,10 @@ l_ascorbate = Metabolite("LA", kegg=C00072)
 l_ascorbate_6_phosphate = Metabolute("LA6P", kegg=C16186)
 
 l_ascorbate_phosphorylation = Reaction(name="LAP",
-                                       reactants="LA" + "ATP",
-                                       products="LA6P" + "ADP",
-                                       pairs=[("LA", "LA6P"),("ATP","ADP")],
-                                       minors=["ATP", "ADP"])
+                                       reactants="LA" + "PG",
+                                       products="LA6P",
+                                       pairs=[("LA", "LA6P")],
+                                       minors=["PG"])
 SP_2038 = Gene("SP_2038")
 SP_2129 = Gene("SP_2129")
 SP_2036 = Gene("SP_2036")
