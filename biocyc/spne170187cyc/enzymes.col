@@ -1,0 +1,993 @@
+# Copyright © 2013, SRI International. All rights reserved.
+#
+# Authors:
+#    Pallavi Subhraveti
+#    Quang Ong
+#    Tomer Altman
+#    Ron Caspi
+#    Ingrid Keseler
+#    Peter D Karp
+#
+# Please see the license agreement regarding the use of and distribution of this file.
+# The format of this file is defined at http://bioinformatics.ai.sri.com/ptools/flatfile-format.html .
+#
+# Species: Streptococcus pneumoniae TIGR4
+# Database: SPNE170187cyc
+# Version: 17.0
+# File Name: enzymes.col
+# Date and time generated: September 25, 2013, 15:58:24
+#
+#			1	2	3	4	1	2	3	4	1	2	3	4	1	2	3	4
+UNIQUE-ID	NAME	REACTION-EQUATION	PATHWAYS	PATHWAYS	PATHWAYS	PATHWAYS	COFACTORS	COFACTORS	COFACTORS	COFACTORS	ACTIVATORS	ACTIVATORS	ACTIVATORS	ACTIVATORS	INHIBITORS	INHIBITORS	INHIBITORS	INHIBITORS	SUBUNIT-COMPOSITION
+ENZRXNHGN-161	ribonucleotide-diphosphate reductase subunit alpha	dUDP + an oxidized thioredoxin + H2O  <-->  uridine-5'-diphosphate + a reduced thioredoxin	PWY0-166																1*GHGN-1184-MONOMER
+ENZRXNHGN-270	tRNA delta(2)-isopentenylpyrophosphate transferase	dimethylallyl diphosphate + a tRNA  <-->  a tRNA containing N6-dimethylallyladenosine + diphosphate																	1*GHGN-672-MONOMER
+ENZRXNHGN-626	bifunctional N-acetylglucosamine-1-phosphate uridyltransferase/glucosamine-1-phosphate acetyltransferase	N-acetyl-alpha-D-glucosamine 1-phosphate + UTP + H+  <-->  UDP-N-acetyl-alpha-D-glucosamine + diphosphate	UDPNAGSYN-PWY																1*GHGN-992-MONOMER
+ENZRXNHGN-590	6-phospho-beta-galactosidase	lactose 6-phosphate + H2O  <-->  D-galactose 6-phosphate + beta-D-glucose	LACTOSECAT-PWY																1*GHGN-1189-MONOMER
+ENZRXNHGN-304	3-oxoacyl-ACP synthase	an octanoyl-[acp] + malonyl-CoA + H+  <-->  a 3-oxo-decanoyl-[acp] + CO2 + coenzyme A																	1*GHGN-428-MONOMER
+ENZRXNHGN-162	ribonucleotide-diphosphate reductase subunit alpha	a 2'-deoxyribonucleoside 5'-diphosphate + an oxidized thioredoxin + H2O  <-->  a ribonucleoside diphosphate + a reduced thioredoxin																	1*GHGN-1184-MONOMER
+ENZRXNHGN-138	carbamoyl phosphate synthase small subunit	2 ATP + bicarbonate + ammonia  <-->  2 ADP + carbamoyl-phosphate + phosphate + H+	CARBPSYN-RXN																1*GHGN-1281-MONOMER
+ENZRXNHGN-627	phosphoglycerate mutase	3-phospho-D-glycerate  <-->  2-phospho-D-glycerate	PWY-6901	PWY-7003	P122-PWY	ANAGLYCOLYSIS-PWY													1*GHGN-988-MONOMER
+ENZRXNHGN-823	beta-N-acetylhexosaminidase	chitotriose + H2O  <-->  N-acetyl-D-glucosamine + N,N'-diacetylchitobiose																	1*GHGN-63-MONOMER
+ENZRXNHGN-305	3-oxoacyl-ACP synthase	a cis-delta17-C36:1-[acp] + a malonyl-[acp]  <-->  a cis-delta19-3-oxo-C38:1-[acp] + a holo-[acyl-carrier protein] + CO2																	1*GHGN-428-MONOMER
+ENZRXNHGN-422	cysteine synthase	O-acetyl-L-serine + thiosulfate  <-->  S-sulfo-L-cysteine + acetate + H+																	1*GHGN-2269-MONOMER
+ENZRXNHGN-271	thymidylate synthase	dUMP + 5,10-methylenetetrahydrofolate  <-->  dTMP + 7,8-dihydrofolate	PWY66-385	PWY0-166	1CMET2-PWY	P1-PWY													1*GHGN-670-MONOMER
+ENZRXNHGN-628	diacylglycerol kinase	ATP + a 1,2-diacyl-sn-glycerol  <-->  a 1,2-diacyl-sn-glycerol 3-phosphate + ADP + H+																	1*GHGN-972-MONOMER
+ENZRXNHGN-33	aminotransferase	2-oxoglutarate + L-alanine  <-->  L-glutamate + pyruvate	ALANINE-DEG3-PWY	ALANINE-SYN2-PWY															1*GHGN-2025-MONOMER
+ENZRXNHGN-591	phosphoenolpyruvate-protein phosphotransferase	phosphoenolpyruvate + a [protein]-L-histidine  <-->  pyruvate + a protein-Npi-phospho-L-histidine																	1*GHGN-1181-MONOMER
+ENZRXNHGN-824	beta-N-acetylhexosaminidase	N,N'-diacetylchitobiose + H2O  <-->  2 N-acetyl-D-glucosamine																	1*GHGN-63-MONOMER
+ENZRXNHGN-306	3-oxoacyl-ACP synthase	a cis-delta9-C28:1-[acp] + a malonyl-[acp]  <-->  a cis-delta11-3-oxo-C30:1-[acp] + a holo-[acyl-carrier protein] + CO2																	1*GHGN-428-MONOMER
+ENZRXNHGN-163	dihydroorotase	(S)-dihydroorotate + H2O  <-->  N-carbamoyl-L-aspartate + H+	PWY-5686																1*GHGN-1172-MONOMER
+ENZRXNHGN-825	phosphoribosylaminoimidazole carboxylase catalytic subunit	5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxylate + 2 H+  <-->  5-amino-1-(5-phospho-D-ribosyl)imidazole + CO2	PWY-6124																1*GHGN-59-MONOMER
+ENZRXNHGN-272	fructose-bisphosphate aldolase	fructose-1,6-bisphosphate  <-->  dihydroxyacetone phosphate + D-glyceraldehyde 3-phosphate	ANAGLYCOLYSIS-PWY																1*GHGN-607-MONOMER
+ENZRXNHGN-629	endo-beta-N-acetylglucosaminidase	a glycopeptide-D-mannosyl-N4-(N-acetyl-D-glucosaminyl)2-asparagine + H2O  <-->  N-acetyl-D-glucosamine-asparagine + a glycopeptide-D-mannosyl-N4-N-acetyl-D-glucosamine																	1*GHGN-969-MONOMER
+ENZRXNHGN-307	3-oxoacyl-ACP synthase	a cis-delta5-C24:1-[acp] + a malonyl-[acp]  <-->  a cis-delta7-3-oxo-C26:1-[acp] + a holo-[acyl-carrier protein] + CO2																	1*GHGN-428-MONOMER
+ENZRXNHGN-423	cysteine synthase	O-acetyl-L-serine + hydrogen selenide  <-->  selenocysteine + acetate + 2 H+																	1*GHGN-2269-MONOMER
+ENZRXNHGN-592	uracil-DNA glycosylase	a DNA with uracil  <-->  an AP (apurinic or apyrimidinic) site created by glycosylic bond cleavage + uracil																	1*GHGN-1174-MONOMER
+ENZRXNHGN-139	carbamoyl phosphate synthase small subunit	L-glutamine + H2O  <-->  L-glutamate + ammonia + H+	GLUTAMINDEG-PWY	RXN-11322	CARBPSYN-RXN														1*GHGN-1281-MONOMER
+ENZRXNHGN-826	phosphoribosylformylglycinamidine synthase	ATP + 5'-phosphoribosyl-N-formylglycineamide + L-glutamine + H2O  <-->  L-glutamate + ADP + 5-phosphoribosyl-N-formylglycineamidine + phosphate + H+	PWY-6277	PWY-6121	PWY-6122														1*GHGN-51-MONOMER
+ENZRXNHGN-164	ribonuclease HII	a RNA-DNA hybrid + H2O  <-->  a DNA + n a nucleoside 5'-monophosphate																	1*GHGN-1161-MONOMER
+ENZRXNHGN-34	aminotransferase	2-oxoglutarate + L-alanine  <-->  L-glutamate + pyruvate																	1*GHGN-2025-MONOMER
+ENZRXNHGN-308	3-oxoacyl-ACP synthase	a myristoyl-[acp] + malonyl-CoA + H+  <-->  a 3-oxo-palmitoyl-[acp] + CO2 + coenzyme A																	1*GHGN-428-MONOMER
+ENZRXNHGN-630	dihydroorotate dehydrogenase 1B	(S)-dihydroorotate + NAD+  <-->  orotate + NADH + H+																	1*GHGN-968-MONOMER
+ENZRXNHGN-827	glycerol-3-phosphate acyltransferase PlsX	hexadecanedioyl-CoA + sn-glycerol-3-phosphate  <-->  1-C16:0-DCA-2-LPA + coenzyme A																	1*GHGN-43-MONOMER
+ENZRXNHGN-424	cysteine synthase	O-acetyl-L-serine + hydrogen sulfide  <-->  L-cysteine + acetate + H+	CYSTSYN-PWY																1*GHGN-2269-MONOMER
+ENZRXNHGN-140	carbamoyl phosphate synthase small subunit	2 ATP + L-glutamine + bicarbonate + H2O  <-->  L-glutamate + carbamoyl-phosphate + 2 ADP + phosphate + 2 H+	ARGSYN-PWY	PWY-5686															1*GHGN-1281-MONOMER
+ENZRXNHGN-828	glycerol-3-phosphate acyltransferase PlsX	an acyl-[acyl-carrier protein] + sn-glycerol-3-phosphate  <-->  a 1-acyl-sn-glycerol 3-phosphate + a holo-[acyl-carrier protein]																	1*GHGN-43-MONOMER
+ENZRXNHGN-309	3-oxoacyl-ACP synthase	a myristoyl-[acp] + a malonyl-[acp]  <-->  a 3-oxo-palmitoyl-[acp] + CO2 + a holo-[acyl-carrier protein]	PWY-5971																1*GHGN-428-MONOMER
+ENZRXNHGN-273	fructose-bisphosphate aldolase	fructose-1-phosphate  <-->  dihydroxyacetone phosphate + D-glyceraldehyde																	1*GHGN-607-MONOMER
+ENZRXNHGN-425	helicase	a supercoiled duplex DNA + ATP  <-->  a single stranded DNA + ADP + phosphate																	1*GHGN-2267-MONOMER
+ENZRXNHGN-593	acetoin dehydrogenase, E1 component subunit alpha	acetoin + coenzyme A + NAD+  <-->  acetaldehyde + acetyl-CoA + NADH + H+	PWY-6028																1*GHGN-1169-MONOMER
+ENZRXNHGN-829	glycerol-3-phosphate acyltransferase PlsX	a long-chain acyl-CoA + sn-glycerol-3-phosphate  <-->  a 1-acyl-sn-glycerol 3-phosphate + coenzyme A	PWY-5667																1*GHGN-43-MONOMER
+ENZRXNHGN-426	replicative DNA helicase	a supercoiled duplex DNA + ATP  <-->  a single stranded DNA + ADP + phosphate																	1*GHGN-2262-MONOMER
+ENZRXNHGN-141	carbamoyl phosphate synthase large subunit	2 ATP + bicarbonate + ammonia  <-->  2 ADP + carbamoyl-phosphate + phosphate + H+	CARBPSYN-RXN																1*GHGN-1280-MONOMER
+ENZRXNHGN-594	acetoin dehydrogenase, E1 component subunit beta	acetoin + coenzyme A + NAD+  <-->  acetaldehyde + acetyl-CoA + NADH + H+	PWY-6028																1*GHGN-1168-MONOMER
+ENZRXNHGN-310	3-oxoacyl-ACP synthase	a cis-delta11-C30:1-[acp] + a malonyl-[acp]  <-->  a cis-delta13-3-oxo-C32:1-[acp] + a holo-[acyl-carrier protein] + CO2																	1*GHGN-428-MONOMER
+ENZRXNHGN-427	L-fuculose kinase fucK	L-fuculose + ATP  <-->  L-fuculose-1-phosphate + ADP + H+	FUCCAT-PWY																1*GHGN-2227-MONOMER
+ENZRXNHGN-274	cysteinyl-tRNA synthetase	tRNAcys + L-cysteine + ATP + H+  <-->  L-cysteinyl-tRNAcys + AMP + diphosphate	TRNA-CHARGING-PWY																1*GHGN-595-MONOMER
+ENZRXNHGN-142	carbamoyl phosphate synthase large subunit	L-glutamine + H2O  <-->  L-glutamate + ammonia + H+	GLUTAMINDEG-PWY	RXN-11322	CARBPSYN-RXN														1*GHGN-1280-MONOMER
+ENZRXNHGN-165	phosphopyruvate hydratase	2-phospho-D-glycerate  <-->  phosphoenolpyruvate + H2O	PWY-6901	PWY-7003	P122-PWY	ANAGLYCOLYSIS-PWY													1*GHGN-1133-MONOMER
+ENZRXNHGN-428	transketolase	D-erythrose 4-phosphate + D-xylulose 5-phosphate  <-->  D-fructose 6-phosphate + D-glyceraldehyde 3-phosphate	PWY-6901	P21-PWY	NONOXIPENT-PWY														1*GHGN-2189-MONOMER
+ENZRXNHGN-35	asparagine synthetase AsnA	L-aspartate + ammonia + ATP  <-->  L-asparagine + AMP + diphosphate	ASPARAGINESYN-PWY																1*GHGN-2001-MONOMER
+ENZRXNHGN-631	lactoylglutathione lyase	S-lactoyl-glutathione  <-->  methylglyoxal + glutathione	PWY-5386																1*GHGN-966-MONOMER
+ENZRXNHGN-429	transketolase	D-sedoheptulose 7-phosphate + D-glyceraldehyde 3-phosphate  <-->  D-ribose 5-phosphate + D-xylulose 5-phosphate	P21-PWY	NONOXIPENT-PWY															1*GHGN-2189-MONOMER
+ENZRXNHGN-830	aromatic amino acid aminotransferase	2-oxo-3-phenylpropanoate + L-glutamate  <-->  L-phenylalanine + 2-oxoglutarate	PHESYN																1*GHGN-41-MONOMER
+ENZRXNHGN-595	dihydrolipoamide acetyltransferase	acetyl-CoA + a [pyruvate dehydrogenase E2 protein] N6-dihydrolipoyl-L-lysine  <-->  a [pyruvate dehydrogenase E2 protein] N6-S-acetyldihydrolipoyl-L-lysine + coenzyme A	PYRUVDEH-RXN																1*GHGN-1167-MONOMER
+ENZRXNHGN-311	3-oxoacyl-ACP synthase	a cis-delta13-C32:1-[acp] + a malonyl-[acp]  <-->  a cis-delta15-3-oxo-C34:1-[acp] + a holo-[acyl-carrier protein] + CO2																	1*GHGN-428-MONOMER
+ENZRXNHGN-632	uridylate kinase	ATP + uridine-5'-monophosphate  <-->  ADP + uridine-5'-diphosphate	PWY-7176	P1-PWY															1*GHGN-948-MONOMER
+ENZRXNHGN-47	biotin--protein ligase	a [biotin-carboxyl-carrier protein monomer] + biotin + ATP  <-->  AMP + a biotinylated [BCCP monomer] + diphosphate	PWY0-1264																1*GHGN-1908-MONOMER
+ENZRXNHGN-143	carbamoyl phosphate synthase large subunit	2 ATP + L-glutamine + bicarbonate + H2O  <-->  L-glutamate + carbamoyl-phosphate + 2 ADP + phosphate + 2 H+	ARGSYN-PWY	PWY-5686															1*GHGN-1280-MONOMER
+ENZRXNHGN-430	4-alpha-glucanotransferase	maltotriose + a glucan  <-->  D-glucose + a glucan																	1*GHGN-2168-MONOMER
+ENZRXNHGN-312	3-oxoacyl-ACP synthase	a cis-docos-3-enoyl-[acp] + a malonyl-[acp]  <-->  a cis-delta5-3-oxo-C24:1-[acp] + a holo-[acyl-carrier protein] + CO2																	1*GHGN-428-MONOMER
+ENZRXNHGN-831	aromatic amino acid aminotransferase	an aromatic amino acid + 2-oxoglutarate  <-->  an aromatic oxo-acid + L-glutamate																	1*GHGN-41-MONOMER
+ENZRXNHGN-431	4-alpha-glucanotransferase	a long-linear glucan + alpha-D-glucose  <-->  a short glucan + a short glucan																	1*GHGN-2168-MONOMER
+ENZRXNHGN-166	glycogen synthase	ADP-alpha-D-glucose + (1,4-alpha-D-glucosyl)(n)  <-->  ADP + (1,4-alpha-D-glucosyl)(n+1)	GLYCOGENSYNTH-PWY																1*GHGN-1129-MONOMER
+ENZRXNHGN-313	3-oxoacyl-ACP synthase	a 2,3,4-saturated fatty acyl-[acp] + a malonyl-[acp]  <-->  a 3-oxoacyl-[acp] + CO2 + a holo-[acyl-carrier protein]	FASYN-ELONG-PWY																1*GHGN-428-MONOMER
+ENZRXNHGN-275	5-methyltetrahydropteroyltriglutamate--homocysteine S-methyltransferase	selenohomocysteine + 5-methyltetrahydropteroyltri-L-glutamate + 5 H+  <-->  selenomethionine + tetrahydropteroyl tri-L-glutamate																	1*GHGN-589-MONOMER
+ENZRXNHGN-633	pyrroline-5-carboxylate reductase	L-proline + NAD(P)+  <-->  (S)-1-pyrroline-5-carboxylate + NAD(P)H + 2 H+	PROSYN-PWY																1*GHGN-937-MONOMER
+ENZRXNHGN-432	4-alpha-glucanotransferase	a maltodextrin(n) + beta-maltose  <-->  a maltodextrin(n+1) + alpha-D-glucose																	1*GHGN-2168-MONOMER
+ENZRXNHGN-48	glutamate racemase	L-glutamate  <-->  D-glutamate	PWY-6387	PWY-6386															1*GHGN-1889-MONOMER
+ENZRXNHGN-314	3-oxoacyl-ACP synthase	a hexanoyl-[acyl-carrier-protein] + malonyl-CoA + H+  <-->  a 3-oxo-octanoyl-[acp] + CO2 + coenzyme A																	1*GHGN-428-MONOMER
+ENZRXNHGN-634	ribosomal large subunit pseudouridine synthase D	a tRNA uridine32  <-->  a pseudouridine32 in tRNA																	1*GHGN-933-MONOMER
+ENZRXNHGN-36	phosphopantetheine adenylyltransferase	4'-phosphopantetheine + ATP + H+  <-->  dephospho-CoA + diphosphate	COA-PWY																1*GHGN-1999-MONOMER
+ENZRXNHGN-167	glucose-1-phosphate adenylyltransferase	alpha-D-glucose 1-phosphate + ATP + H+  <-->  ADP-alpha-D-glucose + diphosphate	GLYCOGENSYNTH-PWY																1*GHGN-1127-MONOMER
+ENZRXNHGN-433	4-alpha-glucanotransferase	maltohexaose + beta-maltose  <-->  maltoheptaose + beta-D-glucose																	1*GHGN-2168-MONOMER
+ENZRXNHGN-635	ribosomal large subunit pseudouridine synthase D	a 23S rRNA uridine2457  <-->  a 23S rRNA pseudouridine2457																	1*GHGN-933-MONOMER
+ENZRXNHGN-276	5-methyltetrahydropteroyltriglutamate--homocysteine S-methyltransferase	L-homocysteine + 5-methyltetrahydropteroyltri-L-glutamate + 4 H+  <-->  L-methionine + tetrahydropteroyl tri-L-glutamate	HSERMETANA-PWY	HOMOSER-METSYN-PWY	PWY-6151														1*GHGN-589-MONOMER
+ENZRXNHGN-636	ribosomal large subunit pseudouridine synthase D	a 23S rRNA uridine2605  <-->  a pseudouridine2605 in 23S rRNA																	1*GHGN-933-MONOMER
+ENZRXNHGN-315	3-oxoacyl-ACP synthase	a dodecanoyl-[acp] + malonyl-CoA + H+  <-->  a 3-oxo-myristoyl-[acp] + CO2 + coenzyme A																	1*GHGN-428-MONOMER
+ENZRXNHGN-596	lipoate-protein ligase	lipoyl-adenylate + an apo glycine-cleavage complex H protein  <-->  a [glycine-cleavage complex H protein] N6-lipoyl-L-lysine + AMP	PWY-6984	RXN0-1141															1*GHGN-1165-MONOMER
+ENZRXNHGN-832	aromatic amino acid aminotransferase	2-oxoglutarate + L-tryptophan  <-->  L-glutamate + indole-3-pyruvate	TRPKYNCAT-PWY																1*GHGN-41-MONOMER
+ENZRXNHGN-144	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase	2-C-methyl-D-erythritol-4-phosphate + CTP + H+  <-->  4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol + diphosphate	NONMEVIPP-PWY																1*GHGN-1276-MONOMER
+ENZRXNHGN-434	4-alpha-glucanotransferase	maltotriose + beta-maltose  <-->  maltotetraose + beta-D-glucose	GLYCOCAT-PWY																1*GHGN-2168-MONOMER
+ENZRXNHGN-277	phenylalanyl-tRNA synthetase subunit beta	tRNAphe + L-phenylalanine + ATP + H+  <-->  L-phenylalanyl-tRNAphe + AMP + diphosphate	TRNA-CHARGING-PWY																1*GHGN-585-MONOMER
+ENZRXNHGN-637	ribosomal large subunit pseudouridine synthase D	a 23S rRNA uridine955/2504/2580  <-->  a 23S rRNA pseudouridine955/2504/2580																	1*GHGN-933-MONOMER
+ENZRXNHGN-833	DNA polymerase I	a deoxyribonucleoside triphosphate + (deoxynucleotides)(n)  <-->  (deoxynucleotides)(n+1) + diphosphate																	1*GHGN-38-MONOMER
+ENZRXNHGN-597	lipoate-protein ligase	ATP + (R)-lipoate + H+  <-->  lipoyl-adenylate + diphosphate	PWY0-522	PWY-6984	RXN0-1141														1*GHGN-1165-MONOMER
+ENZRXNHGN-834	cytidine/deoxycytidylate deaminase	dCMP + H2O  <-->  ammonia + dUMP																	1*GHGN-26-MONOMER
+ENZRXNHGN-168	glycogen branching protein	n a 1,4-alpha-D-glucan  <-->  starch + n H2O																	1*GHGN-1126-MONOMER
+ENZRXNHGN-278	phenylalanyl-tRNA synthetase subunit alpha	tRNAphe + L-phenylalanine + ATP + H+  <-->  L-phenylalanyl-tRNAphe + AMP + diphosphate	TRNA-CHARGING-PWY																1*GHGN-583-MONOMER
+ENZRXNHGN-638	ribosomal large subunit pseudouridine synthase D	a uridine2604 in 23S rRNA  <-->  a 23S rRNA pseudouridine2604																	1*GHGN-933-MONOMER
+ENZRXNHGN-49	galactokinase	alpha-D-galactose + ATP  <-->  alpha-D-galactose 1-phosphate + ADP + H+	PWY-6317																1*GHGN-1861-MONOMER
+ENZRXNHGN-435	4-alpha-glucanotransferase	a limit dextrin  <-->  a limit dextrin with short branches	PWY-5941																1*GHGN-2168-MONOMER
+ENZRXNHGN-598	lipoate-protein ligase	an apo glycine-cleavage complex H protein + ATP + (R)-lipoate + H+  <-->  AMP + a [glycine-cleavage complex H protein] N6-lipoyl-L-lysine + diphosphate																	1*GHGN-1165-MONOMER
+ENZRXNHGN-835	cytidine/deoxycytidylate deaminase	cytidine + H2O  <-->  uridine + ammonia	PWY-6556	PWY0-163	PWY0-1295	P1-PWY													1*GHGN-26-MONOMER
+ENZRXNHGN-639	ribosomal large subunit pseudouridine synthase D	a 23S rRNA uridine1911/1915/1917  <-->  a 23S rRNA pseudouridine1911/1915/1917																	1*GHGN-933-MONOMER
+ENZRXNHGN-316	3-oxoacyl-ACP synthase	arachidoyl-CoA + a malonyl-[acp]  <-->  a 3-oxo-behenoyl-[acp] + CO2 + coenzyme A																	1*GHGN-428-MONOMER
+ENZRXNHGN-436	glycogen phosphorylase	(1,4-alpha-D-glucosyl)(n) + phosphate  <-->  (1,4-alpha-D-glucosyl)(n-1) + alpha-D-glucose 1-phosphate																	1*GHGN-2167-MONOMER
+ENZRXNHGN-279	valyl-tRNA synthetase	tRNAval + L-valine + ATP + H+  <-->  L-valyl-tRNAval + AMP + diphosphate	TRNA-CHARGING-PWY																1*GHGN-572-MONOMER
+ENZRXNHGN-437	glycogen phosphorylase	a linear malto-oligosaccharide [(glucose)n] + phosphate  <-->  alpha-D-glucose 1-phosphate + a linear malto-oligosaccharide [(glucose)n-1]																	1*GHGN-2167-MONOMER
+ENZRXNHGN-169	glycogen branching protein	a glucosylated glycogenin  <-->  a glycogen																	1*GHGN-1126-MONOMER
+ENZRXNHGN-317	3-oxoacyl-ACP synthase	an acyl-[acyl-carrier protein] + a malonyl-[acp]  <-->  a 3-oxoacyl-[acp] + CO2 + a holo-[acyl-carrier protein]																	1*GHGN-428-MONOMER
+ENZRXNHGN-438	glycogen phosphorylase	maltotetraose + phosphate  <-->  maltotriose + alpha-D-glucose 1-phosphate	GLYCOCAT-PWY																1*GHGN-2167-MONOMER
+ENZRXNHGN-50	galactose-1-phosphate uridylyltransferase	UDP-D-glucose + alpha-D-galactose 1-phosphate  <-->  UDP-alpha-D-galactose + alpha-D-glucose 1-phosphate	PWY-6317																1*GHGN-1860-MONOMER
+ENZRXNHGN-640	agmatine deiminase	agmatine + H2O  <-->  ammonia + N-carbamoylputrescine + H+																	1*GHGN-925-MONOMER
+ENZRXNHGN-439	glycogen phosphorylase	a debranched limit dextrin + n phosphate  <-->  n alpha-D-glucose 1-phosphate	PWY-5941																1*GHGN-2167-MONOMER
+ENZRXNHGN-440	glycogen phosphorylase	a maltodextrin(n) + phosphate  <-->  a maltodextrin(n-1) + alpha-D-glucose 1-phosphate																	1*GHGN-2167-MONOMER
+ENZRXNHGN-318	3-oxoacyl-ACP synthase	a butyryl-[acp] + malonyl-CoA + H+  <-->  a 3-oxo-hexanoyl-[acp] + CO2 + coenzyme A																	1*GHGN-428-MONOMER
+ENZRXNHGN-441	glycogen phosphorylase	a glycogen + phosphate  <-->  alpha-D-glucose 1-phosphate + maltotetraose																	1*GHGN-2167-MONOMER
+ENZRXNHGN-51	xanthine phosphoribosyltransferase	XMP + diphosphate  <-->  xanthine + 5-phospho-alpha-D-ribose 1-diphosphate	SALVPURINE2-PWY																1*GHGN-1855-MONOMER
+ENZRXNHGN-641	carboxynorspermidine decarboxylase	carboxynorspermidine + H+  <-->  norspermidine + CO2																	1*GHGN-924-MONOMER
+ENZRXNHGN-170	glycogen branching protein	a 1,4-alpha-D-glucan  <-->  a glycogen	GLYCOGENSYNTH-PWY																1*GHGN-1126-MONOMER
+ENZRXNHGN-442	glycogen phosphorylase	[(1->4)-alpha-D-glucosyl]n + phosphate  <-->  [(1->4)-alpha-D-glucosyl](n-1) + alpha-D-glucose 1-phosphate																	1*GHGN-2167-MONOMER
+ENZRXNHGN-52	galactose-1-phosphate uridylyltransferase	UDP-D-glucose + alpha-D-galactose 1-phosphate  <-->  UDP-alpha-D-galactose + alpha-D-glucose 1-phosphate	PWY-6317																1*GHGN-1837-MONOMER
+ENZRXNHGN-319	3-oxoacyl-ACP synthase	a decanoyl-[acp] + malonyl-CoA + H+  <-->  a 3-oxo-dodecanoyl-[acp] + CO2 + coenzyme A																	1*GHGN-428-MONOMER
+ENZRXNHGN-443	glycogen phosphorylase	a glycogen + phosphate  <-->  a limit dextrin + alpha-D-glucose 1-phosphate	PWY-5941	GLYCOCAT-PWY															1*GHGN-2167-MONOMER
+ENZRXNHGN-642	lysine decarboxylase	L-lysine + H+  <-->  CO2 + cadaverine	PWY0-461																1*GHGN-920-MONOMER
+ENZRXNHGN-171	NAD-dependent DNA ligase LigA	(deoxynucleotides)(m) + (deoxynucleotides)(n) + NAD+  <-->  (deoxynucleotides)(n+m) + beta-nicotinamide D-ribonucleotide + AMP																	1*GHGN-1122-MONOMER
+ENZRXNHGN-444	rRNA (guanine-N1-)-methyltransferase	guanine745 in 23S rRNA + S-adenosyl-L-methionine  <-->  N1-methylguanine745 in 23S rRNA + S-adenosyl-L-homocysteine + H+																	1*GHGN-2164-MONOMER
+ENZRXNHGN-643	phage integrase family integrase/recombinase	a DNA segment  <-->  a DNA segment in reverse orientation																	1*GHGN-895-MONOMER
+ENZRXNHGN-320	3-ketoacyl-ACP reductase	3-oxo-docosapentaenoyl-CoA + NAD(P)H + H+  <-->  3-hydroxy-docosapentaenoyl-CoA + NAD(P)+																	1*GHGN-427-MONOMER
+ENZRXNHGN-644	1-phosphofructokinase	ATP + fructose-1-phosphate  <-->  ADP + fructose-1,6-bisphosphate + H+	PWY0-1314																1*GHGN-881-MONOMER
+ENZRXNHGN-445	2,3,4,5-tetrahydropyridine-2,6-carboxylate N-succinyltransferase	(S)-2,3,4,5-tetrahydrodipicolinate + succinyl-CoA + H2O  <-->  N-succinyl-2-amino-6-ketopimelate + coenzyme A	DAPLYSINESYN-PWY																1*GHGN-2158-MONOMER
+ENZRXNHGN-321	3-ketoacyl-ACP reductase	a 3R-hydroxyglutaryl-[acp] methyl ester + NADP+  <-->  a 3-oxo-glutaryl-[acp] methyl ester + NADPH + H+																	1*GHGN-427-MONOMER
+ENZRXNHGN-53	anthranilate synthase component II	chorismate + L-glutamine  <-->  anthranilate + L-glutamate + pyruvate + H+	TRPSYN-PWY																1*GHGN-1824-MONOMER
+ENZRXNHGN-322	3-ketoacyl-ACP reductase	a (3R)-3-hydroxyacyl-[acyl-carrier protein] + NADP+  <-->  a 3-oxoacyl-[acp] + NADPH + H+	FASYN-ELONG-PWY																1*GHGN-427-MONOMER
+ENZRXNHGN-172	bifunctional riboflavin kinase/FMN adenylyltransferase	riboflavin + ATP  <-->  ADP + FMN + H+	RIBOSYN2-PWY																1*GHGN-1115-MONOMER
+ENZRXNHGN-645	D-alanyl-D-alanine carboxypeptidase	UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimelyl-D-alanyl-D-alanine + H2O  <-->  UDP-N-acetylmuramoyl-L-alanyl-D-gamma-glutamyl-meso-2,6-diaminoheptanedioate-D-alanine + D-alanine																	1*GHGN-876-MONOMER
+ENZRXNHGN-323	3-ketoacyl-ACP reductase	a cis,cis-delta19,37-3-hydroxy-C56:2-[acp] + NADP+  <-->  a cis,cis-delta19,37-3-oxo-C56:2-[acp] + NADPH + H+																	1*GHGN-427-MONOMER
+ENZRXNHGN-446	5-formyltetrahydrofolate cyclo-ligase	ATP + 5-formyl-tetrahydrofolate  <-->  5,10-methenyltetrahydrofolate + ADP + phosphate	PWY-2201	1CMET2-PWY															1*GHGN-2156-MONOMER
+ENZRXNHGN-324	3-ketoacyl-ACP reductase	a cis,cis-delta15,27-3-hydroxyC46:2-[acp] + NADP+  <-->  a cis,cis-delta15,27-3-oxo-C46:2-[acp] + NADPH + H+																	1*GHGN-427-MONOMER
+ENZRXNHGN-447	UTP-glucose-1-phosphate uridylyltransferase	alpha-D-glucose 1-phosphate + UTP + H+  <-->  UDP-D-glucose + diphosphate																	1*GHGN-2153-MONOMER
+ENZRXNHGN-325	3-ketoacyl-ACP reductase	a cis,cis-delta9,27-3-hydroxyC46:2-[acp] + NADP+  <-->  a cis,cis-delta9,27-3-oxo-C46:2-[acp] + NADPH + H+																	1*GHGN-427-MONOMER
+ENZRXNHGN-173	inorganic polyphosphate/ATP-NAD kinase	ATP + NAD+  <-->  ADP + NADP+ + H+																	1*GHGN-1103-MONOMER
+ENZRXNHGN-54	anthranilate phosphoribosyltransferase	N-(5'-phosphoribosyl)-anthranilate + diphosphate  <-->  anthranilate + 5-phospho-alpha-D-ribose 1-diphosphate	TRPSYN-PWY																1*GHGN-1823-MONOMER
+ENZRXNHGN-326	3-ketoacyl-ACP reductase	a 3R-hydroxy cis delta5-dodecenoyl-[acp] + NADP+  <-->  a 3-oxo-cis-delta5-dodecenoyl-[acp] + NADPH + H+	PWY0-862																1*GHGN-427-MONOMER
+ENZRXNHGN-448	cytidine/deoxycytidylate deaminase	dCMP + H2O  <-->  ammonia + dUMP																	1*GHGN-2129-MONOMER
+ENZRXNHGN-646	D-alanyl-D-alanine carboxypeptidase	2 a peptidoglycan dimer (S. aureus) + 3 H2O  <-->  a peptidoglycan with D,D cross-link (S. aureus) + 4 D-alanine + di-trans,octa-cis-undecaprenyl diphosphate + H+																	1*GHGN-876-MONOMER
+ENZRXNHGN-449	cytidine/deoxycytidylate deaminase	cytidine + H2O  <-->  uridine + ammonia	PWY-6556	PWY0-163	PWY0-1295	P1-PWY													1*GHGN-2129-MONOMER
+ENZRXNHGN-327	3-ketoacyl-ACP reductase	a cis,cis-delta13,31-3-hydroxy C50:2-[acp] + NADP+  <-->  a cis,cis-delta13,31-3-oxo-C50:2-[acp] + NADPH + H+																	1*GHGN-427-MONOMER
+ENZRXNHGN-174	ribose-phosphate pyrophosphokinase	D-ribose 5-phosphate + ATP  <-->  5-phospho-alpha-D-ribose 1-diphosphate + AMP + H+	PWY0-662																1*GHGN-1100-MONOMER
+ENZRXNHGN-328	3-ketoacyl-ACP reductase	a 3-oxo-behenoyl-[acp] + NADPH  <-->  a (R)-3-hydroxybehenoyl-[acp] + NADP+																	1*GHGN-427-MONOMER
+ENZRXNHGN-450	N-acetylglucosamine-6-phosphate deacetylase	N-acetyl-D-galactosamine-6-phosphate + H2O  <-->  acetate + D-galactosamine-6-phosphate																	1*GHGN-2101-MONOMER
+ENZRXNHGN-329	3-ketoacyl-ACP reductase	a cis,cis-delta9,21-3-hydroxyC40:2-[acp] + NADP+  <-->  a cis,cis-delta9,21-3-oxo-C40:2-[acp] + NADPH + H+																	1*GHGN-427-MONOMER
+ENZRXNHGN-647	D-alanyl-D-alanine carboxypeptidase	a peptidoglycan dimer (meso-diaminopimelate containing) + 2 H2O  <-->  a peptidoglycan with D,D cross-links (meso-diaminopimelate containing) + di-trans,octa-cis-undecaprenyl diphosphate + 2 D-alanine	PEPTIDOGLYCANSYN-PWY																1*GHGN-876-MONOMER
+ENZRXNHGN-175	methionine aminopeptidase	a peptide with N-terminal L-methionine + H2O  <-->  L-methionine + a peptide																	1*GHGN-1089-MONOMER
+ENZRXNHGN-330	3-ketoacyl-ACP reductase	a cis,cis-delta17,35-3-hydroxyC54:2-[acp] + NADP+  <-->  a cis,cis-delta17,35-3-oxo-C54:2-[acp] + NADPH + H+																	1*GHGN-427-MONOMER
+ENZRXNHGN-55	indole-3-glycerol phosphate synthase	1-(o-carboxyphenylamino)-1'-deoxyribulose-5'-phosphate + H+  <-->  (1S,2R)-1-C-(indol-3-yl)glycerol 3-phosphate + CO2 + H2O	TRPSYN-PWY																1*GHGN-1822-MONOMER
+ENZRXNHGN-451	N-acetylglucosamine-6-phosphate deacetylase	N-acetyl-D-glucosamine-6-phosphate + H2O  <-->  D-glucosamine 6-phosphate + acetate	PWY-6517	GLUAMCAT-PWY															1*GHGN-2101-MONOMER
+ENZRXNHGN-176	UDP-N-acetylglucosamine 1-carboxyvinyltransferase	UDP-N-acetyl-alpha-D-glucosamine + phosphoenolpyruvate  <-->  UDP-N-acetyl-alpha-D-glucosamine-enolpyruvate + phosphate	PWY-6387	PWY-6386															1*GHGN-1086-MONOMER
+ENZRXNHGN-331	3-ketoacyl-ACP reductase	a cis,cis-delta5,17-3-hydroxyC36:2[acp] + NADP+  <-->  a cis,cis-delta5,17-3-oxo-C36:2-[acp] + NADPH + H+																	1*GHGN-427-MONOMER
+ENZRXNHGN-452	zinc-containing alcohol dehydrogenase	a primary alcohol + NAD+  <-->  an aldehyde + NADH + H+																	1*GHGN-2100-MONOMER
+ENZRXNHGN-332	3-ketoacyl-ACP reductase	a cis,cis-delta11,23-3-hydroxyC42:2-[acp] + NADP+  <-->  a cis,cis-delta11,23-3-oxo-C42:2-[acp] + NADPH + H+																	1*GHGN-427-MONOMER
+ENZRXNHGN-333	3-ketoacyl-ACP reductase	an acetoacetyl-[acp] + NADPH + H+  <-->  a (R)-3-hydroxybutanoyl-[acp] + NADP+	PWY-5971																1*GHGN-427-MONOMER
+ENZRXNHGN-56	N-(5'-phosphoribosyl)anthranilate isomerase	N-(5'-phosphoribosyl)-anthranilate  <-->  1-(o-carboxyphenylamino)-1'-deoxyribulose-5'-phosphate	TRPSYN-PWY																1*GHGN-1821-MONOMER
+ENZRXNHGN-453	zinc-containing alcohol dehydrogenase	a secondary alcohol + NAD+  <-->  a ketone + NADH + H+																	1*GHGN-2100-MONOMER
+ENZRXNHGN-648	D-alanyl-D-alanine carboxypeptidase	2 a peptidoglycan dimer (E. faeciums) + 3 H2O  <-->  a peptidoglycan with D,D cross-link (E. faecium) + 4 D-alanine + di-trans,octa-cis-undecaprenyl diphosphate + H+	PWY-6471																1*GHGN-876-MONOMER
+ENZRXNHGN-177	phosphoenolpyruvate carboxylase	oxaloacetate + phosphate  <-->  phosphoenolpyruvate + bicarbonate	ANARESP1-PWY	FERMENTATION-PWY															1*GHGN-1073-MONOMER
+ENZRXNHGN-334	3-ketoacyl-ACP reductase	3-oxo-eicosatrienoyl-CoA + NAD(P)H + H+  <-->  3-hydroxy-eicosatrienoyl-CoA + NAD(P)+																	1*GHGN-427-MONOMER
+ENZRXNHGN-454	zinc-containing alcohol dehydrogenase	an alcohol + NADP+  <-->  an aldehyde + NADPH + H+																	1*GHGN-2100-MONOMER
+ENZRXNHGN-335	3-ketoacyl-ACP reductase	a cis,cis-delta7,25-3-hydroxyC44:2-[acp] + NADP+  <-->  a cis,cis-delta7,25-3-oxo-C44:2-[acp] + NADPH + H+																	1*GHGN-427-MONOMER
+ENZRXNHGN-649	D-alanyl-D-alanine carboxypeptidase	a lipid II + H2O  <-->  a N-acetylglucosamine--N-acetylmuramyl-(tetrapeptide) pyrophosphoryl-undecaprenol + D-alanine																	1*GHGN-876-MONOMER
+ENZRXNHGN-336	3-ketoacyl-ACP reductase	a cis,cis-delta15,33-3-hydroxy C52:2-[acp] + NADP+  <-->  a cis,cis-delta15,33-3-oxo-C52:2-[acp] + NADPH + H+																	1*GHGN-427-MONOMER
+ENZRXNHGN-337	3-ketoacyl-ACP reductase	a cis,cis-delta5,23-3-hydroxyC42:2-[acp] + NADP+  <-->  a cis,cis-delta5,23-3-oxo-C42:2-[acp] + NADPH + H+																	1*GHGN-427-MONOMER
+ENZRXNHGN-650	D-alanyl-D-alanine carboxypeptidase	UDP-N-acetyl-alpha-D-muramoyl-L-alanyl-gamma-D-glutamyl-L-lysyl-D-alanyl-D-alanine + H2O  <-->  UDP-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-L-lysyl-D-alanine + D-alanine	PWY-6470																1*GHGN-876-MONOMER
+ENZRXNHGN-178	serine hydroxymethyltransferase	L-serine + tetrahydrofolate  <-->  glycine + 5,10-methylenetetrahydrofolate + H2O	GLYSYN-PWY	PWY66-385	PWY-2161	PWY-5497													1*GHGN-1029-MONOMER
+ENZRXNHGN-338	3-ketoacyl-ACP reductase	a cis,cis-delta19,31-3-hydroxyC50:2-[acp] + NADP+  <-->  a cis,cis-delta19,31-3-oxo-C50:2-[acp] + NADPH + H+																	1*GHGN-427-MONOMER
+ENZRXNHGN-455	acetate kinase	ATP + acetate  <-->  ADP + acetylphosphate	PWY-5497	PWY-5485	FERMENTATION-PWY	PWY0-1312													1*GHGN-2089-MONOMER
+ENZRXNHGN-651	DNA topoisomerase IV subunit A	a negatively supercoiled DNA  <-->  a relaxed DNA																	1*GHGN-857-MONOMER
+ENZRXNHGN-339	3-ketoacyl-ACP reductase	a cis,cis-delta7,19-3-hydroxyC38:2-[acp] + NADP+  <-->  a cis,cis-delta7,19-3-oxo-C38:2-[acp] + NADPH + H+																	1*GHGN-427-MONOMER
+ENZRXNHGN-456	L-xylulose 5-phosphate 3-epimerase	L-ribulose-5-phosphate  <-->  L-xylulose-5-phosphate	PWY0-301																1*GHGN-2079-MONOMER
+ENZRXNHGN-340	3-ketoacyl-ACP reductase	a cis,cis-delta21,39-3-hydroxyC58:2-[acp] + NADP+  <-->  a cis,cis-delta21,39-3-oxo-C58:2-[acp] + NADPH + H+																	1*GHGN-427-MONOMER
+ENZRXNHGN-652	DNA topoisomerase IV subunit B	a negatively supercoiled DNA  <-->  a relaxed DNA																	1*GHGN-854-MONOMER
+ENZRXNHGN-341	3-ketoacyl-ACP reductase	a cis,cis-delta11,29-3-hydroxy C48:2-[acp] + NADP+  <-->  a cis,cis-delta11,29-3-oxo-C48:2-[acp] + NADPH + H+																	1*GHGN-427-MONOMER
+ENZRXNHGN-457	L-ascorbate 6-phosphate lactonase	L-ascorbate-6-phosphate + H2O  <-->  3-keto-L-gulonate 6-phosphate	PWY0-301																1*GHGN-2076-MONOMER
+ENZRXNHGN-57	tryptophan synthase subunit beta	L-serine + indole  <-->  L-tryptophan + H2O	TRPSYN-PWY	TRYPSYN-RXN															1*GHGN-1820-MONOMER
+ENZRXNHGN-342	3-ketoacyl-ACP reductase	a 3R-hydroxy cis delta7-tetradecenoyl-[acp] + NADP+  <-->  a 3-oxo-cis-delta7-tetradecenoyl-[acp] + NADPH + H+	PWY-6282																1*GHGN-427-MONOMER
+ENZRXNHGN-343	3-ketoacyl-ACP reductase	a cis,cis-delta13,25-3-hydroxyC44:2-[acp] + NADP+  <-->  a cis,cis-delta13,25-3-oxo-C44:2-[acp] + NADPH + H+																	1*GHGN-427-MONOMER
+ENZRXNHGN-458	phosphotyrosine protein phosphatase	a protein-L-tyrosine phosphate + H2O  <-->  a [protein]-L-tyrosine + phosphate																	1*GHGN-2073-MONOMER
+ENZRXNHGN-58	tryptophan synthase subunit beta	(1S,2R)-1-C-(indol-3-yl)glycerol 3-phosphate  <-->  indole + D-glyceraldehyde 3-phosphate	TRPSYN-PWY	TRYPSYN-RXN															1*GHGN-1820-MONOMER
+ENZRXNHGN-344	3-ketoacyl-ACP reductase	a cis,cis-delta17,29-3-hydroxyC48:2-[acp] + NADP+  <-->  a cis,cis-delta17,29-3-oxo-C48:2-[acp] + NADPH + H+																	1*GHGN-427-MONOMER
+ENZRXNHGN-653	glycerol-3-phosphate acyltransferase PlsY	hexadecanedioyl-CoA + sn-glycerol-3-phosphate  <-->  1-C16:0-DCA-2-LPA + coenzyme A																	1*GHGN-853-MONOMER
+ENZRXNHGN-179	thymidine kinase	2'-deoxyuridine + ATP  <-->  dUMP + ADP + H+	PWY0-181																1*GHGN-1023-MONOMER
+ENZRXNHGN-345	3-oxoacyl-ACP synthase	a palmitoyl-[acp] + malonyl-CoA + H+  <-->  a 3-oxo-stearoyl-[acp] + CO2 + coenzyme A	PWY-5989																1*GHGN-423-MONOMER
+ENZRXNHGN-59	tryptophan synthase subunit beta	(1S,2R)-1-C-(indol-3-yl)glycerol 3-phosphate + L-serine  <-->  L-tryptophan + D-glyceraldehyde 3-phosphate + H2O																	1*GHGN-1820-MONOMER
+ENZRXNHGN-346	3-oxoacyl-ACP synthase	a glutaryl-[acp] methyl ester + a malonyl-[acp]  <-->  a 3-oxo-pimelyl-[acp] methyl ester + CO2 + a holo-[acyl-carrier protein]																	1*GHGN-423-MONOMER
+ENZRXNHGN-459	bifunctional acetaldehyde-CoA/alcohol dehydrogenase	3-methoxy-4-hydroxyphenylglycol + NAD+  <-->  3-methoxy-4-hydroxyphenylglycolaldehyde + NADH + H+																	1*GHGN-2071-MONOMER
+ENZRXNHGN-60	tryptophan synthase subunit alpha	L-serine + indole  <-->  L-tryptophan + H2O	TRPSYN-PWY	TRYPSYN-RXN															1*GHGN-1819-MONOMER
+ENZRXNHGN-654	glycerol-3-phosphate acyltransferase PlsY	an acyl-[acyl-carrier protein] + sn-glycerol-3-phosphate  <-->  a 1-acyl-sn-glycerol 3-phosphate + a holo-[acyl-carrier protein]																	1*GHGN-853-MONOMER
+ENZRXNHGN-347	3-oxoacyl-ACP synthase	a cis-delta15-C34:1-[acp] + a malonyl-[acp]  <-->  a cis-delta17-3-oxo-C36:1-[acp] + a holo-[acyl-carrier protein] + CO2																	1*GHGN-423-MONOMER
+ENZRXNHGN-61	tryptophan synthase subunit alpha	(1S,2R)-1-C-(indol-3-yl)glycerol 3-phosphate  <-->  indole + D-glyceraldehyde 3-phosphate	TRPSYN-PWY	TRYPSYN-RXN															1*GHGN-1819-MONOMER
+ENZRXNHGN-348	3-oxoacyl-ACP synthase	a cis-delta5-dodecenoyl-[acp] + a malonyl-[acp]  <-->  a 3-oxo-cis-delta7-tetradecenoyl-[acp] + a holo-[acyl-carrier protein] + CO2	PWY-6282																1*GHGN-423-MONOMER
+ENZRXNHGN-655	glycerol-3-phosphate acyltransferase PlsY	a long-chain acyl-CoA + sn-glycerol-3-phosphate  <-->  a 1-acyl-sn-glycerol 3-phosphate + coenzyme A	PWY-5667																1*GHGN-853-MONOMER
+ENZRXNHGN-460	bifunctional acetaldehyde-CoA/alcohol dehydrogenase	methionol + NAD+  <-->  3-methylthiopropanal + NADH + H+																	1*GHGN-2071-MONOMER
+ENZRXNHGN-349	3-oxoacyl-ACP synthase	an octanoyl-[acp] + malonyl-CoA + H+  <-->  a 3-oxo-decanoyl-[acp] + CO2 + coenzyme A																	1*GHGN-423-MONOMER
+ENZRXNHGN-62	tryptophan synthase subunit alpha	(1S,2R)-1-C-(indol-3-yl)glycerol 3-phosphate + L-serine  <-->  L-tryptophan + D-glyceraldehyde 3-phosphate + H2O																	1*GHGN-1819-MONOMER
+ENZRXNHGN-461	bifunctional acetaldehyde-CoA/alcohol dehydrogenase	a secondary alcohol + NAD+  <-->  a ketone + NADH + H+																	1*GHGN-2071-MONOMER
+ENZRXNHGN-350	3-oxoacyl-ACP synthase	a cis-delta17-C36:1-[acp] + a malonyl-[acp]  <-->  a cis-delta19-3-oxo-C38:1-[acp] + a holo-[acyl-carrier protein] + CO2																	1*GHGN-423-MONOMER
+ENZRXNHGN-180	thymidine kinase	thymidine + ATP  <-->  dTMP + ADP + H+	PWY0-181	P1-PWY															1*GHGN-1023-MONOMER
+ENZRXNHGN-656	deoxyribose-phosphate aldolase	2-deoxy-D-ribose 5-phosphate  <-->  acetaldehyde + D-glyceraldehyde 3-phosphate	PWY-7180																1*GHGN-845-MONOMER
+ENZRXNHGN-351	3-oxoacyl-ACP synthase	a cis-delta9-C28:1-[acp] + a malonyl-[acp]  <-->  a cis-delta11-3-oxo-C30:1-[acp] + a holo-[acyl-carrier protein] + CO2																	1*GHGN-423-MONOMER
+ENZRXNHGN-352	3-oxoacyl-ACP synthase	a cis-delta5-C24:1-[acp] + a malonyl-[acp]  <-->  a cis-delta7-3-oxo-C26:1-[acp] + a holo-[acyl-carrier protein] + CO2																	1*GHGN-423-MONOMER
+ENZRXNHGN-657	purine nucleoside phosphorylase	deoxyadenosine + phosphate  <-->  adenine + 2'-deoxy-alpha-D-ribose 1-phosphate	PWY-7179																1*GHGN-837-MONOMER
+ENZRXNHGN-353	3-oxoacyl-ACP synthase	a myristoyl-[acp] + malonyl-CoA + H+  <-->  a 3-oxo-palmitoyl-[acp] + CO2 + coenzyme A																	1*GHGN-423-MONOMER
+ENZRXNHGN-63	nicotinic acid mononucleotide adenylyltransferase	beta-nicotinate D-ribonucleotide + ATP + H+  <-->  nicotinate adenine dinucleotide + diphosphate	PWY-5653	PYRIDNUCSAL-PWY	PYRIDNUCSYN-PWY														1*GHGN-1754-MONOMER
+ENZRXNHGN-658	purine nucleoside phosphorylase	a purine 2'-deoxyribonucleoside + phosphate  <-->  a purine base + 2'-deoxy-alpha-D-ribose 1-phosphate																	1*GHGN-837-MONOMER
+ENZRXNHGN-462	bifunctional acetaldehyde-CoA/alcohol dehydrogenase	2-phenylethanol + NAD+  <-->  phenylacetaldehyde + NADH + H+																	1*GHGN-2071-MONOMER
+ENZRXNHGN-354	3-oxoacyl-ACP synthase	a myristoyl-[acp] + a malonyl-[acp]  <-->  a 3-oxo-palmitoyl-[acp] + CO2 + a holo-[acyl-carrier protein]	PWY-5971																1*GHGN-423-MONOMER
+ENZRXNHGN-659	purine nucleoside phosphorylase	a purine ribonucleoside + arsenate  <-->  a purine base + ribose-1-arsenate																	1*GHGN-837-MONOMER
+ENZRXNHGN-355	3-oxoacyl-ACP synthase	a cis-delta11-C30:1-[acp] + a malonyl-[acp]  <-->  a cis-delta13-3-oxo-C32:1-[acp] + a holo-[acyl-carrier protein] + CO2																	1*GHGN-423-MONOMER
+ENZRXNHGN-181	aspartate-semialdehyde dehydrogenase	L-aspartate-semialdehyde + NADP+ + phosphate  <-->  L-aspartyl-4-phosphate + NADPH + H+	HOMOSERSYN-PWY	DAPLYSINESYN-PWY															1*GHGN-1018-MONOMER
+ENZRXNHGN-660	purine nucleoside phosphorylase	5'-deoxy-5'-fluoroadenosine + phosphate  <-->  adenine + 5-fluoro-5-deoxy-D-ribose-1-phosphate	PWY-6644																1*GHGN-837-MONOMER
+ENZRXNHGN-356	3-oxoacyl-ACP synthase	a cis-delta13-C32:1-[acp] + a malonyl-[acp]  <-->  a cis-delta15-3-oxo-C34:1-[acp] + a holo-[acyl-carrier protein] + CO2																	1*GHGN-423-MONOMER
+ENZRXNHGN-661	purine nucleoside phosphorylase	adenosine + phosphate  <-->  adenine + alpha-D-ribose-1-phosphate	P121-PWY	PWY0-1296	P1-PWY	PWY-6609													1*GHGN-837-MONOMER
+ENZRXNHGN-357	3-oxoacyl-ACP synthase	a cis-docos-3-enoyl-[acp] + a malonyl-[acp]  <-->  a cis-delta5-3-oxo-C24:1-[acp] + a holo-[acyl-carrier protein] + CO2																	1*GHGN-423-MONOMER
+ENZRXNHGN-463	bifunctional acetaldehyde-CoA/alcohol dehydrogenase	n-propanol + NAD+  <-->  propanal + NADH + H+																	1*GHGN-2071-MONOMER
+ENZRXNHGN-358	3-oxoacyl-ACP synthase	a 2,3,4-saturated fatty acyl-[acp] + a malonyl-[acp]  <-->  a 3-oxoacyl-[acp] + CO2 + a holo-[acyl-carrier protein]	FASYN-ELONG-PWY																1*GHGN-423-MONOMER
+ENZRXNHGN-662	purine nucleoside phosphorylase	5'-deoxy-5'-chloroadenosine + phosphate  <-->  5-chloro-5-deoxyribose 1-phosphate + adenine																	1*GHGN-837-MONOMER
+ENZRXNHGN-64	guanylate kinase	GMP + ATP  <-->  GDP + ADP	PWY-6125	P1-PWY															1*GHGN-1745-MONOMER
+ENZRXNHGN-182	peptidase T	a tripeptide + H2O  <-->  a dipeptide + a standard alpha amino acid																	1*GHGN-1012-MONOMER
+ENZRXNHGN-663	purine nucleoside phosphorylase	a purine ribonucleoside + phosphate  <-->  a purine base + alpha-D-ribose-1-phosphate																	1*GHGN-837-MONOMER
+ENZRXNHGN-359	3-oxoacyl-ACP synthase	a hexanoyl-[acyl-carrier-protein] + malonyl-CoA + H+  <-->  a 3-oxo-octanoyl-[acp] + CO2 + coenzyme A																	1*GHGN-423-MONOMER
+ENZRXNHGN-65	DNA-directed RNA polymerase subunit omega	a nucleoside triphosphate + RNA(n)  <-->  RNA(n+1) + diphosphate																	1*GHGN-1744-MONOMER
+ENZRXNHGN-664	purine nucleoside phosphorylase	xanthosine + phosphate  <-->  alpha-D-ribose-1-phosphate + xanthine	SALVPURINE2-PWY	PWY-5695	PWY0-1296														1*GHGN-837-MONOMER
+ENZRXNHGN-360	3-oxoacyl-ACP synthase	a dodecanoyl-[acp] + malonyl-CoA + H+  <-->  a 3-oxo-myristoyl-[acp] + CO2 + coenzyme A																	1*GHGN-423-MONOMER
+ENZRXNHGN-464	bifunctional acetaldehyde-CoA/alcohol dehydrogenase	phytol + NAD+  <-->  phytenal + NADH + H+																	1*GHGN-2071-MONOMER
+ENZRXNHGN-361	3-oxoacyl-ACP synthase	arachidoyl-CoA + a malonyl-[acp]  <-->  a 3-oxo-behenoyl-[acp] + CO2 + coenzyme A																	1*GHGN-423-MONOMER
+ENZRXNHGN-665	bifunctional 5,10-methylene-tetrahydrofolate dehydrogenase/ 5,10-methylene-tetrahydrofolate cyclohydrolase	5,10-methenyltetrahydrofolate + H2O  <-->  10-formyl-tetrahydrofolate + H+	PWY-6613	PWY-1722	PWY-5497	PWY-2201													1*GHGN-827-MONOMER
+ENZRXNHGN-362	3-oxoacyl-ACP synthase	an acyl-[acyl-carrier protein] + a malonyl-[acp]  <-->  a 3-oxoacyl-[acp] + CO2 + a holo-[acyl-carrier protein]																	1*GHGN-423-MONOMER
+ENZRXNHGN-183	5'-methylthioadenosine/S-adenosylhomocysteine nucleosidase	S-ribosyl-L-homocysteine + adenine  <-->  S-adenosyl-L-homocysteine + H2O	PWY-6151	PWY-6153															1*GHGN-995-MONOMER
+ENZRXNHGN-363	3-oxoacyl-ACP synthase	a butyryl-[acp] + malonyl-CoA + H+  <-->  a 3-oxo-hexanoyl-[acp] + CO2 + coenzyme A																	1*GHGN-423-MONOMER
+ENZRXNHGN-465	bifunctional acetaldehyde-CoA/alcohol dehydrogenase	3-methylbutanol + NAD+  <-->  3-methylbutanal + NADH + H+																	1*GHGN-2071-MONOMER
+ENZRXNHGN-666	bifunctional 5,10-methylene-tetrahydrofolate dehydrogenase/ 5,10-methylene-tetrahydrofolate cyclohydrolase	5,10-methylenetetrahydrofolate + NADP+  <-->  5,10-methenyltetrahydrofolate + NADPH	PWY-1722	PWY-5497	PWY-2201	1CMET2-PWY													1*GHGN-827-MONOMER
+ENZRXNHGN-364	3-oxoacyl-ACP synthase	a decanoyl-[acp] + malonyl-CoA + H+  <-->  a 3-oxo-dodecanoyl-[acp] + CO2 + coenzyme A																	1*GHGN-423-MONOMER
+ENZRXNHGN-66	methionyl-tRNA formyltransferase	L-methionyl-tRNAfmet + 10-formyl-tetrahydrofolate  <-->  N-formyl-L-methionyl-tRNAfmet + tetrahydrofolate																	1*GHGN-1742-MONOMER
+ENZRXNHGN-667	transposase	an insertion sequence element IS30  <-->  an insertion sequence IS30 with integrated transposon																	1*GHGN-813-MONOMER
+ENZRXNHGN-365	enoyl-CoA hydratase	a (3S)-3-hydroxyacyl-CoA  <-->  a trans-2-enoyl-CoA + H2O																	1*GHGN-421-MONOMER
+ENZRXNHGN-466	bifunctional acetaldehyde-CoA/alcohol dehydrogenase	indole-3-glycol + NAD+  <-->  indole-3-glycol aldehyde + NADH + H+																	1*GHGN-2071-MONOMER
+ENZRXNHGN-668	DNA gyrase subunit B	a double stranded DNA + ATP  <-->  a negatively supercoiled DNA + ADP + phosphate																	1*GHGN-808-MONOMER
+ENZRXNHGN-669	bifunctional ATP-dependent DNA helicase/DNA polymerase III subunit epsilon	a deoxyribonucleoside triphosphate + (deoxynucleotides)(n)  <-->  (deoxynucleotides)(n+1) + diphosphate																	1*GHGN-804-MONOMER
+ENZRXNHGN-184	foldase protein PrsA	peptidylproline (omega = 180)  <-->  peptidylproline (omega = 0)																	1*GHGN-985-MONOMER
+ENZRXNHGN-670	bifunctional ATP-dependent DNA helicase/DNA polymerase III subunit epsilon	a supercoiled duplex DNA + ATP  <-->  a single stranded DNA + ADP + phosphate																	1*GHGN-804-MONOMER
+ENZRXNHGN-67	phospho-2-dehydro-3-deoxyheptonate aldolase	phosphoenolpyruvate + D-erythrose 4-phosphate + H2O  <-->  3-deoxy-D-arabino-heptulosonate-7-phosphate + phosphate	PWY-6164																1*GHGN-1708-MONOMER
+ENZRXNHGN-366	enoyl-CoA hydratase	3-hydroxyadipyl-CoA  <-->  2,3-dehydroadipyl-CoA + H2O	PWY0-321																1*GHGN-421-MONOMER
+ENZRXNHGN-467	bifunctional acetaldehyde-CoA/alcohol dehydrogenase	tyrosol + NAD+  <-->  (4-hydroxyphenyl)acetaldehyde + NADH + H+																	1*GHGN-2071-MONOMER
+ENZRXNHGN-185	dephospho-CoA kinase	dephospho-CoA + ATP  <-->  ADP + coenzyme A + H+	COA-PWY																1*GHGN-975-MONOMER
+ENZRXNHGN-671	aminopeptidase	amino acids(n) + H2O  <-->  a standard alpha amino acid + amino acids(n-1)	PWY-5988	PWY-6018															1*GHGN-799-MONOMER
+ENZRXNHGN-68	phospho-2-dehydro-3-deoxyheptonate aldolase	phosphoenolpyruvate + D-erythrose 4-phosphate + H2O  <-->  3-deoxy-D-arabino-heptulosonate-7-phosphate + phosphate	PWY-6164																1*GHGN-1707-MONOMER
+ENZRXNHGN-672	aminopeptidase	a protein + H2O  <-->  a standard alpha amino acid + a peptide																	1*GHGN-799-MONOMER
+ENZRXNHGN-468	bifunctional acetaldehyde-CoA/alcohol dehydrogenase	isobutanol + NAD+  <-->  isobutanal + NADH + H+	PWY-5057																1*GHGN-2071-MONOMER
+ENZRXNHGN-367	enoyl-CoA hydratase	OPC4-3-hydroxyacyl-CoA  <-->  OPC4-trans-2-enoyl-CoA + H2O																	1*GHGN-421-MONOMER
+ENZRXNHGN-186	formamidopyrimidine-DNA glycosylase	a DNA containing ring-opened 7-methylguanine + H2O  <-->  2,6-diamino-4-hydroxy-5-formamidopyrimidine + DNAn																	1*GHGN-974-MONOMER
+ENZRXNHGN-673	aminopeptidase	a protein + H2O  <-->  a peptide + a standard alpha amino acid																	1*GHGN-799-MONOMER
+ENZRXNHGN-674	aldo/keto reductase	a (1'-hydroxy-3',5'-dioxo-2'-(3''-oxobutanoyl)cyclohexyl)-3,5-dioxohexanethioate-[PKS-acp] + NADPH  <-->  a (1',5'-dihydroxy-3'-oxo-2'-(3''-oxobutanoyl)cyclohexyl)-3,5-dioxohexanethioate-[PKS-acp] + NADP+																	1*GHGN-793-MONOMER
+ENZRXNHGN-469	bifunctional acetaldehyde-CoA/alcohol dehydrogenase	3,4-dihydroxyphenylglycol + NAD+  <-->  3,4-dihydroxyphenylglycolaldehyde + NADH + H+																	1*GHGN-2071-MONOMER
+ENZRXNHGN-69	4'-phosphopantetheinyl transferase	an apo-[acp] + coenzyme A  <-->  adenosine 3',5'-bisphosphate + a holo-[acyl-carrier protein]	PWY-6012																1*GHGN-1706-MONOMER
+ENZRXNHGN-187	formamidopyrimidine-DNA glycosylase	a damaged DNA (purine or pyrimidine)  <-->  an AP (apurinic or apyrimidinic) site created by glycosylic bond cleavage																	1*GHGN-974-MONOMER
+ENZRXNHGN-675	tRNA (guanine-N(1)-)-methyltransferase	guanine9 in tRNA + S-adenosyl-L-methionine  <-->  N1-methylguanine9 in tRNA + S-adenosyl-L-homocysteine + H+																	1*GHGN-781-MONOMER
+ENZRXNHGN-368	enoyl-CoA hydratase	a (3R)-3-hydroxyacyl-CoA  <-->  a cis-2-enoyl-CoA + H2O																	1*GHGN-421-MONOMER
+ENZRXNHGN-838	malate dehydrogenase	(S)-malate + NAD+  <-->  oxaloacetate + NADH + H+	ANARESP1-PWY	FERMENTATION-PWY															1*GHGN-1225-MONOMER
+ENZRXNHGN-839	pyruvate dehydrogenase	pyruvate + coenzyme A + NAD+  <-->  acetyl-CoA + CO2 + NADH	ANARESP1-PWY																1*GHGN-1595-MONOMER
+ENZRXNHGN-840	6-phosphogluconolactonase	6-phospho D-glucono-1,5-lactone + H2O  <-->  6-phospho D-gluconate + H+	OXIDATIVEPENT-PWY	P122-PWY															1*GHGN-1247-MONOMER
+ENZRXNHGN-70	alanine racemase	L-alanine  <-->  D-alanine	ALANINE-VALINESYN-PWY																1*GHGN-1705-MONOMER
+ENZRXNHGN-470	bifunctional acetaldehyde-CoA/alcohol dehydrogenase	2-methylbutanol + NAD+  <-->  2-methylbutanal + NADH + H+																	1*GHGN-2071-MONOMER
+ENZRXNHGN-676	tRNA (guanine-N(1)-)-methyltransferase	guanine37 in tRNA + S-adenosyl-L-methionine  <-->  N1-methylguanine37 in tRNA + S-adenosyl-L-homocysteine + H+																	1*GHGN-781-MONOMER
+ENZRXNHGN-841	acetaldehyde dehydrogenase	acetaldehyde + coenzyme A + NAD+  <-->  acetyl-CoA + NADH + H+	PWY-7180	P122-PWY	PWY-5480	FERMENTATION-PWY													1*GHGN-2071-MONOMER
+ENZRXNHGN-677	cyclophilin type peptidyl-prolyl cis-trans isomerase	peptidylproline (omega = 180)  <-->  peptidylproline (omega = 0)																	1*GHGN-773-MONOMER
+ENZRXNHGN-678	DNA polymerase III subunit delta	a deoxyribonucleoside triphosphate + (deoxynucleotides)(n)  <-->  (deoxynucleotides)(n+1) + diphosphate																	1*GHGN-767-MONOMER
+ENZRXNHGN-369	enoyl-CoA hydratase	OPC6-3-hydroxyacyl-CoA  <-->  OPC6-trans-2-enoyl-CoA + H2O																	1*GHGN-421-MONOMER
+ENZRXNHGN-842	phosphogluconate dehydratase	6-phospho D-gluconate  <-->  2-dehydro-3-deoxy-D-gluconate-6-phosphate + H2O	ENTNER-DOUDOROFF-PWY																1*GHGN-2187-MONOMER
+ENZRXNHGN-843	butanal dehydrogenase	butanal + NAD(P)+ + coenzyme A  <-->  butanoyl-CoA + NAD(P)H + H+	PWY-7003																1*GHGN-2071-MONOMER
+ENZRXNHGN-679	cytidine and deoxycytidylate deaminase	dCTP + H2O  <-->  ammonia + dUTP	PWY0-166																1*GHGN-745-MONOMER
+ENZRXNHGN-188	dihydroorotate dehydrogenase electron transfer subunit	orotate + 2 H+ + 2 e-  <-->  (S)-dihydroorotate	DIHYDROOROTATE-DEHYDROGENASE-RXN	RXN0-6491	RXN0-6554														1*GHGN-967-MONOMER
+ENZRXNHGN-844	L-serine deaminase	L-serine  <-->  pyruvate + ammonia + H+	PWY-5497																1*GHGN-456-MONOMER
+ENZRXNHGN-845	glycine formimidoyltransferase	glycine + 5-formiminotetrahydrofolate  <-->  N-formimino-glycine + tetrahydrofolate	PWY-5497																1*GHGN-2153-MONOMER
+ENZRXNHGN-189	dihydroorotate dehydrogenase electron transfer subunit	a menaquinone + 2 H+ + 2 e-  <-->  a menaquinol	R601-RXN	RXN0-6554															1*GHGN-967-MONOMER
+ENZRXNHGN-846	guanine deaminase	guanine + H2O  <-->  ammonia + xanthine	PWY-5497																1*GHGN-1362-MONOMER
+ENZRXNHGN-370	enoyl-CoA hydratase	3-(4-hydroxyphenyl)-3-hydroxy-propionyl-CoA  <-->  4-coumaroyl-CoA + H2O																	1*GHGN-421-MONOMER
+ENZRXNHGN-680	cytidine and deoxycytidylate deaminase	2'-deoxycytidine + H2O  <-->  2'-deoxyuridine + ammonia	PWY0-181	PWY-7181															1*GHGN-745-MONOMER
+ENZRXNHGN-471	bifunctional acetaldehyde-CoA/alcohol dehydrogenase	a primary alcohol + an oxidized azurin  <-->  an aldehyde + a reduced azurin																	1*GHGN-2071-MONOMER
+ENZRXNHGN-847	D-allose kinase	D-allose + ATP  <-->  D-allose-6-phosphate + ADP + H+	PWY0-44																1*GHGN-669-MONOMER
+ENZRXNHGN-190	dihydroorotate dehydrogenase electron transfer subunit	(S)-dihydroorotate + a menaquinone  <-->  orotate + a menaquinol																	1*GHGN-967-MONOMER
+ENZRXNHGN-848	allose-6-phosphate isomerase	D-allose-6-phosphate  <-->  D-allulose-6-phosphate	PWY0-44																1*GHGN-1197-MONOMER
+ENZRXNHGN-849	methylmalonate-semialdehyde dehydrogenase	(S)-methylmalonate-semialdehyde + coenzyme A + NAD+ + H2O  <-->  propanoyl-CoA + bicarbonate + NADH + H+	VALDEG-PWY																1*GHGN-1124-MONOMER
+ENZRXNHGN-472	bifunctional acetaldehyde-CoA/alcohol dehydrogenase	a primary alcohol + 2 an oxidized cytochrome cL  <-->  an aldehyde + 2 a reduced cytochrome cL																	1*GHGN-2071-MONOMER
+ENZRXNHGN-71	N-acetylmannosamine-6-phosphate 2-epimerase	N-acetyl-D-mannosamine-6-phosphate  <-->  N-acetyl-D-glucosamine-6-phosphate	PWY0-1324																1*GHGN-1692-MONOMER
+ENZRXNHGN-681	mannose-6-phosphate isomerase	alpha-D-mannose-6-phosphate  <-->  D-fructose 6-phosphate	MANNCAT-PWY																1*GHGN-737-MONOMER
+ENZRXNHGN-850	3-hydroxyisobutyryl-CoA hydrolase	(S)-3-hydroxy-isobutanoyl-CoA + H2O  <-->  (S)-3-hydroxy-isobutanoate + coenzyme A + H+	VALDEG-PWY																1*GHGN-421-MONOMER
+ENZRXNHGN-371	enoyl-CoA hydratase	2-methyl-3-hydroxybutyryl-CoA  <-->  (E)-2-methylcrotonoyl-CoA + H2O	ILEUDEG-PWY																1*GHGN-421-MONOMER
+ENZRXNHGN-851	&alpha;-ketoisovalerate decarboxylase	3-methyl-2-oxobutanoate + H+  <-->  isobutanal + CO2	PWY-5057																1*GHGN-451-MONOMER
+ENZRXNHGN-191	dihydroorotate dehydrogenase electron transfer subunit	an ubiquinone + 2 H+ + 2 e-  <-->  an ubiquinol	RXN0-5258	RXN-11496	RXN0-6491														1*GHGN-967-MONOMER
+ENZRXNHGN-852	indole-3-lactate dehydrogenase	indole-3-lactate + NAD+  <-->  indole-3-pyruvate + NADH + H+	TRPKYNCAT-PWY																1*GHGN-427-MONOMER
+ENZRXNHGN-473	bifunctional acetaldehyde-CoA/alcohol dehydrogenase	a primary alcohol + 2 an oxidized cytochrome c550  <-->  an aldehyde + 2 a reduced cytochrome c550																	1*GHGN-2071-MONOMER
+ENZRXNHGN-682	pyruvate oxidase	pyruvate + phosphate + H+ + oxygen  <-->  acetylphosphate + CO2 + hydrogen peroxide																	1*GHGN-731-MONOMER
+ENZRXNHGN-853	3-methylglutaconyl-CoA hydratase	(S)-3-hydroxy-3-methylglutaryl-CoA  <-->  3-methylglutaconyl-CoA + H2O	LEU-DEG2-PWY																1*GHGN-421-MONOMER
+ENZRXNHGN-192	dihydroorotate dehydrogenase electron transfer subunit	an ubiquinone + (S)-dihydroorotate  <-->  an ubiquinol + orotate	PWY-5686																1*GHGN-967-MONOMER
+ENZRXNHGN-854	4-methyl-2-oxopentanoate dehydrogenase	4-methyl-2-oxopentanoate + coenzyme A + NAD+  <-->  isovaleryl-CoA + CO2 + NADH	LEU-DEG2-PWY																1*GHGN-1168-MONOMER
+ENZRXNHGN-855	2-oxo-3-methyl-isovalerate dehydrogenase	(S)-3-methyl-2-oxopentanoate + coenzyme A + NAD+  <-->  2-methylbutanoyl-CoA + CO2 + NADH	ILEUDEG-PWY																1*GHGN-1168-MONOMER
+ENZRXNHGN-72	N-acetylmannosamine-6-phosphate 2-epimerase	an N-acyl-D-glucosamine 6-phosphate  <-->  an N-acyl-alpha-D-mannosamine 6-phosphate																	1*GHGN-1692-MONOMER
+ENZRXNHGN-683	pyruvate oxidase	acetate + CO2 + 2 H+ + 2 e-  <-->  pyruvate + H2O	RXN-11496																1*GHGN-731-MONOMER
+ENZRXNHGN-856	3-hydroxy-2-methylbutyryl-CoA dehydrogenase	2-methyl-3-hydroxybutyryl-CoA + NAD+  <-->  2-methylacetoacetyl-CoA + NADH + H+	ILEUDEG-PWY																1*GHGN-427-MONOMER
+ENZRXNHGN-372	enoyl-CoA hydratase	(S)-3-hydroxy-isobutanoyl-CoA  <-->  methylacrylyl-CoA + H2O	VALDEG-PWY																1*GHGN-421-MONOMER
+ENZRXNHGN-684	pyruvate oxidase	an ubiquinone + 2 H+ + 2 e-  <-->  an ubiquinol	RXN0-5258	RXN-11496	RXN0-6491														1*GHGN-731-MONOMER
+ENZRXNHGN-857	glycerol-3-phosphate dehydrogenase, aerobic	sn-glycerol-3-phosphate + an ubiquinone  <-->  dihydroxyacetone phosphate + an ubiquinol	PWY-4261																1*GHGN-2244-MONOMER
+ENZRXNHGN-193	dihydroorotate dehydrogenase electron transfer subunit	an electron-transfer-related quinone + 2 H+ + 2 e-  <-->  an electron-transfer-related quinol	DLACTDEHYDROGFAD-RXN	DIHYDROOROTATE-DEHYDROGENASE-RXN															1*GHGN-967-MONOMER
+ENZRXNHGN-858	dihydroxyacetone kinase	dihydroxyacetone + phosphoenolpyruvate  <-->  dihydroxyacetone phosphate + pyruvate	GLYCEROLMETAB-PWY																1*GHGN-1181-MONOMER
+ENZRXNHGN-685	pyruvate oxidase	pyruvate + an ubiquinone + H2O  <-->  CO2 + an ubiquinol + acetate	PYRUVOX-PWY																1*GHGN-731-MONOMER
+ENZRXNHGN-474	bifunctional acetaldehyde-CoA/alcohol dehydrogenase	ethanol + NAD+  <-->  acetaldehyde + NADH + H+	PWY-6028	P122-PWY	PWY-5480	FERMENTATION-PWY													1*GHGN-2071-MONOMER
+ENZRXNHGN-859	1,2-epoxyphenylacetyl-CoA isomerase	2-(1,2-epoxy-1,2-dihydrophenyl)acetyl-CoA  <-->  2-oxepin-2(3H)-ylideneacetyl-CoA	PWY0-321																1*GHGN-421-MONOMER
+ENZRXNHGN-194	dihydroorotate dehydrogenase electron transfer subunit	an electron-transfer-related quinone + (S)-dihydroorotate  <-->  an electron-transfer-related quinol + orotate																	1*GHGN-967-MONOMER
+ENZRXNHGN-860	L-idonate 5-dehydrogenase	L-idonate + NAD(P)+  <-->  5-dehydro-D-gluconate + NAD(P)H + H+	IDNCAT-PWY																1*GHGN-291-MONOMER
+ENZRXNHGN-861	D-gluconate kinase	ATP + D-gluconate  <-->  6-phospho D-gluconate + ADP + H+	IDNCAT-PWY																1*GHGN-2245-MONOMER
+ENZRXNHGN-373	enoyl-CoA hydratase	OPC8-3-hydroxyacyl-CoA  <-->  OPC8-trans-2-enoyl-CoA + H2O																	1*GHGN-421-MONOMER
+ENZRXNHGN-862	N-acetyl-D-glucosamine kinase	N-acetyl-beta-D-glucosamine + ATP  <-->  N-acetyl-D-glucosamine-6-phosphate + ADP + H+	PWY-6517																1*GHGN-669-MONOMER
+ENZRXNHGN-195	DNA polymerase III subunit delta	a deoxyribonucleoside triphosphate + (deoxynucleotides)(n)  <-->  (deoxynucleotides)(n+1) + diphosphate																	1*GHGN-940-MONOMER
+ENZRXNHGN-475	bifunctional acetaldehyde-CoA/alcohol dehydrogenase	ethanol + an ubiquinone  <-->  acetaldehyde + an ubiquinol																	1*GHGN-2071-MONOMER
+ENZRXNHGN-863	<i>N</i>-acetylmannosamine kinase	N-acetyl-D-mannosamine + ATP  <-->  N-acetyl-D-mannosamine-6-phosphate + ADP + H+	PWY0-1324																1*GHGN-669-MONOMER
+ENZRXNHGN-374	aspartate kinase	L-aspartate + ATP  <-->  L-aspartyl-4-phosphate + ADP	HOMOSERSYN-PWY	DAPLYSINESYN-PWY															1*GHGN-419-MONOMER
+ENZRXNHGN-864	<i>N</i><sup>5</sup>-carboxyaminoimidazole ribonucleotide synthetase	5-amino-1-(5-phospho-D-ribosyl)imidazole + ATP + bicarbonate  <-->  N5-carboxyaminoimidazole ribonucleotide + ADP + phosphate + 2 H+	PWY-6123																1*GHGN-60-MONOMER
+ENZRXNHGN-476	bifunctional acetaldehyde-CoA/alcohol dehydrogenase	an alcohol + NADP+  <-->  an aldehyde + NADPH + H+																	1*GHGN-2071-MONOMER
+ENZRXNHGN-73	D-alanyl-alanine synthetase A	2 D-alanine + ATP  <-->  D-alanyl-D-alanine + ADP + phosphate + H+	PWY-6387	PWY-6386															1*GHGN-1678-MONOMER
+ENZRXNHGN-196	thymidylate kinase	ATP + dTMP  <-->  ADP + dTDP	PWY0-166	P1-PWY															1*GHGN-939-MONOMER
+ENZRXNHGN-865	<i>N</i><sup>5</sup></i>-carboxyaminoimidazole ribonucleotide mutase	N5-carboxyaminoimidazole ribonucleotide  <-->  5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxylate	PWY-6123																1*GHGN-59-MONOMER
+ENZRXNHGN-686	thiamine-phosphate pyrophosphorylase	2-(2-carboxy-4-methylthiazol-5-yl)ethyl phosphate + 4-amino-2-methyl-5-diphosphomethylpyrimidine + 2 H+  <-->  thiamin phosphate + CO2 + diphosphate	PWY-6893																1*GHGN-726-MONOMER
+ENZRXNHGN-866	IMP cyclohydrolase	IMP + H2O  <-->  phosphoribosyl-formamido-carboxamide	PWY-6123	PWY-6124															1*GHGN-56-MONOMER
+ENZRXNHGN-375	seryl-tRNA synthetase	tRNAsec + L-serine + ATP + H+  <-->  L-seryl-tRNAsec + AMP + diphosphate																	1*GHGN-417-MONOMER
+ENZRXNHGN-477	bifunctional acetaldehyde-CoA/alcohol dehydrogenase	a primary alcohol + NAD+  <-->  an aldehyde + NADH + H+																	1*GHGN-2071-MONOMER
+ENZRXNHGN-867	xanthosine-5'-phosphate:ammonia ligase (AMP-forming)	ammonia + XMP + ATP  <-->  AMP + GMP + diphosphate + H+	PWY-6125																1*GHGN-1451-MONOMER
+ENZRXNHGN-868	phosphoribosylglycinamide formyltransferase	5-phospho-ribosyl-glycineamide + formate + ATP  <-->  5'-phosphoribosyl-N-formylglycineamide + ADP + phosphate + H+	PWY-6277	PWY-6122															1*GHGN-60-MONOMER
+ENZRXNHGN-376	seryl-tRNA synthetase	tRNAser + L-serine + ATP + H+  <-->  L-seryl-tRNAser + AMP + diphosphate	TRNA-CHARGING-PWY																1*GHGN-417-MONOMER
+ENZRXNHGN-687	thiamine-phosphate pyrophosphorylase	2-[(2R,5Z)-(2-carboxy-4-methylthiazol-5(2H)-ylidene]ethyl phosphate + 4-amino-2-methyl-5-diphosphomethylpyrimidine + 2 H+  <-->  thiamin phosphate + CO2 + diphosphate	PWY-6894																1*GHGN-726-MONOMER
+ENZRXNHGN-869	RNase BN exoribonuclease	a tRNA precursor with a 5' extension and a long 3' trailer  <-->  a tRNA precursor with a 5' extension + a ribonucleoside 5'-monophosphate	PWY0-1479																1*GHGN-979-MONOMER
+ENZRXNHGN-377	ribonuclease HIII	a RNA-DNA hybrid + H2O  <-->  a DNA + n a nucleoside 5'-monophosphate																	1*GHGN-409-MONOMER
+ENZRXNHGN-870	ribonuclease	a tRNA precursor with a 5' extension and a long 3' trailer  <-->  a tRNA precursor with a 5' extension and a short 3' extension + n a nucleoside 5'-monophosphate	PWY0-1479																1*GHGN-592-MONOMER
+ENZRXNHGN-197	gamma-glutamyl phosphate reductase	L-glutamate gamma-semialdehyde + NADP+ + phosphate  <-->  L-glutamate-5-phosphate + NADPH + H+	PROSYN-PWY																1*GHGN-936-MONOMER
+ENZRXNHGN-871	guanosine 3'-diphosphate 5'-triphosphate 3'-diphosphatase	pppGpp + H2O  <-->  GTP + diphosphate + H+	PPGPPMET-PWY																1*GHGN-1652-MONOMER
+ENZRXNHGN-688	thiamine-phosphate pyrophosphorylase	4-methyl-5-(2-phosphonooxyethyl)thiazole + 4-amino-2-methyl-5-diphosphomethylpyrimidine + H+  <-->  thiamin phosphate + diphosphate	PWY-6897																1*GHGN-726-MONOMER
+ENZRXNHGN-478	bifunctional acetaldehyde-CoA/alcohol dehydrogenase	5-hydroxytryptophol + NAD+  <-->  5-hydroxyindole acetaldehyde + NADH + H+																	1*GHGN-2071-MONOMER
+ENZRXNHGN-74	isoleucyl-tRNA synthetase	tRNAile + L-isoleucine + ATP + H+  <-->  L-isoleucyl-tRNAile + AMP + diphosphate	TRNA-CHARGING-PWY																1*GHGN-1666-MONOMER
+ENZRXNHGN-872	guanosine-3',5'-bis(diphosphate) 3'-diphosphatase	ppGpp + H2O  <-->  GDP + diphosphate + H+	PPGPPMET-PWY																1*GHGN-1652-MONOMER
+ENZRXNHGN-689	hydroxyethylthiazole kinase	ATP + 4-methyl-5-(beta-hydroxyethyl)thiazole  <-->  ADP + 4-methyl-5-(2-phosphonooxyethyl)thiazole + H+	PWY-6897																1*GHGN-725-MONOMER
+ENZRXNHGN-873	5'-fluoro-5'-deoxyadenosine synthase	S-adenosyl-L-methionine + fluoride  <-->  5'-deoxy-5'-fluoroadenosine + L-methionine	PWY-6644																1*GHGN-487-MONOMER
+ENZRXNHGN-378	isopentenyl pyrophosphate isomerase	isopentenyl diphosphate  <-->  dimethylallyl diphosphate	NONMEVIPP-PWY	PWY-5123	PWY-922														1*GHGN-390-MONOMER
+ENZRXNHGN-690	thiamine-phosphate pyrophosphorylase	2-(2-carboxy-4-methylthiazol-5-yl)ethyl phosphate + 4-amino-2-methyl-5-diphosphomethylpyrimidine + 2 H+  <-->  thiamin phosphate + CO2 + diphosphate	PWY-6893																1*GHGN-719-MONOMER
+ENZRXNHGN-874	hydroxymethylpyrimidine kinase	ATP + hydroxymethylpyrimidine  <-->  ADP + 4-amino-2-methyl-5-phosphomethylpyrimidine + H+	PWY-6910																1*GHGN-727-MONOMER
+ENZRXNHGN-479	glyceraldehyde-3-phosphate dehydrogenase	D-glyceraldehyde 3-phosphate + NAD(P)+ + phosphate  <-->  1,3-bisphospho-D-glycerate + NAD(P)H + H+																	1*GHGN-2057-MONOMER
+ENZRXNHGN-198	gamma-glutamyl kinase	L-glutamate + ATP  <-->  L-glutamate-5-phosphate + ADP	PROSYN-PWY																1*GHGN-935-MONOMER
+ENZRXNHGN-691	thiamine-phosphate pyrophosphorylase	2-[(2R,5Z)-(2-carboxy-4-methylthiazol-5(2H)-ylidene]ethyl phosphate + 4-amino-2-methyl-5-diphosphomethylpyrimidine + 2 H+  <-->  thiamin phosphate + CO2 + diphosphate	PWY-6894																1*GHGN-719-MONOMER
+ENZRXNHGN-875	bifunctional 5,10-methylene-tetrahydrofolate dehydrogenase/ 5,10-methylene-tetrahydrofolate cyclohydrolase	5,10-methylenetetrahydrofolate + NAD+  <-->  5,10-methenyltetrahydrofolate + NADH	PWY-2201																1*GHGN-827-MONOMER
+ENZRXNHGN-692	thiamine-phosphate pyrophosphorylase	4-methyl-5-(2-phosphonooxyethyl)thiazole + 4-amino-2-methyl-5-diphosphomethylpyrimidine + H+  <-->  thiamin phosphate + diphosphate	PWY-6897																1*GHGN-719-MONOMER
+ENZRXNHGN-876	gcv system	glycine + tetrahydrofolate + NAD+  <-->  ammonia + CO2 + 5,10-methylenetetrahydrofolate + NADH + H+	PWY-2201	1CMET2-PWY															1*GHGN-1166-MONOMER
+ENZRXNHGN-75	threonyl-tRNA synthetase	tRNAthr + L-threonine + ATP + H+  <-->  L-threonyl-tRNAthr + AMP + diphosphate	TRNA-CHARGING-PWY																1*GHGN-1638-MONOMER
+ENZRXNHGN-379	6-phosphogluconate dehydrogenase	6-phospho D-gluconate + NADP+  <-->  D-ribulose 5-phosphate + CO2 + NADPH	OXIDATIVEPENT-PWY																1*GHGN-381-MONOMER
+ENZRXNHGN-480	glyceraldehyde-3-phosphate dehydrogenase	D-glyceraldehyde 3-phosphate + NADP+ + H2O  <-->  3-phospho-D-glycerate + NADPH + 2 H+																	1*GHGN-2057-MONOMER
+ENZRXNHGN-1	tryptophanyl-tRNA synthetase	L-tryptophan + tRNAtrp + ATP + H+  <-->  AMP + L-tryptophanyl-tRNAtrp + diphosphate	TRNA-CHARGING-PWY																1*GHGN-2288-MONOMER
+ENZRXNHGN-877	GTP cyclohydrolase	GTP + 3 H2O  <-->  2,5-diamino-6-(5-phospho-D-ribosylamino)pyrimidin-4(3H)-one + formate + diphosphate + 2 H+	RIBOSYN2-PWY																1*GHGN-182-MONOMER
+ENZRXNHGN-693	lactate oxidase	(S)-lactate + oxygen  <-->  acetate + CO2 + H2O																	1*GHGN-716-MONOMER
+ENZRXNHGN-76	transketolase	D-sedoheptulose 7-phosphate + D-glyceraldehyde 3-phosphate  <-->  D-ribose 5-phosphate + D-xylulose 5-phosphate	P21-PWY	NONOXIPENT-PWY															1*GHGN-1622-MONOMER
+ENZRXNHGN-878	diaminohydroxyphosphoribosylaminopyrimidine deaminase	2,5-diamino-6-(5-phospho-D-ribosylamino)pyrimidin-4(3H)-one + H2O  <-->  5-amino-6-(5-phospho-D-ribosylamino)uracil + ammonia	RIBOSYN2-PWY																1*GHGN-184-MONOMER
+ENZRXNHGN-879	5-amino-6-(5-phosphoribosylamino)uracil reductase	5-amino-6-(5-phospho-D-ribitylamino)uracil + NADP+  <-->  5-amino-6-(5-phospho-D-ribosylamino)uracil + NADPH + H+	RIBOSYN2-PWY																1*GHGN-184-MONOMER
+ENZRXNHGN-694	ribosomal small subunit pseudouridine synthase A	a 16S rRNA uridine516  <-->  a 16S rRNA pseudouridine516																	1*GHGN-681-MONOMER
+ENZRXNHGN-380	phospho-N-acetylmuramoyl-pentapeptide-transferase	UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimelyl-D-alanyl-D-alanine + di-trans,octa-cis-undecaprenyl phosphate  <-->  N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimelyl-D-alanyl-D-alanine-diphosphoundecaprenol + uridine-5'-monophosphate	PEPTIDOGLYCANSYN-PWY																1*GHGN-343-MONOMER
+ENZRXNHGN-880	FMN adenylyltransferase	ATP + FMN + H+  <-->  FAD + diphosphate	RIBOSYN2-PWY																1*GHGN-1115-MONOMER
+ENZRXNHGN-77	transketolase	D-erythrose 4-phosphate + D-xylulose 5-phosphate  <-->  D-fructose 6-phosphate + D-glyceraldehyde 3-phosphate	PWY-6901	P21-PWY	NONOXIPENT-PWY														1*GHGN-1622-MONOMER
+ENZRXNHGN-881	dimethylallyltranstransferase	dimethylallyl diphosphate + isopentenyl diphosphate  <-->  geranyl diphosphate + diphosphate	PWY-5123																1*GHGN-1210-MONOMER
+ENZRXNHGN-882	2C-methyl-D-erythritol 2,4-cyclodiphosphate synthase	2-phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol  <-->  2-C-methyl-D-erythritol-2,4-cyclodiphosphate + cytidine-5'-monophosphate	NONMEVIPP-PWY																1*GHGN-1276-MONOMER
+ENZRXNHGN-381	phospho-N-acetylmuramoyl-pentapeptide-transferase	UDP-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-L-lysyl-D-alanine + di-trans,octa-cis-undecaprenyl phosphate  <-->  N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-L-lysyl- D-alanyl-diphosphoundecaprenol + uridine-5'-monophosphate	PWY-6470																1*GHGN-343-MONOMER
+ENZRXNHGN-883	1-deoxyxylulose-5-phosphate synthase	pyruvate + D-glyceraldehyde 3-phosphate + H+  <-->  1-deoxy-D-xylulose 5-phosphate + CO2	NONMEVIPP-PWY																1*GHGN-2188-MONOMER
+ENZRXNHGN-481	ribosomal large subunit pseudouridine synthase D	a tRNA uridine32  <-->  a pseudouridine32 in tRNA																	1*GHGN-2056-MONOMER
+ENZRXNHGN-695	glucokinase	a D-hexose + ATP  <-->  D-hexose 6-phosphate + ADP + H+																	1*GHGN-669-MONOMER
+ENZRXNHGN-884	NAD+ synthetase, glutamine dependent	ATP + nicotinate adenine dinucleotide + L-glutamine + H2O  <-->  L-glutamate + AMP + NAD+ + diphosphate + H+	PWY-5653	PYRIDNUCSAL-PWY	PYRIDNUCSYN-PWY														1*GHGN-1426-MONOMER
+ENZRXNHGN-199	spermidine synthase	putrescine + S-adenosyl-L-methioninamine  <-->  spermidine + S-methyl-5'-thioadenosine + H+	BSUBPOLYAMSYN-PWY																1*GHGN-922-MONOMER
+ENZRXNHGN-885	nicotinamidase	nicotinamide + H2O  <-->  ammonia + nicotinate + H+	PYRIDNUCSAL-PWY																1*GHGN-443-MONOMER
+ENZRXNHGN-382	phospho-N-acetylmuramoyl-pentapeptide-transferase	UDP-N-acetyl-alpha-D-muramoyl-L-alanyl-gamma-D-glutamyl-L-lysyl-D-alanyl-D-alanine + di-trans,octa-cis-undecaprenyl phosphate  <-->  N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-L-lysyl- D-alanyl-D-alanine-diphosphoundecaprenol + uridine-5'-monophosphate	PWY-6471																1*GHGN-343-MONOMER
+ENZRXNHGN-482	ribosomal large subunit pseudouridine synthase D	a 23S rRNA uridine2457  <-->  a 23S rRNA pseudouridine2457																	1*GHGN-2056-MONOMER
+ENZRXNHGN-696	glucokinase	beta-D-glucose + ATP  <-->  beta-D-glucose 6-phosphate + ADP + H+	P122-PWY	GLYCOCAT-PWY	ANAGLYCOLYSIS-PWY	GLUCOSE1PMETAB-PWY													1*GHGN-669-MONOMER
+ENZRXNHGN-886	NMN amidohydrolase	beta-nicotinamide D-ribonucleotide + H2O  <-->  ammonia + beta-nicotinate D-ribonucleotide + H+	PYRIDNUCSAL-PWY																1*GHGN-1971-MONOMER
+ENZRXNHGN-697	bifunctional methionine sulfoxide reductase A/B	a [protein]-L-methionine + an oxidized thioredoxin + H2O  <-->  a protein-L-methionine-(S)-S-oxide + a reduced thioredoxin																	1*GHGN-661-MONOMER
+ENZRXNHGN-887	peptidoglycan glycosyltransferase	[GlcNAc-(1->4)-MurNAc-pentapeptide]n-diphosphoundecaprenol + N-acetylmuramoyl-L-alanyl-D-glutamyl-L-lysyl-D-alanyl-D-alanine-diphosphoundecaprenyl-N-acetylglucosamine  <-->  di-trans,octa-cis-undecaprenyl diphosphate + [GlcNAc-(1->4)-MurNAc-pentapeptide](n+1)-diphosphoundecaprenol	PWY-6471	PWY-6385	PEPTIDOGLYCANSYN-PWY	PWY-6470													1*GHGN-375-MONOMER
+ENZRXNHGN-200	pyruvate kinase	pyruvate + ATP  <-->  phosphoenolpyruvate + ADP + H+	PWY-6901	PWY-7003	P122-PWY	ANAGLYCOLYSIS-PWY													1*GHGN-902-MONOMER
+ENZRXNHGN-78	cytidylate kinase	ATP + dCMP  <-->  ADP + dCDP																	1*GHGN-1610-MONOMER
+ENZRXNHGN-888	peptidoglycan glycosyltransferase	2 N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-decaprenol  <-->  a peptidoglycan dimer (mycobacteria) + omega, mono-trans,octa-cis-decaprenyl diphosphate + H+	PWY-6385																1*GHGN-375-MONOMER
+ENZRXNHGN-483	ribosomal large subunit pseudouridine synthase D	a 23S rRNA uridine2605  <-->  a pseudouridine2605 in 23S rRNA																	1*GHGN-2056-MONOMER
+ENZRXNHGN-383	gluconate 5-dehydrogenase	D-gluconate + NAD(P)+  <-->  5-dehydro-D-gluconate + NAD(P)H + H+	IDNCAT-PWY																1*GHGN-326-MONOMER
+ENZRXNHGN-889	peptidoglycan transglycosylase/D,D transpeptidase	2 a peptidoglycan dimer (mycobacteria) + 4 H2O  <-->  a peptidoglycan with D,D cross-links  (mycobacteria) + 4 D-alanine + omega, mono-trans,octa-cis-decaprenyl diphosphate + H+	PWY-6385																1*GHGN-375-MONOMER
+ENZRXNHGN-890	phospho-N-acetylmuramoyl-pentapeptide-transferase	UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimelyl-D-alanyl-D-alanine + trans,octacis-decaprenyl phosphate  <-->  N-acetylmuramoyl-pentapeptide-diphospho-decaprenol + uridine-5'-monophosphate	PWY-6385																1*GHGN-343-MONOMER
+ENZRXNHGN-698	beta-galactosidase	lactose + H2O  <-->  beta-D-galactose + beta-D-glucose	BGALACT-PWY																1*GHGN-650-MONOMER
+ENZRXNHGN-891	peptidoglycan glycosyltransferase	2 N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimelyl-D-alanyl-D-alanine-diphosphoundecaprenyl-N-acetylglucosamine  <-->  a peptidoglycan dimer (meso-diaminopimelate containing) + di-trans,octa-cis-undecaprenyl diphosphate + H+	PEPTIDOGLYCANSYN-PWY																1*GHGN-342-MONOMER
+ENZRXNHGN-201	6-phosphofructokinase	ATP + D-fructose 6-phosphate  <-->  ADP + fructose-1,6-bisphosphate + H+	ANAGLYCOLYSIS-PWY																1*GHGN-901-MONOMER
+ENZRXNHGN-384	keto-hydroxyglutarate-aldolase/keto-deoxy-phosphogluconate aldolase	2-dehydro-3-deoxy-D-gluconate-6-phosphate  <-->  D-glyceraldehyde 3-phosphate + pyruvate	ENTNER-DOUDOROFF-PWY																1*GHGN-323-MONOMER
+ENZRXNHGN-484	ribosomal large subunit pseudouridine synthase D	a 23S rRNA uridine955/2504/2580  <-->  a 23S rRNA pseudouridine955/2504/2580																	1*GHGN-2056-MONOMER
+ENZRXNHGN-892	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase	UDP-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-L-lysine + D-alanyl-D-alanine + ATP  <-->  UDP-N-acetyl-alpha-D-muramoyl-L-alanyl-gamma-D-glutamyl-L-lysyl-D-alanyl-D-alanine + ADP + phosphate + H+	PWY-6386																1*GHGN-1677-MONOMER
+ENZRXNHGN-202	DNA polymerase III DnaE	a deoxyribonucleoside triphosphate + (deoxynucleotides)(n)  <-->  (deoxynucleotides)(n+1) + diphosphate																	1*GHGN-900-MONOMER
+ENZRXNHGN-79	cytidylate kinase	ATP + uridine-5'-monophosphate  <-->  ADP + uridine-5'-diphosphate	PWY-7176	P1-PWY															1*GHGN-1610-MONOMER
+ENZRXNHGN-893	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--L-lysine ligase	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate + L-lysine + ATP  <-->  UDP-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-L-lysine + ADP + phosphate + H+	PWY-6386																1*GHGN-1536-MONOMER
+ENZRXNHGN-699	beta-galactosidase	XXLG xyloglucan oligosaccharide + H2O  <-->  XXXG xyloglucan oligosaccharide + beta-D-galactose																	1*GHGN-650-MONOMER
+ENZRXNHGN-894	glycogen phosphorylase-limit dextrin &alpha;-1,6-glucohydrolase	a limit dextrin + H2O  <-->  maltotetraose + a debranched limit dextrin	GLYCOCAT-PWY																1*GHGN-274-MONOMER
+ENZRXNHGN-895	chorismate mutase	chorismate  <-->  prephenate	PHESYN	TYRSYN															1*GHGN-1375-MONOMER
+ENZRXNHGN-485	ribosomal large subunit pseudouridine synthase D	a uridine2604 in 23S rRNA  <-->  a 23S rRNA pseudouridine2604																	1*GHGN-2056-MONOMER
+ENZRXNHGN-203	x-prolyl-dipeptidyl aminopeptidase	a protein + H2O  <-->  a dipeptide + a peptide																	1*GHGN-899-MONOMER
+ENZRXNHGN-385	6-phospho-beta-glucosidase	arbutin-6-phosphate + H2O  <-->  beta-D-glucose 6-phosphate + benzene-1,4-diol																	1*GHGN-309-MONOMER
+ENZRXNHGN-2	inosine 5'-monophosphate dehydrogenase	IMP + NAD+ + H2O  <-->  XMP + NADH + H+	PWY-841	PWY-6125	PWY-5695														1*GHGN-2287-MONOMER
+ENZRXNHGN-896	cystathionine-&beta;-lyase	L-cystathionine + H2O  <-->  ammonia + pyruvate + L-homocysteine + H+	HOMOSER-METSYN-PWY																1*GHGN-1531-MONOMER
+ENZRXNHGN-204	DNA polymerase III subunits gamma and tau	a deoxyribonucleoside triphosphate + (deoxynucleotides)(n)  <-->  (deoxynucleotides)(n+1) + diphosphate																	1*GHGN-869-MONOMER
+ENZRXNHGN-897	<i>N</i>-succinyldiaminopimelate-aminotransferase	2-oxoglutarate + N-succinyl-L,L-2,6-diaminopimelate  <-->  L-glutamate + N-succinyl-2-amino-6-ketopimelate	DAPLYSINESYN-PWY																1*GHGN-41-MONOMER
+ENZRXNHGN-700	beta-galactosidase	XLXG xyloglucan oligosaccharide + H2O  <-->  XXXG xyloglucan oligosaccharide + beta-D-galactose																	1*GHGN-650-MONOMER
+ENZRXNHGN-205	pyrrolidone-carboxylate peptidase	a 5-oxoprolyl-peptide + H2O  <-->  a peptide + 5-oxoproline																	1*GHGN-862-MONOMER
+ENZRXNHGN-486	ribosomal large subunit pseudouridine synthase D	a 23S rRNA uridine1911/1915/1917  <-->  a 23S rRNA pseudouridine1911/1915/1917																	1*GHGN-2056-MONOMER
+ENZRXNHGN-898	glutamyl-tRNA<sup>Gln</sup> synthetase	tRNAgln + L-glutamate + ATP + H+  <-->  L-glutamyl-tRNAGln + AMP + diphosphate	PWY-5921																1*GHGN-2130-MONOMER
+ENZRXNHGN-386	6-phospho-beta-glucosidase	6-phospho-beta-D-glucosyl-(1,4)-D-glucose + H2O  <-->  beta-D-glucose + beta-D-glucose 6-phosphate																	1*GHGN-309-MONOMER
+ENZRXNHGN-899	cystathionine &gamma;-lyase	L-cystathionine + H2O  <-->  ammonia + 2-oxobutanoate + L-cysteine + H+	HOMOCYSDEGR-PWY																1*GHGN-2269-MONOMER
+ENZRXNHGN-900	shikimate dehydrogenase	shikimate + NAD(P)+  <-->  3-dehydroshikimate + NAD(P)H + H+	PWY-6163																1*GHGN-1382-MONOMER
+ENZRXNHGN-80	cytidylate kinase	ATP + cytidine-5'-monophosphate  <-->  ADP + CDP	PWY0-163	P1-PWY															1*GHGN-1610-MONOMER
+ENZRXNHGN-487	L-asparaginase	L-asparagine + H2O  <-->  L-aspartate + ammonia + H+	ASPARAGINE-DEG1-PWY																1*GHGN-2029-MONOMER
+ENZRXNHGN-488	ribulose-phosphate 3-epimerase	D-ribulose 5-phosphate  <-->  D-xylulose 5-phosphate	P21-PWY	NONOXIPENT-PWY	P122-PWY														1*GHGN-2014-MONOMER
+ENZRXNHGN-81	tRNA pseudouridine synthase A	a tRNA uridine38-40  <-->  a pseudouridine38-40 in tRNA																	1*GHGN-1606-MONOMER
+ENZRXNHGN-701	beta-galactosidase	3'-ketolactose + H2O  <-->  3-keto-beta-D-galactose + beta-D-glucose																	1*GHGN-650-MONOMER
+ENZRXNHGN-387	6-phospho-beta-glucosidase	salicin-6-phosphate + H2O  <-->  beta-D-glucose 6-phosphate + salicyl alcohol																	1*GHGN-309-MONOMER
+ENZRXNHGN-206	branched-chain amino acid aminotransferase	L-leucine + 2-oxoglutarate  <-->  L-glutamate + 4-methyl-2-oxopentanoate	LEUSYN-PWY	LEU-DEG2-PWY															1*GHGN-858-MONOMER
+ENZRXNHGN-489	diaminopimelate decarboxylase	meso-diaminopimelate + H+  <-->  CO2 + L-lysine	DAPLYSINESYN-PWY																1*GHGN-2009-MONOMER
+ENZRXNHGN-702	beta-galactosidase	XLLG xyloglucan oligosaccharide + 2 H2O  <-->  XXXG xyloglucan oligosaccharide + 2 beta-D-galactose																	1*GHGN-650-MONOMER
+ENZRXNHGN-207	branched-chain amino acid aminotransferase	L-isoleucine + 2-oxoglutarate  <-->  L-glutamate + (S)-3-methyl-2-oxopentanoate	ILEUSYN-PWY	ILEUDEG-PWY															1*GHGN-858-MONOMER
+ENZRXNHGN-3	glycerol kinase	glycerol + ATP  <-->  sn-glycerol-3-phosphate + ADP + H+	PWY-4261																1*GHGN-2245-MONOMER
+ENZRXNHGN-388	6-phospho-beta-glucosidase	methyl beta-D-glucoside 6-phosphate + H2O  <-->  beta-D-glucose 6-phosphate + methanol																	1*GHGN-309-MONOMER
+ENZRXNHGN-703	beta-galactosidase	a beta-D-galactoside + H2O  <-->  a non galactosylated galactose acceptor + beta-D-galactose																	1*GHGN-650-MONOMER
+ENZRXNHGN-490	pyruvate formate-lyase-activating enzyme	a [formate C acetyltransferase]-glycine + S-adenosyl-L-methionine + a reduced flavodoxin  <-->  a [formate C acetyltransferase]-glycin -2-yl radical + 5'-deoxyadenosine + L-methionine + a flavodoxin semiquinone																	1*GHGN-2007-MONOMER
+ENZRXNHGN-82	phosphomethylpyrimidine kinase	4-amino-2-methyl-5-phosphomethylpyrimidine + ATP  <-->  4-amino-2-methyl-5-diphosphomethylpyrimidine + ADP	PWY-6890	PWY-6910															1*GHGN-1605-MONOMER
+ENZRXNHGN-208	branched-chain amino acid aminotransferase	L-valine + 2-oxoglutarate  <-->  L-glutamate + 3-methyl-2-oxobutanoate	ALANINE-VALINESYN-PWY	VALSYN-PWY	VALDEG-PWY	PWY-5057													1*GHGN-858-MONOMER
+ENZRXNHGN-704	beta-galactosidase	lactose  <-->  allolactose																	1*GHGN-650-MONOMER
+ENZRXNHGN-491	acylphosphatase	an acyl phosphate + H2O  <-->  a carboxylate + phosphate + H+																	1*GHGN-2005-MONOMER
+ENZRXNHGN-705	serine protease	a polypeptide  <-->  2 a polypeptide																	1*GHGN-643-MONOMER
+ENZRXNHGN-389	GTP cyclohydrolase I	GTP + H2O  <-->  formate + 7,8-dihydroneopterin triphosphate + H+																	1*GHGN-297-MONOMER
+ENZRXNHGN-706	serine protease	a protein  <-->  a peptide + a peptide																	1*GHGN-643-MONOMER
+ENZRXNHGN-390	DNA polymerase III PolC	a deoxyribonucleoside triphosphate + (deoxynucleotides)(n)  <-->  (deoxynucleotides)(n+1) + diphosphate																	1*GHGN-280-MONOMER
+ENZRXNHGN-707	serine protease	a protein  <-->  a peptide + a peptide																	1*GHGN-643-MONOMER
+ENZRXNHGN-492	recombinase A	a DNA segment  <-->  a DNA segment in reverse orientation																	1*GHGN-1970-MONOMER
+ENZRXNHGN-209	cytidine deaminase	cytidine + H2O  <-->  uridine + ammonia	PWY-6556	PWY0-163	PWY0-1295	P1-PWY													1*GHGN-846-MONOMER
+ENZRXNHGN-708	serine protease	a protein  <-->  a peptide + a peptide																	1*GHGN-643-MONOMER
+ENZRXNHGN-391	glucosamine--fructose-6-phosphate aminotransferase	D-fructose 6-phosphate + L-glutamine  <-->  D-glucosamine 6-phosphate + L-glutamate	UDPNAGSYN-PWY																1*GHGN-272-MONOMER
+ENZRXNHGN-83	adenine phosphoribosyltransferase	AMP + diphosphate  <-->  adenine + 5-phospho-alpha-D-ribose 1-diphosphate	PWY-6605	P121-PWY	P1-PWY														1*GHGN-1583-MONOMER
+ENZRXNHGN-493	PAP2 family protein	a 1,2-diacyl-sn-glycerol 3-diphosphate + H2O  <-->  a 1,2-diacyl-sn-glycerol 3-phosphate + phosphate + H+																	1*GHGN-1946-MONOMER
+ENZRXNHGN-709	dipeptidase PepV	a dipetide with L-aspartate at the N-terminal + H2O  <-->  L-aspartate + a standard alpha amino acid																	1*GHGN-625-MONOMER
+ENZRXNHGN-4	D-alanine--poly(phosphoribitol) ligase subunit 1	poly(ribitol phosphate) + D-alanine + ATP  <-->  O-D-Alanyl-poly(ribitol phosphate) + AMP + diphosphate + H+																	1*GHGN-2236-MONOMER
+ENZRXNHGN-392	prolyl-tRNA synthetase	tRNApro + L-proline + ATP + H+  <-->  L-prolyl-tRNApro + AMP + diphosphate	TRNA-CHARGING-PWY																1*GHGN-270-MONOMER
+ENZRXNHGN-710	tributyrin esterase	a triacyl-sn-glycerol + H2O  <-->  a diglyceride + a carboxylate + H+	LIPAS-PWY																1*GHGN-616-MONOMER
+ENZRXNHGN-5	D-alanine--poly(phosphoribitol) ligase subunit 2	poly(ribitol phosphate) + D-alanine + ATP  <-->  O-D-Alanyl-poly(ribitol phosphate) + AMP + diphosphate + H+																	1*GHGN-2234-MONOMER
+ENZRXNHGN-210	pyrimidine-nucleoside phosphorylase	thymidine + phosphate  <-->  2'-deoxy-alpha-D-ribose 1-phosphate + thymine	PWY0-181	PWY-7181	P1-PWY														1*GHGN-844-MONOMER
+ENZRXNHGN-494	alpha-galactosidase	stachyose + H2O  <-->  raffinose + alpha-D-galactose																	1*GHGN-1906-MONOMER
+ENZRXNHGN-393	Holliday junction DNA helicase RuvB	DNA combined with exogenous DNA to form a recombinational junction  <-->  resolution of recombinational junction formation of two intact strands																	1*GHGN-265-MONOMER
+ENZRXNHGN-495	alpha-galactosidase	an alpha-D-galactoside + H2O  <-->  alpha-D-galactose + an organic molecule																	1*GHGN-1906-MONOMER
+ENZRXNHGN-711	tributyrin esterase	a dietary all-trans-retinyl ester + H2O  <-->  all-trans-retinol + a long-chain fatty acid																	1*GHGN-616-MONOMER
+ENZRXNHGN-211	pyrimidine-nucleoside phosphorylase	2'-deoxyuridine + phosphate  <-->  2'-deoxy-alpha-D-ribose 1-phosphate + uracil	PWY0-181	PWY-7181															1*GHGN-844-MONOMER
+ENZRXNHGN-394	leucyl-tRNA synthetase	tRNAleu + L-leucine + ATP + H+  <-->  L-leucyl-tRNAleu + AMP + diphosphate	TRNA-CHARGING-PWY																1*GHGN-260-MONOMER
+ENZRXNHGN-84	homoserine O-succinyltransferase	L-homoserine + succinyl-CoA  <-->  O-succinyl-L-homoserine + coenzyme A	HOMOSER-METSYN-PWY																1*GHGN-1582-MONOMER
+ENZRXNHGN-496	alpha-galactosidase	melibiose + H2O  <-->  alpha-D-galactose + beta-D-glucose	PWY0-1301																1*GHGN-1906-MONOMER
+ENZRXNHGN-212	pyrimidine-nucleoside phosphorylase	a pyrimidine nucleoside + phosphate + H+  <-->  a pyrimidine base + alpha-D-ribose-1-phosphate																	1*GHGN-844-MONOMER
+ENZRXNHGN-85	triosephosphate isomerase	D-glyceraldehyde 3-phosphate  <-->  dihydroxyacetone phosphate	PWY-7003	ANAGLYCOLYSIS-PWY															1*GHGN-1580-MONOMER
+ENZRXNHGN-395	glycerol dehydrogenase	glycerol + NAD+  <-->  dihydroxyacetone + NADH + H+	GLYCEROLMETAB-PWY	PWY-6131															1*GHGN-259-MONOMER
+ENZRXNHGN-497	alpha-galactosidase	raffinose + H2O  <-->  alpha-D-galactose + sucrose																	1*GHGN-1906-MONOMER
+ENZRXNHGN-396	DNA-directed RNA polymerase subunit alpha	a nucleoside triphosphate + RNA(n)  <-->  RNA(n+1) + diphosphate																	1*GHGN-242-MONOMER
+ENZRXNHGN-712	serine acetyltransferase	L-serine + acetyl-CoA  <-->  O-acetyl-L-serine + coenzyme A	CYSTSYN-PWY																1*GHGN-593-MONOMER
+ENZRXNHGN-6	L-fuculose phosphate aldolase	L-fuculose-1-phosphate  <-->  L-lactaldehyde + dihydroxyacetone phosphate	FUCCAT-PWY																1*GHGN-2226-MONOMER
+ENZRXNHGN-213	pyrimidine-nucleoside phosphorylase	uridine + phosphate  <-->  alpha-D-ribose-1-phosphate + uracil	PWY0-163	PWY0-1295	PWY-7183														1*GHGN-844-MONOMER
+ENZRXNHGN-901	branched-chain amino acid ABC transporter substrate-binding protein	ATP + a standard alpha amino acid + H2O  <-->  ADP + a standard alpha amino acid + phosphate																	1*GHGN-750-MONOMER
+ENZRXNHGN-397	adenylate kinase	AMP + ATP  <-->  2 ADP	PWY-6126	P1-PWY															1*GHGN-237-MONOMER
+ENZRXNHGN-498	sucrose phosphorylase	sucrose + phosphate  <-->  beta-D-fructofuranose + alpha-D-glucose 1-phosphate																	1*GHGN-1902-MONOMER
+ENZRXNHGN-713	polynucleotide phosphorylase	(ribonucleotides)(n) + phosphate  <-->  (ribonucleotides)(n-1) + a nucleoside diphosphate																	1*GHGN-592-MONOMER
+ENZRXNHGN-86	peptide deformylase	formyl-L-methionyl peptide + H2O  <-->  methionyl peptide + formate + H+																	1*GHGN-1555-MONOMER
+ENZRXNHGN-499	ribosomal large subunit pseudouridine synthase B	a 23S rRNA uridine2605  <-->  a pseudouridine2605 in 23S rRNA																	1*GHGN-1882-MONOMER
+ENZRXNHGN-398	anaerobic ribonucleoside triphosphate reductase	a deoxyribonucleoside triphosphate + an oxidized thioredoxin + H2O  <-->  a ribonucleoside triphosphate + a reduced thioredoxin																	1*GHGN-208-MONOMER
+ENZRXNHGN-902	sodium-dependent transporter	Na+[extracellular space] + H+[extracellular space]  <-->  Na+ + H+																	1*GHGN-738-MONOMER
+ENZRXNHGN-500	glutamyl-aminopeptidase	a [protein] N-terminal L-glutamate + H2O  <-->  L-glutamate + a peptide																	1*GHGN-1873-MONOMER
+ENZRXNHGN-714	5,10-methylenetetrahydrofolate reductase	2 an oxidized ferredoxin + 5-methyl-tetrahydrofolate  <-->  2 a reduced ferredoxin + 5,10-methylenetetrahydrofolate + 2 H+	PWY-2201																1*GHGN-590-MONOMER
+ENZRXNHGN-501	zinc-containing alcohol dehydrogenase	a primary alcohol + NAD+  <-->  an aldehyde + NADH + H+																	1*GHGN-1863-MONOMER
+ENZRXNHGN-214	pantothenate kinase	(R)-pantothenate + ATP  <-->  D-4'-phosphopantothenate + ADP + H+																	1*GHGN-841-MONOMER
+ENZRXNHGN-715	5,10-methylenetetrahydrofolate reductase	5-methyl-tetrahydrofolate + NAD+  <-->  5,10-methylenetetrahydrofolate + NADH + H+	PWY-2201	1CMET2-PWY															1*GHGN-590-MONOMER
+ENZRXNHGN-502	zinc-containing alcohol dehydrogenase	a secondary alcohol + NAD+  <-->  a ketone + NADH + H+																	1*GHGN-1863-MONOMER
+ENZRXNHGN-716	6-phospho-beta-glucosidase	methyl beta-D-glucoside 6-phosphate + H2O  <-->  beta-D-glucose 6-phosphate + methanol																	1*GHGN-582-MONOMER
+ENZRXNHGN-7	L-fucose isomerase	L-fucose  <-->  L-fuculose	FUCCAT-PWY																1*GHGN-2218-MONOMER
+ENZRXNHGN-903	cation transporter E1-E2 family ATPase	ATP + a cation + H2O  <-->  ADP + a cation + phosphate																	1*GHGN-730-MONOMER
+ENZRXNHGN-717	6-phospho-beta-glucosidase	salicin-6-phosphate + H2O  <-->  beta-D-glucose 6-phosphate + salicyl alcohol																	1*GHGN-582-MONOMER
+ENZRXNHGN-87	aspartate aminotransferase	L-aspartate + 2-oxoglutarate  <-->  L-glutamate + oxaloacetate																	1*GHGN-1550-MONOMER
+ENZRXNHGN-399	riboflavin synthase subunit alpha	2 6,7-dimethyl-8-(1-D-ribityl)lumazine + H+  <-->  5-amino-6-(D-ribitylamino)uracil + riboflavin	RIBOSYN2-PWY																1*GHGN-183-MONOMER
+ENZRXNHGN-503	zinc-containing alcohol dehydrogenase	an alcohol + NADP+  <-->  an aldehyde + NADPH + H+																	1*GHGN-1863-MONOMER
+ENZRXNHGN-718	6-phospho-beta-glucosidase	arbutin-6-phosphate + H2O  <-->  beta-D-glucose 6-phosphate + benzene-1,4-diol																	1*GHGN-582-MONOMER
+ENZRXNHGN-215	purine nucleoside phosphorylase	deoxyguanosine + phosphate  <-->  guanine + 2'-deoxy-alpha-D-ribose 1-phosphate	PWY-7179																1*GHGN-833-MONOMER
+ENZRXNHGN-719	6-phospho-beta-glucosidase	6-phospho-beta-D-glucosyl-(1,4)-D-glucose + H2O  <-->  beta-D-glucose + beta-D-glucose 6-phosphate																	1*GHGN-582-MONOMER
+ENZRXNHGN-400	tRNA-specific 2-thiouridylase MnmA	a tRNA containing 5-aminomethyl-2-thiouridine + S-adenosyl-L-methionine  <-->  S-adenosyl-L-homocysteine + a 5-methylaminomethyl-2-thiouridine in tRNA + H+																	1*GHGN-124-MONOMER
+ENZRXNHGN-720	helicase	a supercoiled duplex DNA + ATP  <-->  a single stranded DNA + ADP + phosphate																	1*GHGN-579-MONOMER
+ENZRXNHGN-904	branched-chain amino acid transport system II carrier protein	a standard alpha amino acid[extracellular space] + H+[extracellular space]  <-->  a standard alpha amino acid + H+																	1*GHGN-628-MONOMER
+ENZRXNHGN-504	UDP-glucose 4-epimerase	UDP-D-glucose  <-->  UDP-alpha-D-galactose	PWY-6317																1*GHGN-1836-MONOMER
+ENZRXNHGN-905	amino acid ABC transporter amino acid-binding protein	ATP + a standard alpha amino acid + H2O  <-->  ADP + a standard alpha amino acid + phosphate																	1*GHGN-622-MONOMER
+ENZRXNHGN-721	phage integrase family integrase/recombinase	a DNA segment  <-->  a DNA segment in reverse orientation																	1*GHGN-511-MONOMER
+ENZRXNHGN-88	aspartate aminotransferase	L-aspartate + 2-oxoglutarate  <-->  L-glutamate + oxaloacetate	ASPARTATE-DEG1-PWY	ASPARTATESYN-PWY															1*GHGN-1550-MONOMER
+ENZRXNHGN-18	arginyl-tRNA synthetase	tRNAarg + L-arginine + ATP + H+  <-->  L-arginyl-tRNAarg + AMP + diphosphate	TRNA-CHARGING-PWY																1*GHGN-2139-MONOMER
+ENZRXNHGN-751	phosphomevalonate kinase	mevalonate-5-phosphate + ATP  <-->  mevalonate-diphosphate + ADP	PWY-922																1*GHGN-389-MONOMER
+ENZRXNHGN-505	anthranilate synthase component I	chorismate + L-glutamine  <-->  anthranilate + L-glutamate + pyruvate + H+	TRPSYN-PWY																1*GHGN-1825-MONOMER
+ENZRXNHGN-722	glutamine synthetase, type I	ammonia + L-glutamate + ATP  <-->  L-glutamine + ADP + phosphate	GLNSYN-PWY																1*GHGN-507-MONOMER
+ENZRXNHGN-943	sugar ABC transporter ATP-binding protein	ATP + a sugar + H2O  <-->  ADP + a sugar + phosphate																	1*GHGN-1586-MONOMER
+ENZRXNHGN-944	cation efflux family protein	a cation  <-->  a cation[extracellular space]																	1*GHGN-1558-MONOMER
+ENZRXNHGN-906	PTS system beta-glucosides-specific transporter subunit IIABC	phosphoenolpyruvate + a beta-glucoside[extracellular space]  <-->  pyruvate + a beta-glucoside																	1*GHGN-581-MONOMER
+ENZRXNHGN-723	endo-beta-N-acetylglucosaminidase	a glycopeptide-D-mannosyl-N4-(N-acetyl-D-glucosaminyl)2-asparagine + H2O  <-->  N-acetyl-D-glucosamine-asparagine + a glycopeptide-D-mannosyl-N4-N-acetyl-D-glucosamine																	1*GHGN-503-MONOMER
+ENZRXNHGN-216	purine nucleoside phosphorylase	5'-deoxy-5'-chloroadenosine + phosphate  <-->  5-chloro-5-deoxyribose 1-phosphate + adenine																	1*GHGN-833-MONOMER
+ENZRXNHGN-945	cation transporter E1-E2 family ATPase	ATP + a cation[extracellular space] + H2O  <-->  ADP + a cation + phosphate																	1*GHGN-1557-MONOMER
+ENZRXNHGN-534	dihydrodipicolinate reductase	(S)-2,3,4,5-tetrahydrodipicolinate + NADP+ + H2O  <-->  (4S)-4-hydroxy-2,3,4,5-tetrahydro-(2S)-dipicolinate + NADPH + H+	DAPLYSINESYN-PWY																1*GHGN-1561-MONOMER
+ENZRXNHGN-752	diphosphomevalonate decarboxylase	mevalonate-diphosphate + ATP  <-->  isopentenyl diphosphate + CO2 + ADP + phosphate	PWY-922																1*GHGN-388-MONOMER
+ENZRXNHGN-401	adenylosuccinate lyase	5'-phosphoribosyl-4-(N-succinocarboxamide)-5-aminoimidazole  <-->  fumarate + aminoimidazole carboxamide ribonucleotide	PWY-6123	PWY-6124															1*GHGN-62-MONOMER
+ENZRXNHGN-946	oligopeptide ABC transporter oligopeptide-binding protein AliB	ATP + an oligopeptide[extracellular space] + H2O  <-->  ADP + an oligopeptide + phosphate																	1*GHGN-1533-MONOMER
+ENZRXNHGN-724	DNA-directed RNA polymerase subunit delta	a nucleoside triphosphate + RNA(n)  <-->  RNA(n+1) + diphosphate																	1*GHGN-498-MONOMER
+ENZRXNHGN-506	sucrose-6-phosphate hydrolase	sucrose-6-phosphate + H2O  <-->  sucrose + phosphate																	1*GHGN-1803-MONOMER
+ENZRXNHGN-947	glycerol uptake facilitator protein	glycerol[extracellular space] + H+[extracellular space]  <-->  glycerol + H+																	1*GHGN-1497-MONOMER
+ENZRXNHGN-235	3-ketoacyl-ACP reductase	a 3R-hydroxy cis delta5-dodecenoyl-[acp] + NADP+  <-->  a 3-oxo-cis-delta5-dodecenoyl-[acp] + NADPH + H+	PWY0-862																1*GHGN-795-MONOMER
+ENZRXNHGN-725	PAP2 family protein	a 1,2-diacyl-sn-glycerol 3-diphosphate + H2O  <-->  a 1,2-diacyl-sn-glycerol 3-phosphate + phosphate + H+																	1*GHGN-494-MONOMER
+ENZRXNHGN-948	amino acid ABC transporter amino acid-binding protein	ATP + a standard alpha amino acid[extracellular space] + H2O  <-->  ADP + a standard alpha amino acid + phosphate																	1*GHGN-1400-MONOMER
+ENZRXNHGN-907	Na/Pi cotransporter II-like protein	Na+[extracellular space] + phosphate[extracellular space]  <-->  Na+ + phosphate																	1*GHGN-501-MONOMER
+ENZRXNHGN-535	tRNA CCA-pyrophosphorylase	a tRNA precursor + 2 CTP + ATP  <-->  a tRNA containing a 3' CCA end + 3 diphosphate																	1*GHGN-1560-MONOMER
+ENZRXNHGN-753	mevalonate kinase	(R)-mevalonate + ATP  <-->  mevalonate-5-phosphate + ADP + H+	PWY-922																1*GHGN-387-MONOMER
+ENZRXNHGN-949	sodium:solute symporter family protein	Na+[extracellular space] + H+[extracellular space]  <-->  Na+ + H+																	1*GHGN-1334-MONOMER
+ENZRXNHGN-507	sucrose-6-phosphate hydrolase	sucrose-6-phosphate + H2O  <-->  beta-D-glucose 6-phosphate + beta-D-fructofuranose	SUCUTIL-PWY																1*GHGN-1803-MONOMER
+ENZRXNHGN-726	6-phospho-beta-galactosidase	a 6-phospho-beta-D-galactoside + H2O  <-->  D-galactose 6-phosphate + an alcohol																	1*GHGN-483-MONOMER
+ENZRXNHGN-105	glycyl-tRNA synthetase subunit alpha	tRNAgly + glycine + ATP + H+  <-->  glycyl-tRNAgly + AMP + diphosphate	TRNA-CHARGING-PWY																1*GHGN-1481-MONOMER
+ENZRXNHGN-402	adenylosuccinate lyase	adenylo-succinate  <-->  fumarate + AMP	PWY-841	PWY-6126															1*GHGN-62-MONOMER
+ENZRXNHGN-908	potassium transporter peripheral membrane protein	K+  <-->  K+																	1*GHGN-486-MONOMER
+ENZRXNHGN-236	3-ketoacyl-ACP reductase	a cis,cis-delta13,31-3-hydroxy C50:2-[acp] + NADP+  <-->  a cis,cis-delta13,31-3-oxo-C50:2-[acp] + NADPH + H+																	1*GHGN-795-MONOMER
+ENZRXNHGN-217	purine nucleoside phosphorylase	adenosine + phosphate  <-->  adenine + alpha-D-ribose-1-phosphate	P121-PWY	PWY0-1296	P1-PWY	PWY-6609													1*GHGN-833-MONOMER
+ENZRXNHGN-950	uracil permease	uracil[extracellular space] + H+[extracellular space]  <-->  uracil + H+																	1*GHGN-1291-MONOMER
+ENZRXNHGN-727	6-phospho-beta-galactosidase	lactose 6-phosphate + H2O  <-->  D-galactose 6-phosphate + beta-D-glucose	LACTOSECAT-PWY																1*GHGN-483-MONOMER
+ENZRXNHGN-909	Trk family potassium uptake protein	K+  <-->  K+																	1*GHGN-485-MONOMER
+ENZRXNHGN-8	carbamate kinase	ammonia + CO2 + ATP  <-->  carbamoyl-phosphate + ADP + H+	PWY0-41	CITRULLINE-DEG-PWY															1*GHGN-2211-MONOMER
+ENZRXNHGN-106	glycyl-tRNA synthetase subunit beta	tRNAgly + glycine + ATP + H+  <-->  glycyl-tRNAgly + AMP + diphosphate	TRNA-CHARGING-PWY																1*GHGN-1480-MONOMER
+ENZRXNHGN-754	UDP-N-acetylglucosamine 2-epimerase	UDP-N-acetyl-alpha-D-glucosamine + H2O  <-->  N-acetyl-alpha-D-mannosamine + uridine-5'-diphosphate + H+																	1*GHGN-366-MONOMER
+ENZRXNHGN-951	voltage-gated chloride channel family protein	chloride[extracellular space]  <-->  chloride																	1*GHGN-1162-MONOMER
+ENZRXNHGN-237	3-ketoacyl-ACP reductase	a 3-oxo-behenoyl-[acp] + NADPH  <-->  a (R)-3-hydroxybehenoyl-[acp] + NADP+																	1*GHGN-795-MONOMER
+ENZRXNHGN-728	formate acetyltransferase	formate + acetyl-CoA  <-->  pyruvate + coenzyme A	ANARESP1-PWY	PWY-5480	PWY-5485	FERMENTATION-PWY													1*GHGN-465-MONOMER
+ENZRXNHGN-952	amino acid permease	a standard alpha amino acid[extracellular space] + H+[extracellular space]  <-->  a standard alpha amino acid + H+																	1*GHGN-1005-MONOMER
+ENZRXNHGN-89	aspartate aminotransferase	L-phenylalanine + 2-oxoglutarate  <-->  2-oxo-3-phenylpropanoate + L-glutamate																	1*GHGN-1550-MONOMER
+ENZRXNHGN-910	PTS system lactose-specific transporter subunit IIBC	phosphoenolpyruvate + lactose[extracellular space]  <-->  pyruvate + lactose 6-phosphate																	1*GHGN-484-MONOMER
+ENZRXNHGN-19	glucose-6-phosphate isomerase	alpha-D-glucose 6-phosphate  <-->  D-fructose 6-phosphate																	1*GHGN-2131-MONOMER
+ENZRXNHGN-508	7-cyano-7-deazaguanine reductase	preQ1 + 2 NADP+  <-->  preQ0 + 2 NADPH + 3 H+	PWY-6700																1*GHGN-1784-MONOMER
+ENZRXNHGN-107	peptide deformylase	formyl-L-methionyl peptide + H2O  <-->  methionyl peptide + formate + H+																	1*GHGN-1462-MONOMER
+ENZRXNHGN-536	glutathione S-transferase	glutathione + 4-hydroxy-2-nonenal  <-->  4-hydroxy-2-nonenal-glutathione conjugate																	1*GHGN-1556-MONOMER
+ENZRXNHGN-403	phosphoribosylaminoimidazole carboxylase ATPase subunit	5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxylate + 2 H+  <-->  5-amino-1-(5-phospho-D-ribosyl)imidazole + CO2	PWY-6124																1*GHGN-60-MONOMER
+ENZRXNHGN-218	purine nucleoside phosphorylase	guanosine + phosphate  <-->  guanine + alpha-D-ribose-1-phosphate	PWY0-1296	PWY-6620	P1-PWY														1*GHGN-833-MONOMER
+ENZRXNHGN-729	aspartyl/glutamyl-tRNA amidotransferase subunit C	L-glutamine + L-glutamyl-tRNAGln + ATP + H2O  <-->  L-glutamate + L-glutaminyl-tRNAgln + ADP + phosphate + H+	PWY-5921																1*GHGN-444-MONOMER
+ENZRXNHGN-755	UDP-N-acetylglucosamine 2-epimerase	UDP-N-acetyl-alpha-D-glucosamine  <-->  UDP-N-acetyl-alpha-D-mannosamine																	1*GHGN-366-MONOMER
+ENZRXNHGN-953	PTS system fructose specific transporter subunit IIABC	phosphoenolpyruvate + fructose[extracellular space]  <-->  pyruvate + fructose																	1*GHGN-882-MONOMER
+ENZRXNHGN-911	PTS system lactose-specific transporter subunit IIA	phosphoenolpyruvate + lactose[extracellular space]  <-->  pyruvate + lactose 6-phosphate																	1*GHGN-482-MONOMER
+ENZRXNHGN-730	aspartyl/glutamyl-tRNA amidotransferase subunit A	L-glutamine + L-glutamyl-tRNAGln + ATP + H2O  <-->  L-glutamate + L-glutaminyl-tRNAgln + ADP + phosphate + H+	PWY-5921																1*GHGN-443-MONOMER
+ENZRXNHGN-954	predicted ABC transporter of a sugar	ATP + a sugar[extracellular space] + H2O  <-->  ADP + a sugar + phosphate																	1*GHGN-850-MONOMER,1*GHGN-849-MONOMER,1*GHGN-848-MONOMER
+ENZRXNHGN-238	3-ketoacyl-ACP reductase	a cis,cis-delta9,21-3-hydroxyC40:2-[acp] + NADP+  <-->  a cis,cis-delta9,21-3-oxo-C40:2-[acp] + NADPH + H+																	1*GHGN-795-MONOMER
+ENZRXNHGN-756	UDP-N-acetylglucosamine-2-epimerase	UDP-N-acetyl-alpha-D-glucosamine + H2O  <-->  N-acetyl-alpha-D-mannosamine + uridine-5'-diphosphate + H+																	1*GHGN-363-MONOMER
+ENZRXNHGN-731	aspartyl/glutamyl-tRNA amidotransferase subunit B	L-glutamine + L-glutamyl-tRNAGln + ATP + H2O  <-->  L-glutamate + L-glutaminyl-tRNAgln + ADP + phosphate + H+	PWY-5921																1*GHGN-442-MONOMER
+ENZRXNHGN-955	predicted ABC transporter of a sugar	ATP + a sugar[extracellular space] + H2O  <-->  ADP + a sugar + phosphate																	1*GHGN-1905-MONOMER,1*GHGN-1904-MONOMER,1*GHGN-1903-MONOMER
+ENZRXNHGN-537	glutathione S-transferase	glutathione + RX  <-->  a glutathione-toxin conjugate + HX																	1*GHGN-1556-MONOMER
+ENZRXNHGN-509	isochorismatase	isochorismate + H2O  <-->  pyruvate + 2,3-dihydroxy-2,3-dihydrobenzoate	PWY-5901																1*GHGN-1752-MONOMER
+ENZRXNHGN-757	UDP-N-acetylglucosamine-2-epimerase	UDP-N-acetyl-alpha-D-glucosamine  <-->  UDP-N-acetyl-alpha-D-mannosamine																	1*GHGN-363-MONOMER
+ENZRXNHGN-20	glucose-6-phosphate isomerase	D-glucose 6-phosphate  <-->  D-fructose 6-phosphate																	1*GHGN-2131-MONOMER
+ENZRXNHGN-108	GMP synthase	XMP + L-glutamine + ATP + H2O  <-->  L-glutamate + GMP + AMP + diphosphate + 2 H+	PWY-841	PWY-6125															1*GHGN-1451-MONOMER
+ENZRXNHGN-956	predicted ABC transporter of a sugar	ATP + a sugar[extracellular space] + H2O  <-->  ADP + a sugar + phosphate																	1*GHGN-1689-MONOMER,1*GHGN-1688-MONOMER
+ENZRXNHGN-957	predicted ABC transporter of a standard alpha amino acid	ATP + a standard alpha amino acid[extracellular space] + H2O  <-->  ADP + a standard alpha amino acid + phosphate																	1*GHGN-826-MONOMER,1*GHGN-825-MONOMER
+ENZRXNHGN-404	phosphoribosylamine--glycine ligase	5-phospho-beta-D-ribosyl-amine + ATP + glycine  <-->  ADP + 5-phospho-ribosyl-glycineamide + phosphate + H+	PWY-6277	PWY-6121	PWY-6122														1*GHGN-57-MONOMER
+ENZRXNHGN-912	PTS system cellobiose-specific transporter subunit IIC	phosphoenolpyruvate + cellobiose[extracellular space]  <-->  pyruvate + 6-phospho-beta-D-glucosyl-(1,4)-D-glucose																	1*GHGN-480-MONOMER
+ENZRXNHGN-510	serine/threonine protein kinase	a protein + ATP  <-->  a phosphoprotein + ADP																	1*GHGN-1739-MONOMER
+ENZRXNHGN-732	(3R)-hydroxymyristoyl-ACP dehydratase	an (3R)-3-hydroxymyristoyl-[acp]  <-->  a trans tetradec-2-enoyl-[acp] + H2O	PWY-5971																1*GHGN-430-MONOMER
+ENZRXNHGN-958	predicted ABC transporter of a standard alpha amino acid	ATP + a standard alpha amino acid[extracellular space] + H2O  <-->  ADP + a standard alpha amino acid + phosphate																	1*GHGN-754-MONOMER,1*GHGN-753-MONOMER,1*GHGN-752-MONOMER,1*GHGN-751-MONOMER
+ENZRXNHGN-219	purine nucleoside phosphorylase	5'-deoxy-5'-fluoroadenosine + phosphate  <-->  adenine + 5-fluoro-5-deoxy-D-ribose-1-phosphate	PWY-6644																1*GHGN-833-MONOMER
+ENZRXNHGN-239	3-ketoacyl-ACP reductase	a cis,cis-delta17,35-3-hydroxyC54:2-[acp] + NADP+  <-->  a cis,cis-delta17,35-3-oxo-C54:2-[acp] + NADPH + H+																	1*GHGN-795-MONOMER
+ENZRXNHGN-758	glucan 1,6-alpha-glucosidase	a dextran + H2O  <-->  n glucose																	1*GHGN-348-MONOMER
+ENZRXNHGN-913	sodium:alanine symporter family protein	Na+[extracellular space] + L-alanine[extracellular space]  <-->  Na+ + L-alanine																	1*GHGN-414-MONOMER
+ENZRXNHGN-959	predicted ABC transporter of a standard alpha amino acid	ATP + a standard alpha amino acid[extracellular space] + H2O  <-->  ADP + a standard alpha amino acid + phosphate																	1*GHGN-712-MONOMER,1*GHGN-711-MONOMER,1*GHGN-710-MONOMER
+ENZRXNHGN-9	ornithine carbamoyltransferase	L-ornithine + carbamoyl-phosphate  <-->  L-citrulline + phosphate + H+																	1*GHGN-2210-MONOMER
+ENZRXNHGN-960	predicted ABC transporter of a standard alpha amino acid	ATP + a standard alpha amino acid[extracellular space] + H2O  <-->  ADP + a standard alpha amino acid + phosphate																	1*GHGN-612-MONOMER,1*GHGN-611-MONOMER,1*GHGN-610-MONOMER,1*GHGN-609-MONOMER
+ENZRXNHGN-733	ACP S-malonyltransferase	a holo-[acyl-carrier protein] + malonyl-CoA + H+  <-->  a malonyl-[acp] + coenzyme A																	1*GHGN-426-MONOMER
+ENZRXNHGN-405	bifunctional phosphoribosylaminoimidazolecarboxamide formyltransferase/IMP cyclohydrolase	aminoimidazole carboxamide ribonucleotide + 10-formyl-tetrahydrofolate  <-->  phosphoribosyl-formamido-carboxamide + tetrahydrofolate	PWY-6123	PWY-6124															1*GHGN-56-MONOMER
+ENZRXNHGN-961	predicted ABC transporter of a standard alpha amino acid	ATP + a standard alpha amino acid[extracellular space] + H2O  <-->  ADP + a standard alpha amino acid + phosphate																	1*GHGN-459-MONOMER,1*GHGN-458-MONOMER
+ENZRXNHGN-240	3-ketoacyl-ACP reductase	a cis,cis-delta5,17-3-hydroxyC36:2[acp] + NADP+  <-->  a cis,cis-delta5,17-3-oxo-C36:2-[acp] + NADPH + H+																	1*GHGN-795-MONOMER
+ENZRXNHGN-511	hydroxymethylglutaryl-CoA synthase	acetoacetyl-CoA + acetyl-CoA + H2O  <-->  (S)-3-hydroxy-3-methylglutaryl-CoA + coenzyme A + H+	PWY-922																1*GHGN-1734-MONOMER
+ENZRXNHGN-962	predicted ABC transporter of a standard alpha amino acid	ATP + a standard alpha amino acid[extracellular space] + H2O  <-->  ADP + a standard alpha amino acid + phosphate																	1*GHGN-1508-MONOMER,1*GHGN-1507-MONOMER,1*GHGN-1506-MONOMER
+ENZRXNHGN-538	glutathione S-transferase	1-chloro-2,4-dinitrobenzene + glutathione  <-->  2,4-dinitrophenyl-S-glutathione + chloride + H+																	1*GHGN-1556-MONOMER
+ENZRXNHGN-914	oligopeptide ABC transporter oligopeptide-binding protein AliA	ATP + an oligopeptide + H2O  <-->  ADP + an oligopeptide + phosphate																	1*GHGN-372-MONOMER
+ENZRXNHGN-759	S-ribosylhomocysteinase	S-ribosyl-L-homocysteine  <-->  L-homocysteine + 4,5-dihydroxy-2,3-pentanedione	PWY-6151	PWY-6153															1*GHGN-346-MONOMER
+ENZRXNHGN-963	predicted ABC transporter of a standard alpha amino acid	ATP + a standard alpha amino acid[extracellular space] + H2O  <-->  ADP + a standard alpha amino acid + phosphate																	1*GHGN-1467-MONOMER,1*GHGN-1466-MONOMER
+ENZRXNHGN-734	enoyl-ACP reductase	an octanoyl-[acp] + NAD+  <-->  a trans oct-2-enoyl-[acp] + NADH + H+	PWY-5971																1*GHGN-425-MONOMER
+ENZRXNHGN-539	Cof family protein/peptidyl-prolyl cis-trans isomerase, cyclophilin type	peptidylproline (omega = 180)  <-->  peptidylproline (omega = 0)																	1*GHGN-1544-MONOMER
+ENZRXNHGN-90	aspartate aminotransferase	(R)-cysteate + 2-oxoglutarate  <-->  3-sulfopyruvate + L-glutamate																	1*GHGN-1550-MONOMER
+ENZRXNHGN-964	predicted ABC transporter of a standard alpha amino acid	ATP + a standard alpha amino acid[extracellular space] + H2O  <-->  ADP + a standard alpha amino acid + phosphate																	1*GHGN-1246-MONOMER,1*GHGN-1245-MONOMER
+ENZRXNHGN-10	ornithine carbamoyltransferase	L-ornithine + carbamoyl-phosphate  <-->  L-citrulline + phosphate + H+	CITRULLINE-DEG-PWY	ARGSYN-PWY															1*GHGN-2210-MONOMER
+ENZRXNHGN-512	3-hydroxy-3-methylglutaryl-CoA reductase	(R)-mevalonate + coenzyme A + 2 NADP+  <-->  (S)-3-hydroxy-3-methylglutaryl-CoA + 2 NADPH + 2 H+	PWY-922																1*GHGN-1733-MONOMER
+ENZRXNHGN-109	nicotinate phosphoribosyltransferase	beta-nicotinate D-ribonucleotide + diphosphate  <-->  nicotinate + 5-phospho-alpha-D-ribose 1-diphosphate + H+	PYRIDNUCSAL-PWY																1*GHGN-1427-MONOMER
+ENZRXNHGN-915	polysaccharide transporter	a polysaccharide[extracellular space]  <-->  a polysaccharide																	1*GHGN-362-MONOMER
+ENZRXNHGN-241	3-ketoacyl-ACP reductase	a cis,cis-delta11,23-3-hydroxyC42:2-[acp] + NADP+  <-->  a cis,cis-delta11,23-3-oxo-C42:2-[acp] + NADPH + H+																	1*GHGN-795-MONOMER
+ENZRXNHGN-406	phosphoribosylglycinamide formyltransferase	5-phospho-ribosyl-glycineamide + 10-formyl-tetrahydrofolate  <-->  5'-phosphoribosyl-N-formylglycineamide + tetrahydrofolate + H+	PWY-6613	PWY-6121															1*GHGN-54-MONOMER
+ENZRXNHGN-540	phosphoglucomutase	alpha-D-glucose 1-phosphate  <-->  alpha-D-glucose 6-phosphate	PWY-5941	GLYCOCAT-PWY	GLUCOSE1PMETAB-PWY														1*GHGN-1504-MONOMER
+ENZRXNHGN-735	enoyl-ACP reductase	an acyl-[acyl-carrier protein] + NAD+  <-->  a trans-2-enoyl-[acyl-carrier protein] + NADH + H+																	1*GHGN-425-MONOMER
+ENZRXNHGN-513	sucrose-6-phosphate hydrolase	sucrose-6-phosphate + H2O  <-->  sucrose + phosphate																	1*GHGN-1731-MONOMER
+ENZRXNHGN-760	hyaluronidase	hyaluronan + n H2O  <-->  n hyaluronate beta1,4 oligosaccharide																	1*GHGN-320-MONOMER
+ENZRXNHGN-220	purine nucleoside phosphorylase	deoxyinosine + phosphate  <-->  hypoxanthine + 2'-deoxy-alpha-D-ribose 1-phosphate	PWY-7179																1*GHGN-833-MONOMER
+ENZRXNHGN-965	predicted transporter of lactose	phosphoenolpyruvate + lactose[extracellular space]  <-->  pyruvate + lactose 6-phosphate																	1*GHGN-1191-MONOMER,1*GHGN-1190-MONOMER
+ENZRXNHGN-541	peptidoglycan N-acetylglucosamine deacetylase A	a peptidoglycan + H2O  <-->  a deacetylated peptidoglycan + acetate + H+																	1*GHGN-1485-MONOMER
+ENZRXNHGN-242	3-ketoacyl-ACP reductase	an acetoacetyl-[acp] + NADPH + H+  <-->  a (R)-3-hydroxybutanoyl-[acp] + NADP+	PWY-5971																1*GHGN-795-MONOMER
+ENZRXNHGN-514	sucrose-6-phosphate hydrolase	sucrose-6-phosphate + H2O  <-->  beta-D-glucose 6-phosphate + beta-D-fructofuranose	SUCUTIL-PWY																1*GHGN-1731-MONOMER
+ENZRXNHGN-91	asparaginyl-tRNA synthetase	tRNAasn + L-asparagine + ATP + H+  <-->  L-asparaginyl-tRNAasn + AMP + diphosphate	TRNA-CHARGING-PWY																1*GHGN-1548-MONOMER
+ENZRXNHGN-110	NAD synthetase	ammonia + ATP + nicotinate adenine dinucleotide  <-->  AMP + NAD+ + diphosphate	PYRIDNUCSYN-PWY																1*GHGN-1426-MONOMER
+ENZRXNHGN-916	cellobiose phosphotransferase system IIC component	phosphoenolpyruvate + cellobiose[extracellular space]  <-->  pyruvate + 6-phospho-beta-D-glucosyl-(1,4)-D-glucose																	1*GHGN-316-MONOMER
+ENZRXNHGN-407	phosphoribosylaminoimidazole synthetase	ATP + 5-phosphoribosyl-N-formylglycineamidine  <-->  ADP + 5-amino-1-(5-phospho-D-ribosyl)imidazole + phosphate + H+	PWY-6277	PWY-6121	PWY-6122														1*GHGN-53-MONOMER
+ENZRXNHGN-761	hyaluronidase	dermatan sulfate + n H2O  <-->  n dermatan sulfate disaccharide																	1*GHGN-320-MONOMER
+ENZRXNHGN-966	predicted transporter of MANNITOL	phosphoenolpyruvate + D-mannitol[extracellular space]  <-->  pyruvate + mannitol-1-phosphate																	1*GHGN-402-MONOMER,1*GHGN-400-MONOMER
+ENZRXNHGN-515	fructokinase	D-fructose + ATP  <-->  D-fructose 6-phosphate + ADP + H+																	1*GHGN-1728-MONOMER
+ENZRXNHGN-917	cellobiose phosphotransferase system IIA component	phosphoenolpyruvate + cellobiose[extracellular space]  <-->  pyruvate + 6-phospho-beta-D-glucosyl-(1,4)-D-glucose																	1*GHGN-314-MONOMER
+ENZRXNHGN-967	predicted ABC transporter of an oligopeptide	ATP + an oligopeptide[extracellular space] + H2O  <-->  ADP + an oligopeptide + phosphate																	1*GHGN-1898-MONOMER,1*GHGN-1897-MONOMER,1*GHGN-1896-MONOMER,1*GHGN-1895-MONOMER
+ENZRXNHGN-762	hyaluronidase	chondroitin sulfate + n H2O  <-->  n chondroitin sulfate disaccharide																	1*GHGN-320-MONOMER
+ENZRXNHGN-221	purine nucleoside phosphorylase	inosine + phosphate  <-->  hypoxanthine + alpha-D-ribose-1-phosphate	PWY0-1296	PWY-6609															1*GHGN-833-MONOMER
+ENZRXNHGN-408	amidophosphoribosyltransferase	5-phospho-beta-D-ribosyl-amine + L-glutamate + diphosphate  <-->  5-phospho-alpha-D-ribose 1-diphosphate + L-glutamine + H2O	PWY-6277	PWY-6121	PWY-6122														1*GHGN-52-MONOMER
+ENZRXNHGN-92	manganese-dependent inorganic pyrophosphatase	diphosphate + H2O  <-->  2 phosphate + H+																	1*GHGN-1540-MONOMER
+ENZRXNHGN-11	arginine deiminase	L-arginine + H2O  <-->  ammonia + L-citrulline + H+	ARGDEGRAD-PWY																1*GHGN-2209-MONOMER
+ENZRXNHGN-542	aldo/keto reductase	a (1'-hydroxy-3',5'-dioxo-2'-(3''-oxobutanoyl)cyclohexyl)-3,5-dioxohexanethioate-[PKS-acp] + NADPH  <-->  a (1',5'-dihydroxy-3'-oxo-2'-(3''-oxobutanoyl)cyclohexyl)-3,5-dioxohexanethioate-[PKS-acp] + NADP+																	1*GHGN-1484-MONOMER
+ENZRXNHGN-243	3-ketoacyl-ACP reductase	3-oxo-eicosatrienoyl-CoA + NAD(P)H + H+  <-->  3-hydroxy-eicosatrienoyl-CoA + NAD(P)+																	1*GHGN-795-MONOMER
+ENZRXNHGN-516	ATP-dependent DNA helicase RecG	a supercoiled duplex DNA + ATP  <-->  a single stranded DNA + ADP + phosphate																	1*GHGN-1704-MONOMER
+ENZRXNHGN-21	glutamyl-tRNA synthetase	tRNAGlu + L-glutamate + ATP + H+  <-->  L-glutamyl-tRNAGlu + AMP + diphosphate	TRNA-CHARGING-PWY																1*GHGN-2130-MONOMER
+ENZRXNHGN-918	PTS system cellobiose transporter subunit IIB	phosphoenolpyruvate + cellobiose[extracellular space]  <-->  pyruvate + 6-phospho-beta-D-glucosyl-(1,4)-D-glucose																	1*GHGN-311-MONOMER
+ENZRXNHGN-968	predicted transporter of D-mannose	phosphoenolpyruvate + D-mannose[extracellular space]  <-->  pyruvate + D-mannose																	1*GHGN-290-MONOMER,1*GHGN-289-MONOMER,1*GHGN-288-MONOMER
+ENZRXNHGN-763	hyaluronidase	hyaluronan + n H2O  <-->  n hyaluronate																	1*GHGN-320-MONOMER
+ENZRXNHGN-409	phosphoribosylaminoimidazole-succinocarboxamide synthase	ATP + 5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxylate + L-aspartate  <-->  ADP + 5'-phosphoribosyl-4-(N-succinocarboxamide)-5-aminoimidazole + phosphate + H+	PWY-6123	PWY-6124															1*GHGN-50-MONOMER
+ENZRXNHGN-517	acetyl xylan esterase	acetylxylan + n H2O  <-->  xylan + n acetate																	1*GHGN-1702-MONOMER
+ENZRXNHGN-111	UDP-N-acetylenolpyruvoylglucosamine reductase	UDP-N-alpha-D-acetylmuramate + NADP+  <-->  UDP-N-acetyl-alpha-D-glucosamine-enolpyruvate + NADPH + H+	PWY-6387	PWY-6386															1*GHGN-1396-MONOMER
+ENZRXNHGN-764	glutathione peroxidase	hydrogen peroxide + 2 glutathione  <-->  glutathione disulfide + 2 H2O	PWY-4081																1*GHGN-319-MONOMER
+ENZRXNHGN-410	ribose-phosphate pyrophosphokinase	D-ribose 5-phosphate + ATP  <-->  5-phospho-alpha-D-ribose 1-diphosphate + AMP + H+	PWY0-662																1*GHGN-33-MONOMER
+ENZRXNHGN-919	xanthine/uracil permease	uracil[extracellular space] + xanthine[extracellular space]  <-->  uracil + xanthine																	1*GHGN-293-MONOMER
+ENZRXNHGN-543	pyridoxal biosynthesis lyase PdxS	D-ribose 5-phosphate + D-glyceraldehyde 3-phosphate + ammonia  <-->  pyridoxal 5'-phosphate + phosphate + 4 H2O	RXN-11322																1*GHGN-1474-MONOMER
+ENZRXNHGN-969	predicted ATP-driven transporter of CO+2	ATP + Co2+[extracellular space] + H2O  <-->  ADP + Co2+ + phosphate																	1*GHGN-2280-MONOMER,1*GHGN-2279-MONOMER
+ENZRXNHGN-736	enoyl-ACP reductase	a hexanoyl-[acyl-carrier-protein] + NADP+  <-->  a trans hex-2-enoyl-[acp] + NADPH + H+																	1*GHGN-425-MONOMER
+ENZRXNHGN-544	pyridoxal biosynthesis lyase PdxS	L-glutamine + H2O  <-->  L-glutamate + ammonia + H+	GLUTAMINDEG-PWY	RXN-11322	CARBPSYN-RXN														1*GHGN-1474-MONOMER
+ENZRXNHGN-765	glutathione peroxidase	a lipid hydroperoxide + 2 glutathione  <-->  a lipid + glutathione disulfide + 2 H2O	PWY-4081																1*GHGN-319-MONOMER
+ENZRXNHGN-920	magnesium transporter CorA family protein	Mg2+[extracellular space]  <-->  Mg2+																	1*GHGN-191-MONOMER
+ENZRXNHGN-222	purine nucleoside phosphorylase	a purine ribonucleoside + arsenate  <-->  a purine base + ribose-1-arsenate																	1*GHGN-833-MONOMER
+ENZRXNHGN-545	pyridoxal biosynthesis lyase PdxS	D-ribose 5-phosphate + D-glyceraldehyde 3-phosphate + L-glutamine  <-->  pyridoxal 5'-phosphate + L-glutamate + phosphate + H+ + 3 H2O	PWY-6466																1*GHGN-1474-MONOMER
+ENZRXNHGN-518	neuraminidase B	a sialyloligosaccharide + H2O  <-->  an oligosaccharide + N-acetylneuraminate																	1*GHGN-1694-MONOMER
+ENZRXNHGN-411	deoxyuridine 5'-triphosphate nucleotidohydrolase	dUTP + H2O  <-->  dUMP + diphosphate + H+	PWY0-166																1*GHGN-27-MONOMER
+ENZRXNHGN-112	alanyl-tRNA synthetase	tRNAala + L-alanine + ATP + H+  <-->  L-alanyl-tRNAala + AMP + diphosphate	TRNA-CHARGING-PWY																1*GHGN-1389-MONOMER
+ENZRXNHGN-737	enoyl-ACP reductase	a dodecanoyl-[acp] + NADP+  <-->  a trans dodec-2-enoyl-[acp] + NADPH + H+																	1*GHGN-425-MONOMER
+ENZRXNHGN-921	macrolide efflux protein	a macrolide  <-->  a macrolide[extracellular space]																	1*GHGN-174-MONOMER
+ENZRXNHGN-244	3-ketoacyl-ACP reductase	a cis,cis-delta7,25-3-hydroxyC44:2-[acp] + NADP+  <-->  a cis,cis-delta7,25-3-oxo-C44:2-[acp] + NADPH + H+																	1*GHGN-795-MONOMER
+ENZRXNHGN-93	UDP-N-acetylmuramoylalanyl-D-glutamate--L-lysine ligase	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate + meso-diaminopimelate + ATP  <-->  UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimelate + ADP + phosphate + H+	PWY-6387																1*GHGN-1536-MONOMER
+ENZRXNHGN-970	predicted ABC transporter of ZN+2	ATP + Zn2+[extracellular space] + H2O  <-->  ADP + Zn2+ + phosphate																	1*GHGN-2231-MONOMER,1*GHGN-2230-MONOMER,1*GHGN-2229-MONOMER
+ENZRXNHGN-766	dihydrofolate synthetase	L-glutamate + 7,8-dihydropteroate + ATP  <-->  ADP + 7,8-dihydrofolate + phosphate + H+	1CMET2-PWY	PWY-6614															1*GHGN-296-MONOMER
+ENZRXNHGN-922	amino acid ABC transporter substrate-binding protein	ATP + a standard alpha amino acid[extracellular space] + H2O  <-->  ADP + a standard alpha amino acid + phosphate																	1*GHGN-118-MONOMER
+ENZRXNHGN-223	purine nucleoside phosphorylase	a purine 2'-deoxyribonucleoside + phosphate  <-->  a purine base + 2'-deoxy-alpha-D-ribose 1-phosphate																	1*GHGN-833-MONOMER
+ENZRXNHGN-971	predicted ABC transporter of a maltodextrin	ATP + a maltodextrin[extracellular space] + H2O  <-->  ADP + a maltodextrin + phosphate																	1*GHGN-2171-MONOMER,1*GHGN-2170-MONOMER
+ENZRXNHGN-546	glutamine amidotransferase subunit PdxT	chorismate + L-glutamine  <-->  4-amino-4-deoxychorismate + L-glutamate	PWY-6543																1*GHGN-1473-MONOMER
+ENZRXNHGN-923	amino acid ABC transporter ATP-binding protein	ATP + a standard alpha amino acid[extracellular space] + H2O  <-->  ADP + a standard alpha amino acid + phosphate																	1*GHGN-117-MONOMER
+ENZRXNHGN-412	adenylosuccinate synthetase	L-aspartate + IMP + GTP  <-->  adenylo-succinate + GDP + phosphate + 2 H+	PWY-841	PWY-6126															1*GHGN-25-MONOMER
+ENZRXNHGN-519	N-acetylneuraminate lyase	N-acetylneuraminate  <-->  N-acetyl-D-mannosamine + pyruvate	PWY0-1324																1*GHGN-1683-MONOMER
+ENZRXNHGN-738	enoyl-ACP reductase	a palmitoyl-[acp] + NADP+  <-->  a trans hexadecenoyl-[acp] + NADPH + H+																	1*GHGN-425-MONOMER
+ENZRXNHGN-924	Trk family potassium uptake protein	K+[extracellular space]  <-->  K+																	1*GHGN-85-MONOMER
+ENZRXNHGN-12	dihydroxy-acid dehydratase	2,3-dihydroxy-3-methylvalerate  <-->  (S)-3-methyl-2-oxopentanoate + H2O	ILEUSYN-PWY																1*GHGN-2187-MONOMER
+ENZRXNHGN-22	threonine synthase	O-phospho-L-homoserine + H2O  <-->  L-threonine + phosphate	HOMOSER-THRESYN-PWY																1*GHGN-2111-MONOMER
+ENZRXNHGN-925	Trk family potassium uptake protein	K+[extracellular space]  <-->  K+																	1*GHGN-84-MONOMER
+ENZRXNHGN-113	alpha-amylase	starch + n H2O  <-->  a large-branched glucan																	1*GHGN-1388-MONOMER
+ENZRXNHGN-413	peptidyl-tRNA hydrolase	N-substituted aminoacyl-tRNA + H2O  <-->  a tRNA + an N-modified amino acid																	1*GHGN-5-MONOMER
+ENZRXNHGN-739	enoyl-ACP reductase	a myristoyl-[acp] + NADP+  <-->  a trans tetradec-2-enoyl-[acp] + NADPH + H+																	1*GHGN-425-MONOMER
+ENZRXNHGN-224	purine nucleoside phosphorylase	xanthosine + phosphate  <-->  alpha-D-ribose-1-phosphate + xanthine	SALVPURINE2-PWY	PWY-5695	PWY0-1296														1*GHGN-833-MONOMER
+ENZRXNHGN-520	UDP-N-acetylmuramoylalanyl-D-glutamyl-2,6-diaminopimelate--D-alanyl-D-alanyl ligase	UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimelate + D-alanyl-D-alanine + ATP  <-->  UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimelyl-D-alanyl-D-alanine + ADP + phosphate + H+	PWY-6387																1*GHGN-1677-MONOMER
+ENZRXNHGN-972	predicted ABC transporter of MN+2	ATP + Mn2+[extracellular space] + H2O  <-->  ADP + Mn2+ + phosphate																	1*GHGN-1657-MONOMER,1*GHGN-1656-MONOMER,1*GHGN-1655-MONOMER
+ENZRXNHGN-547	glutamine amidotransferase subunit PdxT	NAGG + L-glutamine  <-->  NAGGN + L-glutamate	PWY-7054																1*GHGN-1473-MONOMER
+ENZRXNHGN-414	peptidyl-tRNA hydrolase	L-asparaginyl-tRNAasn + H2O  <-->  L-asparagine + tRNAasn + 2 H+																	1*GHGN-5-MONOMER
+ENZRXNHGN-926	glycerol uptake facilitator protein	glycerol[extracellular space] + H+[extracellular space]  <-->  glycerol + H+																	1*GHGN-2243-MONOMER
+ENZRXNHGN-767	dihydropteroate synthase	4-(beta-D-ribofuranosyl)aminobenzene-5'-phosphate + 6-hydroxymethyl-dihydropterin diphosphate  <-->  7,8-H2pterin-6-yl-methyl-4-(beta-D-ribofuranosyl)aminobenzene 5'-phosphate + diphosphate + 2 H+																	1*GHGN-295-MONOMER
+ENZRXNHGN-245	3-ketoacyl-ACP reductase	a cis,cis-delta15,33-3-hydroxy C52:2-[acp] + NADP+  <-->  a cis,cis-delta15,33-3-oxo-C52:2-[acp] + NADPH + H+																	1*GHGN-795-MONOMER
+ENZRXNHGN-548	glutamine amidotransferase subunit PdxT	XMP + L-glutamine + ATP + H2O  <-->  L-glutamate + GMP + AMP + diphosphate + 2 H+	PWY-841	PWY-6125															1*GHGN-1473-MONOMER
+ENZRXNHGN-740	enoyl-ACP reductase	a butyryl-[acp] + NADP+  <-->  a crotonyl-[acp] + NADPH + H+																	1*GHGN-425-MONOMER
+ENZRXNHGN-415	DNA polymerase III subunit beta	a deoxyribonucleoside triphosphate + (deoxynucleotides)(n)  <-->  (deoxynucleotides)(n+1) + diphosphate																	1*GHGN-2-MONOMER
+ENZRXNHGN-549	methylated-DNA--protein-cysteine S-methyltransferase	a [protein]-L-cysteine + a DNA containing 6-O-methylguanine  <-->  a [protein]-S-methyl-L-cysteine + DNA (without 6-O-methylguanine)																	1*GHGN-1469-MONOMER
+ENZRXNHGN-94	cystathionine gamma-synthase	L-cysteine + O-succinyl-L-homoserine  <-->  succinate + L-cystathionine + H+	HOMOSER-METSYN-PWY																1*GHGN-1531-MONOMER
+ENZRXNHGN-973	predicted ABC transporter of spermidine/putrescine	ATP + putrescine[extracellular space] + H2O  <-->  ADP + putrescine + phosphate																	1*GHGN-1395-MONOMER,1*GHGN-1394-MONOMER,1*GHGN-1393-MONOMER,1*GHGN-1392-MONOMER
+ENZRXNHGN-114	alpha-amylase	a 1,4-alpha-D-glucan + H2O  <-->  a 1,4-alpha-D-glucan + maltopentaose																	1*GHGN-1388-MONOMER
+ENZRXNHGN-521	phosphoglyceromutase	1,3-bisphospho-D-glycerate  <-->  2,3-diphosphoglycerate + H+																	1*GHGN-1662-MONOMER
+ENZRXNHGN-741	enoyl-ACP reductase	an acyl-[acyl-carrier protein] + NADP+  <-->  a trans-2-enoyl-[acyl-carrier protein] + NADPH + H+																	1*GHGN-425-MONOMER
+ENZRXNHGN-246	3-ketoacyl-ACP reductase	a cis,cis-delta5,23-3-hydroxyC42:2-[acp] + NADP+  <-->  a cis,cis-delta5,23-3-oxo-C42:2-[acp] + NADPH + H+																	1*GHGN-795-MONOMER
+ENZRXNHGN-927	PTS system ascorbate-specific transporter subunit IIC	phosphoenolpyruvate + L-ascorbate[extracellular space]  <-->  pyruvate + L-ascorbate-6-phosphate																	1*GHGN-2190-MONOMER
+ENZRXNHGN-768	dihydropteroate synthase	4-aminobenzoate + 6-hydroxymethyl-dihydropterin diphosphate  <-->  7,8-dihydropteroate + diphosphate	PWY-6614																1*GHGN-295-MONOMER
+ENZRXNHGN-550	thioredoxin reductase	a reduced thioredoxin + NADP+  <-->  an oxidized thioredoxin + NADPH + H+	THIOREDOX-PWY																1*GHGN-1464-MONOMER
+ENZRXNHGN-225	purine nucleoside phosphorylase	a purine ribonucleoside + phosphate  <-->  a purine base + alpha-D-ribose-1-phosphate																	1*GHGN-833-MONOMER
+ENZRXNHGN-23	pyrrolidone-carboxylate peptidase	a 5-oxoprolyl-peptide + H2O  <-->  a peptide + 5-oxoproline																	1*GHGN-2105-MONOMER
+ENZRXNHGN-769	alcohol dehydrogenase	3-methoxy-4-hydroxyphenylglycol + NAD+  <-->  3-methoxy-4-hydroxyphenylglycolaldehyde + NADH + H+																	1*GHGN-291-MONOMER
+ENZRXNHGN-13	dihydroxy-acid dehydratase	2,3-dihydroxy-3-methylbutanoate  <-->  3-methyl-2-oxobutanoate + H2O	VALSYN-PWY																1*GHGN-2187-MONOMER
+ENZRXNHGN-522	phosphoglyceromutase	3-phospho-D-glycerate  <-->  2-phospho-D-glycerate	PWY-6901	PWY-7003	P122-PWY	ANAGLYCOLYSIS-PWY													1*GHGN-1662-MONOMER
+ENZRXNHGN-974	predicted ABC transporter of spermidine/putrescine	ATP + spermidine[extracellular space] + H2O  <-->  ADP + spermidine + phosphate																	1*GHGN-1395-MONOMER,1*GHGN-1394-MONOMER,1*GHGN-1393-MONOMER,1*GHGN-1392-MONOMER
+ENZRXNHGN-551	S-adenosylmethionine--tRNA ribosyltransferase-isomerase	a 7-aminomethyl-7-deazaguanosine34 in tRNA + S-adenosyl-L-methionine  <-->  an epoxyqueuosine34 in tRNA + adenine + L-methionine + 2 H+	PWY-6700																1*GHGN-1422-MONOMER
+ENZRXNHGN-770	alcohol dehydrogenase	methionol + NAD+  <-->  3-methylthiopropanal + NADH + H+																	1*GHGN-291-MONOMER
+ENZRXNHGN-115	alpha-amylase	a long-linear glucan + n H2O  <-->  n short glucans																	1*GHGN-1388-MONOMER
+ENZRXNHGN-928	maltose/maltodextrin ABC transporter maltose/maltodextrin-binding protein	ATP + a maltodextrin[extracellular space] + H2O  <-->  ADP + a maltodextrin + phosphate																	1*GHGN-2169-MONOMER
+ENZRXNHGN-771	alcohol dehydrogenase	a secondary alcohol + NAD+  <-->  a ketone + NADH + H+																	1*GHGN-291-MONOMER
+ENZRXNHGN-226	phosphopentomutase	alpha-D-ribose-1-phosphate  <-->  D-ribose 5-phosphate																	1*GHGN-831-MONOMER
+ENZRXNHGN-247	3-ketoacyl-ACP reductase	a cis,cis-delta19,31-3-hydroxyC50:2-[acp] + NADP+  <-->  a cis,cis-delta19,31-3-oxo-C50:2-[acp] + NADPH + H+																	1*GHGN-795-MONOMER
+ENZRXNHGN-742	enoyl-ACP reductase	a trans-delta3-cis-delta9-hexadecenoyl-[acp] + NADPH + H+  <-->  a palmitoleoyl-[acp] + NADP+	PWY-6282																1*GHGN-425-MONOMER
+ENZRXNHGN-95	cystathionine gamma-synthase	ammonia + 2-oxobutanoate + succinate + 2 H+  <-->  O-succinyl-L-homoserine + H2O																	1*GHGN-1531-MONOMER
+ENZRXNHGN-523	thiol peroxidase	a reduced thioredoxin + an organic hydroperoxide  <-->  an oxidized thioredoxin + an alcohol + H2O																	1*GHGN-1658-MONOMER
+ENZRXNHGN-552	glucosamine-6-phosphate isomerase	D-glucosamine 6-phosphate + H2O  <-->  ammonia + D-fructose 6-phosphate + H+	PWY-6517	GLUAMCAT-PWY															1*GHGN-1421-MONOMER
+ENZRXNHGN-772	alcohol dehydrogenase	2-phenylethanol + NAD+  <-->  phenylacetaldehyde + NADH + H+																	1*GHGN-291-MONOMER
+ENZRXNHGN-553	HPr kinase/phosphorylase	(1,4-alpha-D-glucosyl)(n) + phosphate  <-->  (1,4-alpha-D-glucosyl)(n-1) + alpha-D-glucose 1-phosphate																	1*GHGN-1419-MONOMER
+ENZRXNHGN-773	alcohol dehydrogenase	n-propanol + NAD+  <-->  propanal + NADH + H+																	1*GHGN-291-MONOMER
+ENZRXNHGN-554	HPr kinase/phosphorylase	a glycogen + phosphate  <-->  a limit dextrin + alpha-D-glucose 1-phosphate	PWY-5941	GLYCOCAT-PWY															1*GHGN-1419-MONOMER
+ENZRXNHGN-227	phosphopentomutase	2'-deoxy-alpha-D-ribose 1-phosphate  <-->  2-deoxy-D-ribose 5-phosphate	PWY-7180																1*GHGN-831-MONOMER
+ENZRXNHGN-743	enoyl-ACP reductase	a trans-delta3-cis-delta5-dodecenoyl-[acp] + NADPH + H+  <-->  a cis-delta5-dodecenoyl-[acp] + NADP+	PWY0-862																1*GHGN-425-MONOMER
+ENZRXNHGN-929	maltose/maltodextrin ABC transporter maltose/maltodextrin-binding protein	ATP + beta-maltose[extracellular space] + H2O  <-->  ADP + beta-maltose + phosphate																	1*GHGN-2169-MONOMER
+ENZRXNHGN-524	endopeptidase O	a protein  <-->  a peptide + a peptide																	1*GHGN-1654-MONOMER
+ENZRXNHGN-555	HPr kinase/phosphorylase	a linear malto-oligosaccharide [(glucose)n] + phosphate  <-->  alpha-D-glucose 1-phosphate + a linear malto-oligosaccharide [(glucose)n-1]																	1*GHGN-1419-MONOMER
+ENZRXNHGN-116	alpha-amylase	a 1,4-alpha-D-glucan + n H2O  <-->  a 1,4-alpha-D-glucan + maltohexaose																	1*GHGN-1388-MONOMER
+ENZRXNHGN-930	cation transporter E1-E2 family ATPase	ATP + a cation + H2O  <-->  ADP + a cation + phosphate																	1*GHGN-2162-MONOMER
+ENZRXNHGN-556	HPr kinase/phosphorylase	maltotetraose + phosphate  <-->  maltotriose + alpha-D-glucose 1-phosphate	GLYCOCAT-PWY																1*GHGN-1419-MONOMER
+ENZRXNHGN-774	alcohol dehydrogenase	phytol + NAD+  <-->  phytenal + NADH + H+																	1*GHGN-291-MONOMER
+ENZRXNHGN-557	HPr kinase/phosphorylase	a debranched limit dextrin + n phosphate  <-->  n alpha-D-glucose 1-phosphate	PWY-5941																1*GHGN-1419-MONOMER
+ENZRXNHGN-558	HPr kinase/phosphorylase	a maltodextrin(n) + phosphate  <-->  a maltodextrin(n-1) + alpha-D-glucose 1-phosphate																	1*GHGN-1419-MONOMER
+ENZRXNHGN-775	alcohol dehydrogenase	3-methylbutanol + NAD+  <-->  3-methylbutanal + NADH + H+																	1*GHGN-291-MONOMER
+ENZRXNHGN-248	3-ketoacyl-ACP reductase	a cis,cis-delta7,19-3-hydroxyC38:2-[acp] + NADP+  <-->  a cis,cis-delta7,19-3-oxo-C38:2-[acp] + NADPH + H+																	1*GHGN-795-MONOMER
+ENZRXNHGN-14	histidyl-tRNA synthetase	tRNAhis + L-histidine + ATP + H+  <-->  L-histidyl-tRNAhis + AMP + diphosphate	TRNA-CHARGING-PWY																1*GHGN-2182-MONOMER
+ENZRXNHGN-559	HPr kinase/phosphorylase	a glycogen + phosphate  <-->  alpha-D-glucose 1-phosphate + maltotetraose																	1*GHGN-1419-MONOMER
+ENZRXNHGN-228	ribose-5-phosphate isomerase A	D-ribose 5-phosphate  <-->  D-ribulose 5-phosphate	NONOXIPENT-PWY																1*GHGN-830-MONOMER
+ENZRXNHGN-744	enoyl-ACP reductase	an acyl-[acyl-carrier protein] + NADP+  <-->  a trans-2-enoyl-[acyl-carrier protein] + NADPH + H+																	1*GHGN-425-MONOMER
+ENZRXNHGN-931	PTS system ascorbate-specific transporter subunit IIC	phosphoenolpyruvate + L-ascorbate[extracellular space]  <-->  pyruvate + L-ascorbate-6-phosphate																	1*GHGN-2083-MONOMER
+ENZRXNHGN-560	HPr kinase/phosphorylase	[(1->4)-alpha-D-glucosyl]n + phosphate  <-->  [(1->4)-alpha-D-glucosyl](n-1) + alpha-D-glucose 1-phosphate																	1*GHGN-1419-MONOMER
+ENZRXNHGN-525	GTP pyrophosphokinase	ATP + GDP  <-->  AMP + ppGpp	PPGPPMET-PWY																1*GHGN-1652-MONOMER
+ENZRXNHGN-776	alcohol dehydrogenase	indole-3-glycol + NAD+  <-->  indole-3-glycol aldehyde + NADH + H+																	1*GHGN-291-MONOMER
+ENZRXNHGN-561	HPr kinase/phosphorylase	a protein + ATP  <-->  a phosphoprotein + ADP																	1*GHGN-1419-MONOMER
+ENZRXNHGN-96	UDP-N-acetylmuramate--L-alanine ligase	L-alanine + UDP-N-alpha-D-acetylmuramate + ATP  <-->  UDP-N-acetylmuramyl-L-Ala + ADP + phosphate + H+	PWY-6387	PWY-6386															1*GHGN-1527-MONOMER
+ENZRXNHGN-932	oligopeptide ABC transporter oligopeptide-binding protein AmiA	ATP + an oligopeptide + H2O  <-->  ADP + an oligopeptide + phosphate																	1*GHGN-1899-MONOMER
+ENZRXNHGN-777	alcohol dehydrogenase	tyrosol + NAD+  <-->  (4-hydroxyphenyl)acetaldehyde + NADH + H+																	1*GHGN-291-MONOMER
+ENZRXNHGN-745	enoyl-ACP reductase	an enoylglutaryl-[acp] methyl ester + NADPH + H+  <-->  a glutaryl-[acp] methyl ester + NADP+																	1*GHGN-425-MONOMER
+ENZRXNHGN-24	queuine tRNA-ribosyltransferase	a guanine34 in tRNA + preQ1  <-->  a 7-aminomethyl-7-deazaguanosine34 in tRNA + guanine	PWY-6700																1*GHGN-2103-MONOMER
+ENZRXNHGN-249	3-ketoacyl-ACP reductase	a cis,cis-delta21,39-3-hydroxyC58:2-[acp] + NADP+  <-->  a cis,cis-delta21,39-3-oxo-C58:2-[acp] + NADPH + H+																	1*GHGN-795-MONOMER
+ENZRXNHGN-562	prolipoprotein diacylglyceryl transferase	a prolipoprotein + an L-1-phosphatidyl-glycerol  <-->  a diacylglycerol prolipoprotein + sn-glycerol-1-phosphate																	1*GHGN-1418-MONOMER
+ENZRXNHGN-778	alcohol dehydrogenase	isobutanol + NAD+  <-->  isobutanal + NADH + H+	PWY-5057																1*GHGN-291-MONOMER
+ENZRXNHGN-526	GTP pyrophosphokinase	GTP + ATP  <-->  pppGpp + AMP	PPGPPMET-PWY																1*GHGN-1652-MONOMER
+ENZRXNHGN-229	3-ketoacyl-ACP reductase	3-oxo-docosapentaenoyl-CoA + NAD(P)H + H+  <-->  3-hydroxy-docosapentaenoyl-CoA + NAD(P)+																	1*GHGN-795-MONOMER
+ENZRXNHGN-746	enoyl-ACP reductase	a trans-delta3-cis-delta7-tetradecenoyl-[acp] + NADPH + H+  <-->  a cis-delta7-tetradecenoyl-[acp] + NADP+	PWY-6282																1*GHGN-425-MONOMER
+ENZRXNHGN-97	ATP synthase F0F1 subunit A	ATP + 3 H+ + H2O  <-->  ADP + phosphate + 4 H+	PWY-6126																1*GHGN-1519-MONOMER
+ENZRXNHGN-933	trehalose PTS system, IIABC components	phosphoenolpyruvate + trehalose[extracellular space]  <-->  pyruvate + trehalose 6-phosphate																	1*GHGN-1892-MONOMER
+ENZRXNHGN-779	alcohol dehydrogenase	3,4-dihydroxyphenylglycol + NAD+  <-->  3,4-dihydroxyphenylglycolaldehyde + NADH + H+																	1*GHGN-291-MONOMER
+ENZRXNHGN-250	3-ketoacyl-ACP reductase	a cis,cis-delta11,29-3-hydroxy C48:2-[acp] + NADP+  <-->  a cis,cis-delta11,29-3-oxo-C48:2-[acp] + NADPH + H+																	1*GHGN-795-MONOMER
+ENZRXNHGN-117	alpha-amylase	starch + H2O  <-->  beta-maltose + glucose																	1*GHGN-1388-MONOMER
+ENZRXNHGN-15	aspartyl-tRNA synthetase	tRNAasp + L-aspartate + ATP + H+  <-->  L-aspartyl-tRNAasp + AMP + diphosphate	TRNA-CHARGING-PWY																1*GHGN-2175-MONOMER
+ENZRXNHGN-780	alcohol dehydrogenase	2-methylbutanol + NAD+  <-->  2-methylbutanal + NADH + H+																	1*GHGN-291-MONOMER
+ENZRXNHGN-98	ATP synthase F0F1 subunit B	ATP + 3 H+ + H2O  <-->  ADP + phosphate + 4 H+	PWY-6126																1*GHGN-1518-MONOMER
+ENZRXNHGN-230	3-ketoacyl-ACP reductase	a 3R-hydroxyglutaryl-[acp] methyl ester + NADP+  <-->  a 3-oxo-glutaryl-[acp] methyl ester + NADPH + H+																	1*GHGN-795-MONOMER
+ENZRXNHGN-563	coproporphyrinogen III oxidase	coproporphyrinogen III + 2 S-adenosyl-L-methionine  <-->  protoporphyrinogen IX + 2 CO2 + 2 L-methionine + 2 5'-deoxyadenosine	HEMESYN2-PWY																1*GHGN-1415-MONOMER
+ENZRXNHGN-747	enoyl-ACP reductase	an enoylpimelyl-[acp] methyl ester + NADPH + H+  <-->  a pimelyl-[acp] methyl ester + NADP+																	1*GHGN-425-MONOMER
+ENZRXNHGN-934	choline transporter	choline[extracellular space]  <-->  choline																	1*GHGN-1869-MONOMER
+ENZRXNHGN-527	allulose-6-phosphate 3-epimerase	D-allulose-6-phosphate  <-->  D-fructose 6-phosphate	PWY0-44																1*GHGN-1623-MONOMER
+ENZRXNHGN-781	alcohol dehydrogenase	a primary alcohol + an oxidized azurin  <-->  an aldehyde + a reduced azurin																	1*GHGN-291-MONOMER
+ENZRXNHGN-935	choline transporter	choline[extracellular space]  <-->  choline																	1*GHGN-1868-MONOMER
+ENZRXNHGN-99	ATP synthase F0F1 subunit delta	ATP + 3 H+ + H2O  <-->  ADP + phosphate + 4 H+	PWY-6126																1*GHGN-1517-MONOMER
+ENZRXNHGN-251	3-ketoacyl-ACP reductase	a 3R-hydroxy cis delta7-tetradecenoyl-[acp] + NADP+  <-->  a 3-oxo-cis-delta7-tetradecenoyl-[acp] + NADPH + H+	PWY-6282																1*GHGN-795-MONOMER
+ENZRXNHGN-231	3-ketoacyl-ACP reductase	a (3R)-3-hydroxyacyl-[acyl-carrier protein] + NADP+  <-->  a 3-oxoacyl-[acp] + NADPH + H+	FASYN-ELONG-PWY																1*GHGN-795-MONOMER
+ENZRXNHGN-564	coproporphyrinogen III oxidase	coproporphyrinogen III + oxygen + 2 H+  <-->  protoporphyrinogen IX + 2 CO2 + 2 H2O	HEME-BIOSYNTHESIS-II	PWY0-1415															1*GHGN-1415-MONOMER
+ENZRXNHGN-782	alcohol dehydrogenase	a primary alcohol + 2 an oxidized cytochrome cL  <-->  an aldehyde + 2 a reduced cytochrome cL																	1*GHGN-291-MONOMER
+ENZRXNHGN-528	UDP-glucose 4-epimerase	UDP-D-glucose  <-->  UDP-alpha-D-galactose	PWY-6317																1*GHGN-1614-MONOMER
+ENZRXNHGN-936	cation efflux system protein	a cation  <-->  a cation[extracellular space]																	1*GHGN-1865-MONOMER
+ENZRXNHGN-25	queuine tRNA-ribosyltransferase	a guanine34 in tRNA + queuine + H+  <-->  queuosine at position 34 of a tRNA + guanine																	1*GHGN-2103-MONOMER
+ENZRXNHGN-100	ATP synthase F0F1 subunit alpha	ATP + 3 H+ + H2O  <-->  ADP + phosphate + 4 H+	PWY-6126																1*GHGN-1516-MONOMER
+ENZRXNHGN-783	alcohol dehydrogenase	a primary alcohol + 2 an oxidized cytochrome c550  <-->  an aldehyde + 2 a reduced cytochrome c550																	1*GHGN-291-MONOMER
+ENZRXNHGN-565	acyl-ACP thioesterase	an acyl-[acyl-carrier protein] + H2O  <-->  a fatty acid + a holo-[acyl-carrier protein]	PWY-5142																1*GHGN-1414-MONOMER
+ENZRXNHGN-937	xanthine permease	xanthine[extracellular space] + H+[extracellular space]  <-->  xanthine + H+																	1*GHGN-1856-MONOMER
+ENZRXNHGN-748	signal peptidase I	a peptide with a leader sequence + H2O  <-->  a peptide + a leader sequence																	1*GHGN-408-MONOMER
+ENZRXNHGN-784	alcohol dehydrogenase	ethanol + NAD+  <-->  acetaldehyde + NADH + H+	PWY-6028	P122-PWY	PWY-5480	FERMENTATION-PWY													1*GHGN-291-MONOMER
+ENZRXNHGN-16	tyrosyl-tRNA synthetase	tRNAtyr + L-tyrosine + ATP + H+  <-->  L-tyrosyl-tRNAtyr + AMP + diphosphate	TRNA-CHARGING-PWY																1*GHGN-2161-MONOMER
+ENZRXNHGN-529	proline dipeptidase	a dipeptide with proline at the C-terminal + H2O  <-->  L-proline + a standard alpha amino acid																	1*GHGN-1598-MONOMER
+ENZRXNHGN-118	3-dehydroquinate dehydratase	3-dehydroquinate  <-->  3-dehydroshikimate + H2O	PWY-6163																1*GHGN-1383-MONOMER
+ENZRXNHGN-252	3-ketoacyl-ACP reductase	a cis,cis-delta13,25-3-hydroxyC44:2-[acp] + NADP+  <-->  a cis,cis-delta13,25-3-oxo-C44:2-[acp] + NADPH + H+																	1*GHGN-795-MONOMER
+ENZRXNHGN-101	ATP synthase F0F1 subunit gamma	ATP + 3 H+ + H2O  <-->  ADP + phosphate + 4 H+	PWY-6126																1*GHGN-1515-MONOMER
+ENZRXNHGN-749	helicase	a supercoiled duplex DNA + ATP  <-->  a single stranded DNA + ADP + phosphate																	1*GHGN-407-MONOMER
+ENZRXNHGN-938	magnesium/cobalt transporter CorA	Co2+[extracellular space]  <-->  Co2+																	1*GHGN-1758-MONOMER
+ENZRXNHGN-530	isochorismatase	isochorismate + H2O  <-->  pyruvate + 2,3-dihydroxy-2,3-dihydrobenzoate	PWY-5901																1*GHGN-1590-MONOMER
+ENZRXNHGN-785	alcohol dehydrogenase	ethanol + an ubiquinone  <-->  acetaldehyde + an ubiquinol																	1*GHGN-291-MONOMER
+ENZRXNHGN-939	magnesium/cobalt transporter CorA	Mg2+[extracellular space]  <-->  Mg2+																	1*GHGN-1758-MONOMER
+ENZRXNHGN-786	alcohol dehydrogenase	an alcohol + NADP+  <-->  an aldehyde + NADPH + H+																	1*GHGN-291-MONOMER
+ENZRXNHGN-102	ATP synthase F0F1 subunit beta	ATP + 3 H+ + H2O  <-->  ADP + phosphate + 4 H+	PWY-6126																1*GHGN-1514-MONOMER
+ENZRXNHGN-566	inositol monophosphatase	1D-myo-inositol (1)-monophosphate + H2O  <-->  myo-inositol + phosphate																	1*GHGN-1409-MONOMER
+ENZRXNHGN-232	3-ketoacyl-ACP reductase	a cis,cis-delta19,37-3-hydroxy-C56:2-[acp] + NADP+  <-->  a cis,cis-delta19,37-3-oxo-C56:2-[acp] + NADPH + H+																	1*GHGN-795-MONOMER
+ENZRXNHGN-26	ribonuclease P	a tRNA precursor with a 5' extension  <-->  an uncharged tRNA + a single-stranded RNA	PWY0-1479																1*GHGN-2087-MONOMER
+ENZRXNHGN-531	lysozyme	a peptidoglycan + H2O  <-->  a peptidoglycan with cleaved N-acetyl-glucosamine + N-acetyl-D-glucosamine																	1*GHGN-1579-MONOMER
+ENZRXNHGN-787	alcohol dehydrogenase	a primary alcohol + NAD+  <-->  an aldehyde + NADH + H+																	1*GHGN-291-MONOMER
+ENZRXNHGN-103	ATP synthase F0F1 subunit epsilon	ATP + 3 H+ + H2O  <-->  ADP + phosphate + 4 H+	PWY-6126																1*GHGN-1513-MONOMER
+ENZRXNHGN-750	mannitol-1-phosphate 5-dehydrogenase	mannitol-1-phosphate + NAD+  <-->  D-fructose 6-phosphate + NADH + H+	MANNIDEG-PWY																1*GHGN-403-MONOMER
+ENZRXNHGN-17	NAD(P)H-dependent glycerol-3-phosphate dehydrogenase	sn-glycerol-3-phosphate + NAD(P)+  <-->  dihydroxyacetone phosphate + NAD(P)H + H+	PWY-5667																1*GHGN-2152-MONOMER
+ENZRXNHGN-788	alcohol dehydrogenase	5-hydroxytryptophol + NAD+  <-->  5-hydroxyindole acetaldehyde + NADH + H+																	1*GHGN-291-MONOMER
+ENZRXNHGN-233	3-ketoacyl-ACP reductase	a cis,cis-delta15,27-3-hydroxyC46:2-[acp] + NADP+  <-->  a cis,cis-delta15,27-3-oxo-C46:2-[acp] + NADPH + H+																	1*GHGN-795-MONOMER
+ENZRXNHGN-119	shikimate 5-dehydrogenase	shikimate + NADP+  <-->  3-dehydroshikimate + NADPH + H+	PWY-6163																1*GHGN-1382-MONOMER
+ENZRXNHGN-940	sugar ABC transporter substrate-binding protein	ATP + a sugar + H2O  <-->  ADP + a sugar + phosphate																	1*GHGN-1690-MONOMER
+ENZRXNHGN-532	dihydrofolate reductase	tetrahydrofolate + NADP+  <-->  7,8-dihydrofolate + NADPH + H+	PWY66-385	1CMET2-PWY	PWY-6614														1*GHGN-1577-MONOMER
+ENZRXNHGN-941	cation transporter E1-E2 family ATPase	ATP + a cation[extracellular space] + H2O  <-->  ADP + a cation + phosphate																	1*GHGN-1630-MONOMER
+ENZRXNHGN-567	inositol monophosphatase	1D-myo-inositol (3)-monophosphate + H2O  <-->  myo-inositol + phosphate	PWY-2301																1*GHGN-1409-MONOMER
+ENZRXNHGN-789	aminopeptidase	amino acids(n) + H2O  <-->  a standard alpha amino acid + amino acids(n-1)	PWY-5988	PWY-6018															1*GHGN-287-MONOMER
+ENZRXNHGN-790	aminopeptidase	a protein + H2O  <-->  a standard alpha amino acid + a peptide																	1*GHGN-287-MONOMER
+ENZRXNHGN-234	3-ketoacyl-ACP reductase	a cis,cis-delta9,27-3-hydroxyC46:2-[acp] + NADP+  <-->  a cis,cis-delta9,27-3-oxo-C46:2-[acp] + NADPH + H+																	1*GHGN-795-MONOMER
+ENZRXNHGN-104	elongation factor Tu	GTP + H2O  <-->  GDP + phosphate + H+																	1*GHGN-1495-MONOMER
+ENZRXNHGN-120	3-dehydroquinate synthase	3-deoxy-D-arabino-heptulosonate-7-phosphate  <-->  3-dehydroquinate + phosphate	PWY-6164																1*GHGN-1381-MONOMER
+ENZRXNHGN-533	phosphoglucosamine mutase	D-glucosamine 1-phosphate  <-->  D-glucosamine 6-phosphate	UDPNAGSYN-PWY																1*GHGN-1565-MONOMER
+ENZRXNHGN-791	aminopeptidase	a protein + H2O  <-->  a peptide + a standard alpha amino acid																	1*GHGN-287-MONOMER
+ENZRXNHGN-27	ribonuclease P	a tRNA precursor with a 5' extension and a short 3' extension  <-->  a tRNA precursor with a short 3' extension + a single-stranded RNA	PWY0-1479																1*GHGN-2087-MONOMER
+ENZRXNHGN-942	oxalate:formate antiporter	formate + oxalate[extracellular space]  <-->  formate[extracellular space] + oxalate																	1*GHGN-1594-MONOMER
+ENZRXNHGN-253	3-ketoacyl-ACP reductase	a cis,cis-delta17,29-3-hydroxyC48:2-[acp] + NADP+  <-->  a cis,cis-delta17,29-3-oxo-C48:2-[acp] + NADPH + H+																	1*GHGN-795-MONOMER
+ENZRXNHGN-568	alpha-acetolactate decarboxylase	(S)-2-acetolactate + H+  <-->  (R)-acetoin + CO2	PWY-5939																1*GHGN-1398-MONOMER
+ENZRXNHGN-792	ribosomal small subunit pseudouridine synthase A	a 16S rRNA uridine516  <-->  a 16S rRNA pseudouridine516																	1*GHGN-286-MONOMER
+ENZRXNHGN-793	aminopeptidase	amino acids(n) + H2O  <-->  a standard alpha amino acid + amino acids(n-1)	PWY-5988	PWY-6018															1*GHGN-284-MONOMER
+ENZRXNHGN-254	methionyl-tRNA synthetase	tRNAmet + L-methionine + ATP + H+  <-->  L-methionyl-tRNAmet + AMP + diphosphate	TRNA-CHARGING-PWY																1*GHGN-790-MONOMER
+ENZRXNHGN-569	shikimate kinase	shikimate + ATP  <-->  shikimate-3-phosphate + ADP + H+	PWY-6163																1*GHGN-1376-MONOMER
+ENZRXNHGN-794	aminopeptidase	a protein + H2O  <-->  a standard alpha amino acid + a peptide																	1*GHGN-284-MONOMER
+ENZRXNHGN-121	chorismate synthase	5-enolpyruvyl-shikimate-3-phosphate  <-->  chorismate + phosphate	PWY-6163																1*GHGN-1380-MONOMER
+ENZRXNHGN-795	aminopeptidase	a protein + H2O  <-->  a peptide + a standard alpha amino acid																	1*GHGN-284-MONOMER
+ENZRXNHGN-570	bifunctional methionine sulfoxide reductase A/B	a [protein]-L-methionine + an oxidized thioredoxin + H2O  <-->  a protein-L-methionine-(S)-S-oxide + a reduced thioredoxin																	1*GHGN-1365-MONOMER
+ENZRXNHGN-796	phosphatidate cytidylyltransferase	CTP + a 2,3,4-saturated L-phosphatidate + H+  <-->  a CDP-2,3,4-saturated-diacylglycerol + diphosphate																	1*GHGN-268-MONOMER
+ENZRXNHGN-255	glutathione reductase	2 glutathione + NADP+  <-->  glutathione disulfide + NADPH + H+	GLUT-REDOX-PWY	PWY-4081															1*GHGN-786-MONOMER
+ENZRXNHGN-571	prolyl oligopeptidase	a protein  <-->  a peptide + a peptide																	1*GHGN-1349-MONOMER
+ENZRXNHGN-572	N-acetylneuraminate lyase	N-acetylneuraminate  <-->  N-acetyl-D-mannosamine + pyruvate	PWY0-1324																1*GHGN-1335-MONOMER
+ENZRXNHGN-797	phosphatidate cytidylyltransferase	CTP + a 1,2-diacyl-sn-glycerol 3-phosphate + H+  <-->  a CDP-diacylglycerol + diphosphate	PWY-5667																1*GHGN-268-MONOMER
+ENZRXNHGN-573	neuraminidase	a sialyloligosaccharide + H2O  <-->  an oligosaccharide + N-acetylneuraminate																	1*GHGN-1332-MONOMER
+ENZRXNHGN-122	prephenate dehydrogenase	prephenate + NAD+  <-->  4-hydroxyphenylpyruvate + CO2 + NADH	TYRSYN																1*GHGN-1379-MONOMER
+ENZRXNHGN-256	S-adenosylmethionine synthetase	ATP + L-methionine + H2O  <-->  S-adenosyl-L-methionine + phosphate + diphosphate	SAM-PWY																1*GHGN-764-MONOMER
+ENZRXNHGN-798	undecaprenyl pyrophosphate synthase	(2E,6E)-farnesyl diphosphate + 8 isopentenyl diphosphate  <-->  di-trans,octa-cis-undecaprenyl diphosphate + 8 diphosphate	PWY-5785																1*GHGN-267-MONOMER
+ENZRXNHGN-574	endonuclease III	a DNA containing an AP site  <-->  a 5'-phosphopolynucleotide + a 3'-terminal unsaturated sugar																	1*GHGN-1284-MONOMER
+ENZRXNHGN-28	3-keto-L-gulonate-6-phosphate decarboxylase	3-keto-L-gulonate 6-phosphate + H+  <-->  L-xylulose-5-phosphate + CO2	PWY0-301																1*GHGN-2080-MONOMER
+ENZRXNHGN-257	ATP-dependent Clp protease proteolytic subunit	a protein  <-->  a peptide + a peptide																	1*GHGN-747-MONOMER
+ENZRXNHGN-575	zinc-containing alcohol dehydrogenase	a primary alcohol + NAD+  <-->  an aldehyde + NADH + H+																	1*GHGN-1275-MONOMER
+ENZRXNHGN-799	fructose-6-phosphate aldolase	D-fructose 6-phosphate  <-->  dihydroxyacetone + D-glyceraldehyde 3-phosphate																	1*GHGN-258-MONOMER
+ENZRXNHGN-258	uracil phosphoribosyltransferase	uridine-5'-monophosphate + diphosphate  <-->  5-phospho-alpha-D-ribose 1-diphosphate + uracil	PWY0-163	PWY-7183	P1-PWY														1*GHGN-746-MONOMER
+ENZRXNHGN-576	zinc-containing alcohol dehydrogenase	a secondary alcohol + NAD+  <-->  a ketone + NADH + H+																	1*GHGN-1275-MONOMER
+ENZRXNHGN-123	3-phosphoshikimate 1-carboxyvinyltransferase	shikimate-3-phosphate + phosphoenolpyruvate  <-->  5-enolpyruvyl-shikimate-3-phosphate + phosphate	PWY-6163																1*GHGN-1377-MONOMER
+ENZRXNHGN-800	formate acetyltransferase	formate + acetyl-CoA  <-->  pyruvate + coenzyme A	ANARESP1-PWY	PWY-5480	PWY-5485	FERMENTATION-PWY													1*GHGN-257-MONOMER
+ENZRXNHGN-259	phosphomethylpyrimidine kinase	4-amino-2-methyl-5-phosphomethylpyrimidine + ATP  <-->  4-amino-2-methyl-5-diphosphomethylpyrimidine + ADP	PWY-6890	PWY-6910															1*GHGN-727-MONOMER
+ENZRXNHGN-577	zinc-containing alcohol dehydrogenase	an alcohol + NADP+  <-->  an aldehyde + NADPH + H+																	1*GHGN-1275-MONOMER
+ENZRXNHGN-145	DNA topoisomerase I	a negatively supercoiled DNA  <-->  a relaxed DNA																	1*GHGN-1268-MONOMER
+ENZRXNHGN-836	hypoxanthine-guanine phosphoribosyltransferase	GMP + diphosphate  <-->  guanine + 5-phospho-alpha-D-ribose 1-diphosphate	PWY-6599	PWY-6620	P1-PWY														1*GHGN-12-MONOMER
+ENZRXNHGN-801	pyruvate formate-lyase-activating enzyme	a [formate C acetyltransferase]-glycine + S-adenosyl-L-methionine + a reduced flavodoxin  <-->  a [formate C acetyltransferase]-glycin -2-yl radical + 5'-deoxyadenosine + L-methionine + a flavodoxin semiquinone																	1*GHGN-251-MONOMER
+ENZRXNHGN-37	UDP-N-acetylglucosamine 1-carboxyvinyltransferase	UDP-N-acetyl-alpha-D-glucosamine + phosphoenolpyruvate  <-->  UDP-N-acetyl-alpha-D-glucosamine-enolpyruvate + phosphate	PWY-6387	PWY-6386															1*GHGN-1997-MONOMER
+ENZRXNHGN-802	phosphoglycerate mutase	3-phospho-D-glycerate  <-->  2-phospho-D-glycerate	PWY-6901	PWY-7003	P122-PWY	ANAGLYCOLYSIS-PWY													1*GHGN-246-MONOMER
+ENZRXNHGN-599	lipoate-protein ligase	lipoyl-carrier protein + octanoate + ATP  <-->  a [lipoyl-carrier protein] N6-octanoyl-L-lysine + AMP + diphosphate	PWY0-1275																1*GHGN-1165-MONOMER
+ENZRXNHGN-280	tRNA (guanine-N(7)-)-methyltransferase	guanine46 in tRNA + S-adenosyl-L-methionine  <-->  N7-methylguanine46 in tRNA + S-adenosyl-L-homocysteine																	1*GHGN-555-MONOMER
+ENZRXNHGN-124	prephenate dehydratase	prephenate + H+  <-->  2-oxo-3-phenylpropanoate + CO2 + H2O	PHESYN																1*GHGN-1375-MONOMER
+ENZRXNHGN-837	hypoxanthine-guanine phosphoribosyltransferase	IMP + diphosphate  <-->  hypoxanthine + 5-phospho-alpha-D-ribose 1-diphosphate	PWY-6609																1*GHGN-12-MONOMER
+ENZRXNHGN-146	guanosine 5'-monophosphate oxidoreductase	ammonia + IMP + NADP+  <-->  GMP + NADPH + H+																	1*GHGN-1254-MONOMER
+ENZRXNHGN-600	lipoate-protein ligase	lipoyl-adenylate + lipoyl-carrier protein  <-->  a [lipoyl-carrier protein] N6-lipoyl-L-lysine + AMP	PWY0-522																1*GHGN-1165-MONOMER
+ENZRXNHGN-803	anaerobic ribonucleoside-triphosphate reductase activating protein	an inactive ribonucleoside triphosphate reductase + S-adenosyl-L-methionine  <-->  an active ribonucleoside triphosphate reductase + 5'-deoxyadenosine + L-methionine																	1*GHGN-211-MONOMER
+ENZRXNHGN-38	DNA-directed RNA polymerase subunit beta	a nucleoside triphosphate + RNA(n)  <-->  RNA(n+1) + diphosphate																	1*GHGN-1991-MONOMER
+ENZRXNHGN-260	hydroxyethylthiazole kinase	ATP + 4-methyl-5-(beta-hydroxyethyl)thiazole  <-->  ADP + 4-methyl-5-(2-phosphonooxyethyl)thiazole + H+	PWY-6897																1*GHGN-718-MONOMER
+ENZRXNHGN-601	phage integrase family integrase/recombinase	a DNA segment  <-->  a DNA segment in reverse orientation																	1*GHGN-1134-MONOMER
+ENZRXNHGN-578	choline kinase	choline + ATP  <-->  phosphocholine + ADP + H+	PWY3O-450																1*GHGN-1274-MONOMER
+ENZRXNHGN-147	ribonuclease III	RNase III mRNA processing substrate  <-->  RNase III processing product mRNA + 2 a single-stranded RNA																	1*GHGN-1252-MONOMER
+ENZRXNHGN-281	phosphoglycerate kinase	3-phospho-D-glycerate + ATP  <-->  1,3-bisphospho-D-glycerate + ADP	PWY-6901	PWY-7003	P122-PWY	ANAGLYCOLYSIS-PWY													1*GHGN-504-MONOMER
+ENZRXNHGN-602	glyceraldehyde-3-phosphate dehydrogenase	D-glyceraldehyde 3-phosphate + NAD(P)+ + phosphate  <-->  1,3-bisphospho-D-glycerate + NAD(P)H + H+																	1*GHGN-1124-MONOMER
+ENZRXNHGN-39	DNA-directed RNA polymerase subunit beta	a nucleoside triphosphate + RNA(n)  <-->  RNA(n+1) + diphosphate																	1*GHGN-1990-MONOMER
+ENZRXNHGN-804	cardiolipin synthetase	a CDP-diacylglycerol + an L-1-phosphatidyl-glycerol  <-->  a cardiolipin + cytidine-5'-monophosphate + H+																	1*GHGN-205-MONOMER
+ENZRXNHGN-603	glyceraldehyde-3-phosphate dehydrogenase	D-glyceraldehyde 3-phosphate + NADP+ + H2O  <-->  3-phospho-D-glycerate + NADPH + 2 H+																	1*GHGN-1124-MONOMER
+ENZRXNHGN-282	CTP synthetase	ATP + UTP + L-glutamine + H2O  <-->  ADP + CTP + L-glutamate + phosphate + 2 H+	PWY-7176																1*GHGN-499-MONOMER
+ENZRXNHGN-125	homoserine dehydrogenase	L-homoserine + NAD(P)+  <-->  L-aspartate-semialdehyde + NAD(P)H + H+	HOMOSERSYN-PWY																1*GHGN-1367-MONOMER
+ENZRXNHGN-29	L-ribulose-5-phosphate 4-epimerase	L-ribulose-5-phosphate  <-->  D-xylulose 5-phosphate	PWY0-301																1*GHGN-2078-MONOMER
+ENZRXNHGN-283	DNA polymerase IV	a deoxyribonucleoside triphosphate + (deoxynucleotides)(n)  <-->  (deoxynucleotides)(n+1) + diphosphate																	1*GHGN-464-MONOMER
+ENZRXNHGN-579	2-isopropylmalate synthase	3-methyl-2-oxobutanoate + acetyl-CoA + H2O  <-->  (2S)-2-isopropylmalate + coenzyme A + H+	LEUSYN-PWY																1*GHGN-1263-MONOMER
+ENZRXNHGN-805	cardiolipin synthetase	2 an L-1-phosphatidyl-glycerol  <-->  a cardiolipin + glycerol	PWY-5668																1*GHGN-205-MONOMER
+ENZRXNHGN-604	pullulanase	pullulan + n H2O  <-->  n maltotriose																	1*GHGN-1123-MONOMER
+ENZRXNHGN-148	glucose-6-phosphate 1-dehydrogenase	beta-D-glucose 6-phosphate + NADP+  <-->  6-phospho D-glucono-1,5-lactone + NADPH + H+	OXIDATIVEPENT-PWY	P122-PWY															1*GHGN-1247-MONOMER
+ENZRXNHGN-261	lysyl-tRNA synthetase	L-lysine + tRNAlys + ATP + H+  <-->  L-lysyl-tRNAlys + AMP + diphosphate	TRNA-CHARGING-PWY																1*GHGN-714-MONOMER
+ENZRXNHGN-806	dihydrofolate synthetase	L-glutamate + 7,8-dihydropteroate + ATP  <-->  ADP + 7,8-dihydrofolate + phosphate + H+	1CMET2-PWY	PWY-6614															1*GHGN-203-MONOMER
+ENZRXNHGN-580	phosphopantothenate--cysteine ligase	D-4'-phosphopantothenate + L-cysteine + CTP  <-->  R-4'-phosphopantothenoyl-L-cysteine + cytidine-5'-monophosphate + diphosphate + H+	COA-PWY																1*GHGN-1235-MONOMER
+ENZRXNHGN-126	homoserine kinase	L-homoserine + ATP  <-->  O-phospho-L-homoserine + ADP + H+	HOMOSER-THRESYN-PWY																1*GHGN-1366-MONOMER
+ENZRXNHGN-40	nucleoside diphosphate kinase	CDP + ATP  <-->  CTP + ADP	PWY0-163																1*GHGN-1989-MONOMER
+ENZRXNHGN-605	pullulanase	a large-branched glucan + n H2O  <-->  n a long-linear glucan																	1*GHGN-1123-MONOMER
+ENZRXNHGN-284	UDP pyrophosphate phosphatase	di-trans,octa-cis-undecaprenyl diphosphate + H2O  <-->  di-trans,octa-cis-undecaprenyl phosphate + phosphate + H+																	1*GHGN-463-MONOMER
+ENZRXNHGN-606	phosphotransacetylase	acetyl-CoA + phosphate  <-->  acetylphosphate + coenzyme A	PWY-5497	P122-PWY	PWY-5485	FERMENTATION-PWY													1*GHGN-1105-MONOMER
+ENZRXNHGN-285	threonine dehydratase	L-threonine  <-->  2-oxobutanoate + ammonia + H+	ILEUSYN-PWY																1*GHGN-456-MONOMER
+ENZRXNHGN-127	N-acetylmannosamine-6-phosphate 2-epimerase	N-acetyl-D-mannosamine-6-phosphate  <-->  N-acetyl-D-glucosamine-6-phosphate	PWY0-1324																1*GHGN-1336-MONOMER
+ENZRXNHGN-149	phosphopantothenoylcysteine decarboxylase	R-4'-phosphopantothenoyl-L-cysteine + H+  <-->  4'-phosphopantetheine + CO2	COA-PWY																1*GHGN-1236-MONOMER
+ENZRXNHGN-262	orotate phosphoribosyltransferase	orotidine-5'-phosphate + diphosphate  <-->  5-phospho-alpha-D-ribose 1-diphosphate + orotate	PWY-5686																1*GHGN-703-MONOMER
+ENZRXNHGN-581	formate--tetrahydrofolate ligase	10-formyl-tetrahydropteroyl-[gamma-Glu](n) + ADP + phosphate  <-->  tetrahydropteroyl-[gamma-Glu](n) + ATP + formate																	1*GHGN-1234-MONOMER
+ENZRXNHGN-607	ribosomal large subunit pseudouridine synthase D	a tRNA uridine32  <-->  a pseudouridine32 in tRNA																	1*GHGN-1104-MONOMER
+ENZRXNHGN-807	methylcrotonoyl-CoA carboxylase	3-methylcrotonyl-CoA + bicarbonate + ATP  <-->  3-methylglutaconyl-CoA + ADP + phosphate + H+	LEU-DEG2-PWY																1*GHGN-188-MONOMER
+ENZRXNHGN-128	N-acetylmannosamine-6-phosphate 2-epimerase	an N-acyl-D-glucosamine 6-phosphate  <-->  an N-acyl-alpha-D-mannosamine 6-phosphate																	1*GHGN-1336-MONOMER
+ENZRXNHGN-608	ribosomal large subunit pseudouridine synthase D	a 23S rRNA uridine2457  <-->  a 23S rRNA pseudouridine2457																	1*GHGN-1104-MONOMER
+ENZRXNHGN-41	nucleoside diphosphate kinase	dTDP + ATP  <-->  dTTP + ADP	PWY0-166																1*GHGN-1989-MONOMER
+ENZRXNHGN-609	ribosomal large subunit pseudouridine synthase D	a 23S rRNA uridine2605  <-->  a pseudouridine2605 in 23S rRNA																	1*GHGN-1104-MONOMER
+ENZRXNHGN-263	orotidine 5'-phosphate decarboxylase	orotidine-5'-phosphate + H+  <-->  CO2 + uridine-5'-monophosphate	PWY-5686																1*GHGN-702-MONOMER
+ENZRXNHGN-129	V-type ATP synthase subunit I	ATP + 3 H+ + H2O  <-->  ADP + phosphate + 4 H+	PWY-6126																1*GHGN-1328-MONOMER
+ENZRXNHGN-286	ketol-acid reductoisomerase	2,3-dihydroxy-3-methylbutanoate + NADP+  <-->  (S)-2-acetolactate + NADPH + H+	VALSYN-PWY																1*GHGN-453-MONOMER
+ENZRXNHGN-582	formate--tetrahydrofolate ligase	ATP + formate + tetrahydrofolate  <-->  ADP + 10-formyl-tetrahydrofolate + phosphate	PWY-2161	PWY-1722	PWY-5497	PWY-2201													1*GHGN-1234-MONOMER
+ENZRXNHGN-610	ribosomal large subunit pseudouridine synthase D	a 23S rRNA uridine955/2504/2580  <-->  a 23S rRNA pseudouridine955/2504/2580																	1*GHGN-1104-MONOMER
+ENZRXNHGN-150	L-lactate dehydrogenase	(S)-lactate + NAD+  <-->  pyruvate + NADH + H+	PWY-6901	P122-PWY	PWY-5481														1*GHGN-1225-MONOMER
+ENZRXNHGN-808	DNA-3-methyladenine glycosylase I	a DNA with alkylated adenine + H2O  <-->  a DNA containing a purinic site + 3-methyladenine																	1*GHGN-186-MONOMER
+ENZRXNHGN-30	transketolase	D-sedoheptulose 7-phosphate + D-glyceraldehyde 3-phosphate  <-->  D-ribose 5-phosphate + D-xylulose 5-phosphate	P21-PWY	NONOXIPENT-PWY															1*GHGN-2075-MONOMER
+ENZRXNHGN-611	ribosomal large subunit pseudouridine synthase D	a uridine2604 in 23S rRNA  <-->  a 23S rRNA pseudouridine2604																	1*GHGN-1104-MONOMER
+ENZRXNHGN-130	V-type ATP synthase subunit K	ATP + 3 H+ + H2O  <-->  ADP + phosphate + 4 H+	PWY-6126																1*GHGN-1327-MONOMER
+ENZRXNHGN-287	ketol-acid reductoisomerase	2,3-dihydroxy-3-methylvalerate + NADP+  <-->  2-aceto-2-hydroxy-butanoate + NADPH + H+	ILEUSYN-PWY																1*GHGN-453-MONOMER
+ENZRXNHGN-612	ribosomal large subunit pseudouridine synthase D	a 23S rRNA uridine1911/1915/1917  <-->  a 23S rRNA pseudouridine1911/1915/1917																	1*GHGN-1104-MONOMER
+ENZRXNHGN-583	DNA gyrase subunit A	a double stranded DNA + ATP  <-->  a negatively supercoiled DNA + ADP + phosphate																	1*GHGN-1224-MONOMER
+ENZRXNHGN-42	nucleoside diphosphate kinase	dCDP + ATP  <-->  dCTP + ADP	PWY0-166																1*GHGN-1989-MONOMER
+ENZRXNHGN-613	glutamine amidotransferase	chorismate + L-glutamine  <-->  4-amino-4-deoxychorismate + L-glutamate	PWY-6543																1*GHGN-1094-MONOMER
+ENZRXNHGN-288	acetolactate synthase 3 regulatory subunit	2 pyruvate + H+  <-->  (S)-2-acetolactate + CO2	VALSYN-PWY	PWY-5939															1*GHGN-452-MONOMER
+ENZRXNHGN-809	3,4-dihydroxy-2-butanone 4-phosphate synthase	D-ribulose 5-phosphate  <-->  formate + 1-deoxy-L-glycero-tetrulose 4-phosphate + H+	RIBOSYN2-PWY																1*GHGN-182-MONOMER
+ENZRXNHGN-151	uridine kinase	uridine + GTP  <-->  uridine-5'-monophosphate + GDP + H+	PWY0-163																1*GHGN-1213-MONOMER
+ENZRXNHGN-584	tRNA pseudouridine synthase B	a tRNA uridine38-40  <-->  a pseudouridine38-40 in tRNA																	1*GHGN-1217-MONOMER
+ENZRXNHGN-131	V-type ATP synthase subunit F	ATP + 3 H+ + H2O  <-->  ADP + phosphate + 4 H+	PWY-6126																1*GHGN-1324-MONOMER
+ENZRXNHGN-614	glutamine amidotransferase	NAGG + L-glutamine  <-->  NAGGN + L-glutamate	PWY-7054																1*GHGN-1094-MONOMER
+ENZRXNHGN-615	glutamine amidotransferase	XMP + L-glutamine + ATP + H2O  <-->  L-glutamate + GMP + AMP + diphosphate + 2 H+	PWY-841	PWY-6125															1*GHGN-1094-MONOMER
+ENZRXNHGN-289	acetolactate synthase 3 regulatory subunit	pyruvate + 2-oxobutanoate + H+  <-->  2-aceto-2-hydroxy-butanoate + CO2	ILEUSYN-PWY																1*GHGN-452-MONOMER
+ENZRXNHGN-264	undecaprenyldiphospho-muramoylpentapeptide beta-N- acetylglucosaminyltransferase	N-acetylmuramoyl-pentapeptide-diphospho-decaprenol + UDP-N-acetyl-alpha-D-glucosamine  <-->  N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-decaprenol + uridine-5'-diphosphate + H+	PWY-6385																1*GHGN-690-MONOMER
+ENZRXNHGN-132	V-type ATP synthase subunit A	ATP + 3 H+ + H2O  <-->  ADP + phosphate + 4 H+	PWY-6126																1*GHGN-1323-MONOMER
+ENZRXNHGN-810	6,7-dimethyl-8-ribityllumazine synthase	5-amino-6-(D-ribitylamino)uracil + 1-deoxy-L-glycero-tetrulose 4-phosphate  <-->  6,7-dimethyl-8-(1-D-ribityl)lumazine + phosphate + H+ + 2 H2O	RIBOSYN2-PWY																1*GHGN-181-MONOMER
+ENZRXNHGN-616	ATP-dependent DNA helicase PcrA	a supercoiled duplex DNA + ATP  <-->  a single stranded DNA + ADP + phosphate																	1*GHGN-1092-MONOMER
+ENZRXNHGN-290	acetolactate synthase catalytic subunit	2 pyruvate + H+  <-->  (S)-2-acetolactate + CO2	VALSYN-PWY	PWY-5939															1*GHGN-451-MONOMER
+ENZRXNHGN-152	uridine kinase	uridine + ATP  <-->  uridine-5'-monophosphate + ADP + H+	P1-PWY																1*GHGN-1213-MONOMER
+ENZRXNHGN-291	acetolactate synthase catalytic subunit	pyruvate + 2-oxobutanoate + H+  <-->  2-aceto-2-hydroxy-butanoate + CO2	ILEUSYN-PWY																1*GHGN-451-MONOMER
+ENZRXNHGN-811	aldose 1-epimerase	beta-D-galactose  <-->  alpha-D-galactose	PWY-6317																1*GHGN-72-MONOMER
+ENZRXNHGN-133	V-type ATP synthase subunit B	ATP + 3 H+ + H2O  <-->  ADP + phosphate + 4 H+	PWY-6126																1*GHGN-1322-MONOMER
+ENZRXNHGN-43	nucleoside diphosphate kinase	dGDP + ATP  <-->  dGTP + ADP	PWY-6125																1*GHGN-1989-MONOMER
+ENZRXNHGN-617	GTPase ObgE	GTP + H2O  <-->  GDP + phosphate + H+																	1*GHGN-1084-MONOMER
+ENZRXNHGN-153	exodeoxyribonuclease VII large subunit	a single stranded DNA + H2O  <-->  a ribonucleoside 5'-monophosphate + a single-stranded oligodeoxyribonucleotide																	1*GHGN-1212-MONOMER
+ENZRXNHGN-134	V-type ATP synthase subunit D	ATP + 3 H+ + H2O  <-->  ADP + phosphate + 4 H+	PWY-6126																1*GHGN-1321-MONOMER
+ENZRXNHGN-265	undecaprenyldiphospho-muramoylpentapeptide beta-N- acetylglucosaminyltransferase	N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimelyl-D-alanyl-D-alanine-diphosphoundecaprenol + UDP-N-acetyl-alpha-D-glucosamine  <-->  N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimelyl-D-alanyl-D-alanine-diphosphoundecaprenyl-N-acetylglucosamine + uridine-5'-diphosphate + H+	PEPTIDOGLYCANSYN-PWY																1*GHGN-690-MONOMER
+ENZRXNHGN-618	DNA primase	a single stranded DNA  <-->  a short RNA Segment																	1*GHGN-1077-MONOMER
+ENZRXNHGN-813	Beta-galactosidase 3	lactose + H2O  <-->  beta-D-galactose + beta-D-glucose	BGALACT-PWY																1*GHGN-66-MONOMER
+ENZRXNHGN-585	geranyltranstransferase	geranyl diphosphate + isopentenyl diphosphate  <-->  (2E,6E)-farnesyl diphosphate + diphosphate	PWY-5123																1*GHGN-1210-MONOMER
+ENZRXNHGN-44	nucleoside diphosphate kinase	a ribonucleoside diphosphate + ATP  <-->  a ribonucleoside triphosphate + ADP																	1*GHGN-1989-MONOMER
+ENZRXNHGN-154	exodeoxyribonuclease VII small subunit	a single stranded DNA + H2O  <-->  a ribonucleoside 5'-monophosphate + a single-stranded oligodeoxyribonucleotide																	1*GHGN-1211-MONOMER
+ENZRXNHGN-31	transketolase	D-erythrose 4-phosphate + D-xylulose 5-phosphate  <-->  D-fructose 6-phosphate + D-glyceraldehyde 3-phosphate	PWY-6901	P21-PWY	NONOXIPENT-PWY														1*GHGN-2075-MONOMER
+ENZRXNHGN-619	protein kinase	a protein + ATP  <-->  a phosphoprotein + ADP																	1*GHGN-1066-MONOMER
+ENZRXNHGN-292	acetyl-CoA carboxylase subunit alpha	ATP + acetyl-CoA + bicarbonate  <-->  malonyl-CoA + ADP + phosphate + H+																	1*GHGN-433-MONOMER
+ENZRXNHGN-814	Beta-galactosidase 3	XXLG xyloglucan oligosaccharide + H2O  <-->  XXXG xyloglucan oligosaccharide + beta-D-galactose																	1*GHGN-66-MONOMER
+ENZRXNHGN-815	Beta-galactosidase 3	XLXG xyloglucan oligosaccharide + H2O  <-->  XXXG xyloglucan oligosaccharide + beta-D-galactose																	1*GHGN-66-MONOMER
+ENZRXNHGN-620	protein kinase	ATP + a protein  <-->  ADP + a phosphoprotein																	1*GHGN-1066-MONOMER
+ENZRXNHGN-293	acetyl-CoA carboxylase subunit alpha	acetyl-CoA + a carboxylated-biotinylated [BCCP dimer]  <-->  malonyl-CoA + a biotinylated [BCCP dimer]	PWY0-1264																1*GHGN-433-MONOMER
+ENZRXNHGN-816	Beta-galactosidase 3	3'-ketolactose + H2O  <-->  3-keto-beta-D-galactose + beta-D-glucose																	1*GHGN-66-MONOMER
+ENZRXNHGN-135	glutamate dehydrogenase	L-glutamate + NADP+ + H2O  <-->  ammonia + 2-oxoglutarate + NADPH + 2 H+	GLUTSYNIII-PWY																1*GHGN-1312-MONOMER
+ENZRXNHGN-294	acetyl-CoA carboxylase subunit beta	ATP + acetyl-CoA + bicarbonate  <-->  malonyl-CoA + ADP + phosphate + H+																	1*GHGN-432-MONOMER
+ENZRXNHGN-817	Beta-galactosidase 3	XLLG xyloglucan oligosaccharide + 2 H2O  <-->  XXXG xyloglucan oligosaccharide + 2 beta-D-galactose																	1*GHGN-66-MONOMER
+ENZRXNHGN-266	undecaprenyldiphospho-muramoylpentapeptide beta-N- acetylglucosaminyltransferase	N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-L-lysyl- D-alanyl-D-alanine-diphosphoundecaprenol + UDP-N-acetyl-alpha-D-glucosamine  <-->  N-acetylmuramoyl-L-alanyl-D-glutamyl-L-lysyl-D-alanyl-D-alanine-diphosphoundecaprenyl-N-acetylglucosamine + uridine-5'-diphosphate + H+	PWY-6471																1*GHGN-690-MONOMER
+ENZRXNHGN-155	galactose-6-phosphate isomerase subunit LacA	D-galactose 6-phosphate  <-->  tagatose-6-phosphate	LACTOSECAT-PWY																1*GHGN-1198-MONOMER
+ENZRXNHGN-586	tagatose-6-phosphate kinase	D-tagatose + ATP  <-->  tagatose-6-phosphate + ADP + H+																	1*GHGN-1196-MONOMER
+ENZRXNHGN-295	acetyl-CoA carboxylase subunit beta	acetyl-CoA + a carboxylated-biotinylated [BCCP dimer]  <-->  malonyl-CoA + a biotinylated [BCCP dimer]	PWY0-1264																1*GHGN-432-MONOMER
+ENZRXNHGN-818	Beta-galactosidase 3	a beta-D-galactoside + H2O  <-->  a non galactosylated galactose acceptor + beta-D-galactose																	1*GHGN-66-MONOMER
+ENZRXNHGN-296	acetyl-CoA carboxylase biotin carboxylase subunit	ATP + acetyl-CoA + bicarbonate  <-->  malonyl-CoA + ADP + phosphate + H+																	1*GHGN-431-MONOMER
+ENZRXNHGN-156	galactose-6-phosphate isomerase subunit LacB	D-galactose 6-phosphate  <-->  tagatose-6-phosphate	LACTOSECAT-PWY																1*GHGN-1197-MONOMER
+ENZRXNHGN-819	Beta-galactosidase 3	lactose  <-->  allolactose																	1*GHGN-66-MONOMER
+ENZRXNHGN-297	acetyl-CoA carboxylase biotin carboxylase subunit	acetyl-CoA + a carboxylated-biotinylated [BCCP dimer]  <-->  malonyl-CoA + a biotinylated [BCCP dimer]	PWY0-1264																1*GHGN-431-MONOMER
+ENZRXNHGN-622	dihydrodipicolinate synthase	pyruvate + L-aspartate-semialdehyde  <-->  (4S)-4-hydroxy-2,3,4,5-tetrahydro-(2S)-dipicolinate + H2O + H+	DAPLYSINESYN-PWY																1*GHGN-1019-MONOMER
+ENZRXNHGN-298	acetyl-CoA carboxylase biotin carboxyl carrier protein subunit	ATP + acetyl-CoA + bicarbonate  <-->  malonyl-CoA + ADP + phosphate + H+																	1*GHGN-429-MONOMER
+ENZRXNHGN-157	ribonucleotide-diphosphate reductase subunit beta	dADP + an oxidized thioredoxin + H2O  <-->  ADP + a reduced thioredoxin	PWY-6126																1*GHGN-1185-MONOMER
+ENZRXNHGN-136	bifunctional pyrimidine regulatory protein PyrR/uracil phosphoribosyltransferase	uridine-5'-monophosphate + diphosphate  <-->  5-phospho-alpha-D-ribose 1-diphosphate + uracil	PWY0-163	PWY-7183	P1-PWY														1*GHGN-1283-MONOMER
+ENZRXNHGN-299	acetyl-CoA carboxylase biotin carboxyl carrier protein subunit	acetyl-CoA + a carboxylated-biotinylated [BCCP dimer]  <-->  malonyl-CoA + a biotinylated [BCCP dimer]	PWY0-1264																1*GHGN-429-MONOMER
+ENZRXNHGN-587	tagatose-6-phosphate kinase	tagatose-6-phosphate + ATP  <-->  tagatose-1,6-bisphosphate + ADP + H+	LACTOSECAT-PWY																1*GHGN-1196-MONOMER
+ENZRXNHGN-820	beta-N-acetylhexosaminidase	an N-acetyl-beta-D-galactosalaminyl-[glycan] + H2O  <-->  a glycan + N-acetyl-beta-D-galactosamine																	1*GHGN-63-MONOMER
+ENZRXNHGN-45	nucleoside diphosphate kinase	dUDP + ATP  <-->  dUTP + ADP	PWY0-166																1*GHGN-1989-MONOMER
+ENZRXNHGN-267	undecaprenyldiphospho-muramoylpentapeptide beta-N- acetylglucosaminyltransferase	N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-L-lysyl- D-alanyl-diphosphoundecaprenol + UDP-N-acetyl-alpha-D-glucosamine  <-->  N-acetylmuramoyl-L-alanyl-D-glutamyl-L-lysyl-D-alanine-diphosphoundecaprenyl-N-acetylglucosamine + uridine-5'-diphosphate + H+	PWY-6470																1*GHGN-690-MONOMER
+ENZRXNHGN-158	ribonucleotide-diphosphate reductase subunit beta	dUDP + an oxidized thioredoxin + H2O  <-->  uridine-5'-diphosphate + a reduced thioredoxin	PWY0-166																1*GHGN-1185-MONOMER
+ENZRXNHGN-300	3-oxoacyl-ACP synthase	a palmitoyl-[acp] + malonyl-CoA + H+  <-->  a 3-oxo-stearoyl-[acp] + CO2 + coenzyme A	PWY-5989																1*GHGN-428-MONOMER
+ENZRXNHGN-416	serine protease	a polypeptide  <-->  2 a polypeptide																	1*GHGN-2301-MONOMER
+ENZRXNHGN-588	tagatose 1,6-diphosphate aldolase	tagatose-1,6-bisphosphate  <-->  dihydroxyacetone phosphate + D-glyceraldehyde 3-phosphate	LACTOSECAT-PWY																1*GHGN-1195-MONOMER
+ENZRXNHGN-268	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate synthetase	UDP-N-acetylmuramyl-L-Ala + D-glutamate + ATP  <-->  UDP-N-acetylmuramoyl-L-alanyl-D-glutamate + ADP + phosphate + H+	PWY-6387	PWY-6386															1*GHGN-689-MONOMER
+ENZRXNHGN-417	serine protease	a protein  <-->  a peptide + a peptide																	1*GHGN-2301-MONOMER
+ENZRXNHGN-623	ferrochelatase	protoporphyrin IX + Fe2+  <-->  protoheme IX + 2 H+	HEME-BIOSYNTHESIS-II	HEMESYN2-PWY	PWY0-1415														1*GHGN-1013-MONOMER
+ENZRXNHGN-159	ribonucleotide-diphosphate reductase subunit beta	a 2'-deoxyribonucleoside 5'-diphosphate + an oxidized thioredoxin + H2O  <-->  a ribonucleoside diphosphate + a reduced thioredoxin																	1*GHGN-1185-MONOMER
+ENZRXNHGN-301	3-oxoacyl-ACP synthase	a glutaryl-[acp] methyl ester + a malonyl-[acp]  <-->  a 3-oxo-pimelyl-[acp] methyl ester + CO2 + a holo-[acyl-carrier protein]																	1*GHGN-428-MONOMER
+ENZRXNHGN-32	nicotinate-nucleotide pyrophosphorylase	beta-nicotinate D-ribonucleotide + CO2 + diphosphate  <-->  5-phospho-alpha-D-ribose 1-diphosphate + quinolinate + 2 H+	PWY-5653	PYRIDNUCSYN-PWY															1*GHGN-2061-MONOMER
+ENZRXNHGN-624	DNA polymerase III subunit epsilon	a deoxyribonucleoside triphosphate + (deoxynucleotides)(n)  <-->  (deoxynucleotides)(n+1) + diphosphate																	1*GHGN-997-MONOMER
+ENZRXNHGN-418	serine protease	a protein  <-->  a peptide + a peptide																	1*GHGN-2301-MONOMER
+ENZRXNHGN-46	nucleoside diphosphate kinase	dADP + ATP  <-->  dATP + ADP	PWY-6126																1*GHGN-1989-MONOMER
+ENZRXNHGN-821	beta-N-acetylhexosaminidase	N-acetyl-beta-D-glucosamine(anhydrous)-N-acetylmuramate + H2O  <-->  N-acetyl-beta-D-glucosamine + 1,6-anhydro-N-acetyl-beta-muramate																	1*GHGN-63-MONOMER
+ENZRXNHGN-137	aspartate carbamoyltransferase	L-aspartate + carbamoyl-phosphate  <-->  N-carbamoyl-L-aspartate + phosphate + H+	PWY-5686																1*GHGN-1282-MONOMER
+ENZRXNHGN-589	6-phospho-beta-galactosidase	a 6-phospho-beta-D-galactoside + H2O  <-->  D-galactose 6-phosphate + an alcohol																	1*GHGN-1189-MONOMER
+ENZRXNHGN-302	3-oxoacyl-ACP synthase	a cis-delta15-C34:1-[acp] + a malonyl-[acp]  <-->  a cis-delta17-3-oxo-C36:1-[acp] + a holo-[acyl-carrier protein] + CO2																	1*GHGN-428-MONOMER
+ENZRXNHGN-419	serine protease	a protein  <-->  a peptide + a peptide																	1*GHGN-2301-MONOMER
+ENZRXNHGN-269	ribonuclease Z	a tRNA precursor + H2O  <-->  mature tRNA + a single-stranded oligoribonucleotide																	1*GHGN-675-MONOMER
+ENZRXNHGN-822	beta-N-acetylhexosaminidase	an N-acetyl-beta-D-hexosaminide + H2O  <-->  an N-acetyl-beta-D-hexosamine + an alcohol																	1*GHGN-63-MONOMER
+ENZRXNHGN-420	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase	a CDP-diacylglycerol + sn-glycerol-3-phosphate  <-->  cytidine-5'-monophosphate + an L-1-phosphatidylglycerol-phosphate + H+	PWY4FS-8	PWY-5668															1*GHGN-2281-MONOMER
+ENZRXNHGN-625	bifunctional N-acetylglucosamine-1-phosphate uridyltransferase/glucosamine-1-phosphate acetyltransferase	D-glucosamine 1-phosphate + acetyl-CoA  <-->  N-acetyl-alpha-D-glucosamine 1-phosphate + coenzyme A + H+	UDPNAGSYN-PWY																1*GHGN-992-MONOMER
+ENZRXNHGN-160	ribonucleotide-diphosphate reductase subunit alpha	dADP + an oxidized thioredoxin + H2O  <-->  ADP + a reduced thioredoxin	PWY-6126																1*GHGN-1184-MONOMER
+ENZRXNHGN-303	3-oxoacyl-ACP synthase	a cis-delta5-dodecenoyl-[acp] + a malonyl-[acp]  <-->  a 3-oxo-cis-delta7-tetradecenoyl-[acp] + a holo-[acyl-carrier protein] + CO2	PWY-6282																1*GHGN-428-MONOMER
+ENZRXNHGN-421	cysteine synthase	L-homocysteine + L-serine  <-->  L-cystathionine + H2O	HOMOCYSDEGR-PWY																1*GHGN-2269-MONOMER

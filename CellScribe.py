@@ -50,8 +50,9 @@ class And(Junction):
 
 
 class Gene(Logicable):
-    def __init__(self, name):
+    def __init__(self, name, **kwargs):
         self.name = name
+        self.fields = kwargs
 
     def __str__(self):
         return self.name

@@ -1,0 +1,63 @@
+# Copyright © 2013, SRI International. All rights reserved.
+#
+# Authors:
+#    Pallavi Subhraveti
+#    Quang Ong
+#    Tomer Altman
+#    Ron Caspi
+#    Ingrid Keseler
+#    Peter D Karp
+#
+# Please see the license agreement regarding the use of and distribution of this file.
+# The format of this file is defined at http://bioinformatics.ai.sri.com/ptools/flatfile-format.html .
+#
+# Species: Streptococcus pneumoniae TIGR4
+# Database: SPNE170187cyc
+# Version: 17.0
+# File Name: transporters.col
+# Date and time generated: September 25, 2013, 15:58:28
+#
+UNIQUE-ID	NAME	REACTION-EQUATION	SUBUNIT-COMPOSITION
+GHGN-1321-MONOMER	V-type ATP synthase subunit D	ATP + 3 H+[in] + H2O  <-->  ADP + phosphate + 4 H+[out]	1*GHGN-1321-MONOMER
+GHGN-581-MONOMER	PTS system beta-glucosides-specific transporter subunit IIABC	phosphoenolpyruvate + a beta-glucoside[extracellular space]  <-->  pyruvate + a beta-glucoside[cytosol]	1*GHGN-581-MONOMER
+GHGN-484-MONOMER	PTS system lactose-specific transporter subunit IIBC	phosphoenolpyruvate + lactose[extracellular space]  <-->  pyruvate + lactose 6-phosphate[cytosol]	1*GHGN-484-MONOMER
+GHGN-882-MONOMER	PTS system fructose specific transporter subunit IIABC	phosphoenolpyruvate + fructose[extracellular space]  <-->  pyruvate + fructose[cytosol]	1*GHGN-882-MONOMER
+GHGN-482-MONOMER	PTS system lactose-specific transporter subunit IIA	phosphoenolpyruvate + lactose[extracellular space]  <-->  pyruvate + lactose 6-phosphate[cytosol]	1*GHGN-482-MONOMER
+GHGN-480-MONOMER	PTS system cellobiose-specific transporter subunit IIC	phosphoenolpyruvate + cellobiose[extracellular space]  <-->  pyruvate + 6-phospho-beta-D-glucosyl-(1,4)-D-glucose[cytosol]	1*GHGN-480-MONOMER
+CPLXHGN-11	predicted transporter of lactose	phosphoenolpyruvate + lactose[extracellular space]  <-->  pyruvate + lactose 6-phosphate[cytosol]	1*GHGN-1191-MONOMER,1*GHGN-1190-MONOMER
+GHGN-316-MONOMER	cellobiose phosphotransferase system IIC component	phosphoenolpyruvate + cellobiose[extracellular space]  <-->  pyruvate + 6-phospho-beta-D-glucosyl-(1,4)-D-glucose[cytosol]	1*GHGN-316-MONOMER
+CPLXHGN-10	predicted transporter of MANNITOL	phosphoenolpyruvate + D-mannitol[extracellular space]  <-->  pyruvate + mannitol-1-phosphate[cytosol]	1*GHGN-402-MONOMER,1*GHGN-400-MONOMER
+GHGN-314-MONOMER	cellobiose phosphotransferase system IIA component	phosphoenolpyruvate + cellobiose[extracellular space]  <-->  pyruvate + 6-phospho-beta-D-glucosyl-(1,4)-D-glucose[cytosol]	1*GHGN-314-MONOMER
+GHGN-311-MONOMER	PTS system cellobiose transporter subunit IIB	phosphoenolpyruvate + cellobiose[extracellular space]  <-->  pyruvate + 6-phospho-beta-D-glucosyl-(1,4)-D-glucose[cytosol]	1*GHGN-311-MONOMER
+CPLXHGN-8	predicted transporter of D-mannose	phosphoenolpyruvate + D-mannose[extracellular space]  <-->  pyruvate + D-mannose[cytosol]	1*GHGN-290-MONOMER,1*GHGN-289-MONOMER,1*GHGN-288-MONOMER
+GHGN-2190-MONOMER	PTS system ascorbate-specific transporter subunit IIC	phosphoenolpyruvate + L-ascorbate[extracellular space]  <-->  pyruvate + L-ascorbate-6-phosphate[cytosol]	1*GHGN-2190-MONOMER
+GHGN-2083-MONOMER	PTS system ascorbate-specific transporter subunit IIC	phosphoenolpyruvate + L-ascorbate[extracellular space]  <-->  pyruvate + L-ascorbate-6-phosphate[cytosol]	1*GHGN-2083-MONOMER
+GHGN-1892-MONOMER	trehalose PTS system, IIABC components	phosphoenolpyruvate + trehalose[extracellular space]  <-->  pyruvate + trehalose 6-phosphate[cytosol]	1*GHGN-1892-MONOMER
+CPLXHGN-12	predicted ABC transporter of a standard alpha amino acid	ATP + a standard alpha amino acid[extracellular space] + H2O  <-->  ADP + a standard alpha amino acid[cytosol] + phosphate	1*GHGN-1246-MONOMER,1*GHGN-1245-MONOMER
+GHGN-1557-MONOMER	cation transporter E1-E2 family ATPase	ATP + a cation[extracellular space] + H2O  <-->  ADP + a cation[cytosol] + phosphate	1*GHGN-1557-MONOMER
+CPLXHGN-9	predicted ABC transporter of an oligopeptide	ATP + an oligopeptide[extracellular space] + H2O  <-->  ADP + an oligopeptide[cytosol] + phosphate	1*GHGN-1898-MONOMER,1*GHGN-1897-MONOMER,1*GHGN-1896-MONOMER,1*GHGN-1895-MONOMER
+CPLXHGN-7	predicted ATP-driven transporter of CO+2	ATP + Co2+[extracellular space] + H2O  <-->  ADP + Co2+[cytosol] + phosphate	1*GHGN-2280-MONOMER,1*GHGN-2279-MONOMER
+CPLXHGN-6	predicted ABC transporter of ZN+2	ATP + Zn2+[extracellular space] + H2O  <-->  ADP + Zn2+[cytosol] + phosphate	1*GHGN-2231-MONOMER,1*GHGN-2230-MONOMER,1*GHGN-2229-MONOMER
+CPLXHGN-2	predicted ABC transporter of MN+2	ATP + Mn2+[extracellular space] + H2O  <-->  ADP + Mn2+[cytosol] + phosphate	1*GHGN-1657-MONOMER,1*GHGN-1656-MONOMER,1*GHGN-1655-MONOMER
+CPLXHGN-1	predicted ABC transporter of spermidine/putrescine	ATP + putrescine[extracellular space] + H2O  <-->  ADP + putrescine[cytosol] + phosphate	1*GHGN-1395-MONOMER,1*GHGN-1394-MONOMER,1*GHGN-1393-MONOMER,1*GHGN-1392-MONOMER
+CPLXHGN-1	predicted ABC transporter of spermidine/putrescine	ATP + spermidine[extracellular space] + H2O  <-->  ADP + spermidine[cytosol] + phosphate	1*GHGN-1395-MONOMER,1*GHGN-1394-MONOMER,1*GHGN-1393-MONOMER,1*GHGN-1392-MONOMER
+CPLXHGN-5	predicted ABC transporter of a maltodextrin	ATP + a maltodextrin[extracellular space] + H2O  <-->  ADP + a maltodextrin[cytosol] + phosphate	1*GHGN-2171-MONOMER,1*GHGN-2170-MONOMER
+GHGN-2169-MONOMER	maltose/maltodextrin ABC transporter maltose/maltodextrin-binding protein	ATP + beta-maltose[extracellular space] + H2O  <-->  ADP + beta-maltose[cytosol] + phosphate	1*GHGN-2169-MONOMER
+CPLXHGN-20	predicted ABC transporter of a sugar	ATP + a sugar[extracellular space] + H2O  <-->  ADP + a sugar[cytosol] + phosphate	1*GHGN-1689-MONOMER,1*GHGN-1688-MONOMER
+GHGN-84-MONOMER	Trk family potassium uptake protein	K+[extracellular space]  <-->  K+[cytosol]	1*GHGN-84-MONOMER
+GHGN-1162-MONOMER	voltage-gated chloride channel family protein	chloride[extracellular space]  <-->  chloride[cytosol]	1*GHGN-1162-MONOMER
+GHGN-1758-MONOMER	magnesium/cobalt transporter CorA	Mg2+[extracellular space]  <-->  Mg2+[cytosol]	1*GHGN-1758-MONOMER
+GHGN-1334-MONOMER	sodium:solute symporter family protein	Na+[extracellular space] + H+[extracellular space]  <-->  Na+[cytosol] + H+[cytosol]	1*GHGN-1334-MONOMER
+GHGN-1005-MONOMER	amino acid permease	a standard alpha amino acid[extracellular space] + H+[extracellular space]  <-->  a standard alpha amino acid[cytosol] + H+[cytosol]	1*GHGN-1005-MONOMER
+GHGN-501-MONOMER	Na/Pi cotransporter II-like protein	Na+[extracellular space] + phosphate[extracellular space]  <-->  Na+[cytosol] + phosphate[cytosol]	1*GHGN-501-MONOMER
+GHGN-1291-MONOMER	uracil permease	uracil[extracellular space] + H+[extracellular space]  <-->  uracil[cytosol] + H+[cytosol]	1*GHGN-1291-MONOMER
+GHGN-414-MONOMER	sodium:alanine symporter family protein	Na+[extracellular space] + L-alanine[extracellular space]  <-->  Na+[cytosol] + L-alanine[cytosol]	1*GHGN-414-MONOMER
+GHGN-293-MONOMER	xanthine/uracil permease	uracil[extracellular space] + xanthine[extracellular space]  <-->  uracil[cytosol] + xanthine[cytosol]	1*GHGN-293-MONOMER
+GHGN-1497-MONOMER	glycerol uptake facilitator protein	glycerol[extracellular space] + H+[extracellular space]  <-->  glycerol[cytosol] + H+[cytosol]	1*GHGN-1497-MONOMER
+GHGN-1856-MONOMER	xanthine permease	xanthine[extracellular space] + H+[extracellular space]  <-->  xanthine[cytosol] + H+[cytosol]	1*GHGN-1856-MONOMER
+GHGN-1594-MONOMER	oxalate:formate antiporter	formate[cytosol] + oxalate[extracellular space]  <-->  formate[extracellular space] + oxalate[cytosol]	1*GHGN-1594-MONOMER
+GHGN-362-MONOMER	polysaccharide transporter	a polysaccharide[extracellular space]  <-->  a polysaccharide[cytosol]	1*GHGN-362-MONOMER
+GHGN-174-MONOMER	macrolide efflux protein	a macrolide[cytosol]  <-->  a macrolide[extracellular space]	1*GHGN-174-MONOMER
+GHGN-1868-MONOMER	choline transporter	choline[extracellular space]  <-->  choline[cytosol]	1*GHGN-1868-MONOMER
+GHGN-1558-MONOMER	cation efflux family protein	a cation[cytosol]  <-->  a cation[extracellular space]	1*GHGN-1558-MONOMER
+GHGN-1758-MONOMER	magnesium/cobalt transporter CorA	Co2+[extracellular space]  <-->  Co2+[cytosol]	1*GHGN-1758-MONOMER
