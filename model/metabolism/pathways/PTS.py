@@ -7,35 +7,22 @@ cytoplasm = Location("Cytoplasm", 'c')
 c = cytoplasm.localizer
 Metabolite.default_location = cytoplasm
 
-#REACTION TEMPLATE
-#NAME = Reaction(name="NAME",
-#                       reactants=REACT1 + REACT2,
-#                       products=PROD1 + PROD2,
-#                       pairs=[(pair1, pair1), (pair2, pair2)],
-#                       minors=[minor1, minor2])
-
-#GENE ASSOCIATION TEMPLATE
-#GENE = Gene("GENE")
-#REACTIONNAME_GA = GeneAssociation(REACTIONNAME, GENE)
-
 
 phosphoenol_pyruvate = Metabolite ("PEP", kegg=C00074)
 pyruvate = Metabolite ("pyruvate", kegg=C00022)
-phosphate_group = Metabolite("PG")
+phosphoenol_group = Metabolite("PG")
 ADP = Metabolite ("ADP")
 ATP = Metabolite ("ATP")
 
 Pyr_Generation = Reaction(name="PYRG",
-                reactants="PEP"
+                reactants="PEP",
                 products="pyruvate" + "PG",
                 pairs=[("PEP", "pyruvate"),],
                 minors=["PG"])
 
 SP_1176 = Gene("SP_1176")
 SP_1177 = Gene("SP_1177")
-PYRG_GA = GeneAssociation(ATPG, SP_1176 & (SP_1177))
-
-PYRGOperon = Operon(SP_1176, SP_1177)
+PYRG_GA = GeneAssociation(ATPG, SP_1176)
 
 Modification (SP_1176, "PG", modification="phosphorylation")
     phosphorylates("PG", SP_1176)
