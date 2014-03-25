@@ -1,11 +1,7 @@
 from CellScribe import *
+from compartments import e, c
+from metabolites import *
 
-extracellular = Location("Extracellular", 'e')
-e = extracellular.localizer
-
-cytoplasm = Location("Cytoplasm", 'c')
-c = cytoplasm.localizer
-Metabolite.default_location = cytoplasm
 
 h2o = Metabolite("h2o", kegg="C00001")
 atp = Metabolite("atp", kegg="C00002")

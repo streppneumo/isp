@@ -1,11 +1,8 @@
 from CellScribe import *
+from compartments import e, c
+from metabolites import *
 
-extracellular = Location("Extracellular", 'e')
-e = extracellular.localizer
-
-cytoplasm = Location("Cytoplasm", 'c')
-c = cytoplasm.localizer
-Metabolite.default_location = cytoplasm
+from genes import SP_1961, SP_1960, SP_0236, SP_1737, SP_0493
 
 #not code, just associations
 SP_1961 beta_subunit
