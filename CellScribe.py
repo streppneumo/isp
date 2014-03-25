@@ -58,6 +58,10 @@ class Gene(Logicable):
         return self.name
 
 
+class Pseudogene(Gene):
+    pass
+
+
 class Association(object):
     # this is an Abstract Base Class
     pass
@@ -225,6 +229,13 @@ class Reaction(object):
             return " + ".join([aux(x) for x in tupleset])
 
         return self.name + ":  " + to_str(self.reactants) + " <=> " + to_str(self.products)
+
+
+class Operon(object):
+    def __init__(self, name, genes, **kwargs):
+        self.name = name
+        self.genes = genes
+        self.fields = kwargs
 
 
 class Model(object):
