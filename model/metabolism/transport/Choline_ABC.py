@@ -24,4 +24,4 @@ choline = Reaction(name="choline",
 SP_1860 = Gene("SP_1860")
 SP_1861 = Gene("SP_1861")
 
-choline_GA = GeneAssociation(choline, SP_1860 & SP_1861)
+GeneAssociation(choline, SP_1860 & SP_1861)
