@@ -4,13 +4,6 @@ from metabolites import *
 from genes import SP_1032, SP_1033, SP_1034, SP_1035
 
 
-extracellular = Location("Extracellular", 'e')
-e = extracellular.localizer
-
-cytoplasm = Location("Cytoplasm", 'c')
-c = cytoplasm.localizer
-Metabolite.default_location = cytoplasm
-
 atp = Metabolite("atp")
 adp = Metabolite("adp")
 phosphate = Metabolite("phosphate")
