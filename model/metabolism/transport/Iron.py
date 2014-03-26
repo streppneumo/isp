@@ -12,7 +12,7 @@ ferrichrome = Metabolite("ferrichrome", kegg="C06228")
 
 #iron vs ferrichrome? reaction states that it transfers ferrichrome
 
-ferrichrome_rxn = Reaction(name="ferrichrome_ABC",
+ferrichrome_rxn = Reaction(name="ferrichrome_rxn",
                            reactants=e(ferrichrome) + H20 + atp,
                            products=ferrichrome + adp + phosphate,
                            pairs=[(atp, adp)],
