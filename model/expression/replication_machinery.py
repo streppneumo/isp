@@ -1,6 +1,6 @@
 #Replication fork machinery
 from CellScribe import *
-from genes import SP_1961, SP_1960, SP_0236, SP_1737, SP_0493
+from genes import SP_0993, #SP_1960, SP_0236, SP_1737, SP_0493
 
 
 def replicationmachinery(subunits, builtPsubunit):
@@ -8,19 +8,11 @@ def replicationmachinery(subunits, builtPsubunit):
             reactants= subunits,
             products=builtPsubunit)
 
-DNA_polIII = Holoenzyme("DNA_polIII")
-S9_complex = Enzyme("S9_complex")
-S13_complex = Enzyme("S13_complex")
-S19_complex = Enzyme("S19_complex")
-S12_complex = Complex("S12_complex")
-S5_complex = Complex("S5_complex")
-S21_complex = Complex("S21_complex")
-S6_S18_complex = Complex("S6_S18_complex")
-S10_complex = Complex("S10_complex")
-S14_complex = Complex("S14_complex")
-S3_complex = Complex("S3_complex")
-S2_complex = Complex("S2_complex")
-
+DNA_polIII = Complex("DNA_polIII")
+helicase = Enzyme("S9_complex")
+primase = Enzyme("S13_complex")
+DNA_polI = Enzyme("S19_complex")
+DNA_ligase = Complex("S12_complex")
 
 
 replicationmachinery(Gene("SP_0838") & Gene("SP_0085") & Gene("SP_0775"), S16_complex) #S16
