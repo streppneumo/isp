@@ -23,7 +23,6 @@ def charge_trna(reactionkegg, aaname, aakegg, trnaname, trnakegg, chargedrna_nam
 
     GeneAssociation(charge_rxn, associated_genes)
 
-
 charge_trna("R03665", "L_valine", "C00183", "tRNA_val", "C01653", "L_valyl_tRNA(val)", "C02554", SP_0568)
 charge_trna("R03657", "L_leucine", "C00123", "tRNA_leu", "C01645", "L_leucyl_tRNA(leu)", "C02047", SP_0254)
 charge_trna("R03656", "L_isoleucine", "C00407", "tRNA_ile", "C01644", "L_isoleucyl_tRNA(ile)", "C03127", SP_1659)
