@@ -8,10 +8,10 @@ def replicationmachinery(subunits, builtPsubunit):
             reactants= subunits,
             products=builtPsubunit)
 
-DNA_polIII = Complex("DNA_polIII")
+DNA_pol_iii = Complex("DNA_polIII")
 helicase = Enzyme("S9_complex")
 primase = Enzyme("S13_complex")
-DNA_polI = Enzyme("S19_complex")
+DNA_pol_i = Enzyme("S19_complex")
 DNA_ligase = Complex("S12_complex")
 
 
