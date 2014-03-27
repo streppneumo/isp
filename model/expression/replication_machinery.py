@@ -15,7 +15,7 @@ DNA_pol_i = Enzyme("S19_complex")
 DNA_ligase = Complex("S12_complex")
 
 
-replicationmachinery(Gene("SP_0838") & Gene("SP_0085") & Gene("SP_0775"), S16_complex) #S16
+replicationmachinery(SP_0993 & ), DNA_pol_iii)
 proteinSubunits(Gene("SP_0272") & Gene("SP_0295"), S9_complex) #S9
 proteinSubunits(Gene("SP_0272") & Gene("SP_0234"), S13_complex)#S13
 proteinSubunits(Gene("SP_0272") & Gene("SP_0213"), S19_complex)#S19
