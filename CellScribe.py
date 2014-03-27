@@ -238,6 +238,21 @@ class Operon(object):
         self.fields = kwargs
 
 
+class MinorSuggestion(object):
+    def __init__(self, minor):
+        self.minor = minor
+
+
+def MinorSuggestions(*args):
+    return [MinorSuggestion(arg) for arg in args]
+
+
+def PairSet(object):
+    def __init__(self, *args):
+        self.members = set(args)
+
+
+
 class Model(object):
     def __init__(self, name):
         self.name = name
