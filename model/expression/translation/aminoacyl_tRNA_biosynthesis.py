@@ -5,9 +5,6 @@ from genes import (SP_0568, SP_0254, SP_1659, SP_0713, SP_2078, SP_0264, SP_2121
                    SP_1474, SP_1475, SP_1631, SP_0411, SP_0788, SP_0591, SP_1542, SP_2069, SP_2114, SP_2069, SP_1735)
 
 h2o = Metabolite("h2o", kegg="C00001")
-atp = Metabolite("atp", kegg="C00002")
-adp = Metabolite("adp", kegg="C00008")
-amp = Metabolite("amp", kegg="C00020")
 orthophosphate = Metabolite("orthophosphate", kegg="C00009")
 diphosphate = Metabolite("diphosphate", kegg="C00013")
 
