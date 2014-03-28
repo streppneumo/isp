@@ -12,7 +12,7 @@ zinc_rxn = Reaction(name="zinc_rxn",
 
 GeneAssociation(zinc_rxn, SP_2169 & SP_2170 & SP_2171)
 
-#regulation 
+#regulation
 
 SczA = Gene("SP_1858")
 czcD = Gene("SP_1857")
