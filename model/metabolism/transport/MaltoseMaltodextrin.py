@@ -19,4 +19,13 @@ maltodextrin_transport = Reaction(name="maltodextrin_transport",
                                   pairs=[(atp, adp)],
                                   minors=[atp, adp])
 
+<<<<<<< HEAD
 GeneAssociation(maltodextrin_transport, SP_2108 & SP_2109 & SP_2110)
+=======
+maltodextrin_GA = GeneAssociation(maltodextrin, SP_2108 & SP_2109 & SP_2110)
+
+# In the absence of maltose, malR binds to the DNA between these two divergent operons to repress them
+
+If (malR & ~maltose, ~malXCD)
+If (malR & ~maltose, ~malMP)
+>>>>>>> FETCH_HEAD

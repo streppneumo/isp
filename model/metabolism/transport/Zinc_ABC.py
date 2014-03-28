@@ -7,8 +7,8 @@ from genes import SP_2169, SP_2170, SP_2171
 zinc_rxn = Reaction(name="zinc_rxn",
                     reactants=e(zinc) + H20 + atp,
                     products=zinc + adp + phosphate,
-                    pairs=[(atp, adp)],
-                    minors=[atp, adp])
+                    reversible=True,
+                    pairs=[(e(zinc), zinc)])
 
 GeneAssociation(zinc_rxn, SP_2169 & SP_2170 & SP_2171)
 
@@ -19,3 +19,4 @@ czcD = Gene("SP_1857")
 
 # If(SczA, ~czcD)
 # If (Zn2+, ~SczA)
+
