@@ -7,8 +7,7 @@ from genes import SP_0452, SP_0453, SP_1034, SP_1035, SP_0609, SP_0607, SP_0608,
 l_lysine_rxn = Reaction(name="l_lysine_rxn",
                     reactants=e(l_lysine) + H20 + atp,
                     products=l_lysine + adp + phosphate,
-                    pairs=[(atp, adp)],
-                    minors=[atp, adp])
+                    pairs=[(e(l_lysine), l_lysine)]
 
 GeneAssociation(lysine_rxn, SP_0452 & SP_0453)
 
