@@ -1,7 +1,7 @@
 from CellScribe import *
 from compartments import e, c
 from metabolites import *
-from genes import SP_2169, SP_2170, SP_2171, SP_1648, SP_1649, SP_1650, SP_1858, SP_1858
+from genes import SP_2169, SP_2170, SP_2171, SP_1648, SP_1649, SP_1650, SP_1858, SP_1858, SP_1552
 
 
 zinc_rxn = Reaction(name="zinc_rxn",
@@ -28,9 +28,15 @@ GeneAssociation(manganese_rxn, SP_1648 & SP_1649 & SP_1650)
 If(SczA, ~czcD)
 If (Zn2+, ~SczA)
 
-#PsaR = Gene("SP_1638)
+#PsaR = Gene("SP_1638")
+#psaBCA  genes SP_1650, SP_1649, SP_1648
+#mntE = Gene(Sp_1552)   cation efflux system
+
 
 If(PsaR,~psaBCA)
+If(Mn2+, ~psaBCA)
+
+# if there is manganese, it will bind to PsaR, which will repress transcription of psaBCA
 If(Zn2+, ~psaBCA)
 
 
