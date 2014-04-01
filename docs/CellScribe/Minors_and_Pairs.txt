@@ -1,0 +1,50 @@
+
+Minors
+------
+
+There are two options for specifying minors for a reaction:
+
+    1.  Write all minor metabolites as a list under the minors option.
+    2.  Do not specify any minors, using the default minors provided by
+        "MinorSuggestion" objects in metabolites.py.
+
+If you specify any minors for a reaction using the "minors" keyword, then all
+MinorSuggestion calls will be ignored.  For the special case where you don't
+want any minors for a reaction, use
+
+    my_rxn = Reaction(..., minors=[])
+
+Because the "minors" keyword appears, all MinorSuggestions will be ignored.
+
+
+Metabolite Pairs
+----------------
+
+Metabolite pairs are suggested by PairSet objects.  The line
+
+    PairSet(atp, adp, amp)
+
+indicates that anytime at least two of atp, adp, or amp appear in a reaction,
+they should be paired.  You can specify additional pairings using the "pairs"
+keyword in the Reaction definition.  By contrast with MinorSuggestions,
+defining "pairs" does not cause the PairSets to be ignored.  For example:
+
+    my_rxn = Reaction(reactants=glucose + atp,
+                      products=glucose_6_phosphate + adp,
+                      pairs=[glucose, glucose_6_phosphate])
+
+With the PairSet defined previously, this reaction will have two sets of pairs,
+(glucose, glucose_6_phosphate) and (atp, adp).  However, anytime you explicitly
+define a pair that includes a metabolite in a PairSet, the PairSet will be
+ignored.  You can force a PairSet to be ignored by including a "pair" with
+only one metabolite.  For example:
+
+    PairSet(a, b)
+    Reaction(reactants=a,
+             products=b + c,
+             pairs=[(a)])
+
+In this example, "a" will not be paired with "b".
+
+
+
