@@ -26,18 +26,16 @@ GeneAssociation(manganese_rxn, SP_1648 & SP_1649 & SP_1650)
 #czcD = Gene("SP_1857")
 
 If(SczA, ~czcD)
-If (Zn2+, ~SczA)
+If (zinc, ~SczA)
 
 #PsaR = Gene("SP_1638")
 #psaBCA  genes SP_1650, SP_1649, SP_1648
 #mntE = Gene(Sp_1552)   cation efflux system
 
 
-If(PsaR,~psaBCA)
-If(Mn2+, ~psaBCA)
+If(PsaR & (zinc | manganese), ~psaBCA)
 
 # if there is manganese, it will bind to PsaR, which will repress transcription of psaBCA
-If(Zn2+, ~psaBCA)
 
 
 
