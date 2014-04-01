@@ -1,12 +1,11 @@
 from CellScribe import *
-from compartments import e, c
-from metabolites import *
-from genes import SP_1860, SP_1861
-
+from model.compartments import e
+from model.metabolites import atp, adp, phosphate
+from model.genes import SP_1860, SP_1861
 
 choline_rxn = Reaction(name="choline_rxn",
-                    reactants=e(choline) + atp,
-                    products=choline + adp + phosphate)
+                       reactants=e(choline) + atp,
+                       products=choline + adp + phosphate)
 
 GeneAssociation(choline_rxn, SP_1860 & SP_1861)
 

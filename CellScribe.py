@@ -247,7 +247,7 @@ def MinorSuggestions(*args):
     return [MinorSuggestion(arg) for arg in args]
 
 
-def PairSet(object):
+class PairSet(object):
     def __init__(self, *args):
         self.members = set(args)
 
