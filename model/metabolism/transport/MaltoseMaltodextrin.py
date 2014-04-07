@@ -7,8 +7,8 @@ from genes import SP_2108, SP_2109, SP_2110, SP_2108, SP_2109, SP_2110
 βmaltose_transport = Reaction(name="βmaltose_transport",
                               reactants=e(βmaltose) + H20+ atp,
                               products=βmaltose + adp + phosphate,
-                              reversible=True
-                              pairs=[(e(βmaltose), βmaltose)]
+                              pairs=[(atp, adp)],
+                              minors=[atp, adp])
 
 GeneAssociation(βmaltose_transport, SP_2108 & SP_2109 & SP_2110)
 
@@ -16,9 +16,8 @@ GeneAssociation(βmaltose_transport, SP_2108 & SP_2109 & SP_2110)
 maltodextrin_transport = Reaction(name="maltodextrin_transport",
                                   reactants=e(maltodextrin) + H20+ atp,
                                   products=maltodextrin + adp + phosphate,
-                                  reversible=True,
-                                  pairs=[(e(maltodextrin), maltodextrin)])
-
+                                  pairs=[(atp, adp)],
+                                  minors=[atp, adp])
 
 <<<<<<< HEAD
 GeneAssociation(maltodextrin_transport, SP_2108 & SP_2109 & SP_2110)
