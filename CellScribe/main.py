@@ -269,9 +269,26 @@ class Model(object):
         pass
 
 
+#corey's attempt for making classes
+class Subunit(object):
+    default_location = cloc  # is this the correct way to localize?
+
+    def __init__(self, name, gene, **kwargs):
+        self.name = name
+        self.gene = gene
+        self.fields = kwargs
 
 
 
+class SubComplex(object):  # SubComplex = Subunit Complex = when subunits come together
+    default_location = cloc
+
+    def __init__(self, name, **kwargs):
+        self.name = name
+        self.kwargs = kwargs
+
+
+#corey's classes end here, everything below is correct!
 
 if __name__ == '__main__':
     m1 = Metabolite("m1")

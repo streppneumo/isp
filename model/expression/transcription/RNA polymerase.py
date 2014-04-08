@@ -1,20 +1,21 @@
-from CellScribe import *
-from compartments import e, c
-from metabolites import *
-from genes import SP_1961, SP_1960, SP_0236, SP_1737, SP_0493
+from CellScribe.main import *
+from model.compartments import e, c
+from model.metabolites import *
+from model.genes import SP_1961, SP_1960, SP_0236, SP_1737, SP_0493
 
 
-#define function to build subunits with gene associations
+#this function takes a subunit name and its associate gene(s) and creates a subunit object via subunit class
 def buildsubunit(subunitname, associatedgene):
-    subunit = complex(subunitname)
+    subunit = Subunit(subunitname, associatedgene)
     GeneAssociation(subunit, associatedgene)
-complex
+
 
 #define function to combine subunits to make complex
 def buildcomplex(complexname, complexkegg, ):
-    Reaction(
-
-    )
+    Reaction(name='charge' + aaname,
+             reactants=trna + amino_acid + atp,
+             products=complexname,
+             kegg=complexkegg)
 
 
 #call the build function for all 5 subunits
