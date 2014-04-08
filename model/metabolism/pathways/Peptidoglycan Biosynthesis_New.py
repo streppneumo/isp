@@ -1,6 +1,6 @@
-from CellScribe import *
-from model.compartments import e
-from model.metabolites import atp, adp, phosphate
+from CellScribe.main import *
+from model.compartments import e, c
+from model.metabolites import *
 
 #minors
 phosphate = Metabolite("phosphate", kegg="C00009")
