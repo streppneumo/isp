@@ -9,8 +9,8 @@ Pi = Metabolite("phosphate",kegg=C00009)
 
 DAHP_synthesis = Reaction(name="DAHP_syn",
                                 reactants="E4P" + "PEP" + "H2O",
-                                products="DAHP" + "Pi"
-                                majors=[("E4P","DAHP"),],
+                                products="DAHP" + "Pi",
+                                pairs = [("E4P","DAHP")],
                                 minors=["PEP", "Pi", "H2O"],
                                 reversible = False)
 SP_1700 = Gene("SP_1700")
@@ -22,8 +22,8 @@ m3_DHQ = Metabolite("3_dehydroquinate", kegg=C00944)
 
 m3_dehydroquinate_synthesis = Reaction(name="3-DHQ_syn",
                                 reactants="DAHP",
-                                products="3_DHQ","Pi",
-                                majors=[("DAHP","3_DHQ")],
+                                products="m3_DHQ","Pi",
+                                majors=[("DAHP","m3_DHQ")],
                                 minors=["Pi"],
                                 reversible = False)
 SP_1375 = Gene("SP_1375")
@@ -32,26 +32,26 @@ GeneAssociation(3-DHQ_syn, SP_1375)
 #reaction3; SP_1377(aroD)
 m3_DHS = Metabolite("3_dehydroshikimate", kegg=C02637)
 
-m3_dehydroshikimate_synthesis = Reaction(name="3_DHS_syn",
-                                reactants="3_DHQ",
-                                products="3_DHS","H2O",
-                                majors=["3_DHQ","3_DHS"],
+m3_dehydroshikimate_synthesis = Reaction(name="m3_DHS_syn",
+                                reactants="m3_DHQ",
+                                products="m3_DHS","H2O",
+                                majors=["m3_DHQ","m3_DHS"],
                                 minors=["H2O"],
                                 reversible = True)
 SP_1377 = Gene("SP_1377")
-GeneAssociation(3_DHS_syn, SP_1377)
+GeneAssociation(m3_DHS_syn, SP_1377)
 
 #reaction4;SP_1376(aroE), how to express NAD+ vs NADPH in different directions
 SKM = Metabolite("shikimate",kegg=C00493)
 NADPH = Metabolite("NADPH",kegg=C00005)
-H+ = Metabolite ("H+",kegg=C00080)
-NADP+ = Metabolite ("NADP+", kegg=C00006)
+H = Metabolite ("H+",kegg=C00080)
+NADP = Metabolite ("NADP+", kegg=C00006)
 
 shikimate_synthesis = Reaction(name="SKM_syn",
-                                reactants = "3-DHS","NADPH","H+",
-                                products = "SKM","NADP+",
-                                majors=["3-DHS","SKM"],
-                                minors=["NADPH","NADP+","H+"],
+                                reactants = "m3_DHS","NADPH","H",
+                                products = "SKM","NADP",
+                                majors=["m3_DHS","SKM"],
+                                minors=["NADPH","NADP","H"],
                                 reversible = True)
 SP_1376 = Gene("SP_1376")
 GeneAssociation(SKM_syn, SP_1376)
@@ -75,11 +75,11 @@ EPSP = Metabolite("5_O_(1_Carboxyvinyl)_3_phosphoshikimate", kegg=C01269)
 PEP = Metabolite("phosphoenolpyruvate", kegg=C00074)
 Pi = Metabolite("Phosphate",kegg=C00009)
 
-m5_O_(1_Carboxyvinyl)_3-phosphoshikimate_synthesis = Reaction(name="EPSP_syn",
+EPSP_synthesis = Reaction(name="EPSP_syn",
                                 reactants = "SKM3P","PEP",
-                                products = "EPSP","Pi"
+                                products = "EPSP","Pi",
                                 majors=["SKM3P","EPSP"],
-                                minors=["PEP","Pi"]
+                                minors=["PEP","Pi"],
                                 reversible = True)
 SP_1371 = Gene("SP_1371")
 GeneAssociation(EPSP_syn, SP_1371)
@@ -132,7 +132,7 @@ GeneAssociation(N5PRATNL_syn,SP_1815)
 #Reaction10
 CarboxyphenylaminoR5P = Metabolite ("1_(2_Carboxyphenylamino)_1_deoxy_D_ribulose_5_phosphate", kegg=C01302)
 
-m1_(2_Carboxyphenylamino)_1_deoxy_D_ribulose_5_phosphate_formation = Reaction(name="CarboxyphenylaminoR5P_syn",
+CarboxyphenylaminoR5P_formation = Reaction(name="CarboxyphenylaminoR5P_syn",
                                 reactants = "N5PRATNL",
                                 products = "CarboxyphenylaminoR5P",
                                 majors = ["N5PRATNL", "CarboxyphenylaminoR5P"],
@@ -192,12 +192,12 @@ GeneAssociation(PPN_syn, SP_1296)
 
 #Reaction 14 Tyrosine synthesis
 HPPD = Metabolite ("4_hydroxyphenylpyruvate", kegg=C01179)
-NAD+ = Metabolite ("NAD+", kegg=C00003)
+NAD = Metabolite ("NAD", kegg=C00003)
 NADH = Metabolite ("NADH", kegg=C00004)
 
 m4_hydroxyphenylpyruvate_formation = Reaction ("HPPD_syn",
                                 reactants = "PPN", "NAD+",
-                                products = "HPPD", "NADH", "H+", "CO2",
+                                products = "HPPD", "NADH", "H", "CO2",
                                 majors = ["PPN", "HPPD"],
                                 minors = ["NAD+", "NADH", "CO2", "H+"],
                                 reversible = True)
