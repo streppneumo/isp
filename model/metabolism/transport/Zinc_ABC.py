@@ -1,25 +1,22 @@
-extracellular = Location("Extracellular", 'e')
-e = extracellular.localizer
-
-cytoplasm = Location("Cytoplasm", 'c')
-c = cytoplasm.localizer
-Metabolite.default_location = cytoplasm
-
-atp = Metabolite("atp")
-adp = Metabolite("adp")
-phosphate = Metabolite("phosphate")
-H20 = Metabolite("H20",kegg="C00001")
-zinc = Metabolite("zinc", kegg="C00038")
+from CellScribe import *
+from compartments import e, c
+from metabolites import *
+from genes import SP_2169, SP_2170, SP_2171
 
 
+zinc_rxn = Reaction(name="zinc_rxn",
+                    reactants=e(zinc) + H20 + atp,
+                    products=zinc + adp + phosphate,
+                    reversible=True,
+                    pairs=[(e(zinc), zinc)])
 
-zinc = Reaction(name="zinc",
-                      reactants=e(zinc) + H20 + atp,
-                      products=zinc + adp + phosphate,
-                      pairs=[(atp, adp)],
-                      minors=[atp, adp])
+GeneAssociation(zinc_rxn, SP_2169 & SP_2170 & SP_2171)
 
-SP_2169 = Gene("SP_2169")
-SP_2170 = Gene("SP_2170")
-SP_2171 = Gene("SP_2171")
-zinc_GA = GeneAssociation(zinc, SP_2169 & SP_2170 & SP_2171)
+#regulation
+
+SczA = Gene("SP_1858")
+czcD = Gene("SP_1857")
+
+# If(SczA, ~czcD)
+# If (Zn2+, ~SczA)
+

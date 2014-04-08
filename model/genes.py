@@ -2430,6 +2430,14 @@ trpC = SP_1814
 tRNA_Tyr = SP_2288 | SP_2245
 tRNA_Glu = SP_2298 | SP_2296 | SP_2242 | SP_2271 | SP_2283
 tpx = SP_1651
+malX = SP_2108
+malC = SP_2109
+malD = SP_2110
+malM = SP_2107
+malP = SP_2106
+malR = SP_2112
+malA = SP_2111
+
 
 
 GHGN_587 = Pseudogene("GHGN-587", biocyc="GHGN-587")
@@ -2513,7 +2521,7 @@ GHGN_138 = Pseudogene("GHGN-138", biocyc="GHGN-138")
 GHGN_1894 = Pseudogene("GHGN-1894", biocyc="GHGN-1894")
 GHGN_367 = Pseudogene("GHGN-367", biocyc="GHGN-367")
 GHGN_2291 = Pseudogene("GHGN-2291", biocyc="GHGN-2291")
-GHGN_247 = Pseudogene("GHGN-247", biocyc="GHGN-247")
+SP_0241 = Pseudogene("SP_0241", biocyc="GHGN-247")
 GHGN_369 = Pseudogene("GHGN-369", biocyc="GHGN-369")
 GHGN_713 = Pseudogene("GHGN-713", biocyc="GHGN-713")
 GHGN_1201 = Pseudogene("GHGN-1201", biocyc="GHGN-1201")
