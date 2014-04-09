@@ -1,4 +1,4 @@
-from CellScribe import Gene, Pseudogene
+from CellScribe import *
 
 SP_0322 = Gene("SP_0322", biocyc="GHGN-328")
 SP_1452 = Gene("SP_1452", biocyc="GHGN-1458")

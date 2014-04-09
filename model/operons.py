@@ -1,5 +1,5 @@
 from CellScribe import Operon
-from OUT_genes import *
+from genes import *
 
 Operon("TUHGN-597", [SP_1126, GHGN_1130], biocyc="TUHGN-597")
 Operon("TUHGN-1166", [SP_2218, SP_2217], biocyc="TUHGN-1166")
