@@ -225,7 +225,7 @@ class Model(object):
 
 #corey's attempt for making classes
 class Subunit(object):
-    default_location = cloc  # is this the correct way to localize?
+    #default_location = cloc  # is this the correct way to localize?
 
     def __init__(self, name, gene, **kwargs):
         self.name = name
@@ -233,9 +233,8 @@ class Subunit(object):
         self.fields = kwargs
 
 
-
 class SubComplex(object):  # SubComplex = Subunit Complex = when subunits come together
-    default_location = cloc
+    #default_location = cloc
 
     def __init__(self, name, **kwargs):
         self.name = name
