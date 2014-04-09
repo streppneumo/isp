@@ -1,7 +1,7 @@
 from CellScribe import *
 from model.compartments import e
 from model.metabolites import *
-from model.genes import SP_2169, SP_2170, SP_2171, SP_1648, SP_1649, SP_1650, SP_1858, SP_1858, SP_1552
+from model.genes import SP_2169, SP_2170, SP_2171, SP_1648, SP_1649, SP_1650, SP_1858, SP_1857, SP_1552
 
 
 zinc_rxn = Reaction(name="zinc_rxn",

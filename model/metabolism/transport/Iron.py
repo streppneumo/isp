@@ -15,10 +15,11 @@ GeneAssociation(iron_rxn, SP_1032 & SP_1033 & SP_1034 & SP_1035 or
 
 #iron vs ferrichrome? reaction states that it transfers ferrichrome
 
-#Pit 2 is first & Pit 1 is second & Pit is last
-#SP_0241 isn't in genome spreadsheet, pseudogene
+#Pit 2 is first & Pit 1 is second (PiuB,PiuC,PiuD,PiuA)
+#SP_0241 pseudogene
+
+#ritR regulates pit1
 
 #regulation
 
 #sp_0240
-#Pit 2 is first line & Pit 1 is second line
