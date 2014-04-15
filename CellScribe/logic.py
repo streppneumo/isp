@@ -1,4 +1,8 @@
 
+from foundation import Composite
+from registry import Registered
+
+
 class Logicable(object):
     # this is an Abstract Base Class
 
@@ -21,19 +25,27 @@ class Logicable(object):
         return self.name
 
 
-class Not(Logicable):
+class Not(Logicable, Composite):
     def __init__(self, expr):
         self.expression = expr
 
     def __str__(self):
         return "Not[{e}]".format(e=str(self.expression))
 
+    @property
+    def members(self):
+        return [self.expression]
 
-class Junction(Logicable):
+
+class Junction(Logicable, Composite):
     def __init__(self, left, right, operator=None):
         self.left = left
         self.right = right
         self.operator = operator
+
+    @property
+    def members(self):
+        return [self.left, self.right]
 
     def __str__(self):
         return "{op}[{left}, {right}]".format(op=self.operator,
@@ -51,3 +63,20 @@ class And(Junction):
         Junction.__init__(self, left, right, operator="And")
 
 
+class Implication(Composite, Registered):
+    def __init__(self, subject, predicate):
+        self.subject = subject
+        self.predicate = predicate
+        self.register()
+
+    @property
+    def members(self):
+        return self.subject.members + self.predicate.members
+
+
+class If(Implication):
+    pass
+
+
+class Iff(Implication):
+    pass

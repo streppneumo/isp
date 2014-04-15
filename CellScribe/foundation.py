@@ -1,10 +1,13 @@
 
 from abc import ABCMeta, abstractproperty
 
+from registry import Registered
 
-class Named(object):
+
+class Named(Registered):
     def __init__(self, name):
         self.name = name
+        self.register()
 
     def __eq__(self, other):
         if isinstance(other, Named):
@@ -19,6 +22,14 @@ class Named(object):
 class Primitive(Named):
     def __contains__(self, item):
         return self == item
+
+    @property
+    def members(self):
+        return [self]
+
+    @property
+    def primitives(self):
+        return self.members
 
 
 class Composite(object):
