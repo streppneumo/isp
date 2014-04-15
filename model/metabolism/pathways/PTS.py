@@ -4,12 +4,13 @@ __author__ = 'amanda'
 
 from CellScribe.main import *
 
-from model.genes import *
+from model.genes import SP_1176, SP_0758, SP_1684, SP_1722, SP_0577, SP_2038, SP_2129, SP_2036, SP_2037
+from model.genes import SP_2130, SP_0647, SP_0645, SP_1198, SP_0646, SP_1197, SP_0321, SP_0324, SP_0325, SP_0323
+from model.genes import SP_0062, SP_0283, SP_2162, SP_0063, SP_0282, SP_2161, SP_0061, SP_0064, SP_0284, SP_2163
+from model.genes import SP_2164, SP_0394, SP_0396, SP_0877, SP_1618, SP_1619, SP_0250, SP_2022, SP_1617, SP_2049
+from model.genes import SP_2023, SP_2024, SP_0474, SP_0478, SP_0476, SP_1185, SP_1186, SP_1884, SP_0305
 
-from model.metabolites import *
-
-from model.compartments import e, c
-
+from model.compartments import *
 
 
 phosphoenol_pyruvate = Metabolite ("PEP", kegg="C00074")
@@ -24,13 +25,6 @@ Pyr_Generation = Reaction(name="PYRG",
 
 GeneAssociation(Pyr_Generation, SP_1176)
 
-Modification (SP_1176, phosphoenol_group, modification="phosphorylation")
-phosphorylates(phosphoenol_group, SP_1176)
-ModifiedProtein(SP_1176, modification="phosphorylation")
-
-Modification (SP_1177, SP_1176, modification="phosphorylation")
-phosphorylates(SP_1176, SP_1177)
-ModifiedProtein(SP_1177, modification="phosphorylation")
 
 #GLUCOSE FAMILY
 glucose = Metabolite("glucose", kegg="C00031")
@@ -46,9 +40,6 @@ GeneAssociation(glucose_phosphorylation, SP_0758 & (SP_1684))
 
 gluOperon = Operon(SP_0758, SP_1684)
 
-Modification (SP_0758, phospho(SP_1177), modification="phosphorylation")
-phosphorylates(phospho(SP_1177), SP_0758)
-ModifiedProtein(SP_0758, modification="phosphorylation")
 
 #Still don't know genes for the following:
 n_acetyl_d_glucosamine = Metabolite("NADG", kegg="C00140")
@@ -79,9 +70,9 @@ d_glucosamine = Metabolite("DG", kegg="C00329")
 d_glucosamine_6_phosphate = Metabolite("DG6P", kegg="C00352")
 
 d_glucosamine_phosphorylation = Reaction(name="DGP",
-                                         reactants=d_glucosaminate + phosphoenol_group,
-                                         products=d_glucosaminate_6_phosphate,
-                                         pairs=[(d_glucosaminate, d_glucosaminate_6_phosphate)],
+                                         reactants=d_glucosamine + phosphoenol_group,
+                                         products=d_glucosamine_6_phosphate,
+                                         pairs=[(d_glucosamine, d_glucosamine_6_phosphate)],
                                          minors=[phosphoenol_group])
 
 sucrose = Metabolite("sucrose", kegg="C00089")
@@ -94,12 +85,6 @@ sucrose_phosphorylation = Reaction(name="SP",
                         minors=[phosphoenol_group])
 GeneAssociation(sucrose_phosphorylation, SP_1722)
 
-
-Modification (SP_1722, phospho(SP_1177), modification="phosphorylation")
-phosphorylates(phospho(SP_1177), SP_1722)
-ModifiedProtein(SP_1722, modification="phosphorylation")
-
-
 beta_glucosides = Metabolite("BG", kegg="C00963")
 phospho_beta_glucoside = Metabolite("PBG", kegg="C01135")
 
@@ -109,10 +94,6 @@ beta_glucosides_phosphorylation = Reaction(name="BGP",
                                 pairs=[(beta_glucosides, phospho_beta_glucoside)],
                                 minors=[phosphoenol_group])
 GeneAssociation(beta_glucosides_phosphorylation, SP_0577)
-
-Modification (SP_0577, phospho(SP_1177), modification="phosphorylation")
-phosphorylates(phospho(SP_1177), SP_0577)
-ModifiedProtein(SP_0577, modification="phosphorylation")
 
 #Only know one gene for the following:
 arbutin = Metabolite ("arbutin", kegg="C06186")
@@ -124,7 +105,6 @@ arbutin_phosphorylation = Reaction(name="ArP",
                                    pairs=[(arbutin, arbutin_6_phosphate)],
                                    minors=[phosphoenol_group])
 GeneAssociation (arbutin_phosphorylation, SP_0758)
-ArPOperon = Operon(SP_0758)
 
 #Only know one gene for the following:
 salicin = Metabolite("salicin", kegg="C01451")
@@ -147,7 +127,7 @@ trehalose_phosphorylation = Reaction(name="TP",
                             pairs=[(trehalose, trehalose_6_phosphate)],
                             minors=[phosphoenol_group])
 
-GeneAssociation(rehalose_phosphorylation, SP_1884 & (SP_0758))
+GeneAssociation(trehalose_phosphorylation, SP_1884 & (SP_0758))
 
 #Only know one gene for the following:
 N_acetylmuramic_acid = Metabolite("NAMA", kegg="C02713")
@@ -304,7 +284,7 @@ galactitol_phosphorylation = Reaction(name="G2P",
 GeneAssociation(galactitol_phosphorylation, SP_0647 & (SP_0645 | SP_1198 | SP_0646 | SP_1197))
 
 l_ascorbate = Metabolite("LA", kegg="C00072")
-l_ascorbate_6_phosphate = Metabolute("LA6P", kegg="C16186")
+l_ascorbate_6_phosphate = Metabolite("LA6P", kegg="C16186")
 
 l_ascorbate_phosphorylation = Reaction(name="LAP",
                                        reactants=l_ascorbate + phosphoenol_group,
