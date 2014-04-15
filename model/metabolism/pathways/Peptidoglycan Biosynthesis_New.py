@@ -1,5 +1,5 @@
 from CellScribe import *
-from model.metabolites import phosphate, ATP, ADP
+from model.metabolites import phosphate, atp, adp
 from model.genes import SP_1081, SP_1966, SP_1390, SP_1521, SP_0688, SP_1589, SP_1530, SP_1671, SP_1670, SP_0337, SP_0689
 
 #minors
@@ -115,9 +115,9 @@ MurE_GA = GeneAssociation(MurE, SP_1530)
 ##############################################################################
 
 ddl = Reaction(name="ddl",
-               reactants=ATP + 2(D_alanine),
+               reactants=ATP + 2*(D_alanine),
                products=ADP + phosphate + D_alanyl_D_alanine + H,
-               pairs=[(2(D_alanine), D_alanyl_D_alanine)],
+               pairs=[(2*(D_alanine), D_alanyl_D_alanine)],
                minors=[ATP, ADP, phosphate, H])
 
 SP_1671 = Gene("SP_1671")
@@ -182,7 +182,7 @@ MurG_1 = Reaction("MurG_1",
                   minors=[UDP_N_acetyl_alpha_D_glucosamine, UDP])
 
 SP_0689 = Gene("SP_0689")
-MurG_2_GA = GeneAssociation(MurG_2, SP_0689)
+MurG_1_GA = GeneAssociation(MurG_1, SP_0689)
 
 #Right side of the peptidoglycan biosynthesis pathway
 
