@@ -1,4 +1,3 @@
-from CellScribe.main import *
 from model.metabolites import *
 from model.genes import (SP_0568, SP_0254, SP_1659, SP_0713, SP_2078, SP_0264, SP_2121, SP_0581, SP_0579, SP_2100,
                          SP_2229, SP_1383, SP_1474, SP_1475, SP_1631, SP_0411, SP_0788, SP_0591, SP_1542, SP_2114,

@@ -1,4 +1,4 @@
-from CellScribe.main import *
+from CellScribe import *
 from model.compartments import e, c
 from model.metabolites import *
 from model.genes import SP_1961, SP_1960, SP_0236, SP_1737, SP_0493
