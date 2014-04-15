@@ -4,17 +4,14 @@ __author__ = 'amanda'
 #FOR GITHUB CLICK REPOSITORY FROM TOP BAR THEN 'PULL' THEN COMMIT N SYNC!
 
 from CellScribe.main import *
-from model.metabolites import *
 from model.genes import *
+from model.metabolites import *
 from model.compartments import *
 from model.operons import *
-
 
 phosphoenol_pyruvate = Metabolite ("PEP", kegg=C00074)
 pyruvate = Metabolite ("pyruvate", kegg=C00022)
 phosphoenol_group = Metabolite("PG")
-ADP = Metabolite ("ADP")
-ATP = Metabolite ("ATP")
 
 Pyr_Generation = Reaction(name="PYRG",
                 reactants=phosphoenol_pyruvate,
@@ -271,7 +268,7 @@ galactosamine_phosphorylation = Reaction(name="Ga2P",
 
 GeneAssociation(Ga2P, SP_0321)
 
-#Incomplete pathway, no genes listed:
+#Incomplete
 d_glucosaminate = Metabolite("DGL", kegg=C03752)
 d_glucosaminate_6_phosphate = Metabolite("DG6P", kegg=C20589)
 
