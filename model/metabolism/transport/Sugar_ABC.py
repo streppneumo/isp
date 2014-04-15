@@ -1,10 +1,10 @@
 from CellScribe import *
-from compartments import e, c
-from metabolites import *
-from genes import SP_1386, SP_1387, SP_1388, SP_1389, SP_1386, SP_1387, SP_1388, SP_1389, SP_1580
+from model.compartments import e
+from model.metabolites import *
+from model.genes import SP_1386, SP_1387, SP_1388, SP_1389, SP_1386, SP_1387, SP_1388, SP_1389, SP_1580
 
 spermidine_rxn = Reaction(name="spermidine_rxn",
-                          reactants=e(spermidine) + H20 + atp,
+                          reactants=e(spermidine) + h2o + atp,
                           products=spermidine + adp + phosphate,
                           pairs=[(spermidine, putrescine), (atp, adp)],
                           minors=[atp, adp])
@@ -14,7 +14,7 @@ GeneAssociation(spermidine_rxn, SP_1386 & SP_1387 & SP_1388 & SP_1389)
 
 
 putrescine_rxn = Reaction(name="putrescine_rxn",
-                          reactants=e(putrescine) + H20 + atp,
+                          reactants=e(putrescine) + h2o + atp,
                           products=glucose + adp + phosphate)
 
 #kegg pathway states that glucose is the product.... but it should be putrescine right?
