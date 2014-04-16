@@ -3,10 +3,6 @@ from model.genes import (SP_0568, SP_0254, SP_1659, SP_0713, SP_2078, SP_0264, S
                          SP_2229, SP_1383, SP_1474, SP_1475, SP_1631, SP_0411, SP_0788, SP_0591, SP_1542, SP_2114,
                          SP_2069, SP_1735)
 
-h2o = Metabolite("h2o", kegg="C00001")
-orthophosphate = Metabolite("orthophosphate", kegg="C00009")
-diphosphate = Metabolite("diphosphate", kegg="C00013")
-
 
 def charge_trna(reactionkegg, aaname, aakegg, trnaname, trnakegg, chargedrna_name, chargedkegg, associated_genes):
     trna = RNA(trnaname, kegg=trnakegg)
@@ -49,7 +45,7 @@ Reaction(name='L_glutamine_amido_ligase',
          reactants=Metabolite("L_glutamyl_tRNA(gln)", kegg="C06112") + h2o + atp +
          Metabolite("L_glutamine", kegg="C00064"),
          products=Metabolite("L_glutaminyl_tRNA(gln)", kegg="C02282") + Metabolite("L_glutamate", kegg="C00025") +
-         orthophosphate + adp,
+         phosphate + adp,
          pairs=[(atp, adp)],
          minors=[h2o, atp, adp],
          kegg="R03905")
