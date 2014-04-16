@@ -1,6 +1,6 @@
 from CellScribe import *
 from model.metabolites import phosphate, atp, adp
-from model.genes import SP_1081, SP_1966, SP_1390, SP_1521, SP_0688, SP_1589, SP_1530, SP_1671, SP_1670, SP_0337, SP_0689
+from model.genes import SP_1081, SP_1966, SP_1390, SP_1521, SP_0688, SP_1589, SP_1530, SP_1671, SP_1670, SP_0337, SP_0689, SP_0615, SP_0616, SP_0457
 
 #minors
 phosphate = Metabolite("phosphate", kegg="C00009")
@@ -13,7 +13,13 @@ ADP = Metabolite("ADP", kegg="C00008")
 L_alanine = Metabolite("L-alanine", kegg="C00041")
 UDP = Metabolite("UDP", kegg="C00015")
 L_Lysine = Metabolite("L-lysine", kegg="C00047")
-undecaprenyl_phosphate = Metabolite("undecaprenyl phosphate", kegg=" C17556")
+undecaprenyl_phosphate = Metabolite("undecaprenyl phosphate", kegg="C17556")
+L_Alanyl_tRNA = Metabolite("L_Alanyl_tRNA", kegg="C00886")
+tRNA_Ala = Metabolite("tRNA_Ala", kegg="C01635")
+undecaprenyl_diphosphate = Metabolite("Undecaprenyl diphosphate", kegg="C04574")
+H2O = Metabolite("H2O", kegg="C00001")
+
+
 
 #major metabolites
 UDP_N_acetyl_alpha_D_glucosamine = Metabolite("UDP-N-acetyl-alpha-D-glucosamine", kegg="C00043")
@@ -35,6 +41,8 @@ UDP_N_acetylmuramoyl__L_alanyl_D_glutamyl_meso_2_6_diaminopimelyl_D_alanyl_D_ala
 UDP_N_acetylmuramoyl_L_alanyl_gamma_D_glutamyl_L_lysine = Metabolite("UDP_N_acetylmuramoyl_L_alanyl_gamma_D_glutamyl_L_lysine", kegg="C05892")
 N_acetylmuramoyl_L_alanyl_D_glutamyl_meso_2_6_diaminopimelyl_D_alanyl_D_alanine_diphosphoundecaprenol = Metabolite("N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimelyl-D-alanyl-D-alanine-diphosphoundecaprenol", kegg="C05897")
 N_acetylmuramoyl_L_alanyl_D_glutamyl_meso_2_6_diaminopimelyl_D_alanyl_D_alanine_diphosphoundecaprenyl_N_acetylglucosamine = Metabolite("N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimelyl-D-alanyl-D-alanine-diphosphoundecaprenyl-N-acetylglucosamine", kegg="C05898")
+Undecaprenyl_diphospho_N_acetylmuramoyl_N_acetylglucosamine_L_alanyl_gamma_D_glutamyl_L_lysyl_L_alanyl_D_alanyl_D_alanine = Metabolite("Undecaprenyl_diphospho_N_acetylmuramoyl_N_acetylglucosamine_L_alanyl_gamma_D_glutamyl_L_lysyl_L_alanyl_D-alanyl_D_alanine", kegg="C17550")
+Undecaprenyl_diphospho_N_acetylmuramoyl_N_acetylglucosamine_L_alanyl_gamma_D_glutamyl_L_lysyl_L_alanyl_L_alanyl_D_alanyl_D_alanine = Metabolite("Undecaprenyl_diphospho_N_acetylmuramoyl_N_acetylglucosamine_L_alanyl_gamma_D_glutamyl_L_lysyl_L_alanyl_L_alanyl_D_alanyl_D_alanine", kegg="C17549")
 
 
 MurA = Reaction(name="MurA",
@@ -201,7 +209,38 @@ MurG_2_GA = GeneAssociation(MurG_2, SP_0689)
 
 ##############################################################################
 
+MurM = Reaction("MurM",
+                reactants=Undecaprenyl_diphospho_N_acetylmuramoyl_N_acetylglucosamine_L_alanyl_gamma_D_glutamyl_L_lysyl_D_alanyl_D_alanine + L_Alanyl_tRNA,
+                products=Undecaprenyl_diphospho_N_acetylmuramoyl_N_acetylglucosamine_L_alanyl_gamma_D_glutamyl_L_lysyl_L_alanyl_D_alanyl_D_alanine + tRNA_Ala,
+                pairs=[(Undecaprenyl_diphospho_N_acetylmuramoyl_N_acetylglucosamine_L_alanyl_gamma_D_glutamyl_L_lysyl_D_alanyl_D_alanine, Undecaprenyl_diphospho_N_acetylmuramoyl_N_acetylglucosamine_L_alanyl_gamma_D_glutamyl_L_lysyl_L_alanyl_D_alanyl_D_alanine)],
+                minors=[L_Alanyl_tRNA, tRNA_Ala])
 
+SP_0615 = Gene("SP_0615")
+MurM_GA = GeneAssociation(MurM, SP_0615)
+
+##############################################################################
+
+MurN = Reaction("MurN",
+                reactants=Undecaprenyl_diphospho_N_acetylmuramoyl_N_acetylglucosamine_L_alanyl_gamma_D_glutamyl_L_lysyl_L_alanyl_D_alanyl_D_alanine + L_Alanyl_tRNA,
+                products=Undecaprenyl_diphospho_N_acetylmuramoyl_N_acetylglucosamine_L_alanyl_gamma_D_glutamyl_L_lysyl_L_alanyl_L_alanyl_D_alanyl_D_alanine + tRNA_Ala,
+                pairs=[(Undecaprenyl_diphospho_N_acetylmuramoyl_N_acetylglucosamine_L_alanyl_gamma_D_glutamyl_L_lysyl_L_alanyl_D_alanyl_D_alanine,Undecaprenyl_diphospho_N_acetylmuramoyl_N_acetylglucosamine_L_alanyl_gamma_D_glutamyl_L_lysyl_L_alanyl_L_alanyl_D_alanyl_D_alanine)],
+                minors=[L_Alanyl_tRNA, tRNA_Ala])
+
+SP_0616 = Gene("SP_0616")
+MurN_GA = GeneAssociation(MurN, SP_0616)
+
+##############################################################################
+
+uppP = Reaction("uppP",
+                reactants=undecaprenyl_diphosphate + H2O,
+                products=undecaprenyl_phosphate + phosphate + H,
+                pairs=[(undecaprenyl_diphosphate, undecaprenyl_phosphate)],
+                minors=[H2O, H])
+
+SP_0457 = Gene("SP_0457")
+uppP_GA = GeneAssociation(uppP, SP_0457)
+
+##############################################################################
 
 
 
