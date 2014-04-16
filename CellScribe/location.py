@@ -36,15 +36,13 @@ class Location(object):
         return loc_aux
 
 
-class Localized(object):
-    def __init__(self, obj, location):
-        self.obj = obj
-        self.location = location
-
-
 class Localizable(object):
     default_location = None
-    localized_constructor = Localized
+
+    # The default constructor is Localized, which is a subclass of
+    # Localizable.  We set it below since these classes are mutually
+    # recursive.
+    localized_constructor = None
 
     def localize(self, location=None):
         if location is None:
@@ -52,10 +50,22 @@ class Localizable(object):
         return self.localized_constructor(location)
 
 
+class Localized(Localizable):
+    def __init__(self, obj, location):
+        self.obj = obj
+        self.location = location
+
+    def localize(self, location=None):
+        if location is None:
+            return self
+        else:
+            return self.obj.localize(location)
+
+    def __str__(self):
+        return str(self.obj) + self.location.suffix
 
 
-
-
+Localizable.localized_constructor = Localized  # see definition above
 
 
 if __name__ == '__main__':
