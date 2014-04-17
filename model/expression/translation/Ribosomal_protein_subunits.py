@@ -9,14 +9,14 @@ from CellScribe import *
 ##Metabolite.default_location = cytoplasm
 
 
-16S_5S_23S_operon = Operon("16S_5S_23S_operon")
+o_16S_5S_23S_operon = Operon("o_16S_5S_23S_operon")
 
-L33_L28_operon = Operon("L33_L28_operon")
+o_L33_L28_operon = Operon("o_L33_L28_operon")
 
 
-16S_rrna = rRNA("16S_rrna")
-5S_rrna = rRNA("5S_rrna")
-23S_rrna = rRNA("23S_rrna")
+r_16S_rrna = rRNA("r_16S_rrna")
+r_5S_rrna = rRNA("r_5S_rrna")
+r_23S_rrna = rRNA("r_23S_rrna")
 
 
 def proteinSubunits(subunits, builtPsubunit):
@@ -54,7 +54,7 @@ proteinSubunits(Gene("SP_0227") & Gene("SP_0208") & Gene("SP_0215"), S3_complex)
 proteinSubunits(Gene("SP_0215") & Gene("SP_2215"), S2_complex)#S2
 #proteinSubunits(subunits, buildPsubunit) Below is the rRNA 16S interaction:
 proteinSubunits(Gene("SP_0218") & Gene("SP_0838") & Gene("SP_0085") & Gene("SP_0224") & Gene("SP_1626") & Gene("SP_0272") \
-                & Gene("SP_rrnaA16S"), 16S_rrna)
+                & Gene("SP_rrnaA16S"), r_16S_rrna)
                 
 def proteinSubunitsL(subunitsL, builtPsubunitL):
     Reaction(name="builtPSubunitL",
@@ -92,7 +92,7 @@ proteinSubunitsL(Gene("SP_0229") & Gene("SP_0237") & Gene("SP_0441"), L28_comple
 proteinSubunitsL(Gene("SP_0229") & Gene("SP_1107"), L27_complex)
 proteinSubunitsL(Gene("SP_0225") & Gene("SP_1355") & Gene("SP_0630") & Gene("SP_0216"), L16_complex)
 #proteinSubunitsL(Gene("SP_0229") & Gene("SP_2215"), L25_complex) NOT IN STREP. BUT IT IS IN E. COLI
-proteinSubunitsL(Gene("SP_0221") & Gene("SP_0229") & Gene("SP_0226") & ((Gene("SP_0212") & Gene("SP_0209")) | (Gene("SP_0212") & Gene("SP_0210")) | (Gene("SP_0209") & Gene("SP_0210"))) & Gene("SP_rrnaA5S"), 5S_rrna)
+proteinSubunitsL(Gene("SP_0221") & Gene("SP_0229") & Gene("SP_0226") & ((Gene("SP_0212") & Gene("SP_0209")) | (Gene("SP_0212") & Gene("SP_0210")) | (Gene("SP_0209") & Gene("SP_0210"))) & Gene("SP_rrnaA5S"), r_5S_rrna)
 proteinSubunitsL(Gene("SP_0220") & Gene("SP_0961") & Gene("SP_0210") & Gene("SP_0211") & Gene("SP_0209")\
-                 & Gene("SP_2204") & Gene("SP_0631") & Gene("SP_0212"), & Gene("SP_rrnaA23S"), 23S_rrna)
+                 & Gene("SP_2204") & Gene("SP_0631") & Gene("SP_0212") & Gene("SP_rrnaA23S"), r_23S_rrna)
 
