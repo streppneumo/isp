@@ -223,7 +223,7 @@ MurM_GA = GeneAssociation(MurM, SP_0615)
 MurN = Reaction("MurN",
                 reactants=Undecaprenyl_diphospho_N_acetylmuramoyl_N_acetylglucosamine_L_alanyl_gamma_D_glutamyl_L_lysyl_L_alanyl_D_alanyl_D_alanine + L_Alanyl_tRNA,
                 products=Undecaprenyl_diphospho_N_acetylmuramoyl_N_acetylglucosamine_L_alanyl_gamma_D_glutamyl_L_lysyl_L_alanyl_L_alanyl_D_alanyl_D_alanine + tRNA_Ala,
-                pairs=[(Undecaprenyl_diphospho_N_acetylmuramoyl_N_acetylglucosamine_L_alanyl_gamma_D_glutamyl_L_lysyl_L_alanyl_D_alanyl_D_alanine,Undecaprenyl_diphospho_N_acetylmuramoyl_N_acetylglucosamine_L_alanyl_gamma_D_glutamyl_L_lysyl_L_alanyl_L_alanyl_D_alanyl_D_alanine)],
+                pairs=[(Undecaprenyl_diphospho_N_acetylmuramoyl_N_acetylglucosamine_L_alanyl_gamma_D_glutamyl_L_lysyl_L_alanyl_D_alanyl_D_alanine, Undecaprenyl_diphospho_N_acetylmuramoyl_N_acetylglucosamine_L_alanyl_gamma_D_glutamyl_L_lysyl_L_alanyl_L_alanyl_D_alanyl_D_alanine)],
                 minors=[L_Alanyl_tRNA, tRNA_Ala])
 
 SP_0616 = Gene("SP_0616")
@@ -241,6 +241,39 @@ SP_0457 = Gene("SP_0457")
 uppP_GA = GeneAssociation(uppP, SP_0457)
 
 ##############################################################################
+
+#glycosyltransferase : elongation of uncross-linked glycans (either N-acetylmuramic acid or N-acetylglucosamine)
+#transpeptidase : peptide cross-linking between two adjacent glycans
+#DD-carboxypeptidase : hydrolyzes peptide bonds (in this case, between D-ala-D-alanine) to help control the extent of PG cross-linking
+
+##Class A PBPs: N-terminal has a glycosyltransferase activity and the C-terminal has a transpeptidase activity
+###pbp1a = SP_0369
+###pbp1b = SP_2099
+###pbp2a = SP_2010
+
+##Class B PBPs: C-terminal has a transpeptidase activity; other functions not characterized but plays a role in cell division; has PASTA domains which are thought to bind unlinked peptidoglycans
+###pbp2x = SP_0336 (cell division)--"Growth and Division of "Streptococcus pnuemoniae..." Morlot, Zapun, Dideberg and Vernet, pg. 846
+###pbp2b = SP_1673 (functions during growth phase)--"Growth and Division of "Streptococcus pnuemoniae..." Morlot, Zapun, Dideberg and Vernet, pg. 846
+
+##Class C PBPs: DD-carboxypeptidases
+###SP_0872 (EC 3.4.16.4)
+
+#Peptidoglycans consist of two alternating sugars N-acetylmuramic acid or N-acetylglucosamine
+#N-acetylmuramic acid has a pentapeptide chain attached to it. Third amino acid is the cross-linking site and is, in the case of S. pneumoniae, a L-Lys
+#Cross bridge consists of two L-Ala
+
+#S. pneumoniae may not use the right side of this reaction: this creates a product (two sugars + pentapeptide) that has the meso-2,6-diaminopimeloyl in the third spot for cross-linking
+###This is found primarily in gram negative bacteria and leads to direct linking with another peptidoglycan -- no cross-bridge ("Bacterial Cell Wall Synthesis..." Scheffers and Pinho, pg. 586)
+
+#Average length of peptidogylcan chains in S. aureus is 3-10 with maximum being 23 to 26
+
+#Expression/regulation information
+
+#Class A: None is found to be essential in the sense that single mutants showed no obvious phenotype ("Growth and Division of "Streptococcus pnuemoniae..." Morlot, Zapun, Dideberg and Vernet, pg. 846)
+### mutation of [pbp1b and (pbp1a or pbp2a)] = defects in septum position but not lethal
+### mutation of [pbp1a and pbp2a] = possibly lethal
+#Class B: Likely to be essential as attempts to isolate deletion mutants failed ("Growth and Division of "Streptococcus pnuemoniae..." Morlot, Zapun, Dideberg and Vernet, pg. 846)
+#Class C (SP_0872): No apparent phenotype associated with its inactivation in S. aureus ("The penicillin binding proteins..." Kerff, Terrak, and Charlier, pg. 244-245)
 
 
 
