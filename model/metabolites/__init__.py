@@ -1,6 +1,8 @@
 
 from CellScribe import *
 
+from aminoacids import *
+
 atp = Metabolite("atp")
 adp = Metabolite("adp")
 amp = Metabolite("amp")
