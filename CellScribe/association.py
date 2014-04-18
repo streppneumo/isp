@@ -15,9 +15,9 @@ class Association(Composite):
 
 class GeneAssociation(Association, Registered):
     def __init__(self, reaction, rule):
-        super(GeneAssociation, self).__init__(self)
         self.reaction = reaction
         self.rule = rule
+        self.register()
 
     @property
     def members(self):
