@@ -1,30 +1,15 @@
 
 from CellScribe import *
-from operons import
-##extracellular = Location("Extracellular", 'e')
-##e = extracellular.localizer
-##
-##cytoplasm = Location("Cytoplasm", 'c')
-##c = cytoplasm.localizer
-##Metabolite.default_location = cytoplasm
-
-
-o_16S_5S_23S_operon = Operon("o_16S_5S_23S_operon")
-
+from operons import rRNA_and_tRNA
 
 r_16S_rrna = rRNA("r_16S_rrna")
 r_5S_rrna = rRNA("r_5S_rrna")
 r_23S_rrna = rRNA("r_23S_rrna")
 
 
-def proteinSubunits(subunits, builtPsubunit):
-    Reaction(name="builtPSubunit",
-            reactants= subunits,
-            products=builtPsubunit)
-
-S16_complex = Complex("S16_complex")
-S9_complex = Complex("S9_complex")
-S13_complex = Complex("S13_complex")
+S16_complex = Complex("S16_complex", Gene("SP_0838") & Gene("SP_0085") & Gene("SP_0775"))
+S9_complex = Complex("S9_complex", Gene("SP_0272") & Gene("SP_0295"))
+S13_complex = Complex("S13_complex", Gene("SP_0272") & Gene("SP_0234"))
 S19_complex = Complex("S19_complex")
 S12_complex = Complex("S12_complex")
 S5_complex = Complex("S5_complex")
@@ -36,9 +21,6 @@ S3_complex = Complex("S3_complex")
 S2_complex = Complex("S2_complex")
 
 
-
-proteinSubunits(Gene("SP_0838") & Gene("SP_0085") & Gene("SP_0775"), S16_complex) #S16
-proteinSubunits(Gene("SP_0272") & Gene("SP_0295"), S9_complex) #S9
 proteinSubunits(Gene("SP_0272") & Gene("SP_0234"), S13_complex)#S13
 proteinSubunits(Gene("SP_0272") & Gene("SP_0213"), S19_complex)#S19
 proteinSubunits(Gene("SP_0218") & Gene("SP_0775") & Gene("SP_0224") & Gene("SP_0227") & Gene("SP_0271"), S12_complex)#S12
