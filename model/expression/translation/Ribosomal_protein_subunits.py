@@ -1,6 +1,6 @@
 
 from CellScribe import *
-
+from operons import
 ##extracellular = Location("Extracellular", 'e')
 ##e = extracellular.localizer
 ##
@@ -10,8 +10,6 @@ from CellScribe import *
 
 
 o_16S_5S_23S_operon = Operon("o_16S_5S_23S_operon")
-
-o_L33_L28_operon = Operon("o_L33_L28_operon")
 
 
 r_16S_rrna = rRNA("r_16S_rrna")
@@ -95,4 +93,3 @@ proteinSubunitsL(Gene("SP_0225") & Gene("SP_1355") & Gene("SP_0630") & Gene("SP_
 proteinSubunitsL(Gene("SP_0221") & Gene("SP_0229") & Gene("SP_0226") & ((Gene("SP_0212") & Gene("SP_0209")) | (Gene("SP_0212") & Gene("SP_0210")) | (Gene("SP_0209") & Gene("SP_0210"))) & Gene("SP_rrnaA5S"), r_5S_rrna)
 proteinSubunitsL(Gene("SP_0220") & Gene("SP_0961") & Gene("SP_0210") & Gene("SP_0211") & Gene("SP_0209")\
                  & Gene("SP_2204") & Gene("SP_0631") & Gene("SP_0212") & Gene("SP_rrnaA23S"), r_23S_rrna)
-

@@ -2,6 +2,7 @@ from CellScribe import *
 from compartments import e, c
 from metabolites import *
 from genes import SP_2108, SP_2109, SP_2110, SP_2108, SP_2109, SP_2110
+from operons import malMP
 
 
 βmaltose_transport = Reaction(name="βmaltose_transport",
