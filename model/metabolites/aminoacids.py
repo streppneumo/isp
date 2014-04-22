@@ -22,6 +22,8 @@ l_glutamate = Metabolite("L_glutamate", kegg="C00025")
 l_aspartate = Metabolite("L_aspartate", kegg="C00049")
 l_glutamine = Metabolite("L_glutamine", kegg="C00064")
 
+
+
 d_valine = Metabolite("D_valine", kegg="?")
 d_leucine = Metabolite("D_leucine", kegg="?")
 d_isoleucine = Metabolite("D_isoleucine", kegg="?")

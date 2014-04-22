@@ -2,7 +2,7 @@ from CellScribe import *
 from model.metabolites import *
 from model.genes import (SP_0568, SP_0254, SP_1659, SP_0713, SP_2078, SP_0264, SP_2121, SP_0581, SP_0579, SP_2100,
                          SP_2229, SP_1383, SP_1474, SP_1475, SP_1631, SP_0411, SP_0788, SP_0591, SP_1542, SP_2114,
-                         SP_2069, SP_1735)
+                         SP_2069, SP_1735, SP_0436, SP_0437, SP_0438)
 
 
 def charge_trna(reactionkegg, amino_acid, trnaname, trnakegg, chargedrna_name, chargedkegg, associated_genes):
@@ -10,7 +10,7 @@ def charge_trna(reactionkegg, amino_acid, trnaname, trnakegg, chargedrna_name, c
 
     charged_trna = Metabolite(chargedrna_name, kegg=chargedkegg)
 
-    charge_rxn = Reaction(name='charge' + amino_acid.name + reactionkegg,
+    charge_rxn = Reaction(name='charge' + amino_acid.name + reactionkegg,  # probably cold name these better..?
                           reactants=trna + amino_acid + atp,
                           products=charged_trna + amp + diphosphate,
                           pairs=[(trna, charged_trna), (atp, amp)],
@@ -41,13 +41,14 @@ charge_trna("R05577", l_aspartate, "tRNA_asp", "C01638", "L_aspartyl_tRNA(asp)",
 
 # L_glutamyl_tRNA from glutamate and tRNA_gln. get to L_glutaminyl_tRNA through SP_0436, SP_0437, SP_0438
 charge_trna("R03651", l_glutamate, "tRNA_gln", "C01640", "L_glutamyl_tRNA(gln)", "C06112", SP_2069)
-Reaction(name='L_glutamine_amido_ligase',
-         reactants=Metabolite("L_glutamyl_tRNA(gln)", kegg="C06112") + h2o + atp + l_glutamine,
-         products=Metabolite("L_glutaminyl_tRNA(gln)", kegg="C02282") + l_glutamate +
-         phosphate + adp,
-         pairs=[(atp, adp)],
-         minors=[h2o, atp, adp],
-         kegg="R03905")
+convert = Reaction(name='L_glutamine_amido_ligase',
+                   reactants=Metabolite("L_glutamyl_tRNA(gln)", kegg="C06112") + h2o + atp + l_glutamine,
+                   products=Metabolite("L_glutaminyl_tRNA(gln)", kegg="C02282") + l_glutamate + phosphate + adp,
+                   pairs=[(atp, adp)],
+                   minors=[h2o, atp, adp],
+                   kegg="R03905")
+
+GeneAssociation(convert, SP_0436 & SP_0437 & SP_0438)
 
 # make N_formyl_methionyl_tRNA
 ten_formyl_THF = Metabolite("ten_formyl_THF", kegg="C00234")
