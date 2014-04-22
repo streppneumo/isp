@@ -10,7 +10,7 @@ def charge_trna(reactionkegg, amino_acid, trnaname, trnakegg, chargedrna_name, c
 
     charged_trna = Metabolite(chargedrna_name, kegg=chargedkegg)
 
-    charge_rxn = Reaction(name='charge' + amino_acid.name,
+    charge_rxn = Reaction(name='charge' + amino_acid.name + reactionkegg,
                           reactants=trna + amino_acid + atp,
                           products=charged_trna + amp + diphosphate,
                           pairs=[(trna, charged_trna), (atp, amp)],
@@ -26,8 +26,7 @@ charge_trna("R03658", l_lysine, "tRNA_lys", "C01646", "L_lysyl_tRNA(lys)", "C019
 charge_trna("R03646", l_arginine, "tRNA_arg", "C01636", "L_arginyl_tRNA(arg)", "C02163", SP_2078)
 charge_trna("R03661", l_proline, "tRNA_pro", "C01649", "L_prolyl_tRNA(pro)", "C02702", SP_0264)
 charge_trna("R03655", l_histidine, "tRNA_his", "C01643", "L_histidyl_tRNA(his)", "C02988", SP_2121)
-charge_trna("R03660", l_phenylalanine, "tRNA_phe", "C01648", "L_phenylalanyl_tRNA(phe)", "C03511", SP_0581
-            & SP_0579)
+charge_trna("R03660", l_phenylalanine, "tRNA_phe", "C01648", "L_phenylalanyl_tRNA(phe)", "C03511", SP_0581 & SP_0579)
 charge_trna("R02918", l_tyrosine, "tRNA_tyr", "C00787", "L_tyrosyl_tRNA(tyr)", "C02839", SP_2100)
 charge_trna("R03664", l_tryptophan, "tRNA_trp", "C01652", "L_tryptophanyl_tRNA(trp)", "C03512", SP_2229)
 charge_trna("R03038", l_alanine, "tRNA_ala", "C01635", "L_alanyl_tRNA(ala)", "C00886", SP_1383)
@@ -43,9 +42,8 @@ charge_trna("R05577", l_aspartate, "tRNA_asp", "C01638", "L_aspartyl_tRNA(asp)",
 # L_glutamyl_tRNA from glutamate and tRNA_gln. get to L_glutaminyl_tRNA through SP_0436, SP_0437, SP_0438
 charge_trna("R03651", l_glutamate, "tRNA_gln", "C01640", "L_glutamyl_tRNA(gln)", "C06112", SP_2069)
 Reaction(name='L_glutamine_amido_ligase',
-         reactants=Metabolite("L_glutamyl_tRNA(gln)", kegg="C06112") + h2o + atp +
-         Metabolite("L_glutamine", kegg="C00064"),
-         products=Metabolite("L_glutaminyl_tRNA(gln)", kegg="C02282") + Metabolite("L_glutamate", kegg="C00025") +
+         reactants=Metabolite("L_glutamyl_tRNA(gln)", kegg="C06112") + h2o + atp + l_glutamine,
+         products=Metabolite("L_glutaminyl_tRNA(gln)", kegg="C02282") + l_glutamate +
          phosphate + adp,
          pairs=[(atp, adp)],
          minors=[h2o, atp, adp],
