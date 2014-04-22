@@ -10,7 +10,7 @@ def charge_trna(reactionkegg, amino_acid, trnaname, trnakegg, chargedrna_name, c
 
     charged_trna = Metabolite(chargedrna_name, kegg=chargedkegg)
 
-    charge_rxn = Reaction(name='charge' + amino_acid.name + reactionkegg,  # probably cold name these better..?
+    charge_rxn = Reaction(name='charge' + amino_acid.name + reactionkegg,
                           reactants=trna + amino_acid + atp,
                           products=charged_trna + amp + diphosphate,
                           pairs=[(trna, charged_trna), (atp, amp)],
