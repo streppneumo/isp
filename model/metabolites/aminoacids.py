@@ -20,6 +20,7 @@ l_cysteine = Metabolite("L_cysteine", kegg="C00097")
 l_asparagine = Metabolite("L_asparagine", kegg="C00152")
 l_glutamate = Metabolite("L_glutamate", kegg="C00025")
 l_aspartate = Metabolite("L_aspartate", kegg="C00049")
+l_glutamine = Metabolite("L_glutamine", kegg="C00064")
 
 d_valine = Metabolite("D_valine", kegg="?")
 d_leucine = Metabolite("D_leucine", kegg="?")
