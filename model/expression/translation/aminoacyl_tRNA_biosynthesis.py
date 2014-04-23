@@ -39,14 +39,14 @@ charge_trna("R05578", l_glutamate, "tRNA_glu", "C01641", l_glutamyl_tRNAglu, SP_
 charge_trna("R05577", l_aspartate, "tRNA_asp", "C01638", l_aspartyl_tRNAasp, SP_2114)
 
 # L_glutamyl_tRNA from glutamate and tRNA_gln. get to L_glutaminyl_tRNA through SP_0436, SP_0437, SP_0438
-#charge_trna("R03651", l_glutamate, "tRNA_gln", "C01640", "L_glutamyl_tRNA(gln)", "C06112", SP_2069)
-#convert = Reaction(name='L_glutamine_amido_ligase',
-#                   reactants=Metabolite("L_glutamyl_tRNA(gln)", kegg="C06112") + h2o + atp + l_glutamine,
-#                   products=Metabolite("L_glutaminyl_tRNA(gln)", kegg="C02282") + l_glutamate + phosphate + adp,
-#                   pairs=[(atp, adp)],
-#                   minors=[h2o, atp, adp],
-#                   kegg="R03905")
-#GeneAssociation(convert, SP_0436 & SP_0437 & SP_0438)
+charge_trna("R03651", l_glutamate, "tRNA_gln", "C01640", l_glutamyl_tRNAgln, SP_2069)
+convert = Reaction(name='L_glutamine_amido_ligase',
+                   reactants=l_glutamyl_tRNAgln + h2o + atp + l_glutamine,
+                   products=l_glutaminyl_tRNAgln + l_glutamate + phosphate + adp,
+                   pairs=[(atp, adp)],
+                   minors=[h2o, atp, adp],
+                   kegg="R03905")
+GeneAssociation(convert, SP_0436 & SP_0437 & SP_0438)
 
 # make N_formyl_methionyl_tRNA
 ten_formyl_THF = Metabolite("ten_formyl_THF", kegg="C00234")
