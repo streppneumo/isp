@@ -1,43 +1,42 @@
 from CellScribe import *
 from model.metabolites import *
+from model.chargedtRNAs import *
 from model.genes import (SP_0568, SP_0254, SP_1659, SP_0713, SP_2078, SP_0264, SP_2121, SP_0581, SP_0579, SP_2100,
                          SP_2229, SP_1383, SP_1474, SP_1475, SP_1631, SP_0411, SP_0788, SP_0591, SP_1542, SP_2114,
                          SP_2069, SP_1735, SP_0436, SP_0437, SP_0438)
 
 
-def charge_trna(reactionkegg, amino_acid, trnaname, trnakegg, chargedrna_name, chargedkegg, associated_genes):
+def charge_trna(reactionkegg, amino_acid, trnaname, trnakegg, chargedtrna, associated_genes):
     trna = RNA(trnaname, kegg=trnakegg)
-
-    charged_trna = Metabolite(chargedrna_name, kegg=chargedkegg)
 
     charge_rxn = Reaction(name='charge' + amino_acid.name + reactionkegg,
                           reactants=trna + amino_acid + atp,
-                          products=charged_trna + amp + diphosphate,
-                          pairs=[(trna, charged_trna), (atp, amp)],
+                          products=chargedtrna + amp + diphosphate,
+                          pairs=[(trna, chargedtrna), (atp, amp)],
                           minors=[atp, amp],
                           kegg=reactionkegg)
 
     GeneAssociation(charge_rxn, associated_genes)
 
-charge_trna("R03665", l_valine, "tRNA_val", "C01653", "L_valyl_tRNA(val)", "C02554", SP_0568)
-charge_trna("R03657", l_leucine, "tRNA_leu", "C01645", "L_leucyl_tRNA(leu)", "C02047", SP_0254)
-charge_trna("R03656", l_isoleucine, "tRNA_ile", "C01644", "L_isoleucyl_tRNA(ile)", "C03127", SP_1659)
-charge_trna("R03658", l_lysine, "tRNA_lys", "C01646", "L_lysyl_tRNA(lys)", "C01931", SP_0713)
-charge_trna("R03646", l_arginine, "tRNA_arg", "C01636", "L_arginyl_tRNA(arg)", "C02163", SP_2078)
-charge_trna("R03661", l_proline, "tRNA_pro", "C01649", "L_prolyl_tRNA(pro)", "C02702", SP_0264)
-charge_trna("R03655", l_histidine, "tRNA_his", "C01643", "L_histidyl_tRNA(his)", "C02988", SP_2121)
-charge_trna("R03660", l_phenylalanine, "tRNA_phe", "C01648", "L_phenylalanyl_tRNA(phe)", "C03511", SP_0581 & SP_0579)
-charge_trna("R02918", l_tyrosine, "tRNA_tyr", "C00787", "L_tyrosyl_tRNA(tyr)", "C02839", SP_2100)
-charge_trna("R03664", l_tryptophan, "tRNA_trp", "C01652", "L_tryptophanyl_tRNA(trp)", "C03512", SP_2229)
-charge_trna("R03038", l_alanine, "tRNA_ala", "C01635", "L_alanyl_tRNA(ala)", "C00886", SP_1383)
-charge_trna("R03654", l_glycine, "tRNA_gly", "C01642", "L_glycyl_tRNA(gly)", "C02412", SP_1474 & SP_1475)
-charge_trna("R03663", l_threonine, "tRNA_thr", "C01651", "L_threonyl_tRNA(thr)", "C02992", SP_1631)
-charge_trna("R03662", l_serine, "tRNA_ser", "C01650", "L_seryl_tRNA(ser)", "C02553", SP_0411)
-charge_trna("R03659", l_methionine, "tRNA_met", "C01647", "L_methionyl_tRNA(met)", "C02430", SP_0788)
-charge_trna("R03650", l_cysteine, "tRNA_cys", "C01639", "L_cysteinyl_tRNA(cys)", "C03125", SP_0591)
-charge_trna("R03648", l_asparagine, "tRNA_asn", "C01637", "L_asparaginyl_tRNA(asn)", "C03402", SP_1542)
-charge_trna("R05578", l_glutamate, "tRNA_glu", "C01641", "L_glutamyl_tRNA(glu)", "C02987", SP_2069)
-charge_trna("R05577", l_aspartate, "tRNA_asp", "C01638", "L_aspartyl_tRNA(asp)", "C02984", SP_2114)
+charge_trna("R03665", l_valine, "tRNA_val", "C01653", l_valyl_tRNAval, SP_0568)
+charge_trna("R03657", l_leucine, "tRNA_leu", "C01645", l_leucyl_tRNAleu, SP_0254)
+charge_trna("R03656", l_isoleucine, "tRNA_ile", "C01644", l_isoleucyl_tRNAile, SP_1659)
+charge_trna("R03658", l_lysine, "tRNA_lys", "C01646", l_lysyl_tRNAlys, SP_0713)
+charge_trna("R03646", l_arginine, "tRNA_arg", "C01636", l_arginyl_tRNAarg, SP_2078)
+charge_trna("R03661", l_proline, "tRNA_pro", "C01649", l_prolyl_tRNApro, SP_0264)
+charge_trna("R03655", l_histidine, "tRNA_his", "C01643", l_histidyl_tRNAhis, SP_2121)
+charge_trna("R03660", l_phenylalanine, "tRNA_phe", "C01648", l_phenylalanyl_tRNAphe, SP_0581 & SP_0579)
+charge_trna("R02918", l_tyrosine, "tRNA_tyr", "C00787", l_tyrosyl_tRNAtyr, SP_2100)
+charge_trna("R03664", l_tryptophan, "tRNA_trp", "C01652", l_tryptophanyl_tRNAtrp, SP_2229)
+charge_trna("R03038", l_alanine, "tRNA_ala", "C01635", l_alanyl_tRNAala, SP_1383)
+charge_trna("R03654", l_glycine, "tRNA_gly", "C01642", l_glycyl_tRNAgly, SP_1474 & SP_1475)
+charge_trna("R03663", l_threonine, "tRNA_thr", "C01651", l_threonyl_tRNAthr, SP_1631)
+charge_trna("R03662", l_serine, "tRNA_ser", "C01650", l_seryl_tRNAser, SP_0411)
+charge_trna("R03659", l_methionine, "tRNA_met", "C01647", l_methionyl_tRNAmet, SP_0788)
+charge_trna("R03650", l_cysteine, "tRNA_cys", "C01639", l_cysteinyl_tRNAcys, SP_0591)
+charge_trna("R03648", l_asparagine, "tRNA_asn", "C01637", l_asparaginyl_tRNAasn, SP_1542)
+charge_trna("R05578", l_glutamate, "tRNA_glu", "C01641", l_glutamyl_tRNAglu, SP_2069)
+charge_trna("R05577", l_aspartate, "tRNA_asp", "C01638", l_aspartyl_tRNAasp, SP_2114)
 
 # L_glutamyl_tRNA from glutamate and tRNA_gln. get to L_glutaminyl_tRNA through SP_0436, SP_0437, SP_0438
 #charge_trna("R03651", l_glutamate, "tRNA_gln", "C01640", "L_glutamyl_tRNA(gln)", "C06112", SP_2069)
