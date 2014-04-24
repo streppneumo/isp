@@ -47,7 +47,7 @@ class Localizable(object):
     def localize(self, location=None):
         if location is None:
             location = self.default_location
-        return self.localized_constructor(location)
+        return self.localized_constructor(self, location)
 
 
 class Localized(Localizable):
