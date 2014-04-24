@@ -1,6 +1,7 @@
 
 from copy import deepcopy
 from pprint import pprint
+from warnings import warn
 
 
 class RegistryError(Exception):
@@ -9,6 +10,10 @@ class RegistryError(Exception):
 
     def __str__(self):
         return "Object {name} already exists in registry.".format(name=self.name)
+
+
+class RegistryWarning(Warning):
+    pass
 
 
 class Registry(object):
@@ -23,7 +28,8 @@ class Registry(object):
     def register(self, obj):
         key = repr(obj)
         if key in self.objects:
-            raise RegistryError(key)
+            #raise RegistryError(key)
+            warn(str(RegistryError(key)), RegistryWarning)
         else:
             self.objects[key] = obj
             self.annotations[key] = deepcopy(self.properties)
