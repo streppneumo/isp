@@ -21,6 +21,7 @@ If(zinc, ~SczA)
 # If(SP_1858, ~SP_1857)
 # If(zinc, ~SP_1858)
 
+manganese = Metabolite("manganese", kegg="C00034")
 manganese_rxn = Reaction(name="manganese_rxn",
                        reactants=e(manganese) + atp,
                        products=manganese + adp + phosphate,
@@ -28,7 +29,7 @@ manganese_rxn = Reaction(name="manganese_rxn",
 
 GeneAssociation(manganese_rxn, SP_1648 & SP_1649 & SP_1650)
 
-#PsaR = Gene("SP_1638")
+PsaR = Gene("SP_1638")
 #psaBCA  genes SP_1650, SP_1649, SP_1648
 #mntE = Gene(Sp_1552)   cation efflux system
 
