@@ -2,9 +2,10 @@
 from stoichiometry import Reactable
 from foundation import Primitive, Composite, Named
 from location import Localizable, Localized
+from logic import Logicable
 
 
-class Metabolite(Primitive, Reactable, Localizable):
+class Metabolite(Primitive, Reactable, Localizable, Logicable):
     default_location = None
     localized_constructor = None  # deferred to LocalizedMetabolite
 

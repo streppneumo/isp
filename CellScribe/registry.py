@@ -26,6 +26,20 @@ class Registry(object):
         self.properties.update(**kwargs)
 
     def register(self, obj):
+        # Proposal:  have register return self, and make all other arguments
+        # for Registered constructors optional.  This way, calls to
+        #
+        #       Registered("name", ...)
+        #
+        # create a new object in the registry, while calls
+        #
+        #       Registered("name")
+        #
+        # will return the previously registered object (with a warning).
+        #
+        # Optionally, we could not distinguish by arity, but instead always
+        # register on initial construction and return on subsequent ones.
+
         key = repr(obj)
         if key in self.objects:
             #raise RegistryError(key)
