@@ -28,13 +28,12 @@ manganese_rxn = Reaction(name="manganese_rxn",
 GeneAssociation(manganese_rxn, SP_1648 & SP_1649 & SP_1650)
 
 PsaR = Gene("SP_1638")
-# psaBCA genes SP_1650 & SP_1649 & SP_1648
-#mntE = Gene(Sp_1552)   cation efflux system
+psaBCA = Gene("SP_1650")
+psaBCA = Gene("SP_1649")
+psaBCA = Gene("SP_1648")
 
 
 If(PsaR & (zinc | manganese), ~psaBCA)
-# NOT GOING THROUGH WHY
-# if there is manganese, it will bind to PsaR, which will repress transcription of psaBCA
 
-
+#mntE = Gene(Sp_1552)   cation efflux system
 
