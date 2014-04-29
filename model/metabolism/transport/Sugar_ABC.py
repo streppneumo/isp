@@ -3,6 +3,7 @@ from model.compartments import e
 from model.metabolites import *
 from model.genes import SP_1386, SP_1387, SP_1388, SP_1389, SP_1386, SP_1387, SP_1388, SP_1389, SP_1580
 
+spermidine = Metabolite("spermidine", kegg="C00315")
 spermidine_rxn = Reaction(name="spermidine_rxn",
                           reactants=e(spermidine) + h2o + atp,
                           products=spermidine + adp + phosphate,
@@ -12,7 +13,7 @@ spermidine_rxn = Reaction(name="spermidine_rxn",
 GeneAssociation(spermidine_rxn, SP_1386 & SP_1387 & SP_1388 & SP_1389)
 
 
-
+putrescine = Metabolite("putriscine", kegg="C00134")
 putrescine_rxn = Reaction(name="putrescine_rxn",
                           reactants=e(putrescine) + h2o + atp,
                           products=glucose + adp + phosphate)

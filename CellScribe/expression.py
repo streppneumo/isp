@@ -27,8 +27,9 @@ class Protein(Primitive, Reactable, Logicable):
         self.fields = kwargs
 
 
-class Complex(Composite, Reactable, Logicable):
-    def __init__(self, subunits, **kwargs):
+class Complex(Composite, Named, Reactable, Logicable):
+    def __init__(self, name, subunits, **kwargs):
+        Named.__init__(self, name)
         self.subunits = subunits
         self.fields = kwargs
 

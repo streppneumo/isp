@@ -10,6 +10,12 @@ from model.genes import SP_2023, SP_2024, SP_0474, SP_0478, SP_0476, SP_1185, SP
 
 from model.compartments import *
 
+from model.operons import PTSOperon1, PTSOperon2, PTSOperon3, PTSOperon4, PTSOperon5, PTSOperon6, PTSOperon7
+from model.operons import PTSOperon8, PTSOperon9, PTSOperon10, PTSOperon11, PTSOperon12, PTSOperon13, PTSOperon14
+from model.operons import PTSOperon15, PTSOperon16,
+
+#operons need to be verified
+
 
 phosphoenol_pyruvate = Metabolite ("PEP", kegg="C00074")
 pyruvate = Metabolite ("pyruvate", kegg="C00022")
