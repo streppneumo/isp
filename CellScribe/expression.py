@@ -38,7 +38,7 @@ class Complex(Composite, Named, Reactable, Logicable):
         return self.subunits
 
 
-class Operon(Composite, Named):
+class Operon(Composite, Named, Logicable):
     def __init__(self, name, genes, **kwargs):
         Named.__init__(self, name)
         self.genes = genes
