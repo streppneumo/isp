@@ -30,9 +30,9 @@ Undecaprenyl_diphospho_N_acetylmuramoyl_L_alanyl_gamma_D_glutamyl_L_lysyl_D_alan
 Undecaprenyl_diphospho_N_acetylmuramoyl_N_acetylglucosamine_L_alanyl_gamma_D_glutamyl_L_lysyl_D_alanyl_D_alanine = Metabolite("Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-gamma-D_glutamyl-L-lysyl-D-alanyl-D-alanine", kegg="C05893")
 Undecaprenyl_diphospho_N_acetylmuramoyl_N_acetylglucosamine_L_alanyl_gamma_D_glutamyl_L_lysyl_L_alanyl_D_alanyl_D_alanine = Metabolite("Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-gamma-D-glutamyl-L-lysyl-L-alanyl-D-alanyl-D-alanine", kegg="C17550")
 peptidoglycan = Metabolite("Undecaprenyl-diphospho-N-acetylmuramoyl-(N_acetylglucosamine)-L-alanyl-gamma-D-glutamyl-L_lysyl-(L_alanyl)2-D-alanyl-D-alanine", kegg="C17549")
-di_peptidoglycan = Metabolite("[(2*(GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-(L-Ala)2-D-Ala-D-Ala))-diphosphoundecaprenol]")
-cleaved_dipeptidoglycan = Metabolite("(GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-(L-Ala)2-D-Ala-D-Ala)-((GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-(L-Ala)2-D-Ala)-diphosphoundecaprenol")
-bridged_peptidoglycan = Metabolite("[(GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-(L-Ala)2-D-Ala-D-Ala)-((GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-(L-Ala)2-D-Ala)-diphosphoundecaprenol)-((GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-(L-Ala)2-D-Ala-D-Ala)-diphosphoundecaprenol)]")
+di_peptidoglycan = Metabolite("[(2*((GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-(L-Ala)2-D-Ala-D-Ala))-diphosphoundecaprenol]")
+cleaved_dipeptidoglycan = Metabolite("[((GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-(L-Ala)2-D-Ala-D-Ala))-(((GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-(L-Ala)2-D-Ala))-diphosphoundecaprenol)]")
+bridged_peptidoglycan = Metabolite("[((GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-(L-Ala)2-D-Ala-D-Ala))-(((GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-(L-Ala)2-D-Ala))-diphosphoundecaprenol)-(((GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-(L-Ala)2-D-Ala-D-Ala))-diphosphoundecaprenol)]")
 
 D_glutamate = Metabolite("D-glutamate", kegg="C00217")
 D_alanyl_D_alanine = Metabolite("D-alanyl-D-alanine", kegg="C00993")
