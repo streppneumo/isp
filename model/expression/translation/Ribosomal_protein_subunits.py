@@ -37,4 +37,4 @@ L16_complex = Complex("L16_complex", Gene("SP_0225") & Gene("SP_1355") & Gene("S
 r_5S_rrna = Complex("r_5S_rrna", Gene("SP_0221") & Gene("SP_0229") & Gene("SP_0226") & ((Gene("SP_0212") & Gene("SP_0209")) | (Gene("SP_0212") & Gene("SP_0210"))) \
     & (Gene("SP_rrnaA5S") | Gene("SP_rrnaB5S") | Gene("SP_rrnaC5S") | Gene("SP_rrnaD5S")))
 r_23S_rrna = Complex("r_23S_rrna", Gene("SP_0220") & Gene("SP_0961") & Gene("SP_0210") & Gene("SP_0211") & Gene("SP_0209") \
-    & Gene("SP_2204") & Gene("SP_0631") & Gene("SP_0212") & Gene("SP_rrnaA23S"))
+    & Gene("SP_2204") & Gene("SP_0631") & Gene("SP_0212") & (Gene("SP_rrnaA23S") | Gene("SP_rrnaB23S") | Gene("SP_rrnaC23S") | Gene("SP_rrnaD23S")))
