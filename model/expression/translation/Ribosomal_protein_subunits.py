@@ -17,8 +17,7 @@ S14_complex = Complex("S14_complex", Gene("SP_0208") & Gene("SP_0295") & Gene("S
 S3_complex = Complex("S3_complex", Gene("SP_0227") & Gene("SP_0208") & Gene("SP_0215"))
 S2_complex = Complex("S2_complex", Gene("SP_0215") & Gene("SP_2215"))
 r_16S_rrna = Complex("r_16S_rrna", Gene("SP_0218") & Gene("SP_0838") & Gene("SP_0085") & Gene("SP_0224") & Gene("SP_1626") & Gene("SP_0272") \
-                & Gene("SP_rrnaA16S"))
-
+                & (Gene("SP_rrnaA16S") | Gene("SP_rrnaB16S") | Gene("SP_rrnaC16S") | Gene("SP_rrnaD16S"))
 
 L13_complex = Complex("L13_complex", Gene("SP_0961") & Gene("SP_0294"))
 L2_complex = Complex("L2_complex", Gene("SP_0210") & Gene("SP_0212"))
