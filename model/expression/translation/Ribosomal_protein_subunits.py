@@ -1,7 +1,7 @@
 #Ribosomal protein and RNA subunits
 
 from CellScribe import *
-from model.operons import rRNA_and_tRNA
+from model.operons import rRNA_A, rRNA_B, rRNA_C, rRNA_D
 
 S16_complex = Complex("S16_complex", Gene("SP_0838") & Gene("SP_0085") & Gene("SP_0775"))
 S9_complex = Complex("S9_complex", Gene("SP_0272") & Gene("SP_0295"))
