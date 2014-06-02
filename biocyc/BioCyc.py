@@ -62,6 +62,20 @@ def load_reactions_dat(filename):
 if __name__ == '__main__':
     #pprint([x.__dict__ for x in load_genes_dat("spne170187cyc/genes.dat")[0:3]])
     #pprint([x.__dict__ for x in load_compounds_dat("spne170187cyc/compounds.dat")[0:3]])
-    rxns = load_reactions_dat("spne170187cyc/reactions.dat")
-    pprint([x.__dict__ for x in rxns[0:3]])
-    print rxns[2].right[1].attributes['COEFFICIENT'].value
+    #rxns = load_reactions_dat("spne170187cyc/reactions.dat")
+    #pprint([x.__dict__ for x in rxns[0:3]])
+    #print rxns[2].right[1].attributes['COEFFICIENT'].value
+    common = dict()
+    genes = load_genes_dat("spne170187cyc/genes.dat")
+    for gene in genes:
+        if "accession_1" in gene.__dict__:
+            common[gene.common_name.value] = gene.accession_1.value
+        else:
+            common[gene.common_name.value] = gene.common_name.value
+    with open("names.txt") as f:
+        with open("equiv.txt", "w") as out:
+            for line in f.readlines():
+                out.write(common[line.rstrip()] + "\n")
+                #f.write(gene.common_name.value + "\t" + gene.accession_1.value + "\n")
+
+
