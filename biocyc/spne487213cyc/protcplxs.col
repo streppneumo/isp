@@ -1,0 +1,37 @@
+# Copyright © 2013, SRI International. All rights reserved.
+#
+# Authors:
+#    Pallavi Subhraveti
+#    Quang Ong
+#    Tomer Altman
+#    Ron Caspi
+#    Ingrid Keseler
+#    Peter D Karp
+#
+# Please see the license agreement regarding the use of and distribution of this file.
+# The format of this file is defined at http://bioinformatics.ai.sri.com/ptools/flatfile-format.html .
+#
+# Species: Streptococcus pneumoniae Taiwan19F-14
+# Database: SPNE487213cyc
+# Version: 17.0
+# File Name: protcplxs.col
+# Date and time generated: September 25, 2013, 15:51:44
+#
+#		1	2	3	1	2	3
+UNIQUE-ID	NAME	GENE-NAME	GENE-NAME	GENE-NAME	GENE-ID	GENE-ID	GENE-ID	SUBUNIT-COMPOSITION
+CPLXI07-3	predicted ABC transporter of CO+2	SPT_0736	SPT_0735		GI07-725	GI07-724		1*GI07-725-MONOMER,1*GI07-724-MONOMER
+CPLXI07-4	predicted ABC transporter of phosphate	pstA2	pstC2		GI07-2042	GI07-2041		1*GI07-2042-MONOMER,1*GI07-2041-MONOMER
+CPLXI07-5	predicted ABC transporter of phosphate	pstA1	pstC1		GI07-856	GI07-855		1*GI07-856-MONOMER,1*GI07-855-MONOMER
+CPLXI07-6	predicted ABC transporter of spermidine/putrescine	SPT_0888	SPT_0887		GI07-867	GI07-866		1*GI07-867-MONOMER,1*GI07-866-MONOMER
+CPLXI07-7	predicted transporter of a sugar/CPD0-2342	SPT_0373	SPT_0370		GI07-368	GI07-365		1*GI07-368-MONOMER,1*GI07-365-MONOMER
+CPLXI07-8	predicted ABC transporter of D-ribose/beta-D-galactose	SPT_1356	SPT_1355		GI07-1321	GI07-1320		1*GI07-1321-MONOMER,1*GI07-1320-MONOMER
+CPLXI07-9	predicted ABC transporter of L-glutamine	SPT_0634	SPT_0633		GI07-626	GI07-625		1*GI07-626-MONOMER,1*GI07-625-MONOMER
+CPLXI07-10	predicted ABC transporter of L-glutamine	SPT_0727	SPT_0726		GI07-716	GI07-715		1*GI07-716-MONOMER,1*GI07-715-MONOMER
+CPLXI07-11	predicted ATP-driven transporter of MN+2	SPT_1590	SPT_1588		GI07-1551	GI07-1549		1*GI07-1551-MONOMER,1*GI07-1549-MONOMER
+CPLXI07-12	predicted ABC transporter of NA+	SPT_1656	SPT_1655		GI07-1616	GI07-1615		1*GI07-1616-MONOMER,1*GI07-1615-MONOMER
+CPLXI07-13	predicted ABC transporter of choline	SPT_1779	SPT_1778		GI07-1735	GI07-1734		1*GI07-1735-MONOMER,1*GI07-1734-MONOMER
+CPLXI07-14	predicted ATP-driven transporter of an oligopeptide	SPT_1810	SPT_1809		GI07-1761	GI07-1760		1*GI07-1761-MONOMER,1*GI07-1760-MONOMER
+CPLXI07-15	predicted ABC transporter of a sugar	SPT_1620	SPT_1619		GI07-1581	GI07-1580		1*GI07-1581-MONOMER,1*GI07-1580-MONOMER
+CPLXI07-16	predicted ABC transporter of a sugar	SPT_1819	SPT_1818	SPT_1817	GI07-1770	GI07-1769	GI07-1768	1*GI07-1770-MONOMER,1*GI07-1769-MONOMER,1*GI07-1768-MONOMER
+CPLXI07-1	predicted ABC transporter of ZN+2	SPT_2184	SPT_2183		GI07-2129	GI07-2128		1*GI07-2129-MONOMER,1*GI07-2128-MONOMER
+CPLXI07-2	predicted ATP-driven transporter of CO+2	cbiO	cbiO		GI07-2183	GI07-2182		1*GI07-2183-MONOMER,1*GI07-2182-MONOMER

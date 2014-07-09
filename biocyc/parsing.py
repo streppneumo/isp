@@ -153,4 +153,4 @@ def load_dat_file(filename):
 
 
 if __name__ == '__main__':
-    pprint(load_file('spne170187cyc/reactions.dat')[0:4])
+    pprint(load_dat_file('spne170187cyc/reactions.dat')[0:4])

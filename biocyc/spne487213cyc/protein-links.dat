@@ -1,0 +1,2064 @@
+GI07-1086-MONOMER	GI07-1086	C1CRH6	RNA polymerase sigma factor RpoD	
+CPLXI07-3			predicted ABC transporter of CO+2	
+CPLXI07-4			predicted ABC transporter of phosphate	
+CPLXI07-5			predicted ABC transporter of phosphate	
+CPLXI07-6			predicted ABC transporter of spermidine/putrescine	
+CPLXI07-7			predicted transporter of a sugar/CPD0-2342	
+CPLXI07-8			predicted ABC transporter of D-ribose/beta-D-galactose	
+CPLXI07-9			predicted ABC transporter of L-glutamine	
+CPLXI07-10			predicted ABC transporter of L-glutamine	
+CPLXI07-11			predicted ATP-driven transporter of MN+2	
+CPLXI07-12			predicted ABC transporter of NA+	
+CPLXI07-13			predicted ABC transporter of choline	
+CPLXI07-14			predicted ATP-driven transporter of an oligopeptide	
+CPLXI07-15			predicted ABC transporter of a sugar	
+CPLXI07-16			predicted ABC transporter of a sugar	
+CPLXI07-1			predicted ABC transporter of ZN+2	
+CPLXI07-2			predicted ATP-driven transporter of CO+2	
+GI07-1894-MONOMER	GI07-1894	C1CTM3	phosphopantetheine adenylyltransferase	CoaD
+GI07-1765-MONOMER	GI07-1765	C1CTC1	O-antigen polymerase family	
+GI07-544-MONOMER	GI07-544	C1CQ18	molecular chaperone DnaK	DnaK
+GI07-1099-MONOMER	GI07-1099	C1CRI6	cytosolic protein containing multiple CBS domains	
+GI07-629-MONOMER	GI07-629	C1CQ96	single-stranded-DNA-specific exonuclease RecJ	RecJ
+GI07-2033-MONOMER	GI07-2033	C1CTY2	DNA mismatch repair protein MutS	MutS
+GI07-1893-MONOMER	GI07-1893	C1CTM2	ATP-dependent protease La	
+GI07-1764-MONOMER	GI07-1764	C1CTC0	AmiA protein	
+GI07-30-MONOMER	GI07-30	C1CNM9	LIM domain protein	
+GI07-995-MONOMER	GI07-995	C1CR93	geranyltranstransferase	Farnesyl-diphosphate synthase, (FPP synthase)
+GI07-1098-MONOMER	GI07-1098	C1CRI5	acetyltransferase, gnat family protein	
+GI07-543-MONOMER	GI07-543	C1CQ17	heat shock protein GrpE	GrpE
+GI07-1892-MONOMER	GI07-1892	C1CTM1	orf	
+GI07-281-MONOMER	GI07-281	C1CPB6	orf	
+GI07-628-MONOMER	GI07-628	C1CQ95	ATP-binding protein	
+GI07-1763-MONOMER	GI07-1763	C1CTB9	oligopeptide transport system permease protein AmiC	
+GI07-2032-MONOMER	GI07-2032	C1CTY1	ABC transporter ATP-binding protein/permease	
+GI07-238-MONOMER	GI07-238	C1CP73	lipoprotein, putative	
+GI07-1891-MONOMER	GI07-1891	C1CTM0	UDP-N-acetylglucosamine 1-carboxyvinyltransferase	MurA
+GI07-542-MONOMER	GI07-542	C1CQ16	heat-inducible transcription repressor	HrcA
+GI07-1097-MONOMER	GI07-1097	C1CRI4	UDP-N-acetylglucosamine 1-carboxyvinyltransferase	
+GI07-1762-MONOMER	GI07-1762	C1CTB8	oligopeptide transport system permease protein AmiD	
+GI07-994-MONOMER	GI07-994	C1CR92	exodeoxyribonuclease VII small subunit	
+GI07-627-MONOMER	GI07-627	C1CQ94	ABC transporter substrate-binding protein -	
+GI07-1890-MONOMER	GI07-1890	C1CTL9	orf	
+GI07-2031-MONOMER	GI07-2031	C1CTY0	transposase	
+GI07-1093-MONOMER	GI07-1093	C1CRI3	orf	
+GI07-1761-MONOMER	GI07-1761	C1CTB7	oligopeptide transport ATP-binding protein OppD	
+GI07-541-MONOMER	GI07-541	C1CQ15	orf	
+GI07-29-MONOMER	GI07-29	C1CNM8	cI repressor	
+GI07-280-MONOMER	GI07-280	C1CPB5	50S ribosomal protein L17	RplQ
+GI07-993-MONOMER	GI07-993	C1CR91	exodeoxyribonuclease VII large subunit	XseA
+GI07-1889-MONOMER	GI07-1889	C1CTL8	DNA-entry nuclease	Competence-specific nuclease
+GI07-626-MONOMER	GI07-626	C1CQ93	glutamine ABC transporter permease	
+GI07-1092-MONOMER	GI07-1092	C1CRI2	GTPase ObgE	ObgE
+GI07-1760-MONOMER	GI07-1760	C1CTB6	oligopeptide transport ATP-binding protein AmiF	
+GI07-2030-MONOMER	GI07-2030	C1CTX9	ABC transporter ATP-binding protein/permease	
+GI07-540-MONOMER	GI07-540	C1CQ14	orf	
+GI07-237-MONOMER	GI07-237	C1CP72	transcriptional regulator Spx	SpxA
+GI07-992-MONOMER	GI07-992	C1CR90	uridine kinase	Udk
+GI07-1888-MONOMER	GI07-1888	C1CTL7	CBS domain protein	
+GI07-1091-MONOMER	GI07-1091	C1CRI1	orf	
+GI07-1758-MONOMER	GI07-1758	C1CTB5	trehalose operon repressor	TreR
+GI07-625-MONOMER	GI07-625	C1CQ92	glutamine ABC transporter permease	
+GI07-2029-MONOMER	GI07-2029	C1CTX8	glutamine amidotransferase	
+GI07-991-MONOMER	GI07-991	C1CR89	orf	
+GI07-539-MONOMER	GI07-539	C1CQ13	type I restriction-modification system, R subunit	
+GI07-279-MONOMER	GI07-279	C1CPB4	DNA-directed RNA polymerase subunit alpha	RpoA
+GI07-1090-MONOMER	GI07-1090	C1CRI0	orf	
+GI07-1757-MONOMER	GI07-1757	C1CTB4	pts system, trehalose-specific iibc component	TreP
+GI07-28-MONOMER	GI07-28	C1CNM7	transcription regulator	
+GI07-1887-MONOMER	GI07-1887	C1CTL6	orf	
+GI07-2028-MONOMER	GI07-2028	C1CTX7	orf	
+GI07-990-MONOMER	GI07-990	C1CR88	tRNA pseudouridine synthase B	TruB
+GI07-624-MONOMER	GI07-624	C1CQ91	oxidoreductase, NAD-binding	
+GI07-1089-MONOMER	GI07-1089	C1CRH9	glycosyl transferase, group 1	
+GI07-1756-MONOMER	GI07-1756	C1CTB3	trehalose-6-phosphate hydrolase	
+GI07-538-MONOMER	GI07-538	C1CQ12	type I restriction enzyme	
+GI07-1885-MONOMER	GI07-1885	C1CTL5	orf	
+GI07-236-MONOMER	GI07-236	C1CP71	Xaa-Pro dipeptidase	
+GI07-2027-MONOMER	GI07-2027	C1CTX6	glucose-6-phosphate isomerase	Pgi
+GI07-278-MONOMER	GI07-278	C1CPB3	30S ribosomal protein S11	RpsK
+GI07-989-MONOMER	GI07-989	C1CR87	orf	
+GI07-1755-MONOMER	GI07-1755	C1CTB2	orf	
+GI07-623-MONOMER	GI07-623	C1CQ90	fructose-bisphosphate aldolase	
+GI07-1884-MONOMER	GI07-1884	C1CTL4	DNA-directed RNA polymerase subunit beta	RpoB
+GI07-1088-MONOMER	GI07-1088	C1CRH8	glycosyl transferase CpoA	
+GI07-2026-MONOMER	GI07-2026	C1CTX5	glutamyl-tRNA synthetase	GltX
+GI07-987-MONOMER	GI07-987	C1CR86	formate-nitrate transporter	
+GI07-537-MONOMER	GI07-537	C1CQ11	type I site-specific deoxyribonuclease chain S	
+GI07-1754-MONOMER	GI07-1754	C1CTB1	glutamate racemase	MurI
+GI07-2025-MONOMER	GI07-2025	C1CTX4	cytidine/deoxycytidylate deaminase family protein	
+GI07-1087-MONOMER	GI07-1087	C1CRH7	N-6 Adenine-specific DNA methylase YitW	
+GI07-277-MONOMER	GI07-277	C1CPB2	ribosomal protein S13p/S18e, unverified frameshift	
+GI07-1883-MONOMER	GI07-1883	C1CTL3	DNA-directed RNA polymerase subunit beta	RpoC
+GI07-622-MONOMER	GI07-622	C1CQ89	VncS, histidine kinase	
+GI07-986-MONOMER	GI07-986	C1CR85	sortase	
+GI07-27-MONOMER	GI07-27	C1CNM6	Spn1 transposase	
+GI07-2008-MONOMER	GI07-2008	C1CTX3	orf	
+GI07-1753-MONOMER	GI07-1753	C1CTB0	deoxyribonucleotide triphosphate pyrophosphatase/hypothetical protein	
+GI07-1882-MONOMER	GI07-1882	C1CTL2	nucleoside diphosphate kinase	Ndk
+GI07-536-MONOMER	GI07-536	C1CQ10	type I restriction enzyme specificity protein	
+GI07-235-MONOMER	GI07-235	C1CP70	excinuclease ABC subunit A	UvrA
+GI07-2007-MONOMER	GI07-2007	C1CTX2	threonine synthase	ThrC
+GI07-276-MONOMER	GI07-276	C1CPB1	50S ribosomal protein L36	RpmJ
+GI07-985-MONOMER	GI07-985	C1CR84	DNA gyrase subunit A	GyrA
+GI07-1085-MONOMER	GI07-1085	C1CRH5	DNA primase	DnaG
+GI07-1752-MONOMER	GI07-1752	C1CTA9	phosphodiesterase, family	
+GI07-2006-MONOMER	GI07-2006	C1CTX1	multi antimicrobial extrusion	
+GI07-1881-MONOMER	GI07-1881	C1CTL1	orf	
+GI07-621-MONOMER	GI07-621	C1CQ88	VncR, response regulator	
+GI07-1084-MONOMER	GI07-1084	C1CRH4	ABC transporter ATP-binding protein	
+GI07-1751-MONOMER	GI07-1751	C1CTA8	CBS domain protein	
+GI07-535-MONOMER	GI07-535	C1CQ09	orf	
+GI07-2005-MONOMER	GI07-2005	C1CTX0	HAD-superfamily hydrolase, subfamily IA, variant 1	
+GI07-1880-MONOMER	GI07-1880	C1CTL0	antimicrobial peptide ABC transporter ATPase	
+GI07-984-MONOMER	GI07-984	C1CR83	L-lactate dehydrogenase	Ldh
+GI07-275-MONOMER	GI07-275	C1CPB0	translation initiation factor IF-1	InfA
+GI07-234-MONOMER	GI07-234	C1CP69	phage protein	
+GI07-26-MONOMER	GI07-26	C1CNM5	orf	
+GI07-1750-MONOMER	GI07-1750	C1CTA7	site-specific tyrosine recombinase XerD-like protein	XerD
+GI07-2004-MONOMER	GI07-2004	C1CTW9	LysM domain-containing protein	
+GI07-1879-MONOMER	GI07-1879	C1CTK9	bacteriocin-associated integral membrane protein	
+GI07-1083-MONOMER	GI07-1083	C1CRH3	ABC transporter	
+GI07-620-MONOMER	GI07-620	C1CQ87	peptide ABC transporter permease	
+GI07-983-MONOMER	GI07-983	C1CR82	Spn1 transposase	
+GI07-534-MONOMER	GI07-534	C1CQ08	orf	
+GI07-1749-MONOMER	GI07-1749	C1CTA6	segregation and condensation protein A	ScpA
+GI07-2003-MONOMER	GI07-2003	C1CTW8	transcriptional regulator, MarR family	
+GI07-1878-MONOMER	GI07-1878	C1CTK8	orf	
+GI07-1082-MONOMER	GI07-1082	C1CRH2	ABC transporter substrate-binding protein	
+GI07-619-MONOMER	GI07-619	C1CQ86	peptide ABC transporter ATP-binding protein	
+GI07-982-MONOMER	GI07-982	C1CR81	potassium/ion channel protein	
+GI07-1748-MONOMER	GI07-1748	C1CTA5	segregation and condensation protein B	ScpB
+GI07-274-MONOMER	GI07-274	C1CPA9	adenylate kinase	Adk
+GI07-233-MONOMER	GI07-233	C1CP68	phage protein	
+GI07-1877-MONOMER	GI07-1877	C1CTK7	transposase	
+GI07-1081-MONOMER	GI07-1081	C1CRH1	phosphoenolpyruvate carboxylase	Ppc
+GI07-25-MONOMER	GI07-25	C1CNM4	orf	
+GI07-533-MONOMER	GI07-533	C1CQ07	glutamine synthetase, type I	GlnA
+GI07-2002-MONOMER	GI07-2002	C1CTW7	orf	
+GI07-981-MONOMER	GI07-981	C1CR80	cytotoxic translational repressor of toxin-antitoxin stability system	
+GI07-1747-MONOMER	GI07-1747	C1CTA4	ribosomal large subunit pseudouridine synthase B	RluB
+GI07-618-MONOMER	GI07-618	C1CQ85	peptide ABC transporter permease	
+GI07-1876-MONOMER	GI07-1876	C1CTK6	orf	
+GI07-1080-MONOMER	GI07-1080	C1CRH0	cell division protein FtsW	
+GI07-2001-MONOMER	GI07-2001	C1CTW6	pyrrolidone-carboxylate peptidase	
+GI07-980-MONOMER	GI07-980	C1CR79	orf	
+GI07-532-MONOMER	GI07-532	C1CQ06	HTH-type transcriptional regulator GlnR	
+GI07-1875-MONOMER	GI07-1875	C1CTK5	sigma-70, region 4 family	
+GI07-24-MONOMER	GI07-24	C1CNM3	orf	
+GI07-616-MONOMER	GI07-616	C1CQ84	orf	
+GI07-1746-MONOMER	GI07-1746	C1CTA3	orf	
+GI07-273-MONOMER	GI07-273	C1CPA8	preprotein translocase subunit SecY	SecY
+GI07-232-MONOMER	GI07-232	C1CP67	phage protein	
+GI07-2000-MONOMER	GI07-2000	C1CTW5	orf	
+GI07-979-MONOMER	GI07-979	C1CR78	VicX protein	
+GI07-1874-MONOMER	GI07-1874	C1CTK4	transcriptional regulator, putative	
+GI07-1079-MONOMER	GI07-1079	C1CRG9	transposase	
+GI07-1745-MONOMER	GI07-1745	C1CTA2	iron-compound ABC transporter, iron-compound-binding protein	
+GI07-1999-MONOMER	GI07-1999	C1CTW4	queuine tRNA-ribosyltransferase	Tgt
+GI07-531-MONOMER	GI07-531	C1CQ05	orf	
+GI07-615-MONOMER	GI07-615	C1CQ83	orf	
+GI07-978-MONOMER	GI07-978	C1CR77	sensor protein YycG	
+GI07-23-MONOMER	GI07-23	C1CNM2	orf	
+GI07-1873-MONOMER	GI07-1873	C1CTK3	orf	
+GI07-1077-MONOMER	GI07-1077	C1CRG8	hypothetical ABC transporter ATP-binding protein	
+GI07-1744-MONOMER	GI07-1744	C1CTA1	ferrichrome transport ATP-binding protein FhuC	
+GI07-1998-MONOMER	GI07-1998	C1CTW3	acyltransferase	
+GI07-272-MONOMER	GI07-272	C1CPA7	50S ribosomal protein L15	RplO
+GI07-977-MONOMER	GI07-977	C1CR76	alkaline phosphatase synthesis transcriptional regulatory proteinphoP	
+GI07-614-MONOMER	GI07-614	C1CQ82	orf	
+GI07-231-MONOMER	GI07-231	C1CP66	orf	
+GI07-1872-MONOMER	GI07-1872	C1CTK2	macrolide-efflux protein	
+GI07-1076-MONOMER	GI07-1076	C1CRG7	orf	
+GI07-530-MONOMER	GI07-530	C1CQ04	phosphoglycerate kinase	Pgk
+GI07-1743-MONOMER	GI07-1743	C1CTA0	iron-compound ABC transporter, permease protein	
+GI07-1997-MONOMER	GI07-1997	C1CTW2	N-acetylglucosamine-6-phosphate deacetylase	NagA
+GI07-976-MONOMER	GI07-976	C1CR75	A/G-specific adenine glycosylase	MutY
+GI07-22-MONOMER	GI07-22	C1CNM1	orf	
+GI07-1871-MONOMER	GI07-1871	C1CTK1	Mel protein	
+GI07-613-MONOMER	GI07-613	C1CQ81	leucine-rich protein	
+GI07-1742-MONOMER	GI07-1742	C1CT99	Fe3+ ABC transporter permease	
+GI07-1075-MONOMER	GI07-1075	C1CRG6	aminoglycoside 6'-N-acetyltransferase	
+GI07-1996-MONOMER	GI07-1996	C1CTW1	alcohol dehydrogenase, zinc-containing	
+GI07-529-MONOMER	GI07-529	C1CQ03	endo-beta-N-acetylglucosaminidase D	
+GI07-1870-MONOMER	GI07-1870	C1CTK0	orf	
+GI07-612-MONOMER	GI07-612	C1CQ80	ribonuclease III family protein	
+GI07-271-MONOMER	GI07-271	C1CPA6	50S ribosomal protein L30	RpmD
+GI07-1741-MONOMER	GI07-1741	C1CT98	orf	
+GI07-975-MONOMER	GI07-975	C1CR74	formate--tetrahydrofolate ligase	Fhs
+GI07-230-MONOMER	GI07-230	C1CP65	prophage Sa05, DNA primase, P4 family	
+GI07-1074-MONOMER	GI07-1074	C1CRG5	orf	
+GI07-1869-MONOMER	GI07-1869	C1CTJ9	orf	
+GI07-21-MONOMER	GI07-21	C1CNM0	orf	
+GI07-1995-MONOMER	GI07-1995	C1CTW0	orf	
+GI07-1739-MONOMER	GI07-1739	C1CT97	glutamyl aminopeptidase	PepA
+GI07-974-MONOMER	GI07-974	C1CR73	phosphopantothenate--cysteine ligase	CoaB
+GI07-528-MONOMER	GI07-528	C1CQ02	sodium-dependent phosphate transporter	
+GI07-1072-MONOMER	GI07-1072	C1CRG4	orf	
+GI07-1868-MONOMER	GI07-1868	C1CTJ8	orf	
+GI07-611-MONOMER	GI07-611	C1CQ79	cysteinyl-tRNA synthetase	CysS
+GI07-1738-MONOMER	GI07-1738	C1CT96	orf	
+GI07-1994-MONOMER	GI07-1994	C1CTV9	putative ABC transporter subunit ComYA	
+GI07-1071-MONOMER	GI07-1071	C1CRG3	ADP-ribosylglycohydrolase superfamily	
+GI07-270-MONOMER	GI07-270	C1CPA5	30S ribosomal protein S5	RpsE
+GI07-973-MONOMER	GI07-973	C1CR72	phosphopantothenoylcysteine decarboxylase	CoaC
+GI07-229-MONOMER	GI07-229	C1CP64	phage protein	
+GI07-20-MONOMER	GI07-20	C1CNL9	orf	
+GI07-1866-MONOMER	GI07-1866	C1CTJ7	tetracycline resistance protein	
+GI07-527-MONOMER	GI07-527	C1CQ01	CTP synthetase	PyrG
+GI07-1993-MONOMER	GI07-1993	C1CTV8	competence protein CglB	
+GI07-1737-MONOMER	GI07-1737	C1CT95	transcriptional regulator, MarR family	
+GI07-1070-MONOMER	GI07-1070	C1CRG2	orf	
+GI07-610-MONOMER	GI07-610	C1CQ78	acetyltransferase, gnat family	
+GI07-972-MONOMER	GI07-972	C1CR71	integral membrane protein	
+GI07-1992-MONOMER	GI07-1992	C1CTV7	competence protein	
+GI07-1865-MONOMER	GI07-1865	C1CTJ6	tetracycline resistance determinant leader peptide	
+GI07-971-MONOMER	GI07-971	C1CR70	orf	
+GI07-526-MONOMER	GI07-526	C1CQ00	DNA-directed RNA polymerase subunit delta	RpoE
+GI07-1069-MONOMER	GI07-1069	C1CRG1	orf	
+GI07-609-MONOMER	GI07-609	C1CQ77	serine O-acetyltransferase	CysE
+GI07-1736-MONOMER	GI07-1736	C1CT94	orf	
+GI07-269-MONOMER	GI07-269	C1CPA4	50S ribosomal protein L18	RplR
+GI07-1991-MONOMER	GI07-1991	C1CTV6	competence protein CglD	
+GI07-228-MONOMER	GI07-228	C1CP63	phage protein	
+GI07-19-MONOMER	GI07-19	C1CNL8	orf	
+GI07-1864-MONOMER	GI07-1864	C1CTJ5	conjugative transposon protein	
+GI07-970-MONOMER	GI07-970	C1CR69	transcriptional regulator, biotin repressor family	
+GI07-1990-MONOMER	GI07-1990	C1CTV5	orf	
+GI07-1735-MONOMER	GI07-1735	C1CT93	choline transport ATP-binding protein opuBA	
+GI07-1068-MONOMER	GI07-1068	C1CRG0	orf	
+GI07-608-MONOMER	GI07-608	C1CQ76	polynucleotide phosphorylase/polyadenylase	
+GI07-525-MONOMER	GI07-525	C1CPZ9	orf	
+GI07-1863-MONOMER	GI07-1863	C1CTJ4	NLP/P60 family protein	
+GI07-969-MONOMER	GI07-969	C1CR68	NTP pyrophosphohydrolase including oxidative damage repair enzymes	
+GI07-1989-MONOMER	GI07-1989	C1CTV4	competence protein ComGF	
+GI07-1734-MONOMER	GI07-1734	C1CT92	choline ABC transporter permease	
+GI07-268-MONOMER	GI07-268	C1CPA3	50S ribosomal protein L6	RplF
+GI07-18-MONOMER	GI07-18	C1CNL7	orf	
+GI07-1066-MONOMER	GI07-1066	C1CRF9	orf	
+GI07-1862-MONOMER	GI07-1862	C1CTJ3	conjugative transposon membrane protein	
+GI07-968-MONOMER	GI07-968	C1CR67	acetyltransferase, gnat family	
+GI07-227-MONOMER	GI07-227	C1CP62	phage protein	
+GI07-1733-MONOMER	GI07-1733	C1CT91	orf	
+GI07-607-MONOMER	GI07-607	C1CQ75	5,10-methylenetetrahydrofolate reductase	MetF
+GI07-524-MONOMER	GI07-524	C1CPZ8	orf	
+GI07-1988-MONOMER	GI07-1988	C1CTV3	orf	
+GI07-1065-MONOMER	GI07-1065	C1CRF8	putative phage-associated protein	
+GI07-1861-MONOMER	GI07-1861	C1CTJ2	conjugative transposon protein	
+GI07-967-MONOMER	GI07-967	C1CR66	acetyltransferase, gnat family	
+GI07-1732-MONOMER	GI07-1732	C1CT90	nicotinamide mononucleotide transporter	
+GI07-1064-MONOMER	GI07-1064	C1CRF7	orf	
+GI07-17-MONOMER	GI07-17	C1CNL6	orf	
+GI07-1987-MONOMER	GI07-1987	C1CTV2	methyltransferase small domain superfamily	
+GI07-1860-MONOMER	GI07-1860	C1CTJ1	conjugative transposon membrane protein	
+GI07-966-MONOMER	GI07-966	C1CR65	excinuclease ABC subunit B	UvrB
+GI07-267-MONOMER	GI07-267	C1CPA2	30S ribosomal protein S8	RpsH
+GI07-1731-MONOMER	GI07-1731	C1CT89	TetR family transcriptional regulator	
+GI07-606-MONOMER	GI07-606	C1CQ74	5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase	MetE
+GI07-226-MONOMER	GI07-226	C1CP61	orf	
+GI07-1062-MONOMER	GI07-1062	C1CRF6	orf	
+GI07-1859-MONOMER	GI07-1859	C1CTJ0	conjugative transposon protein	
+GI07-965-MONOMER	GI07-965	C1CR64	caax amino protease family	
+GI07-523-MONOMER	GI07-523	C1CPZ7	PAP2 family protein	
+GI07-1986-MONOMER	GI07-1986	C1CTV1	adenine-specific DNA methylase	
+GI07-1730-MONOMER	GI07-1730	C1CT88	cation diffusion facilitator transporter -	
+GI07-1858-MONOMER	GI07-1858	C1CTI9	orf	
+GI07-1061-MONOMER	GI07-1061	C1CRF5	MobA/MobL family protein	
+GI07-605-MONOMER	GI07-605	C1CQ73	helix-turn-helix domain protein	
+GI07-964-MONOMER	GI07-964	C1CR63	amino acid ABC transporter permease/substrate-binding protein	
+GI07-1729-MONOMER	GI07-1729	C1CT87	transcriptional regulator, MerR family	
+GI07-266-MONOMER	GI07-266	C1CPA1	30S ribosomal protein S14	RpsN
+GI07-1985-MONOMER	GI07-1985	C1CTV0	acetate kinase	AckA
+GI07-16-MONOMER	GI07-16	C1CNL5	orf	
+GI07-1857-MONOMER	GI07-1857	C1CTI8	transcriptional regulator, Cro/CI family	
+GI07-225-MONOMER	GI07-225	C1CP60	orf	
+GI07-1060-MONOMER	GI07-1060	C1CRF4	orf	
+GI07-963-MONOMER	GI07-963	C1CR62	glutamine transport ATP-binding protein GlnQ	
+GI07-522-MONOMER	GI07-522	C1CPZ6	orf	
+GI07-1728-MONOMER	GI07-1728	C1CT86	alcohol dehydrogenase, zinc-containing	
+GI07-603-MONOMER	GI07-603	C1CQ72	endonuclease/exonuclease/phosphatase family	
+GI07-1984-MONOMER	GI07-1984	C1CTU9	orf	
+GI07-1856-MONOMER	GI07-1856	C1CTI7	ftsk/spoiiie family protein	
+GI07-1059-MONOMER	GI07-1059	C1CRF3	ferric enterobactin transport ATP-binding protein FepC	
+GI07-962-MONOMER	GI07-962	C1CR61	glucose-6-phosphate 1-dehydrogenase	Zwf
+GI07-1727-MONOMER	GI07-1727	C1CT85	GalR, member of GalR-LacI family of transcriptional regulators, binds DNA; regulator of gal operon	
+GI07-265-MONOMER	GI07-265	C1CPA0	50S ribosomal protein L5	RplE
+GI07-602-MONOMER	GI07-602	C1CQ71	phenylalanyl-tRNA synthetase subunit beta	PheT
+GI07-521-MONOMER	GI07-521	C1CPZ5	RNA methyltransferase, TrmH family, group 2	
+GI07-1855-MONOMER	GI07-1855	C1CTI6	conjugative transposon protein	
+GI07-1983-MONOMER	GI07-1983	C1CTU8	ribonuclease P	RnpA
+GI07-1726-MONOMER	GI07-1726	C1CT84	galactokinase	GalK
+GI07-961-MONOMER	GI07-961	C1CR60	cell division protein FtsY	
+GI07-15-MONOMER	GI07-15	C1CNL4	orf	
+GI07-1058-MONOMER	GI07-1058	C1CRF2	Fe3+ ABC transporter permease	
+GI07-224-MONOMER	GI07-224	C1CP59	orf	
+GI07-1854-MONOMER	GI07-1854	C1CTI5	conjugative transposon protein	
+GI07-601-MONOMER	GI07-601	C1CQ70	acetyltransferase, gnat family	
+GI07-1725-MONOMER	GI07-1725	C1CT83	galactose-1-phosphate uridylyltransferase	
+GI07-520-MONOMER	GI07-520	C1CPZ4	cobalt transport family protein	
+GI07-1057-MONOMER	GI07-1057	C1CRF1	iron-compound ABC transporter, permease protein	
+GI07-1982-MONOMER	GI07-1982	C1CTU7	membrane protein OxaA 1	
+GI07-1853-MONOMER	GI07-1853	C1CTI4	orf	
+GI07-264-MONOMER	GI07-264	C1CP99	50S ribosomal protein L24	RplX
+GI07-1724-MONOMER	GI07-1724	C1CT82	thioesterase family protein	
+GI07-1056-MONOMER	GI07-1056	C1CRF0	ABC transporter substrate-binding protein -	
+GI07-600-MONOMER	GI07-600	C1CQ69	phenylalanyl-tRNA synthetase subunit alpha	PheS
+GI07-1981-MONOMER	GI07-1981	C1CTU6	jag protein	
+GI07-1852-MONOMER	GI07-1852	C1CTI3	orf	
+GI07-519-MONOMER	GI07-519	C1CPZ3	putative ABC transporter ATP-binding protein	
+GI07-14-MONOMER	GI07-14	C1CU57	phage protein	
+GI07-1723-MONOMER	GI07-1723	C1CT81	type II restriction enzyme	
+GI07-223-MONOMER	GI07-223	C1CP58	orf	
+GI07-1055-MONOMER	GI07-1055	C1CRE9	orf	
+GI07-1980-MONOMER	GI07-1980	C1CTU5	orf	
+GI07-599-MONOMER	GI07-599	C1CQ68	beta-glucosidase	Gentiobiase, Cellobiase, Beta-D-glucoside glucohydrolase, Amygdalase
+GI07-1851-MONOMER	GI07-1851	C1CTI2	transcriptional activator	
+GI07-263-MONOMER	GI07-263	C1CP98	50S ribosomal protein L14	RplN
+GI07-1054-MONOMER	GI07-1054	C1CRE8	23S rRNA (uracil-5-)-methyltransferase RumA	
+GI07-1979-MONOMER	GI07-1979	C1CTU4	PTS system ascorbate-specific transporter subunit IIC	
+GI07-518-MONOMER	GI07-518	C1CPZ2	orf	
+GI07-1722-MONOMER	GI07-1722	C1CT80	protein DpnD	
+GI07-13-MONOMER	GI07-13	C1CU56	orf	
+GI07-598-MONOMER	GI07-598	C1CQ67	pts system beta-glucoside-specific eiibca component	eiibca-bgl, eii-bgl
+GI07-1850-MONOMER	GI07-1850	C1CTI1	lipoprotein, putative	
+GI07-1053-MONOMER	GI07-1053	C1CRE7	orf	
+GI07-1978-MONOMER	GI07-1978	C1CTU3	ascorbate-specific phosphotransferase enzyme iib component	ascorbate-specific pts system eiib component
+GI07-1721-MONOMER	GI07-1721	C1CT79	xanthine permease	
+GI07-517-MONOMER	GI07-517	C1CPZ1	orf	
+GI07-1849-MONOMER	GI07-1849	C1CTI0	orf	
+GI07-262-MONOMER	GI07-262	C1CP97	30S ribosomal protein S17	RpsQ
+GI07-1977-MONOMER	GI07-1977	C1CTU2	ascorbate-specific phosphotransferase enzyme iia component	pts system ascorbate-specific eiia component
+GI07-1720-MONOMER	GI07-1720	C1CT78	xanthine phosphoribosyltransferase	Xpt
+GI07-597-MONOMER	GI07-597	C1CQ66	transcription antiterminator LicT	
+GI07-222-MONOMER	GI07-222	C1CP57	putative DNA-binding phage protein	
+GI07-1052-MONOMER	GI07-1052	C1CRE6	pneumococcal vaccine antigen A	
+GI07-516-MONOMER	GI07-516	C1CPZ0	orf	
+GI07-1848-MONOMER	GI07-1848	C1CTH9	acetyltransferase, gnat family	
+GI07-1976-MONOMER	GI07-1976	C1CTU1	3-keto-L-gulonate-6-phosphate decarboxylase	UlaD
+GI07-1718-MONOMER	GI07-1718	C1CT77	exodeoxyribonuclease III	Xth
+GI07-1051-MONOMER	GI07-1051	C1CRE5	orf	
+GI07-596-MONOMER	GI07-596	C1CQ65	orf	
+GI07-12-MONOMER	GI07-12	C1CU55	phage protein	
+GI07-1975-MONOMER	GI07-1975	C1CTU0	putative L-xylulose 5-phosphate 3-epimerase	
+GI07-1847-MONOMER	GI07-1847	C1CTH8	regulator of lytrabc operon	
+GI07-1717-MONOMER	GI07-1717	C1CT76	orf	
+GI07-221-MONOMER	GI07-221	C1CP56	putative DNA-binding phage protein	
+GI07-515-MONOMER	GI07-515	C1CPY9	potassium transporter peripheral membrane component	TrkA
+GI07-261-MONOMER	GI07-261	C1CP96	50S ribosomal protein L29	RpmC
+GI07-1974-MONOMER	GI07-1974	C1CTT9	L-ribulose-5-phosphate 4-epimerase	AraD
+GI07-1050-MONOMER	GI07-1050	C1CRE4	serine hydroxymethyltransferase	GlyA
+GI07-1846-MONOMER	GI07-1846	C1CTH7	competence damage-inducible protein A	
+GI07-1716-MONOMER	GI07-1716	C1CT75	orf	
+GI07-594-MONOMER	GI07-594	C1CQ64	integrase core domain protein	
+GI07-1973-MONOMER	GI07-1973	C1CTT8	transcriptional regulator, BglG family	
+GI07-1845-MONOMER	GI07-1845	C1CTH6	recombinase A	RecA
+GI07-220-MONOMER	GI07-220	C1CP55	divergent AAA domain family	
+GI07-514-MONOMER	GI07-514	C1CPY8	potassium uptake protein, Trk family	
+GI07-1049-MONOMER	GI07-1049	C1CRE3	acetyltransferase, gnat family protein	
+GI07-1715-MONOMER	GI07-1715	C1CT74	orf	
+GI07-1972-MONOMER	GI07-1972	C1CTT7	putative L-ascorbate 6-phosphate lactonase	
+GI07-11-MONOMER	GI07-11	C1CU54	DNA primase	
+GI07-593-MONOMER	GI07-593	C1CQ63	Fic protein family	
+GI07-1844-MONOMER	GI07-1844	C1CTH5	DNA-damage-inducible protein	
+GI07-1714-MONOMER	GI07-1714	C1CT73	ABC transporter ATP-binding protein	
+GI07-1048-MONOMER	GI07-1048	C1CRE2	Sua5/YciO/YrdC/YwlC family protein	
+GI07-1971-MONOMER	GI07-1971	C1CTT6	transketolase	
+GI07-513-MONOMER	GI07-513	C1CPY7	pts system lactose-specific eiicb component	eiicb-lac, eii-lac
+GI07-1843-MONOMER	GI07-1843	C1CTH4	orf	
+GI07-260-MONOMER	GI07-260	C1CP95	50S ribosomal protein L16	RplP
+GI07-219-MONOMER	GI07-219	C1CP54	prophage Sa05, site-specific recombinase, phage integrase family	
+GI07-1713-MONOMER	GI07-1713	C1CT72	ABC transporter ATP-binding protein	
+GI07-591-MONOMER	GI07-591	C1CQ62	orf	
+GI07-1047-MONOMER	GI07-1047	C1CRE1	protein-(glutamine-N5) methyltransferase, release factor-specific	HemK
+GI07-1970-MONOMER	GI07-1970	C1CTT5	preprotein translocase subunit YajC	YajC
+GI07-1842-MONOMER	GI07-1842	C1CTH3	autolysin	N-acetylmuramoyl-L-alanine amidase, Mureinhydrolase, Mucopeptide aminohydrolase, Cell wall hydrolase
+GI07-1712-MONOMER	GI07-1712	C1CT71	sugar transferase family protein	
+GI07-512-MONOMER	GI07-512	C1CPY6	6-phospho-beta-galactosidase	
+GI07-1841-MONOMER	GI07-1841	C1CTH2	type II restriction-modification system regulatory protein, putative	
+GI07-1046-MONOMER	GI07-1046	C1CRE0	peptide chain release factor 1	PrfA
+GI07-1969-MONOMER	GI07-1969	C1CTT4	phosphotyrosine protein phosphatase	
+GI07-1711-MONOMER	GI07-1711	C1CT70	Cps7G	
+GI07-590-MONOMER	GI07-590	C1CQ61	valyl-tRNA synthetase	ValS
+GI07-218-MONOMER	GI07-218	C1CP53	magnesium and cobalt transporter	
+GI07-10-MONOMER	GI07-10	C1CU53	orf	
+GI07-1840-MONOMER	GI07-1840	C1CTH1	orf	
+GI07-1710-MONOMER	GI07-1710	C1CT69	orf	
+GI07-259-MONOMER	GI07-259	C1CP94	30S ribosomal protein S3	RpsC
+GI07-511-MONOMER	GI07-511	C1CPY5	lactose-specific phosphotransferase enzyme iia component	pts system lactose-specific eiia component, eiia-lac, eiii-lac
+GI07-1968-MONOMER	GI07-1968	C1CTT3	morn motif family protein	
+GI07-1839-MONOMER	GI07-1839	C1CTH0	orf	
+GI07-1045-MONOMER	GI07-1045	C1CRD9	thymidine kinase	Tdk
+GI07-1709-MONOMER	GI07-1709	C1CT68	cell wall surface anchor family protein	
+GI07-589-MONOMER	GI07-589	C1CQ60	shikimate kinase	
+GI07-1838-MONOMER	GI07-1838	C1CTG9	orf	
+GI07-1967-MONOMER	GI07-1967	C1CTT2	bifunctional acetaldehyde-CoA/alcohol dehydrogenase	
+GI07-217-MONOMER	GI07-217	C1CP52	orf	
+GI07-1708-MONOMER	GI07-1708	C1CT67	orf	
+GI07-510-MONOMER	GI07-510	C1CPY4	orf	
+GI07-1044-MONOMER	GI07-1044	C1CRD8	4-oxalocrotonate tautomerase	
+GI07-1837-MONOMER	GI07-1837	C1CTG8	orf	
+GI07-588-MONOMER	GI07-588	C1CQ59	acetyltransferase, gnat family	
+GI07-1707-MONOMER	GI07-1707	C1CT66	PhoU family	
+GI07-1966-MONOMER	GI07-1966	C1CTT1	lichenan-specific phosphotransferase enzyme iia component	pts system lichenan-specific eiia component, eiia-lic, eiii-lic
+GI07-258-MONOMER	GI07-258	C1CP93	50S ribosomal protein L22	RplV
+GI07-9-MONOMER	GI07-9	C1CU52	phage protein	
+GI07-1836-MONOMER	GI07-1836	C1CTG7	orf	
+GI07-509-MONOMER	GI07-509	C1CPY3	lichenan permease iic component	pts system lichenan-specific eiiccomponent, eiic-lic
+GI07-1706-MONOMER	GI07-1706	C1CT65	galactose-1-phosphate uridylyltransferase	
+GI07-1043-MONOMER	GI07-1043	C1CRD7	tRNA modification GTPase TrmE	TrmE
+GI07-1965-MONOMER	GI07-1965	C1CTT0	lichenan-specific phosphotransferase enzyme iib component	pts system lichenan-specific eiib component, eiib-lic
+GI07-587-MONOMER	GI07-587	C1CQ58	orf	
+GI07-216-MONOMER	GI07-216	C1CP51	MccC family protein	
+GI07-1835-MONOMER	GI07-1835	C1CTG6	orf	
+GI07-1705-MONOMER	GI07-1705	C1CT64	UDP-glucose 4-epimerase	
+GI07-1964-MONOMER	GI07-1964	C1CTS9	phosphotransferase system system, cellobiose-specific IIC component	
+GI07-586-MONOMER	GI07-586	C1CQ57	superfamily II helicase	
+GI07-508-MONOMER	GI07-508	C1CPY2	ROK family protein	
+GI07-1042-MONOMER	GI07-1042	C1CRD6	dihydrodipicolinate synthase	DapA
+GI07-1834-MONOMER	GI07-1834	C1CTG5	mobile genetic element	
+GI07-1704-MONOMER	GI07-1704	C1CT63	orf	
+GI07-215-MONOMER	GI07-215	C1CP50	caax amino protease family	
+GI07-257-MONOMER	GI07-257	C1CP92	30S ribosomal protein S19	RpsS
+GI07-8-MONOMER	GI07-8	C1CU51	orf	
+GI07-1963-MONOMER	GI07-1963	C1CTS8	beta-glucosidase	
+GI07-1833-MONOMER	GI07-1833	C1CTG4	mobile genetic element	
+GI07-1041-MONOMER	GI07-1041	C1CRD5	aspartate-semialdehyde dehydrogenase	Asd
+GI07-585-MONOMER	GI07-585	C1CQ56	orf	
+GI07-1703-MONOMER	GI07-1703	C1CT62	ABC transporter substrate-binding protein	
+GI07-507-MONOMER	GI07-507	C1CPY1	orf	
+GI07-214-MONOMER	GI07-214	C1CP49	DNA-3-methyladenine glycosylase 1	
+GI07-1962-MONOMER	GI07-1962	C1CTS7	GntR family transcriptional regulator	
+GI07-1832-MONOMER	GI07-1832	C1CTG3	transcriptional regulator, LacI family protein	
+GI07-1039-MONOMER	GI07-1039	C1CRD4	citrulline cluster-linked protein	
+GI07-1961-MONOMER	GI07-1961	C1CTS6	orf	
+GI07-584-MONOMER	GI07-584	C1CQ55	hemerythrin HHE cation binding domain subfamily, putative	
+GI07-506-MONOMER	GI07-506	C1CPY0	orf	
+GI07-1702-MONOMER	GI07-1702	C1CT61	spermidine/putrescine import ATP-binding protein PotA	
+GI07-1038-MONOMER	GI07-1038	C1CRD3	MesH protein	
+GI07-1831-MONOMER	GI07-1831	C1CTG2	hydrolase	
+GI07-256-MONOMER	GI07-256	C1CP91	50S ribosomal protein L2	RplB
+GI07-1960-MONOMER	GI07-1960	C1CTS5	membrane protein	
+GI07-7-MONOMER	GI07-7	C1CU50	phage replication protein	
+GI07-213-MONOMER	GI07-213	C1CP48	Holliday junction DNA helicase RuvA	RuvA
+GI07-583-MONOMER	GI07-583	C1CQ54	orf	
+GI07-1701-MONOMER	GI07-1701	C1CT60	binding-protein-dependent transport systems inner membrane component	
+GI07-1959-MONOMER	GI07-1959	C1CTS4	nicotinate-nucleotide pyrophosphorylase	NadC
+GI07-1829-MONOMER	GI07-1829	C1CTG1	spermidine/putrescine import ATP-binding protein PotA	
+GI07-505-MONOMER	GI07-505	C1CPX9	orf	
+GI07-1037-MONOMER	GI07-1037	C1CRD2	large conductance mechanosensitive channel protein	MscL
+GI07-1958-MONOMER	GI07-1958	C1CRQ7	transposase	
+GI07-1700-MONOMER	GI07-1700	C1CT59	putative Mg2+ transporter-C (MgtC) family protein	
+GI07-1828-MONOMER	GI07-1828	C1CTG0	ABC transporter substrate-binding protein	
+GI07-582-MONOMER	GI07-582	C1CQ53	orf	
+GI07-1957-MONOMER	GI07-1957	C1CTS2	orf	
+GI07-503-MONOMER	GI07-503	C1CPX8	sortase, putative	
+GI07-255-MONOMER	GI07-255	C1CP90	50S ribosomal protein L23	RplW
+GI07-1827-MONOMER	GI07-1827	C1CTF9	orf	
+GI07-212-MONOMER	GI07-212	C1CP47	riboflavin biosynthesis protein RibD	RibD
+GI07-1036-MONOMER	GI07-1036	C1CRD1	ferrochelatase	HemH
+GI07-1956-MONOMER	GI07-1956	C1CTS1	orf	
+GI07-1699-MONOMER	GI07-1699	C1CT58	catabolite control protein	
+GI07-6-MONOMER	GI07-6	C1CU49	orf	
+GI07-581-MONOMER	GI07-581	C1CQ52	orf	
+GI07-1826-MONOMER	GI07-1826	C1CTF8	mobile genetic element	
+GI07-1955-MONOMER	GI07-1955	C1CTS0	efflux ABC transporter, permease protein	
+GI07-502-MONOMER	GI07-502	C1CPX7	sortase family protein	
+GI07-1698-MONOMER	GI07-1698	C1CT57	chlorohydrolase	
+GI07-1035-MONOMER	GI07-1035	C1CRD0	surface protein cell wall anchor, sortase_B family	
+GI07-1825-MONOMER	GI07-1825	C1CTF7	mobile genetic element	
+GI07-1954-MONOMER	GI07-1954	C1CTR9	glyceraldehyde-3-phosphate dehydrogenase, type I	Gap
+GI07-580-MONOMER	GI07-580	C1CQ51	orf	
+GI07-211-MONOMER	GI07-211	C1CP46	riboflavin synthase subunit alpha	RibE
+GI07-254-MONOMER	GI07-254	C1CP89	50S ribosomal protein L4	RplD
+GI07-1697-MONOMER	GI07-1697	C1CT56	anthranilate synthase component I	TrpE
+GI07-1953-MONOMER	GI07-1953	C1CTR8	ribosomal large subunit pseudouridine synthase, RluD subfamily	
+GI07-1824-MONOMER	GI07-1824	C1CTF6	orf	
+GI07-1034-MONOMER	GI07-1034	C1CRC9	sortase, SrtB family	SrtB
+GI07-1696-MONOMER	GI07-1696	C1CT55	anthranilate synthase component II	PabA
+GI07-501-MONOMER	GI07-501	C1CPX6	sortase family protein	
+GI07-579-MONOMER	GI07-579	C1CQ50	orf	
+GI07-5-MONOMER	GI07-5	C1CU48	orf	
+GI07-1823-MONOMER	GI07-1823	C1CTF5	orf	
+GI07-1952-MONOMER	GI07-1952	C1CTR7	penicillin-binding protein 2A	
+GI07-210-MONOMER	GI07-210	C1CP45	riboflavin biosynthesis protein ribAB	
+GI07-1695-MONOMER	GI07-1695	C1CT54	anthranilate phosphoribosyltransferase	TrpD
+GI07-1822-MONOMER	GI07-1822	C1CTF4	orf	
+GI07-500-MONOMER	GI07-500	C1CPX5	cell wall surface anchor family protein	
+GI07-1821-MONOMER	GI07-1821	C1CTF3	pneumolysin	Thiol-activated cytolysin
+GI07-1694-MONOMER	GI07-1694	C1CT53	indole-3-glycerol-phosphate synthase	TrpC
+GI07-209-MONOMER	GI07-209	C1CP44	6,7-dimethyl-8-ribityllumazine synthase	RibH
+GI07-1820-MONOMER	GI07-1820	C1CTF2	orf	
+GI07-1693-MONOMER	GI07-1693	C1CT52	N-(5'-phosphoribosyl)anthranilate isomerase	TrpF
+GI07-1819-MONOMER	GI07-1819	C1CTF1	transcriptional regulator, MarR family	
+GI07-499-MONOMER	GI07-499	C1CPX4	orf	
+GI07-208-MONOMER	GI07-208	C1CP43	DNA mismatch repair protein	MutL
+GI07-1818-MONOMER	GI07-1818	C1CTF0	ABC transporter permease	
+GI07-1692-MONOMER	GI07-1692	C1CT51	tryptophan synthase subunit beta	TrpB
+GI07-1817-MONOMER	GI07-1817	C1CTE9	multidrug resistance protein 3	P-glycoprotein C
+GI07-1691-MONOMER	GI07-1691	C1CT50	tryptophan synthase subunit alpha	TrpA
+GI07-498-MONOMER	GI07-498	C1CPX3	cell wall surface anchor family protein	
+GI07-207-MONOMER	GI07-207	C1CP42	orf	
+GI07-1816-MONOMER	GI07-1816	C1CTE8	orf	
+GI07-1815-MONOMER	GI07-1815	C1CTE7	PAP2 family protein	
+GI07-1690-MONOMER	GI07-1690	C1CT49	orf	
+GI07-1814-MONOMER	GI07-1814	C1CTE6	response regulator of the LytR/AlgR family	
+GI07-1689-MONOMER	GI07-1689	C1CT48	transcriptional regulator	
+GI07-497-MONOMER	GI07-497	C1CPX2	cell wall surface anchor family protein	
+GI07-206-MONOMER	GI07-206	C1CP41	response regulator of the LytR/AlgR family	
+GI07-1688-MONOMER	GI07-1688	C1CT47	type 4 prepilin peptidase	
+GI07-1687-MONOMER	GI07-1687	C1CT46	acetyltransferase, gnat family	
+GI07-1686-MONOMER	GI07-1686	C1CT45	orf	
+GI07-496-MONOMER	GI07-496	C1CPX1	transcriptional regulator, putative	
+GI07-205-MONOMER	GI07-205	C1CP40	orf	
+GI07-1685-MONOMER	GI07-1685	C1CT44	Gls24 protein	
+GI07-1684-MONOMER	GI07-1684	C1CT43	lipoprotein, putative	
+GI07-1683-MONOMER	GI07-1683	C1CT42	orf	
+GI07-1682-MONOMER	GI07-1682	C1CT41	orf	
+GI07-495-MONOMER	GI07-495	C1CPX0	transposase	
+GI07-204-MONOMER	GI07-204	C1CP39	mn2+ and fe2+ transporter of the nramp family	
+GI07-1681-MONOMER	GI07-1681	C1CT40	M protein trans-acting positive transcriptional regulator	
+GI07-1680-MONOMER	GI07-1680	C1CT39	sugar-binding transcriptional regulator, LacI family	
+GI07-494-MONOMER	GI07-494	C1CPW9	formate acetyltransferase	PflB
+GI07-203-MONOMER	GI07-203	C1CP38	Spn1 transposase	
+GI07-1679-MONOMER	GI07-1679	C1CT38	protein LplB	
+GI07-1678-MONOMER	GI07-1678	C1CT37	protein LplC	
+GI07-493-MONOMER	GI07-493	C1CPW8	DNA polymerase IV	
+GI07-202-MONOMER	GI07-202	C1CP37	flavoprotein NrdI	
+GI07-1677-MONOMER	GI07-1677	C1CT36	ABC transporter substrate-binding protein	
+GI07-1676-MONOMER	GI07-1676	C1CT35	sucrose-6-phosphate hydrolase	
+GI07-1674-MONOMER	GI07-1674	C1CT34	recombination factor protein RarA	
+GI07-492-MONOMER	GI07-492	C1CPW7	orf	
+GI07-1673-MONOMER	GI07-1673	C1CT33	orf	
+GI07-1672-MONOMER	GI07-1672	C1CT32	orf	
+GI07-201-MONOMER	GI07-201	C1CP36	orf	
+GI07-1671-MONOMER	GI07-1671	C1CT31	orf	
+GI07-491-MONOMER	GI07-491	C1CPW6	UDP pyrophosphate phosphatase	
+GI07-1670-MONOMER	GI07-1670	C1CT30	orf	
+GI07-1669-MONOMER	GI07-1669	C1CT29	orf	
+GI07-1668-MONOMER	GI07-1668	C1CT28	peptidase, M50 family protein	
+GI07-200-MONOMER	GI07-200	C1CP35	response regulator	
+GI07-490-MONOMER	GI07-490	C1CPW5	orf	
+GI07-1667-MONOMER	GI07-1667	C1CT27	7,8-dihydro-8-oxoguanine-triphosphatase	
+GI07-1666-MONOMER	GI07-1666	C1CT26	ATPase of the AAA+ class	
+GI07-199-MONOMER	GI07-199	C1CP34	sensor histidine kinase, putative	
+GI07-488-MONOMER	GI07-488	C1CPW4	orf	
+GI07-1665-MONOMER	GI07-1665	C1CT25	orf	
+GI07-1663-MONOMER	GI07-1663	C1CT24	ribosomal protein L11 methyltransferase	PrmA
+GI07-487-MONOMER	GI07-487	C1CPW3	orf	
+GI07-198-MONOMER	GI07-198	C1CP33	orf	
+GI07-1662-MONOMER	GI07-1662	C1CT23	16S ribosomal RNA methyltransferase RsmE	
+GI07-1661-MONOMER	GI07-1661	C1CT22	oligoendopeptidase F	
+GI07-1660-MONOMER	GI07-1660	C1CT21	orf	
+GI07-486-MONOMER	GI07-486	C1CPW2	amino acid ABC transporter permease/substrate-binding protein	
+GI07-1659-MONOMER	GI07-1659	C1CT20	orf	
+GI07-197-MONOMER	GI07-197	C1CP32	membrane-bound protein	
+GI07-1658-MONOMER	GI07-1658	C1CT19	orf	
+GI07-1657-MONOMER	GI07-1657	C1CT18	aquaporin Z -	
+GI07-485-MONOMER	GI07-485	C1CPW1	glutamate/aspartate ABC transporter, ATP-binding protein	GltL
+GI07-1656-MONOMER	GI07-1656	C1CT17	orf	
+GI07-196-MONOMER	GI07-196	C1CP31	ABC transporter permease	
+GI07-1655-MONOMER	GI07-1655	C1CT16	7-cyano-7-deazaguanine reductase	
+GI07-484-MONOMER	GI07-484	C1CPW0	orf	
+GI07-1654-MONOMER	GI07-1654	C1CT15	thioredoxin	Trx
+GI07-1653-MONOMER	GI07-1653	C1CT14	orf	
+GI07-1652-MONOMER	GI07-1652	C1CT13	transcriptional regulator, putative	
+GI07-195-MONOMER	GI07-195	C1CP30	methionine import ATP-binding protein MetN	
+GI07-483-MONOMER	GI07-483	C1CPV9	orf	
+GI07-1651-MONOMER	GI07-1651	C1CT12	integral membrane protein	
+GI07-1649-MONOMER	GI07-1649	C1CT11	small conductance mechanosensitive ion channel	
+GI07-1648-MONOMER	GI07-1648	C1CT10	CorA -	
+GI07-960-MONOMER	GI07-960	C1CR59	Cof family protein	
+GI07-482-MONOMER	GI07-482	C1CPV8	threonine dehydratase	IlvA
+GI07-194-MONOMER	GI07-194	C1CP29	acetylornithine deacetylase/succinyl-diaminopimelate desuccinylase	
+GI07-1647-MONOMER	GI07-1647	C1CT09	had superfamily (subfamily iiia) phosphatase	YqeG
+GI07-959-MONOMER	GI07-959	C1CR58	Cof family protein	
+GI07-1646-MONOMER	GI07-1646	C1CT08	GTP-binding protein YqeH	
+GI07-481-MONOMER	GI07-481	C1CPV7	orf	
+GI07-1645-MONOMER	GI07-1645	C1CT07	orf	
+GI07-958-MONOMER	GI07-958	C1CR57	chromosome segregation protein SMC	Smc
+GI07-1644-MONOMER	GI07-1644	C1CT06	nicotinic acid mononucleotide adenylyltransferase	NadD
+GI07-193-MONOMER	GI07-193	C1CP28	lipoprotein	
+GI07-957-MONOMER	GI07-957	C1CR56	ribonuclease III	Rnc
+GI07-1643-MONOMER	GI07-1643	C1CT05	orf	
+GI07-1642-MONOMER	GI07-1642	C1CT04	isochorismatase family protein	
+GI07-955-MONOMER	GI07-955	C1CR55	guanosine 5'-monophosphate oxidoreductase	GuaC
+GI07-480-MONOMER	GI07-480	C1CPV6	orf	
+GI07-1641-MONOMER	GI07-1641	C1CT03	putative iojap homolog	
+GI07-954-MONOMER	GI07-954	C1CR54	orf	
+GI07-1640-MONOMER	GI07-1640	C1CT02	SAM-dependent methyltransferase	
+GI07-192-MONOMER	GI07-192	C1CP27	amino acid ABC transporter substrate-binding protein	
+GI07-1639-MONOMER	GI07-1639	C1CT01	orf	
+GI07-1638-MONOMER	GI07-1638	C1CQ27	Spn1 transposase	
+GI07-953-MONOMER	GI07-953	C1CR53	orf	
+GI07-479-MONOMER	GI07-479	C1CPV5	ketol-acid reductoisomerase	IlvC
+GI07-1637-MONOMER	GI07-1637	C1CSZ9	prevent-host-death family protein	
+GI07-952-MONOMER	GI07-952	C1CR52	orf	
+GI07-1636-MONOMER	GI07-1636	C1CSZ8	orf	
+GI07-191-MONOMER	GI07-191	C1CP26	branched-chain amino acid transport protein AzlD	
+GI07-1635-MONOMER	GI07-1635	C1CSZ7	guanylate kinase	Gmk
+GI07-951-MONOMER	GI07-951	C1CR51	orf	
+GI07-478-MONOMER	GI07-478	C1CPV4	acetolactate synthase 3 regulatory subunit	IlvH
+GI07-1634-MONOMER	GI07-1634	C1CSZ6	DNA-directed RNA polymerase subunit omega	
+GI07-950-MONOMER	GI07-950	C1CR50	orf	
+GI07-1633-MONOMER	GI07-1633	C1CSZ5	primosome assembly protein PriA	
+GI07-1632-MONOMER	GI07-1632	C1CSZ4	methionyl-tRNA formyltransferase	Fmt
+GI07-949-MONOMER	GI07-949	C1CR49	orf	
+GI07-190-MONOMER	GI07-190	C1CP25	branched-chain amino acid permease	
+GI07-477-MONOMER	GI07-477	C1CPV3	acetolactate synthase catalytic subunit	IlvB
+GI07-1631-MONOMER	GI07-1631	C1CSZ3	ribosomal RNA small subunit methyltransferase B	Sun
+GI07-948-MONOMER	GI07-948	C1CR48	orf	
+GI07-1630-MONOMER	GI07-1630	C1CSZ2	protein phosphatase PrpC	
+GI07-947-MONOMER	GI07-947	C1CR47	3-isopropylmalate dehydrogenase	LeuB
+GI07-189-MONOMER	GI07-189	C1CP24	orf	
+GI07-476-MONOMER	GI07-476	C1CPV2	dihydroxyacetone kinase family protein	
+GI07-1629-MONOMER	GI07-1629	C1CSZ1	Stk1	
+GI07-945-MONOMER	GI07-945	C1CR46	orf	
+GI07-1628-MONOMER	GI07-1628	C1CSZ0	orf	
+GI07-944-MONOMER	GI07-944	C1CR45	copper sensitivity	
+GI07-475-MONOMER	GI07-475	C1CPV1	alkaline shock protein	
+GI07-1627-MONOMER	GI07-1627	C1CSY9	orf	
+GI07-943-MONOMER	GI07-943	C1CR44	orf	
+GI07-188-MONOMER	GI07-188	C1CP23	transporter, major facilitator family protein	
+GI07-474-MONOMER	GI07-474	C1CPV0	50S ribosomal protein L28	RpmB
+GI07-1625-MONOMER	GI07-1625	C1CSY8	hydroxymethylglutaryl-CoA synthase	
+GI07-1624-MONOMER	GI07-1624	C1CSY7	hydroxymethylglutaryl-CoA reductase, degradative	
+GI07-942-MONOMER	GI07-942	C1CR43	DNA topoisomerase I	TopA
+GI07-472-MONOMER	GI07-472	C1CPU9	peptide chain release factor 3	PrfC
+GI07-1623-MONOMER	GI07-1623	C1CSY6	sucrose operon repressor	Scr operon regulatory protein
+GI07-187-MONOMER	GI07-187	C1CP22	caax amino protease family	
+GI07-941-MONOMER	GI07-941	C1CR42	orf	
+GI07-1622-MONOMER	GI07-1622	C1CSY5	sucrose-6-phosphate hydrolase	Sucrase, Invertase
+GI07-1621-MONOMER	GI07-1621	C1CSY4	orf	
+GI07-471-MONOMER	GI07-471	C1CPU8	aspartyl/glutamyl-tRNA amidotransferase subunit C	GatC
+GI07-940-MONOMER	GI07-940	C1CR41	chlorohydrolase	
+GI07-1620-MONOMER	GI07-1620	C1CSY3	pts system, sucrose-specific iibc component	
+GI07-1619-MONOMER	GI07-1619	C1CSY2	fructokinase	
+GI07-939-MONOMER	GI07-939	C1CR40	DNA protecting protein DprA	DprA
+GI07-470-MONOMER	GI07-470	C1CPU7	aspartyl/glutamyl-tRNA amidotransferase subunit A	GatA
+GI07-186-MONOMER	GI07-186	C1CP21	orf	
+GI07-1618-MONOMER	GI07-1618	C1CSY1	orf	
+GI07-938-MONOMER	GI07-938	C1CR39	LPS epitope expression regulatory protein	
+GI07-1617-MONOMER	GI07-1617	C1CSY0	chlorohydrolase	
+GI07-1616-MONOMER	GI07-1616	C1CSX9	Na+ ABC transporter ATP-binding protein	
+GI07-937-MONOMER	GI07-937	C1CR38	LPS epitope expression regulatory protein	
+GI07-469-MONOMER	GI07-469	C1CPU6	aspartyl/glutamyl-tRNA amidotransferase subunit B	GatB
+GI07-1615-MONOMER	GI07-1615	C1CSX8	Na+ ABC transporter permease	
+GI07-185-MONOMER	GI07-185	C1CP20	MutR	
+GI07-936-MONOMER	GI07-936	C1CR37	choline kinase	
+GI07-1614-MONOMER	GI07-1614	C1CSX7	orf	
+GI07-1613-MONOMER	GI07-1613	C1CSX6	ABC transporter ATP-binding protein	
+GI07-935-MONOMER	GI07-935	C1CR36	xylitol dehydrogenase	
+GI07-468-MONOMER	GI07-468	C1CPU5	L-iditol 2-dehydrogenase	
+GI07-1612-MONOMER	GI07-1612	C1CSX5	GntR family transcriptional regulator	
+GI07-934-MONOMER	GI07-934	C1CR35	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase	IspD
+GI07-183-MONOMER	GI07-183	C1CP19	orf	
+GI07-1611-MONOMER	GI07-1611	C1CSX4	transcriptional regulator NrdR	NrdR
+GI07-933-MONOMER	GI07-933	C1CR34	polysaccharide biosynthesis protein	
+GI07-467-MONOMER	GI07-467	C1CPU4	chlorohydrolase	
+GI07-1610-MONOMER	GI07-1610	C1CSX3	replication initiation and membrane attachment protein	
+GI07-932-MONOMER	GI07-932	C1CR33	phosphotransferase	
+GI07-1609-MONOMER	GI07-1609	C1CSX2	primosomal protein DnaI	
+GI07-931-MONOMER	GI07-931	C1CR32	LicD Protein	
+GI07-466-MONOMER	GI07-466	C1CPU3	elongation factor P	Efp
+GI07-182-MONOMER	GI07-182	C1CP18	orf	
+GI07-930-MONOMER	GI07-930	C1CR31	carbamoyl phosphate synthase large subunit	CarB
+GI07-1608-MONOMER	GI07-1608	C1CSX1	nitroreductase family protein	
+GI07-929-MONOMER	GI07-929	C1CR30	carbamoyl phosphate synthase small subunit	CarA
+GI07-1607-MONOMER	GI07-1607	C1CSX0	GTP-binding protein EngA	EngA
+GI07-928-MONOMER	GI07-928	C1CR29	aspartate carbamoyltransferase catalytic subunit	PyrB
+GI07-465-MONOMER	GI07-465	C1CPU2	general stress protein, Gls24 family	
+GI07-1606-MONOMER	GI07-1606	C1CSW9	orf	
+GI07-927-MONOMER	GI07-927	C1CR28	bifunctional pyrimidine regulatory protein PyrR uracil phosphoribosyltransferase	
+GI07-181-MONOMER	GI07-181	C1CP17	orf	
+GI07-1605-MONOMER	GI07-1605	C1CSW8	orf	
+GI07-1604-MONOMER	GI07-1604	C1CSW7	orf	
+GI07-926-MONOMER	GI07-926	C1CR27	endonuclease III	Nth
+GI07-464-MONOMER	GI07-464	C1CPU1	transcription antitermination protein NusB	NusB
+GI07-1603-MONOMER	GI07-1603	C1CSW6	orf	
+GI07-925-MONOMER	GI07-925	C1CR26	orf	
+GI07-180-MONOMER	GI07-180	C1CP16	ABC transporter ATP-binding protein	
+GI07-1602-MONOMER	GI07-1602	C1CSW5	ABC transporter ATP-binding protein	
+GI07-924-MONOMER	GI07-924	C1CR25	orf	
+GI07-463-MONOMER	GI07-463	C1CPU0	orf	
+GI07-1601-MONOMER	GI07-1601	C1CSW4	orf	
+GI07-923-MONOMER	GI07-923	C1CR24	ABC transporter ATP-binding protein	
+GI07-1600-MONOMER	GI07-1600	C1CSW3	preprotein translocase subunit SecA	SecA
+GI07-922-MONOMER	GI07-922	C1CR23	heat shock protein HtpX	
+GI07-462-MONOMER	GI07-462	C1CPT9	orf	
+GI07-179-MONOMER	GI07-179	C1CP15	glycosyl transferase, family 2	
+GI07-1599-MONOMER	GI07-1599	C1CSW2	phospho-2-dehydro-3-deoxyheptonate aldolase	
+GI07-921-MONOMER	GI07-921	C1CR22	cytoplasmic membrane protein	
+GI07-461-MONOMER	GI07-461	C1CPT8	orf	
+GI07-1598-MONOMER	GI07-1598	C1CSW1	phospho-2-dehydro-3-deoxyheptonate aldolase	
+GI07-920-MONOMER	GI07-920	C1CR21	16S rRNA methyltransferase GidB	GidB
+GI07-1597-MONOMER	GI07-1597	C1CSW0	4'-phosphopantetheinyl transferase	AcpS
+GI07-175-MONOMER	GI07-175	C1CP14	putative DNA-binding/iron metalloprotein/AP endonuclease	
+GI07-919-MONOMER	GI07-919	C1CR20	uracil permease	Uracil transporter
+GI07-1596-MONOMER	GI07-1596	C1CSV9	alanine racemase	Alr
+GI07-460-MONOMER	GI07-460	C1CPT7	acetyl-CoA carboxylase subunit alpha	AccA
+GI07-1595-MONOMER	GI07-1595	C1CSV8	ATP-dependent DNA helicase RecG	RecG
+GI07-918-MONOMER	GI07-918	C1CR19	signal recognition particle protein	Ffh
+GI07-1593-MONOMER	GI07-1593	C1CSV7	orf	
+GI07-917-MONOMER	GI07-917	C1CR18	putative DNA-binding protein	
+GI07-1592-MONOMER	GI07-1592	C1CSV6	orf	
+GI07-174-MONOMER	GI07-174	C1CP13	ribosomal-protein-alanine acetyltransferase	RimI
+GI07-459-MONOMER	GI07-459	C1CPT6	acetyl-CoA carboxylase subunit beta	AccD
+GI07-1591-MONOMER	GI07-1591	C1CSV5	neuraminidase	
+GI07-916-MONOMER	GI07-916	C1CR17	orf	
+GI07-1590-MONOMER	GI07-1590	C1CSV4	orf	
+GI07-915-MONOMER	GI07-915	C1CR16	HD superfamily phosphohydrolase	
+GI07-1589-MONOMER	GI07-1589	C1CSV3	sugar ABC transporter substrate-binding protein	
+GI07-458-MONOMER	GI07-458	C1CPT5	acetyl-CoA carboxylase biotin carboxylase subunit	AccC
+GI07-173-MONOMER	GI07-173	C1CP12	glycoprotein endopeptidase	
+GI07-1588-MONOMER	GI07-1588	C1CSV2	ABC transporter permease	
+GI07-914-MONOMER	GI07-914	C1CR15	phosphatase YidA	
+GI07-1587-MONOMER	GI07-1587	C1CSV1	ABC transporter permease	
+GI07-913-MONOMER	GI07-913	C1CR14	SAP domain protein	
+GI07-1586-MONOMER	GI07-1586	C1CSV0	sialidase B	Neuraminidase B
+GI07-457-MONOMER	GI07-457	C1CPT4	(3R)-hydroxymyristoyl-ACP dehydratase	FabZ
+GI07-1585-MONOMER	GI07-1585	C1CSU9	putative oxidoreductase YjhC	
+GI07-911-MONOMER	GI07-911	C1CR13	50S ribosomal protein L19	RplS
+GI07-172-MONOMER	GI07-172	C1CP11	orf	
+GI07-1584-MONOMER	GI07-1584	C1CSU8	N-acetylmannosamine-6-phosphate 2-epimerase	
+GI07-910-MONOMER	GI07-910	C1CR12	camphor resistance protein CrcB	
+GI07-1583-MONOMER	GI07-1583	C1CSU7	pts system maltose- and glucose-specific eiicb component	
+GI07-456-MONOMER	GI07-456	C1CPT3	acetyl-CoA carboxylase biotin carboxyl carrier protein subunit	AccB
+GI07-1582-MONOMER	GI07-1582	C1CSU6	sugar ABC transporter substrate-binding protein	
+GI07-909-MONOMER	GI07-909	C1CR11	camphor resistance protein CrcB	
+GI07-171-MONOMER	GI07-171	C1CP10	bacteriocin-type signal sequence domain protein	
+GI07-1581-MONOMER	GI07-1581	C1CSU5	sugar ABC transporter permease	
+GI07-908-MONOMER	GI07-908	C1CR10	orf	
+GI07-455-MONOMER	GI07-455	C1CPT2	3-oxoacyl-(acyl carrier protein) synthase II	FabF
+GI07-1580-MONOMER	GI07-1580	C1CSU4	sugar ABC transporter permease	
+GI07-907-MONOMER	GI07-907	C1CR09	flavodoxin	
+GI07-1579-MONOMER	GI07-1579	C1CSU3	orf	
+GI07-454-MONOMER	GI07-454	C1CPT1	3-ketoacyl-ACP reductase	FabG
+GI07-170-MONOMER	GI07-170	C1CP09	orf	
+GI07-1578-MONOMER	GI07-1578	C1CSU2	orf	
+GI07-906-MONOMER	GI07-906	C1CR08	DHH subfamily 1 protein	
+GI07-1576-MONOMER	GI07-1576	C1CSU1	N-acetylneuraminate lyase	
+GI07-905-MONOMER	GI07-905	C1CR07	50S ribosomal protein L31 type B	
+GI07-453-MONOMER	GI07-453	C1CPT0	malonyl CoA-acyl carrier protein transacylase	FabD
+GI07-1575-MONOMER	GI07-1575	C1CSU0	glucokinase	
+GI07-1574-MONOMER	GI07-1574	C1CST9	transcriptional regulator, RpiR family	
+GI07-904-MONOMER	GI07-904	C1CR06	high-affinity Fe2+/Pb2+ permease	
+GI07-169-MONOMER	GI07-169	C1CP08	orf	
+GI07-1573-MONOMER	GI07-1573	C1CST8	penicillin-binding protein 2B	
+GI07-452-MONOMER	GI07-452	C1CPS9	enoyl-ACP reductase II	
+GI07-903-MONOMER	GI07-903	C1CR05	transposase family protein	
+GI07-1572-MONOMER	GI07-1572	C1CST7	recombination protein RecR	RecR
+GI07-1571-MONOMER	GI07-1571	C1CST6	D-alanyl-alanine synthetase A	Ddl
+GI07-902-MONOMER	GI07-902	C1CR04	orf	
+GI07-451-MONOMER	GI07-451	C1CPS8	acyl carrier protein	AcpP
+GI07-1570-MONOMER	GI07-1570	C1CST5	UDP-N-acetylmuramoylalanyl-D-glutamyl-2, 6-diaminopimelate--D-alanyl-D-alanyl ligase	
+GI07-168-MONOMER	GI07-168	C1CP07	metallo-beta-lactamase superfamily protein domain protein	
+GI07-1569-MONOMER	GI07-1569	C1CST4	MutT/nudix family protein	
+GI07-901-MONOMER	GI07-901	C1CR03	glutamate dehydrogenase	
+GI07-450-MONOMER	GI07-450	C1CPS7	3-oxoacyl-(acyl carrier protein) synthase III	
+GI07-1568-MONOMER	GI07-1568	C1CST3	orf	
+GI07-1567-MONOMER	GI07-1567	C1CST2	cell division protein FtsA	FtsA
+GI07-900-MONOMER	GI07-900	C1CR02	orf	
+GI07-1566-MONOMER	GI07-1566	C1CST1	cell division protein FtsZ	FtsZ
+GI07-449-MONOMER	GI07-449	C1CPS6	transcriptional regulator	
+GI07-167-MONOMER	GI07-167	C1CP06	chlorohydrolase	
+GI07-1565-MONOMER	GI07-1565	C1CST0	pyridoxal phosphate enzyme, YggS family	
+GI07-899-MONOMER	GI07-899	C1CR01	50S ribosomal protein L7/L12	RplL
+GI07-1564-MONOMER	GI07-1564	C1CSS9	YlmF protein	
+GI07-448-MONOMER	GI07-448	C1CPS5	enoyl-CoA hydratase	
+GI07-1563-MONOMER	GI07-1563	C1CSS8	yggt family, putative	
+GI07-898-MONOMER	GI07-898	C1CR00	50S ribosomal protein L10	RplJ
+GI07-166-MONOMER	GI07-166	C1CP05	tRNA uridine 5-carboxymethylaminomethyl modification enzyme GidA	GidA
+GI07-1562-MONOMER	GI07-1562	C1CSS7	YlmH protein	
+GI07-447-MONOMER	GI07-447	C1CPS4	orf	
+GI07-1561-MONOMER	GI07-1561	C1CSS6	cell-division initiation protein	
+GI07-897-MONOMER	GI07-897	C1CQZ9	chlorohydrolase	
+GI07-1560-MONOMER	GI07-1560	C1CSS5	orf	
+GI07-896-MONOMER	GI07-896	C1CQZ8	ABC transporter ATP-binding protein/permease	
+GI07-446-MONOMER	GI07-446	C1CPS3	aspartate kinase	
+GI07-1559-MONOMER	GI07-1559	C1CSS4	isoleucyl-tRNA synthetase	IleS
+GI07-165-MONOMER	GI07-165	C1CP04	MutT/nudix family protein	
+GI07-1558-MONOMER	GI07-1558	C1CSS3	integral membrane protein	
+GI07-895-MONOMER	GI07-895	C1CQZ7	ABC transporter ATP-binding protein/permease	
+GI07-1557-MONOMER	GI07-1557	C1CSS2	orf	
+GI07-445-MONOMER	GI07-445	C1CPS2	ManO	
+GI07-1556-MONOMER	GI07-1556	C1CSS1	phosphoglyceromutase	GpmA
+GI07-894-MONOMER	GI07-894	C1CQZ6	peptide methionine sulfoxide reductase MsrA/msrB	
+GI07-164-MONOMER	GI07-164	C1CP03	tRNA-specific 2-thiouridylase MnmA	MnmA
+GI07-444-MONOMER	GI07-444	C1CPS1	seryl-tRNA synthetase	SerS
+GI07-1555-MONOMER	GI07-1555	C1CSS0	alpha-fucosidase	
+GI07-1554-MONOMER	GI07-1554	C1CSR9	macrolide export ATP-binding/permease protein MacB	
+GI07-893-MONOMER	GI07-893	C1CQZ5	orf	
+GI07-1553-MONOMER	GI07-1553	C1CSR8	efflux ABC transporter, permease protein	
+GI07-443-MONOMER	GI07-443	C1CPS0	exfoliative toxin A	
+GI07-1552-MONOMER	GI07-1552	C1CSR7	thiol peroxidase	Tpx
+GI07-892-MONOMER	GI07-892	C1CQZ4	homoserine kinase	ThrB
+GI07-163-MONOMER	GI07-163	C1CP02	orf	
+GI07-1551-MONOMER	GI07-1551	C1CSR6	manganese ABC transporter substrate-binding lipoprotein	Adhesin B, Saliva-binding protein
+GI07-1550-MONOMER	GI07-1550	C1CSR5	manganese transport system membrane protein MntB	
+GI07-442-MONOMER	GI07-442	C1CPR9	macrophage infectivity potentiator protein	
+GI07-890-MONOMER	GI07-890	C1CQZ3	adaptor protein	
+GI07-1549-MONOMER	GI07-1549	C1CSR4	manganese transport system ATP-binding protein MntA	
+GI07-162-MONOMER	GI07-162	C1CP01	pneumococcal surface protein A	
+GI07-889-MONOMER	GI07-889	C1CQZ2	orf	
+GI07-441-MONOMER	GI07-441	C1CPR8	sodium:alanine symporter family protein	
+GI07-1548-MONOMER	GI07-1548	C1CSR3	endopeptidase O	
+GI07-1547-MONOMER	GI07-1547	C1CSR2	metallo-beta-lactamase superfamily protein	
+GI07-888-MONOMER	GI07-888	C1CQZ1	orf	
+GI07-1546-MONOMER	GI07-1546	C1CSR1	guanosine-3,5-bis(diphosphate) 3-pyrophosphohydrolase	SpoT
+GI07-161-MONOMER	GI07-161	C1CP00	orf	
+GI07-440-MONOMER	GI07-440	C1CPR7	MutS2 family protein	
+GI07-887-MONOMER	GI07-887	C1CQZ0	glycosyl transferase, family 2	
+GI07-1545-MONOMER	GI07-1545	C1CSR0	D-tyrosyl-tRNA(Tyr) deacylase	Dtd
+GI07-1544-MONOMER	GI07-1544	C1CSQ9	orf	
+GI07-886-MONOMER	GI07-886	C1CQY9	glycosyl transferase, group 1	
+GI07-1543-MONOMER	GI07-1543	C1CSQ8	orf	
+GI07-160-MONOMER	GI07-160	C1CNZ9	orf	
+GI07-885-MONOMER	GI07-885	C1CQY8	LicD1 protein	
+GI07-1542-MONOMER	GI07-1542	C1CSQ7	Spn1 transposase	
+GI07-439-MONOMER	GI07-439	C1CPR6	CvpA family protein	CvpA
+GI07-1541-MONOMER	GI07-1541	C1CSQ6	orf	
+GI07-884-MONOMER	GI07-884	C1CQY7	transcriptional regulator, LytR family	
+GI07-1540-MONOMER	GI07-1540	C1CSQ5	orf	
+GI07-159-MONOMER	GI07-159	C1CNZ8	orf	
+GI07-883-MONOMER	GI07-883	C1CQY6	prephenate dehydratase	
+GI07-1539-MONOMER	GI07-1539	C1CSQ4	orf	
+GI07-438-MONOMER	GI07-438	C1CPR5	orf	
+GI07-882-MONOMER	GI07-882	C1CQY5	shikimate kinase	AroK
+GI07-1538-MONOMER	GI07-1538	C1CSQ3	iron-dependent transcriptional regulator	
+GI07-158-MONOMER	GI07-158	C1CNZ7	orf	
+GI07-1537-MONOMER	GI07-1537	C1CSQ2	metallophosphoesterase	
+GI07-881-MONOMER	GI07-881	C1CQY4	3-phosphoshikimate 1-carboxyvinyltransferase	AroA
+GI07-1536-MONOMER	GI07-1536	C1CSQ1	Rrf2 family protein	
+GI07-437-MONOMER	GI07-437	C1CPR4	ribonuclease HIII	RnhC
+GI07-880-MONOMER	GI07-880	C1CQY3	orf	
+GI07-1535-MONOMER	GI07-1535	C1CSQ0	orf	
+GI07-157-MONOMER	GI07-157	C1CNZ6	orf	
+GI07-879-MONOMER	GI07-879	C1CQY2	prephenate dehydrogenase	
+GI07-1534-MONOMER	GI07-1534	C1CSP9	orf	
+GI07-878-MONOMER	GI07-878	C1CQY1	chorismate synthase	AroC
+GI07-436-MONOMER	GI07-436	C1CPR3	signal peptidase I	
+GI07-1533-MONOMER	GI07-1533	C1CSP8	response regulator	
+GI07-877-MONOMER	GI07-877	C1CQY0	3-dehydroquinate synthase	AroB
+GI07-1532-MONOMER	GI07-1532	C1CSP7	histidine kinase	
+GI07-435-MONOMER	GI07-435	C1CPR2	helicase, RecD/TraA family	
+GI07-156-MONOMER	GI07-156	C1CNZ5	orf	
+GI07-1531-MONOMER	GI07-1531	C1CSP6	threonyl-tRNA synthetase	ThrS
+GI07-876-MONOMER	GI07-876	C1CQX9	shikimate 5-dehydrogenase	AroE
+GI07-434-MONOMER	GI07-434	C1CPR1	trigger factor	Tig
+GI07-1530-MONOMER	GI07-1530	C1CSP5	orf	
+GI07-1528-MONOMER	GI07-1528	C1CSP4	orf	
+GI07-875-MONOMER	GI07-875	C1CQX8	3-dehydroquinate dehydratase	AroD
+GI07-1527-MONOMER	GI07-1527	C1CSP3	YwnB	
+GI07-433-MONOMER	GI07-433	C1CPR0	integrase	
+GI07-1526-MONOMER	GI07-1526	C1CSP2	30S ribosomal protein S15	RpsO
+GI07-874-MONOMER	GI07-874	C1CQX7	methyltransferase	
+GI07-155-MONOMER	GI07-155	C1CNZ4	orf	
+GI07-432-MONOMER	GI07-432	C1CPQ9	choline binding protein G	
+GI07-1525-MONOMER	GI07-1525	C1CSP1	CadD	
+GI07-1524-MONOMER	GI07-1524	C1CSP0	acyltransferase family protein	
+GI07-873-MONOMER	GI07-873	C1CQX6	orf	
+GI07-431-MONOMER	GI07-431	C1CPQ8	orf	
+GI07-1523-MONOMER	GI07-1523	C1CSN9	cation-transporting ATPase, E1-E2 family	
+GI07-1522-MONOMER	GI07-1522	C1CSN8	putative transcription antiterminator BglG family protein	
+GI07-872-MONOMER	GI07-872	C1CQX5	ABC transporter ATP-binding protein	
+GI07-429-MONOMER	GI07-429	C1CPQ7	orf	
+GI07-1521-MONOMER	GI07-1521	C1CSN7	PTS system, nitrogen regulatory component IIA, putative	
+GI07-154-MONOMER	GI07-154	C1CNZ3	orf	
+GI07-428-MONOMER	GI07-428	C1CPQ6	response regulator	
+GI07-1520-MONOMER	GI07-1520	C1CSN6	PTS system, IIA component	
+GI07-871-MONOMER	GI07-871	C1CQX4	cytoplasmic alpha-amylase	
+GI07-427-MONOMER	GI07-427	C1CPQ5	histidine kinase	
+GI07-1518-MONOMER	GI07-1518	C1CSN5	PTS system, IIC component	
+GI07-870-MONOMER	GI07-870	C1CQX3	alanyl-tRNA synthetase	AlaS
+GI07-426-MONOMER	GI07-426	C1CPQ4	orf	
+GI07-1517-MONOMER	GI07-1517	C1CSN4	allulose-6-phosphate 3-epimerase	
+GI07-1516-MONOMER	GI07-1516	C1CSN3	transketolase	
+GI07-869-MONOMER	GI07-869	C1CQX2	orf	
+GI07-425-MONOMER	GI07-425	C1CPQ3	isopentenyl pyrophosphate isomerase	Fni
+GI07-153-MONOMER	GI07-153	C1CNZ2	orf	
+GI07-1515-MONOMER	GI07-1515	C1CSN2	IS3-Spn1, transposase	
+GI07-1514-MONOMER	GI07-1514	C1CSN1	orf	
+GI07-868-MONOMER	GI07-868	C1CQX1	ABC transporter substrate-binding protein -	
+GI07-424-MONOMER	GI07-424	C1CPQ2	phosphomevalonate kinase	
+GI07-1513-MONOMER	GI07-1513	C1CSN0	orf	
+GI07-1512-MONOMER	GI07-1512	C1CSM9	Bcl-2 family protein	
+GI07-867-MONOMER	GI07-867	C1CQX0	spermidine/putrescine ABC transporter permease	
+GI07-423-MONOMER	GI07-423	C1CPQ1	diphosphomevalonate decarboxylase	MvaD
+GI07-1511-MONOMER	GI07-1511	C1CSM8	orf	
+GI07-152-MONOMER	GI07-152	C1CNZ1	orf	
+GI07-1510-MONOMER	GI07-1510	C1CSM7	FAD dependent oxidoreductase	
+GI07-866-MONOMER	GI07-866	C1CQW9	spermidine/putrescine ABC transporter permease	
+GI07-422-MONOMER	GI07-422	C1CPQ0	mevalonate kinase	Mvk
+GI07-1508-MONOMER	GI07-1508	C1CSM6	UDP-glucose 4-epimerase	
+GI07-1507-MONOMER	GI07-1507	C1CSM5	bactoprenol glucosyl transferase	
+GI07-865-MONOMER	GI07-865	C1CQW8	spermidine/putrescine import ATP-binding protein PotA	
+GI07-1506-MONOMER	GI07-1506	C1CSM4	ferredoxin	
+GI07-421-MONOMER	GI07-421	C1CPP9	choline-binding protein F	
+GI07-1505-MONOMER	GI07-1505	C1CSM3	orf	
+GI07-864-MONOMER	GI07-864	C1CQW7	UDP-N-acetylenolpyruvoylglucosamine reductase	MurB
+GI07-1504-MONOMER	GI07-1504	C1CSM2	cytidylate kinase	Cmk
+GI07-151-MONOMER	GI07-151	C1CNZ0	orf	
+GI07-420-MONOMER	GI07-420	C1CPP8	orf	
+GI07-1503-MONOMER	GI07-1503	C1CSM1	alkylphosphonate utilization operon protein PhnA	PhnA
+GI07-863-MONOMER	GI07-863	C1CQW6	orf	
+GI07-1502-MONOMER	GI07-1502	C1CSM0	orf	
+GI07-419-MONOMER	GI07-419	C1CPP7	orf	
+GI07-1501-MONOMER	GI07-1501	C1CSL9	orf	
+GI07-862-MONOMER	GI07-862	C1CQW5	alpha-acetolactate decarboxylase	
+GI07-1500-MONOMER	GI07-1500	C1CSL8	major facilitator superfamily transporter	
+GI07-418-MONOMER	GI07-418	C1CPP6	transporter, major facilitator family protein	
+GI07-1499-MONOMER	GI07-1499	C1CSL7	orf	
+GI07-861-MONOMER	GI07-861	C1CQW4	GntR family transcriptional regulator	
+GI07-150-MONOMER	GI07-150	C1CNY9	orf	
+GI07-1498-MONOMER	GI07-1498	C1CSL6	tRNA pseudouridine synthase A	TruA
+GI07-1497-MONOMER	GI07-1497	C1CSL5	phosphomethylpyrimidine kinase	
+GI07-860-MONOMER	GI07-860	C1CQW3	ABC transporter substrate-binding protein -	
+GI07-417-MONOMER	GI07-417	C1CPP5	choline binding protein J	
+GI07-1496-MONOMER	GI07-1496	C1CSL4	orf	
+GI07-1495-MONOMER	GI07-1495	C1CSL3	transposase	
+GI07-859-MONOMER	GI07-859	C1CQW2	phosphate transport system regulatory protein PhoU	
+GI07-1494-MONOMER	GI07-1494	C1CSL2	transposase	
+GI07-416-MONOMER	GI07-416	C1CPP4	choline-binding protein F	
+GI07-858-MONOMER	GI07-858	C1CQW1	phosphate transporter ATP-binding protein	
+GI07-149-MONOMER	GI07-149	C1CNY8	helix-turn-helix domain protein	
+GI07-1493-MONOMER	GI07-1493	C1CSL1	transposase	
+GI07-1492-MONOMER	GI07-1492	C1CSL0	transposase	
+GI07-857-MONOMER	GI07-857	C1CQW0	phosphate transporter ATP-binding protein	
+GI07-1491-MONOMER	GI07-1491	C1CSK9	acetyltransferase, gnat family	
+GI07-415-MONOMER	GI07-415	C1CPP3	response regulator	
+GI07-1490-MONOMER	GI07-1490	C1CSK8	Xaa-Pro dipeptidase	X-Pro dipeptidase, Prolinedipeptidase, Prolidase, Imidodipeptidase
+GI07-856-MONOMER	GI07-856	C1CQV9	phosphate ABC transporter permease	
+GI07-1489-MONOMER	GI07-1489	C1CSK7	cobyric acid synthase	
+GI07-414-MONOMER	GI07-414	C1CPP2	6-phosphogluconate dehydrogenase	Gnd
+GI07-148-MONOMER	GI07-148	C1CNY7	orf	
+GI07-1488-MONOMER	GI07-1488	C1CSK6	Mur ligase family protein	
+GI07-855-MONOMER	GI07-855	C1CQV8	phosphate ABC transporter permease	
+GI07-1487-MONOMER	GI07-1487	C1CSK5	pyridine nucleotide-disulfide oxidoreductase	
+GI07-1486-MONOMER	GI07-1486	C1CSK4	major facilitator:Oxalate:Formate Antiporter	
+GI07-854-MONOMER	GI07-854	C1CQV7	phosphate-binding protein PstS 1	PBP 1
+GI07-413-MONOMER	GI07-413	C1CPP1	orf	
+GI07-1485-MONOMER	GI07-1485	C1CSK3	cold-shock DEAD box protein A	
+GI07-853-MONOMER	GI07-853	C1CQV6	orf	
+GI07-1484-MONOMER	GI07-1484	C1CSK2	transcriptional repressor CodY	CodY
+GI07-1483-MONOMER	GI07-1483	C1CSK1	isochorismatase	
+GI07-147-MONOMER	GI07-147	C1CNY6	orf	
+GI07-852-MONOMER	GI07-852	C1CQV5	NOL1/NOP2/sun family protein	
+GI07-412-MONOMER	GI07-412	C1CPP0	methyltransferase	
+GI07-1481-MONOMER	GI07-1481	C1CSK0	multiple sugar-binding transport ATP-binding protein MsmK	
+GI07-1480-MONOMER	GI07-1480	C1CSJ9	SAM-dependent methyltransferase	
+GI07-851-MONOMER	GI07-851	C1CQV4	inositol monophosphatase family protein	
+GI07-1479-MONOMER	GI07-1479	C1CSJ8	adenine phosphoribosyltransferase	Apt
+GI07-1478-MONOMER	GI07-1478	C1CSJ7	orf	
+GI07-410-MONOMER	GI07-410	C1CPN9	cell division initiation protein	
+GI07-1477-MONOMER	GI07-1477	C1CSJ6	homoserine O-succinyltransferase	MetA
+GI07-850-MONOMER	GI07-850	C1CQV3	orf	
+GI07-146-MONOMER	GI07-146	C1CNY5	argininosuccinate synthase	Citrulline--aspartateligase
+GI07-1476-MONOMER	GI07-1476	C1CSJ5	DNA replication protein DnaD	
+GI07-849-MONOMER	GI07-849	C1CQV2	transcriptional regulator Spx	SpxA
+GI07-1475-MONOMER	GI07-1475	C1CSJ4	triosephosphate isomerase	TpiA
+GI07-409-MONOMER	GI07-409	C1CPN8	orf	
+GI07-1474-MONOMER	GI07-1474	C1CSJ3	lysozyme	
+GI07-848-MONOMER	GI07-848	C1CQV1	integral membrane protein	
+GI07-1473-MONOMER	GI07-1473	C1CSJ2	DNA protection during starvation protein	
+GI07-1472-MONOMER	GI07-1472	C1CSJ1	dihydrofolate reductase	FolA
+GI07-408-MONOMER	GI07-408	C1CPN7	Holliday junction-specific endonuclease	RecU
+GI07-145-MONOMER	GI07-145	C1CNY4	amino acid ABC transporter substrate-binding protein	
+GI07-847-MONOMER	GI07-847	C1CQV0	HAD-superfamily subfamily IIA hydrolase	
+GI07-1471-MONOMER	GI07-1471	C1CSJ0	orf	
+GI07-1470-MONOMER	GI07-1470	C1CSI9	ATP-dependent protease ATP-binding subunit ClpX	ClpX
+GI07-846-MONOMER	GI07-846	C1CQU9	acyl-ACP thioesterase	
+GI07-407-MONOMER	GI07-407	C1CPN6	penicillin-binding protein 1a	
+GI07-1469-MONOMER	GI07-1469	C1CSI8	ribosome biogenesis GTP-binding protein YsxC	EngB
+GI07-1468-MONOMER	GI07-1468	C1CSI7	endoribonuclease L-PSP, putative	
+GI07-845-MONOMER	GI07-845	C1CQU8	coproporphyrinogen III oxidase	
+GI07-1467-MONOMER	GI07-1467	C1CSI6	orf	
+GI07-144-MONOMER	GI07-144	C1CNY3	macrolide export ATP-binding/permease protein MacB	
+GI07-1466-MONOMER	GI07-1466	C1CSI5	transporter	
+GI07-406-MONOMER	GI07-406	C1CPN5	endo-alpha-N-acetylgalactosaminidase	
+GI07-844-MONOMER	GI07-844	C1CQU7	orf	
+GI07-1465-MONOMER	GI07-1465	C1CSI4	orf	
+GI07-1464-MONOMER	GI07-1464	C1CSI3	thioredoxin reductase	
+GI07-843-MONOMER	GI07-843	C1CQU6	orf	
+GI07-405-MONOMER	GI07-405	C1CPN4	oligopeptide binding protein	
+GI07-1463-MONOMER	GI07-1463	C1CSI2	orf	
+GI07-842-MONOMER	GI07-842	C1CQU5	prolipoprotein diacylglyceryl transferase	Lgt
+GI07-143-MONOMER	GI07-143	C1CNY2	amino acid ABC transporter permease	
+GI07-1462-MONOMER	GI07-1462	C1CSI1	lipoprotein, putative	
+GI07-1461-MONOMER	GI07-1461	C1CSI0	phosphoglucosamine mutase	GlmM
+GI07-841-MONOMER	GI07-841	C1CQU4	HPr kinase/phosphorylase	HprK
+GI07-404-MONOMER	GI07-404	C1CPN3	orf	
+GI07-1460-MONOMER	GI07-1460	C1CSH9	orf	
+GI07-840-MONOMER	GI07-840	C1CQU3	30S ribosomal protein S21	RpsU
+GI07-1459-MONOMER	GI07-1459	C1CSH8	orf	
+GI07-142-MONOMER	GI07-142	C1CNY1	bacteriocin, lactococcin 972 family	
+GI07-1458-MONOMER	GI07-1458	C1CSH7	dihydrodipicolinate reductase	DapB
+GI07-839-MONOMER	GI07-839	C1CQU2	glucosamine-6-phosphate deaminase	glucosamine-6-phosphate isomerase, gnpda, glcn6p deaminase
+GI07-1457-MONOMER	GI07-1457	C1CSH6	tRNA CCA-pyrophosphorylase	
+GI07-402-MONOMER	GI07-402	C1CPN2	dTDP-4-dehydrorhamnose reductase	RfbD
+GI07-1456-MONOMER	GI07-1456	C1CSH5	ABC transporter ATP-binding protein	
+GI07-838-MONOMER	GI07-838	C1CQU1	S-adenosylmethionine:tRNA ribosyltransferase-isomerase	QueA
+GI07-1455-MONOMER	GI07-1455	C1CSH4	cation efflux family protein	
+GI07-1454-MONOMER	GI07-1454	C1CSH3	calcium-transporting ATPase 1	
+GI07-837-MONOMER	GI07-837	C1CQU0	Spn1 transposase	
+GI07-401-MONOMER	GI07-401	C1CPN1	dTDP-glucose 4,6-dehydratase	RfbB
+GI07-1453-MONOMER	GI07-1453	C1CSH2	putative glutathione S-transferase YghU	
+GI07-141-MONOMER	GI07-141	C1CNY0	orf	
+GI07-1452-MONOMER	GI07-1452	C1CSH1	peptide deformylase	
+GI07-836-MONOMER	GI07-836	C1CQT9	choline binding protein	
+GI07-400-MONOMER	GI07-400	C1CPN0	dTDP-4-dehydrorhamnose 3,5-epimerase	
+GI07-1451-MONOMER	GI07-1451	C1CSH0	orf	
+GI07-1450-MONOMER	GI07-1450	C1CSG9	orf	
+GI07-835-MONOMER	GI07-835	C1CQT8	acetyltransferase, gnat family	
+GI07-1449-MONOMER	GI07-1449	C1CSG8	orf	
+GI07-399-MONOMER	GI07-399	C1CPM9	glucose-1-phosphate thymidylyltransferase	RfbA
+GI07-834-MONOMER	GI07-834	C1CQT7	NAD synthetase	NadE
+GI07-1448-MONOMER	GI07-1448	C1CSG7	M protein trans-acting positive transcriptional regulator	
+GI07-140-MONOMER	GI07-140	C1CNX9	LysM domain protein	
+GI07-1447-MONOMER	GI07-1447	C1CSG6	G5 domain family	
+GI07-833-MONOMER	GI07-833	C1CQT6	nicotinate phosphoribosyltransferase	PncB
+GI07-1446-MONOMER	GI07-1446	C1CSG5	oxidoreductase	
+GI07-398-MONOMER	GI07-398	C1CPM8	UDP-N-acetylglucosamine 2-epimerase	
+GI07-832-MONOMER	GI07-832	C1CQT5	orf	
+GI07-1445-MONOMER	GI07-1445	C1CSG4	orf	
+GI07-831-MONOMER	GI07-831	C1CQT4	orf	
+GI07-1444-MONOMER	GI07-1444	C1CSG3	peptidase propeptide and ypeb domain protein	
+GI07-1266-MONOMER	GI07-1266	C1CR82	Spn1 transposase	
+GI07-139-MONOMER	GI07-139	C1CNX8	L-serine dehydratase, iron-sulfur-dependent, beta subunit	
+GI07-2163-MONOMER	GI07-2163	C1CUB8	choline binding protein D	
+GI07-397-MONOMER	GI07-397	C1CPM7	flippase Wzx	
+GI07-1443-MONOMER	GI07-1443	C1CSG2	aspartate aminotransferase	
+GI07-1265-MONOMER	GI07-1265	C1CRZ4	lipoprotein, putative	
+GI07-97-MONOMER	GI07-97	C1CNT7	beta-galactosidase	Lactase
+GI07-830-MONOMER	GI07-830	C1CQT3	orf	
+GI07-746-MONOMER	GI07-746	C1CQK4	orf	
+GI07-1264-MONOMER	GI07-1264	C1CRZ3	mobile genetic element	
+GI07-396-MONOMER	GI07-396	C1CPM6	polysaccharide polymerase Cps19aI	
+GI07-1442-MONOMER	GI07-1442	C1CSG1	glyoxalase family protein, unverified point mutation	
+GI07-2162-MONOMER	GI07-2162	C1CUB7	orf	
+GI07-342-MONOMER	GI07-342	C1CPH4	putative otitis media-associated H10	
+GI07-1263-MONOMER	GI07-1263	C1CRZ2	orf	
+GI07-1441-MONOMER	GI07-1441	C1CSG0	asparaginyl-tRNA synthetase	AsnC
+GI07-829-MONOMER	GI07-829	C1CQT2	multidrug ABC transporter ATP-binding protein	
+GI07-96-MONOMER	GI07-96	C1CNT6	GntR family transcriptional regulator	
+GI07-395-MONOMER	GI07-395	C1CPM5	putative rhamnosyl transferase	
+GI07-1262-MONOMER	GI07-1262	C1CRZ1	orf	
+GI07-2161-MONOMER	GI07-2161	C1CUB6	ABC transporter permease	
+GI07-745-MONOMER	GI07-745	C1CQK3	orf	
+GI07-1261-MONOMER	GI07-1261	C1CRZ0	ABC transporter substrate-binding protein	
+GI07-1440-MONOMER	GI07-1440	C1CSF9	30S ribosomal protein S6	RpsF
+GI07-828-MONOMER	GI07-828	C1CQT1	peptidase, U32 family	
+GI07-138-MONOMER	GI07-138	C1CNX7	L-serine dehydratase, iron-sulfur-dependent, alpha subunit	
+GI07-341-MONOMER	GI07-341	C1CPH3	Ser/Thr protein phosphatase family protein	
+GI07-1439-MONOMER	GI07-1439	C1CSF8	single-stranded DNA-binding protein	
+GI07-1260-MONOMER	GI07-1260	C1CRY9	membrane protein	
+GI07-2160-MONOMER	GI07-2160	C1CUB5	ABC transporter substrate-binding protein	
+GI07-827-MONOMER	GI07-827	C1CQT0	orf	
+GI07-742-MONOMER	GI07-742	C1CQK2	sodium-dependent transporter	
+GI07-95-MONOMER	GI07-95	C1CNT5	beta-N-acetylhexosaminidase	
+GI07-394-MONOMER	GI07-394	C1CPM4	31.6 kDa cps19fG gene product	
+GI07-1259-MONOMER	GI07-1259	C1CRY8	orf	
+GI07-1438-MONOMER	GI07-1438	C1CSF7	30S ribosomal protein S18	RpsR
+GI07-826-MONOMER	GI07-826	C1CQS9	peptidase, U32 family protein	
+GI07-1258-MONOMER	GI07-1258	C1CRY7	S1 RNA binding domain protein	
+GI07-2159-MONOMER	GI07-2159	C1CUB4	anion ABC transporter ATP-binding protein	
+GI07-741-MONOMER	GI07-741	C1CQK1	mannose-6-phosphate isomerase, class I	ManA
+GI07-1437-MONOMER	GI07-1437	C1CSF6	Cof family protein/peptidyl-prolyl cis-trans isomerase, cyclophilin type	
+GI07-1257-MONOMER	GI07-1257	C1CRY6	orf	
+GI07-137-MONOMER	GI07-137	C1CNX6	phosphoglycolate phosphatase	
+GI07-94-MONOMER	GI07-94	C1CNT4	adenylosuccinate lyase	PurB
+GI07-340-MONOMER	GI07-340	C1CPH2	Ser/Thr protein phosphatase family protein	
+GI07-824-MONOMER	GI07-824	C1CQS8	DNA modification methyltransferase M.XbaI	
+GI07-1436-MONOMER	GI07-1436	C1CSF5	orf	
+GI07-2158-MONOMER	GI07-2158	C1CUB3	transcriptional regulator CtsR	
+GI07-1256-MONOMER	GI07-1256	C1CRY5	PspC domain family	
+GI07-740-MONOMER	GI07-740	C1CQK0	6-phospho-beta-glucosidase AscB	
+GI07-393-MONOMER	GI07-393	C1CPM3	UDP-N-acetyl-D-mannosamine transferase	
+GI07-1435-MONOMER	GI07-1435	C1CSF4	methyltransferase	
+GI07-1255-MONOMER	GI07-1255	C1CRY4	orf	
+GI07-822-MONOMER	GI07-822	C1CQS7	cobalt ABC transporter, ATPase component, CbiO	
+GI07-739-MONOMER	GI07-739	C1CQJ9	orf	
+GI07-93-MONOMER	GI07-93	C1CNT3	orf	
+GI07-2157-MONOMER	GI07-2157	C1CUB2	chaperone ClpB 1	
+GI07-1434-MONOMER	GI07-1434	C1CSF3	orf	
+GI07-1254-MONOMER	GI07-1254	C1CRY3	bacitracin export ATP-binding protein BceA	
+GI07-1433-MONOMER	GI07-1433	C1CSF2	putative manganese-dependent inorganic pyrophosphatase	
+GI07-821-MONOMER	GI07-821	C1CQS6	orf	
+GI07-392-MONOMER	GI07-392	C1CPM2	galactosyl transferase CpsE	
+GI07-339-MONOMER	GI07-339	C1CPH1	Rep protein	
+GI07-738-MONOMER	GI07-738	C1CQJ8	transposase	
+GI07-136-MONOMER	GI07-136	C1CNX5	CapD protein, required for the biosynthesis of type 1 capsular polysaccharide	
+GI07-2156-MONOMER	GI07-2156	C1CUB1	DNA alkylation repair enzyme	
+GI07-1253-MONOMER	GI07-1253	C1CRY2	antimicrobial peptide ABC transporter permease	
+GI07-1432-MONOMER	GI07-1432	C1CSF1	orf	
+GI07-92-MONOMER	GI07-92	C1CNT2	phosphoribosylaminoimidazole carboxylase ATPase subunit	PurK
+GI07-820-MONOMER	GI07-820	C1CQS5	orf	
+GI07-1252-MONOMER	GI07-1252	C1CRY1	integral membrane protein	
+GI07-1431-MONOMER	GI07-1431	C1CSF0	orf	
+GI07-737-MONOMER	GI07-737	C1CQJ7	transposase family protein	
+GI07-391-MONOMER	GI07-391	C1CPM1	tyrosine-protein kinase CpsD	
+GI07-2155-MONOMER	GI07-2155	C1CUB0	DNA-binding response regulator	
+GI07-1430-MONOMER	GI07-1430	C1CSE9	orf	
+GI07-1251-MONOMER	GI07-1251	C1CRY0	transposase	
+GI07-819-MONOMER	GI07-819	C1CQS4	ABC transporter ATP-binding protein	
+GI07-1429-MONOMER	GI07-1429	C1CSE8	UDP-N-acetylmuramoylalanyl-D-glutamate--L-lysine ligase	
+GI07-736-MONOMER	GI07-736	C1CQJ6	glyoxalase family protein	
+GI07-91-MONOMER	GI07-91	C1CNT1	phosphoribosylaminoimidazole carboxylase, catalytic subunit	PurE
+GI07-338-MONOMER	GI07-338	C1CPH0	transcriptional regulator, AlpA family	
+GI07-1250-MONOMER	GI07-1250	C1CRX9	arginine decarboxylase	
+GI07-2154-MONOMER	GI07-2154	C1CUA9	histidine kinase	
+GI07-390-MONOMER	GI07-390	C1CPM0	capsular polysaccharide biosynthesis protein CpsC	
+GI07-1428-MONOMER	GI07-1428	C1CSE7	polysaccharide transporter	
+GI07-135-MONOMER	GI07-135	C1CNX4	glycosyl transferase	
+GI07-818-MONOMER	GI07-818	C1CQS3	ABC transporter ATP-binding protein/permease	
+GI07-1249-MONOMER	GI07-1249	C1CRX8	transposase	
+GI07-735-MONOMER	GI07-735	C1CQJ5	pyruvate oxidase	SpxB
+GI07-1427-MONOMER	GI07-1427	C1CSE6	oligopeptide-binding protein AliB	
+GI07-2153-MONOMER	GI07-2153	C1CUA8	orf	
+GI07-1248-MONOMER	GI07-1248	C1CRX7	transposase	
+GI07-1425-MONOMER	GI07-1425	C1CSE5	cystathionine gamma-synthase	
+GI07-90-MONOMER	GI07-90	C1CNT0	phosphoribosylamine--glycine ligase	PurD
+GI07-817-MONOMER	GI07-817	C1CQS2	AraC family transcriptional regulator	
+GI07-1247-MONOMER	GI07-1247	C1CRX6	orf	
+GI07-2152-MONOMER	GI07-2152	C1CUA7	surface protein PspC	
+GI07-734-MONOMER	GI07-734	C1CQJ4	cation-transporting ATPase PacS	
+GI07-389-MONOMER	GI07-389	C1CPL9	tyrosine-protein phosphatase CpsB	
+GI07-1246-MONOMER	GI07-1246	C1CRX5	spermidine synthase	SpeE
+GI07-1424-MONOMER	GI07-1424	C1CSE4	putative aminotransferase B	
+GI07-337-MONOMER	GI07-337	C1CPG9	integrase/recombinase, phage integrase family	
+GI07-2148-MONOMER	GI07-2148	C1CUA6	tRNA-dihydrouridine synthase B	
+GI07-1245-MONOMER	GI07-1245	C1CRX4	saccharopine dehydrogenase	Lys
+GI07-816-MONOMER	GI07-816	C1CQS1	orf	
+GI07-733-MONOMER	GI07-733	C1CQJ3	orf	
+GI07-89-MONOMER	GI07-89	C1CNS9	bifunctional phosphoribosylaminoimidazolecarboxamide formyltransferase/IMP cyclohydrolase	PurH
+GI07-134-MONOMER	GI07-134	C1CNX3	cyanate permease	
+GI07-1423-MONOMER	GI07-1423	C1CSE3	Snf2 family protein	
+GI07-1244-MONOMER	GI07-1244	C1CRX3	carboxynorspermidine decarboxylase	NspC
+GI07-388-MONOMER	GI07-388	C1CPL8	integral membrane regulatory protein Wzg	
+GI07-2147-MONOMER	GI07-2147	C1CUA5	Hsp33-like chaperonin	HslO
+GI07-1422-MONOMER	GI07-1422	C1CSE2	orf	
+GI07-1243-MONOMER	GI07-1243	C1CRX2	agmatine deiminase	AguA
+GI07-814-MONOMER	GI07-814	C1CQS0	GMP synthase	GuaA
+GI07-732-MONOMER	GI07-732	C1CQJ2	copper transport repressor, CopY/TcrY family	
+GI07-1421-MONOMER	GI07-1421	C1CSE1	UDP-N-acetylmuramate--L-alanine ligase	MurC
+GI07-2146-MONOMER	GI07-2146	C1CUA4	M protein trans-acting positive regulator	MGA
+GI07-336-MONOMER	GI07-336	C1CPG8	30S ribosomal protein S9	RpsI
+GI07-1242-MONOMER	GI07-1242	C1CRX1	N-carbamoylputrescine amidase	AguB
+GI07-88-MONOMER	GI07-88	C1CNS8	teicoplanin resistance protein	
+GI07-387-MONOMER	GI07-387	C1CPL7	trehalose-6-phosphate hydrolase	Alpha,alpha-phosphotrehalase
+GI07-1241-MONOMER	GI07-1241	C1CRX0	Cof family protein	
+GI07-813-MONOMER	GI07-813	C1CQR9	GntR family transcriptional regulator	
+GI07-731-MONOMER	GI07-731	C1CQJ1	phosphomethylpyrimidine kinase	ThiD
+GI07-1420-MONOMER	GI07-1420	C1CSE0	acetyltransferase, gnat family	
+GI07-1240-MONOMER	GI07-1240	C1CRW9	orf	
+GI07-2145-MONOMER	GI07-2145	C1CUA3	glycerol kinase	GlpK
+GI07-133-MONOMER	GI07-133	C1CNX2	transcriptional regulator, PadR family	
+GI07-1239-MONOMER	GI07-1239	C1CRW8	caax amino protease family	
+GI07-1419-MONOMER	GI07-1419	C1CSD9	acetyltransferase, gnat family	
+GI07-386-MONOMER	GI07-386	C1CPL6	orf	
+GI07-730-MONOMER	GI07-730	C1CQJ0	thiamine-phosphate pyrophosphorylase	ThiE
+GI07-812-MONOMER	GI07-812	C1CQR8	membrane protein	
+GI07-1238-MONOMER	GI07-1238	C1CRW7	orf	
+GI07-87-MONOMER	GI07-87	C1CNS7	phosphoribosylglycinamide formyltransferase	PurN
+GI07-1418-MONOMER	GI07-1418	C1CSD8	aminodeoxychorismate lyase	
+GI07-335-MONOMER	GI07-335	C1CPG7	50S ribosomal protein L13	RplM
+GI07-2144-MONOMER	GI07-2144	C1CUA2	alpha-glycerophosphate oxidase	Glycerol-3-phosphateoxidase, Exported protein 6
+GI07-1237-MONOMER	GI07-1237	C1CRW6	regulatory function on capsule expression in group B streptococci	
+GI07-1417-MONOMER	GI07-1417	C1CSD7	transcription elongation factor GreA	GreA
+GI07-729-MONOMER	GI07-729	C1CQI9	hydroxyethylthiazole kinase	
+GI07-811-MONOMER	GI07-811	C1CQR7	beta-lactamase	
+GI07-1236-MONOMER	GI07-1236	C1CRW5	lipoprotein signal peptidase	LspA
+GI07-1416-MONOMER	GI07-1416	C1CSD6	chlorohydrolase	
+GI07-2143-MONOMER	GI07-2143	C1CUA1	glycerol uptake facilitator protein	
+GI07-385-MONOMER	GI07-385	C1CPL5	S-ribosylhomocysteinase	LuxS
+GI07-1235-MONOMER	GI07-1235	C1CRW4	ribosomal large subunit pseudouridine synthase D, ribosomal large subunit pseudouridine synthase D	rRNA-uridine isomerase D, rRNA pseudouridylate synthase D
+GI07-132-MONOMER	GI07-132	C1CNX1	orf	
+GI07-1415-MONOMER	GI07-1415	C1CSD5	acetyltransferase, gnat family protein	
+GI07-86-MONOMER	GI07-86	C1CNS6	phosphoribosylaminoimidazole synthetase	PurM
+GI07-728-MONOMER	GI07-728	C1CQI8	ThiW protein	ThiW
+GI07-2142-MONOMER	GI07-2142	C1CUA0	orf	
+GI07-810-MONOMER	GI07-810	C1CQR6	CppA protein	
+GI07-1234-MONOMER	GI07-1234	C1CRW3	choline binding protein E	
+GI07-1413-MONOMER	GI07-1413	C1CSD4	F0F1 ATP synthase subunit C	
+GI07-1233-MONOMER	GI07-1233	C1CRW2	gamma-glutamyl kinase	ProB
+GI07-334-MONOMER	GI07-334	C1CPG6	orf	
+GI07-1412-MONOMER	GI07-1412	C1CSD3	F0F1 ATP synthase subunit A	AtpB
+GI07-2141-MONOMER	GI07-2141	C1CU99	orf	
+GI07-727-MONOMER	GI07-727	C1CQI7	tena/thi-4 family	
+GI07-1232-MONOMER	GI07-1232	C1CRW1	gamma-glutamyl phosphate reductase	ProA
+GI07-809-MONOMER	GI07-809	C1CQR5	orf	
+GI07-383-MONOMER	GI07-383	C1CPL4	ATP-dependent Clp protease ATP-binding subunit ClpL	
+GI07-1411-MONOMER	GI07-1411	C1CSD2	F0F1 ATP synthase subunit B	AtpF
+GI07-85-MONOMER	GI07-85	C1CNS5	amidophosphoribosyltransferase	PurF
+GI07-1231-MONOMER	GI07-1231	C1CRW0	pyrroline-5-carboxylate reductase	ProC
+GI07-2140-MONOMER	GI07-2140	C1CU98	orf	
+GI07-1410-MONOMER	GI07-1410	C1CSD1	F0F1 ATP synthase subunit delta	AtpH
+GI07-726-MONOMER	GI07-726	C1CQI6	orf	
+GI07-1230-MONOMER	GI07-1230	C1CRV9	thymidylate kinase	Tmk
+GI07-808-MONOMER	GI07-808	C1CQR4	orf	
+GI07-382-MONOMER	GI07-382	C1CPL3	phospho-N-acetylmuramoyl-pentapeptide-transferase	MraY
+GI07-2137-MONOMER	GI07-2137	C1CU97	permease of the major facilitator superfamily	
+GI07-1409-MONOMER	GI07-1409	C1CSD0	F0F1 ATP synthase subunit alpha	AtpA
+GI07-131-MONOMER	GI07-131	C1CNX0	orf	
+GI07-1229-MONOMER	GI07-1229	C1CRV8	DNA polymerase III subunit delta	
+GI07-1408-MONOMER	GI07-1408	C1CSC9	F0F1 ATP synthase subunit gamma	AtpG
+GI07-806-MONOMER	GI07-806	C1CQR3	orf	
+GI07-1228-MONOMER	GI07-1228	C1CRV7	DNA replication intiation control protein YabA	
+GI07-333-MONOMER	GI07-333	C1CPG5	bifunctional folate synthesis protein	
+GI07-84-MONOMER	GI07-84	C1CNS4	phosphoribosylformylglycinamidine synthase	
+GI07-2136-MONOMER	GI07-2136	C1CU96	orf	
+GI07-725-MONOMER	GI07-725	C1CQI5	cobalt ABC transporter ATP-binding protein	
+GI07-1407-MONOMER	GI07-1407	C1CSC8	F0F1 ATP synthase subunit beta	AtpD
+GI07-1227-MONOMER	GI07-1227	C1CRV6	orf	
+GI07-381-MONOMER	GI07-381	C1CPL2	penicillin-binding protein 2x	
+GI07-1226-MONOMER	GI07-1226	C1CRV5	tRNA (uracil-5-)-methyltransferase Gid	
+GI07-1406-MONOMER	GI07-1406	C1CSC7	F0F1 ATP synthase subunit epsilon	AtpC
+GI07-805-MONOMER	GI07-805	C1CQR2	peptide deformylase	Def
+GI07-2135-MONOMER	GI07-2135	C1CU95	D-alanine--poly(phosphoribitol) ligase subunit 1	DltA
+GI07-1225-MONOMER	GI07-1225	C1CRV4	uridylate kinase	PyrH
+GI07-1405-MONOMER	GI07-1405	C1CSC6	3-carboxymuconate cyclase	
+GI07-724-MONOMER	GI07-724	C1CQI4	cobalt ABC transporter permease	
+GI07-380-MONOMER	GI07-380	C1CPL1	cell division protein FtsL	FtsL
+GI07-332-MONOMER	GI07-332	C1CPG4	GTP cyclohydrolase I	FolE
+GI07-83-MONOMER	GI07-83	C1CNS3	phosphoribosylaminoimidazole-succinocarboxamide synthase	saicar synthetase
+GI07-1224-MONOMER	GI07-1224	C1CRV3	ribosome recycling factor	Frr
+GI07-1404-MONOMER	GI07-1404	C1CSC5	transport protein	
+GI07-804-MONOMER	GI07-804	C1CQR1	RNA methyltransferase, TrmH family, group 3	
+GI07-130-MONOMER	GI07-130	C1CNW9	orf	
+GI07-1223-MONOMER	GI07-1223	C1CRV2	s1 RNA binding domain protein	
+GI07-2134-MONOMER	GI07-2134	C1CU94	protein DltB	
+GI07-1403-MONOMER	GI07-1403	C1CSC4	TPR domain protein	
+GI07-723-MONOMER	GI07-723	C1CQI3	thiamine-phosphate pyrophosphorylase	
+GI07-1222-MONOMER	GI07-1222	C1CRV1	orf	
+GI07-379-MONOMER	GI07-379	C1CPL0	S-adenosyl-methyltransferase MraW	MraW
+GI07-1402-MONOMER	GI07-1402	C1CSC3	amino acid ABC transporter permease	
+GI07-803-MONOMER	GI07-803	C1CQR0	thioredoxin-disulfide reductase	TrxB
+GI07-1221-MONOMER	GI07-1221	C1CRV0	PhoH family protein	
+GI07-2133-MONOMER	GI07-2133	C1CU93	D-alanine--poly(phosphoribitol) ligase subunit 2	DltC
+GI07-1401-MONOMER	GI07-1401	C1CSC2	glutamine transport ATP-binding protein GlnQ	
+GI07-82-MONOMER	GI07-82	C1CNS2	phosphoribosylaminoimidazole-succinocarboxamide synthase	PurC
+GI07-722-MONOMER	GI07-722	C1CQI2	hydroxyethylthiazole kinase	ThiM
+GI07-331-MONOMER	GI07-331	C1CPG3	folylpolyglutamate synthase	folylpoly-gamma-glutamatesynthetase, fpgs, tetrahydrofolate synthase, (tetrahydrofolylpolyglutamate synthase)
+GI07-1220-MONOMER	GI07-1220	C1CRU9	orf	
+GI07-378-MONOMER	GI07-378	C1CPK9	orf	
+GI07-1400-MONOMER	GI07-1400	C1CSC1	ABC transporter substrate-binding protein -	
+GI07-2131-MONOMER	GI07-2131	C1CU92	orf	
+GI07-129-MONOMER	GI07-129	C1CNW8	macrolide export ATP-binding/permease protein MacB	
+GI07-1219-MONOMER	GI07-1219	C1CRU8	acetyltransferase, gnat family	
+GI07-1399-MONOMER	GI07-1399	C1CSC0	bacterocin transport accessory protein	
+GI07-802-MONOMER	GI07-802	C1CQQ9	orf	
+GI07-721-MONOMER	GI07-721	C1CQI1	tena/thi-4 family	
+GI07-1398-MONOMER	GI07-1398	C1CSB9	phosphomannomutase	
+GI07-81-MONOMER	GI07-81	C1CNS1	transport protein ComB	
+GI07-377-MONOMER	GI07-377	C1CPK8	orf	
+GI07-1218-MONOMER	GI07-1218	C1CRU7	TfoX N- domain family protein	
+GI07-1397-MONOMER	GI07-1397	C1CSB8	transposase	
+GI07-2130-MONOMER	GI07-2130	C1CU91	putative transcriptional repressor	
+GI07-330-MONOMER	GI07-330	C1CPG2	dihydropteroate synthase	FolP
+GI07-1216-MONOMER	GI07-1216	C1CRU6	acetyltransferase, gnat family	
+GI07-720-MONOMER	GI07-720	C1CQI0	L-lactate oxidase	LctO
+GI07-801-MONOMER	GI07-801	C1CQQ8	L-cystine import ATP-binding protein TcyN	
+GI07-1396-MONOMER	GI07-1396	C1CSB7	transposase	
+GI07-1215-MONOMER	GI07-1215	C1CRU5	competence protein	
+GI07-376-MONOMER	GI07-376	C1CPK7	orf	
+GI07-1395-MONOMER	GI07-1395	C1CSB6	transposase	
+GI07-2129-MONOMER	GI07-2129	C1CU90	zinc transport system ATP-binding protein AdcC	
+GI07-80-MONOMER	GI07-80	C1CNS0	transport/processing ATP-binding protein ComA	
+GI07-1214-MONOMER	GI07-1214	C1CRU4	DNA internalization-related competence protein ComEC/Rec2	
+GI07-128-MONOMER	GI07-128	C1CNW7	orf	
+GI07-1394-MONOMER	GI07-1394	C1CSB5	orf	
+GI07-800-MONOMER	GI07-800	C1CQQ7	aspartate/glutamate ABC transporter permease	
+GI07-719-MONOMER	GI07-719	C1CNM6	Spn1 transposase	
+GI07-1393-MONOMER	GI07-1393	C1CSB4	orf	
+GI07-1213-MONOMER	GI07-1213	C1CRU3	ABC transporter ATP-binding protein	
+GI07-375-MONOMER	GI07-375	C1CPK6	orf	
+GI07-2128-MONOMER	GI07-2128	C1CU89	zinc ABC transporter permease	
+GI07-329-MONOMER	GI07-329	C1CPG1	caax amino protease family protein	
+GI07-1392-MONOMER	GI07-1392	C1CSB3	MucBP domain family	
+GI07-1212-MONOMER	GI07-1212	C1CRU2	orf	
+GI07-799-MONOMER	GI07-799	C1CQQ6	arsenate reductase	
+GI07-718-MONOMER	GI07-718	C1CQH8	lysyl-tRNA synthetase	LysS
+GI07-1391-MONOMER	GI07-1391	C1CSB2	glycerol facilitator-aquaporin gla	Aquaglyceroporin, (Glyceroaquaporin)
+GI07-79-MONOMER	GI07-79	C1CNR9	orf	
+GI07-374-MONOMER	GI07-374	C1CPK5	orf	
+GI07-1211-MONOMER	GI07-1211	C1CRU1	translation initiation factor IF-3	InfC
+GI07-1390-MONOMER	GI07-1390	C1CSB1	orf	
+GI07-2127-MONOMER	GI07-2127	C1CU88	zinc-binding lipoprotein AdcA	
+GI07-1389-MONOMER	GI07-1389	C1CSB0	elongation factor Tu	Tuf
+GI07-798-MONOMER	GI07-798	C1CQQ5	O6-methylguanine-DNA methyltransferase	
+GI07-717-MONOMER	GI07-717	C1CQH7	orf	
+GI07-1388-MONOMER	GI07-1388	C1CQ27	Spn1 transposase	
+GI07-1210-MONOMER	GI07-1210	C1CRU0	50S ribosomal protein L35	RpmI
+GI07-127-MONOMER	GI07-127	C1CNW6	Spn1 transposase	
+GI07-2126-MONOMER	GI07-2126	C1CU87	regulator of fucose operon	
+GI07-328-MONOMER	GI07-328	C1CPG0	inner membrane protein YicO	
+GI07-1387-MONOMER	GI07-1387	C1CSA8	hydrolase, alpha/beta fold family, putative	
+GI07-373-MONOMER	GI07-373	C1CPK4	orf	
+GI07-797-MONOMER	GI07-797	C1CQQ4	acetyltransferase, gnat family	
+GI07-1386-MONOMER	GI07-1386	C1CSA7	16S rRNA-processing protein RimM	RimM
+GI07-78-MONOMER	GI07-78	C1CNR8	orf	
+GI07-1209-MONOMER	GI07-1209	C1CRT9	50S ribosomal protein L20	RplT
+GI07-716-MONOMER	GI07-716	C1CQH6	glutamine ABC transporter permease	
+GI07-1385-MONOMER	GI07-1385	C1CSA6	tRNA (guanine-N(1)-)-methyltransferase	TrmD
+GI07-2125-MONOMER	GI07-2125	C1CU86	rhamnulokinase	Rhamnulose kinase
+GI07-372-MONOMER	GI07-372	C1CPK3	sugar binding transcriptional regulator RegR	
+GI07-1384-MONOMER	GI07-1384	C1CSA5	oxygen-sensitive ribonucleoside-triphosphate reductase	
+GI07-796-MONOMER	GI07-796	C1CQQ3	orf	
+GI07-1208-MONOMER	GI07-1208	C1CRT8	lactoylglutathione lyase	
+GI07-715-MONOMER	GI07-715	C1CQH5	glutamine ABC transporter permease	
+GI07-2124-MONOMER	GI07-2124	C1CU85	L-fuculose phosphate aldolase	
+GI07-1383-MONOMER	GI07-1383	C1CSA4	orf	
+GI07-327-MONOMER	GI07-327	C1CPF9	Cof family protein	
+GI07-1382-MONOMER	GI07-1382	C1CSA3	orf	
+GI07-1207-MONOMER	GI07-1207	C1CRT7	dihydroorotate dehydrogenase electron transfer subunit	
+GI07-795-MONOMER	GI07-795	C1CQQ2	hemolysin-3	Hemolysin III, Hly-III
+GI07-371-MONOMER	GI07-371	C1CPK2	oligohyaluronate lyase	
+GI07-77-MONOMER	GI07-77	C1CNR7	mobile genetic element	
+GI07-126-MONOMER	GI07-126	C1CNW5	orf	
+GI07-1381-MONOMER	GI07-1381	C1CSA2	chlorohydrolase	
+GI07-2123-MONOMER	GI07-2123	C1CU84	fucose operon FucU protein	
+GI07-713-MONOMER	GI07-713	C1CQH4	glutamine ABC transporter permease	
+GI07-1206-MONOMER	GI07-1206	C1CRT6	dihydroorotate dehydrogenase 1B	
+GI07-1380-MONOMER	GI07-1380	C1CSA1	biotin synthase	
+GI07-794-MONOMER	GI07-794	C1CQQ1	glutamine amidotransferase subunit PdxT	
+GI07-2122-MONOMER	GI07-2122	C1CU83	PTS system, IIA component	
+GI07-1379-MONOMER	GI07-1379	C1CSA0	glutathione reductase	Gor
+GI07-1205-MONOMER	GI07-1205	C1CRT5	endo-beta-N-acetylglucosaminidase	
+GI07-710-MONOMER	GI07-710	C1CQH3	ABC transporter ATP-binding protein	
+GI07-370-MONOMER	GI07-370	C1CPK1	preprotein translocase, YajC subunit	
+GI07-1378-MONOMER	GI07-1378	C1CS99	membrane-fusion protein	
+GI07-793-MONOMER	GI07-793	C1CQQ0	pyridoxal biosynthesis lyase PdxS	
+GI07-2121-MONOMER	GI07-2121	C1CU82	PTS system, IIB component	
+GI07-326-MONOMER	GI07-326	C1CPF8	orf	
+GI07-76-MONOMER	GI07-76	C1CNR6	orf	
+GI07-1377-MONOMER	GI07-1377	C1CS98	macrolide export ATP-binding/permease protein MacB	
+GI07-1204-MONOMER	GI07-1204	C1CRT4	fibronectin/fibrinogen binding protein	
+GI07-709-MONOMER	GI07-709	C1CQH2	orf	
+GI07-1376-MONOMER	GI07-1376	C1CS97	antimicrobial peptide ABC transporter permease	
+GI07-1203-MONOMER	GI07-1203	C1CRT3	putative metalloprotease	
+GI07-1375-MONOMER	GI07-1375	C1CS96	methionyl-tRNA synthetase	MetG
+GI07-369-MONOMER	GI07-369	C1CPK0	PTS system, IID component	
+GI07-2120-MONOMER	GI07-2120	C1CU81	phosphotransferase system sugar-specific EII component	
+GI07-125-MONOMER	GI07-125	C1CNW4	orf	
+GI07-792-MONOMER	GI07-792	C1CQP9	NADH oxidase, NADH oxidase	noxase
+GI07-1374-MONOMER	GI07-1374	C1CS95	orf	
+GI07-708-MONOMER	GI07-708	C1CQH1	orf	
+GI07-1202-MONOMER	GI07-1202	C1CRT2	diacylglycerol kinase	dagk, diglyceride kinase, (dgk)
+GI07-75-MONOMER	GI07-75	C1CNR5	putative glycerol-3-phosphate acyltransferase PlsX	PlsX
+GI07-1373-MONOMER	GI07-1373	C1CS94	transcriptional regulator, PadR family	
+GI07-325-MONOMER	GI07-325	C1CPF7	alcohol dehydrogenase	
+GI07-1201-MONOMER	GI07-1201	C1CRT1	GTP-binding protein Era	Era
+GI07-707-MONOMER	GI07-707	C1CQH0	orf	
+GI07-1372-MONOMER	GI07-1372	C1CS93	orf	
+GI07-368-MONOMER	GI07-368	C1CPJ9	phosphotransferase system sugar-specific EII component	
+GI07-791-MONOMER	GI07-791	C1CQP8	thiamine biosynthesis lipoprotein	
+GI07-1371-MONOMER	GI07-1371	C1CS92	oxidoreductase, aldo/keto reductase family	
+GI07-2119-MONOMER	GI07-2119	C1CU80	mannose permease iid component	pts system mannose-specific eiidcomponent, eiid-man, eii-m-man
+GI07-1200-MONOMER	GI07-1200	C1CRT0	formamidopyrimidine-DNA glycosylase	MutM
+GI07-706-MONOMER	GI07-706	C1CQG9	orf	
+GI07-1370-MONOMER	GI07-1370	C1CS91	orf	
+GI07-74-MONOMER	GI07-74	C1CNR4	DNA repair protein RecO	RecO
+GI07-124-MONOMER	GI07-124	C1CNW3	orf	
+GI07-1199-MONOMER	GI07-1199	C1CRS9	dephospho-CoA kinase	CoaE
+GI07-1369-MONOMER	GI07-1369	C1CS90	3-ketoacyl-ACP reductase	FabG
+GI07-790-MONOMER	GI07-790	C1CQP7	NADPH-dependent fmn reductase domain protein	
+GI07-2118-MONOMER	GI07-2118	C1CU79	large secreted protein	
+GI07-367-MONOMER	GI07-367	C1CPJ8	N-acetylgalactosamine-specific phosphotransferase enzyme iib component2	pts system n-acetylgalactosamine-specific eiibcomponent 2, eiib-aga'
+GI07-324-MONOMER	GI07-324	C1CPF6	mannose-specific phosphotransferase system component iiab	
+GI07-705-MONOMER	GI07-705	C1CQG8	orotate phosphoribosyltransferase	PyrE
+GI07-1368-MONOMER	GI07-1368	C1CS89	MutT/nudix family protein	
+GI07-1198-MONOMER	GI07-1198	C1CRS8	multidrug resistance protein MdtG	
+GI07-73-MONOMER	GI07-73	C1CNR3	aromatic amino acid aminotransferase	
+GI07-1367-MONOMER	GI07-1367	C1CS88	PEP-utilizing enzyme family protein	
+GI07-789-MONOMER	GI07-789	C1CQP6	NADPH-dependent fmn reductase domain protein	
+GI07-2117-MONOMER	GI07-2117	C1CU78	glycosyl hydrolase family 98 C- domain protein	
+GI07-1366-MONOMER	GI07-1366	C1CS87	orf	
+GI07-1197-MONOMER	GI07-1197	C1CRS7	50S ribosomal protein L33	RpmG
+GI07-704-MONOMER	GI07-704	C1CQG7	orotidine 5'-phosphate decarboxylase	PyrF
+GI07-366-MONOMER	GI07-366	C1CPJ7	unsaturated glucuronyl hydrolase	UGL, Glycuronidase, (Unsaturated uronic acid hydrolase), Glycosaminoglycan hydrolase
+GI07-1365-MONOMER	GI07-1365	C1CS86	aminopeptidase N	
+GI07-323-MONOMER	GI07-323	C1CPF5	PTS system sorbose-specific IIc component	
+GI07-1364-MONOMER	GI07-1364	C1CS85	transcriptional regulatory protein CiaR	
+GI07-788-MONOMER	GI07-788	C1CQP5	orf	
+GI07-1196-MONOMER	GI07-1196	C1CRS6	preprotein translocase subunit SecG	SecG
+GI07-703-MONOMER	GI07-703	C1CQG6	cell division protein DivIB	
+GI07-72-MONOMER	GI07-72	C1CNR2	orf	
+GI07-123-MONOMER	GI07-123	C1CNW2	ABC transporter substrate-binding protein	
+GI07-1363-MONOMER	GI07-1363	C1CS84	sensor protein CiaH	
+GI07-2116-MONOMER	GI07-2116	C1CU77	L-fucose isomerase	FucI
+GI07-1362-MONOMER	GI07-1362	C1CS83	orf	
+GI07-787-MONOMER	GI07-787	C1CQP4	glycyl-tRNA synthetase subunit beta	GlyS
+GI07-1195-MONOMER	GI07-1195	C1CRS5	ribonuclease R	Rnr
+GI07-365-MONOMER	GI07-365	C1CPJ6	phosphotransferase system sugar-specific EII component	
+GI07-702-MONOMER	GI07-702	C1CQG5	UDP diphospho-muramoyl pentapeptide beta-N acetylglucosaminyl transferase	MurG
+GI07-1361-MONOMER	GI07-1361	C1CS82	protease	
+GI07-322-MONOMER	GI07-322	C1CPF4	PTS system, mannose/fructose/sorbose family, IID component	
+GI07-2115-MONOMER	GI07-2115	C1CU76	NAD-dependent methanol dehydrogenase, NAD-dependent methanol dehydrogenase	medh
+GI07-1360-MONOMER	GI07-1360	C1CS81	bifunctional ATP-dependent DNA helicase/DNA polymerase III subunit epsilon	
+GI07-786-MONOMER	GI07-786	C1CQP3	glycyl-tRNA synthetase subunit alpha	GlyQ
+GI07-1194-MONOMER	GI07-1194	C1CRS4	SsrA-binding protein	SmpB
+GI07-701-MONOMER	GI07-701	C1CQG4	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate synthetase	MurD
+GI07-71-MONOMER	GI07-71	C1CNR1	CoA binding protein	
+GI07-364-MONOMER	GI07-364	C1CPJ5	gluconate 5-dehydrogenase	
+GI07-1359-MONOMER	GI07-1359	C1CS80	RodA	
+GI07-1193-MONOMER	GI07-1193	C1CRS3	tellurite resistance protein TehB	TehB
+GI07-2114-MONOMER	GI07-2114	C1CU75	spfh domain/band 7 family	
+GI07-785-MONOMER	GI07-785	C1CQP2	orf	
+GI07-700-MONOMER	GI07-700	C1CQG3	Na+ ABC transporter ATP-binding protein	
+GI07-122-MONOMER	GI07-122	C1CNW1	protein LplC	
+GI07-1358-MONOMER	GI07-1358	C1CS79	putative 4-methyl-5(b-hydroxyethyl)-thiazole monophosphate biosynthesis protein	
+GI07-1192-MONOMER	GI07-1192	C1CRS2	competence protein	
+GI07-321-MONOMER	GI07-321	C1CPF3	aminopeptidase C	Bleomycin hydrolase
+GI07-1357-MONOMER	GI07-1357	C1CS78	phosphoglycolate phosphatase	
+GI07-70-MONOMER	GI07-70	C1CNR0	DNA polymerase I	
+GI07-1356-MONOMER	GI07-1356	C1CS77	DNA gyrase subunit B	GyrB
+GI07-699-MONOMER	GI07-699	C1CQG2	bacteriocin-associated integral membrane protein	
+GI07-784-MONOMER	GI07-784	C1CQP1	2,5-diketo-d-gluconic acid reductase a	2,5-dkgreductase a, 2,5-dkgr a, 25dkgr-a, akr5c
+GI07-363-MONOMER	GI07-363	C1CPJ4	orf	
+GI07-2113-MONOMER	GI07-2113	C1CU74	orf	
+GI07-1191-MONOMER	GI07-1191	C1CRS1	oligoendopeptidase F	
+GI07-1355-MONOMER	GI07-1355	C1CS76	septation ring formation regulator EzrA	EzrA
+GI07-1353-MONOMER	GI07-1353	C1CS75	transposase	
+GI07-1351-MONOMER	GI07-1351	C1CS74	orf	
+GI07-1190-MONOMER	GI07-1190	C1CRS0	O-methyltransferase family protein	
+GI07-698-MONOMER	GI07-698	C1CQG1	bacteriocin, lactococcin 972 family	
+GI07-2112-MONOMER	GI07-2112	C1CU73	gram-positive signal peptide, ysirk family protein	
+GI07-1350-MONOMER	GI07-1350	C1CS73	integrase core domain protein	
+GI07-783-MONOMER	GI07-783	C1CQP0	peptidoglycan GlcNAc deacetylase	
+GI07-69-MONOMER	GI07-69	C1CNQ9	orf	
+GI07-320-MONOMER	GI07-320	C1CPF2	ribosomal small subunit pseudouridine synthase A, putative	
+GI07-1349-MONOMER	GI07-1349	C1CS72	orf	
+GI07-1189-MONOMER	GI07-1189	C1CRR9	foldase protein PrsA	PrsA
+GI07-121-MONOMER	GI07-121	C1CNW0	sugar ABC transporter permease	
+GI07-1348-MONOMER	GI07-1348	C1CS71	orf	
+GI07-362-MONOMER	GI07-362	C1CPJ3	2-keto-3-deoxygluconate kinase	
+GI07-2111-MONOMER	GI07-2111	C1CU72	orf	
+GI07-697-MONOMER	GI07-697	C1CQG0	orf	
+GI07-782-MONOMER	GI07-782	C1CQN9	orf	
+GI07-1187-MONOMER	GI07-1187	C1CRR8	phosphoglycerate mutase	
+GI07-1347-MONOMER	GI07-1347	C1CRQ7	transposase	
+GI07-2110-MONOMER	GI07-2110	C1CU71	transposase	
+GI07-1346-MONOMER	GI07-1346	C1CS69	orf	
+GI07-696-MONOMER	GI07-696	C1CQF9	GTP-binding protein TypA/BipA	TypA
+GI07-781-MONOMER	GI07-781	C1CQN8	oxidoreductase	
+GI07-1186-MONOMER	GI07-1186	C1CRR7	regulatory protein	
+GI07-319-MONOMER	GI07-319	C1CPF1	integral membrane protein	
+GI07-68-MONOMER	GI07-68	C1CNQ8	orf	
+GI07-2205-MONOMER	GI07-2205	C1CUF7	stage 0 sporulation protein J	
+GI07-2109-MONOMER	GI07-2109	C1CU70	orf	
+GI07-1345-MONOMER	GI07-1345	C1CS68	negative regulator of genetic competence ClpC/mecB	
+GI07-1185-MONOMER	GI07-1185	C1CRR6	integral membrane protein	
+GI07-1344-MONOMER	GI07-1344	C1CS67	orf	
+GI07-695-MONOMER	GI07-695	C1CQF8	ribosomal small subunit pseudouridine synthase A, putative	
+GI07-361-MONOMER	GI07-361	C1CPJ2	keto-hydroxyglutarate-aldolase/keto-deoxy-phosphogluconate aldolase	
+GI07-1343-MONOMER	GI07-1343	C1CS66	amino acid ABC transporter permease	
+GI07-779-MONOMER	GI07-779	C1CQN7	transposase family protein	
+GI07-120-MONOMER	GI07-120	C1CNV9	orf	
+GI07-1342-MONOMER	GI07-1342	C1CS65	glutamine transport ATP-binding protein GlnQ	
+GI07-2204-MONOMER	GI07-2204	C1CUF6	trypsin domain protein	
+GI07-2108-MONOMER	GI07-2108	C1CU69	arginine-ornithine antiporter	
+GI07-1184-MONOMER	GI07-1184	C1CRR5	lyzozyme M1	
+GI07-694-MONOMER	GI07-694	C1CQF7	orf	
+GI07-1341-MONOMER	GI07-1341	C1CS64	bifunctional 5,10-methylene-tetrahydrofolate dehydrogenase/ 5,10-methylene-tetrahydrofolate cyclohydrolase	
+GI07-318-MONOMER	GI07-318	C1CPF0	aminopeptidase PepS	
+GI07-778-MONOMER	GI07-778	C1CNM6	Spn1 transposase	
+GI07-2203-MONOMER	GI07-2203	C1CUF5	rRNA large subunit methyltransferase	
+GI07-1340-MONOMER	GI07-1340	C1CS63	putative YjeF homolog, C-terminus	
+GI07-1183-MONOMER	GI07-1183	C1CRR4	bifunctional N-acetylglucosamine-1-phosphate uridyltransferase/glucosamine-1-phosphate acetyltransferase	GlmU
+GI07-67-MONOMER	GI07-67	C1CNQ7	orf	
+GI07-2107-MONOMER	GI07-2107	C1CU68	carbamate kinase	ArcC
+GI07-693-MONOMER	GI07-693	C1CQF6	rhodanese family protein	
+GI07-359-MONOMER	GI07-359	C1CPJ1	hyaluronate lyase	
+GI07-119-MONOMER	GI07-119	C1CNV8	orf	
+GI07-1339-MONOMER	GI07-1339	C1CS62	ribose-5-phosphate isomerase A	RpiA
+GI07-777-MONOMER	GI07-777	C1CQN5	orf	
+GI07-2106-MONOMER	GI07-2106	C1CU67	ornithine carbamoyltransferase	ArgF
+GI07-1182-MONOMER	GI07-1182	C1CRR3	ADP-ribose pyrophosphatase	
+GI07-2201-MONOMER	GI07-2201	C1CUF4	orf	
+GI07-692-MONOMER	GI07-692	C1CQF5	orf	
+GI07-317-MONOMER	GI07-317	C1CPE9	orf	
+GI07-1338-MONOMER	GI07-1338	C1CS61	phosphopentomutase	DeoB
+GI07-1181-MONOMER	GI07-1181	C1CRR2	orf	
+GI07-2105-MONOMER	GI07-2105	C1CU66	arginine deiminase	ArcA
+GI07-776-MONOMER	GI07-776	C1CQN4	30S ribosomal protein S16	RpsP
+GI07-1337-MONOMER	GI07-1337	C1CS60	orf	
+GI07-2200-MONOMER	GI07-2200	C1CUF3	histidine protein kinase	
+GI07-691-MONOMER	GI07-691	C1CQF4	regulatory function on capsule expression	
+GI07-1180-MONOMER	GI07-1180	C1CRR1	5'-methylthioadenosine/S-adenosylhomocysteine nucleosidase	MtnN
+GI07-118-MONOMER	GI07-118	C1CNV7	30S ribosomal protein S4	RpsD
+GI07-66-MONOMER	GI07-66	C1CNQ6	ribose-phosphate pyrophosphokinase	
+GI07-1336-MONOMER	GI07-1336	C1CS59	purine nucleoside phosphorylase	
+GI07-358-MONOMER	GI07-358	C1CPJ0	peroxiredoxin Hyr1	hydrogen peroxide resistanceprotein 1, oxidant receptor peroxidase 1, glutathione peroxidase 3, (phospholipid hydroperoxide glutathione peroxidase 3), phgpx3
+GI07-775-MONOMER	GI07-775	C1CQN3	orf	
+GI07-2104-MONOMER	GI07-2104	C1CU65	putative alpha-L-fucosidase 1	Alpha-L-fucoside fucohydrolase
+GI07-316-MONOMER	GI07-316	C1CPE8	DNA damage inducible protein	
+GI07-1335-MONOMER	GI07-1335	C1CS58	orf	
+GI07-690-MONOMER	GI07-690	C1CQF3	oxidoreductase	
+GI07-2199-MONOMER	GI07-2199	C1CUF2	response regulator	
+GI07-1179-MONOMER	GI07-1179	C1CRR0	orf	
+GI07-1334-MONOMER	GI07-1334	C1CS57	orf	
+GI07-2103-MONOMER	GI07-2103	C1CU64	antigen, cell wall surface anchor family	
+GI07-774-MONOMER	GI07-774	C1CQN2	orf	
+GI07-689-MONOMER	GI07-689	C1CQF2	ribonuclease Z	Rnz
+GI07-117-MONOMER	GI07-117	C1CNV6	histidine kinase	
+GI07-1333-MONOMER	GI07-1333	C1CS56	hemolysin-related protein	
+GI07-2196-MONOMER	GI07-2196	C1CUF1	TetR family transcriptional regulator	
+GI07-1178-MONOMER	GI07-1178	C1CRQ9	DNA polymerase III subunit epsilon	
+GI07-357-MONOMER	GI07-357	C1CPI9	glycosyl hydrolase, family 31	
+GI07-1332-MONOMER	GI07-1332	C1CS55	purine nucleoside phosphorylase	DeoD
+GI07-773-MONOMER	GI07-773	C1CQN1	peptidyl-prolyl cis-trans isomerase, cyclophilin-type	
+GI07-2102-MONOMER	GI07-2102	C1CU63	twin-arginine translocation pathway signal	
+GI07-688-MONOMER	GI07-688	C1CQF1	cystathionine beta-lyase	
+GI07-1331-MONOMER	GI07-1331	C1CS54	topology modulation protein	
+GI07-2195-MONOMER	GI07-2195	C1CUF0	orf	
+GI07-315-MONOMER	GI07-315	C1CPE7	addiction module antitoxin, RelB/DinJ family	
+GI07-65-MONOMER	GI07-65	C1CNQ5	orf	
+GI07-1177-MONOMER	GI07-1177	C1CRQ8	glycerophosphoryl diester phosphodiesterase family protein	
+GI07-1330-MONOMER	GI07-1330	C1CS53	30S ribosomal protein S20	RpsT
+GI07-116-MONOMER	GI07-116	C1CNV5	response regulator SaeR	
+GI07-2101-MONOMER	GI07-2101	C1CU62	glycosyl hydrolase, family 38	
+GI07-1329-MONOMER	GI07-1329	C1CS52	pantothenate kinase	CoaA
+GI07-687-MONOMER	GI07-687	C1CQF0	GTP-binding proten HflX	HflX
+GI07-1173-MONOMER	GI07-1173	C1CRQ7	transposase	
+GI07-2194-MONOMER	GI07-2194	C1CUE9	orf	
+GI07-1328-MONOMER	GI07-1328	C1CS51	orf	
+GI07-772-MONOMER	GI07-772	C1CQN0	ABC transporter ATP-binding protein	
+GI07-356-MONOMER	GI07-356	C1CPI8	orf	
+GI07-686-MONOMER	GI07-686	C1CQE9	tRNA delta(2)-isopentenylpyrophosphate transferase	MiaA
+GI07-2100-MONOMER	GI07-2100	C1CU61	ROK family protein	
+GI07-1327-MONOMER	GI07-1327	C1CS50	methyltransferase small domain superfamily	
+GI07-115-MONOMER	GI07-115	C1CNV4	cell wall surface anchor family protein	
+GI07-1172-MONOMER	GI07-1172	C1CRQ6	orf	
+GI07-1326-MONOMER	GI07-1326	C1CS49	pyrimidine-nucleoside phosphorylase	
+GI07-314-MONOMER	GI07-314	C1CPE6	DNA polymerase III PolC	PolC
+GI07-2193-MONOMER	GI07-2193	C1CUE8	ABC transporter permease	
+GI07-771-MONOMER	GI07-771	C1CQM9	VanZ family protein	
+GI07-1325-MONOMER	GI07-1325	C1CS48	deoxyribose-phosphate aldolase	DeoC
+GI07-685-MONOMER	GI07-685	C1CQE8	orf	
+GI07-2099-MONOMER	GI07-2099	C1CU60	N-acetyl-beta-D-glucosaminidase	
+GI07-1324-MONOMER	GI07-1324	C1CS47	cytidine deaminase	Cdd
+GI07-64-MONOMER	GI07-64	C1CNQ4	carbonate dehydratase	
+GI07-1171-MONOMER	GI07-1171	C1CRQ5	orf	
+GI07-2192-MONOMER	GI07-2192	C1CUE7	ATPase component of ABC transporters with duplicated ATPase domains	
+GI07-113-MONOMER	GI07-113	C1CNV3	orf	
+GI07-355-MONOMER	GI07-355	C1CPI7	cellobiose phosphotransferase system IIC component	CelD
+GI07-1323-MONOMER	GI07-1323	C1CS46	lipoprotein	
+GI07-770-MONOMER	GI07-770	C1CQM8	radical SAM enzyme, Cfr family	
+GI07-684-MONOMER	GI07-684	C1CQE7	thymidylate synthase	ThyA
+GI07-2098-MONOMER	GI07-2098	C1CU59	orf	
+GI07-1322-MONOMER	GI07-1322	C1CS45	ribose import ATP-binding protein RbsA	
+GI07-2191-MONOMER	GI07-2191	C1CUE6	tryptophanyl-tRNA synthetase II	TrpS
+GI07-1170-MONOMER	GI07-1170	C1CRQ4	orf	
+GI07-1321-MONOMER	GI07-1321	C1CS44	ribose/galactose ABC transporter permease	
+GI07-313-MONOMER	GI07-313	C1CPE5	elongation factor G	FusA
+GI07-683-MONOMER	GI07-683	C1CQE6	glucokinase	Glucose kinase
+GI07-769-MONOMER	GI07-769	C1CQM7	transcriptional regulator	
+GI07-112-MONOMER	GI07-112	C1CNV2	potassium uptake protein, Trk family	
+GI07-2097-MONOMER	GI07-2097	C1CU58	transposase	
+GI07-1320-MONOMER	GI07-1320	C1CS43	ribose/galactose ABC transporter permease	
+GI07-2190-MONOMER	GI07-2190	C1CUE5	inosine 5'-monophosphate dehydrogenase	GuaB
+GI07-1169-MONOMER	GI07-1169	C1CRQ3	cytochrome c-type biogenesis protein CcdA	
+GI07-1318-MONOMER	GI07-1318	C1CS42	integrase core domain protein	
+GI07-354-MONOMER	GI07-354	C1CPI6	orf	
+GI07-682-MONOMER	GI07-682	C1CQE5	orf	
+GI07-768-MONOMER	GI07-768	C1CQM6	superoxide dismutase [Mn]	General stress protein 24, (GSP24)
+GI07-1317-MONOMER	GI07-1317	C1CS41	putative glycerol-3-phosphate acyltransferase PlsY	
+GI07-2096-MONOMER	GI07-2096	C1CU43	transposase	
+GI07-63-MONOMER	GI07-63	C1CNQ3	DNA repair protein RadA	RadA
+GI07-2189-MONOMER	GI07-2189	C1CUE4	recombination protein F	RecF
+GI07-1316-MONOMER	GI07-1316	C1CS40	DNA topoisomerase IV subunit B	ParE
+GI07-1168-MONOMER	GI07-1168	C1CRQ2	thioredoxin family protein	
+GI07-111-MONOMER	GI07-111	C1CNV1	Trk transporter membrane-spanning protein -	
+GI07-681-MONOMER	GI07-681	C1CQE4	orf	
+GI07-1315-MONOMER	GI07-1315	C1CS39	orf	
+GI07-767-MONOMER	GI07-767	C1CQM5	DNA polymerase III subunit delta	HolA
+GI07-312-MONOMER	GI07-312	C1CPE4	30S ribosomal protein S7	RpsG
+GI07-353-MONOMER	GI07-353	C1CPI5	cellobiose phosphotransferase system IIA component	CelC
+GI07-2188-MONOMER	GI07-2188	C1CUE3	S4 domain protein YaaA, putative	
+GI07-1314-MONOMER	GI07-1314	C1CS38	DNA topoisomerase IV subunit A	ParC
+GI07-1167-MONOMER	GI07-1167	C1CRQ1	amino acid permease family protein	
+GI07-2094-MONOMER	GI07-2094	C1CU42	choline binding protein PcpA	
+GI07-1313-MONOMER	GI07-1313	C1CS37	branched-chain amino acid aminotransferase	IlvE
+GI07-2187-MONOMER	GI07-2187	C1CUE2	peptidase, M16 family	
+GI07-680-MONOMER	GI07-680	C1CQE3	chorismate binding enzyme	
+GI07-766-MONOMER	GI07-766	C1CQM4	dihydroorotate dehydrogenase 1A	
+GI07-1166-MONOMER	GI07-1166	C1CRQ0	zinc-binding lipoprotein AdcA	
+GI07-110-MONOMER	GI07-110	C1CNV0	orf	
+GI07-1312-MONOMER	GI07-1312	C1CS36	orf	
+GI07-2093-MONOMER	GI07-2093	C1CU41	50S ribosomal protein L33	RpmG
+GI07-2186-MONOMER	GI07-2186	C1CUE1	peptidase, M16 family	
+GI07-352-MONOMER	GI07-352	C1CPI4	transcription antiterminator BglG family	
+GI07-1165-MONOMER	GI07-1165	C1CRP9	pneumococcal histidine triad protein B	
+GI07-1311-MONOMER	GI07-1311	C1CS35	permease	
+GI07-765-MONOMER	GI07-765	C1CQM3	orf	
+GI07-679-MONOMER	GI07-679	C1CQE2	zinc metalloprotease ZmpB	ZmpB
+GI07-311-MONOMER	GI07-311	C1CPE3	30S ribosomal protein S12	RpsL
+GI07-62-MONOMER	GI07-62	C1CNQ2	phosphoglycerate mutase family protein	
+GI07-1310-MONOMER	GI07-1310	C1CS34	permease	
+GI07-1164-MONOMER	GI07-1164	C1CRP8	phosphotransferase mannnose-specific family component IIA	
+GI07-2185-MONOMER	GI07-2185	C1CUE0	orf	
+GI07-109-MONOMER	GI07-109	C1CNU9	phosphorylase, Pnp/Udp family	
+GI07-2092-MONOMER	GI07-2092	C1CU40	50S ribosomal protein L32	RpmF
+GI07-1309-MONOMER	GI07-1309	C1CS33	pyrrolidone-carboxylate peptidase	
+GI07-678-MONOMER	GI07-678	C1CQE1	orf	
+GI07-764-MONOMER	GI07-764	C1CQM2	S-adenosylmethionine synthetase	MetK
+GI07-351-MONOMER	GI07-351	C1CPI3	cellobiose phosphotransferase system IIB component	CelB
+GI07-1163-MONOMER	GI07-1163	C1CRP7	HAD superfamily (subfamily IA) hydrolase	
+GI07-2184-MONOMER	GI07-2184	C1CUD9	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase	PgsA
+GI07-1308-MONOMER	GI07-1308	C1CS32	orf	
+GI07-310-MONOMER	GI07-310	C1CPE2	pullulanase, extracellular	
+GI07-2091-MONOMER	GI07-2091	C1CU39	orf	
+GI07-1305-MONOMER	GI07-1305	C1CS31	30S ribosomal protein S1	RpsA
+GI07-677-MONOMER	GI07-677	C1CQE0	histidine kinase	
+GI07-763-MONOMER	GI07-763	C1CQM1	superfamily II DNA and RNA helicase	
+GI07-108-MONOMER	GI07-108	C1CNU8	coenzyme A disulfide reductase	
+GI07-1162-MONOMER	GI07-1162	C1CRP6	orf	
+GI07-2183-MONOMER	GI07-2183	C1CUD8	cobalt transporter ATP-binding subunit	CbiO
+GI07-61-MONOMER	GI07-61	C1CNQ1	deoxyuridine 5'-triphosphate nucleotidohydrolase	Dut
+GI07-1303-MONOMER	GI07-1303	C1CS30	GAF domain-containing protein	
+GI07-1161-MONOMER	GI07-1161	C1CRP5	uracil-DNA glycosylase	Ung
+GI07-2182-MONOMER	GI07-2182	C1CUD7	cobalt transporter ATP-binding subunit	CbiO
+GI07-1302-MONOMER	GI07-1302	C1CS29	DNA polymerase III subunits gamma and tau	
+GI07-676-MONOMER	GI07-676	C1CQD9	response regulator	
+GI07-762-MONOMER	GI07-762	C1CQM0	metal-dependent hydrolase	
+GI07-350-MONOMER	GI07-350	C1CPI2	glutathione synthetase	
+GI07-2090-MONOMER	GI07-2090	C1CU38	integral membrane protein	
+GI07-1301-MONOMER	GI07-1301	C1CS28	orf	
+GI07-309-MONOMER	GI07-309	C1CPE1	oxidoreductase	
+GI07-107-MONOMER	GI07-107	C1CNU7	orf	
+GI07-1160-MONOMER	GI07-1160	C1CRP4	mutator MutT protein, 8-oxo-dGTPase	7,8-dihydro-8-oxoguanine-triphosphatase
+GI07-2181-MONOMER	GI07-2181	C1CUD6	ABC transporter permease	
+GI07-1300-MONOMER	GI07-1300	C1CS27	FeS assembly ATPase SufC	SufC
+GI07-675-MONOMER	GI07-675	C1CQD8	peptide methionine sulfoxide reductase MsrA/msrB	
+GI07-761-MONOMER	GI07-761	C1CQL9	pts system, iibc component	
+GI07-2089-MONOMER	GI07-2089	C1CU37	transcriptional regulator, BglG family protein	
+GI07-1299-MONOMER	GI07-1299	C1CS26	FeS assembly protein SufD	SufD
+GI07-59-MONOMER	GI07-59	C1CNQ0	tRNA-specific adenosine deaminase	
+GI07-1159-MONOMER	GI07-1159	C1CRP3	dihydroorotase	PyrC
+GI07-2180-MONOMER	GI07-2180	C1CUD5	rod shape-determining protein MreC	MreC
+GI07-349-MONOMER	GI07-349	C1CPI1	6-phospho-beta-glucosidase	CelA
+GI07-1298-MONOMER	GI07-1298	C1CS25	cysteine desulfurase	Selenocysteine lyase, Selenocysteine reductase, Selenocysteine beta-lyase, SCL
+GI07-674-MONOMER	GI07-674	C1CQD7	thioredoxin family protein	
+GI07-308-MONOMER	GI07-308	C1CPE0	glucosamine--fructose-6-phosphate aminotransferase	GlmS
+GI07-2088-MONOMER	GI07-2088	C1CU36	phosphotransferase system, galactitol-specific IIB component	
+GI07-760-MONOMER	GI07-760	C1CQL8	cell division ABC transporter, permease protein FtsX	
+GI07-1158-MONOMER	GI07-1158	C1CRP2	mate efflux family protein	
+GI07-106-MONOMER	GI07-106	C1CNU6	chlorohydrolase	
+GI07-2179-MONOMER	GI07-2179	C1CUD4	rod shape-determining protein MreD	MreD
+GI07-1297-MONOMER	GI07-1297	C1CS24	SUF system FeS assembly protein, NifU family	
+GI07-673-MONOMER	GI07-673	C1CQD6	cytochrome c-type biogenesis protein	
+GI07-1157-MONOMER	GI07-1157	C1CRP1	pyruvate dehydrogenase E1 component subunit alpha	
+GI07-1296-MONOMER	GI07-1296	C1CS23	FeS assembly protein SufB	SufB
+GI07-2178-MONOMER	GI07-2178	C1CUD3	general stress protein GSP-781	
+GI07-759-MONOMER	GI07-759	C1CQL7	cell division ATP-binding protein FtsE	FtsE
+GI07-2087-MONOMER	GI07-2087	C1CU35	PTS system ascorbate-specific transporter subunit IIC	UlaA
+GI07-1295-MONOMER	GI07-1295	C1CS22	penicillin-binding protein 3	
+GI07-348-MONOMER	GI07-348	C1CPI0	antibiotic biosynthesis monooxygenase	
+GI07-58-MONOMER	GI07-58	C1CNP9	adenylosuccinate synthetase	PurA
+GI07-1156-MONOMER	GI07-1156	C1CRP0	pyruvate dehydrogenase E1 component subunit beta	
+GI07-105-MONOMER	GI07-105	C1CNU5	orf	
+GI07-672-MONOMER	GI07-672	C1CQD5	ribonuclease BN	
+GI07-2177-MONOMER	GI07-2177	C1CUD2	30S ribosomal protein S2	RpsB
+GI07-1294-MONOMER	GI07-1294	C1CS21	membrane protein	
+GI07-307-MONOMER	GI07-307	C1CPD9	6-phospho-beta-glucosidase	
+GI07-1291-MONOMER	GI07-1291	C1CS20	lactose phosphotransferase system repressor	
+GI07-758-MONOMER	GI07-758	C1CQL6	peptide chain release factor 2	PrfB
+GI07-2086-MONOMER	GI07-2086	C1CU34	transketolase, thiamine disphosphate-binding subunit	
+GI07-1155-MONOMER	GI07-1155	C1CRN9	dihydrolipoamide acetyltransferase	
+GI07-1290-MONOMER	GI07-1290	C1CS19	1-phosphofructokinase	PfkB
+GI07-2176-MONOMER	GI07-2176	C1CUD1	elongation factor Ts	Tsf
+GI07-671-MONOMER	GI07-671	C1CQD4	sodium/hydrogen exchanger family protein	
+GI07-2085-MONOMER	GI07-2085	C1CU33	transketolase, C- subunit	
+GI07-1154-MONOMER	GI07-1154	C1CRN8	dihydrolipoyl dehydrogenase	LpdA
+GI07-1289-MONOMER	GI07-1289	C1CS18	PTS system, fructose subfamily, IIABC component	FruA
+GI07-757-MONOMER	GI07-757	C1CQL5	AcuB family protein	
+GI07-104-MONOMER	GI07-104	C1CNU4	glyoxalase family protein	
+GI07-306-MONOMER	GI07-306	C1CPD8	prolyl-tRNA synthetase	ProS
+GI07-2175-MONOMER	GI07-2175	C1CUD0	orf	
+GI07-1288-MONOMER	GI07-1288	C1CS17	DNA translocase ftsk	
+GI07-347-MONOMER	GI07-347	C1CPH9	orf	
+GI07-57-MONOMER	GI07-57	C1CNP8	orf	
+GI07-670-MONOMER	GI07-670	C1CQD3	orf	
+GI07-2084-MONOMER	GI07-2084	C1CU32	dihydroxy-acid dehydratase	IlvD
+GI07-1153-MONOMER	GI07-1153	C1CRN7	lipoate protein ligase A	
+GI07-1287-MONOMER	GI07-1287	C1CS16	orf	
+GI07-756-MONOMER	GI07-756	C1CQL4	high-affinity branched-chain amino acid transport ATP-binding proteinlivF, high-affinity branched-chain amino acid transport ATP-binding proteinlivF	LIV-I protein F
+GI07-2174-MONOMER	GI07-2174	C1CUC9	transposase family protein	
+GI07-1286-MONOMER	GI07-1286	C1CS15	cysteine desulfurase	
+GI07-103-MONOMER	GI07-103	C1CNU3	aldose 1-epimerase	
+GI07-669-MONOMER	GI07-669	C1CQD2	SAM-dependent methyltransferase	
+GI07-2173-MONOMER	GI07-2173	C1CUC8	transposase	
+GI07-2083-MONOMER	GI07-2083	C1CU31	orf	
+GI07-1152-MONOMER	GI07-1152	C1CRN6	site-specific tyrosine recombinase XerS	XerS
+GI07-755-MONOMER	GI07-755	C1CQL3	high-affinity branched-chain amino acid transport ATP-binding proteinlivG, high-affinity branched-chain amino acid transport ATP-binding proteinlivG	LIV-I protein G
+GI07-305-MONOMER	GI07-305	C1CPD7	RIP metalloprotease RseP	RseP
+GI07-1285-MONOMER	GI07-1285	C1CS14	thiamine biosynthesis protein ThiI	ThiI
+GI07-2172-MONOMER	GI07-2172	C1CUC7	cysteine synthase A	CysK
+GI07-1151-MONOMER	GI07-1151	C1CRN5	voltage-gated chloride channel family protein	
+GI07-667-MONOMER	GI07-667	C1CQD1	integral membrane protein	
+GI07-346-MONOMER	GI07-346	C1CPH8	orf	
+GI07-1284-MONOMER	GI07-1284	C1CS13	putative esterase superfamily	
+GI07-48-MONOMER	GI07-48	C1CNP7	competence-specific global transcription modulator	
+GI07-754-MONOMER	GI07-754	C1CQL2	branched-chain amino acid ABC transporter permease	
+GI07-2082-MONOMER	GI07-2082	C1CU30	orf	
+GI07-102-MONOMER	GI07-102	C1CNU2	putative tagatose-6-phosphate ketose/aldose isomerase	
+GI07-1283-MONOMER	GI07-1283	C1CS12	orf	
+GI07-2171-MONOMER	GI07-2171	C1CUC6	orf	
+GI07-1150-MONOMER	GI07-1150	C1CRN4	ribonuclease HII	RnhB
+GI07-1282-MONOMER	GI07-1282	C1CS11	orf	
+GI07-753-MONOMER	GI07-753	C1CQL1	high-affinity branched-chain amino acid transport system permeaseprotein LivH	LIV-I protein H
+GI07-666-MONOMER	GI07-666	C1CQD0	orf	
+GI07-2081-MONOMER	GI07-2081	C1CU29	orf	
+GI07-304-MONOMER	GI07-304	C1CPD6	phosphatidate cytidylyltransferase	CdsA
+GI07-2170-MONOMER	GI07-2170	C1CUC5	superfamily II ATP-dependent DNA/RNA helicase required for DNA uptake	
+GI07-1281-MONOMER	GI07-1281	C1CS10	carbamoylphosphate synthase large subunit	
+GI07-1149-MONOMER	GI07-1149	C1CRN3	ribosomal biogenesis GTPase	RbgA
+GI07-1280-MONOMER	GI07-1280	C1CS09	orf	
+GI07-752-MONOMER	GI07-752	C1CQL0	ABC transporter substrate-binding protein -	
+GI07-101-MONOMER	GI07-101	C1CNU1	phosphotransferase system sugar-specific EII component	
+GI07-345-MONOMER	GI07-345	C1CPH7	orf	
+GI07-2080-MONOMER	GI07-2080	C1CU28	positive transcriptional regulator of glucosyltransferase and Spp phenotype	
+GI07-47-MONOMER	GI07-47	C1CNP6	putative Cell division protease FtsH homolog	
+GI07-2169-MONOMER	GI07-2169	C1CUC4	putative competence protein ComF	
+GI07-1279-MONOMER	GI07-1279	C1CS08	type I restriction modification enzyme methylase subunit	
+GI07-665-MONOMER	GI07-665	C1CQC9	orf	
+GI07-1148-MONOMER	GI07-1148	C1CRN2	immunoglobulin A1 protease	
+GI07-303-MONOMER	GI07-303	C1CPD5	UDP pyrophosphate synthase	UppS
+GI07-1278-MONOMER	GI07-1278	C1CS07	type I restriction-modification system, S subunit, putative	
+GI07-751-MONOMER	GI07-751	C1CQK9	orf	
+GI07-2168-MONOMER	GI07-2168	C1CUC3	ribosome-associated protein Y	
+GI07-1277-MONOMER	GI07-1277	C1CS06	orf	
+GI07-664-MONOMER	GI07-664	C1CQC8	orf	
+GI07-100-MONOMER	GI07-100	C1CNU0	PTS system, IID component	
+GI07-2079-MONOMER	GI07-2079	C1CU27	transporter, major facilitator family	
+GI07-1147-MONOMER	GI07-1147	C1CRN1	orf	
+GI07-1276-MONOMER	GI07-1276	C1CS05	prophage maintenance system killer protein	
+GI07-750-MONOMER	GI07-750	C1CQK8	ATP-dependent Clp protease proteolytic subunit	ClpP
+GI07-1275-MONOMER	GI07-1275	C1CS04	integrase/recombinase, phage integrase family	
+GI07-2167-MONOMER	GI07-2167	C1CUC2	DHH subfamily 1 protein	
+GI07-1274-MONOMER	GI07-1274	C1CS03	type I restriction-modification system, S subunit	
+GI07-1273-MONOMER	GI07-1273	C1CS02	type I restriction-modification system R subunit	
+GI07-1146-MONOMER	GI07-1146	C1CRN0	recombination helicase AddA	AddA
+GI07-344-MONOMER	GI07-344	C1CPH6	orf	
+GI07-1272-MONOMER	GI07-1272	C1CS01	chlorohydrolase	
+GI07-46-MONOMER	GI07-46	C1CNP5	hypoxanthine phosphoribosyltransferase	Hpt
+GI07-2166-MONOMER	GI07-2166	C1CUC1	50S ribosomal protein L9	RplI
+GI07-749-MONOMER	GI07-749	C1CQK7	uracil phosphoribosyltransferase	Upp
+GI07-99-MONOMER	GI07-99	C1CNT9	PTS system, IIC component	
+GI07-2078-MONOMER	GI07-2078	C1CU26	histidyl-tRNA synthetase	HisS
+GI07-663-MONOMER	GI07-663	C1CQC7	beta-galactosidase	
+GI07-301-MONOMER	GI07-301	C1CPD4	Holliday junction DNA helicase RuvB	RuvB
+GI07-1271-MONOMER	GI07-1271	C1CS00	arginine repressor	
+GI07-1145-MONOMER	GI07-1145	C1CRM9	ATP-dependent nuclease subunit B	RexB
+GI07-1270-MONOMER	GI07-1270	C1CRZ9	x-prolyl-dipeptidyl aminopeptidase	
+GI07-2165-MONOMER	GI07-2165	C1CUC0	replicative DNA helicase	DnaB
+GI07-1269-MONOMER	GI07-1269	C1CRZ8	DNA polymerase III DnaE	DnaE
+GI07-2077-MONOMER	GI07-2077	C1CU25	chlorohydrolase	
+GI07-748-MONOMER	GI07-748	C1CQK6	ComE operon protein 2	
+GI07-1144-MONOMER	GI07-1144	C1CRM8	transposase	
+GI07-1268-MONOMER	GI07-1268	C1CRZ7	6-phosphofructokinase	PfkA
+GI07-662-MONOMER	GI07-662	C1CQC6	phosphotransferase system sugar-specific EII component	
+GI07-98-MONOMER	GI07-98	C1CNT8	phosphotransferase system sugar-specific eiib component	
+GI07-2164-MONOMER	GI07-2164	C1CUB9	orf	
+GI07-343-MONOMER	GI07-343	C1CPH5	orf	
+GI07-1267-MONOMER	GI07-1267	C1CRZ6	pyruvate kinase	Pyk
+GI07-300-MONOMER	GI07-300	C1CPD3	acetyltransferase, gnat family	
+GI07-2076-MONOMER	GI07-2076	C1CU24	orf	
+GI07-747-MONOMER	GI07-747	C1CQK5	TetR family transcriptional regulator	
+GI07-1143-MONOMER	GI07-1143	C1CRM7	transposase	
+GI07-45-MONOMER	GI07-45	C1CNP4	tRNA(Ile)-lysidine synthase	tRNA(Ile)-lysidinesynthetase, tRNA(Ile)-2-lysyl-cytidine synthase
+GI07-661-MONOMER	GI07-661	C1CQC5	PTS system, galactose-specific IIB component	
+GI07-2075-MONOMER	GI07-2075	C1CU23	orf	
+GI07-1141-MONOMER	GI07-1141	C1CRM6	phosphopyruvate hydratase	Eno
+GI07-1140-MONOMER	GI07-1140	C1CRM5	orf	
+GI07-299-MONOMER	GI07-299	C1CPD2	acetyltransferase, gnat family	
+GI07-660-MONOMER	GI07-660	C1CQC4	phosphotransferase system sugar-specific EII component	
+GI07-2074-MONOMER	GI07-2074	C1CU22	orf	
+GI07-1139-MONOMER	GI07-1139	C1CRM4	glycerate kinase	
+GI07-1033-MONOMER	GI07-1033	C1CRC8	orf	
+GI07-578-MONOMER	GI07-578	C1CQ49	ribosome-binding factor A	RbfA
+GI07-253-MONOMER	GI07-253	C1CP88	50S ribosomal protein L3	RplC
+GI07-1951-MONOMER	GI07-1951	C1CTR6	50S ribosomal protein L33	RpmG
+GI07-659-MONOMER	GI07-659	C1CQC3	serine protease	
+GI07-1137-MONOMER	GI07-1137	C1CRM3	glycogen synthase	GlgA
+GI07-1032-MONOMER	GI07-1032	C1CRC7	signal peptidase I	
+GI07-44-MONOMER	GI07-44	C1CNP3	beta-lactamase class A	
+GI07-2073-MONOMER	GI07-2073	C1CU21	orf	
+GI07-577-MONOMER	GI07-577	C1CQ48	translation initiation factor IF-2	InfB
+GI07-1950-MONOMER	GI07-1950	C1CTR5	preprotein translocase subunit SecE	SecE
+GI07-4-MONOMER	GI07-4	C1CU47	phage protein	
+GI07-656-MONOMER	GI07-656	C1CQC2	ABC transporter permease	
+GI07-1031-MONOMER	GI07-1031	C1CRC6	orf	
+GI07-1136-MONOMER	GI07-1136	C1CRM2	glucose-1-phosphate adenylyltransferase, GlgD subunit	GlgD
+GI07-298-MONOMER	GI07-298	C1CPD1	orf	
+GI07-1949-MONOMER	GI07-1949	C1CTR4	transcription antitermination protein NusG	NusG
+GI07-576-MONOMER	GI07-576	C1CQ47	orf	
+GI07-252-MONOMER	GI07-252	C1CP87	30S ribosomal protein S10	RpsJ
+GI07-2072-MONOMER	GI07-2072	C1CU20	orf	
+GI07-1030-MONOMER	GI07-1030	C1CRC5	collagen adhesion protein	
+GI07-1135-MONOMER	GI07-1135	C1CRM1	glucose-1-phosphate adenylyltransferase	GlgC
+GI07-655-MONOMER	GI07-655	C1CQC1	membrane protein	
+GI07-1948-MONOMER	GI07-1948	C1CNP7	competence-specific global transcription modulator	
+GI07-1933-MONOMER	GI07-1933	C1CQ27	Spn1 transposase	
+GI07-1134-MONOMER	GI07-1134	C1CRM0	glycogen branching enzyme	GlgB
+GI07-1029-MONOMER	GI07-1029	C1CRC4	peptidase T	PepT
+GI07-2071-MONOMER	GI07-2071	C1CU19	caax amino protease family	
+GI07-575-MONOMER	GI07-575	C1CQ46	putative chain a, hypothetical cytosolic protein coded by gene from nusainfb, ylxr homologue	
+GI07-3-MONOMER	GI07-3	C1CU46	orf	
+GI07-43-MONOMER	GI07-43	C1CNP2	orf	
+GI07-654-MONOMER	GI07-654	C1CQC0	ABC transporter ATP-binding protein	
+GI07-297-MONOMER	GI07-297	C1CPD0	leucyl-tRNA synthetase	LeuS
+GI07-1932-MONOMER	GI07-1932	C1CTR1	orf	
+GI07-1133-MONOMER	GI07-1133	C1CRL9	NADP-dependent glyceraldehyde-3-phosphate dehydrogenase	
+GI07-1028-MONOMER	GI07-1028	C1CRC3	orf	
+GI07-2070-MONOMER	GI07-2070	C1CU18	orf	
+GI07-574-MONOMER	GI07-574	C1CQ45	transcription elongation factor NusA	NusA
+GI07-251-MONOMER	GI07-251	C1CP86	phosphoribulokinase	
+GI07-1931-MONOMER	GI07-1931	C1CTR0	orf	
+GI07-1027-MONOMER	GI07-1027	C1CRC2	pneumococcal histidine triad protein E	
+GI07-1132-MONOMER	GI07-1132	C1CRL8	pullulanase, type I	PulA
+GI07-2069-MONOMER	GI07-2069	C1CU17	chlorohydrolase	
+GI07-653-MONOMER	GI07-653	C1CQB9	orf	
+GI07-2-MONOMER	GI07-2	C1CU45	DNA polymerase III subunit beta	DnaN
+GI07-1930-MONOMER	GI07-1930	C1CTQ9	ABC transporter ATP-binding protein	
+GI07-296-MONOMER	GI07-296	C1CPC9	glycerol dehydrogenase	GldA
+GI07-1131-MONOMER	GI07-1131	C1CRL7	NAD-dependent DNA ligase LigA	LigA
+GI07-1024-MONOMER	GI07-1024	C1CRC1	pneumococcal histidine triad protein E	
+GI07-573-MONOMER	GI07-573	C1CQ44	orf	
+GI07-42-MONOMER	GI07-42	C1CNP1	septum formation initiator	
+GI07-2068-MONOMER	GI07-2068	C1CU16	aspartyl-tRNA synthetase	AspS
+GI07-1929-MONOMER	GI07-1929	C1CTQ8	multidrug ABC transporter permease	
+GI07-1130-MONOMER	GI07-1130	C1CRL6	macrolide ABC transporter permease	
+GI07-250-MONOMER	GI07-250	C1CP85	anaerobic ribonucleoside-triphosphate reductase activating protein	NrdG
+GI07-652-MONOMER	GI07-652	C1CQB8	orf	
+GI07-1023-MONOMER	GI07-1023	C1CRC0	pneumococcal histidine triad protein B	
+GI07-2067-MONOMER	GI07-2067	C1CU15	YitT family protein	
+GI07-1928-MONOMER	GI07-1928	C1CTQ7	histidine kinase	
+GI07-572-MONOMER	GI07-572	C1CQ43	tRNA (guanine-N(7)-)-methyltransferase	TrmB
+GI07-1129-MONOMER	GI07-1129	C1CRL5	transcriptional regulator	
+GI07-1927-MONOMER	GI07-1927	C1CTQ6	response regulator	
+GI07-2066-MONOMER	GI07-2066	C1CU14	HTH-type transcriptional regulator MalR	Maltose operontranscriptional repressor
+GI07-1022-MONOMER	GI07-1022	C1CRB9	orf	
+GI07-1-MONOMER	GI07-1	C1CU44	chromosomal replication initiation protein	DnaA
+GI07-295-MONOMER	GI07-295	C1CPC8	fructose-6-phosphate aldolase	
+GI07-1128-MONOMER	GI07-1128	C1CRL4	ATPase component of ABC transporter with duplicated ATPase domains	
+GI07-571-MONOMER	GI07-571	C1CQ42	phosphotransferase enzyme family	
+GI07-1926-MONOMER	GI07-1926	C1CTQ5	catabolite control protein A	CcpA
+GI07-651-MONOMER	GI07-651	C1CQB7	chlorohydrolase	
+GI07-41-MONOMER	GI07-41	C1CNP0	ribosome-associated heat shock protein implicated in the recycling of the 50S subunit	
+GI07-249-MONOMER	GI07-249	C1CP84	acetyltransferase, gnat family	
+GI07-2065-MONOMER	GI07-2065	C1CU13	maltodextrose utilization protein MalA	
+GI07-1127-MONOMER	GI07-1127	C1CRL3	DNA-binding protein HU 1	DNA-binding protein II, HB
+GI07-1925-MONOMER	GI07-1925	C1CTQ4	orf	
+GI07-1021-MONOMER	GI07-1021	C1CRB8	phosphoenolpyruvate-protein phosphotransferase	PtsP
+GI07-570-MONOMER	GI07-570	C1CQ41	ABC transporter ATP-binding protein	
+GI07-1924-MONOMER	GI07-1924	C1CTQ3	L-asparaginase	
+GI07-2064-MONOMER	GI07-2064	C1CU12	maltose/maltodextrin ABC transporter permease	
+GI07-1126-MONOMER	GI07-1126	C1CRL2	orf	
+GI07-649-MONOMER	GI07-649	C1CQB6	50S ribosomal protein L1	RplA
+GI07-1020-MONOMER	GI07-1020	C1CRB7	phosphocarrier protein HPr	
+GI07-568-MONOMER	GI07-568	C1CQ40	BlpY protein	
+GI07-294-MONOMER	GI07-294	C1CPC7	pyruvate formate-lyase	
+GI07-2063-MONOMER	GI07-2063	C1CU11	maltodextrin transport system permease protein MalC	
+GI07-1923-MONOMER	GI07-1923	C1CTQ2	Cof family protein	
+GI07-1125-MONOMER	GI07-1125	C1CRL1	orf	
+GI07-1019-MONOMER	GI07-1019	C1CRB6	glutaredoxin	
+GI07-648-MONOMER	GI07-648	C1CQB5	50S ribosomal protein L11	RplK
+GI07-248-MONOMER	GI07-248	C1CP83	orf	
+GI07-1922-MONOMER	GI07-1922	C1CTQ1	universal stress protein family	
+GI07-567-MONOMER	GI07-567	C1CQ39	bacteriocin BlpM	
+GI07-40-MONOMER	GI07-40	C1CNN9	transcription-repair coupling factor	Mfd
+GI07-2062-MONOMER	GI07-2062	C1CU10	maltose/maltodextrin-binding protein	
+GI07-1921-MONOMER	GI07-1921	C1CTQ0	orf	
+GI07-1018-MONOMER	GI07-1018	C1CRB5	ribonucleotide-diphosphate reductase subunit alpha	
+GI07-565-MONOMER	GI07-565	C1CQ38	immunity protein BlpL	
+GI07-1124-MONOMER	GI07-1124	C1CRL0	bifunctional riboflavin kinase/FMN adenylyltransferase	RibF
+GI07-2061-MONOMER	GI07-2061	C1CU09	4-alpha-glucanotransferase	MalQ
+GI07-1920-MONOMER	GI07-1920	C1CTP9	aminotransferase AlaT	
+GI07-647-MONOMER	GI07-647	C1CQB4	orf	
+GI07-293-MONOMER	GI07-293	C1CPC6	lichenan permease iic component	pts system lichenan-specific eiiccomponent, eiic-lic
+GI07-1017-MONOMER	GI07-1017	C1CRB4	ribonucleotide-diphosphate reductase subunit beta	NrdF
+GI07-1123-MONOMER	GI07-1123	C1CRK9	orf	
+GI07-564-MONOMER	GI07-564	C1CQ37	orf	
+GI07-247-MONOMER	GI07-247	C1CP82	anaerobic ribonucleoside-triphosphate reductase	
+GI07-1919-MONOMER	GI07-1919	C1CTP8	50S ribosomal protein L34	RpmH
+GI07-2060-MONOMER	GI07-2060	C1CU08	glycogen phosphorylase	
+GI07-39-MONOMER	GI07-39	C1CNN8	peptidyl-tRNA hydrolase	Pth
+GI07-646-MONOMER	GI07-646	C1CQB3	D-alanyl-D-alanine carboxypeptidase	
+GI07-1016-MONOMER	GI07-1016	C1CRB3	lactose phosphotransferase system repressor	
+GI07-1122-MONOMER	GI07-1122	C1CRK8	orf	
+GI07-1918-MONOMER	GI07-1918	C1CTP7	cell wall surface anchor family protein	
+GI07-563-MONOMER	GI07-563	C1CQ36	ABC transporter ATP-binding protein	
+GI07-2059-MONOMER	GI07-2059	C1CU07	orf	
+GI07-292-MONOMER	GI07-292	C1CPC5	PTS system, IIB component	
+GI07-1015-MONOMER	GI07-1015	C1CRB2	orf	
+GI07-2058-MONOMER	GI07-2058	C1CU06	23S rRNA m1G745 methyltransferase	
+GI07-1121-MONOMER	GI07-1121	C1CRK7	50S ribosomal protein L27	RpmA
+GI07-1813-MONOMER	GI07-1813	C1CTE5	orf	
+GI07-645-MONOMER	GI07-645	C1CQB2	HIT family protein	
+GI07-1917-MONOMER	GI07-1917	C1CTP6	putative deoxyribonuclease YcfH	
+GI07-562-MONOMER	GI07-562	C1CQ35	bacteriocin-type signal sequence domain protein	
+GI07-246-MONOMER	GI07-246	C1CP81	anaerobic ribonucleoside triphosphate reductase	NrdD
+GI07-1014-MONOMER	GI07-1014	C1CRB1	6-phospho-beta-galactosidase	
+GI07-2057-MONOMER	GI07-2057	C1CU05	orf	
+GI07-38-MONOMER	GI07-38	C1CNN7	GTP-dependent nucleic acid-binding protein EngD	YchF
+GI07-1120-MONOMER	GI07-1120	C1CRK6	orf	
+GI07-1812-MONOMER	GI07-1812	C1CTE4	choline binding protein G	
+GI07-1916-MONOMER	GI07-1916	C1CTP5	putative primase homolog	
+GI07-644-MONOMER	GI07-644	C1CQB1	peptidase, M42	
+GI07-1013-MONOMER	GI07-1013	C1CRB0	pts system lactose-specific eiicb component	eiicb-lac, eii-lac
+GI07-561-MONOMER	GI07-561	C1CQ34	orf	
+GI07-291-MONOMER	GI07-291	C1CPC4	phosphotransferase system sugar-specific eiia component	
+GI07-2056-MONOMER	GI07-2056	C1CU04	P-type ATPase-metal/cation transport	
+GI07-1811-MONOMER	GI07-1811	C1CTE3	orf	
+GI07-1119-MONOMER	GI07-1119	C1CRK5	50S ribosomal protein L21	RplU
+GI07-1915-MONOMER	GI07-1915	C1CTP4	transcriptional activator	
+GI07-643-MONOMER	GI07-643	C1CQB0	branched-chain amino acid transport system II carrier protein	
+GI07-1012-MONOMER	GI07-1012	C1CRA9	lactose-specific phosphotransferase enzyme iia component	pts system lactose-specific eiia component, eiia-lac, eiii-lac
+GI07-2055-MONOMER	GI07-2055	C1CU03	tyrosyl-tRNA synthetase	TyrS
+GI07-1810-MONOMER	GI07-1810	C1CTE2	orf	
+GI07-559-MONOMER	GI07-559	C1CQ33	BlpC ABC transporter	
+GI07-1914-MONOMER	GI07-1914	C1CTP3	immunity protein, putative	
+GI07-245-MONOMER	GI07-245	C1CP80	competence-induced protein Ccs4	
+GI07-1118-MONOMER	GI07-1118	C1CRK4	orf	
+GI07-37-MONOMER	GI07-37	C1CNN6	integrase	
+GI07-642-MONOMER	GI07-642	C1CQA9	orf	
+GI07-2054-MONOMER	GI07-2054	C1CU02	penicillin-binding protein 1B	
+GI07-1809-MONOMER	GI07-1809	C1CTE1	thioredoxin family protein	
+GI07-1913-MONOMER	GI07-1913	C1CTP2	antimicrobial peptide ABC transporter ATPase	
+GI07-1011-MONOMER	GI07-1011	C1CRA8	transcription antiterminator LacT	
+GI07-1117-MONOMER	GI07-1117	C1CRK3	orf	
+GI07-558-MONOMER	GI07-558	C1CQ32	bacteriocin-type signal sequence domain protein	
+GI07-290-MONOMER	GI07-290	C1CPC3	transcriptional regulator	
+GI07-2053-MONOMER	GI07-2053	C1CU01	membrane protein	
+GI07-1808-MONOMER	GI07-1808	C1CTE0	putative tRNA binding domain protein	
+GI07-1010-MONOMER	GI07-1010	C1CRA7	tagatose 1,6-diphosphate aldolase	LacD
+GI07-641-MONOMER	GI07-641	C1CQA8	orf	
+GI07-1115-MONOMER	GI07-1115	C1CRK2	phosphotransacetylase	EutD
+GI07-1912-MONOMER	GI07-1912	C1CTP1	orf	
+GI07-557-MONOMER	GI07-557	C1CQ27	Spn1 transposase	
+GI07-1807-MONOMER	GI07-1807	C1CTD9	oxidoreductase, short chain dehydrogenase/reductase family	
+GI07-1009-MONOMER	GI07-1009	C1CRA6	tagatose-6-phosphate kinase	LacC
+GI07-2052-MONOMER	GI07-2052	C1CU00	galactoside O-acetyltransferase	
+GI07-244-MONOMER	GI07-244	C1CP79	cardiolipin synthase	
+GI07-1114-MONOMER	GI07-1114	C1CRK1	ribosomal large subunit pseudouridine synthase, RluD subfamily	
+GI07-36-MONOMER	GI07-36	C1CNN5	putative DNA damage inducible protein	
+GI07-1911-MONOMER	GI07-1911	C1CTP0	orf	
+GI07-556-MONOMER	GI07-556	C1CQ30	histidine kinase	
+GI07-1806-MONOMER	GI07-1806	C1CTD8	single-stranded DNA-binding protein	
+GI07-1008-MONOMER	GI07-1008	C1CRA5	galactose-6-phosphate isomerase subunit LacB	LacB
+GI07-640-MONOMER	GI07-640	C1CQA7	uracil DNA glycosylase family protein	
+GI07-2051-MONOMER	GI07-2051	C1CTZ9	peptidase, M20/M25/M40 family	
+GI07-1113-MONOMER	GI07-1113	C1CRK0	inorganic polyphosphate/ATP-NAD kinase	PpnK
+GI07-1910-MONOMER	GI07-1910	C1CTN9	dimethyladenosine transferase	KsgA
+GI07-289-MONOMER	GI07-289	C1CPC2	putative HTH-type transcriptional regulator YciT	
+GI07-1805-MONOMER	GI07-1805	C1CTD7	co-chaperonin GroES	
+GI07-2050-MONOMER	GI07-2050	C1CTZ8	5-formyltetrahydrofolate cyclo-ligase	
+GI07-555-MONOMER	GI07-555	C1CQ29	response regulator	
+GI07-1112-MONOMER	GI07-1112	C1CRJ9	GTP pyrophosphokinase	
+GI07-1007-MONOMER	GI07-1007	C1CRA4	galactose-6-phosphate isomerase subunit LacA	LacA
+GI07-1909-MONOMER	GI07-1909	C1CTN8	ribosome-associated GTPase	RsgA
+GI07-1804-MONOMER	GI07-1804	C1CTD6	chaperonin GroEL	
+GI07-639-MONOMER	GI07-639	C1CQA6	dipeptidase PepV	PepV
+GI07-2049-MONOMER	GI07-2049	C1CTZ7	peptidase, S54	
+GI07-1111-MONOMER	GI07-1111	C1CRJ8	adenylate cyclase	
+GI07-554-MONOMER	GI07-554	C1CQ28	BlpS protein	
+GI07-35-MONOMER	GI07-35	C1CNN4	replication protein	
+GI07-243-MONOMER	GI07-243	C1CP78	lipoprotein, putative	
+GI07-1908-MONOMER	GI07-1908	C1CTN7	ribulose-phosphate 3-epimerase	Rpe
+GI07-1006-MONOMER	GI07-1006	C1CRA3	orf	
+GI07-1802-MONOMER	GI07-1802	C1CTD5	transposase	
+GI07-2048-MONOMER	GI07-2048	C1CTZ6	UTP-glucose-1-phosphate uridylyltransferase	GalU
+GI07-1907-MONOMER	GI07-1907	C1CTN6	thiamine pyrophosphokinase	
+GI07-1110-MONOMER	GI07-1110	C1CRJ7	ribose-phosphate pyrophosphokinase	
+GI07-638-MONOMER	GI07-638	C1CQA5	oxidoreductase	
+GI07-553-MONOMER	GI07-553	C1CQ27	Spn1 transposase	
+GI07-1801-MONOMER	GI07-1801	C1CTD4	MerR-family transcriptional regulator	
+GI07-2047-MONOMER	GI07-2047	C1CTZ5	NAD(P)H-dependent glycerol-3-phosphate dehydrogenase	GpsA
+GI07-1005-MONOMER	GI07-1005	C1CRA2	transposase	
+GI07-288-MONOMER	GI07-288	C1CPC1	pyruvate formate-lyase 3	
+GI07-1906-MONOMER	GI07-1906	C1CTN5	competence-induced protein Ccs50	
+GI07-2045-MONOMER	GI07-2045	C1CTZ4	transposase, IS1380-Spn1 related, truncation	
+GI07-1109-MONOMER	GI07-1109	C1CRJ6	cysteine desulfurase	
+GI07-1799-MONOMER	GI07-1799	C1CTD3	orf	
+GI07-1003-MONOMER	GI07-1003	C1CRA1	PTS system, galactose-specific IIB component	
+GI07-552-MONOMER	GI07-552	C1CQ26	BlpT protein, fusion	
+GI07-1905-MONOMER	GI07-1905	C1CTN4	3'-5' exoribonuclease YhaM	
+GI07-2044-MONOMER	GI07-2044	C1CTZ3	phosphate transport system regulatory protein PhoU	
+GI07-637-MONOMER	GI07-637	C1CQA4	ABC transporter substrate-binding protein -	
+GI07-242-MONOMER	GI07-242	C1CP77	dihydrofolate:folylpolyglutamate synthetase	
+GI07-1798-MONOMER	GI07-1798	C1CTD2	orf	
+GI07-1108-MONOMER	GI07-1108	C1CRJ5	orf	
+GI07-2043-MONOMER	GI07-2043	C1CTZ2	phosphate transporter ATP-binding protein	
+GI07-551-MONOMER	GI07-551	C1CQ25	ABC transporter permease	
+GI07-1904-MONOMER	GI07-1904	C1CTN3	pur operon repressor	PurR
+GI07-34-MONOMER	GI07-34	C1CNN3	orf	
+GI07-1002-MONOMER	GI07-1002	C1CRA0	phosphotransferase system sugar-specific EII component	
+GI07-1797-MONOMER	GI07-1797	C1CTD1	recombination regulator RecX	RecX
+GI07-1107-MONOMER	GI07-1107	C1CRJ4	orf	
+GI07-636-MONOMER	GI07-636	C1CQA3	orf	
+GI07-2042-MONOMER	GI07-2042	C1CTZ1	phosphate ABC transporter permease	
+GI07-287-MONOMER	GI07-287	C1CPC0	AraC family transcriptional regulator	
+GI07-1903-MONOMER	GI07-1903	C1CTN2	diaminopimelate decarboxylase	
+GI07-550-MONOMER	GI07-550	C1CQ24	ABC transporter ATP-binding protein	
+GI07-1796-MONOMER	GI07-1796	C1CTD0	23S rRNA (uracil-5-)-methyltransferase RumA	
+GI07-1001-MONOMER	GI07-1001	C1CR99	chlorohydrolase	
+GI07-2041-MONOMER	GI07-2041	C1CTZ0	phosphate ABC transporter permease	
+GI07-1106-MONOMER	GI07-1106	C1CRJ3	redox-sensing transcriptional repressor Rex	
+GI07-1902-MONOMER	GI07-1902	C1CTN1	pyruvate formate-lyase 1-activating enzyme	PflA
+GI07-2040-MONOMER	GI07-2040	C1CTY9	ABC transporter substrate-binding protein -	
+GI07-635-MONOMER	GI07-635	C1CQA2	excinuclease ABC subunit C	UvrC
+GI07-1773-MONOMER	GI07-1773	C1CTC9	biotin--protein ligase	
+GI07-1105-MONOMER	GI07-1105	C1CRJ2	glutamine amidotransferase, class I	
+GI07-549-MONOMER	GI07-549	C1CQ23	histidine triad domain protein	
+GI07-1000-MONOMER	GI07-1000	C1CR98	GTP-binding protein LepA	LepA
+GI07-1901-MONOMER	GI07-1901	C1CTN0	OxaA-like protein precursor	
+GI07-2039-MONOMER	GI07-2039	C1CTY8	histidine kinase PnpS	
+GI07-241-MONOMER	GI07-241	C1CP76	orf	
+GI07-1772-MONOMER	GI07-1772	C1CTC8	Msm operon regulatory protein	
+GI07-33-MONOMER	GI07-33	C1CNN2	orf	
+GI07-1104-MONOMER	GI07-1104	C1CRJ1	DNA repair protein RadC	RadC
+GI07-634-MONOMER	GI07-634	C1CQA1	matrixin family	
+GI07-285-MONOMER	GI07-285	C1CPB9	Fe(3+) ions import ATP-binding protein FbpC	
+GI07-548-MONOMER	GI07-548	C1CQ22	orf	
+GI07-1900-MONOMER	GI07-1900	C1CTM9	acylphosphatase	
+GI07-999-MONOMER	GI07-999	C1CR97	serine/threonine protein phosphatase	
+GI07-1771-MONOMER	GI07-1771	C1CTC7	alpha-galactosidase	Melibiase
+GI07-2038-MONOMER	GI07-2038	C1CTY7	alkaline phosphatase synthesis transcriptional regulatory proteinphoP	
+GI07-633-MONOMER	GI07-633	C1CQA0	alanine-adding enzyme MurN	
+GI07-1899-MONOMER	GI07-1899	C1CTM8	SpoU rRNA Methylase family protein	
+GI07-1103-MONOMER	GI07-1103	C1CRJ0	ATP-dependent DNA helicase PcrA	PcrA
+GI07-547-MONOMER	GI07-547	C1CQ21	chlorohydrolase	
+GI07-1770-MONOMER	GI07-1770	C1CTC6	sugar ABC transporter substrate-binding protein	
+GI07-2037-MONOMER	GI07-2037	C1CTY6	orf	
+GI07-1898-MONOMER	GI07-1898	C1CTM7	membrane protein	
+GI07-2036-MONOMER	GI07-2036	C1CTY5	transposase	
+GI07-32-MONOMER	GI07-32	C1CNN1	orf	
+GI07-998-MONOMER	GI07-998	C1CR96	DNA repair protein RecN	RecN
+GI07-632-MONOMER	GI07-632	C1CQ99	serine/alanine-adding enzyme MurM	
+GI07-1769-MONOMER	GI07-1769	C1CTC5	sugar ABC transporter permease	
+GI07-283-MONOMER	GI07-283	C1CPB8	phosphoglycerate mutase	
+GI07-1102-MONOMER	GI07-1102	C1CRI9	transposase	
+GI07-240-MONOMER	GI07-240	C1CP75	Holliday junction resolvase-like protein	
+GI07-546-MONOMER	GI07-546	C1CQ20	chaperone protein DnaJ	DnaJ
+GI07-1897-MONOMER	GI07-1897	C1CTM6	orf	
+GI07-1768-MONOMER	GI07-1768	C1CTC4	sugar ABC transporter permease	
+GI07-2035-MONOMER	GI07-2035	C1CTY4	arginyl-tRNA synthetase	ArgS
+GI07-997-MONOMER	GI07-997	C1CR95	transcriptional regulator of arginine metabolism expression	
+GI07-631-MONOMER	GI07-631	C1CQ98	tributyrin esterase	
+GI07-1896-MONOMER	GI07-1896	C1CTM5	asparagine synthetase AsnA	AsnA
+GI07-1101-MONOMER	GI07-1101	C1CRI8	mobile genetic element	
+GI07-1767-MONOMER	GI07-1767	C1CTC3	chlorohydrolase	
+GI07-31-MONOMER	GI07-31	C1CNN0	Fic protein family	
+GI07-545-MONOMER	GI07-545	C1CQ19	orf	
+GI07-1895-MONOMER	GI07-1895	C1CTM4	RNA methyltransferase, RsmD family	RsmD
+GI07-1766-MONOMER	GI07-1766	C1CTC2	sucrose phosphorylase	Sucrose glucosyltransferase, (Glucosyltransferase-A), GTF-A
+GI07-2034-MONOMER	GI07-2034	C1CTY3	arginine repressor	ArgR
+GI07-996-MONOMER	GI07-996	C1CR94	hemolysin A	TylA
+GI07-1100-MONOMER	GI07-1100	C1CRI7	methionine aminopeptidase	Map
+GI07-630-MONOMER	GI07-630	C1CQ97	metallo-beta-lactamase family protein	
+GI07-239-MONOMER	GI07-239	C1CP74	orf	
+GI07-282-MONOMER	GI07-282	C1CPB7	orf	
+CPD0-1082			L-Ala-&gamma;-D-Glu-DAP-D-Ala	L-alanyl-D-&gamma;-glutamyl-<i>meso</i>-2,6-diaminopimeloyl-D-alanine
+CPD-14436			<i>N</i>-acetylglutaminylglutamine amide	NAGGN, N2-acetyl-L-glutaminyl-L-glutamamide, (2S)-2-[[(2S)-2-acetamido-5-amino-5-oxopentanoyl]amino]pentanediamide, N-Ac-Gln-gln-amide, L-glutamamide, N2-acetyl-L-glutaminyl-
+CPD-14437			<i>N</i>-acetylglutaminylglutamine	NAGG
+D-ALA-D-ALA			D-alanyl-D-alanine	

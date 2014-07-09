@@ -1,0 +1,114 @@
+# Copyright © 2013, SRI International. All rights reserved.
+#
+# Authors:
+#    Pallavi Subhraveti
+#    Quang Ong
+#    Tomer Altman
+#    Ron Caspi
+#    Ingrid Keseler
+#    Peter D Karp
+#
+# Please see the license agreement regarding the use of and distribution of this file.
+# The format of this file is defined at http://bioinformatics.ai.sri.com/ptools/flatfile-format.html .
+#
+# Species: Streptococcus pneumoniae Taiwan19F-14
+# Database: SPNE487213cyc
+# Version: 17.0
+# File Name: transporters.col
+# Date and time generated: September 25, 2013, 15:51:45
+#
+UNIQUE-ID	NAME	REACTION-EQUATION	SUBUNIT-COMPOSITION
+CPLXI07-4	predicted ABC transporter of phosphate	ATP + phosphate[extracellular space] + H2O  <-->  ADP + 2 phosphate[cytosol] + H+	1*GI07-2042-MONOMER,1*GI07-2041-MONOMER
+GI07-367-MONOMER	N-acetylgalactosamine-specific phosphotransferase enzyme iib component2	a protein-Npi-phospho-L-histidine + sucrose[out]  <-->  a [protein]-L-histidine + sucrose-6-phosphate[in]	1*GI07-367-MONOMER
+GI07-1454-MONOMER	calcium-transporting ATPase 1	Ca2+[out] + ATP + H2O  <-->  Ca2+[in] + ADP + phosphate + H+	1*GI07-1454-MONOMER
+GI07-1406-MONOMER	F0F1 ATP synthase subunit epsilon	ATP + 3 H+[in] + H2O  <-->  ADP + phosphate + 4 H+[out]	1*GI07-1406-MONOMER
+GI07-285-MONOMER	Fe(3+) ions import ATP-binding protein FbpC	Fe3+[out] + ATP + H2O  <-->  Fe3+[in] + ADP + phosphate + H+	1*GI07-285-MONOMER
+GI07-865-MONOMER	spermidine/putrescine import ATP-binding protein PotA	a polyamine[out] + ATP + H2O  <-->  a polyamine[in] + ADP + phosphate	1*GI07-865-MONOMER
+GI07-1198-MONOMER	multidrug resistance protein MdtG	a xenobiotic[in] + ATP + H2O  <-->  a xenobiotic[out] + ADP + phosphate	1*GI07-1198-MONOMER
+GI07-1322-MONOMER	ribose import ATP-binding protein RbsA	a monosaccharide[out] + ATP + H2O  <-->  a monosaccharide[in] + ADP + phosphate	1*GI07-1322-MONOMER
+		  <-->  	
+GI07-1002-MONOMER	phosphotransferase system sugar-specific EII component	phosphoenolpyruvate + a sugar[extracellular space]  <-->  pyruvate + a sugar[cytosol]	1*GI07-1002-MONOMER
+		  <-->  	
+GI07-662-MONOMER	phosphotransferase system sugar-specific EII component	phosphoenolpyruvate + a sugar[extracellular space]  <-->  pyruvate + a sugar[cytosol]	1*GI07-662-MONOMER
+		  <-->  	
+		  <-->  	
+GI07-660-MONOMER	phosphotransferase system sugar-specific EII component	phosphoenolpyruvate + a sugar[extracellular space]  <-->  pyruvate + a sugar[cytosol]	1*GI07-660-MONOMER
+GI07-511-MONOMER	lactose-specific phosphotransferase enzyme iia component	phosphoenolpyruvate + lactose[extracellular space]  <-->  pyruvate + lactose 6-phosphate[cytosol]	1*GI07-511-MONOMER
+GI07-355-MONOMER	cellobiose phosphotransferase system IIC component	phosphoenolpyruvate + cellobiose[extracellular space]  <-->  pyruvate + 6-phospho-beta-D-glucosyl-(1,4)-D-glucose[cytosol]	1*GI07-355-MONOMER
+GI07-353-MONOMER	cellobiose phosphotransferase system IIA component	phosphoenolpyruvate + cellobiose[extracellular space]  <-->  pyruvate + 6-phospho-beta-D-glucosyl-(1,4)-D-glucose[cytosol]	1*GI07-353-MONOMER
+GI07-351-MONOMER	cellobiose phosphotransferase system IIB component	phosphoenolpyruvate + cellobiose[extracellular space]  <-->  pyruvate + 6-phospho-beta-D-glucosyl-(1,4)-D-glucose[cytosol]	1*GI07-351-MONOMER
+GI07-324-MONOMER	mannose-specific phosphotransferase system component iiab	phosphoenolpyruvate + D-mannose[extracellular space]  <-->  pyruvate + D-mannose[cytosol]	1*GI07-324-MONOMER
+GI07-323-MONOMER	PTS system sorbose-specific IIc component	phosphoenolpyruvate + sorbose[extracellular space]  <-->  pyruvate + sorbose[cytosol]	1*GI07-323-MONOMER
+GI07-322-MONOMER	PTS system, mannose/fructose/sorbose family, IID component	phosphoenolpyruvate + sorbose[extracellular space]  <-->  pyruvate + sorbose[cytosol]	1*GI07-322-MONOMER
+GI07-322-MONOMER	PTS system, mannose/fructose/sorbose family, IID component	phosphoenolpyruvate + fructose[extracellular space]  <-->  pyruvate + fructose[cytosol]	1*GI07-322-MONOMER
+GI07-322-MONOMER	PTS system, mannose/fructose/sorbose family, IID component	phosphoenolpyruvate + D-mannose[extracellular space]  <-->  pyruvate + D-mannose[cytosol]	1*GI07-322-MONOMER
+GI07-291-MONOMER	phosphotransferase system sugar-specific eiia component	phosphoenolpyruvate + a sugar[extracellular space]  <-->  pyruvate + a sugar[cytosol]	1*GI07-291-MONOMER
+		  <-->  	
+GI07-101-MONOMER	phosphotransferase system sugar-specific EII component	phosphoenolpyruvate + a sugar[extracellular space]  <-->  pyruvate + a sugar[cytosol]	1*GI07-101-MONOMER
+GI07-98-MONOMER	phosphotransferase system sugar-specific eiib component	phosphoenolpyruvate + a sugar[extracellular space]  <-->  pyruvate + a sugar[cytosol]	1*GI07-98-MONOMER
+		  <-->  	
+GI07-2120-MONOMER	phosphotransferase system sugar-specific EII component	phosphoenolpyruvate + a sugar[extracellular space]  <-->  pyruvate + a sugar[cytosol]	1*GI07-2120-MONOMER
+		  <-->  	
+GI07-2087-MONOMER	PTS system ascorbate-specific transporter subunit IIC	phosphoenolpyruvate + L-ascorbate[extracellular space]  <-->  pyruvate + L-ascorbate-6-phosphate[cytosol]	1*GI07-2087-MONOMER
+GI07-1979-MONOMER	PTS system ascorbate-specific transporter subunit IIC	phosphoenolpyruvate + L-ascorbate[extracellular space]  <-->  pyruvate + L-ascorbate-6-phosphate[cytosol]	1*GI07-1979-MONOMER
+GI07-1977-MONOMER	ascorbate-specific phosphotransferase enzyme iia component	phosphoenolpyruvate + L-ascorbate[extracellular space]  <-->  pyruvate + L-ascorbate-6-phosphate[cytosol]	1*GI07-1977-MONOMER
+GI07-1966-MONOMER	lichenan-specific phosphotransferase enzyme iia component	phosphoenolpyruvate + lichenan[extracellular space]  <-->  pyruvate + lichenan[cytosol]	1*GI07-1966-MONOMER
+GI07-1964-MONOMER	phosphotransferase system system, cellobiose-specific IIC component	phosphoenolpyruvate + cellobiose[extracellular space]  <-->  pyruvate + 6-phospho-beta-D-glucosyl-(1,4)-D-glucose[cytosol]	1*GI07-1964-MONOMER
+		  <-->  	
+CPLXI07-7	predicted transporter of a sugar/CPD0-2342	phosphoenolpyruvate + a sugar[extracellular space]  <-->  pyruvate + a sugar[cytosol]	1*GI07-368-MONOMER,1*GI07-365-MONOMER
+GI07-1012-MONOMER	lactose-specific phosphotransferase enzyme iia component	phosphoenolpyruvate + lactose[extracellular space]  <-->  pyruvate + lactose 6-phosphate[cytosol]	1*GI07-1012-MONOMER
+		  <-->  	
+CPLXI07-2	predicted ATP-driven transporter of CO+2	ATP + Co2+[extracellular space] + H2O  <-->  ADP + Co2+[cytosol] + phosphate	1*GI07-2183-MONOMER,1*GI07-2182-MONOMER
+GI07-801-MONOMER	L-cystine import ATP-binding protein TcyN	ATP + L-cystine[extracellular space] + H2O  <-->  ADP + L-cystine[cytosol] + phosphate	1*GI07-801-MONOMER
+GI07-1744-MONOMER	ferrichrome transport ATP-binding protein FhuC	ATP + ferrichrome[extracellular space] + H2O  <-->  ADP + ferrichrome[cytosol] + phosphate	1*GI07-1744-MONOMER
+GI07-485-MONOMER	glutamate/aspartate ABC transporter, ATP-binding protein	ATP + L-glutamate[extracellular space] + H2O  <-->  ADP + L-glutamate[cytosol] + phosphate	1*GI07-485-MONOMER
+GI07-1058-MONOMER	Fe3+ ABC transporter permease	ATP + Fe3+[extracellular space] + H2O  <-->  ADP + Fe3+[cytosol] + phosphate	1*GI07-1058-MONOMER
+GI07-485-MONOMER	glutamate/aspartate ABC transporter, ATP-binding protein	ATP + L-aspartate[extracellular space] + H2O  <-->  ADP + L-aspartate[cytosol] + phosphate	1*GI07-485-MONOMER
+CPLXI07-15	predicted ABC transporter of a sugar	ATP + a sugar[extracellular space] + H2O  <-->  ADP + a sugar[cytosol] + phosphate	1*GI07-1581-MONOMER,1*GI07-1580-MONOMER
+CPLXI07-12	predicted ABC transporter of NA+	ATP + Na+[extracellular space] + H2O  <-->  ADP + Na+[cytosol] + phosphate	1*GI07-1616-MONOMER,1*GI07-1615-MONOMER
+GI07-2056-MONOMER	P-type ATPase-metal/cation transport	ATP + a cation[extracellular space] + H2O  <-->  ADP + a cation[cytosol] + phosphate	1*GI07-2056-MONOMER
+GI07-195-MONOMER	methionine import ATP-binding protein MetN	ATP + L-methionine[extracellular space] + H2O  <-->  ADP + L-methionine[cytosol] + phosphate	1*GI07-195-MONOMER
+GI07-2159-MONOMER	anion ABC transporter ATP-binding protein	ATP + an anion[extracellular space] + H2O  <-->  ADP + an anion[cytosol] + phosphate	1*GI07-2159-MONOMER
+GI07-2064-MONOMER	maltose/maltodextrin ABC transporter permease	ATP + a maltodextrin[extracellular space] + H2O  <-->  ADP + a maltodextrin[cytosol] + phosphate	1*GI07-2064-MONOMER
+GI07-2064-MONOMER	maltose/maltodextrin ABC transporter permease	ATP + beta-maltose[extracellular space] + H2O  <-->  ADP + beta-maltose[cytosol] + phosphate	1*GI07-2064-MONOMER
+CPLXI07-14	predicted ATP-driven transporter of an oligopeptide	ATP + an oligopeptide[extracellular space] + H2O  <-->  ADP + an oligopeptide[cytosol] + phosphate	1*GI07-1761-MONOMER,1*GI07-1760-MONOMER
+CPLXI07-13	predicted ABC transporter of choline	ATP + choline[extracellular space] + H2O  <-->  ADP + choline[cytosol] + phosphate	1*GI07-1735-MONOMER,1*GI07-1734-MONOMER
+CPLXI07-11	predicted ATP-driven transporter of MN+2	ATP + Mn2+[extracellular space] + H2O  <-->  ADP + Mn2+[cytosol] + phosphate	1*GI07-1551-MONOMER,1*GI07-1549-MONOMER
+CPLXI07-8	predicted ABC transporter of D-ribose/beta-D-galactose	ATP + beta-D-galactose[extracellular space] + H2O  <-->  ADP + beta-D-galactose[cytosol] + phosphate	1*GI07-1321-MONOMER,1*GI07-1320-MONOMER
+CPLXI07-8	predicted ABC transporter of D-ribose/beta-D-galactose	ATP + D-ribose[extracellular space] + H2O  <-->  ADP + D-ribose[cytosol] + phosphate	1*GI07-1321-MONOMER,1*GI07-1320-MONOMER
+CPLXI07-6	predicted ABC transporter of spermidine/putrescine	ATP + putrescine[extracellular space] + H2O  <-->  ADP + putrescine[cytosol] + phosphate	1*GI07-867-MONOMER,1*GI07-866-MONOMER
+CPLXI07-6	predicted ABC transporter of spermidine/putrescine	ATP + spermidine[extracellular space] + H2O  <-->  ADP + spermidine[cytosol] + phosphate	1*GI07-867-MONOMER,1*GI07-866-MONOMER
+CPLXI07-1	predicted ABC transporter of ZN+2	ATP + Zn2+[extracellular space] + H2O  <-->  ADP + Zn2+[cytosol] + phosphate	1*GI07-2129-MONOMER,1*GI07-2128-MONOMER
+GI07-143-MONOMER	amino acid ABC transporter permease	ATP + a standard alpha amino acid[extracellular space] + H2O  <-->  ADP + a standard alpha amino acid[cytosol] + phosphate	1*GI07-143-MONOMER
+CPLXI07-9	predicted ABC transporter of L-glutamine	ATP + L-glutamine[extracellular space] + H2O  <-->  ADP + L-glutamine[cytosol] + phosphate	1*GI07-626-MONOMER,1*GI07-625-MONOMER
+GI07-1130-MONOMER	macrolide ABC transporter permease	ATP + a macrolide[extracellular space] + H2O  <-->  ADP + a macrolide[cytosol] + phosphate	1*GI07-1130-MONOMER
+GI07-1059-MONOMER	ferric enterobactin transport ATP-binding protein FepC	ATP + ferric enterobactin[extracellular space] + H2O  <-->  ADP + ferric enterobactin[cytosol] + phosphate	1*GI07-1059-MONOMER
+GI07-987-MONOMER	formate-nitrate transporter	formate[cytosol]  <-->  formate[extracellular space]	1*GI07-987-MONOMER
+GI07-112-MONOMER	potassium uptake protein, Trk family	K+[extracellular space]  <-->  K+[cytosol]	1*GI07-112-MONOMER
+GI07-218-MONOMER	magnesium and cobalt transporter	Mg2+[extracellular space]  <-->  Mg2+[cytosol]	1*GI07-218-MONOMER
+GI07-1151-MONOMER	voltage-gated chloride channel family protein	chloride[extracellular space]  <-->  chloride[cytosol]	1*GI07-1151-MONOMER
+GI07-1762-MONOMER	oligopeptide transport system permease protein AmiD	an oligopeptide[extracellular space] + H+[extracellular space]  <-->  an oligopeptide[cytosol] + H+[cytosol]	1*GI07-1762-MONOMER
+GI07-919-MONOMER	uracil permease	uracil[extracellular space] + H+[extracellular space]  <-->  uracil[cytosol] + H+[cytosol]	1*GI07-919-MONOMER
+GI07-904-MONOMER	high-affinity Fe2+/Pb2+ permease	Pb2+[extracellular space] + Fe2+[extracellular space]  <-->  Pb2+[cytosol] + Fe2+[cytosol]	1*GI07-904-MONOMER
+GI07-1730-MONOMER	cation diffusion facilitator transporter -	a cation[extracellular space] + H+[extracellular space]  <-->  a cation[cytosol] + H+[cytosol]	1*GI07-1730-MONOMER
+GI07-1721-MONOMER	xanthine permease	xanthine[extracellular space] + H+[extracellular space]  <-->  xanthine[cytosol] + H+[cytosol]	1*GI07-1721-MONOMER
+GI07-742-MONOMER	sodium-dependent transporter	Na+[extracellular space] + H+[extracellular space]  <-->  Na+[cytosol] + H+[cytosol]	1*GI07-742-MONOMER
+GI07-1486-MONOMER	major facilitator:Oxalate:Formate Antiporter	formate[cytosol] + oxalate[extracellular space]  <-->  formate[extracellular space] + oxalate[cytosol]	1*GI07-1486-MONOMER
+GI07-528-MONOMER	sodium-dependent phosphate transporter	Na+[extracellular space] + phosphate[extracellular space]  <-->  Na+[cytosol] + phosphate[cytosol]	1*GI07-528-MONOMER
+GI07-293-MONOMER	lichenan permease iic component	lichenan[extracellular space] + H+[extracellular space]  <-->  lichenan[cytosol] + H+[cytosol]	1*GI07-293-MONOMER
+GI07-441-MONOMER	sodium:alanine symporter family protein	Na+[extracellular space] + L-alanine[extracellular space]  <-->  Na+[cytosol] + L-alanine[cytosol]	1*GI07-441-MONOMER
+GI07-134-MONOMER	cyanate permease	cyanate[extracellular space] + H+[extracellular space]  <-->  cyanate[cytosol] + H+[cytosol]	1*GI07-134-MONOMER
+GI07-2143-MONOMER	glycerol uptake facilitator protein	glycerol[extracellular space] + H+[extracellular space]  <-->  glycerol[cytosol] + H+[cytosol]	1*GI07-2143-MONOMER
+GI07-2119-MONOMER	mannose permease iid component	D-mannose[extracellular space] + H+[extracellular space]  <-->  D-mannose[cytosol] + H+[cytosol]	1*GI07-2119-MONOMER
+GI07-2108-MONOMER	arginine-ornithine antiporter	L-ornithine[cytosol] + L-arginine[extracellular space]  <-->  L-ornithine[extracellular space] + L-arginine[cytosol]	1*GI07-2108-MONOMER
+GI07-2063-MONOMER	maltodextrin transport system permease protein MalC	a maltodextrin[extracellular space] + H+[extracellular space]  <-->  a maltodextrin[cytosol] + H+[cytosol]	1*GI07-2063-MONOMER
+GI07-190-MONOMER	branched-chain amino acid permease	a standard alpha amino acid[extracellular space] + H+[extracellular space]  <-->  a standard alpha amino acid[cytosol] + H+[cytosol]	1*GI07-190-MONOMER
+GI07-987-MONOMER	formate-nitrate transporter	nitrate[extracellular space]  <-->  nitrate[cytosol]	1*GI07-987-MONOMER
+GI07-1732-MONOMER	nicotinamide mononucleotide transporter	a nicotinamide mononucleotide[extracellular space]  <-->  a nicotinamide mononucleotide[cytosol]	1*GI07-1732-MONOMER
+GI07-191-MONOMER	branched-chain amino acid transport protein AzlD	a standard alpha amino acid[extracellular space]  <-->  a standard alpha amino acid[cytosol]	1*GI07-191-MONOMER
+GI07-129-MONOMER	macrolide export ATP-binding/permease protein MacB	ATP[cytosol]  <-->  ATP[extracellular space]	1*GI07-129-MONOMER
+GI07-1455-MONOMER	cation efflux family protein	a cation[cytosol]  <-->  a cation[extracellular space]	1*GI07-1455-MONOMER
+GI07-1428-MONOMER	polysaccharide transporter	a polysaccharide[extracellular space]  <-->  a polysaccharide[cytosol]	1*GI07-1428-MONOMER
+GI07-218-MONOMER	magnesium and cobalt transporter	Co2+[extracellular space]  <-->  Co2+[cytosol]	1*GI07-218-MONOMER
+GI07-204-MONOMER	mn2+ and fe2+ transporter of the nramp family	Fe2+[extracellular space]  <-->  Fe2+[cytosol]	1*GI07-204-MONOMER
+GI07-1872-MONOMER	macrolide-efflux protein	a macrolide[cytosol]  <-->  a macrolide[extracellular space]	1*GI07-1872-MONOMER

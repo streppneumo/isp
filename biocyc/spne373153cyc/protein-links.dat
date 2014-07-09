@@ -1,0 +1,1942 @@
+GIX6-958-MONOMER	GIX6-958	Q04KL3	RNA polymerase sigma factor RpoD	RpoD
+CPLXIX6-1			predicted ABC transporter of a maltodextrin	
+CPLXIX6-2			predicted ABC transporter of ZN+2	
+CPLXIX6-3			predicted ABC transporter of CO+2	
+CPLXIX6-4			predicted ABC transporter of Fe3+	
+CPLXIX6-5			predicted transporter of D-mannose	
+CPLXIX6-6			predicted transporter of MANNITOL	
+CPLXIX6-7			predicted transporter of lactose	
+CPLXIX6-8			predicted ABC transporter of spermidine/putrescine	
+CPLXIX6-9			predicted ABC transporter of phosphate	
+CPLXIX6-10			predicted ATP-driven transporter of phosphate	
+CPLXIX6-11			predicted ABC transporter of a standard alpha amino acid	
+CPLXIX6-12			predicted ABC transporter of a standard alpha amino acid	
+CPLXIX6-13			predicted ABC transporter of a standard alpha amino acid	
+CPLXIX6-14			predicted ABC transporter of a standard alpha amino acid	
+CPLXIX6-15			predicted ABC transporter of a standard alpha amino acid	
+CPLXIX6-16			predicted ABC transporter of a standard alpha amino acid	
+CPLXIX6-17			predicted ABC transporter of a standard alpha amino acid	
+CPLXIX6-18			predicted ABC transporter of a standard alpha amino acid	
+CPLXIX6-19			predicted ABC transporter of an oligopeptide	
+CPLXIX6-20			predicted ABC transporter of an oligopeptide	
+CPLXIX6-21			predicted ABC transporter of MN+2	
+CPLXIX6-22			predicted ABC transporter of a sugar	
+CPLXIX6-23			predicted ABC transporter of a sugar	
+CPLXIX6-24			predicted ABC transporter of a sugar	
+GIX6-771-MONOMER	GIX6-771	Q04L42	lactose phosphotransferase system repressor	
+GIX6-1112-MONOMER	GIX6-1112	Q04K66	orf	
+GIX6-302-MONOMER	GIX6-302	Q04MC9	orf	
+GIX6-1743-MONOMER	GIX6-1743	Q04IM2	orf	
+GIX6-1832-MONOMER	GIX6-1832	Q04IE9	PTS system transporter subunit IIB	
+GIX6-1111-MONOMER	GIX6-1111	Q04K67	orf	
+GIX6-710-MONOMER	GIX6-710	Q04L94	septation ring formation regulator EzrA	EzrA
+GIX6-1033-MONOMER	GIX6-1033	Q04KE1	orf	
+GIX6-768-MONOMER	GIX6-768	Q04L43	orf	
+GIX6-1742-MONOMER	GIX6-1742	Q04IM3	GNAT family acetyltransferase	
+GIX6-361-MONOMER	GIX6-361	Q04M77	transcriptional regulator	
+GIX6-1110-MONOMER	GIX6-1110	Q04K68	orf	
+GIX6-301-MONOMER	GIX6-301	Q04MD0	sugar binding transcriptional regulator RegR	RegR
+GIX6-1831-MONOMER	GIX6-1831	Q04IF0	PTS system transporter subunit IIC	
+GIX6-1741-MONOMER	GIX6-1741	Q04IM4	transcriptional regulator	
+GIX6-767-MONOMER	GIX6-767	Q04L44	D-alanyl-D-alanine carboxypeptidase	DacC
+GIX6-709-MONOMER	GIX6-709	Q04L95	DNA gyrase subunit B	GyrB
+GIX6-1032-MONOMER	GIX6-1032	Q04KE2	uracil-DNA glycosylase	Ung
+GIX6-1109-MONOMER	GIX6-1109	Q04K69	endonuclease	
+GIX6-360-MONOMER	GIX6-360	Q04M78	PTS system mannitol-specific transporter subunit IIBC	MtlA
+GIX6-1740-MONOMER	GIX6-1740	Q04IM5	competence damage-inducible protein A	CinA
+GIX6-1830-MONOMER	GIX6-1830	Q04IF1	glycosyl hydrolase family protein	
+GIX6-766-MONOMER	GIX6-766	Q04L45	FeS assembly protein SufB	SufB
+GIX6-1108-MONOMER	GIX6-1108	Q04K70	orf	
+GIX6-708-MONOMER	GIX6-708	Q04L96	hydrolase	
+GIX6-300-MONOMER	GIX6-300	Q04MD1	orf	
+GIX6-1739-MONOMER	GIX6-1739	Q04IM6	recombinase A	RecA
+GIX6-1031-MONOMER	GIX6-1031	Q04KE3	Mutator mutT protein, 8-oxo-dGTPase	MutX, 7,8-dihydro-8-oxoguanine-triphosphatase
+GIX6-359-MONOMER	GIX6-359	Q04M79	orf	
+GIX6-1107-MONOMER	GIX6-1107	Q04K71	guanosine 5'-monophosphate oxidoreductase	GuaC
+GIX6-765-MONOMER	GIX6-765	Q04L46	SUF system FeS assembly protein, NifU family protein	
+GIX6-1738-MONOMER	GIX6-1738	Q04IM7	MATE efflux family protein DinF	DinF
+GIX6-299-MONOMER	GIX6-299	Q04MD2	orf	
+GIX6-707-MONOMER	GIX6-707	Q04L97	4-methyl-5(b-hydroxyethyl)-thiazole monophosphate biosynthesis protein	
+GIX6-1030-MONOMER	GIX6-1030	Q04KE4	dihydroorotase	PyrC
+GIX6-1829-MONOMER	GIX6-1829	Q04IF2	GntR family transcriptional regulator protein	
+GIX6-1105-MONOMER	GIX6-1105	Q04K72	ribonuclease III	Rnc
+GIX6-357-MONOMER	GIX6-357	Q04M80	choline binding protein F	CbpF
+GIX6-1737-MONOMER	GIX6-1737	Q04IM8	autolysin/N-acetylmuramoyl-L-alanine amidase	LytA
+GIX6-764-MONOMER	GIX6-764	Q04L47	cysteine desulfurase SufS subfamily protein	SufS
+GIX6-1029-MONOMER	GIX6-1029	Q04KE5	MATE efflux family protein	
+GIX6-1104-MONOMER	GIX6-1104	Q04K73	chromosome segregation protein SMC	Smc
+GIX6-1736-MONOMER	GIX6-1736	Q04IM9	orf	
+GIX6-298-MONOMER	GIX6-298	Q04MD3	preprotein translocase subunit YajC	
+GIX6-706-MONOMER	GIX6-706	Q04L98	rod shape-determining protein RodA	
+GIX6-1735-MONOMER	GIX6-1735	Q04IN0	orf	
+GIX6-1028-MONOMER	GIX6-1028	Q04KE6	TPP-dependent acetoin dehydrogenase subunit alpha	AcoA
+GIX6-297-MONOMER	GIX6-297	Q04MD4	PTS system transporter subunit IID	
+GIX6-1734-MONOMER	GIX6-1734	Q04IN1	orf	
+GIX6-1027-MONOMER	GIX6-1027	Q04KE7	acetoin dehydrogenase, E1 component subunit beta	
+GIX6-705-MONOMER	GIX6-705	Q04L99	bifunctional ATP-dependent DNA helicase/DNA polymerase III subunit epsilon	
+GIX6-1733-MONOMER	GIX6-1733	Q04IN2	orf	
+GIX6-296-MONOMER	GIX6-296	Q04MD5	PTS system transporter subunit IIC	
+GIX6-1732-MONOMER	GIX6-1732	Q04IN3	orf	
+GIX6-1026-MONOMER	GIX6-1026	Q04KE8	dihydrolipoamide acetyltransferase	
+GIX6-295-MONOMER	GIX6-295	Q04MD6	PTS system transporter subunit IIB	
+GIX6-704-MONOMER	GIX6-704	Q04LA0	orf	
+GIX6-1731-MONOMER	GIX6-1731	Q04IN4	orf	
+GIX6-1025-MONOMER	GIX6-1025	Q04KE9	dihydrolipoamide dehydrogenase	LpdA
+GIX6-703-MONOMER	GIX6-703	Q04LA1	orf	
+GIX6-1729-MONOMER	GIX6-1729	Q04IN5	orf	
+GIX6-294-MONOMER	GIX6-294	Q04MD7	glucuronyl hydrolase	
+GIX6-1728-MONOMER	GIX6-1728	Q04IN6	orf	
+GIX6-702-MONOMER	GIX6-702	Q04LA2	sensor histidine kinase CiaH	CiaH
+GIX6-1024-MONOMER	GIX6-1024	Q04KF0	lipoate-protein ligase	
+GIX6-1727-MONOMER	GIX6-1727	Q04IN7	orf	
+GIX6-293-MONOMER	GIX6-293	Q04MD8	PTS system transporter subunit IIA	
+GIX6-701-MONOMER	GIX6-701	Q04LA3	DNA-binding response regulator CiaR	CiaR
+GIX6-1726-MONOMER	GIX6-1726	Q04IN8	pneumolysin	Ply
+GIX6-1023-MONOMER	GIX6-1023	Q04KF1	site-specific tyrosine recombinase XerS	XerS
+GIX6-1725-MONOMER	GIX6-1725	Q04IN9	orf	
+GIX6-292-MONOMER	GIX6-292	Q04MD9	gluconate 5-dehydrogenase	
+GIX6-700-MONOMER	GIX6-700	Q04LA4	aminopeptidase N	PepN
+GIX6-1022-MONOMER	GIX6-1022	Q04KF2	orf	
+GIX6-1723-MONOMER	GIX6-1723	Q04IP0	orf	
+GIX6-1021-MONOMER	GIX6-1021	Q04KF3	voltage-gated chloride channel family protein	
+GIX6-291-MONOMER	GIX6-291	Q04ME0	orf	
+GIX6-699-MONOMER	GIX6-699	Q04LA5	orf	
+GIX6-1721-MONOMER	GIX6-1721	Q04IP1	ABC transporter ATP-binding protein	
+GIX6-1020-MONOMER	GIX6-1020	Q04KF4	ribonuclease HII	RnhB
+GIX6-698-MONOMER	GIX6-698	Q04LA6	orf	
+GIX6-290-MONOMER	GIX6-290	Q04ME1	PfkB family protein carbohydrate kinase	
+GIX6-1720-MONOMER	GIX6-1720	Q04IP2	orf	
+GIX6-1019-MONOMER	GIX6-1019	Q04KF5	ribosomal biogenesis GTPase	RbgA
+GIX6-289-MONOMER	GIX6-289	Q04ME2	keto-hydroxyglutarate-aldolase/keto-deoxy-phosphogluconate aldolase	Eda
+GIX6-1719-MONOMER	GIX6-1719	Q04IP3	PAP2 family protein	
+GIX6-697-MONOMER	GIX6-697	Q04LA7	GNAT family acetyltransferase	
+GIX6-1718-MONOMER	GIX6-1718	Q04IP4	orf	
+GIX6-1018-MONOMER	GIX6-1018	Q04KF6	immunoglobulin A1 protease	Iga
+GIX6-287-MONOMER	GIX6-287	Q04ME3	hyaluronate lyase	
+GIX6-696-MONOMER	GIX6-696	Q04LA8	MutT/nudix family protein	
+GIX6-1717-MONOMER	GIX6-1717	Q04IP5	orf	
+GIX6-1017-MONOMER	GIX6-1017	Q04KF7	orf	
+GIX6-1716-MONOMER	GIX6-1716	Q04IP6	orf	
+GIX6-695-MONOMER	GIX6-695	Q04LA9	3-ketoacyl-ACP reductase	FabG
+GIX6-286-MONOMER	GIX6-286	Q04ME4	glutathione peroxidase	
+GIX6-1715-MONOMER	GIX6-1715	Q04IP7	orf	
+GIX6-1016-MONOMER	GIX6-1016	Q04KF8	exonuclease RexA	RexA
+GIX6-694-MONOMER	GIX6-694	Q04LB0	orf	
+GIX6-285-MONOMER	GIX6-285	Q04ME5	glycosyl hydrolase family protein	
+GIX6-1714-MONOMER	GIX6-1714	Q04IP8	thioredoxin family protein	
+GIX6-1015-MONOMER	GIX6-1015	Q04KF9	ATP-dependent exonuclease RexB	RexB
+GIX6-693-MONOMER	GIX6-693	Q04LB1	oxidoreductase, aldo/keto reductase family protein	
+GIX6-1014-MONOMER	GIX6-1014	Q04KG0	orf	
+GIX6-284-MONOMER	GIX6-284	Q04ME6	orf	
+GIX6-1713-MONOMER	GIX6-1713	Q04IP9	orf	
+GIX6-692-MONOMER	GIX6-692	Q04LB2	orf	
+GIX6-1712-MONOMER	GIX6-1712	Q04IQ0	short chain dehydrogenase/reductase family oxidoreductase	
+GIX6-1013-MONOMER	GIX6-1013	Q04KG1	integrase/recombinase, phage integrase family protein	
+GIX6-691-MONOMER	GIX6-691	Q04LB3	orf	
+GIX6-283-MONOMER	GIX6-283	Q04ME7	cellobiose phosphotransferase system IIC component	CelD
+GIX6-1711-MONOMER	GIX6-1711	Q04IQ1	single-stranded DNA-binding protein	
+GIX6-1012-MONOMER	GIX6-1012	Q04KG2	phosphopyruvate hydratase	Eno
+GIX6-1710-MONOMER	GIX6-1710	Q04IQ2	co-chaperonin GroES	
+GIX6-690-MONOMER	GIX6-690	Q04LB4	orf	
+GIX6-282-MONOMER	GIX6-282	Q04ME8	orf	
+GIX6-1709-MONOMER	GIX6-1709	Q04IQ3	chaperonin GroEL	
+GIX6-1011-MONOMER	GIX6-1011	Q04KG3	orf	
+GIX6-1708-MONOMER	GIX6-1708	Q04IQ4	IS1167, transposase	
+GIX6-689-MONOMER	GIX6-689	Q04LB5	methionyl-tRNA synthetase	MetG
+GIX6-1010-MONOMER	GIX6-1010	Q04KG4	glycerate kinase	
+GIX6-281-MONOMER	GIX6-281	Q04ME9	cellobiose phosphotransferase system IIA component	CelC
+GIX6-1707-MONOMER	GIX6-1707	Q04IQ5	orf	
+GIX6-1706-MONOMER	GIX6-1706	Q04IQ6	orf	
+GIX6-688-MONOMER	GIX6-688	Q04LB6	orf	
+GIX6-1008-MONOMER	GIX6-1008	Q04KG5	glycogen synthase	GlgA
+GIX6-1705-MONOMER	GIX6-1705	Q04IQ7	recombination regulator RecX	RecX
+GIX6-280-MONOMER	GIX6-280	Q04MF0	transcriptional regulator	
+GIX6-1007-MONOMER	GIX6-1007	Q04KG6	glucose-1-phosphate adenylyltransferase, GlgD subunit	GlgD
+GIX6-687-MONOMER	GIX6-687	Q04LB7	ABC transporter ATP-binding protein	
+GIX6-1704-MONOMER	GIX6-1704	Q04IQ8	23S rRNA (uracil-5-)-methyltransferase RumA	
+GIX6-279-MONOMER	GIX6-279	Q04MF1	PTS system cellobiose transporter subunit IIB	CelB
+GIX6-686-MONOMER	GIX6-686	Q04LB8	orf	
+GIX6-1680-MONOMER	GIX6-1680	Q04IQ9	biotin--protein ligase	
+GIX6-1006-MONOMER	GIX6-1006	Q04KG7	glucose-1-phosphate adenylyltransferase	GlgC
+GIX6-685-MONOMER	GIX6-685	Q04LB9	glutathione reductase	Gor
+GIX6-278-MONOMER	GIX6-278	Q04MF2	orf	
+GIX6-1679-MONOMER	GIX6-1679	Q04IR0	msm operon regulatory protein MsmR	MsmR
+GIX6-1005-MONOMER	GIX6-1005	Q04KG8	glycogen branching protein	GlgB
+GIX6-684-MONOMER	GIX6-684	Q04LC0	biotin synthase	
+GIX6-277-MONOMER	GIX6-277	Q04MF3	6-phospho-beta-glucosidase	CelA
+GIX6-1678-MONOMER	GIX6-1678	Q04IR1	alpha-galactosidase AgaN	Aga
+GIX6-1004-MONOMER	GIX6-1004	Q04KG9	glyceraldehyde-3-phosphate dehydrogenase	GapN
+GIX6-276-MONOMER	GIX6-276	Q04MF4	orf	
+GIX6-1677-MONOMER	GIX6-1677	Q04IR2	sugar ABC transporter sugar-binding protein	RafE
+GIX6-1003-MONOMER	GIX6-1003	Q04KH0	orf	
+GIX6-683-MONOMER	GIX6-683	Q04LC1	orf	
+GIX6-275-MONOMER	GIX6-275	Q04MF5	30S ribosomal protein S9	RpsI
+GIX6-1676-MONOMER	GIX6-1676	Q04IR3	sugar ABC transporter permease	RafF
+GIX6-1002-MONOMER	GIX6-1002	Q04KH1	pullulanase	PulA
+GIX6-682-MONOMER	GIX6-682	Q04LC2	orf	
+GIX6-1675-MONOMER	GIX6-1675	Q04IR4	sugar ABC transporter permease	RafG
+GIX6-1001-MONOMER	GIX6-1001	Q04KH2	NAD-dependent DNA ligase LigA	LigA
+GIX6-274-MONOMER	GIX6-274	Q04MF6	50S ribosomal protein L13	RplM
+GIX6-1674-MONOMER	GIX6-1674	Q04IR5	orf	
+GIX6-1673-MONOMER	GIX6-1673	Q04IR6	sucrose phosphorylase	GtfA
+GIX6-1000-MONOMER	GIX6-1000	Q04KH3	transporter major facilitator family protein	
+GIX6-681-MONOMER	GIX6-681	Q04LC3	orf	
+GIX6-273-MONOMER	GIX6-273	Q04MF7	orf	
+GIX6-1672-MONOMER	GIX6-1672	Q04IR7	orf	
+GIX6-999-MONOMER	GIX6-999	Q04KH4	transcriptional regulator MutR	
+GIX6-1671-MONOMER	GIX6-1671	Q04IR8	oligopeptide ABC transporter oligopeptide-binding protein AmiA	AmiA
+GIX6-680-MONOMER	GIX6-680	Q04LC4	orf	
+GIX6-272-MONOMER	GIX6-272	Q04MF8	bifunctional folate synthesis protein	SulD
+GIX6-998-MONOMER	GIX6-998	Q04KH5	ABC transporter ATP-binding protein	
+GIX6-1670-MONOMER	GIX6-1670	Q04IR9	oligopeptide ABC transporter permease AmiC	AmiC
+GIX6-1669-MONOMER	GIX6-1669	Q04IS0	oligopeptide ABC transporter permease AmiD	AmiD
+GIX6-679-MONOMER	GIX6-679	Q04LC5	tRNA (guanine-N(1)-)-methyltransferase	TrmD
+GIX6-997-MONOMER	GIX6-997	Q04KH6	DNA-binding protein HU	Hup
+GIX6-1668-MONOMER	GIX6-1668	Q04IS1	oligopeptide ABC transporter ATP-binding protein AmiE	AmiE
+GIX6-271-MONOMER	GIX6-271	Q04MF9	GTP cyclohydrolase I	FolE
+GIX6-1667-MONOMER	GIX6-1667	Q04IS2	oligopeptide ABC transporter ATP-binding protein AmiF	AmiF
+GIX6-996-MONOMER	GIX6-996	Q04KH7	DegV family protein	
+GIX6-678-MONOMER	GIX6-678	Q04LC6	16S rRNA-processing protein RimM	RimM
+GIX6-270-MONOMER	GIX6-270	Q04MG0	folylpolyglutamate synthase	
+GIX6-1665-MONOMER	GIX6-1665	Q04IS3	trehalose operon repressor	TreR
+GIX6-995-MONOMER	GIX6-995	Q04KH8	orf	
+GIX6-677-MONOMER	GIX6-677	Q04LC7	orf	
+GIX6-269-MONOMER	GIX6-269	Q04MG1	dihydropteroate synthase	FolP
+GIX6-1664-MONOMER	GIX6-1664	Q04IS4	PTS system, trehalose-specific IIABC components	
+GIX6-994-MONOMER	GIX6-994	Q04KH9	bifunctional riboflavin kinase/FMN adenylyltransferase	RibF
+GIX6-676-MONOMER	GIX6-676	Q04LC8	orf	
+GIX6-1663-MONOMER	GIX6-1663	Q04IS5	alpha,alpha-phosphotrehalase	TreC
+GIX6-268-MONOMER	GIX6-268	Q04MG2	orf	
+GIX6-993-MONOMER	GIX6-993	Q04KI0	orf	
+GIX6-1662-MONOMER	GIX6-1662	Q04IS6	orf	
+GIX6-675-MONOMER	GIX6-675	Q04LC9	orf	
+GIX6-267-MONOMER	GIX6-267	Q04MG3	xanthine/uracil permease family protein	
+GIX6-1661-MONOMER	GIX6-1661	Q04IS7	glutamate racemase	MurI
+GIX6-992-MONOMER	GIX6-992	Q04KI1	orf	
+GIX6-1660-MONOMER	GIX6-1660	Q04IS8	orf	
+GIX6-674-MONOMER	GIX6-674	Q04LD0	30S ribosomal protein S16	RpsP
+GIX6-266-MONOMER	GIX6-266	Q04MG4	Cof family protein	
+GIX6-991-MONOMER	GIX6-991	Q04KI2	50S ribosomal protein L27	RpmA
+GIX6-1659-MONOMER	GIX6-1659	Q04IS9	orf	
+GIX6-990-MONOMER	GIX6-990	Q04KI3	orf	
+GIX6-673-MONOMER	GIX6-673	Q04LD1	orf	
+GIX6-265-MONOMER	GIX6-265	Q04MG5	alcohol dehydrogenase	
+GIX6-1658-MONOMER	GIX6-1658	Q04IT0	orf	
+GIX6-1657-MONOMER	GIX6-1657	Q04IT1	site-specific tyrosine recombinase XerD	XerD
+GIX6-989-MONOMER	GIX6-989	Q04KI4	50S ribosomal protein L21	RplU
+GIX6-672-MONOMER	GIX6-672	Q04LD2	cyclophilin type peptidyl-prolyl cis-trans isomerase	
+GIX6-264-MONOMER	GIX6-264	Q04MG6	PTS system mannose-specific transporter subunit IIAB	ManL
+GIX6-1656-MONOMER	GIX6-1656	Q04IT2	segregation and condensation protein A	ScpA
+GIX6-988-MONOMER	GIX6-988	Q04KI5	orf	
+GIX6-671-MONOMER	GIX6-671	Q04LD3	ABC transporter ATP-binding protein	
+GIX6-263-MONOMER	GIX6-263	Q04MG7	PTS system mannose-specific transporter subunit IIC	ManM
+GIX6-1655-MONOMER	GIX6-1655	Q04IT3	segregation and condensation protein B	ScpB
+GIX6-987-MONOMER	GIX6-987	Q04KI6	orf	
+GIX6-1654-MONOMER	GIX6-1654	Q04IT4	ribosomal large subunit pseudouridine synthase B	RluB
+GIX6-670-MONOMER	GIX6-670	Q04LD4	orf	
+GIX6-262-MONOMER	GIX6-262	Q04MG8	PTS system, mannose/fructose/sorbose family protein, IID component	
+GIX6-985-MONOMER	GIX6-985	Q04KI7	phosphotransacetylase	EutD
+GIX6-1653-MONOMER	GIX6-1653	Q04IT5	orf	
+GIX6-669-MONOMER	GIX6-669	Q04LD5	ribosomal RNA large subunit methyltransferase N	
+GIX6-261-MONOMER	GIX6-261	Q04MG9	aminopeptidase C	PepC
+GIX6-984-MONOMER	GIX6-984	Q04KI8	ribosomal large subunit pseudouridine synthase, RluD subfamily protein	
+GIX6-1652-MONOMER	GIX6-1652	Q04IT6	iron-compound ABC transporter iron-compound-binding protein	
+GIX6-1651-MONOMER	GIX6-1651	Q04IT7	iron-compound ABC transporter ATP-binding protein	
+GIX6-668-MONOMER	GIX6-668	Q04LD6	orf	
+GIX6-983-MONOMER	GIX6-983	Q04KI9	inorganic polyphosphate/ATP-NAD kinase	PpnK
+GIX6-260-MONOMER	GIX6-260	Q04MH0	ribosomal small subunit pseudouridine synthase A	
+GIX6-1650-MONOMER	GIX6-1650	Q04IT8	iron-compound ABC transporter permease	
+GIX6-982-MONOMER	GIX6-982	Q04KJ0	pyrophosphokinase family protein	
+GIX6-667-MONOMER	GIX6-667	Q04LD7	superoxide dismutase, manganese-dependent	SodA
+GIX6-259-MONOMER	GIX6-259	Q04MH1	orf	
+GIX6-1649-MONOMER	GIX6-1649	Q04IT9	iron-compound ABC transporter permease	
+GIX6-981-MONOMER	GIX6-981	Q04KJ1	orf	
+GIX6-666-MONOMER	GIX6-666	Q04LD8	DNA polymerase III subunit delta	HolA
+GIX6-1648-MONOMER	GIX6-1648	Q04IU0	NAD-dependent epimerase/dehydratase family protein	
+GIX6-258-MONOMER	GIX6-258	Q04MH2	aminopeptidase PepS	PepS
+GIX6-1647-MONOMER	GIX6-1647	Q04IU1	glutamyl aminopeptidase PepA	PepA
+GIX6-980-MONOMER	GIX6-980	Q04KJ2	ribose-phosphate pyrophosphokinase	
+GIX6-665-MONOMER	GIX6-665	Q04LD9	dihydroorotate dehydrogenase 1A	
+GIX6-1646-MONOMER	GIX6-1646	Q04IU2	orf	
+GIX6-979-MONOMER	GIX6-979	Q04KJ3	class V aminotransferase	
+GIX6-257-MONOMER	GIX6-257	Q04MH3	orf	
+GIX6-664-MONOMER	GIX6-664	Q04LE0	S-adenosylmethionine synthetase	MetK
+GIX6-1645-MONOMER	GIX6-1645	Q04IU3	transcriptional regulator, MarR family protein	
+GIX6-978-MONOMER	GIX6-978	Q04KJ4	orf	
+GIX6-1644-MONOMER	GIX6-1644	Q04IU4	orf	
+GIX6-663-MONOMER	GIX6-663	Q04LE1	ATP-dependent RNA helicase	
+GIX6-256-MONOMER	GIX6-256	Q04MH4	orf	
+GIX6-977-MONOMER	GIX6-977	Q04KJ5	orf	
+GIX6-1643-MONOMER	GIX6-1643	Q04IU5	choline transporter	ProV
+GIX6-662-MONOMER	GIX6-662	Q04LE2	orf	
+GIX6-1642-MONOMER	GIX6-1642	Q04IU6	choline transporter	glycine betaine transport system permease
+GIX6-976-MONOMER	GIX6-976	Q04KJ6	redox-sensing transcriptional repressor Rex	
+GIX6-255-MONOMER	GIX6-255	Q04MH5	orf	
+GIX6-1640-MONOMER	GIX6-1640	Q04IU7	nicotinamide mononucleotide transporter PnuC	PnuC
+GIX6-661-MONOMER	GIX6-661	Q04LE3	PTS system transporter subunit IIABC	
+GIX6-975-MONOMER	GIX6-975	Q04KJ7	class I glutamine amidotransferase	
+GIX6-1639-MONOMER	GIX6-1639	Q04IU8	transcriptional regulator, TetR family protein	
+GIX6-1638-MONOMER	GIX6-1638	Q04IU9	cation efflux system protein	
+GIX6-974-MONOMER	GIX6-974	Q04KJ8	DNA repair protein RadC	RadC
+GIX6-660-MONOMER	GIX6-660	Q04LE4	cell division ABC transporter permease FtsX	FtsX
+GIX6-254-MONOMER	GIX6-254	Q04MH6	DNA polymerase III PolC	PolC
+GIX6-1637-MONOMER	GIX6-1637	Q04IV0	transcriptional regulator, MerR family protein	
+GIX6-973-MONOMER	GIX6-973	Q04KJ9	ATP-dependent DNA helicase PcrA	PcrA
+GIX6-1636-MONOMER	GIX6-1636	Q04IV1	zinc-containing alcohol dehydrogenase	
+GIX6-659-MONOMER	GIX6-659	Q04LE5	cell division ATP-binding protein FtsE	FtsE
+GIX6-1635-MONOMER	GIX6-1635	Q04IV2	galactose operon repressor	GalR
+GIX6-972-MONOMER	GIX6-972	Q04KK0	orf	
+GIX6-253-MONOMER	GIX6-253	Q04MH7	elongation factor G	FusA
+GIX6-1634-MONOMER	GIX6-1634	Q04IV3	galactokinase	GalK
+GIX6-971-MONOMER	GIX6-971	Q04KK1	orf	
+GIX6-658-MONOMER	GIX6-658	Q04LE6	peptide chain release factor 2	PrfB
+GIX6-1633-MONOMER	GIX6-1633	Q04IV4	galactose-1-phosphate uridylyltransferase	
+GIX6-1632-MONOMER	GIX6-1632	Q04IV5	orf	
+GIX6-970-MONOMER	GIX6-970	Q04KK2	methionine aminopeptidase	Map
+GIX6-252-MONOMER	GIX6-252	Q04MH8	30S ribosomal protein S7	RpsG
+GIX6-1631-MONOMER	GIX6-1631	Q04IV6	Dam-replacing family protein	
+GIX6-657-MONOMER	GIX6-657	Q04LE7	acetoin utilization protein AcuB	
+GIX6-1630-MONOMER	GIX6-1630	Q04IV7	orf	
+GIX6-969-MONOMER	GIX6-969	Q04KK3	orf	
+GIX6-1629-MONOMER	GIX6-1629	Q04IV8	xanthine permease	PbuX
+GIX6-656-MONOMER	GIX6-656	Q04LE8	branched-chain amino acid ABC transporter ATP-binding protein	LivF
+GIX6-251-MONOMER	GIX6-251	Q04MH9	30S ribosomal protein S12	RpsL
+GIX6-1628-MONOMER	GIX6-1628	Q04IV9	xanthine phosphoribosyltransferase	Xpt
+GIX6-968-MONOMER	GIX6-968	Q04KK4	GNAT family acetyltransferase	
+GIX6-1626-MONOMER	GIX6-1626	Q04IW0	exodeoxyribonuclease III	Xth
+GIX6-655-MONOMER	GIX6-655	Q04LE9	branched-chain amino acid ABC transporter ATP-binding protein	LivG
+GIX6-1625-MONOMER	GIX6-1625	Q04IW1	orf	
+GIX6-967-MONOMER	GIX6-967	Q04KK5	UDP-N-acetylglucosamine 1-carboxyvinyltransferase	
+GIX6-250-MONOMER	GIX6-250	Q04MI0	pullulanase, extracellular	
+GIX6-1624-MONOMER	GIX6-1624	Q04IW2	orf	
+GIX6-654-MONOMER	GIX6-654	Q04LF0	branched-chain amino acid ABC transporter permease	LivM
+GIX6-1623-MONOMER	GIX6-1623	Q04IW3	orf	
+GIX6-965-MONOMER	GIX6-965	Q04KK6	orf	
+GIX6-1622-MONOMER	GIX6-1622	Q04IW4	ABC transporter ATP-binding protein/permease	
+GIX6-249-MONOMER	GIX6-249	Q04MI1	orf	
+GIX6-1621-MONOMER	GIX6-1621	Q04IW5	ABC transporter ATP-binding protein/permease	
+GIX6-653-MONOMER	GIX6-653	Q04LF1	branched-chain amino acid ABC transporter permease	LivH
+GIX6-964-MONOMER	GIX6-964	Q04KK7	GTPase ObgE	ObgE
+GIX6-1620-MONOMER	GIX6-1620	Q04IW6	glycosyl transferase family protein	
+GIX6-248-MONOMER	GIX6-248	Q04MI2	glucosamine--fructose-6-phosphate aminotransferase	GlmS
+GIX6-1619-MONOMER	GIX6-1619	Q04IW7	capsular polysaccharide biosynthesis protein	
+GIX6-652-MONOMER	GIX6-652	Q04LF2	branched-chain amino acid ABC transporter substrate-binding protein	LivJ
+GIX6-963-MONOMER	GIX6-963	Q04KK8	orf	
+GIX6-1618-MONOMER	GIX6-1618	Q04IW8	orf	
+GIX6-247-MONOMER	GIX6-247	Q04MI3	glycosyl hydrolase family protein	
+GIX6-1617-MONOMER	GIX6-1617	Q04IW9	cell wall surface anchor family protein	
+GIX6-962-MONOMER	GIX6-962	Q04KK9	orf	
+GIX6-651-MONOMER	GIX6-651	Q04LF3	orf	
+GIX6-1616-MONOMER	GIX6-1616	Q04IX0	orf	
+GIX6-246-MONOMER	GIX6-246	Q04MI4	prolyl-tRNA synthetase	ProS
+GIX6-1615-MONOMER	GIX6-1615	Q04IX1	orf	
+GIX6-961-MONOMER	GIX6-961	Q04KL0	group 1 glycosyl transferase	
+GIX6-650-MONOMER	GIX6-650	Q04LF4	ATP-dependent Clp protease proteolytic subunit	ClpP
+GIX6-1614-MONOMER	GIX6-1614	Q04IX2	phosphate transport system regulatory protein PhoU	
+GIX6-1613-MONOMER	GIX6-1613	Q04IX3	galactose-1-phosphate uridylyltransferase	
+GIX6-960-MONOMER	GIX6-960	Q04KL1	glycosyl transferase CpoA	CpoA
+GIX6-245-MONOMER	GIX6-245	Q04MI5	zinc metalloprotease Eep	Eep
+GIX6-649-MONOMER	GIX6-649	Q04LF5	uracil phosphoribosyltransferase	Upp
+GIX6-1612-MONOMER	GIX6-1612	Q04IX4	UDP-glucose 4-epimerase	
+GIX6-959-MONOMER	GIX6-959	Q04KL2	orf	
+GIX6-1611-MONOMER	GIX6-1611	Q04IX5	orf	
+GIX6-648-MONOMER	GIX6-648	Q04LF6	cytidine and deoxycytidylate deaminase family protein	
+GIX6-1610-MONOMER	GIX6-1610	Q04IX6	orf	
+GIX6-244-MONOMER	GIX6-244	Q04MI6	phosphatidate cytidylyltransferase	CdsA
+GIX6-1609-MONOMER	GIX6-1609	Q04IX7	ABC transporter substrate-binding protein	
+GIX6-1608-MONOMER	GIX6-1608	Q04IX8	ABC transporter ATP-binding protein	
+GIX6-647-MONOMER	GIX6-647	Q04LF7	transcriptional regulator, TetR family protein	
+GIX6-957-MONOMER	GIX6-957	Q04KL4	DNA primase	DnaG
+GIX6-243-MONOMER	GIX6-243	Q04MI7	undecaprenyl pyrophosphate synthase	UppS
+GIX6-1607-MONOMER	GIX6-1607	Q04IX9	ABC transporter permease	
+GIX6-956-MONOMER	GIX6-956	Q04KL5	ABC transporter ATP-binding protein	
+GIX6-646-MONOMER	GIX6-646	Q04LF8	orf	
+GIX6-242-MONOMER	GIX6-242	Q04MI8	orf	
+GIX6-1606-MONOMER	GIX6-1606	Q04IY0	MgtC/SapB family protein	
+GIX6-955-MONOMER	GIX6-955	Q04KL6	amino acid or sugar ABC transporter permease	
+GIX6-1605-MONOMER	GIX6-1605	Q04IY1	LacI family transcriptional regulator	
+GIX6-645-MONOMER	GIX6-645	Q04LF9	orf	
+GIX6-241-MONOMER	GIX6-241	Q04MI9	Holliday junction DNA helicase RuvB	RuvB
+GIX6-1604-MONOMER	GIX6-1604	Q04IY2	orf	
+GIX6-954-MONOMER	GIX6-954	Q04KL7	orf	
+GIX6-1603-MONOMER	GIX6-1603	Q04IY3	orf	
+GIX6-644-MONOMER	GIX6-644	Q04LG0	MutT/nudix family protein	
+GIX6-1602-MONOMER	GIX6-1602	Q04IY4	anthranilate synthase component I	TrpE
+GIX6-240-MONOMER	GIX6-240	Q04MJ0	GNAT family acetyltransferase	
+GIX6-1601-MONOMER	GIX6-1601	Q04IY5	anthranilate synthase component II	TrpG
+GIX6-953-MONOMER	GIX6-953	Q04KL8	phosphoenolpyruvate carboxylase	Ppc
+GIX6-642-MONOMER	GIX6-642	Q04LG1	sodium-dependent transporter	
+GIX6-1600-MONOMER	GIX6-1600	Q04IY6	anthranilate phosphoribosyltransferase	TrpD
+GIX6-239-MONOMER	GIX6-239	Q04MJ1	GNAT family acetyltransferase	
+GIX6-1599-MONOMER	GIX6-1599	Q04IY7	indole-3-glycerol-phosphate synthase	TrpC
+GIX6-952-MONOMER	GIX6-952	Q04KL9	cell division protein FtsW	
+GIX6-641-MONOMER	GIX6-641	Q04LG2	mannose-6-phosphate isomerase	ManA
+GIX6-1598-MONOMER	GIX6-1598	Q04IY8	N-(5'-phosphoribosyl)anthranilate isomerase	TrpF
+GIX6-238-MONOMER	GIX6-238	Q04MJ2	leucyl-tRNA synthetase	LeuS
+GIX6-1597-MONOMER	GIX6-1597	Q04IY9	tryptophan synthase subunit beta	TrpB
+GIX6-1596-MONOMER	GIX6-1596	Q04IZ0	tryptophan synthase subunit alpha	TrpA
+GIX6-951-MONOMER	GIX6-951	Q04KM0	orf	
+GIX6-639-MONOMER	GIX6-639	Q04LG3	orf	
+GIX6-237-MONOMER	GIX6-237	Q04MJ3	glycerol dehydrogenase	GldA
+GIX6-1595-MONOMER	GIX6-1595	Q04IZ1	orf	
+GIX6-1594-MONOMER	GIX6-1594	Q04IZ2	transcriptional regulator	
+GIX6-950-MONOMER	GIX6-950	Q04KM1	transporter major facilitator family protein	
+GIX6-638-MONOMER	GIX6-638	Q04LG4	transposase family protein	
+GIX6-236-MONOMER	GIX6-236	Q04MJ4	fructose-6-phosphate aldolase	TalC
+GIX6-1593-MONOMER	GIX6-1593	Q04IZ3	type IV prepilin peptidase	
+GIX6-949-MONOMER	GIX6-949	Q04KM2	hexapeptide repeat-containing transferase	
+GIX6-1592-MONOMER	GIX6-1592	Q04IZ4	GNAT family acetyltransferase	
+GIX6-637-MONOMER	GIX6-637	Q04LG5	orf	
+GIX6-1591-MONOMER	GIX6-1591	Q04IZ5	orf	
+GIX6-948-MONOMER	GIX6-948	Q04KM3	orf	
+GIX6-235-MONOMER	GIX6-235	Q04MJ5	pyruvate formate-lyase	Pfl
+GIX6-636-MONOMER	GIX6-636	Q04LG6	pyruvate oxidase	SpxB
+GIX6-1590-MONOMER	GIX6-1590	Q04IZ6	general stress protein 24	
+GIX6-1589-MONOMER	GIX6-1589	Q04IZ7	orf	
+GIX6-947-MONOMER	GIX6-947	Q04KM4	orf	
+GIX6-635-MONOMER	GIX6-635	Q04LG7	cation-transporting ATPase, E1-E2 family protein	
+GIX6-1588-MONOMER	GIX6-1588	Q04IZ8	orf	
+GIX6-234-MONOMER	GIX6-234	Q04MJ6	PTS system transporter subunit IIC	
+GIX6-1587-MONOMER	GIX6-1587	Q04IZ9	transcriptional activator	
+GIX6-946-MONOMER	GIX6-946	Q04KM5	orf	
+GIX6-634-MONOMER	GIX6-634	Q04LG8	orf	
+GIX6-945-MONOMER	GIX6-945	Q04KM6	AMP-binding protein	
+GIX6-633-MONOMER	GIX6-633	Q04LG9	transcriptional regulator	
+GIX6-233-MONOMER	GIX6-233	Q04MJ7	PTS system transporter subunit IIB	
+GIX6-632-MONOMER	GIX6-632	Q04LH0	phosphomethylpyrimidine kinase	ThiD
+GIX6-944-MONOMER	GIX6-944	Q04KM7	orf	
+GIX6-631-MONOMER	GIX6-631	Q04LH1	thiamine-phosphate pyrophosphorylase	ThiE
+GIX6-232-MONOMER	GIX6-232	Q04MJ8	PTS system transporter subunit IIA	
+GIX6-943-MONOMER	GIX6-943	Q04KM8	orf	
+GIX6-630-MONOMER	GIX6-630	Q04LH2	hydroxyethylthiazole kinase	
+GIX6-942-MONOMER	GIX6-942	Q04KM9	orf	
+GIX6-231-MONOMER	GIX6-231	Q04MJ9	transcriptional activator	
+GIX6-629-MONOMER	GIX6-629	Q04LH3	orf	ThiW
+GIX6-941-MONOMER	GIX6-941	Q04KN0	orf	
+GIX6-230-MONOMER	GIX6-230	Q04MK0	DeoR family transcriptional regulator	
+GIX6-628-MONOMER	GIX6-628	Q04LH4	transcriptional activator TenA, TENA/THI-4 family protein	TenA
+GIX6-940-MONOMER	GIX6-940	Q04KN1	UDP-N-acetyl-D-mannosaminuronic acid dehydrogenase	
+GIX6-939-MONOMER	GIX6-939	Q04KN2	transcriptional activator, Rgg/GadR/MutR family protein	
+GIX6-229-MONOMER	GIX6-229	Q04MK1	glycyl-radical enzyme activating protein family protein	
+GIX6-627-MONOMER	GIX6-627	Q04LH5	orf	
+GIX6-938-MONOMER	GIX6-938	Q04KN3	orf	
+GIX6-228-MONOMER	GIX6-228	Q04MK2	AraC family transcriptional regulator	
+GIX6-936-MONOMER	GIX6-936	Q04KN4	Tn5252, relaxase	
+GIX6-626-MONOMER	GIX6-626	Q04LH6	ABC transporter ATP-binding protein	
+GIX6-227-MONOMER	GIX6-227	Q04MK3	iron(III) ABC transporter iron-binding protein	
+GIX6-935-MONOMER	GIX6-935	Q04KN5	orf	
+GIX6-625-MONOMER	GIX6-625	Q04LH7	orf	
+GIX6-226-MONOMER	GIX6-226	Q04MK4	iron ABC transporter iron-binding protein	
+GIX6-934-MONOMER	GIX6-934	Q04KN6	orf	
+GIX6-624-MONOMER	GIX6-624	Q04LH8	thiamine-phosphate pyrophosphorylase	
+GIX6-225-MONOMER	GIX6-225	Q04MK5	ABC transporter ATP-binding protein	
+GIX6-933-MONOMER	GIX6-933	Q04KN7	orf	
+GIX6-932-MONOMER	GIX6-932	Q04KN8	orf	
+GIX6-224-MONOMER	GIX6-224	Q04MK6	iron(III) ABC transporter permease	
+GIX6-623-MONOMER	GIX6-623	Q04LH9	hydroxyethylthiazole kinase	ThiM
+GIX6-931-MONOMER	GIX6-931	Q04KN9	orf	
+GIX6-223-MONOMER	GIX6-223	Q04MK7	iron(III) ABC transporter permease	
+GIX6-622-MONOMER	GIX6-622	Q04LI0	transcriptional regulator, TENA/THI-4 family protein	
+GIX6-930-MONOMER	GIX6-930	Q04KP0	transcriptional regulator	
+GIX6-222-MONOMER	GIX6-222	Q04MK8	phosphoglycerate mutase family protein	
+GIX6-929-MONOMER	GIX6-929	Q04KP1	orf	
+GIX6-621-MONOMER	GIX6-621	Q04LI1	lactate oxidase	LctO
+GIX6-220-MONOMER	GIX6-220	Q04MK9	orf	
+GIX6-928-MONOMER	GIX6-928	Q04KP2	orf	
+GIX6-219-MONOMER	GIX6-219	Q04ML0	50S ribosomal protein L17	RplQ
+GIX6-927-MONOMER	GIX6-927	Q04KP3	neopullulanase	NplT
+GIX6-620-MONOMER	GIX6-620	Q04LI2	lysyl-tRNA synthetase	LysS
+GIX6-926-MONOMER	GIX6-926	Q04KP4	orf	
+GIX6-218-MONOMER	GIX6-218	Q04ML1	DNA-directed RNA polymerase subunit alpha	RpoA
+GIX6-619-MONOMER	GIX6-619	Q04LI3	orf	
+GIX6-925-MONOMER	GIX6-925	Q04KP5	hydrolase	
+GIX6-217-MONOMER	GIX6-217	Q04ML2	30S ribosomal protein S11	RpsK
+GIX6-924-MONOMER	GIX6-924	Q04KP6	orf	
+GIX6-618-MONOMER	GIX6-618	Q04LI4	amino acid ABC transporter permease	
+GIX6-923-MONOMER	GIX6-923	Q04KP7	orf	
+GIX6-617-MONOMER	GIX6-617	Q04LI5	amino acid ABC transporter permease	
+GIX6-216-MONOMER	GIX6-216	Q04ML3	30S ribosomal protein S13	RpsM
+GIX6-922-MONOMER	GIX6-922	Q04KP8	orf	
+GIX6-215-MONOMER	GIX6-215	Q04ML4	translation initiation factor IF-1	InfA
+GIX6-616-MONOMER	GIX6-616	Q04LI6	amino acid ABC transporter ATP-binding protein	
+GIX6-921-MONOMER	GIX6-921	Q04KP9	site-specific recombinase, resolvase family protein	
+GIX6-214-MONOMER	GIX6-214	Q04ML5	adenylate kinase	Adk
+GIX6-920-MONOMER	GIX6-920	Q04KQ0	orf	
+GIX6-614-MONOMER	GIX6-614	Q04LI7	ABC transporter ATP-binding protein	
+GIX6-919-MONOMER	GIX6-919	Q04KQ1	orf	
+GIX6-213-MONOMER	GIX6-213	Q04ML6	preprotein translocase subunit SecY	SecY
+GIX6-613-MONOMER	GIX6-613	Q04LI8	orf	
+GIX6-918-MONOMER	GIX6-918	Q04KQ2	iron-compound ABC transporter ATP-binding protein	
+GIX6-212-MONOMER	GIX6-212	Q04ML7	50S ribosomal protein L15	RplO
+GIX6-917-MONOMER	GIX6-917	Q04KQ3	iron-compound ABC transporter permease	
+GIX6-612-MONOMER	GIX6-612	Q04LI9	orf	
+GIX6-916-MONOMER	GIX6-916	Q04KQ4	iron-compound ABC transporter permease	
+GIX6-611-MONOMER	GIX6-611	Q04LJ0	orf	
+GIX6-211-MONOMER	GIX6-211	Q04ML8	50S ribosomal protein L30	RpmD
+GIX6-915-MONOMER	GIX6-915	Q04KQ5	iron-compound ABC transporter iron compound-binding protein	
+GIX6-610-MONOMER	GIX6-610	Q04LJ1	orf	
+GIX6-210-MONOMER	GIX6-210	Q04ML9	30S ribosomal protein S5	RpsE
+GIX6-914-MONOMER	GIX6-914	Q04KQ6	23S rRNA (uracil-5-)-methyltransferase RumA	
+GIX6-209-MONOMER	GIX6-209	Q04MM0	50S ribosomal protein L18	RplR
+GIX6-913-MONOMER	GIX6-913	Q04KQ7	orf	
+GIX6-609-MONOMER	GIX6-609	Q04LJ2	orotate phosphoribosyltransferase	PyrE
+GIX6-912-MONOMER	GIX6-912	Q04KQ8	orf	PvaA
+GIX6-208-MONOMER	GIX6-208	Q04MM1	50S ribosomal protein L6	RplF
+GIX6-608-MONOMER	GIX6-608	Q04LJ3	orotidine 5'-phosphate decarboxylase	PyrF
+GIX6-911-MONOMER	GIX6-911	Q04KQ9	orf	
+GIX6-207-MONOMER	GIX6-207	Q04MM2	30S ribosomal protein S8	RpsH
+GIX6-910-MONOMER	GIX6-910	Q04KR0	serine hydroxymethyltransferase	GlyA
+GIX6-606-MONOMER	GIX6-606	Q04LJ4	orf	
+GIX6-206-MONOMER	GIX6-206	Q04MM3	30S ribosomal protein S14	RpsN
+GIX6-909-MONOMER	GIX6-909	Q04KR1	GNAT family acetyltransferase	
+GIX6-604-MONOMER	GIX6-604	Q04LJ5	HesA/MoeB/ThiF family protein	
+GIX6-908-MONOMER	GIX6-908	Q04KR2	Sua5/YciO/YrdC/YwlC family protein	
+GIX6-205-MONOMER	GIX6-205	Q04MM4	50S ribosomal protein L5	RplE
+GIX6-907-MONOMER	GIX6-907	Q04KR3	HemK protein	HemK
+GIX6-603-MONOMER	GIX6-603	Q04LJ6	orf	
+GIX6-204-MONOMER	GIX6-204	Q04MM5	50S ribosomal protein L24	RplX
+GIX6-906-MONOMER	GIX6-906	Q04KR4	peptide chain release factor 1	PrfA
+GIX6-203-MONOMER	GIX6-203	Q04MM6	50S ribosomal protein L14	RplN
+GIX6-905-MONOMER	GIX6-905	Q04KR5	GNAT family acetyltransferase	
+GIX6-602-MONOMER	GIX6-602	Q04LJ7	orf	
+GIX6-904-MONOMER	GIX6-904	Q04KR6	thymidine kinase	Tdk
+GIX6-601-MONOMER	GIX6-601	Q04LJ8	orf	
+GIX6-202-MONOMER	GIX6-202	Q04MM7	30S ribosomal protein S17	RpsQ
+GIX6-903-MONOMER	GIX6-903	Q04KR7	4-oxalocrotonate tautomerase	XylH
+GIX6-600-MONOMER	GIX6-600	Q04LJ9	cell division protein DivIB	
+GIX6-201-MONOMER	GIX6-201	Q04MM8	50S ribosomal protein L29	RpmC
+GIX6-902-MONOMER	GIX6-902	Q04KR8	tRNA modification GTPase TrmE	TrmE
+GIX6-599-MONOMER	GIX6-599	Q04LK0	undecaprenyldiphospho-muramoylpentapeptide beta-N- acetylglucosaminyltransferase	MurG
+GIX6-901-MONOMER	GIX6-901	Q04KR9	dihydrodipicolinate synthase	DapA
+GIX6-200-MONOMER	GIX6-200	Q04MM9	50S ribosomal protein L16	RplP
+GIX6-900-MONOMER	GIX6-900	Q04KS0	aspartate-semialdehyde dehydrogenase	Asd
+GIX6-598-MONOMER	GIX6-598	Q04LK1	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate synthetase	MurD
+GIX6-199-MONOMER	GIX6-199	Q04MN0	30S ribosomal protein S3	RpsC
+GIX6-898-MONOMER	GIX6-898	Q04KS1	orf	
+GIX6-597-MONOMER	GIX6-597	Q04LK2	ABC transporter ATP-binding protein	
+GIX6-198-MONOMER	GIX6-198	Q04MN1	50S ribosomal protein L22	RplV
+GIX6-897-MONOMER	GIX6-897	Q04KS2	GtrA family protein	
+GIX6-596-MONOMER	GIX6-596	Q04LK3	orf	
+GIX6-896-MONOMER	GIX6-896	Q04KS3	large conductance mechanosensitive channel protein MscL	MscL
+GIX6-197-MONOMER	GIX6-197	Q04MN2	30S ribosomal protein S19	RpsS
+GIX6-595-MONOMER	GIX6-595	Q04LK4	orf	
+GIX6-895-MONOMER	GIX6-895	Q04KS4	ferrochelatase	HemH
+GIX6-196-MONOMER	GIX6-196	Q04MN3	50S ribosomal protein L2	RplB
+GIX6-894-MONOMER	GIX6-894	Q04KS5	peptidase T	PepT
+GIX6-594-MONOMER	GIX6-594	Q04LK5	orf	
+GIX6-893-MONOMER	GIX6-893	Q04KS6	orf	
+GIX6-195-MONOMER	GIX6-195	Q04MN4	50S ribosomal protein L23	RplW
+GIX6-593-MONOMER	GIX6-593	Q04LK6	elongation factor Tu family protein	
+GIX6-890-MONOMER	GIX6-890	Q04KS7	histidine triad protein E	PhtE
+GIX6-194-MONOMER	GIX6-194	Q04MN5	50S ribosomal protein L4	RplD
+GIX6-592-MONOMER	GIX6-592	Q04LK7	ribosomal small subunit pseudouridine synthase A	
+GIX6-889-MONOMER	GIX6-889	Q04KS8	histidine triad protein D	PhtD
+GIX6-888-MONOMER	GIX6-888	Q04KS9	adhesion lipoprotein	Lmb
+GIX6-591-MONOMER	GIX6-591	Q04LK8	orf	
+GIX6-193-MONOMER	GIX6-193	Q04MN6	50S ribosomal protein L3	RplC
+GIX6-131-MONOMER	GIX6-131	Q04MU7	orf	
+GIX6-1469-MONOMER	GIX6-1469	Q04JB3	orf	
+GIX6-533-MONOMER	GIX6-533	Q04LR4	metallo-beta-lactamase superfamily protein	
+GIX6-887-MONOMER	GIX6-887	Q04KT0	amino acid permease family protein	
+GIX6-590-MONOMER	GIX6-590	Q04LK9	rhodanese-like domain-containing protein	
+GIX6-1468-MONOMER	GIX6-1468	Q04JB4	phosphoglyceromutase	GpmA
+GIX6-192-MONOMER	GIX6-192	Q04MN7	30S ribosomal protein S10	RpsJ
+GIX6-1467-MONOMER	GIX6-1467	Q04JB5	orf	
+GIX6-532-MONOMER	GIX6-532	Q04LR5	single-stranded-DNA-specific exonuclease RecJ	RecJ
+GIX6-130-MONOMER	GIX6-130	Q04MU8	metallo-beta-lactamase domain-containing protein	
+GIX6-1466-MONOMER	GIX6-1466	Q04JB6	ABC transporter ATP-binding protein	
+GIX6-886-MONOMER	GIX6-886	Q04KT1	thioredoxin family protein	
+GIX6-589-MONOMER	GIX6-589	Q04LL0	orf	
+GIX6-191-MONOMER	GIX6-191	Q04MN8	orf	
+GIX6-1465-MONOMER	GIX6-1465	Q04JB7	orf	
+GIX6-530-MONOMER	GIX6-530	Q04LR6	amino acid ABC transporter amino acid-binding protein	
+GIX6-129-MONOMER	GIX6-129	Q04MU9	tRNA uridine 5-carboxymethylaminomethyl modification protein GidA	GidA
+GIX6-1464-MONOMER	GIX6-1464	Q04JB8	thiol peroxidase	Tpx
+GIX6-885-MONOMER	GIX6-885	Q04KT2	cytochrome c-type biogenesis protein CcdA	
+GIX6-1463-MONOMER	GIX6-1463	Q04JB9	ABC transporter substrate-binding protein	
+GIX6-529-MONOMER	GIX6-529	Q04LR7	amino acid ABC transporter permease	
+GIX6-588-MONOMER	GIX6-588	Q04LL1	transcriptional regulator	
+GIX6-190-MONOMER	GIX6-190	Q04MN9	anaerobic ribonucleoside-triphosphate reductase activating protein	NrdG
+GIX6-1462-MONOMER	GIX6-1462	Q04JC0	manganese ABC transporter permease	PsaC
+GIX6-128-MONOMER	GIX6-128	Q04MV0	MutT/nudix family protein	
+GIX6-884-MONOMER	GIX6-884	Q04KT3	orf	
+GIX6-1461-MONOMER	GIX6-1461	Q04JC1	manganese ABC transporter ATP-binding protein	PsaB
+GIX6-528-MONOMER	GIX6-528	Q04LR8	amino acid ABC transporter permease	
+GIX6-587-MONOMER	GIX6-587	Q04LL2	short chain dehydrogenase/reductase family oxidoreductase	
+GIX6-127-MONOMER	GIX6-127	Q04MV1	tRNA-specific 2-thiouridylase MnmA	MnmA
+GIX6-189-MONOMER	GIX6-189	Q04MP0	GNAT family acetyltransferase	
+GIX6-1460-MONOMER	GIX6-1460	Q04JC2	endopeptidase O	PepO
+GIX6-883-MONOMER	GIX6-883	Q04KT4	orf	
+GIX6-1586-MONOMER	GIX6-1586	Q04J00	LacI family transcriptional regulator	
+GIX6-527-MONOMER	GIX6-527	Q04LR9	oxidoreductase	
+GIX6-1459-MONOMER	GIX6-1459	Q04JC3	metallo-beta-lactamase superfamily protein	
+GIX6-126-MONOMER	GIX6-126	Q04MV2	surface protein A	PspA
+GIX6-1585-MONOMER	GIX6-1585	Q04J01	sugar ABC transporter substrate-binding protein	
+GIX6-882-MONOMER	GIX6-882	Q04KT5	orf	
+GIX6-586-MONOMER	GIX6-586	Q04LL3	ribonuclease Z	Rnz
+GIX6-188-MONOMER	GIX6-188	Q04MP1	orf	
+GIX6-1458-MONOMER	GIX6-1458	Q04JC4	GTP pyrophosphokinase	RelA
+GIX6-1584-MONOMER	GIX6-1584	Q04J02	ABC transporter permease	
+GIX6-526-MONOMER	GIX6-526	Q04LS0	fructose-bisphosphate aldolase	Fba
+GIX6-1457-MONOMER	GIX6-1457	Q04JC5	D-tyrosyl-tRNA(Tyr) deacylase	Dtd
+GIX6-1583-MONOMER	GIX6-1583	Q04J03	ABC transporter permease	
+GIX6-125-MONOMER	GIX6-125	Q04MV3	orf	
+GIX6-880-MONOMER	GIX6-880	Q04KT6	orf	
+GIX6-585-MONOMER	GIX6-585	Q04LL4	orf	
+GIX6-1582-MONOMER	GIX6-1582	Q04J04	sucrose-6-phosphate hydrolase	
+GIX6-1456-MONOMER	GIX6-1456	Q04JC6	orf	
+GIX6-525-MONOMER	GIX6-525	Q04LS1	sensor histidine kinase VncS	VncS
+GIX6-187-MONOMER	GIX6-187	Q04MP2	anaerobic ribonucleoside triphosphate reductase	NrdD
+GIX6-124-MONOMER	GIX6-124	Q04MV4	orf	
+GIX6-1455-MONOMER	GIX6-1455	Q04JC7	orf	
+GIX6-1580-MONOMER	GIX6-1580	Q04J05	recombination factor protein RarA	
+GIX6-879-MONOMER	GIX6-879	Q04KT7	DNA polymerase III subunit epsilon	
+GIX6-1454-MONOMER	GIX6-1454	Q04JC8	orf	
+GIX6-1579-MONOMER	GIX6-1579	Q04J06	orf	
+GIX6-584-MONOMER	GIX6-584	Q04LL5	GTP-binding protein HflX	HflX
+GIX6-524-MONOMER	GIX6-524	Q04LS2	DNA-binding response regulator VncR	VncR
+GIX6-123-MONOMER	GIX6-123	Q04MV5	orf	
+GIX6-1452-MONOMER	GIX6-1452	Q04JC9	orf	
+GIX6-1578-MONOMER	GIX6-1578	Q04J07	orf	
+GIX6-186-MONOMER	GIX6-186	Q04MP3	competence-induced protein Ccs4	
+GIX6-1451-MONOMER	GIX6-1451	Q04JD0	orf	
+GIX6-878-MONOMER	GIX6-878	Q04KT8	orf	
+GIX6-1450-MONOMER	GIX6-1450	Q04JD1	iron-dependent transcriptional regulator	
+GIX6-1577-MONOMER	GIX6-1577	Q04J08	orf	
+GIX6-583-MONOMER	GIX6-583	Q04LL6	tRNA delta(2)-isopentenylpyrophosphate transferase	MiaA
+GIX6-122-MONOMER	GIX6-122	Q04MV6	orf	
+GIX6-523-MONOMER	GIX6-523	Q04LS3	ABC transporter	
+GIX6-1449-MONOMER	GIX6-1449	Q04JD2	orf	
+GIX6-1576-MONOMER	GIX6-1576	Q04J09	orf	
+GIX6-185-MONOMER	GIX6-185	Q04MP4	cardiolipin synthetase	
+GIX6-877-MONOMER	GIX6-877	Q04KT9	5'-methylthioadenosine/S-adenosylhomocysteine nucleosidase	MtnN
+GIX6-522-MONOMER	GIX6-522	Q04LS4	ABC transporter ATP-binding protein	
+GIX6-121-MONOMER	GIX6-121	Q04MV7	orf	
+GIX6-1575-MONOMER	GIX6-1575	Q04J10	orf	
+GIX6-1448-MONOMER	GIX6-1448	Q04JD3	Rrf2 family protein	
+GIX6-184-MONOMER	GIX6-184	Q04MP5	orf	
+GIX6-1574-MONOMER	GIX6-1574	Q04J11	MutT/nudix family protein	
+GIX6-582-MONOMER	GIX6-582	Q04LL7	orf	
+GIX6-1447-MONOMER	GIX6-1447	Q04JD4	orf	
+GIX6-876-MONOMER	GIX6-876	Q04KU0	orf	
+GIX6-521-MONOMER	GIX6-521	Q04LS5	ABC transporter	
+GIX6-120-MONOMER	GIX6-120	Q04MV8	orf	
+GIX6-1573-MONOMER	GIX6-1573	Q04J12	50S ribosomal protein L11 methyltransferase	PrmA
+GIX6-1446-MONOMER	GIX6-1446	Q04JD5	DNA-binding response regulator	
+GIX6-183-MONOMER	GIX6-183	Q04MP6	folylpolyglutamate synthase	FolC
+GIX6-1572-MONOMER	GIX6-1572	Q04J13	16S ribosomal RNA methyltransferase RsmE	
+GIX6-1445-MONOMER	GIX6-1445	Q04JD6	sensor histidine kinase	
+GIX6-875-MONOMER	GIX6-875	Q04KU1	NUDIX family hydrolase	
+GIX6-520-MONOMER	GIX6-520	Q04LS6	transposase, , truncation	
+GIX6-581-MONOMER	GIX6-581	Q04LL8	thymidylate synthase	ThyA
+GIX6-182-MONOMER	GIX6-182	Q04MP7	orf	
+GIX6-119-MONOMER	GIX6-119	Q04MV9	orf	
+GIX6-1444-MONOMER	GIX6-1444	Q04JD7	threonyl-tRNA synthetase	ThrS
+GIX6-1571-MONOMER	GIX6-1571	Q04J14	oligoendopeptidase F	
+GIX6-874-MONOMER	GIX6-874	Q04KU2	bifunctional N-acetylglucosamine-1-phosphate uridyltransferase/glucosamine-1-phosphate acetyltransferase	GlmU
+GIX6-1443-MONOMER	GIX6-1443	Q04JD8	orf	
+GIX6-118-MONOMER	GIX6-118	Q04MW0	orf	
+GIX6-580-MONOMER	GIX6-580	Q04LL9	glucokinase	Gki
+GIX6-181-MONOMER	GIX6-181	Q04MP8	Holliday junction resolvase-like protein	
+GIX6-519-MONOMER	GIX6-519	Q04LS7	orf	
+GIX6-1570-MONOMER	GIX6-1570	Q04J15	orf	
+GIX6-1442-MONOMER	GIX6-1442	Q04JD9	orf	
+GIX6-180-MONOMER	GIX6-180	Q04MP9	orf	
+GIX6-1569-MONOMER	GIX6-1569	Q04J16	aquaporin	
+GIX6-873-MONOMER	GIX6-873	Q04KU3	orf	
+GIX6-1441-MONOMER	GIX6-1441	Q04JE0	orf	
+GIX6-117-MONOMER	GIX6-117	Q04MW1	orf	
+GIX6-579-MONOMER	GIX6-579	Q04LM0	surface protein	
+GIX6-1568-MONOMER	GIX6-1568	Q04J17	GTP cyclohydrolase	
+GIX6-1440-MONOMER	GIX6-1440	Q04JE1	orf	
+GIX6-179-MONOMER	GIX6-179	Q04MQ0	orf	
+GIX6-518-MONOMER	GIX6-518	Q04LS8	orf	
+GIX6-1567-MONOMER	GIX6-1567	Q04J18	thioredoxin	Trx
+GIX6-872-MONOMER	GIX6-872	Q04KU4	orf	
+GIX6-1439-MONOMER	GIX6-1439	Q04JE2	30S ribosomal protein S15	RpsO
+GIX6-116-MONOMER	GIX6-116	Q04MW2	orf	
+GIX6-578-MONOMER	GIX6-578	Q04LM1	para-aminobenzoate synthase, component I	PabB
+GIX6-1566-MONOMER	GIX6-1566	Q04J19	orf	
+GIX6-1438-MONOMER	GIX6-1438	Q04JE3	cadmium resistance transporter	
+GIX6-178-MONOMER	GIX6-178	Q04MQ1	transcriptional regulator Spx	SpxA
+GIX6-1565-MONOMER	GIX6-1565	Q04J20	transcriptional regulator	
+GIX6-871-MONOMER	GIX6-871	Q04KU5	regulatory protein	
+GIX6-1437-MONOMER	GIX6-1437	Q04JE4	acyltransferase domain-containing protein	
+GIX6-115-MONOMER	GIX6-115	Q04MW3	orf	
+GIX6-1436-MONOMER	GIX6-1436	Q04JE5	cation-transporting ATPase, E1-E2 family protein	
+GIX6-1564-MONOMER	GIX6-1564	Q04J21	orf	
+GIX6-577-MONOMER	GIX6-577	Q04LM2	zinc metalloprotease ZmpB	ZmpB
+GIX6-517-MONOMER	GIX6-517	Q04LS9	orf	
+GIX6-177-MONOMER	GIX6-177	Q04MQ2	peptidase M24 family protein	
+GIX6-1435-MONOMER	GIX6-1435	Q04JE6	orf	
+GIX6-1563-MONOMER	GIX6-1563	Q04J22	serine/threonine transporter SstT	
+GIX6-870-MONOMER	GIX6-870	Q04KU6	phosphoglycerate mutase family protein	
+GIX6-1434-MONOMER	GIX6-1434	Q04JE7	orf	
+GIX6-176-MONOMER	GIX6-176	Q04MQ3	excinuclease ABC subunit A	UvrA
+GIX6-1562-MONOMER	GIX6-1562	Q04J23	small conductance mechanosensitive ion channel (MscS) family protein	
+GIX6-114-MONOMER	GIX6-114	Q04MW4	orf	
+GIX6-576-MONOMER	GIX6-576	Q04LM3	orf	
+GIX6-1433-MONOMER	GIX6-1433	Q04JE8	FAD dependent oxidoreductase	
+GIX6-1561-MONOMER	GIX6-1561	Q04J24	magnesium transporter CorA family protein	
+GIX6-869-MONOMER	GIX6-869	Q04KU7	orf	
+GIX6-516-MONOMER	GIX6-516	Q04LT0	orf	
+GIX6-175-MONOMER	GIX6-175	Q04MQ4	magnesium transporter CorA family protein	
+GIX6-1432-MONOMER	GIX6-1432	Q04JE9	UDP-glucose 4-epimerase	
+GIX6-1560-MONOMER	GIX6-1560	Q04J25	orf	
+GIX6-2069-MONOMER	GIX6-2069	Q04HU0	SpoJ protein	
+GIX6-112-MONOMER	GIX6-112	Q04MW5	orf	
+GIX6-1431-MONOMER	GIX6-1431	Q04JF0	glycosyl transferase family protein	
+GIX6-868-MONOMER	GIX6-868	Q04KU8	foldase protein PrsA	PrsA
+GIX6-2068-MONOMER	GIX6-2068	Q04HU1	serine protease	
+GIX6-575-MONOMER	GIX6-575	Q04LM4	sensor histidine kinase	
+GIX6-1430-MONOMER	GIX6-1430	Q04JF1	ferredoxin	Fer
+GIX6-174-MONOMER	GIX6-174	Q04MQ5	orf	
+GIX6-1559-MONOMER	GIX6-1559	Q04J26	GTP-binding protein YqeH	
+GIX6-515-MONOMER	GIX6-515	Q04LT1	cysteinyl-tRNA synthetase	CysS
+GIX6-111-MONOMER	GIX6-111	Q04MW6	argininosuccinate lyase	ArgH
+GIX6-1429-MONOMER	GIX6-1429	Q04JF2	orf	
+GIX6-1558-MONOMER	GIX6-1558	Q04J27	orf	
+GIX6-2067-MONOMER	GIX6-2067	Q04HU2	rRNA large subunit methyltransferase	
+GIX6-867-MONOMER	GIX6-867	Q04KU9	O-methyltransferase	
+GIX6-1428-MONOMER	GIX6-1428	Q04JF3	cytidylate kinase	Cmk
+GIX6-173-MONOMER	GIX6-173	Q04MQ6	MccC family protein	
+GIX6-1557-MONOMER	GIX6-1557	Q04J28	nicotinic acid mononucleotide adenylyltransferase	NadD
+GIX6-110-MONOMER	GIX6-110	Q04MW7	argininosuccinate synthase	ArgG
+GIX6-574-MONOMER	GIX6-574	Q04LM5	DNA-binding response regulator	
+GIX6-1556-MONOMER	GIX6-1556	Q04J29	orf	
+GIX6-2065-MONOMER	GIX6-2065	Q04HU3	competence-stimulating peptide type 1	
+GIX6-1427-MONOMER	GIX6-1427	Q04JF4	PhnA protein	PhnA
+GIX6-514-MONOMER	GIX6-514	Q04LT2	GNAT family acetyltransferase	
+GIX6-866-MONOMER	GIX6-866	Q04KV0	oligoendopeptidase F	PepF
+GIX6-172-MONOMER	GIX6-172	Q04MQ7	orf	
+GIX6-1555-MONOMER	GIX6-1555	Q04J30	isochorismatase family protein	
+GIX6-109-MONOMER	GIX6-109	Q04MW8	amino acid ABC transporter periplasmic amino acid-binding protein	
+GIX6-1426-MONOMER	GIX6-1426	Q04JF5	orf	
+GIX6-2064-MONOMER	GIX6-2064	Q04HU4	sensor histidine kinase ComD	ComD
+GIX6-1425-MONOMER	GIX6-1425	Q04JF6	transporter major facilitator family protein	
+GIX6-1554-MONOMER	GIX6-1554	Q04J31	iojap-like protein	
+GIX6-865-MONOMER	GIX6-865	Q04KV1	competence protein CoiA	CoiA
+GIX6-2063-MONOMER	GIX6-2063	Q04HU5	response regulator	ComE
+GIX6-1424-MONOMER	GIX6-1424	Q04JF7	tRNA pseudouridine synthase A	TruA
+GIX6-573-MONOMER	GIX6-573	Q04LM6	bifunctional methionine sulfoxide reductase A/B	
+GIX6-108-MONOMER	GIX6-108	Q04MW9	amino acid ABC transporter ATP-binding protein	
+GIX6-171-MONOMER	GIX6-171	Q04MQ8	DNA-3-methyladenine glycosylase I	Tag
+GIX6-1553-MONOMER	GIX6-1553	Q04J32	orf	
+GIX6-513-MONOMER	GIX6-513	Q04LT3	serine O-acetyltransferase	CysE
+GIX6-1423-MONOMER	GIX6-1423	Q04JF8	phosphomethylpyrimidine kinase	
+GIX6-2060-MONOMER	GIX6-2060	Q04HU6	transcriptional regulator, TetR family protein	
+GIX6-1552-MONOMER	GIX6-1552	Q04J33	orf	
+GIX6-1422-MONOMER	GIX6-1422	Q04JF9	orf	
+GIX6-864-MONOMER	GIX6-864	Q04KV2	tellurite resistance protein TehB	TehB
+GIX6-2058-MONOMER	GIX6-2058	Q04HU7	ABC transporter permease	
+GIX6-1419-MONOMER	GIX6-1419	Q04JG0	orf	
+GIX6-1551-MONOMER	GIX6-1551	Q04J34	orf	
+GIX6-572-MONOMER	GIX6-572	Q04LM7	thioredoxin family protein	
+GIX6-107-MONOMER	GIX6-107	Q04MX0	membrnae protein	
+GIX6-170-MONOMER	GIX6-170	Q04MQ9	Holliday junction DNA helicase RuvA	RuvA
+GIX6-1418-MONOMER	GIX6-1418	Q04JG1	proline dipeptidase PepQ	PepQ
+GIX6-2057-MONOMER	GIX6-2057	Q04HU8	ABC transporter ATP-binding protein	
+GIX6-1550-MONOMER	GIX6-1550	Q04J35	orf	
+GIX6-1417-MONOMER	GIX6-1417	Q04JG2	orf	
+GIX6-863-MONOMER	GIX6-863	Q04KV3	SsrA-binding protein	SmpB
+GIX6-1549-MONOMER	GIX6-1549	Q04J36	orf	
+GIX6-512-MONOMER	GIX6-512	Q04LT4	polynucleotide phosphorylase/polyadenylase	Pnp
+GIX6-106-MONOMER	GIX6-106	Q04MX1	bacteriocin	
+GIX6-2056-MONOMER	GIX6-2056	Q04HU9	tryptophanyl-tRNA synthetase II	TrpS
+GIX6-1416-MONOMER	GIX6-1416	Q04JG3	orf	
+GIX6-169-MONOMER	GIX6-169	Q04MR0	riboflavin biosynthesis protein RibD	RibD
+GIX6-1548-MONOMER	GIX6-1548	Q04J37	guanylate kinase	Gmk
+GIX6-571-MONOMER	GIX6-571	Q04LM8	cytochrome c-type biogenesis protein CcdA	
+GIX6-2055-MONOMER	GIX6-2055	Q04HV0	inosine 5'-monophosphate dehydrogenase	GuaB
+GIX6-1415-MONOMER	GIX6-1415	Q04JG4	pyridine nucleotide-disulfide oxidoreductase	
+GIX6-862-MONOMER	GIX6-862	Q04KV4	ribonuclease R	Rnr
+GIX6-1547-MONOMER	GIX6-1547	Q04J38	DNA-directed RNA polymerase subunit omega	
+GIX6-105-MONOMER	GIX6-105	Q04MX2	orf	
+GIX6-1414-MONOMER	GIX6-1414	Q04JG5	oxalate/formate antiporter	
+GIX6-2054-MONOMER	GIX6-2054	Q04HV1	recombination protein F	RecF
+GIX6-1546-MONOMER	GIX6-1546	Q04J39	primosome assembly protein PriA	PriA
+GIX6-168-MONOMER	GIX6-168	Q04MR1	riboflavin synthase subunit alpha	RibE
+GIX6-511-MONOMER	GIX6-511	Q04LT5	5,10-methylenetetrahydrofolate reductase	MetF
+GIX6-1413-MONOMER	GIX6-1413	Q04JG6	ATP-dependent RNA helicase	
+GIX6-570-MONOMER	GIX6-570	Q04LM9	ribonuclease BN	
+GIX6-861-MONOMER	GIX6-861	Q04KV5	preprotein translocase subunit SecG	SecG
+GIX6-2053-MONOMER	GIX6-2053	Q04HV2	orf	
+GIX6-1545-MONOMER	GIX6-1545	Q04J40	methionyl-tRNA formyltransferase	Fmt
+GIX6-104-MONOMER	GIX6-104	Q04MX3	LysM domain-containing protein	
+GIX6-1412-MONOMER	GIX6-1412	Q04JG7	transcriptional repressor CodY	CodY
+GIX6-1544-MONOMER	GIX6-1544	Q04J41	ribosomal RNA small subunit methyltransferase B	Sun
+GIX6-167-MONOMER	GIX6-167	Q04MR2	3,4-dihydroxy-2-butanone 4-phosphate synthase	RibB
+GIX6-2052-MONOMER	GIX6-2052	Q04HV3	orf	
+GIX6-1411-MONOMER	GIX6-1411	Q04JG8	isochorismatase family protein	
+GIX6-1543-MONOMER	GIX6-1543	Q04J42	phosphatase	
+GIX6-569-MONOMER	GIX6-569	Q04LN0	sodium/hydrogen exchanger family protein	
+GIX6-103-MONOMER	GIX6-103	Q04MX4	L-serine dehydratase, iron-sulfur-dependent subunit beta	SdhB
+GIX6-2051-MONOMER	GIX6-2051	Q04HV4	peptidase, M16 family protein	
+GIX6-510-MONOMER	GIX6-510	Q04LT6	5-methyltetrahydropteroyltriglutamate/homocysteine S-methyltransferase	MetE
+GIX6-1542-MONOMER	GIX6-1542	Q04J43	serine/threonine protein kinase	
+GIX6-1409-MONOMER	GIX6-1409	Q04JG9	sugar ABC transporter ATP-binding protein	
+GIX6-166-MONOMER	GIX6-166	Q04MR3	6,7-dimethyl-8-ribityllumazine synthase	RibH
+GIX6-1541-MONOMER	GIX6-1541	Q04J44	orf	
+GIX6-2050-MONOMER	GIX6-2050	Q04HV5	orf	
+GIX6-1408-MONOMER	GIX6-1408	Q04JH0	orf	
+GIX6-568-MONOMER	GIX6-568	Q04LN1	orf	
+GIX6-102-MONOMER	GIX6-102	Q04MX5	L-serine dehydratase, iron-sulfur-dependent subunit alpha	SdhA
+GIX6-1540-MONOMER	GIX6-1540	Q04J45	orf	
+GIX6-2049-MONOMER	GIX6-2049	Q04HV6	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase	PgsA
+GIX6-1407-MONOMER	GIX6-1407	Q04JH1	adenine phosphoribosyltransferase	Apt
+GIX6-1538-MONOMER	GIX6-1538	Q04J46	orf	
+GIX6-509-MONOMER	GIX6-509	Q04LT7	orf	
+GIX6-165-MONOMER	GIX6-165	Q04MR4	DNA mismatch repair protein	MutL
+GIX6-2048-MONOMER	GIX6-2048	Q04HV7	cobalt transporter ATP-binding subunit	CbiO
+GIX6-101-MONOMER	GIX6-101	Q04MX6	hydrolase	
+GIX6-1406-MONOMER	GIX6-1406	Q04JH2	homoserine O-succinyltransferase	MetA
+GIX6-1537-MONOMER	GIX6-1537	Q04J47	hydroxymethylglutaryl-CoA synthase	MvaS
+GIX6-567-MONOMER	GIX6-567	Q04LN2	orf	
+GIX6-2047-MONOMER	GIX6-2047	Q04HV8	cobalt transporter ATP-binding subunit	CbiO
+GIX6-1536-MONOMER	GIX6-1536	Q04J48	hydroxymethylglutaryl-CoA reductase, degradative	
+GIX6-1405-MONOMER	GIX6-1405	Q04JH3	orf	
+GIX6-164-MONOMER	GIX6-164	Q04MR5	orf	
+GIX6-99-MONOMER	GIX6-99	Q04MX7	capsular polysaccharide biosynthesis protein	CapD
+GIX6-2046-MONOMER	GIX6-2046	Q04HV9	cobalt ABC transporter permease	
+GIX6-1535-MONOMER	GIX6-1535	Q04J49	sucrose operon repressor	ScrR
+GIX6-507-MONOMER	GIX6-507	Q04LT8	orf	
+GIX6-1404-MONOMER	GIX6-1404	Q04JH4	triosephosphate isomerase	TpiA
+GIX6-1534-MONOMER	GIX6-1534	Q04J50	sucrose-6-phosphate hydrolase	ScrB
+GIX6-2045-MONOMER	GIX6-2045	Q04HW0	rod shape-determining protein MreC	MreC
+GIX6-1403-MONOMER	GIX6-1403	Q04JH5	1,4-beta-N-acetylmuramidase	LytC
+GIX6-566-MONOMER	GIX6-566	Q04LN3	orf	
+GIX6-98-MONOMER	GIX6-98	Q04MX8	glycosyl transferase family protein	
+GIX6-1533-MONOMER	GIX6-1533	Q04J51	orf	
+GIX6-163-MONOMER	GIX6-163	Q04MR6	orf	
+GIX6-2044-MONOMER	GIX6-2044	Q04HW1	rod shpae-determining protein MreD	
+GIX6-506-MONOMER	GIX6-506	Q04LT9	phenylalanyl-tRNA synthetase subunit beta	PheT
+GIX6-1402-MONOMER	GIX6-1402	Q04JH6	non-heme iron-containing ferritin	
+GIX6-1532-MONOMER	GIX6-1532	Q04J52	PTS system IIABC components	
+GIX6-2043-MONOMER	GIX6-2043	Q04HW2	orf	
+GIX6-97-MONOMER	GIX6-97	Q04MX9	transporter	
+GIX6-565-MONOMER	GIX6-565	Q04LN4	orf	
+GIX6-1531-MONOMER	GIX6-1531	Q04J53	fructokinase	ScrK
+GIX6-1401-MONOMER	GIX6-1401	Q04JH7	dihydrofolate reductase	FolA
+GIX6-162-MONOMER	GIX6-162	Q04MR7	orf	
+GIX6-1530-MONOMER	GIX6-1530	Q04J54	orf	
+GIX6-2042-MONOMER	GIX6-2042	Q04HW3	30S ribosomal protein S2	RpsB
+GIX6-505-MONOMER	GIX6-505	Q04LU0	GNAT family acetyltransferase	
+GIX6-1400-MONOMER	GIX6-1400	Q04JH8	orf	
+GIX6-1528-MONOMER	GIX6-1528	Q04J55	ABC transporter ATP-binding protein	
+GIX6-564-MONOMER	GIX6-564	Q04LN5	orf	
+GIX6-96-MONOMER	GIX6-96	Q04MY0	orf	
+GIX6-1399-MONOMER	GIX6-1399	Q04JH9	ATP-dependent protease ATP-binding subunit ClpX	ClpX
+GIX6-1527-MONOMER	GIX6-1527	Q04J56	orf	
+GIX6-161-MONOMER	GIX6-161	Q04MR8	orf	
+GIX6-2041-MONOMER	GIX6-2041	Q04HW4	elongation factor Ts	Tsf
+GIX6-1526-MONOMER	GIX6-1526	Q04J57	orf	
+GIX6-562-MONOMER	GIX6-562	Q04LN6	beta-galactosidase	BgaA
+GIX6-1398-MONOMER	GIX6-1398	Q04JI0	ribosome biogenesis GTP-binding protein YsxC	EngB
+GIX6-95-MONOMER	GIX6-95	Q04MY1	orf	
+GIX6-1525-MONOMER	GIX6-1525	Q04J58	ABC transporter ATP-binding protein	
+GIX6-504-MONOMER	GIX6-504	Q04LU1	phenylalanyl-tRNA synthetase subunit alpha	PheS
+GIX6-2038-MONOMER	GIX6-2038	Q04HW5	orf	
+GIX6-160-MONOMER	GIX6-160	Q04MR9	flavoprotein NrdI	
+GIX6-1397-MONOMER	GIX6-1397	Q04JI1	endoribonuclease L-PSP	
+GIX6-1524-MONOMER	GIX6-1524	Q04J59	GntR family transcriptional regulator protein	
+GIX6-561-MONOMER	GIX6-561	Q04LN7	PTS system transporter subunit IIC	
+GIX6-2037-MONOMER	GIX6-2037	Q04HW6	cysteine synthase A	CysK
+GIX6-1396-MONOMER	GIX6-1396	Q04JI2	orf	
+GIX6-159-MONOMER	GIX6-159	Q04MS0	orf	
+GIX6-94-MONOMER	GIX6-94	Q04MY2	orf	
+GIX6-1523-MONOMER	GIX6-1523	Q04J60	transcriptional regulator NrdR	NrdR
+GIX6-1395-MONOMER	GIX6-1395	Q04JI3	orf	
+GIX6-2036-MONOMER	GIX6-2036	Q04HW7	orf	
+GIX6-560-MONOMER	GIX6-560	Q04LN8	PTS system transporter subunit IIB	
+GIX6-1394-MONOMER	GIX6-1394	Q04JI4	orf	
+GIX6-503-MONOMER	GIX6-503	Q04LU2	6-phospho-beta-glucosidase	
+GIX6-1522-MONOMER	GIX6-1522	Q04J61	orf	
+GIX6-158-MONOMER	GIX6-158	Q04MS1	DNA-binding response regulator	
+GIX6-2035-MONOMER	GIX6-2035	Q04HW8	helicase	
+GIX6-1393-MONOMER	GIX6-1393	Q04JI5	pyridine nucleotide-disulfide oxidoreductase family protein	
+GIX6-93-MONOMER	GIX6-93	Q04MY3	orf	
+GIX6-559-MONOMER	GIX6-559	Q04LN9	PTS system transporter subunit IIA	
+GIX6-1521-MONOMER	GIX6-1521	Q04J62	primosomal protein DnaI	DnaI
+GIX6-2034-MONOMER	GIX6-2034	Q04HW9	competence protein ComF	
+GIX6-157-MONOMER	GIX6-157	Q04MS2	sensor histidine kinase	
+GIX6-1392-MONOMER	GIX6-1392	Q04JI6	orf	
+GIX6-1520-MONOMER	GIX6-1520	Q04J63	nitroreductase family protein	
+GIX6-502-MONOMER	GIX6-502	Q04LU3	PTS system beta-glucosides-specific transporter subunit IIABC	
+GIX6-92-MONOMER	GIX6-92	Q04MY4	orf	
+GIX6-558-MONOMER	GIX6-558	Q04LP0	cell wall-associated serine protease PrtA	PrtA
+GIX6-1391-MONOMER	GIX6-1391	Q04JI7	orf	
+GIX6-2033-MONOMER	GIX6-2033	Q04HX0	ribosomal subunit interface protein	YfiA
+GIX6-156-MONOMER	GIX6-156	Q04MS3	orf	
+GIX6-1519-MONOMER	GIX6-1519	Q04J64	GTP-binding protein EngA	EngA
+GIX6-1390-MONOMER	GIX6-1390	Q04JI8	phosphoglucosamine mutase	GlmM
+GIX6-556-MONOMER	GIX6-556	Q04LP1	orf	
+GIX6-1518-MONOMER	GIX6-1518	Q04J65	transcriptional activator, Rgg/GadR/MutR family protein	
+GIX6-1389-MONOMER	GIX6-1389	Q04JI9	orf	
+GIX6-91-MONOMER	GIX6-91	Q04MY5	orf	
+GIX6-2032-MONOMER	GIX6-2032	Q04HX1	DHH subfamily 1 protein	
+GIX6-155-MONOMER	GIX6-155	Q04MS4	orf	
+GIX6-501-MONOMER	GIX6-501	Q04LU4	transcription antiterminator Lict	LicT
+GIX6-1517-MONOMER	GIX6-1517	Q04J66	orf	
+GIX6-1388-MONOMER	GIX6-1388	Q04JJ0	DegV family protein	
+GIX6-555-MONOMER	GIX6-555	Q04LP2	orf	
+GIX6-1516-MONOMER	GIX6-1516	Q04J67	orf	
+GIX6-1387-MONOMER	GIX6-1387	Q04JJ1	dihydrodipicolinate reductase	DapB
+GIX6-90-MONOMER	GIX6-90	Q04MY6	ABC transporter substrate-binding protein	
+GIX6-2031-MONOMER	GIX6-2031	Q04HX2	50S ribosomal protein L9	RplI
+GIX6-154-MONOMER	GIX6-154	Q04MS5	ABC transporter permease	
+GIX6-1515-MONOMER	GIX6-1515	Q04J68	orf	
+GIX6-1386-MONOMER	GIX6-1386	Q04JJ2	tRNA CCA-pyrophosphorylase	
+GIX6-554-MONOMER	GIX6-554	Q04LP3	ABC transporter ATP-binding protein	
+GIX6-499-MONOMER	GIX6-499	Q04LU5	orf	
+GIX6-1385-MONOMER	GIX6-1385	Q04JJ3	ABC transporter ATP-binding protein	
+GIX6-153-MONOMER	GIX6-153	Q04MS6	ABC transporter ATP-binding protein	
+GIX6-2030-MONOMER	GIX6-2030	Q04HX3	replicative DNA helicase	DnaB
+GIX6-1514-MONOMER	GIX6-1514	Q04J69	ABC transporter ATP-binding protein	
+GIX6-553-MONOMER	GIX6-553	Q04LP4	orf	
+GIX6-89-MONOMER	GIX6-89	Q04MY7	ABC transporter permease	
+GIX6-1512-MONOMER	GIX6-1512	Q04J70	preprotein translocase subunit SecA	SecA
+GIX6-1384-MONOMER	GIX6-1384	Q04JJ4	cation efflux family protein	
+GIX6-2029-MONOMER	GIX6-2029	Q04HX4	orf	
+GIX6-152-MONOMER	GIX6-152	Q04MS7	orf	
+GIX6-552-MONOMER	GIX6-552	Q04LP5	orf	
+GIX6-1511-MONOMER	GIX6-1511	Q04J71	phospho-2-dehydro-3-deoxyheptonate aldolase	
+GIX6-1383-MONOMER	GIX6-1383	Q04JJ5	cation-transporting ATPase, E1-E2 family protein	
+GIX6-88-MONOMER	GIX6-88	Q04MY8	ABC transporter permease	
+GIX6-496-MONOMER	GIX6-496	Q04LU6	cell filamentation protein Fic-like protein	
+GIX6-1510-MONOMER	GIX6-1510	Q04J72	phospho-2-dehydro-3-deoxyheptonate aldolase	
+GIX6-1382-MONOMER	GIX6-1382	Q04JJ6	glutathione S-transferase	
+GIX6-2028-MONOMER	GIX6-2028	Q04HX5	choline binding protein D	CbpD
+GIX6-151-MONOMER	GIX6-151	Q04MS8	lipoprotein	
+GIX6-551-MONOMER	GIX6-551	Q04LP6	50S ribosomal protein L1	RplA
+GIX6-1509-MONOMER	GIX6-1509	Q04J73	4'-phosphopantetheinyl transferase	AcpS
+GIX6-1381-MONOMER	GIX6-1381	Q04JJ7	peptide deformylase	
+GIX6-87-MONOMER	GIX6-87	Q04MY9	orf	
+GIX6-1508-MONOMER	GIX6-1508	Q04J74	alanine racemase	Alr
+GIX6-1380-MONOMER	GIX6-1380	Q04JJ8	orf	
+GIX6-150-MONOMER	GIX6-150	Q04MS9	ABC transporter substrate-binding protein	
+GIX6-2027-MONOMER	GIX6-2027	Q04HX6	orf	
+GIX6-550-MONOMER	GIX6-550	Q04LP7	50S ribosomal protein L11	RplK
+GIX6-1507-MONOMER	GIX6-1507	Q04J75	ATP-dependent DNA helicase RecG	RecG
+GIX6-1379-MONOMER	GIX6-1379	Q04JJ9	orf	
+GIX6-495-MONOMER	GIX6-495	Q04LU7	orf	
+GIX6-149-MONOMER	GIX6-149	Q04MT0	orf	
+GIX6-1506-MONOMER	GIX6-1506	Q04J76	acetyl xylan esterase	
+GIX6-2026-MONOMER	GIX6-2026	Q04HX7	ABC transporter permease	
+GIX6-1378-MONOMER	GIX6-1378	Q04JK0	orf	
+GIX6-86-MONOMER	GIX6-86	Q04MZ0	orf	
+GIX6-549-MONOMER	GIX6-549	Q04LP8	orf	
+GIX6-1505-MONOMER	GIX6-1505	Q04J77	orf	
+GIX6-1377-MONOMER	GIX6-1377	Q04JK1	orf	
+GIX6-2025-MONOMER	GIX6-2025	Q04HX8	ABC transporter substrate-binding protein	
+GIX6-1504-MONOMER	GIX6-1504	Q04J78	sialidase A	NanA
+GIX6-1376-MONOMER	GIX6-1376	Q04JK2	G5 domain-containing protein	
+GIX6-148-MONOMER	GIX6-148	Q04MT1	transporter major facilitator family protein	
+GIX6-494-MONOMER	GIX6-494	Q04LU8	valyl-tRNA synthetase	ValS
+GIX6-548-MONOMER	GIX6-548	Q04LP9	HIT family protein	
+GIX6-1503-MONOMER	GIX6-1503	Q04J79	orf	
+GIX6-1375-MONOMER	GIX6-1375	Q04JK3	orf	
+GIX6-85-MONOMER	GIX6-85	Q04MZ1	orf	
+GIX6-2024-MONOMER	GIX6-2024	Q04HX9	ABC transporter ATP-binding protein	
+GIX6-1502-MONOMER	GIX6-1502	Q04J80	ABC transporter substrate-binding protein	
+GIX6-1374-MONOMER	GIX6-1374	Q04JK4	orf	
+GIX6-147-MONOMER	GIX6-147	Q04MT2	CAAX amino terminal protease family protein	
+GIX6-1501-MONOMER	GIX6-1501	Q04J81	ABC transporter permease	
+GIX6-1373-MONOMER	GIX6-1373	Q04JK5	aspartate aminotransferase	AspC
+GIX6-547-MONOMER	GIX6-547	Q04LQ0	orf	
+GIX6-2023-MONOMER	GIX6-2023	Q04HY0	CtsR family transcriptional regulator	CtsR
+GIX6-493-MONOMER	GIX6-493	Q04LU9	orf	
+GIX6-84-MONOMER	GIX6-84	Q04MZ2	orf	
+GIX6-1500-MONOMER	GIX6-1500	Q04J82	ABC transporter permease	
+GIX6-1372-MONOMER	GIX6-1372	Q04JK6	glyoxalase family protein	
+GIX6-546-MONOMER	GIX6-546	Q04LQ1	branched-chain amino acid transport system II carrier protein	BrnQ
+GIX6-146-MONOMER	GIX6-146	Q04MT3	CAAX amino terminal protease family protein	
+GIX6-2022-MONOMER	GIX6-2022	Q04HY1	ATP-dependent Clp protease, ATP-binding subunit	
+GIX6-1499-MONOMER	GIX6-1499	Q04J83	sialidase B	NanB
+GIX6-1371-MONOMER	GIX6-1371	Q04JK7	asparaginyl-tRNA synthetase	AsnC
+GIX6-1498-MONOMER	GIX6-1498	Q04J84	oxidoreductase	
+GIX6-545-MONOMER	GIX6-545	Q04LQ2	orf	
+GIX6-1370-MONOMER	GIX6-1370	Q04JK8	30S ribosomal protein S6	RpsF
+GIX6-83-MONOMER	GIX6-83	Q04MZ3	30S ribosomal protein S4	RpsD
+GIX6-145-MONOMER	GIX6-145	Q04MT4	orf	
+GIX6-2021-MONOMER	GIX6-2021	Q04HY2	orf	
+GIX6-492-MONOMER	GIX6-492	Q04LV0	GNAT family acetyltransferase	
+GIX6-1497-MONOMER	GIX6-1497	Q04J85	N-acetylmannosamine-6-phosphate 2-epimerase	
+GIX6-1369-MONOMER	GIX6-1369	Q04JK9	single-stranded DNA-binding protein	Ssb
+GIX6-2020-MONOMER	GIX6-2020	Q04HY3	DNA-binding response regulator	
+GIX6-544-MONOMER	GIX6-544	Q04LQ3	orf	
+GIX6-144-MONOMER	GIX6-144	Q04MT5	transcriptional regulator	
+GIX6-82-MONOMER	GIX6-82	Q04MZ4	sensor histidine kinase	
+GIX6-1368-MONOMER	GIX6-1368	Q04JL0	30S ribosomal protein S18	RpsR
+GIX6-2019-MONOMER	GIX6-2019	Q04HY4	sensor histidine kinase	
+GIX6-1496-MONOMER	GIX6-1496	Q04J86	PTS system transporter subunit IIBC	
+GIX6-491-MONOMER	GIX6-491	Q04LV1	orf	
+GIX6-1367-MONOMER	GIX6-1367	Q04JL1	Cof family protein/peptidyl-prolyl cis-trans isomerase	
+GIX6-543-MONOMER	GIX6-543	Q04LQ4	orf	
+GIX6-1495-MONOMER	GIX6-1495	Q04J87	sugar ABC transporter sugar-binding protein	
+GIX6-2018-MONOMER	GIX6-2018	Q04HY5	orf	
+GIX6-1366-MONOMER	GIX6-1366	Q04JL2	orf	
+GIX6-81-MONOMER	GIX6-81	Q04MZ5	DNA-binding response regulator	
+GIX6-143-MONOMER	GIX6-143	Q04MT6	UDP-glucose 6-dehydrogenase	
+GIX6-1494-MONOMER	GIX6-1494	Q04J88	sugar ABC transporter permease	
+GIX6-1365-MONOMER	GIX6-1365	Q04JL3	orf	
+GIX6-2017-MONOMER	GIX6-2017	Q04HY6	choline binding protein A	CbpA
+GIX6-542-MONOMER	GIX6-542	Q04LQ5	dipeptidase PepV	PepV
+GIX6-1493-MONOMER	GIX6-1493	Q04J89	sugar ABC transporter permease	
+GIX6-1364-MONOMER	GIX6-1364	Q04JL4	orf	
+GIX6-490-MONOMER	GIX6-490	Q04LV2	orf	
+GIX6-80-MONOMER	GIX6-80	Q04MZ6	cell wall surface anchor family protein	
+GIX6-2016-MONOMER	GIX6-2016	Q04HY7	TIM-barrel protein, nifR3 family protein	
+GIX6-1492-MONOMER	GIX6-1492	Q04J90	orf	
+GIX6-142-MONOMER	GIX6-142	Q04MT7	orf	
+GIX6-1363-MONOMER	GIX6-1363	Q04JL5	manganese-dependent inorganic pyrophosphatase	PpaC
+GIX6-2015-MONOMER	GIX6-2015	Q04HY8	Hsp33-like chaperonin	HslO
+GIX6-1491-MONOMER	GIX6-1491	Q04J91	orf	
+GIX6-1362-MONOMER	GIX6-1362	Q04JL6	orf	
+GIX6-541-MONOMER	GIX6-541	Q04LQ6	nitroreductase family protein	
+GIX6-141-MONOMER	GIX6-141	Q04MT8	orf	
+GIX6-1360-MONOMER	GIX6-1360	Q04JL7	orf	
+GIX6-79-MONOMER	GIX6-79	Q04MZ7	orf	
+GIX6-1490-MONOMER	GIX6-1490	Q04J92	orf	
+GIX6-489-MONOMER	GIX6-489	Q04LV3	orf	
+GIX6-2014-MONOMER	GIX6-2014	Q04HY9	orf	
+GIX6-1359-MONOMER	GIX6-1359	Q04JL8	UDP-N-acetylmuramoylalanyl-D-glutamate--L-lysine ligase	MurE
+GIX6-1489-MONOMER	GIX6-1489	Q04J93	N-acetylneuraminate lyase	
+GIX6-540-MONOMER	GIX6-540	Q04LQ7	amino acid ABC transporter amino acid-binding protein	
+GIX6-1488-MONOMER	GIX6-1488	Q04J94	ROK family protein	
+GIX6-140-MONOMER	GIX6-140	Q04MT9	ABC transporter ATP-binding protein	
+GIX6-1358-MONOMER	GIX6-1358	Q04HR7	polysaccharide biosynthesis protein	
+GIX6-1487-MONOMER	GIX6-1487	Q04J95	phosphosugar-binding transcriptional regulator	
+GIX6-2013-MONOMER	GIX6-2013	Q04HZ0	glycerol kinase	GlpK
+GIX6-78-MONOMER	GIX6-78	Q04MZ8	glycosyl transferase family protein	
+GIX6-1357-MONOMER	GIX6-1357	Q04HR8	oligopeptide ABC transporter oligopeptide-binding protein AliB	AliB
+GIX6-488-MONOMER	GIX6-488	Q04LV4	orf	
+GIX6-1486-MONOMER	GIX6-1486	Q04J96	penicillin-binding protein 2B	PenA
+GIX6-1355-MONOMER	GIX6-1355	Q04HR9	orf	
+GIX6-2012-MONOMER	GIX6-2012	Q04HZ1	alpha-glycerophosphate oxidase	GlpO
+GIX6-539-MONOMER	GIX6-539	Q04LQ8	Ser/Thr protein phosphatase family protein	
+GIX6-139-MONOMER	GIX6-139	Q04MU0	glycosyl transferase family protein	
+GIX6-1485-MONOMER	GIX6-1485	Q04J97	recombination protein RecR	RecR
+GIX6-77-MONOMER	GIX6-77	Q04MZ9	potassium uptake protein, Trk family protein	
+GIX6-1354-MONOMER	GIX6-1354	Q04HS0	orf	
+GIX6-487-MONOMER	GIX6-487	Q04LV5	orf	
+GIX6-1484-MONOMER	GIX6-1484	Q04J98	D-alanyl-alanine synthetase A	Ddl
+GIX6-1353-MONOMER	GIX6-1353	Q04HS1	cystathionine gamma-synthase	
+GIX6-2011-MONOMER	GIX6-2011	Q04HZ2	glycerol uptake facilitator protein	GlpF
+GIX6-1483-MONOMER	GIX6-1483	Q04J99	UDP-N-acetylmuramoylalanyl-D-glutamyl-2,6- diaminopimelate--D-alanyl-D-alanine ligase	MurF
+GIX6-1352-MONOMER	GIX6-1352	Q04HS2	class II aminotransferase	
+GIX6-76-MONOMER	GIX6-76	Q04N00	potassium uptake protein, Trk family protein	
+GIX6-538-MONOMER	GIX6-538	Q04LQ9	excinuclease ABC subunit C	UvrC
+GIX6-138-MONOMER	GIX6-138	Q04MU1	glycoside hydrolase family protein	
+GIX6-486-MONOMER	GIX6-486	Q04LV6	orf	
+GIX6-1351-MONOMER	GIX6-1351	Q04HS3	Snf2 family protein	
+GIX6-2010-MONOMER	GIX6-2010	Q04HZ3	orf	
+GIX6-1482-MONOMER	GIX6-1482	Q04JA0	MutT/nudix family protein	
+GIX6-1350-MONOMER	GIX6-1350	Q04HS4	orf	
+GIX6-485-MONOMER	GIX6-485	Q04LV7	orf	
+GIX6-2009-MONOMER	GIX6-2009	Q04HZ4	orf	
+GIX6-1481-MONOMER	GIX6-1481	Q04JA1	orf	
+GIX6-1349-MONOMER	GIX6-1349	Q04HS5	UDP-N-acetylmuramate--L-alanine ligase	MurC
+GIX6-75-MONOMER	GIX6-75	Q04N01	orf	
+GIX6-537-MONOMER	GIX6-537	Q04LR0	orf	
+GIX6-1480-MONOMER	GIX6-1480	Q04JA2	cell division protein FtsA	FtsA
+GIX6-1348-MONOMER	GIX6-1348	Q04HS6	GNAT family acetyltransferase	
+GIX6-484-MONOMER	GIX6-484	Q04LV8	orf	
+GIX6-136-MONOMER	GIX6-136	Q04MU2	DNA-binding/iron metalloprotein/AP endonuclease	
+GIX6-2007-MONOMER	GIX6-2007	Q04HZ5	transporter major facilitator family protein	
+GIX6-1347-MONOMER	GIX6-1347	Q04HS7	GNAT family acetyltransferase	
+GIX6-1479-MONOMER	GIX6-1479	Q04JA3	cell division protein FtsZ	FtsZ
+GIX6-1346-MONOMER	GIX6-1346	Q04HS8	orf	
+GIX6-483-MONOMER	GIX6-483	Q04LV9	ribosome-binding factor A	RbfA
+GIX6-1478-MONOMER	GIX6-1478	Q04JA4	YlmE protein	YlmE
+GIX6-135-MONOMER	GIX6-135	Q04MU3	ribosomal-protein-alanine acetyltransferase	RimI
+GIX6-2006-MONOMER	GIX6-2006	Q04HZ6	orf	
+GIX6-536-MONOMER	GIX6-536	Q04LR1	beta-lactam resistance factor	FibB
+GIX6-1345-MONOMER	GIX6-1345	Q04HS9	transcription elongation factor GreA	GreA
+GIX6-1477-MONOMER	GIX6-1477	Q04JA5	orf	YlmF
+GIX6-74-MONOMER	GIX6-74	Q04N02	phosphorylase, Pnp/Udp family protein	
+GIX6-1344-MONOMER	GIX6-1344	Q04HT0	orf	
+GIX6-1476-MONOMER	GIX6-1476	Q04JA6	orf	YlmG
+GIX6-134-MONOMER	GIX6-134	Q04MU4	orf	
+GIX6-2005-MONOMER	GIX6-2005	Q04HZ7	D-alanine--poly(phosphoribitol) ligase subunit 1	DltA
+GIX6-482-MONOMER	GIX6-482	Q04LW0	translation initiation factor IF-2	InfB
+GIX6-1475-MONOMER	GIX6-1475	Q04JA7	YlmH protein	YlmH
+GIX6-1343-MONOMER	GIX6-1343	Q04HT1	GNAT family acetyltransferase	
+GIX6-535-MONOMER	GIX6-535	Q04LR2	serine/alanine-adding enzyme MurM	
+GIX6-2004-MONOMER	GIX6-2004	Q04HZ8	protein DltB	DltB
+GIX6-73-MONOMER	GIX6-73	Q04N03	orf	
+GIX6-1474-MONOMER	GIX6-1474	Q04JA8	cell division protein DivIVA	
+GIX6-1342-MONOMER	GIX6-1342	Q04HT2	IS1239, transposase	
+GIX6-133-MONOMER	GIX6-133	Q04MU5	orf	
+GIX6-481-MONOMER	GIX6-481	Q04LW1	orf	
+GIX6-2003-MONOMER	GIX6-2003	Q04HZ9	D-alanine--poly(phosphoribitol) ligase subunit 2	DltC
+GIX6-1341-MONOMER	GIX6-1341	Q04HT3	F0F1 ATP synthase subunit C	AtpE
+GIX6-1473-MONOMER	GIX6-1473	Q04JA9	orf	
+GIX6-534-MONOMER	GIX6-534	Q04LR3	tributyrin esterase	EstA
+GIX6-1340-MONOMER	GIX6-1340	Q04HT4	F0F1 ATP synthase subunit A	AtpB
+GIX6-72-MONOMER	GIX6-72	Q04N04	orf	
+GIX6-1472-MONOMER	GIX6-1472	Q04JB0	isoleucyl-tRNA synthetase	IleS
+GIX6-2002-MONOMER	GIX6-2002	Q04I00	undecaprenol-phosphate-poly(glycerophosphate subunit) D-alanine transfer protein	DltD
+GIX6-132-MONOMER	GIX6-132	Q04MU6	orf	
+GIX6-1339-MONOMER	GIX6-1339	Q04HT5	F0F1 ATP synthase subunit B	AtpF
+GIX6-480-MONOMER	GIX6-480	Q04LW2	orf	
+GIX6-1471-MONOMER	GIX6-1471	Q04JB1	orf	
+GIX6-1338-MONOMER	GIX6-1338	Q04HT6	F0F1 ATP synthase subunit delta	AtpH
+GIX6-2001-MONOMER	GIX6-2001	Q04I01	orf	
+GIX6-1470-MONOMER	GIX6-1470	Q04JB2	orf	
+GIX6-1337-MONOMER	GIX6-1337	Q04HT7	F0F1 ATP synthase subunit alpha	AtpA
+GIX6-71-MONOMER	GIX6-71	Q04N05	aldose 1-epimerase	GalM
+GIX6-479-MONOMER	GIX6-479	Q04LW3	transcription elongation factor NusA	NusA
+GIX6-1336-MONOMER	GIX6-1336	Q04HT8	F0F1 ATP synthase subunit gamma	AtpG
+GIX6-2000-MONOMER	GIX6-2000	Q04I02	adc operon repressor AdcR	AdcR
+GIX6-1335-MONOMER	GIX6-1335	Q04HT9	F0F1 ATP synthase subunit beta	AtpD
+GIX6-70-MONOMER	GIX6-70	Q04N06	sugar isomerase	AgaS
+GIX6-478-MONOMER	GIX6-478	Q04LW4	orf	
+GIX6-1334-MONOMER	GIX6-1334	Q04N64	F0F1 ATP synthase subunit epsilon	AtpC
+GIX6-1999-MONOMER	GIX6-1999	Q04I03	zinc ABC transporter ATP-binding protein	AdcC
+GIX6-1333-MONOMER	GIX6-1333	Q04N65	orf	
+GIX6-477-MONOMER	GIX6-477	Q04LW5	tRNA (guanine-N(7)-)-methyltransferase	TrmB
+GIX6-69-MONOMER	GIX6-69	Q04N07	PTS system transporter subunit IIA	
+GIX6-1998-MONOMER	GIX6-1998	Q04I04	zinc ABC transporter permease	AdcB
+GIX6-1332-MONOMER	GIX6-1332	Q04N66	orf	
+GIX6-1331-MONOMER	GIX6-1331	Q04N67	orf	
+GIX6-1997-MONOMER	GIX6-1997	Q04I05	zinc ABC transporter zinc-binding lipoprotein	AdcA
+GIX6-476-MONOMER	GIX6-476	Q04LW6	orf	
+GIX6-68-MONOMER	GIX6-68	Q04N08	PTS system transporter subunit IID	
+GIX6-1330-MONOMER	GIX6-1330	Q04N68	amino acid ABC transporter permease	
+GIX6-1996-MONOMER	GIX6-1996	Q04I06	fucose operon repressor	
+GIX6-1329-MONOMER	GIX6-1329	Q04N69	amino acid ABC transporter ATP-binding protein	
+GIX6-1328-MONOMER	GIX6-1328	Q04N70	amino acid ABC transporter amino acid-binding protein	AatB
+GIX6-475-MONOMER	GIX6-475	Q04LW7	CAAX amino terminal protease family protein	
+GIX6-1995-MONOMER	GIX6-1995	Q04I07	L-fuculose kinase	FucK
+GIX6-1327-MONOMER	GIX6-1327	Q04N71	bacterocin transport accessory protein	Bta
+GIX6-67-MONOMER	GIX6-67	Q04N09	PTS system transporter subunit IIC	
+GIX6-1326-MONOMER	GIX6-1326	Q04N72	phosphoglucomutase/phosphomannomutase family protein	Pgm
+GIX6-1994-MONOMER	GIX6-1994	Q04I08	L-fuculose phosphate aldolase	FucA
+GIX6-474-MONOMER	GIX6-474	Q04LW8	orf	
+GIX6-1324-MONOMER	GIX6-1324	Q04N73	orf	
+GIX6-66-MONOMER	GIX6-66	Q04N10	PTS system transporter subunit IIB	
+GIX6-1993-MONOMER	GIX6-1993	Q04I09	RbsD/FucU transport protein family protein	FucU
+GIX6-1323-MONOMER	GIX6-1323	Q04N74	orf	
+GIX6-473-MONOMER	GIX6-473	Q04LW9	immunity protein BlpY	BlpY
+GIX6-1992-MONOMER	GIX6-1992	Q04I10	PTS system transporter subunit IIA	
+GIX6-1322-MONOMER	GIX6-1322	Q04N75	orf	
+GIX6-65-MONOMER	GIX6-65	Q04N11	Beta-galactosidase 3	BgaC
+GIX6-1321-MONOMER	GIX6-1321	Q04N76	cell wall surface anchor family protein	
+GIX6-1991-MONOMER	GIX6-1991	Q04I11	PTS system transporter subunit IIB	
+GIX6-470-MONOMER	GIX6-470	Q04LX0	peptide pheromone BlpC	BlpC
+GIX6-1320-MONOMER	GIX6-1320	Q04N77	glycerol uptake facilitator protein	
+GIX6-1990-MONOMER	GIX6-1990	Q04I12	PTS system transporter subunit IIC	
+GIX6-1319-MONOMER	GIX6-1319	Q04N78	orf	
+GIX6-64-MONOMER	GIX6-64	Q04N12	GntR family transcriptional regulator protein	
+GIX6-1318-MONOMER	GIX6-1318	Q04N79	elongation factor Tu	Tuf
+GIX6-1989-MONOMER	GIX6-1989	Q04I13	PTS system transporter subunit IID	
+GIX6-469-MONOMER	GIX6-469	Q04LX1	histidine kinase BlpH	BlpH
+GIX6-1317-MONOMER	GIX6-1317	Q04N80	orf	
+GIX6-63-MONOMER	GIX6-63	Q04N13	beta-N-acetylhexosaminidase	StrH
+GIX6-1988-MONOMER	GIX6-1988	Q04I14	orf	
+GIX6-1316-MONOMER	GIX6-1316	Q04JL9	orf	
+GIX6-1312-MONOMER	GIX6-1312	Q04JM0	ATP-dependent RNA helicase	
+GIX6-468-MONOMER	GIX6-468	Q04LX2	response regulator BlpR	BlpR
+GIX6-1987-MONOMER	GIX6-1987	Q04I15	fucolectin-like protein	
+GIX6-1311-MONOMER	GIX6-1311	Q04JM1	oxidoreductase, Gfo/Idh/MocA family protein	
+GIX6-62-MONOMER	GIX6-62	Q04N14	adenylosuccinate lyase	PurB
+GIX6-1986-MONOMER	GIX6-1986	Q04I16	L-fucose isomerase	FucI
+GIX6-1310-MONOMER	GIX6-1310	Q04JM2	orf	
+GIX6-467-MONOMER	GIX6-467	Q04LX3	BlpS protein	BlpS
+GIX6-1309-MONOMER	GIX6-1309	Q04JM3	peptidoglycan GlcNAc deacetylase	PgdA
+GIX6-1985-MONOMER	GIX6-1985	Q04I17	iron-containing alcohol dehydrogenase	
+GIX6-61-MONOMER	GIX6-61	Q04N15	orf	
+GIX6-466-MONOMER	GIX6-466	Q04LX4	orf	
+GIX6-1984-MONOMER	GIX6-1984	Q04I18	hypersensitive-induced reaction protein 4	
+GIX6-1308-MONOMER	GIX6-1308	Q04JM4	oxidoreductase, aldo/keto reductase family protein	
+GIX6-465-MONOMER	GIX6-465	Q04LX5	ABC transporter permease	
+GIX6-60-MONOMER	GIX6-60	Q04N16	phosphoribosylaminoimidazole carboxylase ATPase subunit	PurK
+GIX6-1307-MONOMER	GIX6-1307	Q04JM5	orf	
+GIX6-1983-MONOMER	GIX6-1983	Q04I19	orf	
+GIX6-1306-MONOMER	GIX6-1306	Q04JM6	orf	
+GIX6-464-MONOMER	GIX6-464	Q04LX6	ABC transporter ATP-binding protein	
+GIX6-1982-MONOMER	GIX6-1982	Q04I20	orf	
+GIX6-1305-MONOMER	GIX6-1305	Q04JM7	glycyl-tRNA synthetase subunit alpha	GlyQ
+GIX6-59-MONOMER	GIX6-59	Q04N17	phosphoribosylaminoimidazole carboxylase catalytic subunit	PurE
+GIX6-463-MONOMER	GIX6-463	Q04LX7	cell-cycle regulation Hit-like protein	
+GIX6-1304-MONOMER	GIX6-1304	Q04JM8	glycyl-tRNA synthetase subunit beta	GlyS
+GIX6-1981-MONOMER	GIX6-1981	Q04I21	orf	
+GIX6-1303-MONOMER	GIX6-1303	Q04JM9	orf	
+GIX6-1302-MONOMER	GIX6-1302	Q04JN0	oxidoreductase	
+GIX6-462-MONOMER	GIX6-462	Q04LX8	orf	
+GIX6-58-MONOMER	GIX6-58	Q04N18	phosphoribosylamine--glycine ligase	PurD
+GIX6-1979-MONOMER	GIX6-1979	Q04I22	orf	
+GIX6-1301-MONOMER	GIX6-1301	Q04JN1	NADPH-dependent FMN reductase	
+GIX6-461-MONOMER	GIX6-461	Q04LX9	chaperone protein DnaJ	DnaJ
+GIX6-1978-MONOMER	GIX6-1978	Q04I23	orf	
+GIX6-1300-MONOMER	GIX6-1300	Q04JN2	thiamine biosynthesis protein ApbE	
+GIX6-57-MONOMER	GIX6-57	Q04N19	bifunctional phosphoribosylaminoimidazolecarboxamide formyltransferase/IMP cyclohydrolase	PurH
+GIX6-1299-MONOMER	GIX6-1299	Q04JN3	orf	
+GIX6-1977-MONOMER	GIX6-1977	Q04I24	carbamate kinase	ArcC
+GIX6-460-MONOMER	GIX6-460	Q04LY0	molecular chaperone DnaK	DnaK
+GIX6-1298-MONOMER	GIX6-1298	Q04JN4	NADH oxidase	Nox
+GIX6-1976-MONOMER	GIX6-1976	Q04I25	ornithine carbamoyltransferase	ArgF
+GIX6-56-MONOMER	GIX6-56	Q04N20	vanZ protein	
+GIX6-1297-MONOMER	GIX6-1297	Q04JN5	pyridoxal biosynthesis lyase PdxS	
+GIX6-459-MONOMER	GIX6-459	Q04LY1	heat shock protein GrpE	GrpE
+GIX6-1974-MONOMER	GIX6-1974	Q04I26	orf	
+GIX6-1296-MONOMER	GIX6-1296	Q04JN6	glutamine amidotransferase subunit PdxT	
+GIX6-1295-MONOMER	GIX6-1295	Q04JN7	hemolysin	
+GIX6-1973-MONOMER	GIX6-1973	Q04I27	alpha-1,2-mannosidase	
+GIX6-458-MONOMER	GIX6-458	Q04LY2	heat-inducible transcription repressor	HrcA
+GIX6-55-MONOMER	GIX6-55	Q04N21	phosphoribosylglycinamide formyltransferase	PurN
+GIX6-1294-MONOMER	GIX6-1294	Q04JN8	orf	
+GIX6-1972-MONOMER	GIX6-1972	Q04I28	orf	
+GIX6-1293-MONOMER	GIX6-1293	Q04JN9	GNAT family acetyltransferase	
+GIX6-457-MONOMER	GIX6-457	Q04LY3	orf	
+GIX6-1971-MONOMER	GIX6-1971	Q04I29	orf	
+GIX6-54-MONOMER	GIX6-54	Q04N22	phosphoribosylaminoimidazole synthetase	PurM
+GIX6-1292-MONOMER	GIX6-1292	Q04JP0	methylated-DNA--protein-cysteine S-methyltransferase	Ogt
+GIX6-456-MONOMER	GIX6-456	Q04LY4	orf	
+GIX6-1291-MONOMER	GIX6-1291	Q04JP1	orf	
+GIX6-1970-MONOMER	GIX6-1970	Q04I30	ROK family protein	
+GIX6-455-MONOMER	GIX6-455	Q04LY5	type I restriction-modification system, R subunit	HsdR
+GIX6-53-MONOMER	GIX6-53	Q04N23	amidophosphoribosyltransferase	PurF
+GIX6-1969-MONOMER	GIX6-1969	Q04I31	glycosyl hydrolase-like protein	
+GIX6-1290-MONOMER	GIX6-1290	Q04JP2	amino acid ABC transporter permease	
+GIX6-1289-MONOMER	GIX6-1289	Q04JP3	amino acid ABC transporter ATP-binding protein	
+GIX6-454-MONOMER	GIX6-454	Q04LY6	type I restriction-modification system, M subunit	HsdM
+GIX6-1968-MONOMER	GIX6-1968	Q04I32	orf	
+GIX6-1288-MONOMER	GIX6-1288	Q04JP4	orf	
+GIX6-52-MONOMER	GIX6-52	Q04N24	phosphoribosylformylglycinamidine synthase	
+GIX6-1287-MONOMER	GIX6-1287	Q04JP5	thioredoxin-disulfide reductase	TrxB
+GIX6-1967-MONOMER	GIX6-1967	Q04I33	orf	
+GIX6-453-MONOMER	GIX6-453	Q04LY7	type I restriction-modification system subunit S	HsdS
+GIX6-1286-MONOMER	GIX6-1286	Q04JP6	TrmH family RNA methyltransferase group 3	
+GIX6-1285-MONOMER	GIX6-1285	Q04JP7	peptide deformylase	Def
+GIX6-51-MONOMER	GIX6-51	Q04N25	phosphoribosylaminoimidazole-succinocarboxamide synthase	PurC
+GIX6-1966-MONOMER	GIX6-1966	Q04I34	orf	
+GIX6-452-MONOMER	GIX6-452	Q04LY8	integrase/recombinase, phage integrase family protein	
+GIX6-1284-MONOMER	GIX6-1284	Q04JP8	orf	
+GIX6-1283-MONOMER	GIX6-1283	Q04JP9	orf	
+GIX6-1965-MONOMER	GIX6-1965	Q04I35	choline binding protein PcpA	PcpA
+GIX6-451-MONOMER	GIX6-451	Q04LY9	type I restriction-modification system subunit S	
+GIX6-50-MONOMER	GIX6-50	Q04N26	competence factor transport protein ComB	ComB
+GIX6-1282-MONOMER	GIX6-1282	Q04JQ0	orf	
+GIX6-1964-MONOMER	GIX6-1964	Q04I36	50S ribosomal protein L33	RpmG
+GIX6-1281-MONOMER	GIX6-1281	Q04JQ1	orf	
+GIX6-450-MONOMER	GIX6-450	Q04LZ0	type I restriction-modification system subunit S	
+GIX6-49-MONOMER	GIX6-49	Q04N27	competence factor transporting ATP-binding protein/permease ComA	ComA
+GIX6-1280-MONOMER	GIX6-1280	Q04JQ2	Cof family protein	
+GIX6-1963-MONOMER	GIX6-1963	Q04I37	50S ribosomal protein L32	RpmF
+GIX6-1279-MONOMER	GIX6-1279	Q04JQ3	GDSL-like lipase/acylhydrolase	
+GIX6-449-MONOMER	GIX6-449	Q04LZ1	orf	
+GIX6-1278-MONOMER	GIX6-1278	Q04JQ4	C3-degrading proteinase	CppA
+GIX6-1962-MONOMER	GIX6-1962	Q04I38	orf	
+GIX6-448-MONOMER	GIX6-448	Q04LZ2	glutamine synthetase, type I	GlnA
+GIX6-47-MONOMER	GIX6-47	Q04N28	orf	
+GIX6-1277-MONOMER	GIX6-1277	Q04JQ5	orf	
+GIX6-1961-MONOMER	GIX6-1961	Q04I39	BglG family transcriptional regulator	
+GIX6-1276-MONOMER	GIX6-1276	Q04JQ6	orf	
+GIX6-447-MONOMER	GIX6-447	Q04LZ3	transcriptional regulator, MerR family protein	
+GIX6-1275-MONOMER	GIX6-1275	Q04JQ7	GntR family transcriptional regulator protein	
+GIX6-1960-MONOMER	GIX6-1960	Q04I40	PTS system transporter subunit IIB	
+GIX6-446-MONOMER	GIX6-446	Q04LZ4	orf	
+GIX6-1274-MONOMER	GIX6-1274	Q04JQ8	GMP synthase	GuaA
+GIX6-46-MONOMER	GIX6-46	Q04N29	bacteriocin BlpU	BlpU
+GIX6-1959-MONOMER	GIX6-1959	Q04I41	PTS system ascorbate-specific transporter subunit IIC	UlaA
+GIX6-445-MONOMER	GIX6-445	Q04LZ5	phosphoglycerate kinase	Pgk
+GIX6-1273-MONOMER	GIX6-1273	Q04JQ9	orf	
+GIX6-1958-MONOMER	GIX6-1958	Q04I42	transketolase	
+GIX6-1272-MONOMER	GIX6-1272	Q04JR0	orf	
+GIX6-444-MONOMER	GIX6-444	Q04LZ6	endo-beta-N-acetylglucosaminidase	
+GIX6-1957-MONOMER	GIX6-1957	Q04I43	transketolase, C-terminal subunit	
+GIX6-1271-MONOMER	GIX6-1271	Q04JR1	orf	
+GIX6-44-MONOMER	GIX6-44	Q04N30	acyl carrier protein	
+GIX6-1956-MONOMER	GIX6-1956	Q04I44	dihydroxy-acid dehydratase	IlvD
+GIX6-443-MONOMER	GIX6-443	Q04LZ7	Na/Pi-cotransporter II-like protein	
+GIX6-1270-MONOMER	GIX6-1270	Q04JR2	orf	
+GIX6-1955-MONOMER	GIX6-1955	Q04I45	orf	
+GIX6-1269-MONOMER	GIX6-1269	Q04JR3	orf	
+GIX6-1268-MONOMER	GIX6-1268	Q04JR4	orf	
+GIX6-43-MONOMER	GIX6-43	Q04N31	glycerol-3-phosphate acyltransferase PlsX	PlsX
+GIX6-1954-MONOMER	GIX6-1954	Q04I46	orf	
+GIX6-442-MONOMER	GIX6-442	Q04LZ8	CTP synthetase	PyrG
+GIX6-1267-MONOMER	GIX6-1267	Q04JR5	ABC transporter ATP-binding protein	
+GIX6-860-MONOMER	GIX6-860	Q04KV6	multi-drug resistance efflux pump	PmrA
+GIX6-1266-MONOMER	GIX6-1266	Q04JR6	orf	
+GIX6-1953-MONOMER	GIX6-1953	Q04I47	orf	
+GIX6-42-MONOMER	GIX6-42	Q04N32	DNA repair protein RecO	RecO
+GIX6-859-MONOMER	GIX6-859	Q04KV7	dephospho-CoA kinase	CoaE
+GIX6-441-MONOMER	GIX6-441	Q04LZ9	DNA-directed RNA polymerase subunit delta	
+GIX6-1265-MONOMER	GIX6-1265	Q04JR7	orf	
+GIX6-1952-MONOMER	GIX6-1952	Q04I48	transcriptional activator Rgg/GadR/MutR family protein	
+GIX6-1264-MONOMER	GIX6-1264	Q04JR8	ABC transporter ATP-binding protein	
+GIX6-858-MONOMER	GIX6-858	Q04KV8	formamidopyrimidine-DNA glycosylase	MutM
+GIX6-41-MONOMER	GIX6-41	Q04N33	aromatic amino acid aminotransferase	AraT
+GIX6-440-MONOMER	GIX6-440	Q04M00	orf	
+GIX6-1951-MONOMER	GIX6-1951	Q04I49	orf	
+GIX6-1263-MONOMER	GIX6-1263	Q04JR9	ABC transporter ATP-binding protein/permease	
+GIX6-857-MONOMER	GIX6-857	Q04KV9	GTP-binding protein Era	Era
+GIX6-1262-MONOMER	GIX6-1262	Q04JS0	AraC family transcriptional regulator	
+GIX6-1261-MONOMER	GIX6-1261	Q04JS1	orf	
+GIX6-40-MONOMER	GIX6-40	Q04N34	orf	
+GIX6-856-MONOMER	GIX6-856	Q04KW0	diacylglycerol kinase	DgkA
+GIX6-439-MONOMER	GIX6-439	Q04M01	orf	
+GIX6-1950-MONOMER	GIX6-1950	Q04I50	histidyl-tRNA synthetase	HisS
+GIX6-1260-MONOMER	GIX6-1260	Q04JS2	type II DNA modification methyltransferase	
+GIX6-1258-MONOMER	GIX6-1258	Q04JS3	peptidase, U32 family protein	
+GIX6-855-MONOMER	GIX6-855	Q04KW1	metalloprotease	
+GIX6-1257-MONOMER	GIX6-1257	Q04JS4	orf	
+GIX6-1949-MONOMER	GIX6-1949	Q04I51	orf	
+GIX6-438-MONOMER	GIX6-438	Q04M02	PAP2 family protein	
+GIX6-1256-MONOMER	GIX6-1256	Q04JS5	peptidase, U32 family protein	
+GIX6-1255-MONOMER	GIX6-1255	Q04JS6	ABC transporter ATP-binding protein	
+GIX6-39-MONOMER	GIX6-39	Q04N35	orf	
+GIX6-1948-MONOMER	GIX6-1948	Q04I52	orf	
+GIX6-854-MONOMER	GIX6-854	Q04KW2	adherence and virulence protein A	PavA
+GIX6-1254-MONOMER	GIX6-1254	Q04JS7	orf	
+GIX6-437-MONOMER	GIX6-437	Q04M03	orf	
+GIX6-1253-MONOMER	GIX6-1253	Q04JS8	transcriptional repressor	
+GIX6-1947-MONOMER	GIX6-1947	Q04I53	transcriptional regulator	
+GIX6-1252-MONOMER	GIX6-1252	Q04JS9	orf	
+GIX6-853-MONOMER	GIX6-853	Q04KW3	endo-beta-N-acetylglucosaminidase	LytB
+GIX6-1946-MONOMER	GIX6-1946	Q04I54	orf	
+GIX6-436-MONOMER	GIX6-436	Q04M04	TrmH family RNA methyltransferase	
+GIX6-1251-MONOMER	GIX6-1251	Q04JT0	nicotinate phosphoribosyltransferase	PncB
+GIX6-38-MONOMER	GIX6-38	Q04N36	DNA polymerase I	
+GIX6-1250-MONOMER	GIX6-1250	Q04JT1	NAD synthetase	NadE
+GIX6-1945-MONOMER	GIX6-1945	Q04I55	orf	
+GIX6-852-MONOMER	GIX6-852	Q04KW4	dihydroorotate dehydrogenase 1B	
+GIX6-435-MONOMER	GIX6-435	Q04M05	orf	
+GIX6-1944-MONOMER	GIX6-1944	Q04I56	orf	
+GIX6-1249-MONOMER	GIX6-1249	Q04JT2	acetyltransferase	
+GIX6-851-MONOMER	GIX6-851	Q04KW5	dihydroorotate dehydrogenase electron transfer subunit	PyrK
+GIX6-1248-MONOMER	GIX6-1248	Q04JT3	orf	
+GIX6-1943-MONOMER	GIX6-1943	Q04I57	orf	
+GIX6-434-MONOMER	GIX6-434	Q04M06	ABC transporter ATP-binding protein	
+GIX6-1247-MONOMER	GIX6-1247	Q04JT4	S-adenosylmethionine--tRNA ribosyltransferase-isomerase	QueA
+GIX6-37-MONOMER	GIX6-37	Q04N37	orf	
+GIX6-850-MONOMER	GIX6-850	Q04KW6	lactoylglutathione lyase	GloA
+GIX6-1942-MONOMER	GIX6-1942	Q04I58	orf	
+GIX6-1246-MONOMER	GIX6-1246	Q04JT5	glucosamine-6-phosphate isomerase	NagB
+GIX6-433-MONOMER	GIX6-433	Q04M07	orf	
+GIX6-1941-MONOMER	GIX6-1941	Q04I59	aspartyl-tRNA synthetase	AspS
+GIX6-1245-MONOMER	GIX6-1245	Q04JT6	30S ribosomal protein S21	RpsU
+GIX6-849-MONOMER	GIX6-849	Q04KW7	50S ribosomal protein L20	RplT
+GIX6-432-MONOMER	GIX6-432	Q04M08	orf	
+GIX6-1940-MONOMER	GIX6-1940	Q04I60	orf	
+GIX6-1244-MONOMER	GIX6-1244	Q04JT7	HPr kinase/phosphorylase	HprK
+GIX6-848-MONOMER	GIX6-848	Q04KW8	50S ribosomal protein L35	RpmI
+GIX6-431-MONOMER	GIX6-431	Q04M09	orf	
+GIX6-1243-MONOMER	GIX6-1243	Q04JT8	prolipoprotein diacylglyceryl transferase	Lgt
+GIX6-36-MONOMER	GIX6-36	Q04N38	orf	
+GIX6-1939-MONOMER	GIX6-1939	Q04I61	orf	
+GIX6-847-MONOMER	GIX6-847	Q04KW9	translation initiation factor IF-3	InfC
+GIX6-1242-MONOMER	GIX6-1242	Q04JT9	orf	
+GIX6-430-MONOMER	GIX6-430	Q04M10	potassium transporter peripheral membrane protein	TrkA
+GIX6-1938-MONOMER	GIX6-1938	Q04I62	maltose operon transcriptional repressor	MalR
+GIX6-1241-MONOMER	GIX6-1241	Q04JU0	orf	
+GIX6-846-MONOMER	GIX6-846	Q04KX0	orf	
+GIX6-1937-MONOMER	GIX6-1937	Q04I63	maltodextrose utilization protein MalA	MalA
+GIX6-429-MONOMER	GIX6-429	Q04M11	potassium uptake protein, Trk family protein	
+GIX6-1240-MONOMER	GIX6-1240	Q04JU1	coproporphyrinogen III oxidase	
+GIX6-845-MONOMER	GIX6-845	Q04KX1	ABC transporter ATP-binding protein	
+GIX6-1936-MONOMER	GIX6-1936	Q04I64	maltodextrin ABC transporter permease	MalD
+GIX6-428-MONOMER	GIX6-428	Q04M12	PTS system lactose-specific transporter subunit IIBC	
+GIX6-1239-MONOMER	GIX6-1239	Q04JU2	acyl-ACP thioesterase	
+GIX6-35-MONOMER	GIX6-35	Q04N39	orf	
+GIX6-1935-MONOMER	GIX6-1935	Q04I65	maltodextrin ABC transporter permease	MalC
+GIX6-427-MONOMER	GIX6-427	Q04M13	6-phospho-beta-galactosidase	
+GIX6-1238-MONOMER	GIX6-1238	Q04JU3	hydrolase	
+GIX6-844-MONOMER	GIX6-844	Q04KX2	competence protein CelB	CelB
+GIX6-1934-MONOMER	GIX6-1934	Q04I66	maltose/maltodextrin ABC transporter maltose/maltodextrin-binding protein	MalX
+GIX6-1237-MONOMER	GIX6-1237	Q04JU4	orf	
+GIX6-426-MONOMER	GIX6-426	Q04M14	PTS system lactose-specific transporter subunit IIA	
+GIX6-1236-MONOMER	GIX6-1236	Q04JU5	transcriptional regulator Spx	SpxA
+GIX6-843-MONOMER	GIX6-843	Q04KX3	competence protein CelA	CelA
+GIX6-1933-MONOMER	GIX6-1933	Q04I67	4-alpha-glucanotransferase	MalQ
+GIX6-425-MONOMER	GIX6-425	Q04M15	orf	
+GIX6-33-MONOMER	GIX6-33	Q04N40	ribose-phosphate pyrophosphokinase	PrsA
+GIX6-1235-MONOMER	GIX6-1235	Q04JU6	orf	
+GIX6-842-MONOMER	GIX6-842	Q04KX4	GNAT family acetyltransferase	
+GIX6-1932-MONOMER	GIX6-1932	Q04I68	maltodextrin phosphorylase	MalP
+GIX6-1234-MONOMER	GIX6-1234	Q04JU7	inositol monophosphatase family protein	
+GIX6-424-MONOMER	GIX6-424	Q04M16	PTS system cellobiose-specific transporter subunit IIC	
+GIX6-1931-MONOMER	GIX6-1931	Q04I69	orf	
+GIX6-840-MONOMER	GIX6-840	Q04KX5	orf	
+GIX6-1233-MONOMER	GIX6-1233	Q04JU8	NOL1/NOP2/sun family protein	
+GIX6-423-MONOMER	GIX6-423	Q04M17	ROK family protein	
+GIX6-1232-MONOMER	GIX6-1232	Q04JU9	phosphate ABC transporter substrate-binding protein	
+GIX6-839-MONOMER	GIX6-839	Q04KX6	GNAT family acetyltransferase	
+GIX6-1930-MONOMER	GIX6-1930	Q04I70	orf	
+GIX6-32-MONOMER	GIX6-32	Q04N41	orf	
+GIX6-1231-MONOMER	GIX6-1231	Q04JV0	phosphate ABC transporter permease	
+GIX6-1929-MONOMER	GIX6-1929	Q04I71	rRNA (guanine-N1-)-methyltransferase	RrmA
+GIX6-838-MONOMER	GIX6-838	Q04KX7	PhoH family protein	
+GIX6-422-MONOMER	GIX6-422	Q04M18	orf	
+GIX6-1230-MONOMER	GIX6-1230	Q04JV1	phosphate ABC transporter permease	
+GIX6-1928-MONOMER	GIX6-1928	Q04I72	orf	
+GIX6-837-MONOMER	GIX6-837	Q04KX8	orf	
+GIX6-1229-MONOMER	GIX6-1229	Q04JV2	phosphate transporter ATP-binding protein	
+GIX6-421-MONOMER	GIX6-421	Q04M19	orf	
+GIX6-1927-MONOMER	GIX6-1927	Q04I73	cation-transporting ATPase, E1-E2 family protein	
+GIX6-31-MONOMER	GIX6-31	Q04N42	orf	
+GIX6-1228-MONOMER	GIX6-1228	Q04JV3	phosphate transporter ATP-binding protein	
+GIX6-836-MONOMER	GIX6-836	Q04KX9	orf	
+GIX6-1926-MONOMER	GIX6-1926	Q04I74	tyrosyl-tRNA synthetase	TyrS
+GIX6-1227-MONOMER	GIX6-1227	Q04JV4	phosphate transport system regulatory protein PhoU	
+GIX6-835-MONOMER	GIX6-835	Q04KY0	ribosome recycling factor	Frr
+GIX6-420-MONOMER	GIX6-420	Q04M20	formate acetyltransferase	PflB
+GIX6-1925-MONOMER	GIX6-1925	Q04I75	penicillin-binding protein 1B	
+GIX6-1226-MONOMER	GIX6-1226	Q04JV5	amino acid ABC transporter amino acid-binding protein	
+GIX6-834-MONOMER	GIX6-834	Q04KY1	uridylate kinase	PyrH
+GIX6-1924-MONOMER	GIX6-1924	Q04I76	orf	
+GIX6-1225-MONOMER	GIX6-1225	Q04JV6	orf	
+GIX6-419-MONOMER	GIX6-419	Q04M21	DNA polymerase IV	DinP
+GIX6-833-MONOMER	GIX6-833	Q04KY2	tRNA (uracil-5-)-methyltransferase Gid	Gid
+GIX6-30-MONOMER	GIX6-30	Q04N43	orf	
+GIX6-1923-MONOMER	GIX6-1923	Q04I77	2,3,4,5-tetrahydropyridine-2,6-carboxylate N-succinyltransferase	
+GIX6-1224-MONOMER	GIX6-1224	Q04JV7	alpha-acetolactate decarboxylase	BudA
+GIX6-832-MONOMER	GIX6-832	Q04KY3	orf	
+GIX6-1922-MONOMER	GIX6-1922	Q04I78	peptidase, M20/M25/M40 family protein	
+GIX6-1223-MONOMER	GIX6-1223	Q04JV8	orf	
+GIX6-418-MONOMER	GIX6-418	Q04M22	orf	
+GIX6-831-MONOMER	GIX6-831	Q04KY4	orf	
+GIX6-1921-MONOMER	GIX6-1921	Q04I79	5-formyltetrahydrofolate cyclo-ligase	
+GIX6-1222-MONOMER	GIX6-1222	Q04JV9	UDP-N-acetylenolpyruvoylglucosamine reductase	MurB
+GIX6-417-MONOMER	GIX6-417	Q04M23	undecaprenyl pyrophosphate phosphatase	BacA
+GIX6-830-MONOMER	GIX6-830	Q04KY5	orf	
+GIX6-1920-MONOMER	GIX6-1920	Q04I80	orf	
+GIX6-1221-MONOMER	GIX6-1221	Q04JW0	spermidine/putrescine ABC transporter ATP-binding protein	PotA
+GIX6-29-MONOMER	GIX6-29	Q04N44	DNA repair protein RadA	RadA
+GIX6-1919-MONOMER	GIX6-1919	Q04I81	UTP-glucose-1-phosphate uridylyltransferase	GalU
+GIX6-1220-MONOMER	GIX6-1220	Q04JW1	spermidine/putrescine ABC transporter permease	PotH
+GIX6-829-MONOMER	GIX6-829	Q04KY6	orf	
+GIX6-414-MONOMER	GIX6-414	Q04M24	orf	
+GIX6-1918-MONOMER	GIX6-1918	Q04I82	NAD(P)H-dependent glycerol-3-phosphate dehydrogenase	GpsA
+GIX6-1219-MONOMER	GIX6-1219	Q04JW2	spermidine/putrescine ABC transporter permease	PotC
+GIX6-828-MONOMER	GIX6-828	Q04KY7	orf	
+GIX6-1917-MONOMER	GIX6-1917	Q04I83	orf	
+GIX6-1218-MONOMER	GIX6-1218	Q04JW3	spermidine/putrescine ABC transporter spermidine/putrescine-binding protein	PotD
+GIX6-413-MONOMER	GIX6-413	Q04M25	orf	
+GIX6-28-MONOMER	GIX6-28	Q04N45	orf	
+GIX6-827-MONOMER	GIX6-827	Q04KY8	DNA replication intiation control protein YabA	
+GIX6-1916-MONOMER	GIX6-1916	Q04I84	transcriptional regulator	
+GIX6-1217-MONOMER	GIX6-1217	Q04JW4	orf	
+GIX6-826-MONOMER	GIX6-826	Q04KY9	DNA polymerase III subunit delta	HolB
+GIX6-1914-MONOMER	GIX6-1914	Q04I85	phosphate transport system regulatory protein PhoU	PhoU
+GIX6-412-MONOMER	GIX6-412	Q04M26	amino acid ABC transporter amino acid-binding protein/permease	
+GIX6-1216-MONOMER	GIX6-1216	Q04JW5	alanyl-tRNA synthetase	AlaS
+GIX6-1828-MONOMER	GIX6-1828	Q04IF3	orf	
+GIX6-1215-MONOMER	GIX6-1215	Q04JW6	alpha-amylase	Amy
+GIX6-1913-MONOMER	GIX6-1913	Q04I86	phosphate transporter ATP-binding protein	PstB
+GIX6-825-MONOMER	GIX6-825	Q04KZ0	thymidylate kinase	Tmk
+GIX6-355-MONOMER	GIX6-355	Q04M81	orf	
+GIX6-763-MONOMER	GIX6-763	Q04L48	orf	SufD
+GIX6-1103-MONOMER	GIX6-1103	Q04K74	Cof family protein	
+GIX6-1214-MONOMER	GIX6-1214	Q04JW7	ABC transporter ATP-binding protein	
+GIX6-27-MONOMER	GIX6-27	Q04N46	deoxyuridine 5'-triphosphate nucleotidohydrolase	Dut
+GIX6-1912-MONOMER	GIX6-1912	Q04I87	phosphate ABC transporter permease	PstA
+GIX6-411-MONOMER	GIX6-411	Q04M27	amino acid ABC transporter ATP-binding protein	
+GIX6-1213-MONOMER	GIX6-1213	Q04JW8	orf	
+GIX6-1827-MONOMER	GIX6-1827	Q04IF4	orf	
+GIX6-824-MONOMER	GIX6-824	Q04KZ1	pyrroline-5-carboxylate reductase	ProC
+GIX6-1102-MONOMER	GIX6-1102	Q04K75	Cof family protein	
+GIX6-762-MONOMER	GIX6-762	Q04L49	FeS assembly ATPase SufC	SufC
+GIX6-353-MONOMER	GIX6-353	Q04M82	orf	
+GIX6-1212-MONOMER	GIX6-1212	Q04JW9	orf	
+GIX6-1911-MONOMER	GIX6-1911	Q04I88	phosphate ABC transporter permease	PstC
+GIX6-1826-MONOMER	GIX6-1826	Q04IF5	nicotinate-nucleotide pyrophosphorylase	NadC
+GIX6-1101-MONOMER	GIX6-1101	Q04K76	signal recognition particle-docking protein FtsY	FtsY
+GIX6-1211-MONOMER	GIX6-1211	Q04JX0	3-dehydroquinate dehydratase	AroD
+GIX6-823-MONOMER	GIX6-823	Q04KZ2	gamma-glutamyl phosphate reductase	ProA
+GIX6-761-MONOMER	GIX6-761	Q04L50	orf	
+GIX6-1910-MONOMER	GIX6-1910	Q04I89	phosphate ABC transporter substrate-binding protein	PstS
+GIX6-410-MONOMER	GIX6-410	Q04M28	orf	
+GIX6-352-MONOMER	GIX6-352	Q04M83	DNA-binding response regulator	
+GIX6-1210-MONOMER	GIX6-1210	Q04JX1	shikimate 5-dehydrogenase	AroE
+GIX6-1100-MONOMER	GIX6-1100	Q04K77	glucose-6-phosphate 1-dehydrogenase	Zwf
+GIX6-25-MONOMER	GIX6-25	Q04N47	cytidine/deoxycytidylate deaminase family protein	
+GIX6-1824-MONOMER	GIX6-1824	Q04IF6	orf	
+GIX6-1209-MONOMER	GIX6-1209	Q04JX2	3-dehydroquinate synthase	AroB
+GIX6-822-MONOMER	GIX6-822	Q04KZ3	gamma-glutamyl kinase	ProB
+GIX6-760-MONOMER	GIX6-760	Q04L51	DNA polymerase III subunits gamma and tau	DnaX
+GIX6-1909-MONOMER	GIX6-1909	Q04I90	sensor histidine kinase PnpS	PnpS
+GIX6-1099-MONOMER	GIX6-1099	Q04K78	amino acid ABC transporter ATP-binding protein	
+GIX6-1208-MONOMER	GIX6-1208	Q04JX3	chorismate synthase	AroC
+GIX6-351-MONOMER	GIX6-351	Q04M84	sensor histidine kinase	
+GIX6-409-MONOMER	GIX6-409	Q04M29	threonine dehydratase	IlvA
+GIX6-1207-MONOMER	GIX6-1207	Q04JX4	prephenate dehydrogenase	TyrA
+GIX6-1823-MONOMER	GIX6-1823	Q04IF7	glyceraldehyde-3-phosphate dehydrogenase	Gap
+GIX6-1098-MONOMER	GIX6-1098	Q04K79	amino acid ABC transporter amino acid-binding protein/permease	
+GIX6-821-MONOMER	GIX6-821	Q04KZ4	choline binding protein E	CbpE
+GIX6-759-MONOMER	GIX6-759	Q04L52	orf	
+GIX6-1908-MONOMER	GIX6-1908	Q04I91	response regulator	
+GIX6-1206-MONOMER	GIX6-1206	Q04JX5	orf	
+GIX6-350-MONOMER	GIX6-350	Q04M85	orf	
+GIX6-1097-MONOMER	GIX6-1097	Q04K80	orf	
+GIX6-1205-MONOMER	GIX6-1205	Q04JX6	3-phosphoshikimate 1-carboxyvinyltransferase	AroA
+GIX6-24-MONOMER	GIX6-24	Q04N48	adenylosuccinate synthetase	PurA
+GIX6-820-MONOMER	GIX6-820	Q04KZ5	ribosomal large subunit pseudouridine synthase D	RluD
+GIX6-757-MONOMER	GIX6-757	Q04L53	30S ribosomal protein S1	RpsA
+GIX6-1907-MONOMER	GIX6-1907	Q04I92	orf	
+GIX6-1822-MONOMER	GIX6-1822	Q04IF8	ribosomal large subunit pseudouridine synthase, RluD subfamily protein	
+GIX6-349-MONOMER	GIX6-349	Q04M86	isopentenyl pyrophosphate isomerase	Fni
+GIX6-408-MONOMER	GIX6-408	Q04M30	orf	
+GIX6-1204-MONOMER	GIX6-1204	Q04JX7	shikimate kinase	AroK
+GIX6-1096-MONOMER	GIX6-1096	Q04K81	excinuclease ABC subunit B	UvrB
+GIX6-1203-MONOMER	GIX6-1203	Q04JX8	prephenate dehydratase	
+GIX6-1906-MONOMER	GIX6-1906	Q04I93	orf	
+GIX6-754-MONOMER	GIX6-754	Q04L54	orf	
+GIX6-819-MONOMER	GIX6-819	Q04KZ6	lipoprotein signal peptidase	LspA
+GIX6-1095-MONOMER	GIX6-1095	Q04K82	orf	
+GIX6-1821-MONOMER	GIX6-1821	Q04IF9	penicillin-binding protein 2A	
+GIX6-348-MONOMER	GIX6-348	Q04M87	phosphomevalonate kinase	
+GIX6-407-MONOMER	GIX6-407	Q04M31	orf	
+GIX6-1202-MONOMER	GIX6-1202	Q04JX9	Psr protein	Psr
+GIX6-753-MONOMER	GIX6-753	Q04L55	pyrrolidone-carboxylate peptidase	Pcp
+GIX6-1201-MONOMER	GIX6-1201	Q04JY0	phosphotransferase LicD3	
+GIX6-1094-MONOMER	GIX6-1094	Q04K83	GNAT family acetyltransferase	
+GIX6-1905-MONOMER	GIX6-1905	Q04I94	arginyl-tRNA synthetase	ArgS
+GIX6-818-MONOMER	GIX6-818	Q04KZ7	transcriptional regulator, LysR family protein	
+GIX6-1820-MONOMER	GIX6-1820	Q04IG0	preprotein translocase subunit SecE	SecE
+GIX6-23-MONOMER	GIX6-23	Q04N49	orf	
+GIX6-406-MONOMER	GIX6-406	Q04M32	ketol-acid reductoisomerase	IlvC
+GIX6-1200-MONOMER	GIX6-1200	Q04JY1	glycoside hydrolase family protein	
+GIX6-347-MONOMER	GIX6-347	Q04M88	diphosphomevalonate decarboxylase	MvaD
+GIX6-752-MONOMER	GIX6-752	Q04L56	orf	
+GIX6-1904-MONOMER	GIX6-1904	Q04I95	arginine repressor	ArgR
+GIX6-1199-MONOMER	GIX6-1199	Q04JY2	glycosyl transferase family protein	
+GIX6-1093-MONOMER	GIX6-1093	Q04K84	MutT/nudix family protein	
+GIX6-817-MONOMER	GIX6-817	Q04KZ8	orf	
+GIX6-405-MONOMER	GIX6-405	Q04M33	acetolactate synthase 3 regulatory subunit	IlvH
+GIX6-1819-MONOMER	GIX6-1819	Q04IG1	transcription antitermination protein NusG	NusG
+GIX6-346-MONOMER	GIX6-346	Q04M89	mevalonate kinase	Mvk
+GIX6-1198-MONOMER	GIX6-1198	Q04JY3	orf	
+GIX6-1903-MONOMER	GIX6-1903	Q04I96	DNA mismatch repair protein MutS	MutS
+GIX6-751-MONOMER	GIX6-751	Q04L57	orf	
+GIX6-1818-MONOMER	GIX6-1818	Q04IG2	transcriptional regulator ComX2	
+GIX6-1197-MONOMER	GIX6-1197	Q04JY4	orf	
+GIX6-404-MONOMER	GIX6-404	Q04M34	acetolactate synthase catalytic subunit	IlvB
+GIX6-1092-MONOMER	GIX6-1092	Q04K85	transcriptional regulator, biotin repressor family protein	
+GIX6-816-MONOMER	GIX6-816	Q04KZ9	Cof family protein	
+GIX6-345-MONOMER	GIX6-345	Q04M90	choline binding protein C	CbpC
+GIX6-1902-MONOMER	GIX6-1902	Q04I97	ABC transporter ATP-binding protein/permease	
+GIX6-1196-MONOMER	GIX6-1196	Q04JY5	adaptor protein	MecA
+GIX6-750-MONOMER	GIX6-750	Q04L58	orf	
+GIX6-1803-MONOMER	GIX6-1803	Q04IG3	orf	
+GIX6-1091-MONOMER	GIX6-1091	Q04K86	orf	
+GIX6-1195-MONOMER	GIX6-1195	Q04JY6	homoserine dehydrogenase	Hom
+GIX6-403-MONOMER	GIX6-403	Q04M35	orf	
+GIX6-815-MONOMER	GIX6-815	Q04L00	carbon-nitrogen hydrolase	
+GIX6-344-MONOMER	GIX6-344	Q04M91	DNA-binding response regulator	
+GIX6-1901-MONOMER	GIX6-1901	Q04I98	transposase	
+GIX6-1194-MONOMER	GIX6-1194	Q04JY7	homoserine kinase	ThrB
+GIX6-1802-MONOMER	GIX6-1802	Q04IG4	orf	
+GIX6-1090-MONOMER	GIX6-1090	Q04K87	orf	
+GIX6-749-MONOMER	GIX6-749	Q04L59	branched-chain amino acid aminotransferase	IlvE
+GIX6-402-MONOMER	GIX6-402	Q04M36	orf	
+GIX6-1193-MONOMER	GIX6-1193	Q04JY8	bifunctional methionine sulfoxide reductase A/B	
+GIX6-1089-MONOMER	GIX6-1089	Q04K88	phosphopantothenoylcysteine decarboxylase	CoaC
+GIX6-814-MONOMER	GIX6-814	Q04L01	agmatine deiminase	
+GIX6-1900-MONOMER	GIX6-1900	Q04I99	ABC transporter ATP-binding protein/permease	
+GIX6-343-MONOMER	GIX6-343	Q04M92	6-phosphogluconate dehydrogenase	Gnd
+GIX6-1801-MONOMER	GIX6-1801	Q04IG5	ABC transporter ATP-binding protein	
+GIX6-14-MONOMER	GIX6-14	Q04IG2	transcriptional regulator ComX1	
+GIX6-1192-MONOMER	GIX6-1192	Q04JY9	ABC transporter ATP-binding protein/permease	
+GIX6-748-MONOMER	GIX6-748	Q04L60	DNA topoisomerase IV subunit A	ParC
+GIX6-1088-MONOMER	GIX6-1088	Q04K89	phosphopantothenate--cysteine ligase	CoaB
+GIX6-401-MONOMER	GIX6-401	Q04M37	50S ribosomal protein L28	RpmB
+GIX6-1191-MONOMER	GIX6-1191	Q04JZ0	ABC transporter ATP-binding protein/permease	
+GIX6-1899-MONOMER	GIX6-1899	Q04IA0	glutamine amidotransferase, class 1	
+GIX6-1800-MONOMER	GIX6-1800	Q04IG6	orf	
+GIX6-813-MONOMER	GIX6-813	Q04L02	carboxynorspermidine decarboxylase	NspC
+GIX6-342-MONOMER	GIX6-342	Q04M93	orf	
+GIX6-1190-MONOMER	GIX6-1190	Q04JZ1	chlorohydrolase	
+GIX6-1087-MONOMER	GIX6-1087	Q04K90	formate--tetrahydrofolate ligase	Fhs
+GIX6-400-MONOMER	GIX6-400	Q04M38	glycosyl transferase family protein 8	
+GIX6-747-MONOMER	GIX6-747	Q04L61	orf	
+GIX6-1799-MONOMER	GIX6-1799	Q04IG7	sensor histidine kinase	
+GIX6-1189-MONOMER	GIX6-1189	Q04JZ2	orf	
+GIX6-812-MONOMER	GIX6-812	Q04L03	orf	
+GIX6-1898-MONOMER	GIX6-1898	Q04IA1	orf	
+GIX6-1086-MONOMER	GIX6-1086	Q04K91	A/G-specific adenine glycosylase	MutY
+GIX6-1188-MONOMER	GIX6-1188	Q04JZ3	50S ribosomal protein L10	RplJ
+GIX6-341-MONOMER	GIX6-341	Q04M94	orf	
+GIX6-1798-MONOMER	GIX6-1798	Q04IG8	DNA-binding response regulator	
+GIX6-13-MONOMER	GIX6-13	Q04N51	cell division protein FtsH	FtsH
+GIX6-746-MONOMER	GIX6-746	Q04L62	DNA topoisomerase IV subunit B	ParE
+GIX6-399-MONOMER	GIX6-399	Q04M39	peptide chain release factor 3	PrfC
+GIX6-1085-MONOMER	GIX6-1085	Q04K92	DNA-binding response regulator	
+GIX6-1187-MONOMER	GIX6-1187	Q04JZ4	50S ribosomal protein L7/L12	RplL
+GIX6-1897-MONOMER	GIX6-1897	Q04IA2	glucose-6-phosphate isomerase	Pgi
+GIX6-811-MONOMER	GIX6-811	Q04L04	spermidine synthase	SpeE
+GIX6-1797-MONOMER	GIX6-1797	Q04IG9	catabolite control protein A	CcpA
+GIX6-1186-MONOMER	GIX6-1186	Q04JZ5	orf	
+GIX6-1084-MONOMER	GIX6-1084	Q04K93	sensory box sensor histidine kinase	
+GIX6-339-MONOMER	GIX6-339	Q04M95	orf	
+GIX6-745-MONOMER	GIX6-745	Q04L63	glycerol-3-phosphate acyltransferase PlsY	
+GIX6-1896-MONOMER	GIX6-1896	Q04IA3	glutamyl-tRNA synthetase	GltX
+GIX6-398-MONOMER	GIX6-398	Q04M40	aspartyl/glutamyl-tRNA amidotransferase subunit C	GatC
+GIX6-1185-MONOMER	GIX6-1185	Q04JZ6	orf	
+GIX6-1796-MONOMER	GIX6-1796	Q04IH0	orf	
+GIX6-1083-MONOMER	GIX6-1083	Q04K94	vicX protein	VicX
+GIX6-809-MONOMER	GIX6-809	Q04L05	lysine decarboxylase	Cad
+GIX6-1184-MONOMER	GIX6-1184	Q04JZ7	orf	
+GIX6-1895-MONOMER	GIX6-1895	Q04IA4	cytidine/deoxycytidylate deaminase family protein	
+GIX6-742-MONOMER	GIX6-742	Q04L64	sugar ABC transporter permease	
+GIX6-338-MONOMER	GIX6-338	Q04M96	orf	
+GIX6-1082-MONOMER	GIX6-1082	Q04K95	orf	
+GIX6-12-MONOMER	GIX6-12	Q04N52	hypoxanthine-guanine phosphoribosyltransferase	Hpt
+GIX6-1795-MONOMER	GIX6-1795	Q04IH1	L-asparaginase	
+GIX6-1183-MONOMER	GIX6-1183	Q04JZ8	orf	
+GIX6-397-MONOMER	GIX6-397	Q04M41	aspartyl/glutamyl-tRNA amidotransferase subunit A	GatA
+GIX6-1878-MONOMER	GIX6-1878	Q04IA5	orf	
+GIX6-1081-MONOMER	GIX6-1081	Q04K96	orf	
+GIX6-808-MONOMER	GIX6-808	Q04L06	orf	
+GIX6-1182-MONOMER	GIX6-1182	Q04JZ9	orf	
+GIX6-1794-MONOMER	GIX6-1794	Q04IH2	Cof family protein	
+GIX6-741-MONOMER	GIX6-741	Q04L65	sugar ABC transporter permease	
+GIX6-337-MONOMER	GIX6-337	Q04M97	Holliday junction-specific endonuclease	RecU
+GIX6-1181-MONOMER	GIX6-1181	Q04K00	orf	
+GIX6-1080-MONOMER	GIX6-1080	Q04K97	type II restriction endonuclease	
+GIX6-396-MONOMER	GIX6-396	Q04M42	aspartyl/glutamyl-tRNA amidotransferase subunit B	GatB
+GIX6-1877-MONOMER	GIX6-1877	Q04IA6	threonine synthase	ThrC
+GIX6-807-MONOMER	GIX6-807	Q04L07	IS1239, transposase	
+GIX6-1793-MONOMER	GIX6-1793	Q04IH3	universal stress protein family protein	
+GIX6-1180-MONOMER	GIX6-1180	Q04K01	CAAX amino terminal protease family protein	
+GIX6-336-MONOMER	GIX6-336	Q04M98	penicillin-binding protein 1A	
+GIX6-1179-MONOMER	GIX6-1179	Q04K02	orf	
+GIX6-1079-MONOMER	GIX6-1079	Q04K98	type II restriction endonuclease	
+GIX6-11-MONOMER	GIX6-11	Q04N53	tRNA(Ile)-lysidine synthetase	TilS
+GIX6-1792-MONOMER	GIX6-1792	Q04IH4	orf	
+GIX6-740-MONOMER	GIX6-740	Q04L66	sugar ABC transporter ATP-binding protein	
+GIX6-1876-MONOMER	GIX6-1876	Q04IA7	MATE efflux family protein	
+GIX6-806-MONOMER	GIX6-806	Q04L08	orf	
+GIX6-1178-MONOMER	GIX6-1178	Q04K03	prolyl oligopeptidase family protein	
+GIX6-1078-MONOMER	GIX6-1078	Q04K99	L-lactate dehydrogenase	Ldh
+GIX6-335-MONOMER	GIX6-335	Q04M99	cell wall surface anchor family protein	
+GIX6-395-MONOMER	GIX6-395	Q04M43	elongation factor P	Efp
+GIX6-1791-MONOMER	GIX6-1791	Q04IH5	aminotransferase AlaT	
+GIX6-1177-MONOMER	GIX6-1177	Q04K04	drug efflux ABC transporter ATP-binding protein/permease	
+GIX6-739-MONOMER	GIX6-739	Q04L67	membrane lipoprotein TmpC	
+GIX6-1875-MONOMER	GIX6-1875	Q04IA8	hydrolase	
+GIX6-1176-MONOMER	GIX6-1176	Q04K05	ABC transporter ATP-binding protein	
+GIX6-805-MONOMER	GIX6-805	Q04L09	transporter permease	
+GIX6-1077-MONOMER	GIX6-1077	Q04KA0	DNA gyrase subunit A	GyrA
+GIX6-334-MONOMER	GIX6-334	Q04MA0	oligopeptide ABC transporter oligopeptide-binding protein AliA	AliA
+GIX6-1790-MONOMER	GIX6-1790	Q04IH6	50S ribosomal protein L34	RpmH
+GIX6-1874-MONOMER	GIX6-1874	Q04IA9	LysM domain-containing protein	
+GIX6-1175-MONOMER	GIX6-1175	Q04K06	orf	
+GIX6-394-MONOMER	GIX6-394	Q04M44	orf	
+GIX6-738-MONOMER	GIX6-738	Q04L68	cytidine deaminase	
+GIX6-10-MONOMER	GIX6-10	Q04N54	orf	
+GIX6-1789-MONOMER	GIX6-1789	Q04IH7	cell wall surface anchor family protein	
+GIX6-1174-MONOMER	GIX6-1174	Q04K07	orf	
+GIX6-1076-MONOMER	GIX6-1076	Q04KA1	sortase	SrtA
+GIX6-804-MONOMER	GIX6-804	Q04L10	ABC transporter ATP-binding protein	
+GIX6-333-MONOMER	GIX6-333	Q04MA1	orf	
+GIX6-1873-MONOMER	GIX6-1873	Q04IB0	orf	
+GIX6-1172-MONOMER	GIX6-1172	Q04K08	N-acetylmannosamine-6-phosphate 2-epimerase	
+GIX6-1788-MONOMER	GIX6-1788	Q04IH8	TatD family hydrolase	
+GIX6-1075-MONOMER	GIX6-1075	Q04KA2	transporter FNT family protein	
+GIX6-393-MONOMER	GIX6-393	Q04M45	transcription antitermination protein NusB	NusB
+GIX6-1171-MONOMER	GIX6-1171	Q04K09	orf	
+GIX6-803-MONOMER	GIX6-803	Q04L11	orf	
+GIX6-1871-MONOMER	GIX6-1871	Q04IB1	orf	
+GIX6-737-MONOMER	GIX6-737	Q04L69	deoxyribose-phosphate aldolase	DeoC
+GIX6-331-MONOMER	GIX6-331	Q04MA2	dTDP-4-dehydrorhamnose reductase	RfbD
+GIX6-1787-MONOMER	GIX6-1787	Q04IH9	primase-like protein	
+GIX6-1170-MONOMER	GIX6-1170	Q04K10	oligopeptide ABC transporteroligopeptide-binding protein	
+GIX6-1074-MONOMER	GIX6-1074	Q04KA3	orf	
+GIX6-392-MONOMER	GIX6-392	Q04M46	orf	
+GIX6-1169-MONOMER	GIX6-1169	Q04K11	oligopeptide ABC transporter permease	
+GIX6-9-MONOMER	GIX6-9	Q04N55	orf	
+GIX6-1786-MONOMER	GIX6-1786	Q04II0	transcriptional regulator PlcR	
+GIX6-1073-MONOMER	GIX6-1073	Q04KA4	O-acetylhomoserine aminocarboxypropyltransferase/cysteine synthase	
+GIX6-1869-MONOMER	GIX6-1869	Q04IB2	orf	
+GIX6-802-MONOMER	GIX6-802	Q04L12	S1 RNA-binding domain-containing protein	
+GIX6-330-MONOMER	GIX6-330	Q04MA3	dTDP-glucose 4,6-dehydratase	RfbB
+GIX6-391-MONOMER	GIX6-391	Q04M47	orf	
+GIX6-1168-MONOMER	GIX6-1168	Q04K12	oligopeptide ABC transporter pemease protein	
+GIX6-736-MONOMER	GIX6-736	Q04L70	pyrimidine-nucleoside phosphorylase	Pdp
+GIX6-1785-MONOMER	GIX6-1785	Q04II1	immunity protein	
+GIX6-1072-MONOMER	GIX6-1072	Q04KA5	orf	
+GIX6-1868-MONOMER	GIX6-1868	Q04IB3	queuine tRNA-ribosyltransferase	Tgt
+GIX6-1167-MONOMER	GIX6-1167	Q04K13	ABC transporter ATP-binding protein	
+GIX6-329-MONOMER	GIX6-329	Q9ZIH5	dTDP-4-dehydrorhamnose 3,5-epimerase	RfbC
+GIX6-801-MONOMER	GIX6-801	Q04L13	orf	
+GIX6-1071-MONOMER	GIX6-1071	Q04KA6	orf	
+GIX6-390-MONOMER	GIX6-390	Q04M48	acetyl-CoA carboxylase subunit alpha	AccA
+GIX6-1166-MONOMER	GIX6-1166	Q04K14	orf	
+GIX6-1784-MONOMER	GIX6-1784	Q04II2	ABC transporter ATP-binding protein	
+GIX6-735-MONOMER	GIX6-735	Q04L71	methyltransferase small subunit	
+GIX6-1867-MONOMER	GIX6-1867	Q04IB4	orf	
+GIX6-8-MONOMER	GIX6-8	Q04N56	orf	
+GIX6-1165-MONOMER	GIX6-1165	Q04K15	orf	
+GIX6-328-MONOMER	GIX6-328	Q9ZIH6	glucose-1-phosphate thymidylyltransferase	
+GIX6-1070-MONOMER	GIX6-1070	Q04KA7	tRNA pseudouridine synthase B	TruB
+GIX6-1866-MONOMER	GIX6-1866	Q04IB5	N-acetylglucosamine-6-phosphate deacetylase	NagA
+GIX6-1164-MONOMER	GIX6-1164	Q04K16	cytidine deaminase	
+GIX6-389-MONOMER	GIX6-389	Q04M49	acetyl-CoA carboxylase subunit beta	AccD
+GIX6-1783-MONOMER	GIX6-1783	Q04II3	orf	
+GIX6-800-MONOMER	GIX6-800	Q04L14	capsular polysaccharide biosynthesis protein	
+GIX6-734-MONOMER	GIX6-734	Q04L72	orf	
+GIX6-1069-MONOMER	GIX6-1069	Q04KA8	orf	
+GIX6-1163-MONOMER	GIX6-1163	Q04K17	N-acetylneuraminate lyase	
+GIX6-1865-MONOMER	GIX6-1865	Q04IB6	zinc-containing alcohol dehydrogenase	
+GIX6-327-MONOMER	GIX6-327	Q9ZIH7	UDP-galactopyranose mutase	
+GIX6-388-MONOMER	GIX6-388	Q04M50	acetyl-CoA carboxylase biotin carboxylase subunit	AccC
+GIX6-1162-MONOMER	GIX6-1162	Q04K18	orf	
+GIX6-1782-MONOMER	GIX6-1782	Q04II4	dimethyladenosine transferase	KsgA
+GIX6-799-MONOMER	GIX6-799	Q04L15	orf	
+GIX6-1068-MONOMER	GIX6-1068	Q04KA9	uridine kinase	Udk
+GIX6-1864-MONOMER	GIX6-1864	Q04IB7	orf	
+GIX6-7-MONOMER	GIX6-7	Q04N57	S4 domain-containing protein	
+GIX6-1161-MONOMER	GIX6-1161	Q04K19	orf	
+GIX6-387-MONOMER	GIX6-387	Q04M51	(3R)-hydroxymyristoyl-ACP dehydratase	FabZ
+GIX6-733-MONOMER	GIX6-733	Q04L73	pantothenate kinase	CoaA
+GIX6-1781-MONOMER	GIX6-1781	Q04II5	ribosome-associated GTPase	RsgA
+GIX6-1160-MONOMER	GIX6-1160	Q04K20	ABC transporter ATP-binding protein	
+GIX6-1863-MONOMER	GIX6-1863	Q04IB8	competence protein CglA	CglA
+GIX6-1067-MONOMER	GIX6-1067	Q04KB0	exodeoxyribonuclease VII large subunit	XseA
+GIX6-326-MONOMER	GIX6-326	Q9ZIH8	UDP-glucose 6-dehydrogenase	
+GIX6-1159-MONOMER	GIX6-1159	Q04K21	orf	
+GIX6-798-MONOMER	GIX6-798	Q04L16	orf	
+GIX6-1780-MONOMER	GIX6-1780	Q04II6	ribulose-phosphate 3-epimerase	Rpe
+GIX6-732-MONOMER	GIX6-732	Q04L74	30S ribosomal protein S20	RpsT
+GIX6-386-MONOMER	GIX6-386	Q04M52	acetyl-CoA carboxylase biotin carboxyl carrier protein subunit	AccB
+GIX6-1862-MONOMER	GIX6-1862	Q04IB9	competence protein CglB	CglB
+GIX6-1158-MONOMER	GIX6-1158	Q04K22	glutamate dehydrogenase	GdhA
+GIX6-1066-MONOMER	GIX6-1066	Q04KB1	exodeoxyribonuclease VII small subunit	XseB
+GIX6-1157-MONOMER	GIX6-1157	Q04K23	orf	
+GIX6-1861-MONOMER	GIX6-1861	Q04IC0	competence protein CglC	CglC
+GIX6-6-MONOMER	GIX6-6	Q04N58	transcription-repair coupling factor	Mfd
+GIX6-1779-MONOMER	GIX6-1779	Q04II7	orf	
+GIX6-731-MONOMER	GIX6-731	Q04L75	topology modulation protein	
+GIX6-797-MONOMER	GIX6-797	Q04L17	orf	
+GIX6-1065-MONOMER	GIX6-1065	Q04KB2	geranyltranstransferase	IspA
+GIX6-325-MONOMER	GIX6-325	Q9ZIH9	orf	
+GIX6-385-MONOMER	GIX6-385	Q04M53	3-oxoacyl-(acyl carrier protein) synthase II	FabF
+GIX6-1156-MONOMER	GIX6-1156	Q04K24	Dyp-type peroxidase family protein	
+GIX6-1860-MONOMER	GIX6-1860	Q04IC1	competence protein CglD	ClgD
+GIX6-1778-MONOMER	GIX6-1778	Q04II8	orf	
+GIX6-1155-MONOMER	GIX6-1155	Q04K25	orf	
+GIX6-1064-MONOMER	GIX6-1064	Q04KB3	hemolysin A	
+GIX6-796-MONOMER	GIX6-796	Q04L18	orf	
+GIX6-730-MONOMER	GIX6-730	Q04L76	purine nucleoside phosphorylase	DeoD
+GIX6-1154-MONOMER	GIX6-1154	Q04K26	50S ribosomal protein L31	
+GIX6-384-MONOMER	GIX6-384	Q04M54	3-ketoacyl-ACP reductase	FabG
+GIX6-1777-MONOMER	GIX6-1777	Q04II9	cmp-binding-factor 1	
+GIX6-1063-MONOMER	GIX6-1063	Q04KB4	transcriptional regulator of arginine metabolism expression	
+GIX6-324-MONOMER	GIX6-324	Q9ZII0	glycoside hydrolase family protein	
+GIX6-1859-MONOMER	GIX6-1859	Q04IC2	orf	
+GIX6-1153-MONOMER	GIX6-1153	Q04K27	DHH subfamily 1 protein	
+GIX6-1062-MONOMER	GIX6-1062	Q04KB5	DNA repair protein RecN	RecN
+GIX6-5-MONOMER	GIX6-5	Q04N59	peptidyl-tRNA hydrolase	Pth
+GIX6-729-MONOMER	GIX6-729	C7G4B7	hemolysin-like protein	
+GIX6-1152-MONOMER	GIX6-1152	Q04K28	flavodoxin	Fld
+GIX6-1776-MONOMER	GIX6-1776	Q04IJ0	pur operon repressor	PurR
+GIX6-795-MONOMER	GIX6-795	Q04L19	orf	
+GIX6-383-MONOMER	GIX6-383	Q04M55	acyl-carrier-protein S-malonyltransferase	FabD
+GIX6-1858-MONOMER	GIX6-1858	Q04IC3	orf	
+GIX6-1151-MONOMER	GIX6-1151	Q04K29	orf	
+GIX6-323-MONOMER	GIX6-323	Q9ZII1	polysaccharide polymerase	
+GIX6-1061-MONOMER	GIX6-1061	Q04KB6	serine/threonine protein phosphatase	
+GIX6-1775-MONOMER	GIX6-1775	Q04IJ1	diaminopimelate decarboxylase	LysA
+GIX6-1150-MONOMER	GIX6-1150	Q04K30	camphor resistance protein CrcB	
+GIX6-728-MONOMER	GIX6-728	Q04L78	orf	
+GIX6-382-MONOMER	GIX6-382	Q04M56	trans-2-enoyl-ACP reductase II	FabK
+GIX6-1857-MONOMER	GIX6-1857	Q04IC4	orf	
+GIX6-1149-MONOMER	GIX6-1149	Q04K31	camphor resistance protein CrcB	
+GIX6-1774-MONOMER	GIX6-1774	Q04IJ2	pyruvate formate-lyase activating enzyme	PflA
+GIX6-1060-MONOMER	GIX6-1060	Q04KB7	GTP-binding protein LepA	LepA
+GIX6-793-MONOMER	GIX6-793	Q04L20	orf	
+GIX6-4-MONOMER	GIX6-4	Q04N60	GTP-dependent nucleic acid-binding protein EngD	
+GIX6-322-MONOMER	GIX6-322	Q04MB1	glycoside hydrolase family protein	
+GIX6-1148-MONOMER	GIX6-1148	Q04K32	50S ribosomal protein L19	RplS
+GIX6-1856-MONOMER	GIX6-1856	Q04IC5	orf	
+GIX6-1773-MONOMER	GIX6-1773	Q04IJ3	OxaA-like protein precursor	
+GIX6-1059-MONOMER	GIX6-1059	Q04KB8	orf	
+GIX6-1146-MONOMER	GIX6-1146	Q04K33	Cof family protein	
+GIX6-727-MONOMER	GIX6-727	Q04L79	orf	
+GIX6-381-MONOMER	GIX6-381	Q04M57	acyl carrier protein	AcpP
+GIX6-321-MONOMER	GIX6-321	Q04MB2	glycosyl transferase family protein	
+GIX6-1145-MONOMER	GIX6-1145	Q04K34	orf	
+GIX6-792-MONOMER	GIX6-792	Q04L21	orf	
+GIX6-1772-MONOMER	GIX6-1772	Q04IJ4	acylphosphatase	
+GIX6-1057-MONOMER	GIX6-1057	Q04KB9	PTS system transporter subunit IIB	
+GIX6-3-MONOMER	GIX6-3	Q04N61	orf	
+GIX6-1855-MONOMER	GIX6-1855	Q04IC6	orf	
+GIX6-1144-MONOMER	GIX6-1144	Q04K35	orf	
+GIX6-1771-MONOMER	GIX6-1771	Q04IJ5	SpoU rRNA methylase family protein	
+GIX6-1143-MONOMER	GIX6-1143	Q04K36	DNA-binding protein	
+GIX6-791-MONOMER	GIX6-791	Q04L22	orf	
+GIX6-380-MONOMER	GIX6-380	Q04M58	3-oxoacyl-ACP synthase	FabH
+GIX6-726-MONOMER	GIX6-726	Q04L80	purine nucleoside phosphorylase	
+GIX6-1854-MONOMER	GIX6-1854	Q04IC7	orf	
+GIX6-320-MONOMER	GIX6-320	Q9ZII4	glycoside hydrolase family protein	
+GIX6-1142-MONOMER	GIX6-1142	Q04K37	signal recognition particle protein	Ffh
+GIX6-1770-MONOMER	GIX6-1770	Q04IJ6	orf	
+GIX6-1054-MONOMER	GIX6-1054	Q04KC0	orf	
+GIX6-1141-MONOMER	GIX6-1141	Q04K38	uracil-xanthine permease	UraA
+GIX6-790-MONOMER	GIX6-790	Q04L23	pyruvate kinase	Pyk
+GIX6-1853-MONOMER	GIX6-1853	Q04IC8	acetate kinase	AckA
+GIX6-1769-MONOMER	GIX6-1769	Q04IJ7	orf	
+GIX6-1140-MONOMER	GIX6-1140	Q04K39	16S rRNA methyltransferase GidB	GidB
+GIX6-379-MONOMER	GIX6-379	Q04M59	transcriptional regulator, MarR family protein	
+GIX6-319-MONOMER	GIX6-319	Q9ZII5	undecaprenylphosphate glucosephosphotransferase Cps2E	
+GIX6-1139-MONOMER	GIX6-1139	Q04K40	LemA protein	LemA
+GIX6-789-MONOMER	GIX6-789	Q04L24	6-phosphofructokinase	PfkA
+GIX6-1053-MONOMER	GIX6-1053	Q04KC1	galactose-6-phosphate isomerase subunit LacA	LacA
+GIX6-2-MONOMER	GIX6-2	Q04N62	DNA polymerase III subunit beta	DnaN
+GIX6-1768-MONOMER	GIX6-1768	Q04IJ8	asparagine synthetase AsnA	AsnA
+GIX6-724-MONOMER	GIX6-724	Q04L81	phosphopentomutase	DeoB
+GIX6-1852-MONOMER	GIX6-1852	Q04IC9	orf	
+GIX6-318-MONOMER	GIX6-318	Q9ZII6	tyrosine-protein kinase Cps2D cytosolic ATPase	
+GIX6-1138-MONOMER	GIX6-1138	Q04K41	heat shock protein HtpX	HtpX
+GIX6-378-MONOMER	GIX6-378	Q04M60	enoyl-CoA hydratase	
+GIX6-1767-MONOMER	GIX6-1767	Q04IJ9	type II DNA modification methyltransferase	
+GIX6-788-MONOMER	GIX6-788	Q04L25	DNA polymerase III DnaE	DnaE
+GIX6-1137-MONOMER	GIX6-1137	Q04K42	ABC transporter ATP-binding protein	
+GIX6-1851-MONOMER	GIX6-1851	Q04ID0	ribonuclease P	RnpA
+GIX6-1052-MONOMER	GIX6-1052	Q04KC2	galactose-6-phosphate isomerase subunit LacB	LacB
+GIX6-1766-MONOMER	GIX6-1766	Q04IK0	phosphopantetheine adenylyltransferase	CoaD
+GIX6-723-MONOMER	GIX6-723	Q04L82	ribose-5-phosphate isomerase A	RpiA
+GIX6-317-MONOMER	GIX6-317	Q9ZII7	chain length determinant protein/polysaccharide export protein, MPA1 family protein	
+GIX6-377-MONOMER	GIX6-377	Q04M61	aspartate kinase	
+GIX6-1136-MONOMER	GIX6-1136	Q04K43	orf	
+GIX6-787-MONOMER	GIX6-787	Q04L26	x-prolyl-dipeptidyl aminopeptidase	PepX
+GIX6-1850-MONOMER	GIX6-1850	Q04ID1	SpoIIIJ family protein	
+GIX6-1-MONOMER	GIX6-1	Q04N63	chromosomal replication initiation protein	DnaA
+GIX6-1765-MONOMER	GIX6-1765	Q04IK1	orf	
+GIX6-1051-MONOMER	GIX6-1051	Q04KC3	tagatose-6-phosphate kinase	LacC
+GIX6-1135-MONOMER	GIX6-1135	Q04K44	endonuclease III	Nth
+GIX6-786-MONOMER	GIX6-786	Q04L27	transcriptional regulator of arginine metabolism expression	
+GIX6-376-MONOMER	GIX6-376	Q04M62	orf	
+GIX6-1849-MONOMER	GIX6-1849	Q04ID2	protein jag	SpoIIIJ-associated protein
+GIX6-722-MONOMER	GIX6-722	Q04L83	YjeF-like protein	
+GIX6-1764-MONOMER	GIX6-1764	Q04IK2	UDP-N-acetylglucosamine 1-carboxyvinyltransferase	
+GIX6-316-MONOMER	GIX6-316	Q9ZII8	tyrosine-protein phosphatase CpsB	
+GIX6-1134-MONOMER	GIX6-1134	Q04K45	bifunctional pyrimidine regulatory protein PyrR/uracil phosphoribosyltransferase	PyrR
+GIX6-1848-MONOMER	GIX6-1848	Q04ID3	orf	
+GIX6-1763-MONOMER	GIX6-1763	Q04IK3	orf	
+GIX6-785-MONOMER	GIX6-785	Q04L28	orf	
+GIX6-375-MONOMER	GIX6-375	Q04M63	seryl-tRNA synthetase	SerS
+GIX6-1133-MONOMER	GIX6-1133	Q04K46	aspartate carbamoyltransferase catalytic subunit	PyrB
+GIX6-1050-MONOMER	GIX6-1050	Q04KC4	tagatose 1,6-diphosphate aldolase	LacD
+GIX6-721-MONOMER	GIX6-721	Q04L84	bifunctional 5,10-methylene-tetrahydrofolate dehydrogenase/ 5,10-methylene-tetrahydrofolate cyclohydrolase	FolD
+GIX6-1847-MONOMER	GIX6-1847	Q04ID4	PTS system ascorbate-specific transporter subunit IIC	
+GIX6-1762-MONOMER	GIX6-1762	Q04IK4	DNA-entry nuclease	
+GIX6-315-MONOMER	GIX6-315	Q9ZII9	integral membrane regulatory protein Cps2A	
+GIX6-784-MONOMER	GIX6-784	Q04L29	type I restriction-modification system, R subunit	
+GIX6-1132-MONOMER	GIX6-1132	Q04K47	carbamoyl phosphate synthase small subunit	CarA
+GIX6-374-MONOMER	GIX6-374	Q04M64	exfoliative toxin	
+GIX6-1761-MONOMER	GIX6-1761	Q04IK5	orf	
+GIX6-1049-MONOMER	GIX6-1049	Q04KC5	transcription antiterminator LacT	LacT
+GIX6-1846-MONOMER	GIX6-1846	Q04ID5	PTS system transporter subunit IIB	
+GIX6-1131-MONOMER	GIX6-1131	Q04K48	carbamoyl phosphate synthase large subunit	CarB
+GIX6-783-MONOMER	GIX6-783	Q04L30	type I restriction-modification system subunit S	
+GIX6-720-MONOMER	GIX6-720	Q04L85	amino acid ABC transporter ATP-binding protein	
+GIX6-1759-MONOMER	GIX6-1759	Q04IK6	DNA-directed RNA polymerase subunit beta	RpoB
+GIX6-312-MONOMER	GIX6-312	Q04MB9	orf	
+GIX6-1048-MONOMER	GIX6-1048	Q04KC6	PTS system lactose-specific transporter subunit IIA	
+GIX6-373-MONOMER	GIX6-373	Q04M65	orf	
+GIX6-1845-MONOMER	GIX6-1845	Q04ID6	PTS system transporter subunit IIA	
+GIX6-1130-MONOMER	GIX6-1130	Q04K49	phosphotransferase LicD2	
+GIX6-1758-MONOMER	GIX6-1758	Q04IK7	DNA-directed RNA polymerase subunit beta	RpoC
+GIX6-1047-MONOMER	GIX6-1047	Q04KC7	PTS system lactose-specific transporter subunit IIBC	
+GIX6-1844-MONOMER	GIX6-1844	Q04ID7	3-keto-L-gulonate-6-phosphate decarboxylase	UlaD
+GIX6-1129-MONOMER	GIX6-1129	Q04K50	phosphotransferase LicD1	
+GIX6-782-MONOMER	GIX6-782	Q04L31	type I restriction-modification system, M subunit	
+GIX6-372-MONOMER	GIX6-372	Q04M66	sodium:alanine symporter family protein	
+GIX6-311-MONOMER	GIX6-311	Q04MC0	glucan 1,6-alpha-glucosidase	DexB
+GIX6-719-MONOMER	GIX6-719	Q04L86	amino acid ABC transporter permease	
+GIX6-1757-MONOMER	GIX6-1757	Q04IK8	nucleoside diphosphate kinase	Ndk
+GIX6-1128-MONOMER	GIX6-1128	Q04K51	polysaccharide biosynthesis protein	
+GIX6-1046-MONOMER	GIX6-1046	Q04KC8	6-phospho-beta-galactosidase	
+GIX6-1843-MONOMER	GIX6-1843	Q04ID8	L-xylulose 5-phosphate 3-epimerase	
+GIX6-371-MONOMER	GIX6-371	Q04M67	MutS2 family protein	
+GIX6-1756-MONOMER	GIX6-1756	Q04IK9	orf	
+GIX6-1127-MONOMER	GIX6-1127	Q04K52	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase	IspD
+GIX6-781-MONOMER	GIX6-781	Q04L32	orf	
+GIX6-1045-MONOMER	GIX6-1045	Q04KC9	orf	
+GIX6-310-MONOMER	GIX6-310	Q04MC1	orf	
+GIX6-1842-MONOMER	GIX6-1842	Q04ID9	L-ribulose-5-phosphate 4-epimerase	AraD
+GIX6-718-MONOMER	GIX6-718	Q04L87	orf	
+GIX6-1755-MONOMER	GIX6-1755	Q04IL0	ABC transporter ATP-binding protein	
+GIX6-1126-MONOMER	GIX6-1126	Q04K53	zinc-containing alcohol dehydrogenase	
+GIX6-370-MONOMER	GIX6-370	Q04M68	orf	
+GIX6-1044-MONOMER	GIX6-1044	Q04KD0	lactose phosphotransferase system repressor	
+GIX6-780-MONOMER	GIX6-780	Q04L33	orf	
+GIX6-309-MONOMER	GIX6-309	Q04MC2	S-ribosylhomocysteinase	LuxS
+GIX6-1841-MONOMER	GIX6-1841	Q04IE0	BglG family transcriptional regulator	
+GIX6-1125-MONOMER	GIX6-1125	Q04K54	choline kinase	Pck
+GIX6-1754-MONOMER	GIX6-1754	Q04IL1	orf	
+GIX6-1043-MONOMER	GIX6-1043	Q04KD1	ribonucleotide-diphosphate reductase subunit beta	NrdF
+GIX6-369-MONOMER	GIX6-369	Q04M69	orf	
+GIX6-717-MONOMER	GIX6-717	Q04L88	ATP-dependent Clp protease ATP-binding subunit ClpE	ClpE
+GIX6-779-MONOMER	GIX6-779	Q04L34	orf	
+GIX6-1124-MONOMER	GIX6-1124	Q04K55	protein LicB	LicB
+GIX6-1840-MONOMER	GIX6-1840	Q04IE1	L-ascorbate 6-phosphate lactonase	
+GIX6-1753-MONOMER	GIX6-1753	Q04IL2	subtilase family serine protease	
+GIX6-1123-MONOMER	GIX6-1123	Q04K56	CTP:phosphocholine cytidylyltransferase	LicC
+GIX6-308-MONOMER	GIX6-308	Q04MC3	ATP-dependent Clp protease, ATP-binding subunit	ClpL
+GIX6-1042-MONOMER	GIX6-1042	Q04KD2	ribonucleotide-diphosphate reductase subunit alpha	NrdE
+GIX6-368-MONOMER	GIX6-368	Q04M70	ribonuclease HIII	RnhC
+GIX6-778-MONOMER	GIX6-778	Q04L35	orf	
+GIX6-716-MONOMER	GIX6-716	Q04L89	orf	
+GIX6-1839-MONOMER	GIX6-1839	Q04IE2	transketolase	Tkt
+GIX6-1122-MONOMER	GIX6-1122	Q04K57	DNA processing protein DprA	
+GIX6-1041-MONOMER	GIX6-1041	Q04KD3	glutaredoxin-like protein NrdH	NrdH
+GIX6-1752-MONOMER	GIX6-1752	Q04IL3	toxin secretion ABC transporter ATP-binding protein/permease	
+GIX6-307-MONOMER	GIX6-307	Q04MC4	phospho-N-acetylmuramoyl-pentapeptide-transferase	MraY
+GIX6-777-MONOMER	GIX6-777	Q04L36	thiamine biosynthesis protein ThiI	ThiI
+GIX6-367-MONOMER	GIX6-367	Q04M71	signal peptidase I	LepB
+GIX6-1121-MONOMER	GIX6-1121	Q04K58	orf	
+GIX6-1751-MONOMER	GIX6-1751	Q04IL4	orf	
+GIX6-1838-MONOMER	GIX6-1838	Q04IE3	preprotein translocase subunit YajC	YajC
+GIX6-1040-MONOMER	GIX6-1040	Q04KD4	phosphocarrier protein HPr	PtsH
+GIX6-715-MONOMER	GIX6-715	Q04L90	MutT/nudix family protein	
+GIX6-306-MONOMER	GIX6-306	Q04MC5	penicillin-binding protein 2X	PbpX
+GIX6-1120-MONOMER	GIX6-1120	Q04K59	DNA topoisomerase I	TopA
+GIX6-1750-MONOMER	GIX6-1750	Q04IL5	orf	WrbA
+GIX6-776-MONOMER	GIX6-776	Q04L37	class V aminotransferase	
+GIX6-366-MONOMER	GIX6-366	Q04M72	helicase, RecD/TraA family protein	
+GIX6-1039-MONOMER	GIX6-1039	Q04KD5	phosphoenolpyruvate-protein phosphotransferase	PtsI
+GIX6-1837-MONOMER	GIX6-1837	Q04IE4	phosphotyrosine protein phosphatase	
+GIX6-1119-MONOMER	GIX6-1119	Q04K60	orf	
+GIX6-1749-MONOMER	GIX6-1749	Q04IL6	bacteriocin formation protein	
+GIX6-714-MONOMER	GIX6-714	Q04L91	orf	
+GIX6-305-MONOMER	GIX6-305	Q04MC6	cell division protein FtsL	FtsL
+GIX6-775-MONOMER	GIX6-775	Q04L38	orf	
+GIX6-1038-MONOMER	GIX6-1038	Q04KD6	histidine triad protein A	PhpA
+GIX6-365-MONOMER	GIX6-365	Q04M73	trigger factor	Tig
+GIX6-1836-MONOMER	GIX6-1836	Q04IE5	orf	
+GIX6-1118-MONOMER	GIX6-1118	Q04K61	copper homeostasis protein CutC	CutC
+GIX6-1748-MONOMER	GIX6-1748	Q04IL7	orf	
+GIX6-1037-MONOMER	GIX6-1037	Q04KD7	histidine triad protein	
+GIX6-774-MONOMER	GIX6-774	Q04L39	SpoE family protein	
+GIX6-1117-MONOMER	GIX6-1117	Q04K62	orf	
+GIX6-712-MONOMER	GIX6-712	Q04L92	transposase family protein	
+GIX6-364-MONOMER	GIX6-364	Q04M74	polar amino acid ABC transporter ATPase	
+GIX6-1747-MONOMER	GIX6-1747	Q04IL8	orf	
+GIX6-1835-MONOMER	GIX6-1835	Q04IE6	orf	
+GIX6-304-MONOMER	GIX6-304	Q04MC7	S-adenosyl-methyltransferase MraW	MraW
+GIX6-1036-MONOMER	GIX6-1036	Q04KD8	orf	
+GIX6-1746-MONOMER	GIX6-1746	Q04IL9	orf	
+GIX6-1115-MONOMER	GIX6-1115	Q04K63	3-isopropylmalate dehydrogenase	LeuB
+GIX6-773-MONOMER	GIX6-773	Q04L40	PTS system fructose specific transporter subunit IIABC	
+GIX6-363-MONOMER	GIX6-363	Q04M75	mannitol-1-phosphate 5-dehydrogenase	
+GIX6-1834-MONOMER	GIX6-1834	Q04IE7	bifunctional acetaldehyde-CoA/alcohol dehydrogenase	
+GIX6-303-MONOMER	GIX6-303	Q04MC8	transcriptional regulator	
+GIX6-1745-MONOMER	GIX6-1745	Q04IM0	transcriptional regulator PlcR	
+GIX6-1114-MONOMER	GIX6-1114	Q04K64	orf	
+GIX6-1035-MONOMER	GIX6-1035	Q04KD9	orf	
+GIX6-772-MONOMER	GIX6-772	Q04L41	1-phosphofructokinase	
+GIX6-711-MONOMER	GIX6-711	Q04L93	orf	
+GIX6-1113-MONOMER	GIX6-1113	Q04K65	orf	
+GIX6-1744-MONOMER	GIX6-1744	Q04IM1	orf	
+GIX6-362-MONOMER	GIX6-362	Q04M76	PTS system, mannitol-specific enzyme IIA	
+GIX6-1833-MONOMER	GIX6-1833	Q04IE8	PTS system transporter subunit IIA	
+GIX6-1034-MONOMER	GIX6-1034	Q04KE0	hydrolase	
+CPD-14436			<i>N</i>-acetylglutaminylglutamine amide	NAGGN, N2-acetyl-L-glutaminyl-L-glutamamide, (2S)-2-[[(2S)-2-acetamido-5-amino-5-oxopentanoyl]amino]pentanediamide, N-Ac-Gln-gln-amide, L-glutamamide, N2-acetyl-L-glutaminyl-
+CPD-14437			<i>N</i>-acetylglutaminylglutamine	NAGG
+D-ALA-D-ALA			D-alanyl-D-alanine	
+CPD0-1082			L-Ala-&gamma;-D-Glu-DAP-D-Ala	L-alanyl-D-&gamma;-glutamyl-<i>meso</i>-2,6-diaminopimeloyl-D-alanine

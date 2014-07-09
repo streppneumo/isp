@@ -1,0 +1,4700 @@
+# Copyright © 2013, SRI International. All rights reserved.
+#
+# Authors:
+#    Pallavi Subhraveti
+#    Quang Ong
+#    Tomer Altman
+#    Ron Caspi
+#    Ingrid Keseler
+#    Peter D Karp
+#
+# Please see the license agreement regarding the use of and distribution of this file.
+# The format of this file is defined at http://bioinformatics.ai.sri.com/ptools/flatfile-format.html .
+#
+# Species: Streptococcus pneumoniae Taiwan19F-14
+# Database: SPNE487213cyc
+# Version: 17.0
+# File Name: protein-features.dat
+# Date and time generated: September 25, 2013, 15:47:33
+#
+# Attributes:
+#    UNIQUE-ID
+#    TYPES
+#    COMMON-NAME
+#    ALTERNATE-SEQUENCE
+#    ATTACHED-GROUP
+#    CATALYTIC-ACTIVITY
+#    CITATIONS
+#    COMMENT
+#    COMMENT-INTERNAL
+#    COMPONENT-OF
+#    CREDITS
+#    DATA-SOURCE
+#    DBLINKS
+#    DOCUMENTATION
+#    FEATURE-OF
+#    HIDE-SLOT?
+#    HOMOLOGY-MOTIF
+#    INSTANCE-NAME-TEMPLATE
+#    LEFT-END-POSITION
+#    LINKAGE-TYPE
+#    MEMBER-SORT-FN
+#    PATHOLOGIC-NAME-MATCHER-EVIDENCE
+#    PATHOLOGIC-PWY-EVIDENCE
+#    POSSIBLE-FEATURE-STATES
+#    RESIDUE-NUMBER
+#    RESIDUE-TYPE
+#    RIGHT-END-POSITION
+#    SYNONYMS
+#    TEMPLATE-FILE
+#
+UNIQUE-ID - FTRI07-1876
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746374:kaipa
+COMMENT - UniProt: Aminator domain; Sequence Annotation Type: region of interest; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-527-MONOMER
+LEFT-END-POSITION - 1
+RIGHT-END-POSITION - 255
+//
+UNIQUE-ID - FTRI07-1896
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746376:kaipa
+COMMENT - UniProt: Gly-rich; Sequence Annotation Type: compositionally biased region.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-546-MONOMER
+LEFT-END-POSITION - 73
+RIGHT-END-POSITION - 118
+//
+UNIQUE-ID - FTRI07-1527
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746331:kaipa
+COMMENT - UniProt: Substrate binding; Sequence Annotation Type: region of interest; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1753-MONOMER
+LEFT-END-POSITION - 128
+RIGHT-END-POSITION - 133
+//
+UNIQUE-ID - FTRI07-1528
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746331:kaipa
+COMMENT - UniProt: Substrate binding; Sequence Annotation Type: region of interest; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1753-MONOMER
+LEFT-END-POSITION - 190
+RIGHT-END-POSITION - 191
+//
+UNIQUE-ID - FTRI07-1807
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746369:kaipa
+COMMENT - UniProt: Substrate binding; Sequence Annotation Type: region of interest; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-414-MONOMER
+LEFT-END-POSITION - 128
+RIGHT-END-POSITION - 130
+//
+UNIQUE-ID - FTRI07-1808
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746369:kaipa
+COMMENT - UniProt: Substrate binding; Sequence Annotation Type: region of interest; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-414-MONOMER
+LEFT-END-POSITION - 187
+RIGHT-END-POSITION - 188
+//
+UNIQUE-ID - FTRI07-1918
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746378:kaipa
+COMMENT - UniProt: "HIGH" region; Sequence Annotation Type: short sequence motif; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-590-MONOMER
+LEFT-END-POSITION - 46
+RIGHT-END-POSITION - 56
+//
+UNIQUE-ID - FTRI07-1919
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746378:kaipa
+COMMENT - UniProt: "KMSKS" region; Sequence Annotation Type: short sequence motif; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-590-MONOMER
+LEFT-END-POSITION - 520
+RIGHT-END-POSITION - 524
+//
+UNIQUE-ID - FTRI07-1544
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746335:kaipa
+COMMENT - UniProt: Substrate binding; Sequence Annotation Type: region of interest; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1908-MONOMER
+LEFT-END-POSITION - 143
+RIGHT-END-POSITION - 146
+//
+UNIQUE-ID - FTRI07-1545
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746335:kaipa
+COMMENT - UniProt: Substrate binding; Sequence Annotation Type: region of interest; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1908-MONOMER
+LEFT-END-POSITION - 198
+RIGHT-END-POSITION - 199
+//
+UNIQUE-ID - FTRI07-1934
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746380:kaipa
+COMMENT - UniProt: "HIGH" region; Sequence Annotation Type: short sequence motif; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-611-MONOMER
+LEFT-END-POSITION - 30
+RIGHT-END-POSITION - 40
+//
+UNIQUE-ID - FTRI07-1935
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746380:kaipa
+COMMENT - UniProt: "KMSKS" region; Sequence Annotation Type: short sequence motif; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-611-MONOMER
+LEFT-END-POSITION - 268
+RIGHT-END-POSITION - 272
+//
+UNIQUE-ID - FTRI07-1557
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746336:kaipa
+COMMENT - UniProt: Knuckle-like cysteine cluster; Sequence Annotation Type: short sequence motif; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1909-MONOMER
+LEFT-END-POSITION - 237
+RIGHT-END-POSITION - 250
+//
+UNIQUE-ID - FTRI07-1156
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746293:kaipa
+COMMENT - UniProt: S-adenosyl-L-methionine binding; Sequence Annotation Type: region of interest; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1047-MONOMER
+LEFT-END-POSITION - 118
+RIGHT-END-POSITION - 122
+//
+UNIQUE-ID - FTRI07-1157
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746293:kaipa
+COMMENT - UniProt: Substrate binding; Sequence Annotation Type: region of interest; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1047-MONOMER
+LEFT-END-POSITION - 182
+RIGHT-END-POSITION - 185
+//
+UNIQUE-ID - FTRI07-1972
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746381:kaipa
+COMMENT - UniProt: 5-phosphoribose 1-diphosphate binding; Sequence Annotation Type: region of interest; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-705-MONOMER
+LEFT-END-POSITION - 122
+RIGHT-END-POSITION - 130
+//
+UNIQUE-ID - FTRI07-1579
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746341:kaipa
+COMMENT - UniProt: "HIGH" region; Sequence Annotation Type: short sequence motif; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-2026-MONOMER
+LEFT-END-POSITION - 11
+RIGHT-END-POSITION - 21
+//
+UNIQUE-ID - FTRI07-1580
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746341:kaipa
+COMMENT - UniProt: "KMSKS" region; Sequence Annotation Type: short sequence motif; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-2026-MONOMER
+LEFT-END-POSITION - 255
+RIGHT-END-POSITION - 259
+//
+UNIQUE-ID - FTRI07-1983
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: HMP-PP binding; Sequence Annotation Type: region of interest; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-723-MONOMER
+LEFT-END-POSITION - 39
+RIGHT-END-POSITION - 43
+//
+UNIQUE-ID - FTRI07-1984
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: THZ-P binding; Sequence Annotation Type: region of interest; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-723-MONOMER
+LEFT-END-POSITION - 138
+RIGHT-END-POSITION - 140
+//
+UNIQUE-ID - FTRI07-1985
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: THZ-P binding; Sequence Annotation Type: region of interest; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-723-MONOMER
+LEFT-END-POSITION - 190
+RIGHT-END-POSITION - 191
+//
+UNIQUE-ID - FTRI07-1186
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746295:kaipa
+COMMENT - UniProt: 5-phosphoribose 1-diphosphate binding; Sequence Annotation Type: region of interest; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1110-MONOMER
+LEFT-END-POSITION - 215
+RIGHT-END-POSITION - 228
+//
+UNIQUE-ID - FTRI07-1996
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: HMP-PP binding; Sequence Annotation Type: region of interest; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-730-MONOMER
+LEFT-END-POSITION - 38
+RIGHT-END-POSITION - 42
+//
+UNIQUE-ID - FTRI07-1997
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: THZ-P binding; Sequence Annotation Type: region of interest; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-730-MONOMER
+LEFT-END-POSITION - 135
+RIGHT-END-POSITION - 137
+//
+UNIQUE-ID - FTRI07-2008
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: 5-phospho-alpha-D-ribose 1-diphosphate binding; Sequence Annotation Type: region of interest; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-749-MONOMER
+LEFT-END-POSITION - 138
+RIGHT-END-POSITION - 146
+//
+UNIQUE-ID - FTRI07-2009
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: Uracil binding; Sequence Annotation Type: region of interest; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-749-MONOMER
+LEFT-END-POSITION - 206
+RIGHT-END-POSITION - 208
+//
+UNIQUE-ID - FTRI07-2024
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: Substrate binding; Sequence Annotation Type: region of interest; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-766-MONOMER
+LEFT-END-POSITION - 69
+RIGHT-END-POSITION - 73
+//
+UNIQUE-ID - FTRI07-2025
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: Substrate binding; Sequence Annotation Type: region of interest; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-766-MONOMER
+LEFT-END-POSITION - 194
+RIGHT-END-POSITION - 195
+//
+UNIQUE-ID - FTRI07-1278
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746302:kaipa
+COMMENT - UniProt: Substrate binding; Sequence Annotation Type: region of interest; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1206-MONOMER
+LEFT-END-POSITION - 71
+RIGHT-END-POSITION - 75
+//
+UNIQUE-ID - FTRI07-1279
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746302:kaipa
+COMMENT - UniProt: Substrate binding; Sequence Annotation Type: region of interest; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1206-MONOMER
+LEFT-END-POSITION - 198
+RIGHT-END-POSITION - 199
+//
+UNIQUE-ID - FTRI07-1298
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746303:kaipa
+COMMENT - UniProt: Involved in allosteric activation by GTP; Sequence Annotation Type: region of interest; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1225-MONOMER
+LEFT-END-POSITION - 20
+RIGHT-END-POSITION - 25
+//
+UNIQUE-ID - FTRI07-1383
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746307:kaipa
+COMMENT - UniProt: "HIGH" region; Sequence Annotation Type: short sequence motif; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1375-MONOMER
+LEFT-END-POSITION - 13
+RIGHT-END-POSITION - 23
+//
+UNIQUE-ID - FTRI07-1384
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746307:kaipa
+COMMENT - UniProt: "KMSKS" region; Sequence Annotation Type: short sequence motif; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1375-MONOMER
+LEFT-END-POSITION - 309
+RIGHT-END-POSITION - 313
+//
+UNIQUE-ID - FTRI07-1644
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746346:kaipa
+COMMENT - UniProt: IMP binding; Sequence Annotation Type: region of interest; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-2190-MONOMER
+LEFT-END-POSITION - 343
+RIGHT-END-POSITION - 345
+//
+UNIQUE-ID - FTRI07-1645
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746346:kaipa
+COMMENT - UniProt: IMP binding; Sequence Annotation Type: region of interest; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-2190-MONOMER
+LEFT-END-POSITION - 366
+RIGHT-END-POSITION - 367
+//
+UNIQUE-ID - FTRI07-1646
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746346:kaipa
+COMMENT - UniProt: IMP binding; Sequence Annotation Type: region of interest; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-2190-MONOMER
+LEFT-END-POSITION - 390
+RIGHT-END-POSITION - 394
+//
+UNIQUE-ID - FTRI07-1657
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746346:kaipa
+COMMENT - UniProt: "HIGH" region; Sequence Annotation Type: short sequence motif; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-2191-MONOMER
+LEFT-END-POSITION - 12
+RIGHT-END-POSITION - 20
+//
+UNIQUE-ID - FTRI07-1658
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746346:kaipa
+COMMENT - UniProt: "KMSKS" region; Sequence Annotation Type: short sequence motif; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-2191-MONOMER
+LEFT-END-POSITION - 202
+RIGHT-END-POSITION - 206
+//
+UNIQUE-ID - FTRI07-1322
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746305:kaipa
+COMMENT - UniProt: S-adenosylmethioninamine binding; Sequence Annotation Type: region of interest; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1246-MONOMER
+LEFT-END-POSITION - 137
+RIGHT-END-POSITION - 138
+//
+UNIQUE-ID - FTRI07-1407
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746309:kaipa
+COMMENT - UniProt: UDP-MurNAc-L-Ala-D-Glu binding; Sequence Annotation Type: region of interest; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1429-MONOMER
+LEFT-END-POSITION - 160
+RIGHT-END-POSITION - 161
+//
+UNIQUE-ID - FTRI07-1408
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746309:kaipa
+COMMENT - UniProt: L-lysine recognition motif; Sequence Annotation Type: short sequence motif; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1429-MONOMER
+LEFT-END-POSITION - 404
+RIGHT-END-POSITION - 407
+//
+UNIQUE-ID - FTRI07-2115
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746385:kaipa
+COMMENT - UniProt: CPSase; Sequence Annotation Type: region of interest; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-929-MONOMER
+LEFT-END-POSITION - 1
+RIGHT-END-POSITION - 169
+//
+UNIQUE-ID - FTRI07-1673
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746347:kaipa
+COMMENT - UniProt: IMP binding; Sequence Annotation Type: region of interest; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-58-MONOMER
+LEFT-END-POSITION - 27
+RIGHT-END-POSITION - 30
+//
+UNIQUE-ID - FTRI07-1674
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746347:kaipa
+COMMENT - UniProt: IMP binding; Sequence Annotation Type: region of interest; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-58-MONOMER
+LEFT-END-POSITION - 52
+RIGHT-END-POSITION - 55
+//
+UNIQUE-ID - FTRI07-1675
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746347:kaipa
+COMMENT - UniProt: Substrate binding; Sequence Annotation Type: region of interest; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-58-MONOMER
+LEFT-END-POSITION - 312
+RIGHT-END-POSITION - 318
+//
+UNIQUE-ID - FTRI07-1686
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746347:kaipa
+COMMENT - UniProt: 5-phosphoribose 1-diphosphate binding; Sequence Annotation Type: region of interest; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-66-MONOMER
+LEFT-END-POSITION - 217
+RIGHT-END-POSITION - 230
+//
+UNIQUE-ID - FTRI07-1373
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746306:kaipa
+COMMENT - UniProt: NAD(P)HX; Sequence Annotation Type: region of interest; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1340-MONOMER
+LEFT-END-POSITION - 152
+RIGHT-END-POSITION - 158
+//
+UNIQUE-ID - FTRI07-1746
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746360:kaipa
+COMMENT - UniProt: Alpha N-terminal domain (alpha-NTD); Sequence Annotation Type: region of interest; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-279-MONOMER
+LEFT-END-POSITION - 1
+RIGHT-END-POSITION - 226
+//
+UNIQUE-ID - FTRI07-1747
+TYPES - Protein-Segments
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746360:kaipa
+COMMENT - UniProt: Alpha C-terminal domain (alpha-CTD); Sequence Annotation Type: region of interest; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-279-MONOMER
+LEFT-END-POSITION - 244
+RIGHT-END-POSITION - 311
+//
+UNIQUE-ID - FTRI07-1875
+TYPES - Conserved-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746374:kaipa
+COMMENT - UniProt: Glutamine amidotransferase type-1; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-527-MONOMER
+LEFT-END-POSITION - 293
+RIGHT-END-POSITION - 535
+//
+UNIQUE-ID - FTRI07-1507
+TYPES - Conserved-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746322:kaipa
+COMMENT - UniProt: KH; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1636-MONOMER
+LEFT-END-POSITION - 227
+RIGHT-END-POSITION - 290
+//
+UNIQUE-ID - FTRI07-1890
+TYPES - Conserved-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746376:kaipa
+COMMENT - UniProt: J; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-546-MONOMER
+LEFT-END-POSITION - 5
+RIGHT-END-POSITION - 69
+//
+UNIQUE-ID - FTRI07-1508
+TYPES - Conserved-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746322:kaipa
+COMMENT - UniProt: HD; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1636-MONOMER
+LEFT-END-POSITION - 354
+RIGHT-END-POSITION - 445
+//
+UNIQUE-ID - FTRI07-1922
+TYPES - Conserved-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746379:kaipa
+COMMENT - UniProt: tRNA-binding; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-602-MONOMER
+LEFT-END-POSITION - 39
+RIGHT-END-POSITION - 153
+//
+UNIQUE-ID - FTRI07-1923
+TYPES - Conserved-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746379:kaipa
+COMMENT - UniProt: B5; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-602-MONOMER
+LEFT-END-POSITION - 406
+RIGHT-END-POSITION - 481
+//
+UNIQUE-ID - FTRI07-1924
+TYPES - Conserved-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746379:kaipa
+COMMENT - UniProt: FDX-ACB; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-602-MONOMER
+LEFT-END-POSITION - 708
+RIGHT-END-POSITION - 801
+//
+UNIQUE-ID - FTRI07-1554
+TYPES - Conserved-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746336:kaipa
+COMMENT - UniProt: EngC GTPase; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1909-MONOMER
+LEFT-END-POSITION - 71
+RIGHT-END-POSITION - 211
+//
+UNIQUE-ID - FTRI07-1568
+TYPES - Conserved-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746337:kaipa
+COMMENT - UniProt: Toprim; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1916-MONOMER
+LEFT-END-POSITION - 8
+RIGHT-END-POSITION - 77
+//
+UNIQUE-ID - FTRI07-1134
+TYPES - Conserved-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746293:kaipa
+COMMENT - UniProt: G; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1043-MONOMER
+LEFT-END-POSITION - 227
+RIGHT-END-POSITION - 338
+//
+UNIQUE-ID - FTRI07-1950
+TYPES - Conserved-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746381:kaipa
+COMMENT - UniProt: G; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-687-MONOMER
+LEFT-END-POSITION - 200
+RIGHT-END-POSITION - 319
+//
+UNIQUE-ID - FTRI07-1216
+TYPES - Conserved-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746297:kaipa
+COMMENT - UniProt: UvrD-like helicase ATP-binding; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1146-MONOMER
+LEFT-END-POSITION - 26
+RIGHT-END-POSITION - 488
+//
+UNIQUE-ID - FTRI07-1217
+TYPES - Conserved-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746297:kaipa
+COMMENT - UniProt: UvrD-like helicase C-terminal; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1146-MONOMER
+LEFT-END-POSITION - 515
+RIGHT-END-POSITION - 802
+//
+UNIQUE-ID - FTRI07-1258
+TYPES - Conserved-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746300:kaipa
+COMMENT - UniProt: S1 motif; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1195-MONOMER
+LEFT-END-POSITION - 625
+RIGHT-END-POSITION - 704
+//
+UNIQUE-ID - FTRI07-1288
+TYPES - Conserved-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746302:kaipa
+COMMENT - UniProt: FAD-binding FR-type; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1207-MONOMER
+LEFT-END-POSITION - 12
+RIGHT-END-POSITION - 110
+//
+UNIQUE-ID - FTRI07-1382
+TYPES - Conserved-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746307:kaipa
+COMMENT - UniProt: tRNA-binding; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1375-MONOMER
+LEFT-END-POSITION - 562
+RIGHT-END-POSITION - 665
+//
+UNIQUE-ID - FTRI07-1641
+TYPES - Conserved-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746346:kaipa
+COMMENT - UniProt: CBS 1; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-2190-MONOMER
+LEFT-END-POSITION - 97
+RIGHT-END-POSITION - 155
+//
+UNIQUE-ID - FTRI07-1642
+TYPES - Conserved-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746346:kaipa
+COMMENT - UniProt: CBS 2; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-2190-MONOMER
+LEFT-END-POSITION - 159
+RIGHT-END-POSITION - 219
+//
+UNIQUE-ID - FTRI07-2114
+TYPES - Conserved-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746385:kaipa
+COMMENT - UniProt: Glutamine amidotransferase type-1; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-929-MONOMER
+LEFT-END-POSITION - 172
+RIGHT-END-POSITION - 358
+//
+UNIQUE-ID - FTRI07-1726
+TYPES - Conserved-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746357:kaipa
+COMMENT - UniProt: ABC transporter; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-235-MONOMER
+LEFT-END-POSITION - 606
+RIGHT-END-POSITION - 937
+//
+UNIQUE-ID - FTRI07-1693
+TYPES - Conserved-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746349:kaipa
+COMMENT - UniProt: ATP-grasp; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-90-MONOMER
+LEFT-END-POSITION - 108
+RIGHT-END-POSITION - 314
+//
+UNIQUE-ID - FTRI07-1370
+TYPES - Conserved-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746306:kaipa
+COMMENT - UniProt: YjeF C-terminal; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1340-MONOMER
+LEFT-END-POSITION - 5
+RIGHT-END-POSITION - 278
+//
+UNIQUE-ID - FTRI07-1732
+TYPES - Conserved-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746359:kaipa
+COMMENT - UniProt: S5 DRBM; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-270-MONOMER
+LEFT-END-POSITION - 10
+RIGHT-END-POSITION - 73
+//
+UNIQUE-ID - FTRI07-1381
+TYPES - Conserved-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746306:kaipa
+COMMENT - UniProt: Toprim; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1356-MONOMER
+LEFT-END-POSITION - 428
+RIGHT-END-POSITION - 539
+//
+UNIQUE-ID - FTRI07-1745
+TYPES - Conserved-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746359:kaipa
+COMMENT - UniProt: S1-like; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-275-MONOMER
+LEFT-END-POSITION - 1
+RIGHT-END-POSITION - 72
+//
+UNIQUE-ID - FTRI07-1766
+TYPES - Conserved-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746363:kaipa
+COMMENT - UniProt: Glutamine amidotransferase type-2; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-308-MONOMER
+LEFT-END-POSITION - 2
+RIGHT-END-POSITION - 217
+//
+UNIQUE-ID - FTRI07-1463
+TYPES - Conserved-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746316:kaipa
+COMMENT - UniProt: Thioredoxin; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1552-MONOMER
+LEFT-END-POSITION - 16
+RIGHT-END-POSITION - 162
+//
+UNIQUE-ID - FTRI07-1854
+TYPES - Conserved-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746373:kaipa
+COMMENT - UniProt: UmuC; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-493-MONOMER
+LEFT-END-POSITION - 14
+RIGHT-END-POSITION - 198
+//
+UNIQUE-ID - FTRI07-1518
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - ATP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746329:kaipa
+COMMENT - UniProt: ATP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1726-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1804
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - NADP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746369:kaipa
+COMMENT - UniProt: NADP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-414-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1805
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - NADP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746369:kaipa
+COMMENT - UniProt: NADP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-414-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1806
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - NADP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746369:kaipa
+COMMENT - UniProt: NADP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-414-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1079
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - GTP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746288:kaipa
+COMMENT - UniProt: GTP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-961-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1080
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - GTP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746288:kaipa
+COMMENT - UniProt: GTP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-961-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1081
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - GTP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746288:kaipa
+COMMENT - UniProt: GTP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-961-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1555
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - GTP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746336:kaipa
+COMMENT - UniProt: GTP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1909-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1556
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - GTP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746336:kaipa
+COMMENT - UniProt: GTP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1909-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1121
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - NADP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746293:kaipa
+COMMENT - UniProt: NADP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1041-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1122
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - NADP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746293:kaipa
+COMMENT - UniProt: NADP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1041-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1123
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - NADP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746293:kaipa
+COMMENT - UniProt: NADP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1041-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1135
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - GTP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746293:kaipa
+COMMENT - UniProt: GTP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1043-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1136
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - GTP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746293:kaipa
+COMMENT - UniProt: GTP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1043-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1137
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - GTP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746293:kaipa
+COMMENT - UniProt: GTP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1043-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1148
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - ATP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746293:kaipa
+COMMENT - UniProt: ATP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1045-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1149
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - ATP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746293:kaipa
+COMMENT - UniProt: ATP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1045-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1951
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - GTP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746381:kaipa
+COMMENT - UniProt: GTP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-687-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1952
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - GTP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746381:kaipa
+COMMENT - UniProt: GTP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-687-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1179
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - GTP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746295:kaipa
+COMMENT - UniProt: GTP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1092-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1180
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - GTP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746295:kaipa
+COMMENT - UniProt: GTP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1092-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1181
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - GTP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746295:kaipa
+COMMENT - UniProt: GTP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1092-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1218
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - ATP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746297:kaipa
+COMMENT - UniProt: ATP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1146-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1219
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - GTP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746297:kaipa
+COMMENT - UniProt: GTP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1149-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-2021
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - FMN
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: FMN; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-766-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1220
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - GTP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746297:kaipa
+COMMENT - UniProt: GTP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1149-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-2022
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - FMN
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: FMN; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-766-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1221
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - GTP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746297:kaipa
+COMMENT - UniProt: GTP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1149-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-2023
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - FMN
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: FMN; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-766-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1259
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - ATP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746300:kaipa
+COMMENT - UniProt: ATP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1199-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1275
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - FMN
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746302:kaipa
+COMMENT - UniProt: FMN; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1206-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1276
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - FMN
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746302:kaipa
+COMMENT - UniProt: FMN; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1206-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1277
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - FMN
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746302:kaipa
+COMMENT - UniProt: FMN; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1206-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1289
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - FAD
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746302:kaipa
+COMMENT - UniProt: FAD; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1207-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1290
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - FAD
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746302:kaipa
+COMMENT - UniProt: FAD; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1207-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1291
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - FAD
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746302:kaipa
+COMMENT - UniProt: FAD; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1207-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1296
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - ATP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746303:kaipa
+COMMENT - UniProt: ATP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1225-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1297
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - UMP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746303:kaipa
+COMMENT - UniProt: UMP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1225-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1643
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - NAD
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746346:kaipa
+COMMENT - UniProt: NAD; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-2190-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-2082
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - ATP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746383:kaipa
+COMMENT - UniProt: ATP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-882-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1714
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - FAD
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746353:kaipa
+COMMENT - UniProt: FAD; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-166-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1715
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - NAD
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746353:kaipa
+COMMENT - UniProt: NAD; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-166-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1406
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - ATP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746309:kaipa
+COMMENT - UniProt: ATP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1429-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-2098
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - GTP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746384:kaipa
+COMMENT - UniProt: GTP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-918-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-2099
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - GTP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746384:kaipa
+COMMENT - UniProt: GTP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-918-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-2100
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - GTP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746384:kaipa
+COMMENT - UniProt: GTP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-918-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1664
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - ATP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746347:kaipa
+COMMENT - UniProt: ATP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-47-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1669
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - GTP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746347:kaipa
+COMMENT - UniProt: GTP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-58-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1670
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - GTP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746347:kaipa
+COMMENT - UniProt: GTP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-58-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1671
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - GTP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746347:kaipa
+COMMENT - UniProt: GTP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-58-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1672
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - GTP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746347:kaipa
+COMMENT - UniProt: GTP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-58-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1727
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - ATP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746357:kaipa
+COMMENT - UniProt: ATP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-235-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1448
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - ATP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746312:kaipa
+COMMENT - UniProt: ATP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1470-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1729
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - ATP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746357:kaipa
+COMMENT - UniProt: ATP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-235-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1694
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - ATP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746349:kaipa
+COMMENT - UniProt: ATP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-90-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-2154
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - ATP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746385:kaipa
+COMMENT - UniProt: ATP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-958-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1371
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - ADP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746306:kaipa
+COMMENT - UniProt: ADP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1340-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1372
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - ADP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746306:kaipa
+COMMENT - UniProt: ADP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1340-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1476
+TYPES - Nucleotide-Phosphate-Binding-Regions
+ATTACHED-GROUP - GTP
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746317:kaipa
+COMMENT - UniProt: GTP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1566-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+//
+UNIQUE-ID - FTRI07-1917
+TYPES - Coiled-Coil-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746378:kaipa
+COMMENT - UniProt: Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-590-MONOMER
+LEFT-END-POSITION - 809
+RIGHT-END-POSITION - 883
+//
+UNIQUE-ID - FTRI07-2155
+TYPES - Coiled-Coil-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746385:kaipa
+COMMENT - UniProt: Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-958-MONOMER
+LEFT-END-POSITION - 167
+RIGHT-END-POSITION - 502
+//
+UNIQUE-ID - FTRI07-2156
+TYPES - Coiled-Coil-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746385:kaipa
+COMMENT - UniProt: Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-958-MONOMER
+LEFT-END-POSITION - 673
+RIGHT-END-POSITION - 1004
+//
+UNIQUE-ID - FTRI07-1891
+TYPES - Repeats
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746376:kaipa
+COMMENT - UniProt: CXXCXGXG motif; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-546-MONOMER
+LEFT-END-POSITION - 148
+RIGHT-END-POSITION - 155
+//
+UNIQUE-ID - FTRI07-1892
+TYPES - Repeats
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746376:kaipa
+COMMENT - UniProt: CXXCXGXG motif; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-546-MONOMER
+LEFT-END-POSITION - 165
+RIGHT-END-POSITION - 172
+//
+UNIQUE-ID - FTRI07-1893
+TYPES - Repeats
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746376:kaipa
+COMMENT - UniProt: CXXCXGXG motif; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-546-MONOMER
+LEFT-END-POSITION - 191
+RIGHT-END-POSITION - 198
+//
+UNIQUE-ID - FTRI07-1894
+TYPES - Repeats
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746376:kaipa
+COMMENT - UniProt: CXXCXGXG motif; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-546-MONOMER
+LEFT-END-POSITION - 205
+RIGHT-END-POSITION - 212
+//
+UNIQUE-ID - FTRI07-1506
+TYPES - Transmembrane-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746322:kaipa
+COMMENT - UniProt: Helical; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1636-MONOMER
+LEFT-END-POSITION - 3
+RIGHT-END-POSITION - 23
+//
+UNIQUE-ID - FTRI07-1962
+TYPES - Transmembrane-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746381:kaipa
+COMMENT - UniProt: Helical; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-703-MONOMER
+LEFT-END-POSITION - 134
+RIGHT-END-POSITION - 154
+//
+UNIQUE-ID - FTRI07-1635
+TYPES - Transmembrane-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746346:kaipa
+COMMENT - UniProt: Helical; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-2181-MONOMER
+LEFT-END-POSITION - 25
+RIGHT-END-POSITION - 45
+//
+UNIQUE-ID - FTRI07-1636
+TYPES - Transmembrane-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746346:kaipa
+COMMENT - UniProt: Helical; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-2181-MONOMER
+LEFT-END-POSITION - 46
+RIGHT-END-POSITION - 66
+//
+UNIQUE-ID - FTRI07-1637
+TYPES - Transmembrane-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746346:kaipa
+COMMENT - UniProt: Helical; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-2181-MONOMER
+LEFT-END-POSITION - 73
+RIGHT-END-POSITION - 93
+//
+UNIQUE-ID - FTRI07-1638
+TYPES - Transmembrane-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746346:kaipa
+COMMENT - UniProt: Helical; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-2181-MONOMER
+LEFT-END-POSITION - 116
+RIGHT-END-POSITION - 136
+//
+UNIQUE-ID - FTRI07-1639
+TYPES - Transmembrane-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746346:kaipa
+COMMENT - UniProt: Helical; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-2181-MONOMER
+LEFT-END-POSITION - 242
+RIGHT-END-POSITION - 262
+//
+UNIQUE-ID - FTRI07-1315
+TYPES - Transmembrane-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746304:kaipa
+COMMENT - UniProt: Helical; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1236-MONOMER
+LEFT-END-POSITION - 6
+RIGHT-END-POSITION - 26
+//
+UNIQUE-ID - FTRI07-1316
+TYPES - Transmembrane-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746304:kaipa
+COMMENT - UniProt: Helical; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1236-MONOMER
+LEFT-END-POSITION - 60
+RIGHT-END-POSITION - 80
+//
+UNIQUE-ID - FTRI07-1317
+TYPES - Transmembrane-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746304:kaipa
+COMMENT - UniProt: Helical; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1236-MONOMER
+LEFT-END-POSITION - 85
+RIGHT-END-POSITION - 105
+//
+UNIQUE-ID - FTRI07-1318
+TYPES - Transmembrane-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746304:kaipa
+COMMENT - UniProt: Helical; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1236-MONOMER
+LEFT-END-POSITION - 124
+RIGHT-END-POSITION - 144
+//
+UNIQUE-ID - FTRI07-1395
+TYPES - Transmembrane-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746308:kaipa
+COMMENT - UniProt: Helical; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1411-MONOMER
+LEFT-END-POSITION - 6
+RIGHT-END-POSITION - 26
+//
+UNIQUE-ID - FTRI07-2090
+TYPES - Transmembrane-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746384:kaipa
+COMMENT - UniProt: Helical; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-909-MONOMER
+LEFT-END-POSITION - 9
+RIGHT-END-POSITION - 29
+//
+UNIQUE-ID - FTRI07-2091
+TYPES - Transmembrane-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746384:kaipa
+COMMENT - UniProt: Helical; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-909-MONOMER
+LEFT-END-POSITION - 34
+RIGHT-END-POSITION - 54
+//
+UNIQUE-ID - FTRI07-2092
+TYPES - Transmembrane-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746384:kaipa
+COMMENT - UniProt: Helical; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-909-MONOMER
+LEFT-END-POSITION - 67
+RIGHT-END-POSITION - 87
+//
+UNIQUE-ID - FTRI07-2093
+TYPES - Transmembrane-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746384:kaipa
+COMMENT - UniProt: Helical; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-909-MONOMER
+LEFT-END-POSITION - 99
+RIGHT-END-POSITION - 119
+//
+UNIQUE-ID - FTRI07-2094
+TYPES - Transmembrane-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746384:kaipa
+COMMENT - UniProt: Helical; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-910-MONOMER
+LEFT-END-POSITION - 1
+RIGHT-END-POSITION - 21
+//
+UNIQUE-ID - FTRI07-2095
+TYPES - Transmembrane-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746384:kaipa
+COMMENT - UniProt: Helical; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-910-MONOMER
+LEFT-END-POSITION - 29
+RIGHT-END-POSITION - 49
+//
+UNIQUE-ID - FTRI07-2096
+TYPES - Transmembrane-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746384:kaipa
+COMMENT - UniProt: Helical; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-910-MONOMER
+LEFT-END-POSITION - 55
+RIGHT-END-POSITION - 75
+//
+UNIQUE-ID - FTRI07-2097
+TYPES - Transmembrane-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746384:kaipa
+COMMENT - UniProt: Helical; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-910-MONOMER
+LEFT-END-POSITION - 87
+RIGHT-END-POSITION - 107
+//
+UNIQUE-ID - FTRI07-1662
+TYPES - Transmembrane-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746347:kaipa
+COMMENT - UniProt: Helical; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-47-MONOMER
+LEFT-END-POSITION - 12
+RIGHT-END-POSITION - 32
+//
+UNIQUE-ID - FTRI07-1663
+TYPES - Transmembrane-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746347:kaipa
+COMMENT - UniProt: Helical; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-47-MONOMER
+LEFT-END-POSITION - 132
+RIGHT-END-POSITION - 152
+//
+UNIQUE-ID - FTRI07-1733
+TYPES - Transmembrane-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746359:kaipa
+COMMENT - UniProt: Helical; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-273-MONOMER
+LEFT-END-POSITION - 19
+RIGHT-END-POSITION - 39
+//
+UNIQUE-ID - FTRI07-1734
+TYPES - Transmembrane-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746359:kaipa
+COMMENT - UniProt: Helical; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-273-MONOMER
+LEFT-END-POSITION - 68
+RIGHT-END-POSITION - 88
+//
+UNIQUE-ID - FTRI07-1735
+TYPES - Transmembrane-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746359:kaipa
+COMMENT - UniProt: Helical; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-273-MONOMER
+LEFT-END-POSITION - 117
+RIGHT-END-POSITION - 137
+//
+UNIQUE-ID - FTRI07-1736
+TYPES - Transmembrane-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746359:kaipa
+COMMENT - UniProt: Helical; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-273-MONOMER
+LEFT-END-POSITION - 150
+RIGHT-END-POSITION - 170
+//
+UNIQUE-ID - FTRI07-1737
+TYPES - Transmembrane-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746359:kaipa
+COMMENT - UniProt: Helical; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-273-MONOMER
+LEFT-END-POSITION - 180
+RIGHT-END-POSITION - 200
+//
+UNIQUE-ID - FTRI07-1738
+TYPES - Transmembrane-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746359:kaipa
+COMMENT - UniProt: Helical; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-273-MONOMER
+LEFT-END-POSITION - 217
+RIGHT-END-POSITION - 237
+//
+UNIQUE-ID - FTRI07-1739
+TYPES - Transmembrane-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746359:kaipa
+COMMENT - UniProt: Helical; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-273-MONOMER
+LEFT-END-POSITION - 270
+RIGHT-END-POSITION - 290
+//
+UNIQUE-ID - FTRI07-1740
+TYPES - Transmembrane-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746359:kaipa
+COMMENT - UniProt: Helical; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-273-MONOMER
+LEFT-END-POSITION - 314
+RIGHT-END-POSITION - 334
+//
+UNIQUE-ID - FTRI07-1741
+TYPES - Transmembrane-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746359:kaipa
+COMMENT - UniProt: Helical; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-273-MONOMER
+LEFT-END-POSITION - 370
+RIGHT-END-POSITION - 390
+//
+UNIQUE-ID - FTRI07-1742
+TYPES - Transmembrane-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746359:kaipa
+COMMENT - UniProt: Helical; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-273-MONOMER
+LEFT-END-POSITION - 391
+RIGHT-END-POSITION - 411
+//
+UNIQUE-ID - FTRI07-1895
+TYPES - Zn-Finger-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746376:kaipa
+COMMENT - UniProt: CR-type; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-546-MONOMER
+LEFT-END-POSITION - 135
+RIGHT-END-POSITION - 217
+//
+UNIQUE-ID - FTRI07-1178
+TYPES - Zn-Finger-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746294:kaipa
+COMMENT - UniProt: CHC2-type; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1085-MONOMER
+LEFT-END-POSITION - 37
+RIGHT-END-POSITION - 61
+//
+UNIQUE-ID - FTRI07-1260
+TYPES - Zn-Finger-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746301:kaipa
+COMMENT - UniProt: FPG-type; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1200-MONOMER
+LEFT-END-POSITION - 238
+RIGHT-END-POSITION - 272
+//
+UNIQUE-ID - FTRI07-1728
+TYPES - Zn-Finger-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746357:kaipa
+COMMENT - UniProt: C4-type; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-235-MONOMER
+LEFT-END-POSITION - 251
+RIGHT-END-POSITION - 278
+//
+UNIQUE-ID - FTRI07-1447
+TYPES - Zn-Finger-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746312:kaipa
+COMMENT - UniProt: C4-type; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1470-MONOMER
+LEFT-END-POSITION - 5
+RIGHT-END-POSITION - 30
+//
+UNIQUE-ID - FTRI07-1730
+TYPES - Zn-Finger-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746357:kaipa
+COMMENT - UniProt: C4-type; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-235-MONOMER
+LEFT-END-POSITION - 740
+RIGHT-END-POSITION - 766
+//
+UNIQUE-ID - FTRI07-1834
+TYPES - Zn-Finger-Regions
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746371:kaipa
+COMMENT - UniProt: C4-type; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-459-MONOMER
+LEFT-END-POSITION - 37
+RIGHT-END-POSITION - 58
+//
+UNIQUE-ID - FTRI07-1870
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746374:kaipa
+COMMENT - UniProt: S-adenosyl-L-methionine; via carbonyl oxygen; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-521-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 78
+//
+UNIQUE-ID - FTRI07-1871
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746374:kaipa
+COMMENT - UniProt: S-adenosyl-L-methionine; via amide nitrogen; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-521-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 102
+//
+UNIQUE-ID - FTRI07-1872
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746374:kaipa
+COMMENT - UniProt: S-adenosyl-L-methionine; via amide nitrogen and carbonyl oxygen; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-521-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 123
+//
+UNIQUE-ID - FTRI07-1873
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746374:kaipa
+COMMENT - UniProt: S-adenosyl-L-methionine; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-521-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 132
+//
+UNIQUE-ID - FTRI07-1530
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746331:kaipa
+COMMENT - UniProt: Substrate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1753-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 277
+//
+UNIQUE-ID - FTRI07-1531
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746331:kaipa
+COMMENT - UniProt: Substrate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1753-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 297
+//
+UNIQUE-ID - FTRI07-1532
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746331:kaipa
+COMMENT - UniProt: Substrate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1753-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 303
+//
+UNIQUE-ID - FTRI07-1811
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746369:kaipa
+COMMENT - UniProt: NADP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-414-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 102
+//
+UNIQUE-ID - FTRI07-1812
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746369:kaipa
+COMMENT - UniProt: Substrate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-414-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 192
+//
+UNIQUE-ID - FTRI07-1813
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746369:kaipa
+COMMENT - UniProt: Substrate; via amide nitrogen; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-414-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 263
+//
+UNIQUE-ID - FTRI07-1814
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746369:kaipa
+COMMENT - UniProt: Substrate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-414-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 290
+//
+UNIQUE-ID - FTRI07-1815
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746369:kaipa
+COMMENT - UniProt: Substrate; shared with dimeric partner; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-414-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 449
+//
+UNIQUE-ID - FTRI07-1816
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746369:kaipa
+COMMENT - UniProt: Substrate; shared with dimeric partner; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-414-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 455
+//
+UNIQUE-ID - FTRI07-1920
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746378:kaipa
+COMMENT - UniProt: ATP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-590-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 523
+//
+UNIQUE-ID - FTRI07-1552
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746335:kaipa
+COMMENT - UniProt: Substrate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1908-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 9
+//
+UNIQUE-ID - FTRI07-1553
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746335:kaipa
+COMMENT - UniProt: Substrate; via amide nitrogen; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1908-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 178
+//
+UNIQUE-ID - FTRI07-1940
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746380:kaipa
+COMMENT - UniProt: ATP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-611-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 271
+//
+UNIQUE-ID - FTRI07-1107
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746292:kaipa
+COMMENT - UniProt: Substrate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1021-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 298
+//
+UNIQUE-ID - FTRI07-1108
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746292:kaipa
+COMMENT - UniProt: Substrate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1021-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 334
+//
+UNIQUE-ID - FTRI07-1109
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746292:kaipa
+COMMENT - UniProt: Substrate; via carbonyl oxygen; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1021-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 456
+//
+UNIQUE-ID - FTRI07-1110
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746292:kaipa
+COMMENT - UniProt: Substrate; via amide nitrogen; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1021-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 457
+//
+UNIQUE-ID - FTRI07-1111
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746292:kaipa
+COMMENT - UniProt: Substrate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1021-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 458
+//
+UNIQUE-ID - FTRI07-1126
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746293:kaipa
+COMMENT - UniProt: Phosphate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1041-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 99
+//
+UNIQUE-ID - FTRI07-1127
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746293:kaipa
+COMMENT - UniProt: Substrate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1041-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 155
+//
+UNIQUE-ID - FTRI07-1128
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746293:kaipa
+COMMENT - UniProt: Substrate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1041-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 245
+//
+UNIQUE-ID - FTRI07-1129
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746293:kaipa
+COMMENT - UniProt: NADP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1041-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 325
+//
+UNIQUE-ID - FTRI07-1144
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746293:kaipa
+COMMENT - UniProt: Formyltetrahydrofolate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1043-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 25
+//
+UNIQUE-ID - FTRI07-1145
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746293:kaipa
+COMMENT - UniProt: Formyltetrahydrofolate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1043-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 87
+//
+UNIQUE-ID - FTRI07-1146
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746293:kaipa
+COMMENT - UniProt: Formyltetrahydrofolate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1043-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 126
+//
+UNIQUE-ID - FTRI07-1147
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746293:kaipa
+COMMENT - UniProt: Formyltetrahydrofolate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1043-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 457
+//
+UNIQUE-ID - FTRI07-1158
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746293:kaipa
+COMMENT - UniProt: S-adenosyl-L-methionine; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1047-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 141
+//
+UNIQUE-ID - FTRI07-1159
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746293:kaipa
+COMMENT - UniProt: S-adenosyl-L-methionine; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1047-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 182
+//
+UNIQUE-ID - FTRI07-1973
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746381:kaipa
+COMMENT - UniProt: 5-phosphoribose 1-diphosphate; shared with dimeric partner; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-705-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 96
+//
+UNIQUE-ID - FTRI07-1974
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746381:kaipa
+COMMENT - UniProt: 5-phosphoribose 1-diphosphate; shared with dimeric partner; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-705-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 100
+//
+UNIQUE-ID - FTRI07-1975
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746381:kaipa
+COMMENT - UniProt: 5-phosphoribose 1-diphosphate; shared with dimeric partner; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-705-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 102
+//
+UNIQUE-ID - FTRI07-1976
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746381:kaipa
+COMMENT - UniProt: Orotate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-705-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 126
+//
+UNIQUE-ID - FTRI07-1581
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746341:kaipa
+COMMENT - UniProt: ATP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-2026-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 258
+//
+UNIQUE-ID - FTRI07-1988
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: HMP-PP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-723-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 74
+//
+UNIQUE-ID - FTRI07-1989
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: HMP-PP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-723-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 112
+//
+UNIQUE-ID - FTRI07-1990
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: HMP-PP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-723-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 141
+//
+UNIQUE-ID - FTRI07-1991
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: THZ-P; via amide nitrogen; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-723-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 170
+//
+UNIQUE-ID - FTRI07-2000
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: HMP-PP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-730-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 70
+//
+UNIQUE-ID - FTRI07-2001
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: HMP-PP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-730-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 109
+//
+UNIQUE-ID - FTRI07-2002
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: HMP-PP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-730-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 138
+//
+UNIQUE-ID - FTRI07-2003
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: THZ-P; via amide nitrogen; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-730-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 165
+//
+UNIQUE-ID - FTRI07-2010
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: 5-phospho-alpha-D-ribose 1-diphosphate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-749-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 86
+//
+UNIQUE-ID - FTRI07-2011
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: 5-phospho-alpha-D-ribose 1-diphosphate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-749-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 111
+//
+UNIQUE-ID - FTRI07-2012
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: Uracil; via amide nitrogen; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-749-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 201
+//
+UNIQUE-ID - FTRI07-2013
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: 5-phospho-alpha-D-ribose 1-diphosphate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-749-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 207
+//
+UNIQUE-ID - FTRI07-1222
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746297:kaipa
+COMMENT - UniProt: GTP; via amide nitrogen; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1149-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 175
+//
+UNIQUE-ID - FTRI07-2027
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: Substrate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-766-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 45
+//
+UNIQUE-ID - FTRI07-2028
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: FMN; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-766-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 128
+//
+UNIQUE-ID - FTRI07-2029
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: FMN; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-766-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 165
+//
+UNIQUE-ID - FTRI07-2030
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: FMN; via carbonyl oxygen; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-766-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 193
+//
+UNIQUE-ID - FTRI07-2031
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: FMN; via amide nitrogen; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-766-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 220
+//
+UNIQUE-ID - FTRI07-1265
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746301:kaipa
+COMMENT - UniProt: DNA; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1200-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 91
+//
+UNIQUE-ID - FTRI07-1266
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746301:kaipa
+COMMENT - UniProt: DNA; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1200-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 110
+//
+UNIQUE-ID - FTRI07-1281
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746302:kaipa
+COMMENT - UniProt: FMN; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1206-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 23
+//
+UNIQUE-ID - FTRI07-1282
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746302:kaipa
+COMMENT - UniProt: Substrate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1206-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 47
+//
+UNIQUE-ID - FTRI07-1283
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746302:kaipa
+COMMENT - UniProt: FMN; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1206-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 103
+//
+UNIQUE-ID - FTRI07-1284
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746302:kaipa
+COMMENT - UniProt: FMN; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1206-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 131
+//
+UNIQUE-ID - FTRI07-1285
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746302:kaipa
+COMMENT - UniProt: FMN; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1206-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 171
+//
+UNIQUE-ID - FTRI07-1286
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746302:kaipa
+COMMENT - UniProt: FMN; via carbonyl oxygen; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1206-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 197
+//
+UNIQUE-ID - FTRI07-1287
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746302:kaipa
+COMMENT - UniProt: FMN; via amide nitrogen; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1206-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 223
+//
+UNIQUE-ID - FTRI07-1299
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746303:kaipa
+COMMENT - UniProt: UMP; via amide nitrogen; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1225-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 54
+//
+UNIQUE-ID - FTRI07-1300
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746303:kaipa
+COMMENT - UniProt: ATP; via amide nitrogen; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1225-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 55
+//
+UNIQUE-ID - FTRI07-1301
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746303:kaipa
+COMMENT - UniProt: ATP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1225-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 59
+//
+UNIQUE-ID - FTRI07-1302
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746303:kaipa
+COMMENT - UniProt: UMP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1225-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 74
+//
+UNIQUE-ID - FTRI07-1303
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746303:kaipa
+COMMENT - UniProt: ATP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1225-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 163
+//
+UNIQUE-ID - FTRI07-1304
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746303:kaipa
+COMMENT - UniProt: ATP; via amide nitrogen and carbonyl oxygen; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1225-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 169
+//
+UNIQUE-ID - FTRI07-1305
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746303:kaipa
+COMMENT - UniProt: ATP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1225-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 172
+//
+UNIQUE-ID - FTRI07-1654
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746346:kaipa
+COMMENT - UniProt: NAD; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-2190-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 253
+//
+UNIQUE-ID - FTRI07-1655
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746346:kaipa
+COMMENT - UniProt: IMP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-2190-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 308
+//
+UNIQUE-ID - FTRI07-1656
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746346:kaipa
+COMMENT - UniProt: IMP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-2190-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 421
+//
+UNIQUE-ID - FTRI07-1659
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746346:kaipa
+COMMENT - UniProt: ATP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-2191-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 205
+//
+UNIQUE-ID - FTRI07-1324
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746305:kaipa
+COMMENT - UniProt: S-adenosylmethioninamine; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1246-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 31
+//
+UNIQUE-ID - FTRI07-1325
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746305:kaipa
+COMMENT - UniProt: Putrescine; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1246-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 61
+//
+UNIQUE-ID - FTRI07-1326
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746305:kaipa
+COMMENT - UniProt: S-adenosylmethioninamine; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1246-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 86
+//
+UNIQUE-ID - FTRI07-1327
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746305:kaipa
+COMMENT - UniProt: S-adenosylmethioninamine; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1246-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 106
+//
+UNIQUE-ID - FTRI07-1328
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746305:kaipa
+COMMENT - UniProt: Putrescine; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1246-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 158
+//
+UNIQUE-ID - FTRI07-2084
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746383:kaipa
+COMMENT - UniProt: Substrate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-882-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 28
+//
+UNIQUE-ID - FTRI07-2085
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746383:kaipa
+COMMENT - UniProt: Substrate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-882-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 52
+//
+UNIQUE-ID - FTRI07-2086
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746383:kaipa
+COMMENT - UniProt: Substrate; via amide nitrogen; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-882-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 73
+//
+UNIQUE-ID - FTRI07-2087
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746383:kaipa
+COMMENT - UniProt: ATP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-882-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 113
+//
+UNIQUE-ID - FTRI07-2088
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746383:kaipa
+COMMENT - UniProt: Substrate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-882-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 131
+//
+UNIQUE-ID - FTRI07-1716
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746353:kaipa
+COMMENT - UniProt: FAD; via amide nitrogen and carbonyl oxygen; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-166-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 127
+//
+UNIQUE-ID - FTRI07-1717
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746353:kaipa
+COMMENT - UniProt: FAD; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-166-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 182
+//
+UNIQUE-ID - FTRI07-1718
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746353:kaipa
+COMMENT - UniProt: FAD; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-166-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 373
+//
+UNIQUE-ID - FTRI07-1409
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746309:kaipa
+COMMENT - UniProt: UDP-MurNAc-L-Ala-D-Glu; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1429-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 42
+//
+UNIQUE-ID - FTRI07-1410
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746309:kaipa
+COMMENT - UniProt: UDP-MurNAc-L-Ala-D-Glu; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1429-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 187
+//
+UNIQUE-ID - FTRI07-1411
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746309:kaipa
+COMMENT - UniProt: UDP-MurNAc-L-Ala-D-Glu; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1429-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 195
+//
+UNIQUE-ID - FTRI07-1421
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746311:kaipa
+COMMENT - UniProt: ATP or CTP; via amide nitrogen; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1457-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 27
+//
+UNIQUE-ID - FTRI07-1422
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746311:kaipa
+COMMENT - UniProt: ATP or CTP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1457-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 30
+//
+UNIQUE-ID - FTRI07-1423
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746311:kaipa
+COMMENT - UniProt: ATP or CTP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1457-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 111
+//
+UNIQUE-ID - FTRI07-1424
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746311:kaipa
+COMMENT - UniProt: ATP or CTP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1457-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 154
+//
+UNIQUE-ID - FTRI07-1425
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746311:kaipa
+COMMENT - UniProt: ATP or CTP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1457-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 157
+//
+UNIQUE-ID - FTRI07-1426
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746311:kaipa
+COMMENT - UniProt: ATP or CTP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1457-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 160
+//
+UNIQUE-ID - FTRI07-1427
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746311:kaipa
+COMMENT - UniProt: ATP or CTP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1457-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 163
+//
+UNIQUE-ID - FTRI07-1680
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746347:kaipa
+COMMENT - UniProt: IMP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-58-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 142
+//
+UNIQUE-ID - FTRI07-1681
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746347:kaipa
+COMMENT - UniProt: IMP; shared with dimeric partner; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-58-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 156
+//
+UNIQUE-ID - FTRI07-1682
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746347:kaipa
+COMMENT - UniProt: IMP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-58-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 237
+//
+UNIQUE-ID - FTRI07-1683
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746347:kaipa
+COMMENT - UniProt: IMP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-58-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 252
+//
+UNIQUE-ID - FTRI07-1684
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746347:kaipa
+COMMENT - UniProt: IMP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-58-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 316
+//
+UNIQUE-ID - FTRI07-1685
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746347:kaipa
+COMMENT - UniProt: GTP; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-58-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 318
+//
+UNIQUE-ID - FTRI07-1434
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746311:kaipa
+COMMENT - UniProt: FAD; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1464-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 34
+//
+UNIQUE-ID - FTRI07-1435
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746311:kaipa
+COMMENT - UniProt: FAD; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1464-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 42
+//
+UNIQUE-ID - FTRI07-1436
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746311:kaipa
+COMMENT - UniProt: FAD; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1464-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 47
+//
+UNIQUE-ID - FTRI07-1437
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746311:kaipa
+COMMENT - UniProt: FAD; via amide nitrogen and carbonyl oxygen; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1464-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 87
+//
+UNIQUE-ID - FTRI07-1438
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746311:kaipa
+COMMENT - UniProt: FAD; via amide nitrogen; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1464-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 120
+//
+UNIQUE-ID - FTRI07-1439
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746311:kaipa
+COMMENT - UniProt: FAD; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1464-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 279
+//
+UNIQUE-ID - FTRI07-1440
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746311:kaipa
+COMMENT - UniProt: FAD; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1464-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 320
+//
+UNIQUE-ID - FTRI07-2140
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746385:kaipa
+COMMENT - UniProt: Substrate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-947-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 94
+//
+UNIQUE-ID - FTRI07-2141
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746385:kaipa
+COMMENT - UniProt: Substrate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-947-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 104
+//
+UNIQUE-ID - FTRI07-2142
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746385:kaipa
+COMMENT - UniProt: Substrate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-947-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 132
+//
+UNIQUE-ID - FTRI07-1451
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746312:kaipa
+COMMENT - UniProt: Substrate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1475-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 10
+//
+UNIQUE-ID - FTRI07-1452
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746312:kaipa
+COMMENT - UniProt: Substrate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1475-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 12
+//
+UNIQUE-ID - FTRI07-1697
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746349:kaipa
+COMMENT - UniProt: Substrate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-91-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 11
+//
+UNIQUE-ID - FTRI07-1698
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746349:kaipa
+COMMENT - UniProt: Substrate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-91-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 14
+//
+UNIQUE-ID - FTRI07-1699
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746349:kaipa
+COMMENT - UniProt: Substrate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-91-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 41
+//
+UNIQUE-ID - FTRI07-1374
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746306:kaipa
+COMMENT - UniProt: NAD(P)HX; via amide nitrogen; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1340-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 101
+//
+UNIQUE-ID - FTRI07-1375
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746306:kaipa
+COMMENT - UniProt: NAD(P)HX; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1340-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 219
+//
+UNIQUE-ID - FTRI07-1759
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746362:kaipa
+COMMENT - UniProt: Substrate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-303-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 33
+//
+UNIQUE-ID - FTRI07-1760
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746362:kaipa
+COMMENT - UniProt: Substrate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-303-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 41
+//
+UNIQUE-ID - FTRI07-1761
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746362:kaipa
+COMMENT - UniProt: Substrate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-303-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 45
+//
+UNIQUE-ID - FTRI07-1762
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746362:kaipa
+COMMENT - UniProt: Substrate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-303-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 77
+//
+UNIQUE-ID - FTRI07-1763
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746362:kaipa
+COMMENT - UniProt: Substrate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-303-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 79
+//
+UNIQUE-ID - FTRI07-1764
+TYPES - Amino-Acid-Sites-That-Bind
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746362:kaipa
+COMMENT - UniProt: Substrate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-303-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 200
+//
+UNIQUE-ID - FTRI07-1856
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746373:kaipa
+COMMENT - UniProt: Magnesium; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-493-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 18
+//
+UNIQUE-ID - FTRI07-1857
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746373:kaipa
+COMMENT - UniProt: Magnesium; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-493-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 116
+//
+UNIQUE-ID - FTRI07-1897
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746376:kaipa
+COMMENT - UniProt: Zinc 1; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-546-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 148
+//
+UNIQUE-ID - FTRI07-1898
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746376:kaipa
+COMMENT - UniProt: Zinc 1; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-546-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 151
+//
+UNIQUE-ID - FTRI07-1899
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746376:kaipa
+COMMENT - UniProt: Zinc 2; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-546-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 165
+//
+UNIQUE-ID - FTRI07-1900
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746376:kaipa
+COMMENT - UniProt: Zinc 2; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-546-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 168
+//
+UNIQUE-ID - FTRI07-1901
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746377:kaipa
+COMMENT - UniProt: Zinc 2; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-546-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 191
+//
+UNIQUE-ID - FTRI07-1902
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746377:kaipa
+COMMENT - UniProt: Zinc 2; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-546-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 194
+//
+UNIQUE-ID - FTRI07-1903
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746377:kaipa
+COMMENT - UniProt: Zinc 1; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-546-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 205
+//
+UNIQUE-ID - FTRI07-1904
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746377:kaipa
+COMMENT - UniProt: Zinc 1; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-546-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 208
+//
+UNIQUE-ID - FTRI07-1529
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746331:kaipa
+COMMENT - UniProt: Magnesium or manganese; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1753-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 190
+//
+UNIQUE-ID - FTRI07-1921
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746379:kaipa
+COMMENT - UniProt: Magnesium; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-600-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 276
+//
+UNIQUE-ID - FTRI07-1925
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746379:kaipa
+COMMENT - UniProt: Magnesium; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-602-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 459
+//
+UNIQUE-ID - FTRI07-1926
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746379:kaipa
+COMMENT - UniProt: Magnesium; via carbonyl oxygen; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-602-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 465
+//
+UNIQUE-ID - FTRI07-1927
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746379:kaipa
+COMMENT - UniProt: Magnesium; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-602-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 468
+//
+UNIQUE-ID - FTRI07-1928
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746379:kaipa
+COMMENT - UniProt: Magnesium; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-602-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 469
+//
+UNIQUE-ID - FTRI07-1929
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746380:kaipa
+COMMENT - UniProt: Zinc; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-606-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 636
+//
+UNIQUE-ID - FTRI07-1930
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746380:kaipa
+COMMENT - UniProt: Zinc; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-606-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 638
+//
+UNIQUE-ID - FTRI07-1931
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746380:kaipa
+COMMENT - UniProt: Zinc; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-606-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 721
+//
+UNIQUE-ID - FTRI07-1548
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746335:kaipa
+COMMENT - UniProt: Divalent metal cation; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1908-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 34
+//
+UNIQUE-ID - FTRI07-1549
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746335:kaipa
+COMMENT - UniProt: Divalent metal cation; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1908-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 36
+//
+UNIQUE-ID - FTRI07-1550
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746335:kaipa
+COMMENT - UniProt: Divalent metal cation; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1908-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 67
+//
+UNIQUE-ID - FTRI07-1551
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746335:kaipa
+COMMENT - UniProt: Divalent metal cation; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1908-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 176
+//
+UNIQUE-ID - FTRI07-1936
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746380:kaipa
+COMMENT - UniProt: Zinc; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-611-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 28
+//
+UNIQUE-ID - FTRI07-1937
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746380:kaipa
+COMMENT - UniProt: Zinc; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-611-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 211
+//
+UNIQUE-ID - FTRI07-1938
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746380:kaipa
+COMMENT - UniProt: Zinc; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-611-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 236
+//
+UNIQUE-ID - FTRI07-1939
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746380:kaipa
+COMMENT - UniProt: Zinc; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-611-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 240
+//
+UNIQUE-ID - FTRI07-1558
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746336:kaipa
+COMMENT - UniProt: Zinc; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1909-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 237
+//
+UNIQUE-ID - FTRI07-1559
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746336:kaipa
+COMMENT - UniProt: Zinc; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1909-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 242
+//
+UNIQUE-ID - FTRI07-1560
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746336:kaipa
+COMMENT - UniProt: Zinc; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1909-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 244
+//
+UNIQUE-ID - FTRI07-1561
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746336:kaipa
+COMMENT - UniProt: Zinc; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1909-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 250
+//
+UNIQUE-ID - FTRI07-1105
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746292:kaipa
+COMMENT - UniProt: Magnesium; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1021-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 435
+//
+UNIQUE-ID - FTRI07-1106
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746292:kaipa
+COMMENT - UniProt: Magnesium; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1021-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 459
+//
+UNIQUE-ID - FTRI07-1138
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746293:kaipa
+COMMENT - UniProt: Potassium; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1043-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 233
+//
+UNIQUE-ID - FTRI07-1139
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746293:kaipa
+COMMENT - UniProt: Magnesium; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1043-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 237
+//
+UNIQUE-ID - FTRI07-1140
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746293:kaipa
+COMMENT - UniProt: Potassium; via carbonyl oxygen; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1043-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 252
+//
+UNIQUE-ID - FTRI07-1141
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746293:kaipa
+COMMENT - UniProt: Potassium; via carbonyl oxygen; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1043-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 254
+//
+UNIQUE-ID - FTRI07-1142
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746293:kaipa
+COMMENT - UniProt: Potassium; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1043-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 257
+//
+UNIQUE-ID - FTRI07-1143
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746293:kaipa
+COMMENT - UniProt: Magnesium; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1043-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 258
+//
+UNIQUE-ID - FTRI07-1151
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746293:kaipa
+COMMENT - UniProt: Zinc; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1045-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 143
+//
+UNIQUE-ID - FTRI07-1152
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746293:kaipa
+COMMENT - UniProt: Zinc; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1045-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 146
+//
+UNIQUE-ID - FTRI07-1153
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746293:kaipa
+COMMENT - UniProt: Zinc; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1045-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 180
+//
+UNIQUE-ID - FTRI07-1154
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746293:kaipa
+COMMENT - UniProt: Zinc; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1045-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 183
+//
+UNIQUE-ID - FTRI07-1977
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746381:kaipa
+COMMENT - UniProt: Magnesium 1; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-718-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 409
+//
+UNIQUE-ID - FTRI07-1978
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746381:kaipa
+COMMENT - UniProt: Magnesium 1; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-718-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 416
+//
+UNIQUE-ID - FTRI07-1986
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: Magnesium; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-723-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 75
+//
+UNIQUE-ID - FTRI07-1987
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: Magnesium; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-723-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 94
+//
+UNIQUE-ID - FTRI07-1187
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746295:kaipa
+COMMENT - UniProt: Magnesium; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1110-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 131
+//
+UNIQUE-ID - FTRI07-1188
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746295:kaipa
+COMMENT - UniProt: Magnesium; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1110-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 133
+//
+UNIQUE-ID - FTRI07-1189
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746295:kaipa
+COMMENT - UniProt: Magnesium; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1110-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 142
+//
+UNIQUE-ID - FTRI07-1190
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746295:kaipa
+COMMENT - UniProt: Magnesium; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1110-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 146
+//
+UNIQUE-ID - FTRI07-1998
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: Magnesium; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-730-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 71
+//
+UNIQUE-ID - FTRI07-1999
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: Magnesium; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-730-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 90
+//
+UNIQUE-ID - FTRI07-2005
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: Zinc; catalytic; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-748-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 72
+//
+UNIQUE-ID - FTRI07-2006
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: Zinc; catalytic; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-748-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 99
+//
+UNIQUE-ID - FTRI07-2007
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: Zinc; catalytic; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-748-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 102
+//
+UNIQUE-ID - FTRI07-1232
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746298:kaipa
+COMMENT - UniProt: Zinc 1; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1159-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 59
+//
+UNIQUE-ID - FTRI07-1233
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746298:kaipa
+COMMENT - UniProt: Zinc 1; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1159-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 61
+//
+UNIQUE-ID - FTRI07-1234
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746298:kaipa
+COMMENT - UniProt: Zinc 2; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1159-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 177
+//
+UNIQUE-ID - FTRI07-1235
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746298:kaipa
+COMMENT - UniProt: Zinc 2; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1159-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 230
+//
+UNIQUE-ID - FTRI07-1236
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746298:kaipa
+COMMENT - UniProt: Zinc 1; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1159-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 303
+//
+UNIQUE-ID - FTRI07-1292
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746302:kaipa
+COMMENT - UniProt: Iron-sulfur (2Fe-2S); Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1207-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 230
+//
+UNIQUE-ID - FTRI07-1293
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746302:kaipa
+COMMENT - UniProt: Iron-sulfur (2Fe-2S); Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1207-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 235
+//
+UNIQUE-ID - FTRI07-1294
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746302:kaipa
+COMMENT - UniProt: Iron-sulfur (2Fe-2S); Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1207-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 238
+//
+UNIQUE-ID - FTRI07-1295
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746302:kaipa
+COMMENT - UniProt: Iron-sulfur (2Fe-2S); Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1207-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 253
+//
+UNIQUE-ID - FTRI07-1385
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746307:kaipa
+COMMENT - UniProt: Zinc; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1375-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 160
+//
+UNIQUE-ID - FTRI07-1648
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746346:kaipa
+COMMENT - UniProt: Potassium; via carbonyl oxygen; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-2190-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 305
+//
+UNIQUE-ID - FTRI07-1649
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746346:kaipa
+COMMENT - UniProt: Potassium; via carbonyl oxygen; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-2190-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 307
+//
+UNIQUE-ID - FTRI07-1650
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746346:kaipa
+COMMENT - UniProt: Potassium; via carbonyl oxygen; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-2190-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 310
+//
+UNIQUE-ID - FTRI07-1651
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746346:kaipa
+COMMENT - UniProt: Potassium; via carbonyl oxygen; shared with tetrameric partner; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-2190-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 475
+//
+UNIQUE-ID - FTRI07-1652
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746346:kaipa
+COMMENT - UniProt: Potassium; via carbonyl oxygen; shared with tetrameric partner; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-2190-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 476
+//
+UNIQUE-ID - FTRI07-1653
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746346:kaipa
+COMMENT - UniProt: Potassium; via carbonyl oxygen; shared with tetrameric partner; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-2190-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 477
+//
+UNIQUE-ID - FTRI07-2074
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746383:kaipa
+COMMENT - UniProt: Zinc; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-870-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 567
+//
+UNIQUE-ID - FTRI07-2075
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746383:kaipa
+COMMENT - UniProt: Zinc; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-870-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 571
+//
+UNIQUE-ID - FTRI07-2076
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746383:kaipa
+COMMENT - UniProt: Zinc; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-870-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 669
+//
+UNIQUE-ID - FTRI07-2077
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746383:kaipa
+COMMENT - UniProt: Zinc; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-870-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 673
+//
+UNIQUE-ID - FTRI07-2083
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746383:kaipa
+COMMENT - UniProt: Magnesium; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-882-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 14
+//
+UNIQUE-ID - FTRI07-1666
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746347:kaipa
+COMMENT - UniProt: Zinc; catalytic; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-47-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 449
+//
+UNIQUE-ID - FTRI07-1667
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746347:kaipa
+COMMENT - UniProt: Zinc; catalytic; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-47-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 453
+//
+UNIQUE-ID - FTRI07-1668
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746347:kaipa
+COMMENT - UniProt: Zinc; catalytic; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-47-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 525
+//
+UNIQUE-ID - FTRI07-1419
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746311:kaipa
+COMMENT - UniProt: Magnesium; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1457-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 40
+//
+UNIQUE-ID - FTRI07-1420
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746311:kaipa
+COMMENT - UniProt: Magnesium; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1457-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 42
+//
+UNIQUE-ID - FTRI07-1678
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746347:kaipa
+COMMENT - UniProt: Magnesium; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-58-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 27
+//
+UNIQUE-ID - FTRI07-1679
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746347:kaipa
+COMMENT - UniProt: Magnesium; via carbonyl oxygen; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-58-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 54
+//
+UNIQUE-ID - FTRI07-1687
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746347:kaipa
+COMMENT - UniProt: Magnesium; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-66-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 130
+//
+UNIQUE-ID - FTRI07-1688
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746347:kaipa
+COMMENT - UniProt: Magnesium; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-66-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 132
+//
+UNIQUE-ID - FTRI07-1689
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746347:kaipa
+COMMENT - UniProt: Magnesium; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-66-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 141
+//
+UNIQUE-ID - FTRI07-1690
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746347:kaipa
+COMMENT - UniProt: Magnesium; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-66-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 145
+//
+UNIQUE-ID - FTRI07-2137
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746385:kaipa
+COMMENT - UniProt: Magnesium or manganese; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-947-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 216
+//
+UNIQUE-ID - FTRI07-2138
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746385:kaipa
+COMMENT - UniProt: Magnesium or manganese; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-947-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 240
+//
+UNIQUE-ID - FTRI07-2139
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746385:kaipa
+COMMENT - UniProt: Magnesium or manganese; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-947-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 244
+//
+UNIQUE-ID - FTRI07-1695
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746349:kaipa
+COMMENT - UniProt: Magnesium or manganese 2; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-90-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 284
+//
+UNIQUE-ID - FTRI07-1696
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746349:kaipa
+COMMENT - UniProt: Magnesium or manganese 2; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-90-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 286
+//
+UNIQUE-ID - FTRI07-1749
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746361:kaipa
+COMMENT - UniProt: Zinc; catalytic; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-296-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 170
+//
+UNIQUE-ID - FTRI07-1750
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746361:kaipa
+COMMENT - UniProt: Zinc; catalytic; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-296-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 253
+//
+UNIQUE-ID - FTRI07-1751
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746361:kaipa
+COMMENT - UniProt: Zinc; catalytic; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-296-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 271
+//
+UNIQUE-ID - FTRI07-1757
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746362:kaipa
+COMMENT - UniProt: Magnesium; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-303-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 28
+//
+UNIQUE-ID - FTRI07-1758
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746362:kaipa
+COMMENT - UniProt: Magnesium; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-303-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 219
+//
+UNIQUE-ID - FTRI07-1835
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746371:kaipa
+COMMENT - UniProt: Zinc; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-459-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 37
+//
+UNIQUE-ID - FTRI07-1836
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746371:kaipa
+COMMENT - UniProt: Zinc; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-459-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 40
+//
+UNIQUE-ID - FTRI07-1837
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746371:kaipa
+COMMENT - UniProt: Zinc; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-459-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 55
+//
+UNIQUE-ID - FTRI07-1838
+TYPES - Metal-Binding-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746371:kaipa
+COMMENT - UniProt: Zinc; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-459-MONOMER
+POSSIBLE-FEATURE-STATES - :UNBOUND
+POSSIBLE-FEATURE-STATES - :BOUND
+RESIDUE-NUMBER - 58
+//
+UNIQUE-ID - FTRI07-1858
+TYPES - Amino-Acid-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746373:kaipa
+COMMENT - UniProt: Substrate discrimination; Sequence Annotation Type: site; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-493-MONOMER
+RESIDUE-NUMBER - 23
+//
+UNIQUE-ID - FTRI07-2143
+TYPES - Amino-Acid-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746385:kaipa
+COMMENT - UniProt: Important for catalysis; Sequence Annotation Type: site; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-947-MONOMER
+RESIDUE-NUMBER - 139
+//
+UNIQUE-ID - FTRI07-2144
+TYPES - Amino-Acid-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746385:kaipa
+COMMENT - UniProt: Important for catalysis; Sequence Annotation Type: site; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-947-MONOMER
+RESIDUE-NUMBER - 184
+//
+UNIQUE-ID - FTRI07-1855
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746373:kaipa
+COMMENT - UniProt: Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-493-MONOMER
+RESIDUE-NUMBER - 117
+//
+UNIQUE-ID - FTRI07-1859
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746373:kaipa
+COMMENT - UniProt: S-acetylcysteine intermediate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-494-MONOMER
+RESIDUE-NUMBER - 415
+//
+UNIQUE-ID - FTRI07-1860
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746373:kaipa
+COMMENT - UniProt: Cysteine radical intermediate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-494-MONOMER
+RESIDUE-NUMBER - 416
+//
+UNIQUE-ID - FTRI07-1779
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746366:kaipa
+COMMENT - UniProt: Tele-phosphohistidine intermediate; by HPr; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-353-MONOMER
+RESIDUE-NUMBER - 78
+//
+UNIQUE-ID - FTRI07-1862
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746373:kaipa
+COMMENT - UniProt: Tele-phosphohistidine intermediate; by HPr; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-511-MONOMER
+RESIDUE-NUMBER - 79
+//
+UNIQUE-ID - FTRI07-1863
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746373:kaipa
+COMMENT - UniProt: Proton donor; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-512-MONOMER
+RESIDUE-NUMBER - 164
+//
+UNIQUE-ID - FTRI07-1864
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746373:kaipa
+COMMENT - UniProt: Nucleophile; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-512-MONOMER
+RESIDUE-NUMBER - 378
+//
+UNIQUE-ID - FTRI07-1877
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746374:kaipa
+COMMENT - UniProt: Nucleophile; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-527-MONOMER
+RESIDUE-NUMBER - 382
+//
+UNIQUE-ID - FTRI07-1878
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746374:kaipa
+COMMENT - UniProt: Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-527-MONOMER
+RESIDUE-NUMBER - 509
+//
+UNIQUE-ID - FTRI07-1879
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746374:kaipa
+COMMENT - UniProt: Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-527-MONOMER
+RESIDUE-NUMBER - 511
+//
+UNIQUE-ID - FTRI07-1519
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746331:kaipa
+COMMENT - UniProt: O-(3'-phospho-DNA)-tyrosine intermediate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1750-MONOMER
+RESIDUE-NUMBER - 245
+//
+UNIQUE-ID - FTRI07-1809
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746369:kaipa
+COMMENT - UniProt: Proton acceptor; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-414-MONOMER
+RESIDUE-NUMBER - 184
+//
+UNIQUE-ID - FTRI07-1810
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746369:kaipa
+COMMENT - UniProt: Proton donor; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-414-MONOMER
+RESIDUE-NUMBER - 191
+//
+UNIQUE-ID - FTRI07-1534
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746332:kaipa
+COMMENT - UniProt: Proton donor; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1891-MONOMER
+RESIDUE-NUMBER - 120
+//
+UNIQUE-ID - FTRI07-1095
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746291:kaipa
+COMMENT - UniProt: O-(5'-phospho-DNA)-tyrosine intermediate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-985-MONOMER
+RESIDUE-NUMBER - 120
+//
+UNIQUE-ID - FTRI07-1096
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746291:kaipa
+COMMENT - UniProt: Nucleophile; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-990-MONOMER
+RESIDUE-NUMBER - 38
+//
+UNIQUE-ID - FTRI07-1546
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746335:kaipa
+COMMENT - UniProt: Proton acceptor; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1908-MONOMER
+RESIDUE-NUMBER - 36
+//
+UNIQUE-ID - FTRI07-1547
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746335:kaipa
+COMMENT - UniProt: Proton donor; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1908-MONOMER
+RESIDUE-NUMBER - 176
+//
+UNIQUE-ID - FTRI07-1941
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746380:kaipa
+COMMENT - UniProt: Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-612-MONOMER
+RESIDUE-NUMBER - 17
+//
+UNIQUE-ID - FTRI07-1100
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746292:kaipa
+COMMENT - UniProt: Tele-phosphohistidine intermediate; by HPr; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1012-MONOMER
+RESIDUE-NUMBER - 78
+//
+UNIQUE-ID - FTRI07-1101
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746292:kaipa
+COMMENT - UniProt: Proton donor; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1014-MONOMER
+RESIDUE-NUMBER - 160
+//
+UNIQUE-ID - FTRI07-1102
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746292:kaipa
+COMMENT - UniProt: Nucleophile; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1014-MONOMER
+RESIDUE-NUMBER - 375
+//
+UNIQUE-ID - FTRI07-1103
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746292:kaipa
+COMMENT - UniProt: Tele-phosphohistidine intermediate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1021-MONOMER
+RESIDUE-NUMBER - 191
+//
+UNIQUE-ID - FTRI07-1104
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746292:kaipa
+COMMENT - UniProt: Proton donor; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1021-MONOMER
+RESIDUE-NUMBER - 506
+//
+UNIQUE-ID - FTRI07-1124
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746293:kaipa
+COMMENT - UniProt: Acyl-thioester intermediate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1041-MONOMER
+RESIDUE-NUMBER - 128
+//
+UNIQUE-ID - FTRI07-1125
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746293:kaipa
+COMMENT - UniProt: Proton acceptor; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1041-MONOMER
+RESIDUE-NUMBER - 252
+//
+UNIQUE-ID - FTRI07-1150
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746293:kaipa
+COMMENT - UniProt: Proton acceptor; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1045-MONOMER
+RESIDUE-NUMBER - 86
+//
+UNIQUE-ID - FTRI07-1569
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746338:kaipa
+COMMENT - UniProt: Tele-phosphohistidine intermediate; by HPr; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1966-MONOMER
+RESIDUE-NUMBER - 77
+//
+UNIQUE-ID - FTRI07-1176
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746294:kaipa
+COMMENT - UniProt: Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1081-MONOMER
+RESIDUE-NUMBER - 138
+//
+UNIQUE-ID - FTRI07-1177
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746294:kaipa
+COMMENT - UniProt: Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1081-MONOMER
+RESIDUE-NUMBER - 561
+//
+UNIQUE-ID - FTRI07-1576
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746341:kaipa
+COMMENT - UniProt: Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-2001-MONOMER
+RESIDUE-NUMBER - 78
+//
+UNIQUE-ID - FTRI07-1577
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746341:kaipa
+COMMENT - UniProt: Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-2001-MONOMER
+RESIDUE-NUMBER - 141
+//
+UNIQUE-ID - FTRI07-1578
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746341:kaipa
+COMMENT - UniProt: Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-2001-MONOMER
+RESIDUE-NUMBER - 165
+//
+UNIQUE-ID - FTRI07-1582
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746341:kaipa
+COMMENT - UniProt: Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-2027-MONOMER
+RESIDUE-NUMBER - 426
+//
+UNIQUE-ID - FTRI07-1182
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746295:kaipa
+COMMENT - UniProt: Proton donor; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1097-MONOMER
+RESIDUE-NUMBER - 116
+//
+UNIQUE-ID - FTRI07-2004
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: Proton donor; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-748-MONOMER
+RESIDUE-NUMBER - 74
+//
+UNIQUE-ID - FTRI07-2026
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: Nucleophile; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-766-MONOMER
+RESIDUE-NUMBER - 131
+//
+UNIQUE-ID - FTRI07-2032
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746382:kaipa
+COMMENT - UniProt: Proton donor; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-784-MONOMER
+RESIDUE-NUMBER - 49
+//
+UNIQUE-ID - FTRI07-1261
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746301:kaipa
+COMMENT - UniProt: Schiff-base intermediate with DNA; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1200-MONOMER
+RESIDUE-NUMBER - 2
+//
+UNIQUE-ID - FTRI07-1262
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746301:kaipa
+COMMENT - UniProt: Proton donor; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1200-MONOMER
+RESIDUE-NUMBER - 3
+//
+UNIQUE-ID - FTRI07-1263
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746301:kaipa
+COMMENT - UniProt: Proton donor; for beta-elimination activity; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1200-MONOMER
+RESIDUE-NUMBER - 58
+//
+UNIQUE-ID - FTRI07-1264
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746301:kaipa
+COMMENT - UniProt: Proton donor; for delta-elimination activity; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1200-MONOMER
+RESIDUE-NUMBER - 262
+//
+UNIQUE-ID - FTRI07-1280
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746302:kaipa
+COMMENT - UniProt: Nucleophile; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1206-MONOMER
+RESIDUE-NUMBER - 134
+//
+UNIQUE-ID - FTRI07-1319
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746304:kaipa
+COMMENT - UniProt: Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1236-MONOMER
+RESIDUE-NUMBER - 106
+//
+UNIQUE-ID - FTRI07-1320
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746304:kaipa
+COMMENT - UniProt: Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1236-MONOMER
+RESIDUE-NUMBER - 131
+//
+UNIQUE-ID - FTRI07-1647
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746346:kaipa
+COMMENT - UniProt: Thioimidate intermediate; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-2190-MONOMER
+RESIDUE-NUMBER - 310
+//
+UNIQUE-ID - FTRI07-1323
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746305:kaipa
+COMMENT - UniProt: Proton acceptor; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1246-MONOMER
+RESIDUE-NUMBER - 155
+//
+UNIQUE-ID - FTRI07-1665
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746347:kaipa
+COMMENT - UniProt: Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-47-MONOMER
+RESIDUE-NUMBER - 450
+//
+UNIQUE-ID - FTRI07-2116
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746385:kaipa
+COMMENT - UniProt: Nucleophile; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-929-MONOMER
+RESIDUE-NUMBER - 247
+//
+UNIQUE-ID - FTRI07-2117
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746385:kaipa
+COMMENT - UniProt: Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-929-MONOMER
+RESIDUE-NUMBER - 331
+//
+UNIQUE-ID - FTRI07-2118
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746385:kaipa
+COMMENT - UniProt: Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-929-MONOMER
+RESIDUE-NUMBER - 333
+//
+UNIQUE-ID - FTRI07-1676
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746347:kaipa
+COMMENT - UniProt: Proton acceptor; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-58-MONOMER
+RESIDUE-NUMBER - 27
+//
+UNIQUE-ID - FTRI07-1677
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746347:kaipa
+COMMENT - UniProt: Proton donor; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-58-MONOMER
+RESIDUE-NUMBER - 55
+//
+UNIQUE-ID - FTRI07-1352
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746305:kaipa
+COMMENT - UniProt: Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1309-MONOMER
+RESIDUE-NUMBER - 78
+//
+UNIQUE-ID - FTRI07-1353
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746305:kaipa
+COMMENT - UniProt: Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1309-MONOMER
+RESIDUE-NUMBER - 141
+//
+UNIQUE-ID - FTRI07-1354
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746305:kaipa
+COMMENT - UniProt: Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1309-MONOMER
+RESIDUE-NUMBER - 165
+//
+UNIQUE-ID - FTRI07-1449
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746312:kaipa
+COMMENT - UniProt: Electrophile; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1475-MONOMER
+RESIDUE-NUMBER - 96
+//
+UNIQUE-ID - FTRI07-1450
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746312:kaipa
+COMMENT - UniProt: Proton acceptor; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1475-MONOMER
+RESIDUE-NUMBER - 168
+//
+UNIQUE-ID - FTRI07-1692
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746348:kaipa
+COMMENT - UniProt: For GATase activity; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-85-MONOMER
+RESIDUE-NUMBER - 12
+//
+UNIQUE-ID - FTRI07-1748
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746361:kaipa
+COMMENT - UniProt: Tele-phosphohistidine intermediate; by HPr; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-291-MONOMER
+RESIDUE-NUMBER - 78
+//
+UNIQUE-ID - FTRI07-1756
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746362:kaipa
+COMMENT - UniProt: Proton acceptor; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-303-MONOMER
+RESIDUE-NUMBER - 76
+//
+UNIQUE-ID - FTRI07-1767
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746363:kaipa
+COMMENT - UniProt: Nucleophile; for GATase activity; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-308-MONOMER
+RESIDUE-NUMBER - 2
+//
+UNIQUE-ID - FTRI07-1768
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746363:kaipa
+COMMENT - UniProt: For Fru-6P isomerization activity; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-308-MONOMER
+RESIDUE-NUMBER - 597
+//
+UNIQUE-ID - FTRI07-1773
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746365:kaipa
+COMMENT - UniProt: Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-321-MONOMER
+RESIDUE-NUMBER - 69
+//
+UNIQUE-ID - FTRI07-1774
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746365:kaipa
+COMMENT - UniProt: Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-321-MONOMER
+RESIDUE-NUMBER - 363
+//
+UNIQUE-ID - FTRI07-1775
+TYPES - Active-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746365:kaipa
+COMMENT - UniProt: Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-321-MONOMER
+RESIDUE-NUMBER - 385
+//
+UNIQUE-ID - FTRI07-1765
+TYPES - Cleavage-of-Initial-Methionine
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746363:kaipa
+COMMENT - UniProt: Removed; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-308-MONOMER
+RESIDUE-NUMBER - 1
+RESIDUE-TYPE - MET
+//
+UNIQUE-ID - FTRI07-1509
+TYPES - Disulfide-Bond-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746323:kaipa
+COMMENT - UniProt: Redox-active; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1654-MONOMER
+POSSIBLE-FEATURE-STATES - :UNLINKED
+POSSIBLE-FEATURE-STATES - :LINKED
+RESIDUE-NUMBER - 31
+RESIDUE-NUMBER - 28
+//
+UNIQUE-ID - FTRI07-2069
+TYPES - Disulfide-Bond-Sites
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746383:kaipa
+COMMENT - UniProt: Redox-active; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-849-MONOMER
+POSSIBLE-FEATURE-STATES - :UNLINKED
+POSSIBLE-FEATURE-STATES - :LINKED
+RESIDUE-NUMBER - 13
+RESIDUE-NUMBER - 10
+//
+UNIQUE-ID - FTRI07-1535
+TYPES - Modified-Residues
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746332:kaipa
+COMMENT - UniProt: 2-(S-cysteinyl)pyruvic acid O- phosphothioketal; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1891-MONOMER
+POSSIBLE-FEATURE-STATES - :UNMODIFIED
+POSSIBLE-FEATURE-STATES - :MODIFIED
+RESIDUE-NUMBER - 120
+//
+UNIQUE-ID - FTRI07-1183
+TYPES - Modified-Residues
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746295:kaipa
+COMMENT - UniProt: 2-(S-cysteinyl)pyruvic acid O- phosphothioketal; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1097-MONOMER
+POSSIBLE-FEATURE-STATES - :UNMODIFIED
+POSSIBLE-FEATURE-STATES - :MODIFIED
+RESIDUE-NUMBER - 116
+//
+UNIQUE-ID - FTRI07-1691
+TYPES - Modified-Residues
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746348:kaipa
+COMMENT - UniProt: O-(pantetheine 4'-phosphoryl)serine; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-76-MONOMER
+POSSIBLE-FEATURE-STATES - :UNMODIFIED
+POSSIBLE-FEATURE-STATES - :MODIFIED
+RESIDUE-NUMBER - 38
+//
+UNIQUE-ID - FTRI07-1832
+TYPES - Modified-Residues
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746370:kaipa
+COMMENT - UniProt: O-(pantetheine 4'-phosphoryl)serine; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-451-MONOMER
+POSSIBLE-FEATURE-STATES - :UNMODIFIED
+POSSIBLE-FEATURE-STATES - :MODIFIED
+RESIDUE-NUMBER - 35
+//
+UNIQUE-ID - FTRI07-1861
+TYPES - Glycyl-Radical-Modifications
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746373:kaipa
+COMMENT - UniProt: Glycine radical; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-494-MONOMER
+POSSIBLE-FEATURE-STATES - :UNMODIFIED
+POSSIBLE-FEATURE-STATES - :MODIFIED
+RESIDUE-NUMBER - 739
+//
+UNIQUE-ID - FTRI07-1412
+TYPES - N6-carboxylysine-Modifications
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746309:kaipa
+COMMENT - UniProt: N6-carboxylysine; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1429-MONOMER
+POSSIBLE-FEATURE-STATES - :UNMODIFIED
+POSSIBLE-FEATURE-STATES - :MODIFIED
+RESIDUE-NUMBER - 229
+//
+UNIQUE-ID - FTRI07-1355
+TYPES - N6-pyridoxal-phosphate-Lys-Modifications
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746305:kaipa
+COMMENT - UniProt: N6-(pyridoxal phosphate)lysine; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1313-MONOMER
+POSSIBLE-FEATURE-STATES - :UNMODIFIED
+POSSIBLE-FEATURE-STATES - :MODIFIED
+RESIDUE-NUMBER - 184
+//
+UNIQUE-ID - FTRI07-1475
+TYPES - N6-pyridoxal-phosphate-Lys-Modifications
+CITATIONS - UNIPROT-2012-11:EV-COMP-AINF:3572746317:kaipa
+COMMENT - UniProt: N6-(pyridoxal phosphate)lysine; Non-Experimental Qualifier: by similarity.
+DATA-SOURCE - UniProt 2012-11
+FEATURE-OF - GI07-1565-MONOMER
+POSSIBLE-FEATURE-STATES - :UNMODIFIED
+POSSIBLE-FEATURE-STATES - :MODIFIED
+RESIDUE-NUMBER - 35
+//

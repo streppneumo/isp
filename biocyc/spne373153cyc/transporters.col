@@ -1,0 +1,66 @@
+# Copyright © 2013, SRI International. All rights reserved.
+#
+# Authors:
+#    Pallavi Subhraveti
+#    Quang Ong
+#    Tomer Altman
+#    Ron Caspi
+#    Ingrid Keseler
+#    Peter D Karp
+#
+# Please see the license agreement regarding the use of and distribution of this file.
+# The format of this file is defined at http://bioinformatics.ai.sri.com/ptools/flatfile-format.html .
+#
+# Species: Streptococcus pneumoniae D39
+# Database: SPNE373153cyc
+# Version: 17.0
+# File Name: transporters.col
+# Date and time generated: September 25, 2013, 15:50:11
+#
+UNIQUE-ID	NAME	REACTION-EQUATION	SUBUNIT-COMPOSITION
+GIX6-635-MONOMER	cation-transporting ATPase, E1-E2 family protein	Cu2+[in] + ATP + H2O  <-->  Cu2+[out] + ADP + phosphate + H+	1*GIX6-635-MONOMER
+GIX6-1334-MONOMER	F0F1 ATP synthase subunit epsilon	ATP + 3 H+[in] + H2O  <-->  ADP + phosphate + 4 H+[out]	1*GIX6-1334-MONOMER
+GIX6-502-MONOMER	PTS system beta-glucosides-specific transporter subunit IIABC	a protein-Npi-phospho-L-histidine + sucrose[out]  <-->  a [protein]-L-histidine + sucrose-6-phosphate[in]	1*GIX6-502-MONOMER
+CPLXIX6-9	predicted ABC transporter of phosphate	ATP + phosphate[extracellular space] + H2O  <-->  ADP + 2 phosphate[cytosol] + H+	1*GIX6-1912-MONOMER,1*GIX6-1911-MONOMER
+GIX6-279-MONOMER	PTS system cellobiose transporter subunit IIB	phosphoenolpyruvate + cellobiose[extracellular space]  <-->  pyruvate + 6-phospho-beta-D-glucosyl-(1,4)-D-glucose[cytosol]	1*GIX6-279-MONOMER
+GIX6-262-MONOMER	PTS system, mannose/fructose/sorbose family protein, IID component	phosphoenolpyruvate + sorbose[extracellular space]  <-->  pyruvate + sorbose[cytosol]	1*GIX6-262-MONOMER
+GIX6-262-MONOMER	PTS system, mannose/fructose/sorbose family protein, IID component	phosphoenolpyruvate + fructose[extracellular space]  <-->  pyruvate + fructose[cytosol]	1*GIX6-262-MONOMER
+GIX6-262-MONOMER	PTS system, mannose/fructose/sorbose family protein, IID component	phosphoenolpyruvate + D-mannose[extracellular space]  <-->  pyruvate + D-mannose[cytosol]	1*GIX6-262-MONOMER
+GIX6-1959-MONOMER	PTS system ascorbate-specific transporter subunit IIC	phosphoenolpyruvate + L-ascorbate[extracellular space]  <-->  pyruvate + L-ascorbate-6-phosphate[cytosol]	1*GIX6-1959-MONOMER
+GIX6-1847-MONOMER	PTS system ascorbate-specific transporter subunit IIC	phosphoenolpyruvate + L-ascorbate[extracellular space]  <-->  pyruvate + L-ascorbate-6-phosphate[cytosol]	1*GIX6-1847-MONOMER
+CPLXIX6-7	predicted transporter of lactose	phosphoenolpyruvate + lactose[extracellular space]  <-->  pyruvate + lactose 6-phosphate[cytosol]	1*GIX6-1048-MONOMER,1*GIX6-1047-MONOMER
+CPLXIX6-6	predicted transporter of MANNITOL	phosphoenolpyruvate + D-mannitol[extracellular space]  <-->  pyruvate + mannitol-1-phosphate[cytosol]	1*GIX6-362-MONOMER,1*GIX6-360-MONOMER
+CPLXIX6-5	predicted transporter of D-mannose	phosphoenolpyruvate + D-mannose[extracellular space]  <-->  pyruvate + D-mannose[cytosol]	1*GIX6-264-MONOMER,1*GIX6-263-MONOMER
+GIX6-428-MONOMER	PTS system lactose-specific transporter subunit IIBC	phosphoenolpyruvate + lactose[extracellular space]  <-->  pyruvate + lactose 6-phosphate[cytosol]	1*GIX6-428-MONOMER
+GIX6-426-MONOMER	PTS system lactose-specific transporter subunit IIA	phosphoenolpyruvate + lactose[extracellular space]  <-->  pyruvate + lactose 6-phosphate[cytosol]	1*GIX6-426-MONOMER
+GIX6-424-MONOMER	PTS system cellobiose-specific transporter subunit IIC	phosphoenolpyruvate + cellobiose[extracellular space]  <-->  pyruvate + 6-phospho-beta-D-glucosyl-(1,4)-D-glucose[cytosol]	1*GIX6-424-MONOMER
+GIX6-283-MONOMER	cellobiose phosphotransferase system IIC component	phosphoenolpyruvate + cellobiose[extracellular space]  <-->  pyruvate + 6-phospho-beta-D-glucosyl-(1,4)-D-glucose[cytosol]	1*GIX6-283-MONOMER
+GIX6-281-MONOMER	cellobiose phosphotransferase system IIA component	phosphoenolpyruvate + cellobiose[extracellular space]  <-->  pyruvate + 6-phospho-beta-D-glucosyl-(1,4)-D-glucose[cytosol]	1*GIX6-281-MONOMER
+CPLXIX6-4	predicted ABC transporter of Fe3+	ATP + Fe3+[extracellular space] + H2O  <-->  ADP + Fe3+[cytosol] + phosphate	1*GIX6-224-MONOMER,1*GIX6-223-MONOMER
+CPLXIX6-1	predicted ABC transporter of a maltodextrin	ATP + a maltodextrin[extracellular space] + H2O  <-->  ADP + a maltodextrin[cytosol] + phosphate	1*GIX6-1936-MONOMER,1*GIX6-1935-MONOMER
+GIX6-1934-MONOMER	maltose/maltodextrin ABC transporter maltose/maltodextrin-binding protein	ATP + beta-maltose[extracellular space] + H2O  <-->  ADP + beta-maltose[cytosol] + phosphate	1*GIX6-1934-MONOMER
+CPLXIX6-21	predicted ABC transporter of MN+2	ATP + Mn2+[extracellular space] + H2O  <-->  ADP + Mn2+[cytosol] + phosphate	1*GIX6-1462-MONOMER,1*GIX6-1461-MONOMER
+CPLXIX6-8	predicted ABC transporter of spermidine/putrescine	ATP + putrescine[extracellular space] + H2O  <-->  ADP + putrescine[cytosol] + phosphate	1*GIX6-1221-MONOMER,1*GIX6-1220-MONOMER,1*GIX6-1219-MONOMER,1*GIX6-1218-MONOMER
+CPLXIX6-8	predicted ABC transporter of spermidine/putrescine	ATP + spermidine[extracellular space] + H2O  <-->  ADP + spermidine[cytosol] + phosphate	1*GIX6-1221-MONOMER,1*GIX6-1220-MONOMER,1*GIX6-1219-MONOMER,1*GIX6-1218-MONOMER
+CPLXIX6-3	predicted ABC transporter of CO+2	ATP + Co2+[extracellular space] + H2O  <-->  ADP + Co2+[cytosol] + phosphate	1*GIX6-2048-MONOMER,1*GIX6-2047-MONOMER,1*GIX6-2046-MONOMER
+CPLXIX6-2	predicted ABC transporter of ZN+2	ATP + Zn2+[extracellular space] + H2O  <-->  ADP + Zn2+[cytosol] + phosphate	1*GIX6-1999-MONOMER,1*GIX6-1998-MONOMER,1*GIX6-1997-MONOMER
+GIX6-1927-MONOMER	cation-transporting ATPase, E1-E2 family protein	ATP + a cation[extracellular space] + H2O  <-->  ADP + a cation[cytosol] + phosphate	1*GIX6-1927-MONOMER
+CPLXIX6-19	predicted ABC transporter of an oligopeptide	ATP + an oligopeptide[extracellular space] + H2O  <-->  ADP + an oligopeptide[cytosol] + phosphate	1*GIX6-1670-MONOMER,1*GIX6-1669-MONOMER,1*GIX6-1668-MONOMER,1*GIX6-1667-MONOMER
+CPLXIX6-11	predicted ABC transporter of a standard alpha amino acid	ATP + a standard alpha amino acid[extracellular space] + H2O  <-->  ADP + a standard alpha amino acid[cytosol] + phosphate	1*GIX6-412-MONOMER,1*GIX6-411-MONOMER
+CPLXIX6-22	predicted ABC transporter of a sugar	ATP + a sugar[extracellular space] + H2O  <-->  ADP + a sugar[cytosol] + phosphate	1*GIX6-1677-MONOMER,1*GIX6-1676-MONOMER,1*GIX6-1675-MONOMER
+GIX6-175-MONOMER	magnesium transporter CorA family protein	Mg2+[extracellular space]  <-->  Mg2+[cytosol]	1*GIX6-175-MONOMER
+GIX6-1021-MONOMER	voltage-gated chloride channel family protein	chloride[extracellular space]  <-->  chloride[cytosol]	1*GIX6-1021-MONOMER
+GIX6-76-MONOMER	potassium uptake protein, Trk family protein	K+[extracellular space]  <-->  K+[cytosol]	1*GIX6-76-MONOMER
+GIX6-1629-MONOMER	xanthine permease	xanthine[extracellular space] + H+[extracellular space]  <-->  xanthine[cytosol] + H+[cytosol]	1*GIX6-1629-MONOMER
+GIX6-1414-MONOMER	oxalate/formate antiporter	formate[cytosol] + oxalate[extracellular space]  <-->  formate[extracellular space] + oxalate[cytosol]	1*GIX6-1414-MONOMER
+GIX6-2011-MONOMER	glycerol uptake facilitator protein	glycerol[extracellular space] + H+[extracellular space]  <-->  glycerol[cytosol] + H+[cytosol]	1*GIX6-2011-MONOMER
+GIX6-267-MONOMER	xanthine/uracil permease family protein	xanthine[extracellular space] + uracil[extracellular space]  <-->  xanthine[cytosol] + uracil[cytosol]	1*GIX6-267-MONOMER
+GIX6-546-MONOMER	branched-chain amino acid transport system II carrier protein	a standard alpha amino acid[extracellular space] + H+[extracellular space]  <-->  a standard alpha amino acid[cytosol] + H+[cytosol]	1*GIX6-546-MONOMER
+GIX6-443-MONOMER	Na/Pi-cotransporter II-like protein	Na+[extracellular space] + H+[extracellular space]  <-->  Na+[cytosol] + H+[cytosol]	1*GIX6-443-MONOMER
+GIX6-372-MONOMER	sodium:alanine symporter family protein	Na+[extracellular space] + L-alanine[extracellular space]  <-->  Na+[cytosol] + L-alanine[cytosol]	1*GIX6-372-MONOMER
+GIX6-1642-MONOMER	choline transporter	choline[extracellular space]  <-->  choline[cytosol]	1*GIX6-1642-MONOMER
+GIX6-1640-MONOMER	nicotinamide mononucleotide transporter PnuC	a nicotinamide mononucleotide[extracellular space]  <-->  a nicotinamide mononucleotide[cytosol]	1*GIX6-1640-MONOMER
+GIX6-1563-MONOMER	serine/threonine transporter SstT	L-threonine[extracellular space]  <-->  L-threonine[cytosol]	1*GIX6-1563-MONOMER
+GIX6-1563-MONOMER	serine/threonine transporter SstT	L-serine[extracellular space]  <-->  L-serine[cytosol]	1*GIX6-1563-MONOMER
+GIX6-1638-MONOMER	cation efflux system protein	a cation[cytosol]  <-->  a cation[extracellular space]	1*GIX6-1638-MONOMER
+GIX6-317-MONOMER	chain length determinant protein/polysaccharide export protein, MPA1 family protein	a polysaccharide[cytosol]  <-->  a polysaccharide[extracellular space]	1*GIX6-317-MONOMER

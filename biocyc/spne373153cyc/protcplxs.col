@@ -1,0 +1,45 @@
+# Copyright © 2013, SRI International. All rights reserved.
+#
+# Authors:
+#    Pallavi Subhraveti
+#    Quang Ong
+#    Tomer Altman
+#    Ron Caspi
+#    Ingrid Keseler
+#    Peter D Karp
+#
+# Please see the license agreement regarding the use of and distribution of this file.
+# The format of this file is defined at http://bioinformatics.ai.sri.com/ptools/flatfile-format.html .
+#
+# Species: Streptococcus pneumoniae D39
+# Database: SPNE373153cyc
+# Version: 17.0
+# File Name: protcplxs.col
+# Date and time generated: September 25, 2013, 15:50:09
+#
+#		1	2	3	4	5	1	2	3	4	5
+UNIQUE-ID	NAME	GENE-NAME	GENE-NAME	GENE-NAME	GENE-NAME	GENE-NAME	GENE-ID	GENE-ID	GENE-ID	GENE-ID	GENE-ID	SUBUNIT-COMPOSITION
+CPLXIX6-1	predicted ABC transporter of a maltodextrin	malD	malC				GIX6-1936	GIX6-1935				1*GIX6-1936-MONOMER,1*GIX6-1935-MONOMER
+CPLXIX6-2	predicted ABC transporter of ZN+2	adcC	adcB	adcA			GIX6-1999	GIX6-1998	GIX6-1997			1*GIX6-1999-MONOMER,1*GIX6-1998-MONOMER,1*GIX6-1997-MONOMER
+CPLXIX6-3	predicted ABC transporter of CO+2	cbiO	cbiO	SPD_2046			GIX6-2048	GIX6-2047	GIX6-2046			1*GIX6-2048-MONOMER,1*GIX6-2047-MONOMER,1*GIX6-2046-MONOMER
+CPLXIX6-4	predicted ABC transporter of Fe3+	SPD_0224	SPD_0223				GIX6-224	GIX6-223				1*GIX6-224-MONOMER,1*GIX6-223-MONOMER
+CPLXIX6-5	predicted transporter of D-mannose	manL	manM				GIX6-264	GIX6-263				1*GIX6-264-MONOMER,1*GIX6-263-MONOMER
+CPLXIX6-6	predicted transporter of MANNITOL	mtlA2	mtlA				GIX6-362	GIX6-360				1*GIX6-362-MONOMER,1*GIX6-360-MONOMER
+CPLXIX6-7	predicted transporter of lactose	lacF-2	lacE-2				GIX6-1048	GIX6-1047				1*GIX6-1048-MONOMER,1*GIX6-1047-MONOMER
+CPLXIX6-8	predicted ABC transporter of spermidine/putrescine	potA	potH	potC	potD		GIX6-1221	GIX6-1220	GIX6-1219	GIX6-1218		1*GIX6-1221-MONOMER,1*GIX6-1220-MONOMER,1*GIX6-1219-MONOMER,1*GIX6-1218-MONOMER
+CPLXIX6-9	predicted ABC transporter of phosphate	pstA	pstC				GIX6-1912	GIX6-1911				1*GIX6-1912-MONOMER,1*GIX6-1911-MONOMER
+CPLXIX6-10	predicted ATP-driven transporter of phosphate	SPD_1232	SPD_1231	SPD_1230	SPD_1229	SPD_1228	GIX6-1232	GIX6-1231	GIX6-1230	GIX6-1229	GIX6-1228	1*GIX6-1232-MONOMER,1*GIX6-1231-MONOMER,1*GIX6-1230-MONOMER,1*GIX6-1229-MONOMER,1*GIX6-1228-MONOMER
+CPLXIX6-11	predicted ABC transporter of a standard alpha amino acid	SPD_0412	SPD_0411				GIX6-412	GIX6-411				1*GIX6-412-MONOMER,1*GIX6-411-MONOMER
+CPLXIX6-12	predicted ABC transporter of a standard alpha amino acid	SPD_0530	SPD_0529	SPD_0528			GIX6-530	GIX6-529	GIX6-528			1*GIX6-530-MONOMER,1*GIX6-529-MONOMER,1*GIX6-528-MONOMER
+CPLXIX6-13	predicted ABC transporter of a standard alpha amino acid	SPD_0618	SPD_0617	SPD_0616			GIX6-618	GIX6-617	GIX6-616			1*GIX6-618-MONOMER,1*GIX6-617-MONOMER,1*GIX6-616-MONOMER
+CPLXIX6-14	predicted ABC transporter of a standard alpha amino acid	livF	livG	livM	livH		GIX6-656	GIX6-655	GIX6-654	GIX6-653		1*GIX6-656-MONOMER,1*GIX6-655-MONOMER,1*GIX6-654-MONOMER,1*GIX6-653-MONOMER
+CPLXIX6-15	predicted ABC transporter of a standard alpha amino acid	SPD_0720	SPD_0719				GIX6-720	GIX6-719				1*GIX6-720-MONOMER,1*GIX6-719-MONOMER
+CPLXIX6-16	predicted ABC transporter of a standard alpha amino acid	SPD_1099	SPD_1098				GIX6-1099	GIX6-1098				1*GIX6-1099-MONOMER,1*GIX6-1098-MONOMER
+CPLXIX6-17	predicted ABC transporter of a standard alpha amino acid	SPD_1290	SPD_1289				GIX6-1290	GIX6-1289				1*GIX6-1290-MONOMER,1*GIX6-1289-MONOMER
+CPLXIX6-18	predicted ABC transporter of a standard alpha amino acid	SPD_1330	SPD_1329	aatB			GIX6-1330	GIX6-1329	GIX6-1328			1*GIX6-1330-MONOMER,1*GIX6-1329-MONOMER,1*GIX6-1328-MONOMER
+CPLXIX6-19	predicted ABC transporter of an oligopeptide	amiC	amiD	amiE	amiF		GIX6-1670	GIX6-1669	GIX6-1668	GIX6-1667		1*GIX6-1670-MONOMER,1*GIX6-1669-MONOMER,1*GIX6-1668-MONOMER,1*GIX6-1667-MONOMER
+CPLXIX6-20	predicted ABC transporter of an oligopeptide	SPD_1169	SPD_1168				GIX6-1169	GIX6-1168				1*GIX6-1169-MONOMER,1*GIX6-1168-MONOMER
+CPLXIX6-21	predicted ABC transporter of MN+2	psaC	psaB				GIX6-1462	GIX6-1461				1*GIX6-1462-MONOMER,1*GIX6-1461-MONOMER
+CPLXIX6-22	predicted ABC transporter of a sugar	rafE	rafF	rafG			GIX6-1677	GIX6-1676	GIX6-1675			1*GIX6-1677-MONOMER,1*GIX6-1676-MONOMER,1*GIX6-1675-MONOMER
+CPLXIX6-23	predicted ABC transporter of a sugar	SPD_0742	SPD_0741	SPD_0740			GIX6-742	GIX6-741	GIX6-740			1*GIX6-742-MONOMER,1*GIX6-741-MONOMER,1*GIX6-740-MONOMER
+CPLXIX6-24	predicted ABC transporter of a sugar	SPD_1494	SPD_1493				GIX6-1494	GIX6-1493				1*GIX6-1494-MONOMER,1*GIX6-1493-MONOMER
