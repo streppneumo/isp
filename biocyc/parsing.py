@@ -47,6 +47,9 @@ class CycValue(object):
         self.attributes = attributes
         self.ref = ref
 
+    def matches(self, value):
+        return self.value == value
+
     def __str__(self):
         return str(dict(value=self.value, attr=self.attributes, ref=self.ref))
 
@@ -90,6 +93,12 @@ class CycValueList(list):
     def attributes(self):
         self.check_length()
         return self.items[0].attributes
+
+    def matchall(self, value):
+        return [v for v in self.items if v.matches(value)]
+
+    def matches(self, value):
+        return len(self.matchall(value)) > 0
 
     # override for sequence type
     def append(self, obj):
