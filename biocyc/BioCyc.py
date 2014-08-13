@@ -27,6 +27,10 @@ def to_safe_name(s, prefix='x'):
         return s.lower()
 
 
+def flatten(lists):
+    return reduce(lambda x, y: x+y, lists)
+
+
 class CycObject(object):
     def __init__(self, fields):
         safe_fields = dict([(to_safe_name(k), v) for k, v in fields.items()])
@@ -34,6 +38,31 @@ class CycObject(object):
         self.fields = fields
         if 'UNIQUE-ID' in fields:
             self.unique_id = fields['UNIQUE-ID'].value
+
+    def get_field(self, field, default=None):
+        if field in self.fields:
+            return self.fields[field].values
+        else:
+            return default
+
+    def matches(self, value, field='UNIQUE-ID'):
+        if field is None:
+            for v in self.fields.values():
+                if v.matches(value):
+                    return True
+            return False
+        else:
+            if field in self.fields:
+                return self.fields[field].matches(value)
+
+    def __str__(self):
+        return self.unique_id
+
+    def __repr__(self):
+        return str(self)
+
+    def cellscribe(self):
+        return '# ' + str(self)
 
 
 class CycGene(CycObject):
@@ -51,21 +80,26 @@ class CycCompound(CycObject):
 class CycReaction(CycObject):
     def __init__(self, fields):
         super(CycReaction, self).__init__(fields)
-        if 'EC-NUMBER' in fields:
-            self.ec_numbers = fields['EC-NUMBER'].values
-        else:
-            self.ec_numbers = []
-        if 'LEFT' in fields:
-            self.left = fields['LEFT'].values
-        else:
-            self.left = []
-        if 'RIGHT' in fields:
-            self.right = fields['RIGHT'].values
-        else:
-            self.right = []
+        self.ec_numbers = self.get_field('EC-NUMBER', [])
+        self.left = self.get_field('LEFT', [])
+        self.right = self.get_field('RIGHT', [])
 
     def __repr__(self):
-        return " + ".join(self.left) + " <-> " + " + ".join(self.right)
+        return (self.unique_id + ": " + " + ".join(self.left) + " <-> " +
+                " + ".join(self.right))
+
+    def __str__(self):
+        return repr(self)
+
+    def cellscribe(self):
+        var = to_safe_name(self.unique_id)
+        reacts = ", ".join([to_safe_name(x) for x in self.left])
+        prods = ", ".join([to_safe_name(x) for x in self.right])
+        space = " " * (len(var) + 12)
+        return ('{var} = Reaction("{var}",\n' +
+                space + 'reactants=[{reacts}],\n' +
+                space + 'products=[{prods}])\n'
+                ).format(var=var, reacts=reacts, prods=prods)
 
 
 class CycModel(object):
@@ -81,6 +115,20 @@ class CycModel(object):
 
     def get_reactions_by_ec(self, ec):
         return [r for r in self.reactions.values() if ec in r.ec_numbers]
+
+    @staticmethod
+    def find(mapping, value, field='UNIQUE-ID'):
+        return [v for (k, v) in mapping.items()
+                             if v.matches(value, field=field)]
+
+    def findall(self, value, collapse=True, field=None):
+        matches = dict(genes=self.find(self.genes, value, field),
+                       compounds=[],
+                       reactions=self.find(self.reactions, value, field))
+        if collapse:
+            return flatten(matches.values())
+        else:
+            return matches
 
 
 def load_tigr4():
@@ -111,6 +159,49 @@ def load_reactions_dat(filename):
     return {r.unique_id: r for r in reactions}
 
 
+# =================== interactive prompt ====================
+def general_find(model, value):
+    return model.findall(value, field=None)
+
+
+def specific_find(model, value, field):
+    return model.findall(value, field=field)
+
+
+command_map = dict(f=general_find,
+                   ff=specific_find,
+                   e=lambda m, v: specific_find(m, 'EC-'+v, 'EC-NUMBER'))
+
+
+def start_interactive(models):
+    input = "not x"
+    previous_args = []
+    while input.rstrip() != "x":
+        input = raw_input("> ").rstrip()
+        inputs = input.split()
+        cmd = inputs[0]
+        args = inputs[1:]
+
+        if len(args) == 1 and args[0] == '^':
+            args = previous_args[-1]
+            print ">", cmd, " ".join(args)
+        else:
+            previous_args.append(args)
+
+        if cmd.startswith('$'):
+            cmd = cmd[1:]
+            stringifier = lambda x: x.cellscribe()
+        else:
+            stringifier = lambda x: "   " + str(x)
+
+        for name, model in models.items():
+            print "#", name
+            for v in command_map[cmd](model, *args):
+                print stringifier(v)
+
+
+
+
 if __name__ == '__main__':
     pass
     #genes = load_genes_dat("spne170187cyc/genes.dat")
@@ -135,22 +226,16 @@ if __name__ == '__main__':
     #             out.write(common[line.rstrip()] + "\n")
     #             #f.write(gene.common_name.value + "\t" + gene.accession_1.value + "\n")
 
-    dats = load_dat_file("spne487213cyc/reactions.dat")
+    #dats = load_dat_file("spne487213cyc/reactions.dat")
 
     models = dict()
     models["tigr4"] = load_tigr4()
     models["19f"] = load_19f()
     models["d39"] = load_d39()
 
-    def query_ecs(ec):
-        for name, model in models.items():
-            print name
-            for r in model.get_reactions_by_ec("EC-" + ec):
-                print "  ", r
+    #tigr4 = load_tigr4()
+    #r = tigr4.findall('EC-2.7.1.2')
 
-    input = "not none"
-    while input.rstrip() != "none":
-        input = raw_input("EC number: ").rstrip()
-        query_ecs(input)
+    start_interactive(models)
 
 

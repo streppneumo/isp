@@ -1,0 +1,4 @@
+GLUCOKIN-RXN
+    minors ATP ADP PROTON
+    pairs (ATP ADP)
+    genes SP_0001
