@@ -1,0 +1,31 @@
+GREEN/KNOWN RXNS IN KEGG
+
+    EC 1.8.1.7
+        #equilibrium
+        name GLUTATHIONE-REDUCT-NADPH-RXN
+        minors NADP NADPH PROTON
+        pairs (GLUTATHIONE OXIDIZED-GLUTATHIONE)
+        genes SP_0784
+
+    EC 1.1.1.44
+        #equilibrium
+        name RXN-9952
+        minors CPD-2961 RIBULOSE-5P CARBON-DIOXIDE
+        pairs (NADP NADPH)
+        genes SP_0375
+
+    EC 1.1.1.49
+        #equilibrium
+        name GLU6PDEHYDROG-RXN
+        minors GLC-6-P D-6-P-GLUCONO-DELTA-LACTONE PROTON
+        pairs (NADP NADPH)
+        genes SP_1243
+
+    EC 1.11.1.9
+        #equilibrium
+        name GLUTATHIONE-PEROXIDASE-RXN
+        minors HYDROGEN-PEROXIDE WATER
+        pairs (GLUTATHIONE OXIDIZED-GLUTATHIONE)
+        genes SP_0313
+
+BLASTED RXNS (UNKNOWN/WHITE IN KEGG)

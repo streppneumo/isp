@@ -1,0 +1,241 @@
+GREEN/KNOWN RXNS IN KEGG
+
+    EC 3.5.4.3
+        #equilibrium
+        name DIHYDROOROT-RXN
+        minors WATER PROTON
+        pairs (DI-H-OROTATE CARBAMYUL-L-ASPARTATE)
+        genes SP_1167
+
+    EC 2.1.3.2
+        #equilibrium
+        name ASPCARBTRANS-RXN
+        minors PROTON Pi
+        pairs (L-ASPARTATE CARBAMYUL-L-ASPARTATE)
+        genes SP_1277
+
+    EC 6.3.5.5
+        #equilibrium
+        name CARBPSYN-RXN
+        minors HC03 WATER ATP ADP Pi PROTON
+        pairs (GLN CARBAMOYL-P)
+        genes SP_1275 SP_1276
+
+    EC 1.8.1.9
+       #equilibrium
+       name THIOREDOXIN-REDUCT-NADPH-RXN
+       minors NADP NADPH PROTON
+       pairs (Red-Thioredoxin Ox-Thioredoxin)
+       genes SP_1458 SP_1563
+
+    EC 1.17.4.2
+       #equilibrium
+       name 1.17.4.2-RXN
+       minors WATER
+       pairs (Red-Thioredoxin Ox-Thioredoxin) (Deoxy-Ribonucleoside-Triphosphates
+              Ribonucleoside-Triphosphates)
+       genes SP_0202
+
+    EC 2.7.7.7
+       #equilibrium
+       name DNA-DIRECTED-DNA-POLYMERASE-RXN
+       pairs (Deoxy-Ribonucleoside-Triphosphates PPI)
+       genes SP_0002 SP_0032 SP_0274 SP_0765 SP_0865 SP_0895 SP_0936 SP_0993
+
+    EC 1.3.1.14
+       #equilibrium
+       name OROTATE-REDUCTASE-NADH-RXN
+       minors NAD NADH PROTON
+       pairs (DI-H-OROTATE OROTATE)
+       genes SP_0963 SP_0964
+
+    EC 1.3.98.1
+        #not in TIGR4 according to biocyc? used d39 rxn
+        #equilibrium
+        name RXN-9929
+        minors FUM SUC
+        pairs (DI-H-OROTATE OROTATE)
+        genes SP_0764
+
+    EC 2.7.7.8
+        #equilibrium
+        name 2.7.7.8-RXN
+        minors Pi
+        pairs (ssRNAs Nucleoside-Diphosphates)
+        genes SP_0588
+
+    EC 2.7.7.6
+        #equilibrium
+        name DNA-DIRECTED-RNA-POLYMERASE-RXN
+        minors RNA-Holder
+        pairs (Nucleoside-Triphosphates PPI)
+        genes SP_0236 SP_0493 SP_1737 SP_1960 SP_1961
+
+    EC 6.3.4.2
+        #equilibrium
+        name CTPSYN-RXN
+        minors WATER PROTON ADP ATP GLN GLT
+        pairs (UTP CTP)
+        genes SP_0494
+
+    EC 2.4.2.10
+        #equilibrium
+        name OROPRIBTRANS-RXN
+        pairs (PPI PRPP) (OROTIDINE-5-PHOSPHATE OROTATE)
+        genes SP_0702
+
+    EC 2.7.4.6
+        #what to do if multiple rxns are listed under this name?
+        #equilibrium
+        name UDPKIN-RXN
+        minors ATP ADP
+        pairs (UDP UTP)
+        genes SP_1959
+
+    EC 1.17.4.1
+        #equilibrium
+        name RIBONUCLEOSIDE-DIP-REDUCTI-RXN
+        minors WATER
+        pairs (Deoxy-Ribonucleoside-Diphosphates Ribonucleoside-Diphosphates)
+            (Ox-Thioredoxin Red-Thioredoxin)
+        genes SP_1179 SP_1180
+
+    EC 3.6.1.23
+        #equilibrium
+        name DUTP-PYROP-RXN
+        minors WATER PROTON PPI
+        pairs (DUTP DUMP)
+        genes SP_0021
+
+    EC 4.1.1.23
+        #equilibrium
+        name OROTPDECARB-RXN
+        minors PROTON CARBON-DIOXIDE
+        pairs (OROTIDINE-5-PHOSPHATE UMP)
+        genes SP_0701
+
+    EC 2.7.4.14
+        #equilibrium
+        #also listed as 2.7.4.22
+        name RXN-12002
+        minors ATP ADP
+        pairs (UMP UDP)
+        genes SP_1603
+
+    EC 2.7.4.9
+        #equilibrium
+        name DTMPKI-RXN
+        minors ATP ADP
+        pairs (TMP TDP)
+        genes SP_0935
+
+    EC 3.5.4.12
+        #equilibrium
+        name DCMP-DEAMINASE-RXN
+        minors WATER AMMONIA
+        pairs (DCMP DUMP)
+        genes SP_0744
+
+    EC 2.1.1.45
+        #equilibrium
+        name THYMIDYLATESYN-RXN
+        minors METHYLENE-THF DIHYDROFOLATE
+        pairs (DUMP TMP)
+        genes SP_0669
+
+    EC 2.7.1.48
+        #equilibrium
+        name URIDINEKIN-RXN
+        minors ATP ADP PROTON
+        pairs (URIDINE UMP)
+        genes SP_1208
+
+    EC 2.4.2.9
+        #equilibrium
+        name URACIL-PRIBOSYLTRANS-RXN
+        minors PPI PRPP
+        pairs (UMP URACIL)
+        genes SP_0745 SP_1278
+
+    EC 2.7.1.21
+        #equilibrium
+        name DURIDKI-RXN
+        minors ATP ADP PROTON
+        pairs (DEOXYURIDINE DUMP)
+        genes SP_1018
+
+        #equilibrium
+        name THYKI-RXN
+        minors ATP ADP PROTON
+        pairs (THYMIDINE TMP)
+        genes SP_1018
+
+    EC 3.5.4.5
+        #equilibrium
+        name CYTIDEAM2-RXN
+        minors WATER AMMONIA
+        pairs (CYTIDINE URIDINE)
+        genes SP_0844
+
+    EC 2.4.2.2
+        #equilibrium
+        #also listed as 2.4.2.1
+        name URA-PHOSPH-RXN
+        pairs (DEOXYURIDINE URACIL) (Pi DEOXY-D-RIBOSE-1-PHOSPHATE)
+        genes SP_0842
+
+BLASTED RXNS (UNKNOWN/WHITE IN KEGG)
+
+    EC 1.3.5.2
+        #equilibrium
+        name DIHYDROOROTATE-DEHYDROGENASE-RXN
+        minors ETR-Quinones ETR-Quinols
+        pairs (DI-H-OROTATE OROTATE)
+        genes SP_0964
+
+    EC 3.5.4.13
+        #equilibrium
+        name DCTP-DEAM-RXN
+        minors WATER AMMONIA
+        pairs (DCTP DUTP)
+        genes SP_1021
+
+    EC 3.1.3.5
+        #equilibrium
+        name XMPXAN-RXN
+        minors WATER Pi
+        pairs (XANTHOSINE-5-PHOSPHATE XANTHOSINE)
+        genes SP_0758 OR SP_1566 OR SP_1326 OR SP_1344
+
+    EC 2.4.2.3
+        #equilibrium
+        name URPHOS-RXN
+        minors Pi RIBOSE-1P
+        pairs (URIDINE URACIL)
+        genes SP_0835
+
+    EC 2.4.2.4
+        #equilibrium
+        name THYM-PHOSPH-RXN
+        minors Pi DEOXY-D-RIBOSE-1-PHOSPHATE
+        pairs (THYMIDINE THYMINE)
+        genes SP_0842
+
+    EC 3.5.4.1
+        #equilibrium
+        name CYTDEAM-RXN
+        minors WATER AMMONIA
+        pairs (CYTOSINE URACIL)
+        genes SP_1167 OR SP_1356
+
+    RutC RXN
+        genes SP_1567
+
+    RutD RXN
+        genes SP_0666
+
+    YdfG RXN
+        genes SP_1909
+
+    RutE RXN
+        genes SP_0622

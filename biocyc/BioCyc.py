@@ -5,7 +5,6 @@ import keyword
 
 from parsing import load_dat_file
 
-
 def is_unsafe_name(s):
     try:
         eval(s + " = 1")
