@@ -1,0 +1,6 @@
+METHIONINE--TRNA-LIGASE-RXN
+    genes SP_0788
+THIOREDOXIN-REDUCT-NADPH-RXN
+    genes SP_1458, SP_1563
+# EC 4.4.1.16 is not coming up for any strain in biocyc. It is in kegg however.
+
