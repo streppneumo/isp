@@ -1,65 +1,56 @@
 #GREEN/KNOWN RXNS IN KEGG
 
-    EC 1.1.1.94
-        name GLYC3PDEHYDROBIOSYN-RXN
+    GLYC3PDEHYDROBIOSYN-RXN
         minors PROTON NADP-OR_NOP
         pairs (GLYCEROL-3P DIHYDROXY-ACETONE-PHOSPHATE)
         genes SP_2091
 
-    EC 1.1.3.21
+    GLYCEROL-3-PHOSPHATE-OXIDATE-RXN
         #not found in TIGR4 according to biocyc?
-        name GLYCEROL-3-PHOSPHATE-OXIDATE-RXN
         minors OXYGEN-MOLECULE HYDROGEN-PEROXIDE
         pairs (GLYCEROL-3P DIHYDROXY-ACETONE-PHOSPHATE)
         genes SP_2185
 
-    EC 2.3.1.15
-        name RXN-1381
+    RXN-1381
         minors Long-Chain-Acyl-CoAs CO-A
         pairs (GLYCEROL-3P ACYL-SN-GLYCEROL-3P)
         genes SP_0037 SP_0851
 
-     EC 2.3.1.51
-        name RXN-1623
+    RXN-1623
         minors Long-Chain-Acyl-CoAs CO-A
         pairs (ACYL-SN-GLYCEROL-3P L-PHOSPHATIDATE)
         genes SP_1624
 
-     EC 2.7.7.41
-        name CDPDIGLYSYN-RXN
+    CDPDIGLYSYN-RXN
         minors PROTON PPI
         pairs (CTP CDPIACYLGLYCEROL)
         genes SP_2222
 
-     EC 2.7.8.5
-        name PHOSPHAGLYPSYN-RXN
+    PHOSPHAGLYPSYN-RXN
         minors PROTON CMP
         pairs (GLYCEROL-3P L-1-PHOSPHATIDYL-GLYCEROL-P)
         genes SP_2222
 
-     Cls Rxn
+    Cls Rxn
         #how to search rxn in biocyc?
         genes SP_0199
 
-     EC 2.7.1.107
-        name DIACYLGLYKIN-RXN
+    DIACYLGLYKIN-RXN
         minors ATP PROTON ADP
         pairs (DIACYLGLYCEROL L-PHOSPHATIDATE)
         genes SP_0968
 
-     EC 3.1.4.46
+    GLYCPDIESTER-RXN
         #not found in TIGR4 according to biocyc?
-        name GLYCPDIESTER-RXN
         minors WATER PROTON
         pairs (Glycerophosphodiesters GLYCEROL-3P)
         genes SP_0994
+#BLASTED RXNS (UNKNOWN/WHITE IN KEGG)
 
-BLASTED RXNS (UNKNOWN/WHITE IN KEGG)
-
-    EC 1.1.5.3
-        name RXN0-5258
+    RXN0-5258
         minors Ubiquinones Ubiquinols
         pairs (GLYCEROL-3P DIHYDROXY-ACETONE-PHOSPHATE)
+        genes SP_2185 OR SP_1161 OR SP_1434
 
     EC 2.7.7.39
         #not found in TIGR4 according to biocyc?

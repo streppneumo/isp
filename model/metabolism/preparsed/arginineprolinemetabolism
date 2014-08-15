@@ -1,29 +1,25 @@
-GREEN/KNOWN RXNS IN KEGG
+#GREEN/KNOWN RXNS IN KEGG
 
-    EC 6.3.1.2
+    GLUTAMINESYN-RXN
         #equilibrium
-        name GLUTAMINESYN-RXN
         minors ATP ADP Pi GLN
         pairs (AMMONIA GLT)
         genes SP_0502
 
-    EC 2.7.2.2
+    CARBAMATE-KINASE-RXN
         #equilibrium
-        name CARBAMATE-KINASE-RXN
         minors ATP ADP PROTON CARBON-DIOXIDE
         pairs (AMMONIA CARBAMOYL-P)
         genes SP_2151
 
-    EC 1.4.1.4
+    GLUTDEHYD-RXN
         #equilibrium
-        name GLUTDEHYD-RXN
         minors WATER NADP PROTON NADPH
         pairs (GLT 2-KETOGLUTARATE)
         genes SP_1306
 
-    EC 2.7.2.11
+    GLUTKIN-RXN
         #equilibrium
-        name GLUTKIN-RXN
         minors ATP ADP
         pairs (GLT L-GLUTAMATE-5-P)
         genes SP_0931
@@ -31,37 +27,32 @@ GREEN/KNOWN RXNS IN KEGG
     EC 2.3.1.57
         #listed in kegg but not in biocyc
 
-    EC 2.1.3.3
+    ORNCARBAMTRANSFER-RXN
         #equilibrium
-        name ORNCARBAMTRANSFER-RXN
         minors PROTON Pi
         pairs (L-ORNITHINE L-CITRULLINE) (CARBAMOYL-P L-CITRULLINE)
         genes SP_2150
 
-    EC 1.2.1.41
+    GLUTSEMIALDEHYDROG-RXN
         #equilibrium
-        name GLUTSEMIALDEHYDROG-RXN
         minors NADP NADPH PROTON
         pairs (L-GLUTAMATE_GAMMA-SEMIALDEHYDE L-GLUTAMATE-5-P)
         genes SP_0932
 
-    EC 3.5.3.6
+    ARGININE-DEIMINASE-RXN
         #equilibrium
-        name ARGININE-DEIMINASE-RXN
         minors WATER PROTON AMMONIA
         pairs (ARG L-CITRULLINE)
         genes SP_2148
 
-    EC 1.5.1.2
+    PYRROLINECARBREDUCT-RXN
         #equilibrium
-        name PYRROLINECARBREDUCT-RXN
         minors NAD-P-PR-NOP NADH-P-OR-NOP PROTON
         pairs (PRO L-DELTA1-PYRROLINE_5-CARBOXYLATE)
         genes SP_0933
 
-    EC 4.1.1.96
+    RXN-9380
         #equilibrium
-        name RXN-9380
         minors PROTON CARBON-DIOXIDE
         pairs (CPD-9995 NORSPERMADINE)
         genes SP_0920
@@ -69,54 +60,47 @@ GREEN/KNOWN RXNS IN KEGG
     EC 2.5.1.16
         #listed in kegg but not in biocyc
 
-    EC 3.5.1.53
+    N-CARBAMOYLPUTRESCINE-AMIDASE-RXN
         #equilibrium
         #not listed in TIGR4 in biocyc?
-        name N-CARBAMOYLPUTRESCINE-AMIDASE-RXN
         minors PROTON WATER CARBON-DIOXIDE AMMONIA
         pairs (CPD-597 PUTRESCINE)
         genes SP_0922
 
-    EC 3.5.3.12
+    AGMATINE-DEIMINASE-RXN
         #equilibrium
-        name AGMATINE-DEIMINASE-RXN
         minors WATER PROTON AMMONIA
         pairs (AGMATHINE CPD-597)
         genes SP_0921
 
 BLASTED RXNS (UNKNOWN/WHITE IN KEGG)
 
-    EC 3.5.1.2
+    GLUTAMIN-RXN
         #equilibrium
-        name GLUTAMIN-RXN
         minors WATER PROTON AMMONIA
         pairs (GLN GLT)
         genes SP_1763 OR SP_1412 OR SP_1996 OR SP_1154 OR SP_0588 OR SP_1333
 
-    EC 6.3.4.5
+    ARGSUCCINSYN-RXN
         #equilibrium
-        name ARGSUCCINSYN-RXN
         minors ATP PROTON AMP PPI
         pairs (L-CITRULLINE L-ARGININO-SUCCINATE)
         genes SP_0113
             #not listed in biocyc?
 
-    EC 4.3.2.1
+    ARGSUCCINLYA-RXN
         #equilibrium
-        name ARGSUCCINLYA-RXN
         pairs (L-ARGININO-SUCCINATE ARG) (L-ARGININO-SUCCINATE FUM)
         genes SP_0056
 
-    EC 3.5.4.1
+    CYTDEAM-RXN
         #equilibrium
-        name CYTDEAM-RXN
         minors WATER AMMONIA
         pairs (CYTOSINE URACIL)
         genes SP_1167 OR SP_1356 OR SP_0161
 
-    EC 2.6.1.1
+    ASPAMINOTRANS-RXN
         #equilibrium
-        name ASPAMINOTRANS-RXN
         pairs (2-KETOGLUTARATE GLT) (L-ASPARTATE OXALACETIC_ACID)
         genes SP_1544 OR SP_0035
 
@@ -132,9 +116,10 @@ BLASTED RXNS (UNKNOWN/WHITE IN KEGG)
     PuuD RXN
         genes SP_1089
 
-    EC 4.1.1.50
+#BLASTED RXNS
+
+    PROTON CARBON-DIOXIDE
         #equilibrium
         name SAMDECARB-RXN
-        minors PROTON CARBON-DIOXIDE
         pairs (S-ADENOSYLMETHIONINE S-ADENOSYLMETHIONINAMINE)
         genes SP_0459 OR SP_0820 OR SP_1681 OR SP_0613

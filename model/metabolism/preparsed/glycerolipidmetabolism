@@ -1,0 +1,60 @@
+#GREEN/KNOWN RXNS IN KEGG
+
+    GLY3KIN-RXN
+        #doesn't exist in TIGR4 according to biocyc?
+        #equilibrium
+        minors ATP PROTON ADP
+        pairs (GLYCERATE G3P)
+        genes SP_1126
+
+    GLYCDEH-RXN
+        #equilibrium
+        minors NAD PROTON NADH
+        pairs (GLYCEROL DIHYDROXYACETONE)
+        genes SP_0253
+
+    GLYCEROL-KIN-RXN
+        #equilibrium
+        minors ATP PROTON ADP
+        pairs (GLYCEROL GLYCEROL-3P)
+        genes SP_2186
+
+    RXN-1381
+        #equilibrium
+        minors Long-Chain-Acyl-CoAs CO-A
+        pairs (GLYCEROL-3P ACYL-SN-GLYCEROL-3P) (Long-Chain-Acyl-CoAs CO-A)
+        genes SP_0037 SP_0851
+
+    RXN-1623
+        #equilibrium
+        minors Long-Chain-Acyl-CoAs CO-A
+        pairs (ACYL-SN-GLYCEROL-3P L-PHOSPHATIDATE)
+        genes SP_1624
+
+    DIACYLGLYKIN-RXN
+        #equilibrium
+        minors ATP PROTON ADP
+        pairs (DIACYLGLYCEROL L-PHOSPHATIDATE)
+        genes SP_0968
+
+    RXN-12088
+        #equilibrium
+        minors WATER RH
+        pairs (Alpha-D-Galactosides ALPHA-D-GALACTOSE)
+        genes SP_1898
+#BLASTED RXNS (UNKNOWN/WHITE IN KEGG)
+
+    GLYCERONE-KINASE-RXN
+        #equilibrium
+        minors ATP PROTON ADP
+        pairs (DIHYDROXYACETONE DIHYDROXY-ACETONE-PHOSPHATE)
+        genes SP_0415 OR SP_0443 OR SP_0647 OR SP_0686 OR SP_0002 OR SP_1647
+
+    RXN-12579
+        #equilibrium
+        minors WATER CPD-13524
+        pairs (Dietary-retinyl-esters Long-Chain-Fatty-Acids)
+        genes SP_1056 OR SP_0777 OR SP_0026
+
+    SQD1 RXN
+        genes SP_1607

@@ -10,7 +10,7 @@ FabG Rxn
     #how to search this rxn in biocyc?
     genes SP_0421 SP_0793
 
-4.2.1.59
+4.2.1.59.RXN
     minors WATER
     pairs (3-hydroxy-octanoyl-ACPs 2-Octenoyl-ACPs)
     genes SP_0424

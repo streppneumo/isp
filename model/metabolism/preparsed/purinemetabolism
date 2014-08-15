@@ -1,270 +1,230 @@
-GREEN/KNOWN RXNS IN KEGG
+#GREEN/KNOWN RXNS IN KEGG
 
-    EC 5.4.2.7
+    D-PPENTOMUT-RXN
         #listed as an equilibrium
-        name D-PPENTOMUT-RXN
         pairs (DEOXY-D-RIBOSE-1-PHOSPHATE DEOXY-RIBOSE-5P
         genes SP_0829
 
-    EC 5.4.2.2
-       name PHOSPHOGLUCMUT-RXN
+    PHOSPHOGLUCMUT-RXN
        pairs (GLC-1-P ALPHA-GLC-6-P)
        genes SP_1498
 
-    EC 3.6.1.13
+    RXN0-1441
         #not found in TIGR4 according to biocyc?
-        name RXN0-1441
         minors WATER PROTON AMP
         pairs (ADENOSINE_DIPHOSPHATE_RIBOSE RIBOSE-5P)
         genes SP_0989
 
-    EC 2.7.6.1
-        name PRPPSYN-RXN
+    PRPPSYN-RXN
         minors PROTON ATP AMP
         pairs (RIBOSE-5P PRPP)
         genes SP_0027 SP_1095
 
-    EC 2.7.6.5
-        name GDPPYPHOSKIN-RXN
+    GDPPYPHOSKIN-RXN
         minors ATP AMP
         pairs (GTP GDP-TP)
         genes SP_1097 SP_1645
 
-    EC 2.4.2.14
-        name PRPPAMIDOTRANS-RXN
+    PRPPAMIDOTRANS-RXN
         minors GLT GLN WATER
         pairs (5-P-BETA-D-RIBOSYL-AMINE PRPP)
         genes SP_0046
 
-    EC 2.7.7.6
-        name DNA-DIRECTED-RNA-POLYMERASE-RXN
+    DNA-DIRECTED-RNA-POLYMERASE-RXN
         minors RNA-Holder
         pairs (Nucleoside-Triphosphates PPI)
         genes SP_0236 SP_0493 SP_1737 SP_1960 SP_1961
 
-    EC 2.7.7.7
-        name DNA-DIRECTED-DNA-POLYMERASE-RXN
+    DNA-DIRECTED-DNA-POLYMERASE-RXN
         minors PPI
         pairs (Deoxy-Ribonucleoside-Triphosphates DNA)
         genes SP_0002 SP_0032 SP_0274 SP_0765 SP_0865 SP_0895 SP_0936
                 SP_0993
 
-    EC 6.3.4.13
+    GLYRIBONUCSYN-RXN
         #listed as an equilibrium
-        name GLYRIBONUCSYN-RXN
         minors ATP PROTON ADP
         pairs (5-P-BETA-D-RIBOSYL-AMINE 5-PHOSPHO-RIBOSYL-GLYCINEAMIDE)
         genes SP_0051
 
-    EC 1.17.4.2
+    1.17.4.2-RXN
         #listed as an equilibrium
-        name 1.17.4.2-RXN
         minors WATER Ox-Thioredoxin Red-Thioredoxin
         pairs (Deoxy-Ribonucleoside-Triphosphates Ribonucleoside-Triphosphates
         genes SP_0202
 
-    EC 2.7.7.8
+    2.7.7.8-RXN
         #listed as an equilibrium
-        name 2.7.7.8-RXN
         pairs (ssRNAs Nucleoside-Diphosphates)
         genes SP_0588
 
-    EC 2.7.4.6
+    GDPKIN-RXN
         #equilibrium
-        name GDPKIN-RXN
         minors ATP ADP
         pairs (GDP GTP)
         genes SP_1959
 
-    EC 2.7.1.40
+    PEPDEPHOS-RXN
         #equilibrium
-        name PEPDEPHOS-RXN
         minors PROTON ADP
         pairs (PYRUVATE PHOSPHO-ENOL-PYRUVATE)
         genes SP_0897
 
-    EC 2.1.2.2
+    GART-RXN
         #equilibrium
-        name GART-RXN
         minors PROTON
         pairs (5-PHOSPHO-RIBOSYL-GLYCINEAMIDE 5-P-RIBOSYL-N-FORMYLGLYCINEAMIDE)
                 ( 10-FORMYL-THF THF)
         genes SP_0048
 
-    EC 1.17.4.1
+    GDPREDUCT-RXN
         #equilibrium
-        name GDPREDUCT-RXN
         minors WATER Ox-Thioredoxin Red-Thioredoxin
         pairs (DGDP GDP)
         genes SP_1179 SP_1180
 
-    EC 2.7.4.8
+    GUANYL-KIN-RXN
         #equilibrium
-        name GUANYL-KIN-RXN
         minors ATP ADP
         pairs (GMP GDP)
         genes SP_1738
 
-    EC 6.3.3.1
+    AIRS-RXN
         #equilibrium
-        name AIRS-RXN
         minors PROTON ATP ADP
         pairs (5-PHOSPHORIBOSYL-N-FORMYLGLYCINEAMIDINE 5-PHOSPHORIBOSYL-5-AMINOIMIDAZOLE)
         genes SP_0047
 
-    EC 2.4.2.1
+    RXN0-5199
         #equilibrium
-        name RXN0-5199
         pairs (GUANOSINE GUANINE)
         genes SP_0831 SP_0835
 
-    EC 2.4.2.7
+    ADENPRIBOSYLTRAN-RXN
         #equilibrium
-        name ADENPRIBOSYLTRAN-RXN
         pairs (PPI PRPP) (AMP ADENINE)
         genes SP_1577
 
-    EC 2.4.2.8
+    GUANPRIBOSYLTRAN-RXN
         #equilibrium
-        name GUANPRIBOSYLTRAN-RXN
         minors PPI PRPP
         pairs (GMP GUANINE)
         genes SP_0012
 
-    EC 2.4.2.22
+    XANPRIBOSYLTRAN-RXN
         #equilibrium
-        name XANPRIBOSYLTRAN-RXN
         pairs (PPI PRPP) (XANTHOSINE-5-PHOSPHATE XANTHINE)
         genes SP_1847
 
-    EC 6.3.4.18
+    RXN0-742
         #equilibrium
-        name RXN0-742
         minors ATP ADP PROTON
         pairs (5-PHOSPHORIBOSYL-5-AMINOIMIDAZOLE CPD0-181)
         genes SP_0054
 
-    EC 6.3.5.2
+   GMP-SYN-GLUT-RXN
         #equilibrium
-        name GMP-SYN-GLUT-RXN
         minors WATER ATP AMP PROTON
         pairs (XANTHOSINE-5-PHOSPHATE GMP)
         genes SP_1445
 
-    EC 5.4.99.18
+   RXN0-743
         #equilibrium
-        name RXN0-743
         pairs (CPD0-181 PHOSPHORIBOSYL-CARBOXY-AMINOIMIDAZOLE)
         genes SP_0053
 
-    EC 1.7.1.7
+   GMP-REDUCT-RXN
         #equilibrium
-        name GMP-REDUCT-RXN
         minors NADP NADPH PROTON
         pairs (IMP GMP)
         genes SP_1249
 
-    EC 6.3.2.6
+   SAICARSYN-RXN
         #equilibrium
-        name SAICARSYN-RXN
         minors ATP ADP PROTON
         pairs (PHOSPHORIBOSYL-CARBOXY-AMINOIMIDAZOLE P-RIBOSYL-4-SUCCCARB-AMINOIMIDAZOLE)
         genes SP_0044
 
-    EC 4.3.2.2
+   AICARSYN-RXN
         #equilibrium
-        name AICARSYN-RXN
         pairs (P-RIBOSYL-4-SUCCCARB-AMINOIMIDAZOLE AICAR)
         genes SP_0056
 
-    EC 1.1.1.205
+   IMP-DEHYDROG-RXN
         #equilibrium
-        name IMP-DEHYDROG-RXN
         minors WATER PROTON NAD NADH
         pairs (IMP XANTHOSINE-5-PHOSPHATE)
         genes SP_2228
 
-    EC 2.1.2.3
+   AICARTRANSFORM-RXN
         #equilibrium
-        name AICARTRANSFORM-RXN
         pairs (AICAR HOSPHORIBOSYL-FORMAMIDO-CARBOXAMIDE) (10-FORMYL-THF THF)
         genes SP_0050
 
-    EC 6.3.4.4
+   ADENYLOSUCCINATE-SYNTHASE-RXN
         #equilibrium
-        name ADENYLOSUCCINATE-SYNTHASE-RXN
         minors GTP GDP PROTON
         pairs (IMP ADENYLOSUCC)
         genes SP_0019
 
-    EC 2.7.4.3
+   ADENYL-KIN-RXN
         #equilibrium
-        name ADENYL-KIN-RXN
         pairs (ADP AMP)
         genes SP_0231
 
-    EC 2.7.2.2
+   CARBAMATE-KINASE-RXN
         #equilibrium
-        name CARBAMATE-KINASE-RXN
         minors ATP ADP
         pairs (AMMONIA CARBAMOYL-P)
         genes SP_2151
 
-BLASTED RXNS (UNKNOWN/WHITE IN KEGG)
+#BLASTED RXNS (UNKNOWN/WHITE IN KEGG)
 
-    EC 3.6.1.40
+    PPPGPPHYDRO-RXN
         #equilibrium
-        name PPPGPPHYDRO-RXN
         minors WATER PROTON
         pairs (GDP-TP GUANOSINE-5DP-3DP)
         genes SP_1212 OR SP_1876
 
-    EC 3.1.3.5
+    XMPXAN-RXN
         #equilibrium
-        name XMPXAN-RXN
         minors WATER
         pairs (XANTHOSINE-5-PHOSPHATE XANTHOSINE)
         genes SP_0758 OR SP_1566 OR SP_1326 OR SP_1344
 
-    EC 3.1.7.2
+    PPGPPSYN-RXN
         #equilibrium
-        name PPGPPSYN-RXN
         minors WATER PROTON
         pairs (GUANOSINE-5DP-3DP GDP)
         genes SP_1645
 
-    EC 2.4.2.15
+    RXN0-5199
         #equilibrium
-        name RXN0-5199
         minors Pi RIBOSE-1P
         pairs (GUANOSINE GUANINE)
         genes SP_1118
 
-    EC 3.5.4.3
+    GUANINE-DEAMINASE-RXN
         #equilibrium
-        name GUANINE-DEAMINASE-RXN
         minors WATER
         pairs (GUANINE XANTHINE)
         genes SP_1356
 
-    EC 1.17.1.4
+    RXN0-901
         #equilibrium
-        name RXN0-901
         minors WATER NAD NADH PROTON
         pairs (XANTHINE URATE)
         genes SP_0852 OR SP_2188 OR SP_1116 OR SP_0715 OR SP_2064
 
-    EC 2.1.3.5
+    OXAMATE-CARBAMOYLTRANSFERASE-RXN
         #equilibrium
-        name OXAMATE-CARBAMOYLTRANSFERASE-RXN
         minors Pi
         pairs (CARBAMOYL-P OXAMATE)
             #? Not sure about this one?
         genes SP_1563 OR SP_0221
 
-    EC 3.5.4.4
+    ADDALT-RXN
         #equilibrium
-        name ADDALT-RXN
         minors WATER AMMONIA
         pairs (DEOXYADENOSINE DEOXYINOSINE)
         genes SP_1712 or SP_0835 OR SP_0831 OR SP_1356
