@@ -3,7 +3,7 @@ from pprint import pprint
 import re
 import keyword
 
-from parsing import load_dat_file
+from parsing import load_dat_file, index_dat_file
 
 
 def is_unsafe_name(s):
@@ -73,6 +73,29 @@ class CycGene(CycObject):
         self.names = set([a.value for a in accs] + [self.common_name])
 
 
+class CycProtein(CycObject):
+    def __init__(self, fields):
+        super(CycProtein, self).__init__(fields)
+
+    @property
+    def is_complex(self):
+        return 'COMPONENTS' in self.fields
+
+    @property
+    def components(self):
+        if not self.is_complex:
+            return None
+        else:
+            return [c.value for c in self.fields['COMPONENTS']]
+
+    @property
+    def genes(self):
+        if self.is_complex:
+            return None
+        else:
+            return [g.value for g in self.fields['GENE']]
+
+
 class CycCompound(CycObject):
     pass
 
@@ -109,9 +132,10 @@ class CycModel(object):
         def fullname(filename):
             return directory + "/" + filename
 
-        self.genes = load_genes_dat(fullname("genes.dat"))
-        self.compounds = load_compounds_dat(fullname("compounds.dat"))
-        self.reactions = load_reactions_dat(fullname("reactions.dat"))
+        self.genes = index_dat_file(fullname("genes.dat"), CycGene)
+        self.proteins = index_dat_file(fullname("proteins.dat"), CycProtein)
+        self.compounds = index_dat_file(fullname("compounds.dat"), CycCompound)
+        self.reactions = index_dat_file(fullname("reactions.dat"), CycReaction)
 
     def get_reactions_by_ec(self, ec):
         return [r for r in self.reactions.values() if ec in r.ec_numbers]
@@ -141,22 +165,6 @@ def load_d39():
 
 def load_19f():
     return CycModel("spne487213cyc")
-
-
-# =================== file parsing primitives ====================
-def load_genes_dat(filename):
-    genes = [CycGene(fields) for fields in load_dat_file(filename)]
-    return {g.unique_id: g for g in genes}
-
-
-def load_compounds_dat(filename):
-    compounds = [CycCompound(fields) for fields in load_dat_file(filename)]
-    return {c.unique_id: c for c in compounds}
-
-
-def load_reactions_dat(filename):
-    reactions = [CycReaction(fields) for fields in load_dat_file(filename)]
-    return {r.unique_id: r for r in reactions}
 
 
 # =================== interactive prompt ====================

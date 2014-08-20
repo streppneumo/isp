@@ -157,6 +157,9 @@ def load_dat_file(filename):
         return [parse_record(r) for r in consolidate_attributes(records)]
 
 
+def index_dat_file(filename, constructor):
+    objects = [constructor(fields) for fields in load_dat_file(filename)]
+    return {o.unique_id: o for o in objects}
 
 
 

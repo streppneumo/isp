@@ -1,4 +1,8 @@
+PHOSPHOGLUCMUT-RXN
+    genes SP_1498
 GLUCOKIN-RXN
-    minors ATP ADP PROTON
-    pairs (ATP ADP)
-    genes SP_0001
+    genes SP_0668
+ALDOSE-1-EPIMERASE-RXN
+    genes SP_0066
+ALDOSE1EPIM-RXN
+    genes SP_0066
