@@ -11,13 +11,15 @@
         #equilibrium
         minors NAD PROTON NADH
         pairs (GLYCEROL DIHYDROXYACETONE)
-        genes SP_0253
+        genes SP_0253 SP_2157
+            #SP2157 is a prediction
 
     GLYCEROL-KIN-RXN
         #equilibrium
         minors ATP PROTON ADP
         pairs (GLYCEROL GLYCEROL-3P)
-        genes SP_2186
+        genes SP_2186 SP_2187
+            #SP2187 is a prediction
 
     RXN-1381
         #equilibrium
@@ -42,6 +44,7 @@
         minors WATER RH
         pairs (Alpha-D-Galactosides ALPHA-D-GALACTOSE)
         genes SP_1898
+
 #BLASTED RXNS (UNKNOWN/WHITE IN KEGG)
 
     GLYCERONE-KINASE-RXN

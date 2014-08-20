@@ -4,7 +4,8 @@
         #equilibrium
         minors NADP NADPH PROTON
         pairs (GLUTATHIONE OXIDIZED-GLUTATHIONE)
-        genes SP_0784
+        genes SP_0784 SP_1161 SP_1588 SP_1469
+            #SP1161 SP1588 SP1469 are predictions
 
     RXN-9952
         #equilibrium

@@ -4,7 +4,8 @@
         #equilibrium
         minors WATER PROTON AMMONIA PYRUVATE
         pairs (L-CYSTATHIONINE HOMO-CYS)
-        genes SP_1524
+        genes SP_1524 SP_1544 SP_0035 SP_1994
+            #SP1544 SP0035 and SP1994 are predictions
 
     L-LACTATE-DEHYDROGENASE-RXN
         #equilibrium
@@ -17,13 +18,16 @@
         #equilibrium
         minors ACETYL-COA + CO-A
         pairs (SER ACETYLSERINE)
-        genes SP_0589
+        genes SP_0589 SP_2097 SP_0988
+            #SP2097 and SP0988 are predictions
 
     ACSERLY-RXN
         #equilibrium
         minors HS PROTON ACET
         pairs (ACETYLSERINE L-SELENOCYSTEINE)
-        genes SP_2210
+        genes SP_2210 SP_1681 SP_1688
+            #SP1681 and SP1688 are predictions
+            #may possibly have more genes involved
 
     HOMOCYSMET-RXN
         #equilibrium
@@ -84,7 +88,8 @@
         #equilibrium
         minors WATER
         pairs (CPD-564 ADENOSYL-HOMO-CYS)
-        genes SP_0991
+        genes SP_0991 SP_0835
+            #SP0835 is a prediction
 
     EC 2.1.1.37
         #listed in kegg but not listed in biocyc

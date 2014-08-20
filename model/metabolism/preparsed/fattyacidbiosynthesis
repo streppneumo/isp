@@ -8,7 +8,9 @@ FabF Rxn
 
 FabG Rxn
     #how to search this rxn in biocyc?
-    genes SP_0421 SP_0793
+    genes SP_0421 SP_0793 SP_0320 SP_1909 SP_0675
+        #SP0320 SP1909 SP0675 are predictions but they
+        #showed up for both SP0421 and SP0793
 
 4.2.1.59.RXN
     minors WATER

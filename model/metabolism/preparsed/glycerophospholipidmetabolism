@@ -14,7 +14,8 @@
     RXN-1381
         minors Long-Chain-Acyl-CoAs CO-A
         pairs (GLYCEROL-3P ACYL-SN-GLYCEROL-3P)
-        genes SP_0037 SP_0851
+        genes SP_0037 SP_0851 SP_0267
+            #SP0267 is a prediction
 
     RXN-1623
         minors Long-Chain-Acyl-CoAs CO-A
@@ -45,6 +46,7 @@
         minors WATER PROTON
         pairs (Glycerophosphodiesters GLYCEROL-3P)
         genes SP_0994
+
 #BLASTED RXNS (UNKNOWN/WHITE IN KEGG)
 
     RXN0-5258

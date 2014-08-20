@@ -4,7 +4,8 @@
         #equilibrium
         minors WATER PROTON
         pairs (DI-H-OROTATE CARBAMYUL-L-ASPARTATE)
-        genes SP_1167
+        genes SP_1167 SP_2056
+            #SP2056 is a prediction
 
     ASPCARBTRANS-RXN
         #equilibrium
@@ -16,7 +17,8 @@
         #equilibrium
         minors HC03 WATER ATP ADP Pi PROTON
         pairs (GLN CARBAMOYL-P)
-        genes SP_1275 SP_1276
+        genes SP_1275 SP_1276 SP_1816
+            #SP1816 is a prediction
 
     THIOREDOXIN-REDUCT-NADPH-RXN
        #equilibrium
@@ -29,31 +31,37 @@
        minors WATER
        pairs (Red-Thioredoxin Ox-Thioredoxin) (Deoxy-Ribonucleoside-Triphosphates
               Ribonucleoside-Triphosphates)
-       genes SP_0202
+       genes SP_0202 SP_0780
+            #SP0780 is a prediction
 
     DNA-DIRECTED-DNA-POLYMERASE-RXN
        #equilibrium
        pairs (Deoxy-Ribonucleoside-Triphosphates PPI)
        genes SP_0002 SP_0032 SP_0274 SP_0765 SP_0865 SP_0895 SP_0936 SP_0993
+             SP_0802
+                #SP0802 is a prediction
 
     OROTATE-REDUCTASE-NADH-RXN
        #equilibrium
        minors NAD NADH PROTON
        pairs (DI-H-OROTATE OROTATE)
-       genes SP_0963 SP_0964
+       genes SP_0963 SP_0964 SP_0764 SP_0419
+        #SP0764 and SP0419 are predictions
 
     RXN-9929
         #not in TIGR4 according to biocyc? used d39 rxn instead
         #equilibrium
         minors FUM SUC
         pairs (DI-H-OROTATE OROTATE)
-        genes SP_0764
+        genes SP_0764 SP_0964
+            #SP0964 is a prediction
 
     2.7.7.8-RXN
         #equilibrium
         minors Pi
         pairs (ssRNAs Nucleoside-Diphosphates)
-        genes SP_0588
+        genes SP_0588 SP_0908 SP_0862
+            #SP0908 and SP0862 are predictions
 
     DNA-DIRECTED-RNA-POLYMERASE-RXN
         #equilibrium
@@ -70,7 +78,8 @@
     OROPRIBTRANS-RXN
         #equilibrium
         pairs (PPI PRPP) (OROTIDINE-5-PHOSPHATE OROTATE)
-        genes SP_0702
+        genes SP_0702 SP_1095
+            #SP1095 is a prediction
 
     UDPKIN-RXN
         #what to do if multiple rxns are listed under this name?
@@ -115,7 +124,8 @@
         #equilibrium
         minors WATER AMMONIA
         pairs (DCMP DUMP)
-        genes SP_0744
+        genes SP_0744 SP_0178
+            #SP0178 is a prediction
 
     THYMIDYLATESYN-RXN
         #equilibrium
