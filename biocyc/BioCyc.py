@@ -107,9 +107,43 @@ class CycReaction(CycObject):
         self.left = self.get_field('LEFT', [])
         self.right = self.get_field('RIGHT', [])
 
+    @property
+    def direction(self):
+        if 'REACTION-DIRECTION' in self.fields:
+            return self.fields['REACTION-DIRECTION'].value
+        else:
+            return 'UNKNOWN'
+
+    @property
+    def reversible(self, unknown_is_reversible=True):
+        if unknown_is_reversible:
+            return self.direction == 'REVERSIBLE' or self.direction == 'UNKNOWN'
+        else:
+            return self.direction == 'REVERSIBLE'
+
     def __repr__(self):
-        return (self.unique_id + ": " + " + ".join(self.left) + " <-> " +
-                " + ".join(self.right))
+        if self.direction == 'REVERSIBLE':
+            dirstr = ' <-> '
+        elif self.direction == 'LEFT-TO-RIGHT':
+            dirstr = ' -> '
+        elif self.direction == 'IRREVERSIBLE-LEFT-TO-RIGHT':
+            dirstr = ' --> '
+        elif self.direction == 'RIGHT-TO-LEFT':
+            dirstr = ' <- '
+        elif self.direction == 'IRREVERSIBLE-RIGHT-TO-LEFT':
+            dirstr = ' <-- '
+        elif self.direction == 'UNKNOWN':
+            dirstr = ' <-?-> '
+        else:
+            dirstr = ' <?-' + self.direction + '-?> '
+
+        if self.ec_numbers:
+            ec = "   {" + " ".join(self.ec_numbers) + "}"
+        else:
+            ec = ""
+
+        return (self.unique_id + ": " + " + ".join(self.left) + dirstr +
+                " + ".join(self.right)) + ec
 
     def __str__(self):
         return repr(self)
@@ -125,6 +159,14 @@ class CycReaction(CycObject):
                 ).format(var=var, reacts=reacts, prods=prods)
 
 
+class CycReactionLink(CycObject):
+    pass
+
+
+class CycEnzRxn(CycObject):
+    pass
+
+
 class CycModel(object):
     def __init__(self, directory):
         self.directory = directory
@@ -132,27 +174,46 @@ class CycModel(object):
         def fullname(filename):
             return directory + "/" + filename
 
-        self.genes = index_dat_file(fullname("genes.dat"), CycGene)
-        self.proteins = index_dat_file(fullname("proteins.dat"), CycProtein)
-        self.compounds = index_dat_file(fullname("compounds.dat"), CycCompound)
-        self.reactions = index_dat_file(fullname("reactions.dat"), CycReaction)
+        to_load = [("genes.dat", CycGene),
+                   ("proteins.dat", CycProtein),
+                   ("compounds.dat", CycCompound),
+                   ("reactions.dat", CycReaction),
+#                   ("reaction-links.dat", CycReactionLink),
+                   ("enzrxns.dat", CycEnzRxn)]
 
-    def get_reactions_by_ec(self, ec):
-        return [r for r in self.reactions.values() if ec in r.ec_numbers]
+        self.objects = {}
 
-    @staticmethod
-    def find(mapping, value, field='UNIQUE-ID'):
-        return [v for (k, v) in mapping.items()
-                             if v.matches(value, field=field)]
+        for filename, constructor in to_load:
+            self.objects.update(index_dat_file(fullname(filename), constructor))
 
-    def findall(self, value, collapse=True, field=None):
-        matches = dict(genes=self.find(self.genes, value, field),
-                       compounds=[],
-                       reactions=self.find(self.reactions, value, field))
-        if collapse:
-            return flatten(matches.values())
-        else:
-            return matches
+    def find(self, value, field='UNIQUE-ID'):
+        r = [v for (k, v) in self.objects.items()
+                          if v.matches(value, field=field)]
+        r.sort(key=lambda x: x.__class__.__name__)
+        return r
+
+    def query(self, tokens):
+        flatten = lambda xlist: [i for x in xlist for i in x]
+        results = [tokens[0]]
+        traces = [tokens[0]]
+        pairs = zip(tokens[1::2], tokens[2::2])
+        for cmd, value in pairs:
+            if cmd == 'm':
+                for i in range(len(results)):
+                    results[i] = self.find(results[i], field=value)
+                    def tracer(r):
+                        u = r.get_field('UNIQUE-ID')[0]
+                        return traces[i] + " ?{v} -> {u}".format(v=value, u=u)
+                    traces[i] = [tracer(r) for r in results[i]]
+            elif cmd == 'g':
+                for i in range(len(results)):
+                    results[i] = results[i].get_field(value, default=[])
+                    def tracer(r):
+                        return traces[i] + "." + value + " -> " + r
+                    traces[i] = [tracer(r) for r in results[i]]
+            results = flatten(results)
+            traces = flatten(traces)
+        return [x + ": " + str(y) for x, y in zip(traces, results)]
 
 
 def load_tigr4():
@@ -169,16 +230,21 @@ def load_19f():
 
 # =================== interactive prompt ====================
 def general_find(model, value):
-    return model.findall(value, field=None)
+    return model.find(value, field=None)
 
 
 def specific_find(model, value, field):
-    return model.findall(value, field=field)
+    return model.find(value, field=field)
+
+
+def run_query(model, *args):
+    return model.query(args)
 
 
 command_map = dict(f=general_find,
                    ff=specific_find,
-                   e=lambda m, v: specific_find(m, 'EC-'+v, 'EC-NUMBER'))
+                   e=lambda m, v: specific_find(m, 'EC-'+v, 'EC-NUMBER'),
+                   q=run_query)
 
 
 def start_interactive(models):
@@ -196,11 +262,25 @@ def start_interactive(models):
         else:
             previous_args.append(args)
 
+        if cmd.startswith('?'):
+            uid = cmd[1:]
+            for name, model in models.items():
+                if uid in model.objects:
+                    print "#", name
+                    print "CycObject:", uid
+                    pprint(model.objects[uid].fields)
+            continue
+
         if cmd.startswith('$'):
             cmd = cmd[1:]
             stringifier = lambda x: x.cellscribe()
         else:
-            stringifier = lambda x: "   " + str(x)
+            stringifier = lambda x: ("   [" + x.__class__.__name__ +
+                                     "]  " + str(x))
+
+        if cmd not in command_map:
+            print "<<< Error: invalid command '" + cmd + "'>>>"
+            continue
 
         for name, model in models.items():
             print "#", name
