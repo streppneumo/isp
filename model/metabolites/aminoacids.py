@@ -42,7 +42,7 @@ d_asparagine = Metabolite("D_asparagine", kegg="?")
 d_glutamate = Metabolite("D_glutamate", kegg="?")
 d_aspartate = Metabolite("D_aspartate", kegg="?")
 
-
+# Testing to see if I remember anything at all
 
 
 
