@@ -1,0 +1,22 @@
+#GREEN/KNOWN RXNS IN KEGG
+
+    EC 3.2.1.21
+        #listed in kegg but doesn't exist in TIGR4 according to biocyc?
+
+    ASNSYNA-RXN
+        #equilibrium
+        minors AMMONIA ATP AMP PPI
+        pairs (L-ASPARTATE ASN)
+        genes SP_1970
+
+    ASPARAGHYD-RXN
+        #equilibrium
+        minors WATER PROTON AMMONIA
+        pairs (L-ASPARTATE ASN)
+        genes SP_1998
+
+    GLYOHMETRANS-RXN
+        #equilibrium
+        minors THF METHYLENE-THF WATER
+        pairs (SER GLY)
+        genes SP_1024
