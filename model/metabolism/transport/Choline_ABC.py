@@ -1,7 +1,7 @@
 from CellScribe import *
-from model.compartments import e
-from model.metabolites import atp, adp, phosphate
-from model.genes import SP_1860, SP_1861
+from compartments import e
+from metabolites import atp, adp, phosphate
+from genes import SP_1860, SP_1861
 
 choline_rxn = Reaction(name="choline_rxn",
                        reactants=e(choline) + atp,

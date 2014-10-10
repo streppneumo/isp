@@ -58,4 +58,6 @@ from association import GeneAssociation
 from logic import (If,
                    Iff)
 
+from model import Model
+
 

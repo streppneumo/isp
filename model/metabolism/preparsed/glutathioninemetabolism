@@ -1,62 +1,62 @@
 #GREEN/KNOWN RXNS IN KEGG
 
-    GLUTATHIONE-REDUCT-NADPH-RXN
-        #equilibrium
-        minors NADP NADPH PROTON
-        pairs (GLUTATHIONE OXIDIZED-GLUTATHIONE)
-        genes SP_0784 SP_1161 SP_1588 SP_1469
-            #SP1161 SP1588 SP1469 are predictions
+GLUTATHIONE-REDUCT-NADPH-RXN
+    #equilibrium
+    minors NADP NADPH PROTON
+    pairs (GLUTATHIONE OXIDIZED-GLUTATHIONE)
+    genes SP_0784 SP_1161 SP_1588 SP_1469
+        #SP1161 SP1588 SP1469 are predictions
 
-    RXN-9952
-        #equilibrium
-        minors CPD-2961 RIBULOSE-5P CARBON-DIOXIDE
-        pairs (NADP NADPH)
-        genes SP_0375
+RXN-9952
+    #equilibrium
+    minors CPD-2961 RIBULOSE-5P CARBON-DIOXIDE
+    pairs (NADP NADPH)
+    genes SP_0375
 
-    GLU6PDEHYDROG-RXN
-        #equilibrium
-        minors GLC-6-P D-6-P-GLUCONO-DELTA-LACTONE PROTON
-        pairs (NADP NADPH)
-        genes SP_1243
+GLU6PDEHYDROG-RXN
+    #equilibrium
+    minors GLC-6-P D-6-P-GLUCONO-DELTA-LACTONE PROTON
+    pairs (NADP NADPH)
+    genes SP_1243
 
-    GLUTATHIONE-PEROXIDASE-RXN
-        #equilibrium
-        minors HYDROGEN-PEROXIDE WATER
-        pairs (GLUTATHIONE OXIDIZED-GLUTATHIONE)
-        genes SP_0313
+GLUTATHIONE-PEROXIDASE-RXN
+    #equilibrium
+    minors HYDROGEN-PEROXIDE WATER
+    pairs (GLUTATHIONE OXIDIZED-GLUTATHIONE)
+    genes SP_0313
 
-    SPERMIDINESYN-RXN
-        #equilibrium
-        #kegg lists another rxn under the same EC number
-        minors PROTON
-        pairs (PUTRESCINE SPERMIDINE) (S-ADENOSYLMETHIONINAMINE 5-METHYLTHIOADENOSINE)
-        genes SP_0918
+SPERMIDINESYN-RXN
+    #equilibrium
+    #kegg lists another rxn under the same EC number
+    minors PROTON
+    pairs (PUTRESCINE SPERMIDINE) (S-ADENOSYLMETHIONINAMINE 5-METHYLTHIOADENOSINE)
+    genes SP_0918
 
-    RXN-6642
-        #not found in tigr4 according to biocyc?
-        #equilibrium
-        minors WATER
-        pairs (CPD-6262 S-Substituted-L-Cysteines) (CPD-6262 GLY)
-        genes SP_0797
+RXN-6642
+    #not found in tigr4 according to biocyc?
+    #equilibrium
+    minors WATER
+    pairs (CPD-6262 S-Substituted-L-Cysteines) (CPD-6262 GLY)
+    genes SP_0797
 
 #BLASTED RXNS (UNKNOWN/WHITE IN KEGG)
 
-    PepA RXN
-        genes SP_0965 OR SP_1479 OR SP_0919
+PepA RXN
+    genes SP_0965 OR SP_1479 OR SP_0919
 
-    PepB RXN
-        genes SP_2153
+PepB RXN
+    genes SP_2153
 
-    PepD RXN
-        genes SP_0765
+PepD RXN
+    genes SP_0765
 
-    ISOCITDEH-RXN
-        #equilibrium
-        minors THREO-DS-ISO-CITRATE 2-KETOGLUTARATE CARBON-DIOXIDE
-        pairs (NADP NADPH)
-        genes SP_0648 OR SP_1266 OR SP_0950 OR SP_0408 OR SP_0571
+ISOCITDEH-RXN
+    #equilibrium
+    minors THREO-DS-ISO-CITRATE 2-KETOGLUTARATE CARBON-DIOXIDE
+    pairs (NADP NADPH)
+    genes SP_0648 OR SP_1266 OR SP_0950 OR SP_0408 OR SP_0571
 
-    GSHTRAN-RXN
-        #equilibrium
-        pairs (GLUTATHIONE S-Substituted-Glutathione) (RX HX)
-        genes SP_0498 OR SP_1550 OR SP_1382 OR SP_1248
+GSHTRAN-RXN
+    #equilibrium
+    pairs (GLUTATHIONE S-Substituted-Glutathione) (RX HX)
+    genes SP_0498 OR SP_1550 OR SP_1382 OR SP_1248

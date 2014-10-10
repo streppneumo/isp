@@ -1,6 +1,6 @@
 
 from stoichiometry import Reactable
-from foundation import Primitive, Composite, Named
+from foundation import Primitive, Composite, Named, Added
 from location import Localizable, Localized
 from logic import Logicable
 
@@ -21,7 +21,7 @@ class LocalizedMetabolite(Localized, Metabolite):
 Metabolite.localized_constructor = LocalizedMetabolite
 
 
-class Reaction(Named, Composite):
+class Reaction(Named, Composite, Added):
     def __init__(self, name, reactants, products, minors=None, pairs=None,
                  reversible=None, **kwargs):
         Named.__init__(self, name)
@@ -32,6 +32,8 @@ class Reaction(Named, Composite):
         self.pairs = pairs
         self.reversible = reversible
         self.fields = kwargs
+
+        self.add()
 
     @property
     def members(self):

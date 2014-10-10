@@ -1,130 +1,130 @@
 #GREEN/KNOWN RXNS IN KEGG
 
-    EC 5.4.2.11
-        #listed in kegg but not in biocyc
+EC 5.4.2.11
+    #listed in kegg but not in biocyc
 
-    EC 5.4.2.12
-        #listed in kegg but not in biocyc
+EC 5.4.2.12
+    #listed in kegg but not in biocyc
 
-    GLY3KIN-RXN
-        #doesn't exist in tigr4 according to biocyc?
-        #equilibrium
-        minors ATP PROTON ADP
-        pairs (GLYCERATE G3P)
-        genes SP_1126
+GLY3KIN-RXN
+    #doesn't exist in tigr4 according to biocyc?
+    #equilibrium
+    minors ATP PROTON ADP
+    pairs (GLYCERATE G3P)
+    genes SP_1126
 
-    ASPARTATEKIN-RXN
-        #equilibrium
-        minors ATP ADP
-        pairs (L-ASPARTATE L-BETA-ASPARTYL-P)
-        genes SP_0413
+ASPARTATEKIN-RXN
+    #equilibrium
+    minors ATP ADP
+    pairs (L-ASPARTATE L-BETA-ASPARTYL-P)
+    genes SP_0413
 
-    GLYOHMETRANS-RXN
-        #equilibrium
-        minors WATER
-        pairs (SER GLY) (THF METHYLENE-THF)
-        genes SP_1024
+GLYOHMETRANS-RXN
+    #equilibrium
+    minors WATER
+    pairs (SER GLY) (THF METHYLENE-THF)
+    genes SP_1024
 
-    THREDEHYD-RXN
-        #equilibrium
-        minors PROTON AMMONIA
-        pairs (THR 2-OXOBUTANOATE)
-        genes SP_0450 SP_2210 SP_1812
-            #SP2210 and SP1812 are predictions
+THREDEHYD-RXN
+    #equilibrium
+    minors PROTON AMMONIA
+    pairs (THR 2-OXOBUTANOATE)
+    genes SP_0450 SP_2210 SP_1812
+        #SP2210 and SP1812 are predictions
 
-    THRESYN-RXN
-        #equilibrium
-        minors WATER Pi
-        pairs (O-PHOSPHO-L-HOMOSERINE THR)
-        genes SP_2066
+THRESYN-RXN
+    #equilibrium
+    minors WATER Pi
+    pairs (O-PHOSPHO-L-HOMOSERINE THR)
+    genes SP_2066
 
-    HOMOSERKIN-RXN
-        #equilibrium
-        minors ATP PROTON ADP
-        pairs (HOMO-SER O-PHOSPHO-L-HOMOSERINE)
-        genes SP_1360
+HOMOSERKIN-RXN
+    #equilibrium
+    minors ATP PROTON ADP
+    pairs (HOMO-SER O-PHOSPHO-L-HOMOSERINE)
+    genes SP_1360
 
-    HOMOSERDEHYDROG-RXN
-        #equilibrium
-        minors NAD-P-OR-NOP NADH-P-OR-NOP PROTON
-        pairs (HOMO-SER L-ASPARTATE-SEMIALDEHYDE)
-        genes SP_1361
+HOMOSERDEHYDROG-RXN
+    #equilibrium
+    minors NAD-P-OR-NOP NADH-P-OR-NOP PROTON
+    pairs (HOMO-SER L-ASPARTATE-SEMIALDEHYDE)
+    genes SP_1361
 
-    ASPARTATE-SEMIALDEHYDE-DEHYDROGENASE-RXN
-        #equilibrium
-        minors Pi NADP NADPH PROTON
-        pairs (L-ASPARTATE-SEMIALDEHYDE L-BETA-ASPARTYL-P)
-        genes SP_1013
+ASPARTATE-SEMIALDEHYDE-DEHYDROGENASE-RXN
+    #equilibrium
+    minors Pi NADP NADPH PROTON
+    pairs (L-ASPARTATE-SEMIALDEHYDE L-BETA-ASPARTYL-P)
+    genes SP_1013
 
-    4.3.1.17-RXN
-        #equilibrium
-        minors PROTON AMMONIA
-        pairs (SER PYRUVATE)
-        genes SP_0105 SP_0106
+4.3.1.17-RXN
+    #equilibrium
+    minors PROTON AMMONIA
+    pairs (SER PYRUVATE)
+    genes SP_0105 SP_0106
 
-    THREDEHYD-RXN
-        #equilibrium
-        minors PROTON AMMONIA
-        pairs (THR 2-OXOBUTANOATE)
-        genes SP_0450 SP_2210 SP_1812
-            #SP2210 and SP1812 are predictions
+THREDEHYD-RXN
+    #equilibrium
+    minors PROTON AMMONIA
+    pairs (THR 2-OXOBUTANOATE)
+    genes SP_0450 SP_2210 SP_1812
+        #SP2210 and SP1812 are predictions
 
-    TRYPSYN-RXN
-        #equilibrium
-        minors INDOLE-3-GLYCEROL-P WATER GAP
-        pairs (SER TRP)
-        genes SP_1811 SP_1812 SP_2210 SP_0450
-            #SP2210 and SP0450 are predictions
+TRYPSYN-RXN
+    #equilibrium
+    minors INDOLE-3-GLYCEROL-P WATER GAP
+    pairs (SER TRP)
+    genes SP_1811 SP_1812 SP_2210 SP_0450
+        #SP2210 and SP0450 are predictions
 
-    RXN-8629
-        #equilibrium
-        minors NAD NADH PROTON
-        pairs (DIHYDROLIPOYL-GCVH PROTEIN-LIPOYLLYSINE)
-        genes SP_1161 SP_0784 SP_1588 SP_1469 SP_1458 SP_0471
-            # SP0784 SP1588 SP1469 SP1458 SP0471 are all predictions
+RXN-8629
+    #equilibrium
+    minors NAD NADH PROTON
+    pairs (DIHYDROLIPOYL-GCVH PROTEIN-LIPOYLLYSINE)
+    genes SP_1161 SP_0784 SP_1588 SP_1469 SP_1458 SP_0471
+        # SP0784 SP1588 SP1469 SP1458 SP0471 are all predictions
 
 #BLASTED RXNS (UNKNOWN/WHITE IN KEGG)
 
-    CYSTATHIONINE-BETA-SYNTHASE-RXN
-        #equilibrium
-        minors WATER
-        pairs (SER L-CYSTATHIONINE) (HOMO-CYS L-CYSTATHIONINE)
-        genes SP_2210
+CYSTATHIONINE-BETA-SYNTHASE-RXN
+    #equilibrium
+    minors WATER
+    pairs (SER L-CYSTATHIONINE) (HOMO-CYS L-CYSTATHIONINE)
+    genes SP_2210
 
-    CYSTAGLY-RXN
-        #equilibrium
-        minors WATER PROTON AMMONIA 2-OXABUTANOATE
-        pairs (L-CYSTATHIONINE CYS)
-        genes SP_1525
+CYSTAGLY-RXN
+    #equilibrium
+    minors WATER PROTON AMMONIA 2-OXABUTANOATE
+    pairs (L-CYSTATHIONINE CYS)
+    genes SP_1525
 
-    GbsB RXN
-       genes SP_2157
+GbsB RXN
+   genes SP_2157
 
-    GCVP-RXN
-        #equilibrium
-        minors CARBON-DIOXIDE
-        pairs (GLY AMINOMETHYLDIHYDROLIPOYL-GCVH)
-            (PROTEIN-LIPOYLLYSINE AMINOMETHYLDIHYDROLIPOYL-GCVH)
-        genes SP_0869 OR SP_0016 OR SP_0226
+GCVP-RXN
+    #equilibrium
+    minors CARBON-DIOXIDE
+    pairs (GLY AMINOMETHYLDIHYDROLIPOYL-GCVH)
+        (PROTEIN-LIPOYLLYSINE AMINOMETHYLDIHYDROLIPOYL-GCVH)
+    genes SP_0869 OR SP_0016 OR SP_0226
 
-    GCVT-RXN
-        #equilibrium
-        minors AMMONIA
-        pairs (AMINOMETHYLDIHYDROLIPOYL-GCVH METHYLENE-THF)
-            (AMINOMETHYLDIHYDROLIPOYL-GCVH DIHYDROLIPOYL-GCVH)
-        genes SP_1343 OR SP_0254 OR SP_1202 OR SP_1463 OR SP_0238
+GCVT-RXN
+    #equilibrium
+    minors AMMONIA
+    pairs (AMINOMETHYLDIHYDROLIPOYL-GCVH METHYLENE-THF)
+        (AMINOMETHYLDIHYDROLIPOYL-GCVH DIHYDROLIPOYL-GCVH)
+    genes SP_1343 OR SP_0254 OR SP_1202 OR SP_1463 OR SP_0238
 
-    GcsH RXN
-        genes SP_2070 OR SP_1648 OR SP_1461 OR SP_1035 OR SP_0881 OR SP_1244
+GcsH RXN
+    genes SP_2070 OR SP_1648 OR SP_1461 OR SP_1035 OR SP_0881 OR SP_1244
 
-    THREODEHYD-RXN
-        #equilibrium
-        minors NAD PROTON NADH
-        pairs (THR AMINO-OXOBUT)
-        genes SP_2055 SP_0285
+THREODEHYD-RXN
+    #equilibrium
+    minors NAD PROTON NADH
+    pairs (THR AMINO-OXOBUT)
+    genes SP_2055 SP_0285
 
-    AMACETOXID-RXN
-        #equilibrium
-        minors WATER OXYGEN-MOLECULE PROTON HYDROGEN-PEROXIDE
-        pairs (AMINO-ACETONE METHYL-GLYOXAL)
-        genes SP_1298
+AMACETOXID-RXN
+    #equilibrium
+    minors WATER OXYGEN-MOLECULE PROTON HYDROGEN-PEROXIDE
+    pairs (AMINO-ACETONE METHYL-GLYOXAL)
+    genes SP_1298

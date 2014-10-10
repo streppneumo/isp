@@ -1,249 +1,249 @@
 #GREEN/KNOWN RXNS IN KEGG
 
-    D-PPENTOMUT-RXN
-        #listed as an equilibrium
-        pairs (DEOXY-D-RIBOSE-1-PHOSPHATE DEOXY-RIBOSE-5P
-        genes SP_0829 SP_0984
-            #SP0984 is a prediction
+D-PPENTOMUT-RXN
+    #listed as an equilibrium
+    pairs (DEOXY-D-RIBOSE-1-PHOSPHATE DEOXY-RIBOSE-5P
+    genes SP_0829 SP_0984
+        #SP0984 is a prediction
 
-    PHOSPHOGLUCMUT-RXN
-       pairs (GLC-1-P ALPHA-GLC-6-P)
-       genes SP_1498 SP_1559
+PHOSPHOGLUCMUT-RXN
+   pairs (GLC-1-P ALPHA-GLC-6-P)
+   genes SP_1498 SP_1559
 
-    RXN0-1441
-        #not found in TIGR4 according to biocyc?
-        minors WATER PROTON AMP
-        pairs (ADENOSINE_DIPHOSPHATE_RIBOSE RIBOSE-5P)
-        genes SP_0989 SP_1669 SP_0817
-            #SP1669 and SP0817 are predictions
+RXN0-1441
+    #not found in TIGR4 according to biocyc?
+    minors WATER PROTON AMP
+    pairs (ADENOSINE_DIPHOSPHATE_RIBOSE RIBOSE-5P)
+    genes SP_0989 SP_1669 SP_0817
+        #SP1669 and SP0817 are predictions
 
-    PRPPSYN-RXN
-        minors PROTON ATP AMP
-        pairs (RIBOSE-5P PRPP)
-        genes SP_0027 SP_1095 SP_0046 SP_0702 SP_2207
-            #SP0046 SP0702 SP2207 are all predictions
+PRPPSYN-RXN
+    minors PROTON ATP AMP
+    pairs (RIBOSE-5P PRPP)
+    genes SP_0027 SP_1095 SP_0046 SP_0702 SP_2207
+        #SP0046 SP0702 SP2207 are all predictions
 
-    GDPPYPHOSKIN-RXN
-        minors ATP AMP
-        pairs (GTP GDP-TP)
-        genes SP_1097 SP_1645
+GDPPYPHOSKIN-RXN
+    minors ATP AMP
+    pairs (GTP GDP-TP)
+    genes SP_1097 SP_1645
 
-    PRPPAMIDOTRANS-RXN
-        minors GLT GLN WATER
-        pairs (5-P-BETA-D-RIBOSYL-AMINE PRPP)
-        genes SP_0046 SP_0266
+PRPPAMIDOTRANS-RXN
+    minors GLT GLN WATER
+    pairs (5-P-BETA-D-RIBOSYL-AMINE PRPP)
+    genes SP_0046 SP_0266
 
-    DNA-DIRECTED-RNA-POLYMERASE-RXN
-        minors RNA-Holder
-        pairs (Nucleoside-Triphosphates PPI)
-        genes SP_0236 SP_0493 SP_1737 SP_1960 SP_1961
+DNA-DIRECTED-RNA-POLYMERASE-RXN
+    minors RNA-Holder
+    pairs (Nucleoside-Triphosphates PPI)
+    genes SP_0236 SP_0493 SP_1737 SP_1960 SP_1961
 
-    DNA-DIRECTED-DNA-POLYMERASE-RXN
-        minors PPI
-        pairs (Deoxy-Ribonucleoside-Triphosphates DNA)
-        genes SP_0002 SP_0032 SP_0274 SP_0765 SP_0865 SP_0895 SP_0936
-                SP_0993 SP_0802 SP_1790 SP_0259 SP_2194 SP_1569 SP_1690
-                    #SP0802 SP1790 SP0259 SP2194 SP1569 SP1690 are all predictions
+DNA-DIRECTED-DNA-POLYMERASE-RXN
+    minors PPI
+    pairs (Deoxy-Ribonucleoside-Triphosphates DNA)
+    genes SP_0002 SP_0032 SP_0274 SP_0765 SP_0865 SP_0895 SP_0936
+            SP_0993 SP_0802 SP_1790 SP_0259 SP_2194 SP_1569 SP_1690
+                #SP0802 SP1790 SP0259 SP2194 SP1569 SP1690 are all predictions
 
-    GLYRIBONUCSYN-RXN
-        #listed as an equilibrium
-        minors ATP PROTON ADP
-        pairs (5-P-BETA-D-RIBOSYL-AMINE 5-PHOSPHO-RIBOSYL-GLYCINEAMIDE)
-        genes SP_0051 SP_1275
-            #SP1275 is a prediction
+GLYRIBONUCSYN-RXN
+    #listed as an equilibrium
+    minors ATP PROTON ADP
+    pairs (5-P-BETA-D-RIBOSYL-AMINE 5-PHOSPHO-RIBOSYL-GLYCINEAMIDE)
+    genes SP_0051 SP_1275
+        #SP1275 is a prediction
 
-    1.17.4.2-RXN
-        #listed as an equilibrium
-        minors WATER Ox-Thioredoxin Red-Thioredoxin
-        pairs (Deoxy-Ribonucleoside-Triphosphates Ribonucleoside-Triphosphates
-        genes SP_0202 SP_0780
-            #SP0780 is a prediction
+1.17.4.2-RXN
+    #listed as an equilibrium
+    minors WATER Ox-Thioredoxin Red-Thioredoxin
+    pairs (Deoxy-Ribonucleoside-Triphosphates Ribonucleoside-Triphosphates
+    genes SP_0202 SP_0780
+        #SP0780 is a prediction
 
-    2.7.7.8-RXN
-        #listed as an equilibrium
-        pairs (ssRNAs Nucleoside-Diphosphates)
-        genes SP_0588 SP_0862 SP_0908
-            #SP0862 and SP0908 are predictions
+2.7.7.8-RXN
+    #listed as an equilibrium
+    pairs (ssRNAs Nucleoside-Diphosphates)
+    genes SP_0588 SP_0862 SP_0908
+        #SP0862 and SP0908 are predictions
 
-    GDPKIN-RXN
-        #equilibrium
-        minors ATP ADP
-        pairs (GDP GTP)
-        genes SP_1959
+GDPKIN-RXN
+    #equilibrium
+    minors ATP ADP
+    pairs (GDP GTP)
+    genes SP_1959
 
-    PEPDEPHOS-RXN
-        #equilibrium
-        minors PROTON ADP
-        pairs (PYRUVATE PHOSPHO-ENOL-PYRUVATE)
-        genes SP_0897
+PEPDEPHOS-RXN
+    #equilibrium
+    minors PROTON ADP
+    pairs (PYRUVATE PHOSPHO-ENOL-PYRUVATE)
+    genes SP_0897
 
-    GART-RXN
-        #equilibrium
-        minors PROTON
-        pairs (5-PHOSPHO-RIBOSYL-GLYCINEAMIDE 5-P-RIBOSYL-N-FORMYLGLYCINEAMIDE)
-                ( 10-FORMYL-THF THF)
-        genes SP_0048
+GART-RXN
+    #equilibrium
+    minors PROTON
+    pairs (5-PHOSPHO-RIBOSYL-GLYCINEAMIDE 5-P-RIBOSYL-N-FORMYLGLYCINEAMIDE)
+            ( 10-FORMYL-THF THF)
+    genes SP_0048
 
-    GDPREDUCT-RXN
-        #equilibrium
-        minors WATER Ox-Thioredoxin Red-Thioredoxin
-        pairs (DGDP GDP)
-        genes SP_1179 SP_1180
+GDPREDUCT-RXN
+    #equilibrium
+    minors WATER Ox-Thioredoxin Red-Thioredoxin
+    pairs (DGDP GDP)
+    genes SP_1179 SP_1180
 
-    GUANYL-KIN-RXN
-        #equilibrium
-        minors ATP ADP
-        pairs (GMP GDP)
-        genes SP_1738
+GUANYL-KIN-RXN
+    #equilibrium
+    minors ATP ADP
+    pairs (GMP GDP)
+    genes SP_1738
 
-    AIRS-RXN
-        #equilibrium
-        minors PROTON ATP ADP
-        pairs (5-PHOSPHORIBOSYL-N-FORMYLGLYCINEAMIDINE 5-PHOSPHORIBOSYL-5-AMINOIMIDAZOLE)
-        genes SP_0047
+AIRS-RXN
+    #equilibrium
+    minors PROTON ATP ADP
+    pairs (5-PHOSPHORIBOSYL-N-FORMYLGLYCINEAMIDINE 5-PHOSPHORIBOSYL-5-AMINOIMIDAZOLE)
+    genes SP_0047
 
-    RXN0-5199
-        #equilibrium
-        pairs (GUANOSINE GUANINE)
-        genes SP_0831 SP_0835
+RXN0-5199
+    #equilibrium
+    pairs (GUANOSINE GUANINE)
+    genes SP_0831 SP_0835
 
-    ADENPRIBOSYLTRAN-RXN
-        #equilibrium
-        pairs (PPI PRPP) (AMP ADENINE)
-        genes SP_1577 SP_0991
-            #SP0991 is a prediction
+ADENPRIBOSYLTRAN-RXN
+    #equilibrium
+    pairs (PPI PRPP) (AMP ADENINE)
+    genes SP_1577 SP_0991
+        #SP0991 is a prediction
 
-    GUANPRIBOSYLTRAN-RXN
-        #equilibrium
-        minors PPI PRPP
-        pairs (GMP GUANINE)
-        genes SP_0012
+GUANPRIBOSYLTRAN-RXN
+    #equilibrium
+    minors PPI PRPP
+    pairs (GMP GUANINE)
+    genes SP_0012
 
-    XANPRIBOSYLTRAN-RXN
-        #equilibrium
-        pairs (PPI PRPP) (XANTHOSINE-5-PHOSPHATE XANTHINE)
-        genes SP_1847 SP_1979 SP_1577
-            #SP1979 and SP1577 are predictions
+XANPRIBOSYLTRAN-RXN
+    #equilibrium
+    pairs (PPI PRPP) (XANTHOSINE-5-PHOSPHATE XANTHINE)
+    genes SP_1847 SP_1979 SP_1577
+        #SP1979 and SP1577 are predictions
 
-    RXN0-742
-        #equilibrium
-        minors ATP ADP PROTON
-        pairs (5-PHOSPHORIBOSYL-5-AMINOIMIDAZOLE CPD0-181)
-        genes SP_0054
+RXN0-742
+    #equilibrium
+    minors ATP ADP PROTON
+    pairs (5-PHOSPHORIBOSYL-5-AMINOIMIDAZOLE CPD0-181)
+    genes SP_0054
 
-   GMP-SYN-GLUT-RXN
-        #equilibrium
-        minors WATER ATP AMP PROTON
-        pairs (XANTHOSINE-5-PHOSPHATE GMP)
-        genes SP_1445 SP_1816
-            #SP1816 is a prediction
+GMP-SYN-GLUT-RXN
+    #equilibrium
+    minors WATER ATP AMP PROTON
+    pairs (XANTHOSINE-5-PHOSPHATE GMP)
+    genes SP_1445 SP_1816
+        #SP1816 is a prediction
 
-   RXN0-743
-        #equilibrium
-        pairs (CPD0-181 PHOSPHORIBOSYL-CARBOXY-AMINOIMIDAZOLE)
-        genes SP_0053
+RXN0-743
+    #equilibrium
+    pairs (CPD0-181 PHOSPHORIBOSYL-CARBOXY-AMINOIMIDAZOLE)
+    genes SP_0053
 
-   GMP-REDUCT-RXN
-        #equilibrium
-        minors NADP NADPH PROTON
-        pairs (IMP GMP)
-        genes SP_1249 SP_2228
-            #SP2228 is a prediction
+GMP-REDUCT-RXN
+    #equilibrium
+    minors NADP NADPH PROTON
+    pairs (IMP GMP)
+    genes SP_1249 SP_2228
+        #SP2228 is a prediction
 
-   SAICARSYN-RXN
-        #equilibrium
-        minors ATP ADP PROTON
-        pairs (PHOSPHORIBOSYL-CARBOXY-AMINOIMIDAZOLE P-RIBOSYL-4-SUCCCARB-AMINOIMIDAZOLE)
-        genes SP_0044
+SAICARSYN-RXN
+    #equilibrium
+    minors ATP ADP PROTON
+    pairs (PHOSPHORIBOSYL-CARBOXY-AMINOIMIDAZOLE P-RIBOSYL-4-SUCCCARB-AMINOIMIDAZOLE)
+    genes SP_0044
 
-   AICARSYN-RXN
-        #equilibrium
-        pairs (P-RIBOSYL-4-SUCCCARB-AMINOIMIDAZOLE AICAR)
-        genes SP_0056
+AICARSYN-RXN
+    #equilibrium
+    pairs (P-RIBOSYL-4-SUCCCARB-AMINOIMIDAZOLE AICAR)
+    genes SP_0056
 
-   IMP-DEHYDROG-RXN
-        #equilibrium
-        minors WATER PROTON NAD NADH
-        pairs (IMP XANTHOSINE-5-PHOSPHATE)
-        genes SP_2228 SP_1249
-            #SP1249 is a prediction
+IMP-DEHYDROG-RXN
+    #equilibrium
+    minors WATER PROTON NAD NADH
+    pairs (IMP XANTHOSINE-5-PHOSPHATE)
+    genes SP_2228 SP_1249
+        #SP1249 is a prediction
 
-   AICARTRANSFORM-RXN
-        #equilibrium
-        pairs (AICAR HOSPHORIBOSYL-FORMAMIDO-CARBOXAMIDE) (10-FORMYL-THF THF)
-        genes SP_0050
+AICARTRANSFORM-RXN
+    #equilibrium
+    pairs (AICAR HOSPHORIBOSYL-FORMAMIDO-CARBOXAMIDE) (10-FORMYL-THF THF)
+    genes SP_0050
 
-   ADENYLOSUCCINATE-SYNTHASE-RXN
-        #equilibrium
-        minors GTP GDP PROTON
-        pairs (IMP ADENYLOSUCC)
-        genes SP_0019
+ADENYLOSUCCINATE-SYNTHASE-RXN
+    #equilibrium
+    minors GTP GDP PROTON
+    pairs (IMP ADENYLOSUCC)
+    genes SP_0019
 
-   ADENYL-KIN-RXN
-        #equilibrium
-        pairs (ADP AMP)
-        genes SP_0231 SP_1603
-            #SP1603 is a prediction
+ADENYL-KIN-RXN
+    #equilibrium
+    pairs (ADP AMP)
+    genes SP_0231 SP_1603
+        #SP1603 is a prediction
 
-   CARBAMATE-KINASE-RXN
-        #equilibrium
-        minors ATP ADP
-        pairs (AMMONIA CARBAMOYL-P)
-        genes SP_2151 SP_0931
-            #SP0931 is a prediction
+CARBAMATE-KINASE-RXN
+    #equilibrium
+    minors ATP ADP
+    pairs (AMMONIA CARBAMOYL-P)
+    genes SP_2151 SP_0931
+        #SP0931 is a prediction
 
 #BLASTED RXNS (UNKNOWN/WHITE IN KEGG)
 
-    PPPGPPHYDRO-RXN
-        #equilibrium
-        minors WATER PROTON
-        pairs (GDP-TP GUANOSINE-5DP-3DP)
-        genes SP_1212 OR SP_1876
+PPPGPPHYDRO-RXN
+    #equilibrium
+    minors WATER PROTON
+    pairs (GDP-TP GUANOSINE-5DP-3DP)
+    genes SP_1212 OR SP_1876
 
-    XMPXAN-RXN
-        #equilibrium
-        minors WATER
-        pairs (XANTHOSINE-5-PHOSPHATE XANTHOSINE)
-        genes SP_0758 OR SP_1566 OR SP_1326 OR SP_1344
+XMPXAN-RXN
+    #equilibrium
+    minors WATER
+    pairs (XANTHOSINE-5-PHOSPHATE XANTHOSINE)
+    genes SP_0758 OR SP_1566 OR SP_1326 OR SP_1344
 
-    PPGPPSYN-RXN
-        #equilibrium
-        minors WATER PROTON
-        pairs (GUANOSINE-5DP-3DP GDP)
-        genes SP_1645
+PPGPPSYN-RXN
+    #equilibrium
+    minors WATER PROTON
+    pairs (GUANOSINE-5DP-3DP GDP)
+    genes SP_1645
 
-    RXN0-5199
-        #equilibrium
-        minors Pi RIBOSE-1P
-        pairs (GUANOSINE GUANINE)
-        genes SP_1118
+RXN0-5199
+    #equilibrium
+    minors Pi RIBOSE-1P
+    pairs (GUANOSINE GUANINE)
+    genes SP_1118
 
-    GUANINE-DEAMINASE-RXN
-        #equilibrium
-        minors WATER
-        pairs (GUANINE XANTHINE)
-        genes SP_1356
+GUANINE-DEAMINASE-RXN
+    #equilibrium
+    minors WATER
+    pairs (GUANINE XANTHINE)
+    genes SP_1356
 
-    RXN0-901
-        #equilibrium
-        minors WATER NAD NADH PROTON
-        pairs (XANTHINE URATE)
-        genes SP_0852 OR SP_2188 OR SP_1116 OR SP_0715 OR SP_2064
+RXN0-901
+    #equilibrium
+    minors WATER NAD NADH PROTON
+    pairs (XANTHINE URATE)
+    genes SP_0852 OR SP_2188 OR SP_1116 OR SP_0715 OR SP_2064
 
-    OXAMATE-CARBAMOYLTRANSFERASE-RXN
-        #equilibrium
-        minors Pi
-        pairs (CARBAMOYL-P OXAMATE)
-            #? Not sure about this one?
-        genes SP_1563 OR SP_0221
+OXAMATE-CARBAMOYLTRANSFERASE-RXN
+    #equilibrium
+    minors Pi
+    pairs (CARBAMOYL-P OXAMATE)
+        #? Not sure about this one?
+    genes SP_1563 OR SP_0221
 
-    ADDALT-RXN
-        #equilibrium
-        minors WATER AMMONIA
-        pairs (DEOXYADENOSINE DEOXYINOSINE)
-        genes SP_1712 or SP_0835 OR SP_0831 OR SP_1356
+ADDALT-RXN
+    #equilibrium
+    minors WATER AMMONIA
+    pairs (DEOXYADENOSINE DEOXYINOSINE)
+    genes SP_1712 or SP_0835 OR SP_0831 OR SP_1356
 
-    EC 3.2.2.4
-        #not sure which biocyc rxn is the right one?
-        genes SP_1453
+EC 3.2.2.4
+    #not sure which biocyc rxn is the right one?
+    genes SP_1453
 
