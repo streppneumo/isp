@@ -1,0 +1,13 @@
+METHIONINE--TRNA-LIGASE-RXN
+    genes SP_0788
+THIOREDOXIN-REDUCT-NADPH-RXN
+    genes SP_1458, SP_1563
+# EC 4.4.1.16 is not coming up for any strain in biocyc. It is in kegg however.
+RXN-12730
+HOMOCYSMET-RXN
+    genes SP_0585
+CYSTATHIONINE-BETA-LYASE-RXN
+    genes SP_1524 #orthologs SP_1544 SP_0035
+METBALT-RXN
+O-SUCCHOMOSERLYASE-RXN
+    genes SP_1525

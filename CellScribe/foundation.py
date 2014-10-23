@@ -55,6 +55,17 @@ class Composite(object):
         return item in self.primitives
 
 
+class Added(object):
+    model = None
+
+    @classmethod
+    def set_model(cls, model):
+        cls.model = model
+
+    def add(self):
+        self.model.add(self)
+
+
 if __name__ == "__main__":
     class Metabolite(Primitive):
         pass

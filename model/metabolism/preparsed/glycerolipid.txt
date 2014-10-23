@@ -1,0 +1,27 @@
+GLY3KIN-RXN
+    genes SP_1126
+#^Biocyc has it for strains d39, 19f not tigr4
+
+GLYCDEH-RXN
+    genes SP_0253
+
+GLYCEROL-KIN-RXN
+    genes SP_2186
+
+RXN-13805
+RXN-10462
+RXN-1381
+    genes SP_0037 SP_0851
+
+RXN-1623
+    genes SP_1624
+
+DIACYLGLYKIN-RXN
+    genes SP_0968
+
+#EC-2.4.1.157 in Kegg not biocyc for any strain.
+
+RXN-11501
+RXN-12088
+ALPHAGALACTOSID-RXN
+    genes SP_1898

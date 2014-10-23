@@ -2,7 +2,7 @@ __author__ = 'amanda'
 
 #FOR GITHUB CLICK REPOSITORY FROM TOP BAR THEN 'PULL' THEN COMMIT!
 
-from CellScribe.main import *
+from CellScribe.model import *
 from model.compartments import *
 from model.metabolites import *
 

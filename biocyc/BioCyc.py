@@ -5,7 +5,6 @@ import keyword
 
 from parsing import load_dat_file, index_dat_file
 
-
 def is_unsafe_name(s):
     try:
         eval(s + " = 1")
@@ -209,7 +208,7 @@ class CycModel(object):
                 for i in range(len(results)):
                     results[i] = results[i].get_field(value, default=[])
                     def tracer(r):
-                        return traces[i] + "." + value + " -> " + r
+                        return traces[i] + " ." + value + " -> " + r
                     traces[i] = [tracer(r) for r in results[i]]
             results = flatten(results)
             traces = flatten(traces)
@@ -246,6 +245,8 @@ command_map = dict(f=general_find,
                    e=lambda m, v: specific_find(m, 'EC-'+v, 'EC-NUMBER'),
                    q=run_query)
 
+macros = dict(gpr='m REACTION g ENZYME m PRODUCT g ACCESSION-1'.split())
+
 
 def start_interactive(models):
     input = "not x"
@@ -277,6 +278,11 @@ def start_interactive(models):
         else:
             stringifier = lambda x: ("   [" + x.__class__.__name__ +
                                      "]  " + str(x))
+
+        if cmd.startswith('.'):
+            # compile macro
+            args += macros[cmd[1:]]
+            cmd = 'q'
 
         if cmd not in command_map:
             print "<<< Error: invalid command '" + cmd + "'>>>"

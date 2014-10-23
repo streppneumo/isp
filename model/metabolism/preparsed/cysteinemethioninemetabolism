@@ -1,0 +1,148 @@
+#GREEN/KNOWN RXNS IN KEGG
+
+CYSTATHIONINE-BETA-LYASE-RXN
+    #equilibrium
+    minors WATER PROTON AMMONIA PYRUVATE
+    pairs (L-CYSTATHIONINE HOMO-CYS)
+    genes SP_1524 SP_1544 SP_0035 SP_1994
+        #SP1544 SP0035 and SP1994 are predictions
+
+L-LACTATE-DEHYDROGENASE-RXN
+    #equilibrium
+    #different rxn listed in kegg?
+    minors NAD NADH PROTON
+    pairs (L-LACTATE PYRUVATE)
+    genes SP_1220
+
+SERINE-O-ACETTRAN-RXN
+    #equilibrium
+    minors ACETYL-COA + CO-A
+    pairs (SER ACETYLSERINE)
+    genes SP_0589 SP_2097 SP_0988
+        #SP2097 and SP0988 are predictions
+
+ACSERLY-RXN
+    #equilibrium
+    minors HS PROTON ACET
+    pairs (ACETYLSERINE L-SELENOCYSTEINE)
+    genes SP_2210 SP_1681 SP_1688
+        #SP1681 and SP1688 are predictions
+        #may possibly have more genes involved
+
+HOMOCYSMET-RXN
+    #equilibrium
+    minors PROTON CPD-1302 CPD-1301
+    pairs (HOMO-CYS MET)
+    genes SP_0585
+
+4.3.1.17-RXN
+    #equilibrium
+    #different rxn listed in kegg?
+    minors PROTON AMMONIA
+    pairs (SER PYRUVATE)
+    genes SP_0105 SP_0106
+
+METBALT-RXN
+    #equilibrium
+    minors PROTON AMMONIA WATER
+    pairs (2-OXOBUTANOATE O-SUCCINYL-L-HOMOSERINE)
+    genes SP_1525
+
+O-SUCCHOMOSERLYASE-RXN
+    #equilibrium
+    minors PROTON CYS SUC
+    pairs (O-SUCCINYL-L-HOMOSERINE L-CYSTATHIONINE)
+    genes SP_1525
+
+ASPARTATEKIN-RXN
+    #equilibrium
+    minors ATP ADP
+    pairs (L-ASPARTATE L-BETA-ASPARTYL-P)
+    genes SP_0413
+
+ASPARTATE-SEMIALDEHYDE-DEHYDROGENASE-RXN
+    #equilibrium
+    minors NADP NADPH PROTON
+    pairs (L-ASPARTATE-SEMIALDEHYDE L-BETA-ASPARTYL-P)
+    genes SP_1013
+
+HOMOSERDEHYDROG-RXN
+    #equilibrium
+    minors NAD-P-OR-NOP NADH-P-OR-NOP PROTON
+    pairs (HOMO-SER L-ASPARTATE-SEMIALDEHYDE)
+    genes SP_1361
+
+HOMSUCTRAN-RXN
+    #equilibrium
+    minors SUC-COA CO-A
+    pairs (HOMO-SER O-SUCCINYL-L-HOMOSERINE)
+    genes SP_1576
+
+RIBOSYLHOMOCYSTEINASE-RXN
+    #equilibrium
+    minors DIHYDROXYPENTANEDIONE
+    pairs (CPD-564 HOMO-CYS)
+    genes SP_0340
+
+ADENOSYLHOMOCYSTEINE-NUCLEOSIDASE-RXN
+    #equilibrium
+    minors WATER
+    pairs (CPD-564 ADENOSYL-HOMO-CYS)
+    genes SP_0991 SP_0835
+        #SP0835 is a prediction
+
+EC 2.1.1.37
+    #listed in kegg but not listed in biocyc
+
+S-ADENMETSYN-RXN
+    #equilibrium
+    minors WATER ATP PPI Pi
+    pairs (MET S-ADENOSYLMETHIONINE)
+    genes SP_0762
+
+SPERMIDINESYN-RXN
+    #equilibrium
+    minors PUTRESCINE PROTON SPERMADINE
+    pairs (S-ADENOSYLMETHIONINAMINE 5-METHYLTHIOADENOSINE)
+    genes SP_0918
+
+#BLASTED RXNS (UNKNOWN/WHITE IN KEGG)
+
+HOMOCYSMETB12-RXN
+    #equilibrium
+    minors 5-METHYL-THF THF
+    pairs (HOMO-CYS MET)
+    genes SP_0475 OR SP_1544
+
+EC 2.6.1.1
+    #equilibrium
+    #biocyc doesn't match kegg? not sure which rxn fits
+    genes SP_0035 OR SP_1544
+
+CYSTAGLY-RXN
+    #equilibrium
+    #biocyc doesn't match kegg?
+    minors WATER PROTON AMMONIA
+    pairs (L-CYSTATHIONINE CYS)
+    genes SP_1525
+
+SULFOCYS-RXN
+    #equilibrium
+    minors PROTON
+    pairs (ACETYLSERINE L-SELENOCYSTEINE)
+    genes SP_2210
+
+MALATE-DEH-RXN
+    #equilibrium
+    #biocyc doesn't match kegg
+    minors NAD NADH PROTON
+    pairs (MAL OXALACETIC_ACID)
+    genes SP_1220
+
+mccA RXN
+    genes SP_2210
+
+EC 2.6.1.57
+    #equilibrium
+    #biocyc doesn't match kegg; which rxn fits?
+    genes SP_1004 OR SP_1847 OR SP_1544
