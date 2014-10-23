@@ -45,4 +45,3 @@ d_aspartate = Metabolite("D_aspartate", kegg="?")
 
 
 
-
