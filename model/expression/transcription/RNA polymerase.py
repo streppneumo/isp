@@ -1,5 +1,5 @@
 from model.metabolites import *
-from model.genes import SP_1961, SP_1960, SP_0236, SP_1737, SP_0493
+from model.common.genes import SP_1961, SP_1960, SP_0236, SP_1737, SP_0493
 
 
 #this function takes a subunit name and its associate gene(s) and creates a subunit object via subunit class

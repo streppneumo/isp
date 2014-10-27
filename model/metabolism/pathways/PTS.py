@@ -2,17 +2,13 @@ __author__ = 'amanda'
 #FOR GITHUB CLICK REPOSITORY FROM TOP BAR THEN 'PULL' THEN COMMIT!
 #When you're ready to add your changes click repository then push!
 
-from model.genes import SP_1176, SP_0758, SP_1684, SP_1722, SP_0577, SP_2038, SP_2129, SP_2036, SP_2037
-from model.genes import SP_2130, SP_0647, SP_0645, SP_1198, SP_0646, SP_1197, SP_0321, SP_0324, SP_0325, SP_0323
-from model.genes import SP_0062, SP_0283, SP_2162, SP_0063, SP_0282, SP_2161, SP_0061, SP_0064, SP_0284, SP_2163
-from model.genes import SP_2164, SP_0394, SP_0396, SP_0877, SP_1618, SP_1619, SP_0250, SP_2022, SP_1617, SP_2049
-from model.genes import SP_2023, SP_2024, SP_0474, SP_0478, SP_0476, SP_1185, SP_1186, SP_1884, SP_0305, SP_1999
+from model.common.genes import SP_1176, SP_0758, SP_1684, SP_1722, SP_0577, SP_2038, SP_2129, SP_2036, SP_2037
+from model.common.genes import SP_2130, SP_0647, SP_0645, SP_1198, SP_0646, SP_1197, SP_0321, SP_0324, SP_0325, SP_0323
+from model.common.genes import SP_0062, SP_0283, SP_2162, SP_0063, SP_0282, SP_2161, SP_0061, SP_0064, SP_0284, SP_2163
+from model.common.genes import SP_2164, SP_0394, SP_0396, SP_0877, SP_1618, SP_1619, SP_0250, SP_2022, SP_1617, SP_2049
+from model.common.genes import SP_2023, SP_2024, SP_0474, SP_0478, SP_0476, SP_1185, SP_1186, SP_1884, SP_0305
 
-from model.compartments import *
-
-from model.operons import PTSOperon1, PTSOperon2, PTSOperon3, PTSOperon4, PTSOperon5, PTSOperon6, PTSOperon7
-from model.operons import PTSOperon8, PTSOperon9, PTSOperon10, PTSOperon11, PTSOperon12, PTSOperon13, PTSOperon14
-from model.operons import PTSOperon15, PTSOperon16,
+from model.common.compartments import *
 
 #operons need to be verified
 

@@ -29,7 +29,10 @@ class Model(object):
         self.objects = {}
 
     def add(self, obj):
-        self.objects[obj.name] = obj
+        if "name" not in obj.__dict__:
+            self.objects[repr(obj)] = obj
+        else:
+            self.objects[obj.name] = obj
 
     def __str__(self):
         pass

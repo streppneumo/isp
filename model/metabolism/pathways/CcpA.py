@@ -4,9 +4,8 @@ __author__ = 'emmawest'
 # dimeric complex of P-Ser-HPr-CcpA →
 # this makes CcpA able to bind to cre sequences
 
-from CellScribe import *
 from model.metabolites import *
-from model.genes import SP_1413
+from model.common.genes import SP_1413
 
 
 Dfru16bisP = Metabolite("D-fructose 1,6-bisphosphate", kegg="C00354")

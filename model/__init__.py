@@ -9,6 +9,3 @@ Added.set_model(model)
 
 from metabolism.transport import *
 
-model.summary(showall=True)
-
-#pprint(dir())

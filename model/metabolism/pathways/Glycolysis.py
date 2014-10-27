@@ -2,8 +2,7 @@ __author__ = 'derekthibault'
 
 #β-D-glucose to pyruvate
 
-from CellScribe import *
-from model.compartments import e, c
+from model.common.compartments import e
 from model.metabolites import *
 
 #majors

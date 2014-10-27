@@ -1,5 +1,5 @@
 from CellScribe import *
-from model.genes import SP_1081, SP_1966, SP_1390, SP_1521, SP_0688, SP_1530, SP_1671, SP_1670, SP_0337, SP_0689, SP_0615, SP_0616, SP_0457, SP_0369, SP_2010, SP_2099, SP_0336, SP_1673, SP_0872
+from model.common.genes import SP_1081, SP_1966, SP_1390, SP_1521, SP_0688, SP_1530, SP_1671, SP_1670, SP_0337, SP_0689, SP_0615, SP_0616, SP_0457, SP_0369, SP_2010, SP_2099, SP_0336, SP_1673, SP_0872
 
 #minors
 phosphate = Metabolite("phosphate", kegg="C00009")

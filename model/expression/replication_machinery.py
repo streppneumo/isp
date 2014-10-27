@@ -1,7 +1,7 @@
 #Replication fork machinery
 
 from CellScribe import *
-from model.genes import SP_0993, SP_0274, SP_0895, SP_0865, SP_0936, SP_0765, SP_0002, \
+from model.common.genes import SP_0993, SP_0274, SP_0895, SP_0865, SP_0936, SP_0765, SP_0002, \
      SP_2203, SP_1072, SP_1540, SP_1908, SP_0403, SP_1156, SP_0032, SP_1117
 
 

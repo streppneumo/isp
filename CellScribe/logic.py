@@ -1,5 +1,5 @@
 
-from foundation import Composite
+from foundation import Composite, Added
 from registry import Registered
 
 
@@ -63,11 +63,12 @@ class And(Junction):
         Junction.__init__(self, left, right, operator="And")
 
 
-class Implication(Composite, Registered):
+class Implication(Composite, Registered, Added):
     def __init__(self, subject, predicate):
         self.subject = subject
         self.predicate = predicate
         self.register()
+        self.add()
 
     @property
     def members(self):
@@ -75,8 +76,10 @@ class Implication(Composite, Registered):
 
 
 class If(Implication):
-    pass
+    def __str__(self):
+        return "If[" + str(self.subject) + ", " + str(self.predicate) + "]"
 
 
 class Iff(Implication):
-    pass
+    def __str__(self):
+        return "Iff[" + str(self.subject) + ", " + str(self.predicate) + "]"
