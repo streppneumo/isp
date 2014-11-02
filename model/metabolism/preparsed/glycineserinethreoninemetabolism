@@ -1,10 +1,7 @@
-#GREEN/KNOWN RXNS IN KEGG
+G3P-FORMATION
+    pairs (G2P G3P)
+    genes SP_1655 OR SP_0240 OR SP_0984
 
-EC 5.4.2.11
-    #listed in kegg but not in biocyc
-
-EC 5.4.2.12
-    #listed in kegg but not in biocyc
 
 GLY3KIN-RXN
     #doesn't exist in tigr4 according to biocyc?
@@ -16,26 +13,26 @@ GLY3KIN-RXN
 ASPARTATEKIN-RXN
     #equilibrium
     minors ATP ADP
-    pairs (L-ASPARTATE L-BETA-ASPARTYL-P)
+    pairs (L-ASP L-BETA-ASPARTYL-P)
     genes SP_0413
 
 GLYOHMETRANS-RXN
     #equilibrium
-    minors WATER
-    pairs (SER GLY) (THF METHYLENE-THF)
+    minors WATER THF METHYLENE-THF
+    pairs (L-SER GLY)
     genes SP_1024
 
 THREDEHYD-RXN
     #equilibrium
     minors PROTON AMMONIA
-    pairs (THR 2-OXOBUTANOATE)
+    pairs (L-THR 2-OXOBUTANOATE)
     genes SP_0450 SP_2210 SP_1812
         #SP2210 and SP1812 are predictions
 
 THRESYN-RXN
     #equilibrium
-    minors WATER Pi
-    pairs (O-PHOSPHO-L-HOMOSERINE THR)
+    minors WATER Pi 
+    pairs (O-PHOSPHO-L-HOMOSERINE L-THR)
     genes SP_2066
 
 HOMOSERKIN-RXN
@@ -59,22 +56,25 @@ ASPARTATE-SEMIALDEHYDE-DEHYDROGENASE-RXN
 4.3.1.17-RXN
     #equilibrium
     minors PROTON AMMONIA
-    pairs (SER PYRUVATE)
+    pairs (L-SER PYRUVATE)
     genes SP_0105 SP_0106
+    operon SP_0104 SP_0105 SP_0106
+#correct for writing operon?
 
 THREDEHYD-RXN
     #equilibrium
     minors PROTON AMMONIA
-    pairs (THR 2-OXOBUTANOATE)
+    pairs (L-THR 2-OXOBUTANOATE)
     genes SP_0450 SP_2210 SP_1812
         #SP2210 and SP1812 are predictions
 
 TRYPSYN-RXN
     #equilibrium
     minors INDOLE-3-GLYCEROL-P WATER GAP
-    pairs (SER TRP)
-    genes SP_1811 SP_1812 SP_2210 SP_0450
+    pairs (L-SER L-TRP)
+    genes SP_1811 AND SP_1812 SP_2210 SP_0450
         #SP2210 and SP0450 are predictions
+        #SP_1811 SP_1812 are subunits for tryptophan synthase
 
 RXN-8629
     #equilibrium
@@ -88,14 +88,16 @@ RXN-8629
 CYSTATHIONINE-BETA-SYNTHASE-RXN
     #equilibrium
     minors WATER
-    pairs (SER L-CYSTATHIONINE) (HOMO-CYS L-CYSTATHIONINE)
+    pairs (L-SER L-CYSTATHIONINE) (HOMO-CYS L-CYSTATHIONINE)
     genes SP_2210
 
 CYSTAGLY-RXN
     #equilibrium
     minors WATER PROTON AMMONIA 2-OXABUTANOATE
-    pairs (L-CYSTATHIONINE CYS)
+    pairs (L-CYSTATHIONINE L-CYS)
     genes SP_1525
+
+#WHY INCLUDE FOLLOWING REACTIONS??
 
 GbsB RXN
    genes SP_2157
@@ -105,7 +107,7 @@ GCVP-RXN
     minors CARBON-DIOXIDE
     pairs (GLY AMINOMETHYLDIHYDROLIPOYL-GCVH)
         (PROTEIN-LIPOYLLYSINE AMINOMETHYLDIHYDROLIPOYL-GCVH)
-    genes SP_0869 OR SP_0016 OR SP_0226
+    genes SP_0869
 
 GCVT-RXN
     #equilibrium
@@ -120,11 +122,11 @@ GcsH RXN
 THREODEHYD-RXN
     #equilibrium
     minors NAD PROTON NADH
-    pairs (THR AMINO-OXOBUT)
+    pairs (L-THR AMINO-OXOBUT)
     genes SP_2055 SP_0285
 
 AMACETOXID-RXN
     #equilibrium
-    minors WATER OXYGEN-MOLECULE PROTON HYDROGEN-PEROXIDE
+    minors WATER O2 PROTON H2O2
     pairs (AMINO-ACETONE METHYL-GLYOXAL)
     genes SP_1298
