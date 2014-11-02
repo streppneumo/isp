@@ -46,6 +46,11 @@ LYS-SYN-STEP-2
   pairs (L-Saccharopine L-Lys)
   genes SP_0919
 
+LYS-DEG
+  minors CO2
+  pairs (L-LYS cadaverine)
+  genes SP_0916
+
 BRANCH-TO-PEPTIDOGLYCAN-SYN-RXN1
   minors ATP ADP Orthophosphate
   pairs (UDP-N-acetylmuramoyl-L-alanyl-D-glutamate UDP-N-acetylmuramoyl-L-alanyl-D-gamma-glutamyl-meso-2-6-diaminopimelate)
