@@ -7,24 +7,29 @@ CYSTATHIONINE-BETA-LYASE-RXN
     genes SP_1524 SP_1544 SP_0035 SP_1994
         #SP1544 SP0035 and SP1994 are predictions
 
+THIOCYS-FORMATION
+    minors WATER AMMONIA PYRUVATE
+    pairs (L-Cystine Thiocysteine)
+    genes SP_1524
+
 L-LACTATE-DEHYDROGENASE-RXN
     #equilibrium
     #different rxn listed in kegg?
     minors NAD NADH PROTON
-    pairs (L-LACTATE PYRUVATE)
+    pairs (p3-mercaptoLACTATE p3-mercaptoPYRUVATE)
     genes SP_1220
 
 SERINE-O-ACETTRAN-RXN
     #equilibrium
     minors ACETYL-COA + CO-A
-    pairs (SER ACETYLSERINE)
+    pairs (L-SER ACETYLSERINE)
     genes SP_0589 SP_2097 SP_0988
         #SP2097 and SP0988 are predictions
 
 ACSERLY-RXN
     #equilibrium
     minors HS PROTON ACET
-    pairs (ACETYLSERINE L-SELENOCYSTEINE)
+    pairs (ACETYLSERINE L-CYS)
     genes SP_2210 SP_1681 SP_1688
         #SP1681 and SP1688 are predictions
         #may possibly have more genes involved
@@ -32,15 +37,16 @@ ACSERLY-RXN
 HOMOCYSMET-RXN
     #equilibrium
     minors PROTON CPD-1302 CPD-1301
-    pairs (HOMO-CYS MET)
+    pairs (HOMO-CYS L-MET)
     genes SP_0585
 
 4.3.1.17-RXN
     #equilibrium
     #different rxn listed in kegg?
     minors PROTON AMMONIA
-    pairs (SER PYRUVATE)
-    genes SP_0105 SP_0106
+    pairs (L-SER PYRUVATE)
+    genes SP_0105 SP_0106 SP_0450
+#SP_0450 has different EC number#
 
 METBALT-RXN
     #equilibrium
@@ -48,16 +54,21 @@ METBALT-RXN
     pairs (2-OXOBUTANOATE O-SUCCINYL-L-HOMOSERINE)
     genes SP_1525
 
-O-SUCCHOMOSERLYASE-RXN
+L-CYSTATHIONINE-FORMATION-O-SUCCHOMOSERINE
     #equilibrium
-    minors PROTON CYS SUC
+    minors PROTON L-CYS SUC
     pairs (O-SUCCINYL-L-HOMOSERINE L-CYSTATHIONINE)
+    genes SP_1525
+
+L-CYSTATHIONINE-FORMATION-O-ACETYL-HOMOSERINE
+    minors L-CYS ACETATE
+    pairs (O-ACETYL-L-HOMOSERINE L-CYSTATHIONINE)
     genes SP_1525
 
 ASPARTATEKIN-RXN
     #equilibrium
-    minors ATP ADP
-    pairs (L-ASPARTATE L-BETA-ASPARTYL-P)
+    minors ATP ADP Pi
+    pairs (L-ASP L-4-ASPARTYL-P)
     genes SP_0413
 
 ASPARTATE-SEMIALDEHYDE-DEHYDROGENASE-RXN
@@ -68,9 +79,11 @@ ASPARTATE-SEMIALDEHYDE-DEHYDROGENASE-RXN
 
 HOMOSERDEHYDROG-RXN
     #equilibrium
-    minors NAD-P-OR-NOP NADH-P-OR-NOP PROTON
+    minors NAD NADH PROTON OR NAPDH PROTON NAPD
+    NAD-P-OR-NOP NADH-P-OR-NOP PROTON
     pairs (HOMO-SER L-ASPARTATE-SEMIALDEHYDE)
     genes SP_1361
+#HOW TO WRITE DIFFERENT NAD/NADPH FOR RED/OXI DIRECTION?
 
 HOMSUCTRAN-RXN
     #equilibrium
@@ -87,17 +100,20 @@ RIBOSYLHOMOCYSTEINASE-RXN
 ADENOSYLHOMOCYSTEINE-NUCLEOSIDASE-RXN
     #equilibrium
     minors WATER
-    pairs (CPD-564 ADENOSYL-HOMO-CYS)
+    pairs (CPD-564 S-ADENOSYL-HOMO-CYS)
     genes SP_0991 SP_0835
         #SP0835 is a prediction
 
-EC 2.1.1.37
-    #listed in kegg but not listed in biocyc
+EC2.1.1.37-RXN
+    minor DNA DNA-5-METHYLCYTOSINE
+    pairs (S-ADENOSYLMETHIONINE S-ADENOSYL-HOMO-CYS)
+    genes SP_1336
+    #SHOWS STRAIN DIFFERENCE
 
 S-ADENMETSYN-RXN
     #equilibrium
     minors WATER ATP PPI Pi
-    pairs (MET S-ADENOSYLMETHIONINE)
+    pairs (L-MET S-ADENOSYLMETHIONINE)
     genes SP_0762
 
 SPERMIDINESYN-RXN
@@ -111,8 +127,8 @@ SPERMIDINESYN-RXN
 HOMOCYSMETB12-RXN
     #equilibrium
     minors 5-METHYL-THF THF
-    pairs (HOMO-CYS MET)
-    genes SP_0475 OR SP_1544
+    pairs (HOMO-CYS L-MET)
+    genes SP_0585 
 
 EC 2.6.1.1
     #equilibrium
@@ -122,27 +138,18 @@ EC 2.6.1.1
 CYSTAGLY-RXN
     #equilibrium
     #biocyc doesn't match kegg?
-    minors WATER PROTON AMMONIA
-    pairs (L-CYSTATHIONINE CYS)
+    minors PROTON SUC
+    pairs (L-CYSTATHIONINE O-ACETYL-HOMOSERINE L-CYS)
     genes SP_1525
 
 SULFOCYS-RXN
     #equilibrium
-    minors PROTON
+    minors H2Se ACETATE
     pairs (ACETYLSERINE L-SELENOCYSTEINE)
     genes SP_2210
+#not involved in cys/met metabolim. delete?
 
-MALATE-DEH-RXN
-    #equilibrium
-    #biocyc doesn't match kegg
-    minors NAD NADH PROTON
-    pairs (MAL OXALACETIC_ACID)
-    genes SP_1220
 
 mccA RXN
     genes SP_2210
 
-EC 2.6.1.57
-    #equilibrium
-    #biocyc doesn't match kegg; which rxn fits?
-    genes SP_1004 OR SP_1847 OR SP_1544
