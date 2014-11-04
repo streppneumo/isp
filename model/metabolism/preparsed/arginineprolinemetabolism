@@ -55,7 +55,7 @@ RXN-9380
     #equilibrium
     minors PROTON CARBON-DIOXIDE
     pairs (CPD-9995 NORSPERMADINE)
-    genes SP_0920 SP_0166
+    genes SP_0920 or SP_0166
         #SP0166 is a prediction
 
 EC 2.5.1.16
