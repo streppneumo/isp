@@ -26,7 +26,7 @@ THREDEHYD-RXN
     #equilibrium
     minors PROTON AMMONIA
     pairs (L-THR 2-OXOBUTANOATE)
-    genes SP_0450 SP_2210 SP_1812
+    genes SP_0450 or SP_2210 or SP_1812
         #SP2210 and SP1812 are predictions
 
 THRESYN-RXN
@@ -65,7 +65,7 @@ THREDEHYD-RXN
     #equilibrium
     minors PROTON AMMONIA
     pairs (L-THR 2-OXOBUTANOATE)
-    genes SP_0450 SP_2210 SP_1812
+    genes SP_0450 or SP_2210 or SP_1812
         #SP2210 and SP1812 are predictions
 
 TRYPSYN-RXN
@@ -80,7 +80,7 @@ RXN-8629
     #equilibrium
     minors NAD NADH PROTON
     pairs (DIHYDROLIPOYL-GCVH PROTEIN-LIPOYLLYSINE)
-    genes SP_1161 SP_0784 SP_1588 SP_1469 SP_1458 SP_0471
+    genes SP_1161 or SP_0784 or SP_1588 or SP_1469 or SP_1458 or SP_0471
         # SP0784 SP1588 SP1469 SP1458 SP0471 are all predictions
 
 #BLASTED RXNS (UNKNOWN/WHITE IN KEGG)
