@@ -4,7 +4,7 @@ CYSTATHIONINE-BETA-LYASE-RXN
     #equilibrium
     minors WATER PROTON AMMONIA PYRUVATE
     pairs (L-CYSTATHIONINE HOMO-CYS)
-    genes SP_1524 SP_1544 SP_0035 SP_1994
+    genes SP_1524 or SP_1544 or SP_0035 or SP_1994
         #SP1544 SP0035 and SP1994 are predictions
 
 THIOCYS-FORMATION
@@ -23,14 +23,14 @@ SERINE-O-ACETTRAN-RXN
     #equilibrium
     minors ACETYL-COA + CO-A
     pairs (L-SER ACETYLSERINE)
-    genes SP_0589 SP_2097 SP_0988
+    genes SP_0589 or SP_2097 or SP_0988
         #SP2097 and SP0988 are predictions
 
 ACSERLY-RXN
     #equilibrium
     minors HS PROTON ACET
     pairs (ACETYLSERINE L-CYS)
-    genes SP_2210 SP_1681 SP_1688
+    genes SP_2210 or SP_1681 or SP_1688
         #SP1681 and SP1688 are predictions
         #may possibly have more genes involved
 
@@ -45,7 +45,7 @@ HOMOCYSMET-RXN
     #different rxn listed in kegg?
     minors PROTON AMMONIA
     pairs (L-SER PYRUVATE)
-    genes SP_0105 SP_0106 SP_0450
+    genes SP_0105 SP_0106 or SP_0450
 #SP_0450 has different EC number#
 
 METBALT-RXN
@@ -101,7 +101,7 @@ ADENOSYLHOMOCYSTEINE-NUCLEOSIDASE-RXN
     #equilibrium
     minors WATER
     pairs (CPD-564 S-ADENOSYL-HOMO-CYS)
-    genes SP_0991 SP_0835
+    genes SP_0991 or SP_0835
         #SP0835 is a prediction
 
 EC2.1.1.37-RXN
