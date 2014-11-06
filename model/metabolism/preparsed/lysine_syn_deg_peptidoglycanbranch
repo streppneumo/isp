@@ -1,0 +1,67 @@
+L-4-ASPARTYL-P-FORMATION
+  minors ATP ADP
+  pairs (L-ASP L-4-ASPARTYL-PHOSPHATE)
+  genes SP_0413
+
+L-ASP-4-SEMIALDEHYDE-RXN
+  minors NADP NADPH PROTON
+  pairs (L-4-ASPARTYL-PHOSPHATE L-ASPARTATE-4-SEMIALDEHYDE)
+  genes SP_1013
+  
+HTPA-RXN
+  minors PYRUVATE H2O
+  pairs (L-ASPARTATE-4-SEMIALDEHYDE HTPA)
+  genes SP_1014
+  
+HTPA-REDUCTION
+  minors NAD NADH PROTON OR NAPD NAPDH PROTON
+  pairs (HTPA p2-3-4-5-Tetrahydrodipicolinate)
+  genes SP_1555
+
+SUCCINYLTRANSFERASE-RXN
+  minors SUCCINYL-COA H2O COA
+  pairs (p2-3-4-5-Tetrahydrodipicolinate N-Succinyl-2-L-amino-6-oxoheptanedioate)
+  
+Aromaticaminotransferase
+  pairs (N-Acetyl-L-2-AMINO-6-OXOPIMELATE N-ACETYL-LL-2-6-DIAMINOPIMELATE)
+  genes SP_0035
+
+DEACETYLATION-RXN-1
+  minors H2O ACETATE
+  pairs (N-ACETYL-LL-2-6-DIAMINOPIMELATE LL-2-6-DIAMINOPIMELATE)
+  genes SP_0150
+  
+DEACETYLATION-RXN-2
+  minors H2O ACETATE
+  pairs (N6-Acetyl-LL-2-6-diaminoheptanedioate LL-2-6-DIAMINOPIMELATE)
+  genes SP_2096
+  
+LYS-SYN-STEP-1
+  minors CO2
+  pairs (meso-2-6-Diaminopimelate L-Lys)
+  genes SP_1978
+
+LYS-SYN-STEP-2
+  minors NAD H2O NADH PROTON
+  pairs (L-Saccharopine L-Lys)
+  genes SP_0919
+
+LYS-DEG
+  minors CO2
+  pairs (L-LYS cadaverine)
+  genes SP_0916
+
+BRANCH-TO-PEPTIDOGLYCAN-SYN-RXN1
+  minors ATP ADP Orthophosphate
+  pairs (UDP-N-acetylmuramoyl-L-alanyl-D-glutamate UDP-N-acetylmuramoyl-L-alanyl-D-gamma-glutamyl-meso-2-6-diaminopimelate)
+  genes SP_1589
+  
+BRANCH-TO-PEPTIDOGLYCAN-SYN-RXN2
+  minors ATP ADP Orthophosphate
+  pairs (UDP-N-acetylmuramoyl-L-alanyl-D-gamma-glutamyl-meso-2-6-diaminopimelate UDPMurAc-oyl-L-Ala-D-gamma-Glu-L-Lys-D-Ala-D-Ala)
+  genes SP_1670
+
+
+
+ 
+  

@@ -1,0 +1,13 @@
+L-D-GLU-CONVERSION
+  pairs (L-GLU D-GLU)
+  genes SP_1881
+
+UDP-MURNAC-L-ALA-SYN
+ minors ATP ADP Orthophosphate
+ pairs (L-ALA UDP-N-acetylmuramate UDP-MURNAC-L-ALA)
+ genes SP_1521
+ 
+UDP-MURNAC-L-ALA-D-GLU-SYN
+  minors ATP ADP Orthophosphate
+  pairs (UDP-MURNAC-L-ALA D-GLU UDP-MURNAC-L-ALA-D-GLU)
+  genes SP_0688
