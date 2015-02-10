@@ -1,0 +1,82 @@
+#Riboflavin Metabolism
+
+
+GTP-CYCLOHYDRO-II-RXN
+# EC-3.5.4.25
+	reversible = false
+	minors WATER PPI PROTON FORMATE
+	pairs (GTP DIAMINO-OH-PHOSPHORIBOSYLAMINO-PYR) (WATER PROTON)
+	genes SP_0176 SPD_0167 SPT_0213
+
+RIBOFLAVINSYNDEAM-RXN
+# EC-3.5.4.26
+	reversible = false
+	minors WATER AMMONIA
+	pairs (DIAMINO-OH-PHOSPHORIBOSYLAMINO-PYR CPD-602)
+	genes SP_0178 SPD_0169 SPT_0215
+
+RIBOFLAVINSYNREDUC-RXN
+# EC-1.1.1.193
+	reversible = false
+	minors PROTON NADPH NADP
+	pairs (CPD-602 CPD-1086) (NADPH NADP)
+	genes SP_0178 SPD_0169 SPT_0215
+
+CPD-1086DEPHOSPHORYLASE-RXN
+# EC-3.1.3.-
+# No associated enzymes found, spontaneous reaction
+	reversible = true
+	minors WATER Pi
+	pairs (CPD-1086 AMINO-RIBOSYLAMINO-1H-3H-PYR-DIONE)
+	genes
+
+DIOHBUTANONEPSYN-RXN
+# EC-4.1.99.12
+	reversible = false
+	minors PROTON FORMATE
+	pairs (RIBULOSE-5P DIHYDROXY-BUTANONE-P)
+	genes SP_0176 SPD_0167 SPT_0213
+
+LUMAZINESYN-RXN
+# EC-2.5.1.78
+	reversible = false
+	minors DIHYDROXY-BUTANONE-P PROTON WATER |Pi|
+	pairs (AMINO-RIBOSYLAMINO-1H-3H-PYR-DIONE DIMETHYL-D-RIBITYL-LUMAZINE)
+	genes SP_0175 SPD_0166 SPT_0212
+
+RIBOFLAVIN-SYN-RXN
+# EC-2.5.1.9
+	reversible = false
+	minors PROTON AMINO-RIBOSYLAMINO-1H-3H-PYR-DIONE
+	pairs (DIMETHYL-D-RIBITYL-LUMAZINE RIBOFLAVIN)
+	genes SP_0177 SPD_0168 SPT_0214
+
+RIBOFLAVINKIN-RXN
+# EC-2.7.1.26
+	reversible = false
+	minors PROTON ATP ADP
+	pairs (RIBOFLAVIN FMN) (ATP ADP)
+	genes SP_1110 SPD_0994 SPT_1156
+
+FADSYN-RXN
+# EC-2.7.7.2
+	reversible = false
+	minors PROTON ATP PPI
+	pairs (FMD FAD) (ATP PPI)
+	genes SP_1110 SPD_0994 SPT_1156
+
+RXN-12444
+# EC-1.5.1.38
+#BLAST confirms identical proteins in TIGR4 and 19f
+	reversible = false
+	minors NADP NADPH PROTON
+	pairs (FMN FMNH2) (NAHPH NADP)
+	genes SP_1710 SPD_1301 SPT_1648
+
+NADPH-DEHYDROGENASE-FLAVIN-RXN
+# EC-1.5.1.30
+#BLAST confirms identical proteins in TIGR4 and 19f
+	reversible = true
+	minors NADPH NADP PROTON
+	pairs (RIBOFLAVIN CPD-316) (NADPH NADP)
+	genes SP_1710 SPD_1301 SPT_1648

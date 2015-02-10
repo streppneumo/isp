@@ -1,0 +1,134 @@
+# One Carbon Pool by Folate
+
+DIHYDROFOLATEREDUCT-RXN
+# EC-1.5.1.3
+	reversible = false
+	minors NADPH NADP PROTON
+	pairs (DIHYDROFOLATE THF) (NADPH NADP)
+	genes SP_1571 SPD_1401 SPT_1511
+
+GART-RXN
+# EC-2.1.2.2 
+	reversible = true
+	minors 5-PHOSPHO-RIBOSYL-GLYCINEAMIDE 5-P-RIBOSYL-N-FORMYLGLYCINEAMIDE PROTON
+	pairs (THF 10-FORMYL-THF) (5-P-RIBOSYL-N-FORMYLGLYCINEAMIDE 5-PHOSPHO-RIBOSYL-GLYCINEAMIDE)
+	genes SP_0048 SPD_0055 SPT_0087
+
+AICARTRANSFORM-RXN
+# EC-2.1.2.3
+	reversible = false
+	minors AICAR PHOSPHORIBOSYL-FORMAMIDO-CARBOXAMIDE
+	pairs (10-FORMYL-THF THF) (AICAR PHOSPHORIBOSYL-FORMAMIDO-CARBOXAMIDE)
+	genes SP_0050 SPD_0057 SPT_0089
+
+FORMATETHFLIG-RXN
+# EC-6.3.4.3
+	reversible = false
+	minors ATP FORMATE ADP |Pi|
+	pairs (THF 10-FORMYL-THF) (ATP ADP)
+	genes SP_1229 SPD_1087 SPT_0999
+
+RXN-6283
+# EC-6.3.4.3
+	reversible = false
+	minors ATP FORMATE ADP |Pi|
+	pairs (THF-GLU-N FORMYL-THF-GLU-N) (ATP ADP)
+	genes SP_1229 SPD_1087 SPT_0999
+
+FORMYLTHFDEFORMYL-RXN
+# EC-3.5.1.10
+	reversible = false
+	minors WATER PROTON FORMATE
+	pairs (10-FORMYL-THF THF)
+# No genes listed, spontaneous
+
+METHIONYL-TRNA-FORMYLTRANSFERASE-RXN
+# EC-2.1.2.9
+	reversible = true
+	minors |L-methionyl-tRNAfmet| |N-formyl-L-methionyl-tRNAfmet|
+	pairs (10-FORMYL-THF THF) (|L-methionyl-tRNAfmet| |N-formyl-L-methionyl-tRNAfmet|)
+	genes SP_1735 SPD_1545 SPT_1673
+
+GLYCINE-FORMIMINOTRANSFERASE-RXN
+# EC-2.1.2.4
+	reversible = false
+	minors THF CPD-671
+	pairs (N-FORMIMINO-GLYCINE GLY) (THF CPD-671)
+# No genes listed in BioCyc or KEGG
+
+HOMOCYSMETB12-RXN
+# EC-2.1.1.13
+	reversible = false
+	minors 5-METHYL-THF
+	pairs (HOMO-CYS MET) (5-METHYL-THF THF)
+# No genes listed in BioCyc or KEGG
+
+2.1.1.19-RXN
+# EC-2.1.1.19
+	reversible = false
+	minors PROTON 5-METHYL-THF THF
+	pairs (CPD-7670 TRIMETHYLSULFONIUM) (5-METHYL-THF THF)
+# No genes listed in BioCyc or KEGG
+
+THYMIDYLATESYN-RXN
+# EC-2.1.1.45
+	reversible = false
+	minors 
+	pairs (METHYLENE-THF DIHYDROFOLATE) (DUMP DTMP)
+	genes SP_0669 SPD_0581 SPT_0693
+
+METHENYLTHFCYCLOHYDRO-RXN
+# EC-3.5.4.9
+	reversible = true
+	minors WATER PROTON
+	pairs (5-10-METHENYL-THF 10-FORMYL-THF)
+	genes SP_0825 SPD_0721 SPT_1376
+
+5-FORMYL-THF-CYCLO-LIGASE-RXN
+# EC-6.3.3.2
+	reversible = false
+	minors ATP ADP |Pi|
+	pairs (5-FORMYL-THF 5-10-METHENYL-THF) (ATP ADP)
+	genes SP_2095 SPD_1921 SPT_2104
+
+4.3.1.4-RXN
+# EC-4.3.1.4
+	reversible = true
+	minors PROTON AMMONIA
+	pairs (CPD-671 5-10-METHENYL-THF)
+# No genes listed
+
+METHYLENETHFDEHYDROG-NADP-RXN
+# EC-1.5.1.5
+	reversible = true
+	minors NADP NADPH
+	pairs (METHYLENE-THF 5-10-METHENYL-THF) (NADP NADPH)
+	genes SP_0825 SPD_0721 SPT_1376
+
+1.5.1.15-RXN
+# EC-1.5.1.15
+	reversible = false
+	minors NAD NADH
+	pairs (METHYLENE-THF 5-10-METHENYL-THF) (NAD NADH)
+# No genes listed in BioCyc or KEGG
+
+RXN-5061
+# EC-1.5.7.1
+	reversible = false
+	minors |Reduced-ferredoxins| |Oxidized-ferredoxins| PROTON
+	pairs (METHYLENE-THF 5-METHYL-THF) (|Reduced-ferredoxins| |Oxidized-ferredoxins|)
+	genes SP_0586 SPD_0511 SPT_0616
+
+1.5.1.20-RXN
+# EC-1.5.1.20
+	reversible = false
+	minors NADH NAD PROTON
+	pairs (METHYLENE-THF 5-METHYL-THF) (NADH NAD)
+	genes SP_0586 SPD_0511 SPT_0616
+
+GLYOHMETRANS-RXN
+# EC-2.1.2.1
+	reversible = true
+	minors THF METHYLENE-THF WATER
+	pairs (SER GLY) (THF METHYLENE-THF)
+	genes SP_1024 SPD_0910 SPT_1076

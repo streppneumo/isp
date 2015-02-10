@@ -1,0 +1,8 @@
+# Biotin Metabolism
+
+BIOTINLIG-RXN
+# EC-6.3.4.15
+	reversible = false
+	minors BIOTIN ATP PPI AMP
+	pairs (|BCCP-monomers| |BCCP-biotin-monomers|) (ATP AMP)
+	genes SP_1900 SPD_1680 SPT_1823

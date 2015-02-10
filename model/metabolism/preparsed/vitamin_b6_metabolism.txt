@@ -1,0 +1,22 @@
+# Vitamin B6 Metabolism
+
+RXN-11322
+# EC-4.3.3.6
+	reversible = false
+	minor RIBOSE-5P PROTON |Pi| WATER GLN GLT
+	pairs (GAP PYRIDOXAL_PHOSPHATE)(GLN GLT)
+	genes SP_1467 SP_1468 SPD_1296 SPD_1297 SPT_0807 SPT_0808
+
+PANTOTHENATEKINASE-RXN
+# EC-2.7.1.35
+	reversible = false
+	minor Pi
+	pairs (PYRIDOXAL PYRIDOXAL_PHOSPHATE) (ATP ADP)
+	genes SP_1598 SPD_1423 SPT_1536
+
+THRESYN-RXN
+# EC-4.2.3.1
+	reversible = false
+	minor WATER |Pi|
+	pairs (O-PHOSPHO-L-HOMOSERINE THR)
+	genes SP_2066 SPD_1877 SPT_2061
