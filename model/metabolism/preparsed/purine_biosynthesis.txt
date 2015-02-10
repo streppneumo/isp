@@ -1,0 +1,345 @@
+
+__author__ "Steve Trudeau"
+
+
+RXN0-1441
+# EC-3.6.1.13
+	reversible = true
+	minors WATER PROTON AMP
+	pairs (ADENOSINE_DIPHOSPHATE_RIBOSE RIBOSE-5P) (ADENOSINE_DIPHOSPHATE_RIBOSE AMP)
+	genes SP_0989 SPD_0875 SPT_1215
+
+D-PPENTOMUT-RXN
+# EC-5.4.2.7
+	reversible = true
+	minors
+	pairs (DEOXY-D-RIBOSE-1-PHOSPHATE DEOXY-RIBOSE-5P)
+	genes SP_0829 SPD_0724 SPT_1373
+
+PPENTOMUT-RXN
+# EC-5.4.2.7
+	reversible = true
+	minors
+	pairs (RIBOSE-1P RIBOSE-5P)
+	genes SP_0829 SPD_1326 SPT_1373
+
+PHOSPHOGLUCMUT-RXN
+# EC-5.4.2.2
+	reversible = true
+	minors
+	pairs (GLC-1-P ALPHA-GLC-6-P)
+	genes SP_1498 SPD_1326 SPT_1435
+	
+PRPPSYN-RXN
+# EC-2.7.6.1
+	reversible = true
+	minors ATP AMP PROTON
+	pairs (RIBOSE-5P PRPP) (ATP AMP)
+	genes SP_0027 SP_1095 SPD_0033 SPD_0980 SPT_0066 SPT_1140
+
+PRPPAMIDOTRANS-RXN
+# EC-2.4.2.14
+	reversible = false
+	minors GLN WATER PPI GLT 
+	pairs (PRPP 5-P-BETA-D-RIBOSYL-AMINE) (GLN GLT)
+	genes SP_0046 SPD_0053 SPT_0085
+
+GLYRIBONUCSYN-RXN
+# EC-6.3.4.13
+	reversible = false
+	minors ATP GLY PROTON ADP |Pi|
+	pairs (5-P-BETA-D-RIBOSYL-AMINE 5-PHOSPHO-RIBOSYL-GLYCINEAMIDE) (ATP ADP)
+	genes SP_0051 SPD_0058 SPT_0090
+
+GART-RXN
+# EC-2.1.2.2
+	reversible = false
+	minors 10-FORMYL-THF PROTON THF
+	pairs (5-PHOSPHO-RIBOSYL-GLYCINEAMIDE 5-P-RIBOSYL-N-FORMYLGLYCINEAMIDE) (10-FORMYL-THF THF)
+	genes SP_0048 SPD_0055 SPT_0087
+
+FGAMSYN-RXN
+# EC-6.3.5.3
+	reversible = false
+	minors ATP GLN WATER PROTON GLT ADP |Pi|
+	pairs (5-P-RIBOSYL-N-FORMYLGLYCINEAMIDE 5-PHOSPHORIBOSYL-N-FORMYLGLYCINEAMIDINE) (ATP ADP)
+	genes SP_0045 SPD_0052 SPT_0084
+
+AIRS-RXN
+# EC-6.3.3.1
+	reversible = false
+	minors ATP PROTON ADP |Pi| 
+	pairs (5-PHOSPHORIBOSYL-N-FORMYLGLYCINEAMIDINE 5-PHOSPHORIBOSYL-5-AMINOIMIDAZOLE) (ATP ADP)
+	genes SP_0047 SPD_0054 SPT_0086
+
+RXN0-742
+# EC-6.3.4.18
+	reversible = false
+	minors ATP ADP HCO3 PROTON |Pi|
+	pairs (5-PHOSPHORIBOSYL-5-AMINOIMIDAZOLE CPD0-181) (ATP ADP)
+	genes SP-0054 SPD_0060 SPT_0092
+
+RXN0-743
+# EC-5.4.99.18
+	reversible = true
+	minors 
+	pairs (CPD0-181 PHOSPHORIBOSYL-CARBOXY-AMINOIMIDAZOLE)
+	genes SP_0053 SPD_0059 SPT_0091
+
+SAICARSYN-RXN
+# EC-6.3.2.6
+	reversible = true
+	minors ATP L-ASPARTATE PROTON ADP |Pi|
+	pairs (PHOSPHORIBOSYL-CARBOXY-AMINOIMIDAZOLE P-RIBOSYL-4-SUCCCARB-AMINOIMIDAZOLE) (ATP ADP)
+	genes SP_0044 SPD_0051 SPT_0082
+
+AMPSYN-RXN
+# EC-4.3.2.2
+	reversible = false
+	minors FUM
+	pairs (ADENYLOSUCC AMP)
+	genes SP_0056 SPD_0062 SPT_0094
+
+AICARSYN-RXN
+# EC-4.3.2.2
+	reversible = false
+	minors FUM
+	pairs (P-RIBOSYL-4-SUCCCARB-AMINOIMIDAZOLE AICAR)
+	genes SP_0056 SPD_0062 SPT_0094
+
+ADENPRIBOSYLTRAN-RXN
+# EC-2.4.2.7
+	reversible = true
+	minors PRPP PPI
+	pairs (ADENINE AMP) (PRPP PPI)
+	genes SP_1577 SPD_1407 SPT_1517
+
+AICARTRANSFORM-RXN
+# EC-2.1.2.3
+	reversible = false
+	minors 10-FORMYL-THF THF
+	pairs (AICAR PHOSPHORIBOSYL-FORMAMIDO-CARBOXAMIDE) (10-FORMYL-THF THF)
+	genes SP_0050 SPD_0057 SPT_0089
+
+ADENYLOSUCCINATE-SYNTHASE-RXN
+# EC-6.3.4.4
+	reversible = false
+	minors L-ASPARTATE GTP PROTON |Pi| GDP
+	pairs (IMP ADENYLOSUCC) (GTP GDP)
+	genes SP_0019 SPD_0024 SPT_0059
+
+ADENYL-KIN-RXN
+# EC-2.7.4.3
+	reversible = true
+	minors
+	pairs (AMP ADP) (ATP ADP)
+	genes SP_0231 SPD_0214 SPT_0277
+
+DGDPKIN-RXN
+# EC-2.7.4.6
+	reversible = true
+	minors 
+	pairs (DGDP DGTP) (ATP ADP)
+	genes SP_1959 SPD_1757 SPT_1936
+
+GDPKIN-RXN
+# EC-2.7.4.6
+	reversible = true
+	minors 
+	pairs (GDP GTP) (ATP ADP)
+	genes SP_1959 SPD_1757 SPT_1936
+
+DADPKIN-RXN
+# EC-2.7.4.6
+	reversible = true
+	minors 
+	pairs (DADP DATP) (ATP ADP)
+	genes SP_1959 SPD_1757 SPT_1936
+
+PEPDEPHOS-RXN
+# EC-2.7.1.40
+	reversible = true
+	minors ATP PROTON ADP
+	pairs (PYRUVATE PHOSPHO-ENOL-PYRUVATE) (ATP ADP)
+	genes SP_0897 SPD_0790 SPT_1302
+
+GDPREDUCT-RXN
+# EC-1.17.4.1
+	reversible = false
+	minors WATER
+	pairs (GDP DGDP) (|Red-Thioredoxin| |Ox-Thioredoxin|)
+	genes SP_1179 SP_1180 SPD_1042 SPD_1043 SPT_1043 SPT_1044
+
+ADPREDUCT-RXN
+# EC-1.17.4.1
+	reversible = false
+	minors WATER
+	pairs (ADP DADP) (|Red-Thioredoxin| |Ox-Thioredoxin|)
+	genes SP_1179 SP_1180 SPD_1042 SPD_1043 SPT_1043 SPT_1044
+
+1.17.4.2-RXN
+# EC-1.17.4.2
+	reversible = true
+	minors WATER Ox-Thioredoxin Red-Thioredoxin
+	pairs (DGTP GDP) (|Ox-Thioredoxin| |Red-Thioredoxin|)
+	genes SP_0202 SPD_0187 SPT_0249
+
+1.17.4.2-RXN
+# EC-1.17.4.2
+	reversible = true
+	minors WATER Ox-Thioredoxin Red-Thioredoxin
+	pairs (DATP ATP) (|Ox-Thioredoxin| |Red-Thioredoxin|)
+	genes SP_0202 SPD_0187 SPT_0249
+
+INOPHOSPHOR-RXN
+#EC-2.4.2.1
+	reversible = true
+	minors 
+	pairs (INOSINE HYPOXANTHINE) (Pi RIBOSE-1P)
+	genes SP_0831 SP_0835 SPD_0726 SPD_0730 SPT_1367 SPT_1371
+
+DEOXYADENPHOSPHOR-RXN
+#EC-2.4.2.1
+	reversible = true
+	minors 
+	pairs (DEOXYADENOSINE ADENINE) (Pi DEOXY-D-RIBOSE-1-PHOSPHATE)
+	genes SP_0831 SP_0835 SPD_0726 SPD_0730 SPT_1367 SPT_1371
+
+XANTHOSINEPHOSPHORY-RXN
+#EC-2.4.2.1
+	reversible = true
+	minors 
+	pairs (XANTHOSINE XANTHINE) (Pi RIBOSE-1P)
+	genes SP_0831 SP_0835 SPD_0726 SPD_0730 SPT_1367 SPT_1371
+
+ADENPHOSPHOR-RXN
+#EC-2.4.2.1
+	reversible = true
+	minors 
+	pairs (ADENOSINE ADENINE) (Pi RIBOSE-1P)
+	genes SP_0831 SP_0835 SPD_0726 SPD_0730 SPT_1367 SPT_1371
+
+DEOXYINOPHOSPHOR-RXN
+#EC-2.4.2.1
+	reversible = true
+	minors
+	pairs (DEOXYINOSINE HYPOXANTHINE) (Pi DEOXY-D-RIBOSE-1-PHOSPHATE)
+	genes SP_0831 SP_0835 SPD_0726 SPD_0730 SPT_1367 SPT_1371
+
+DEOXYGUANPHOSPHOR-RXN
+#EC-2.4.2.1
+	reversible = true
+	minors 
+	pairs (DEOXYGUANOSINE GUANINE) (|Pi| DEOXY-D-RIBOSE-1-PHOSPHATE)
+	genes SP_0831 SP_0835 SPD_0726 SPD_0730 SPT_1367 SPT_1371
+
+RXN-11715
+#EC-2.4.2.1
+	reversible = true
+	minors 
+	pairs (CPD-12676 CPD-12677) (Pi ADENINE)
+	genes SP_0831 SP_0835 SPD_0726 SPD_0730 SPT_1367 SPT_1371
+
+RXN-11743
+#EC-2.4.2.1
+	reversible = true
+	minors 
+	pairs (CPD-5923 CPD-12706) (|Pi| ADENINE)
+	genes SP_0831 SP_0835 SPD_0726 SPD_0730 SPT_1367 SPT_1371
+
+RXN0-5199
+# EC-2.4.2.1
+	reversible = true
+	minors |Pi| RIBOSE-1P
+	pairs (GUANOSINE GUANINE) 
+	genes SP_0831 SP_0835 SPD_0726 SPD_0730 SPT_1367 SPT_1371
+
+GMP-SYN-GLUT-RXN
+# EC-6.3.5.2
+	reversible = false
+	minors WATER GLN ATP PROTON GLT PPI AMP
+	pairs (XANTHOSINE-5-PHOSPHATE GMP) (GLN GLT) (ATP AMP)
+	genes SP_1445 SPD_1274 SPT_0829
+
+# EC-3.6.1.66
+	reversible = false
+	minors WATER PPI
+	pairs (XTP XANTHOSINE-5-PHOSPHATE)
+	genes SP_1880 SPD_1660 SPT_1797
+
+
+# EC-3.6.1.66
+	reversible = false
+	minors WATER PPI
+	pairs (DITP 2-DEOXYINOSINE-5-PHOSPHATE)
+	genes SP_1880 SPD_1660 SPT_1797
+
+GTPPYPHOSKIN-RXN
+# EC-2.7.6.5
+	reversible = false
+	minors ATP AMP
+	pairs (GTP GDP-TP) (ATP AMP)
+	genes SP_1097 SP_1645 SPD_0982 SPD_1458 SPT_1142 SPT_1585
+
+GTPPYPHOSKIN-RXN
+# EC-2.7.6.5
+	reversible = false
+	minors ATP AMP
+	pairs (GDP GUANOSINE-5DP-3DP) (ATP AMP)
+	genes SP_1097 SPD_0982 SPD_1458 SPT_1142 SPT_1585
+
+GUANYL-KIN-RXN
+# EC-2.7.4.8
+	reversible = false
+	minors ATP ADP
+	pairs (GMP GDP) (ATP ADP)
+	genes SP_1738 SPD_1548 SPT_1676
+
+GUANYL-KIN-RXN
+# EC-2.7.4.8
+	reversible = true
+	minors ATP ADP
+	pairs (DGMP DGDP) (ATP ADP)
+	genes SP_1738 SPD_1548 SPT_1676
+
+CARBAMATE-KINASE-RXN
+# EC-2.7.2.2
+	reversible = false
+	minors PROTON ADP CARBON-DIOXIDE ATP
+	pairs (CARBAMOYL-P AMMONIA) (ADP ATP)
+	genes SP_2151 SPD_1977 SPT_2162
+
+GMP-REDUCT-RXN
+# EC-1.7.1.7
+	reversible = true
+	minors AMMONIA NADP PROTON NADPH
+	pairs (IMP GMP) (NADP NADPH)
+	genes SP_1249 SPD_1107 SPT_0979
+
+IMP-DEHYDROG-RXN
+# EC-1.1.1.205
+	reversible = false
+	minors WATER NAD NADH PROTON
+	pairs (IMP XANTHOSINE-5-PHOSPHATE) (NAD NADH)
+	genes SP_2228 SPD_2055 SPT_2246
+
+HYPOXANPRIBOSYLTRAN-RXN
+# EC-2.4.2.8
+	reversible = true
+	minors PRPP PPI
+	pairs(HYPOXANTHINE IMP) (PRPP PPI)
+	genes SP_0012 SPD_0012 SPT_0046
+
+GUANPRIBOSYLTRAN-RXN
+# EC-2.4.2.8
+	reversible = true
+	minors PRPP PPI
+	pairs (GUANINE GMP) (PRPP PPI)
+	genes SP_0012 SPD_0012 SPT_0046
+
+XANPRIBOSYLTRAN-RXN
+# EC-2.4.2.22
+	reversible = true
+	minors PRPP PPI
+	pairs (XANTHINE XANTHOSINE-5-PHOSPHATE) (PRPP PPI)
+	genes SP_1847 SPD_1628 SPT_1764
