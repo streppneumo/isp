@@ -46,6 +46,7 @@ from expression import (Gene,
                         Operon)
 
 from reaction import (Metabolite,
+                      MetaboliteGroup,
                       Reaction,
                       MinorSuggestion,
                       MinorSuggestions,

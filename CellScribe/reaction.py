@@ -14,6 +14,12 @@ class Metabolite(Primitive, Reactable, Localizable, Logicable):
         self.fields = kwargs
 
 
+class MetaboliteGroup(Primitive, Reactable, Localizable, Logicable):
+    def __init__(self, name, *args, **kwargs):
+        Primitive.__init__(self, name)
+        self.fields = kwargs
+
+
 class LocalizedMetabolite(Localized, Metabolite):
     pass
 
