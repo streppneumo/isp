@@ -70,7 +70,7 @@ def get_genes(rxn):
 
 
 def biocyc_rxn_to_cellscribe(rxn):
-    r = PFrame(rxn, pgdb['tigr4'])
+    r = PFrame(rxn, pgdb['d39'])
     s = build_python_command_biocyc("Reaction",
                                     rxn,
                                     reactants=r.left,
