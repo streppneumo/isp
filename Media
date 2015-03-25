@@ -1,0 +1,82 @@
+MEDIA (“SDMM”, [CYS,ASN,GLN,ADENINE,NIACINE,BIOTIN,PANTOTHENATE,PYRIDOXAL_PHOSPHATE,THIAMINE,RIBOFLAVIN,K,T,NA+2,ACET,
+HCO3,MG,CL,CA,CU,ZN,CHOLINE,FE+2,MN])
+
+    #ltrp not found / ca-pathothenate / pyridoxine HCL (pyridoxal phosphate) / sulfate?
+    #t is phosphate
+
+MEDIA (“CDM”, [URACIL,ADENINE,PANTOTHENATE,NIACINE,THIAMINE,RIBOFLAVIN,BIOTIN,PHOSPHATE,K,NA+2,ACET,HCO3,MG,CL,CA,CU,ZN,
+MN,L-ALPHA-ALANINE,ARG,ASN,ASP,CYS,GLN,GLU,GLY,HIS,ILE,LEU,LYS,MET,PHE,PRO,SER,THR,TRP,TYR,VAL,Glucose,CHOLINE,FE+2])
+
+    #D-ALANINE or L-ALPHA-ALANINE
+
+MEDIA ("MMDCM", [URACIL,ADENINE,NIACINE,K,NA+2,MG,CL,CA,CU,ZN,MN,ARG,CYS,GLN,GLY,HIS,ILE,LEU,MET,PRO
+SER,THR,VAL,Glucose,CHOLINE,FE+2])
+
+    #sulfate?? catalase??
+
+    #START GROWTH EXPERIMENTS IN CDM
+
+Experiment(“D39_CDM”, control_media=CDM, experimental_media=CDM, control_strain=D39, growth_ratio=0.19112309)
+Experiment(“D39_CDM”, control_media=CDM, experimental_media=CDM, control_strain=D39, experimental_strain=D39-Ala, growth_ratio=0.20433194)
+Experiment(“D39_CDM”, control_media=CDM, experimental_media=CDM, control_strain=D39, experimental_strain=D39-Arg, growth_ratio=0.02453225)
+Experiment(“D39_CDM”, control_media=CDM, experimental_media=CDM, control_strain=D39, experimental_strain=D39-Asp, growth_ratio=0.20403643)
+Experiment(“D39_CDM”, control_media=CDM, experimental_media=CDM, control_strain=D39, experimental_strain=D39-Cys, growth_ratio=0.03645183)
+Experiment(“D39_CDM”, control_media=CDM, experimental_media=CDM, control_strain=D39, experimental_strain=D39-Gln, growth_ratio=0.12028716)
+Experiment(“D39_CDM”, control_media=CDM, experimental_media=CDM, control_strain=D39, experimental_strain=D39-Glu, growth_ratio=0.1989362)
+Experiment(“D39_CDM”, control_media=CDM, experimental_media=CDM, control_strain=D39, experimental_strain=D39-Gly, growth_ratio=0.02897007)
+Experiment(“D39_CDM”, control_media=CDM, experimental_media=CDM, control_strain=D39, experimental_strain=D39-His, growth_ratio=0.03583967)
+Experiment(“D39_CDM”, control_media=CDM, experimental_media=CDM, control_strain=D39, experimental_strain=D39-Ile, growth_ratio=0.02323636)
+Experiment(“D39_CDM”, control_media=CDM, experimental_media=CDM, control_strain=D39, experimental_strain=D39-Leu, growth_ratio=0.14422536)
+Experiment(“D39_CDM”, control_media=CDM, experimental_media=CDM, control_strain=D39, experimental_strain=D39-Lys, growth_ratio=0.18948889)
+Experiment(“D39_CDM”, control_media=CDM, experimental_media=CDM, control_strain=D39, experimental_strain=D39-Met, growth_ratio=0.18929472)
+Experiment(“D39_CDM”, control_media=CDM, experimental_media=CDM, control_strain=D39, experimental_strain=D39-Phe, growth_ratio=0.17606816)
+Experiment(“D39_CDM”, control_media=CDM, experimental_media=CDM, control_strain=D39, experimental_strain=D39-Pro, growth_ratio=0.2067433)
+Experiment(“D39_CDM”, control_media=CDM, experimental_media=CDM, control_strain=D39, experimental_strain=D39-Ser, growth_ratio=0.183829)
+Experiment(“D39_CDM”, control_media=CDM, experimental_media=CDM, control_strain=D39, experimental_strain=D39-Thr, growth_ratio=0.19752675)
+
+
+    # strain 19F
+
+Experiment(“19F_CDM”, control_media=CDM, experimental media=CDM, control_strain=19F, growth_ratio=0.146333)
+Experiment(“19F_CDM”, control_media=CDM, experimental media=CDM, control_strain=19F, experimental_strain=19F-Ala, growth_ratio=0.146333)
+Experiment(“19F_CDM”, control_media=CDM, experimental media=CDM, control_strain=19F, experimental_strain=19F-Arg, growth_ratio=0.15182487)
+Experiment(“19F_CDM”, control_media=CDM, experimental media=CDM, control_strain=19F, experimental_strain=19F-Asn, growth_ratio=0.03607297)
+Experiment(“19F_CDM”, control_media=CDM, experimental media=CDM, control_strain=19F, experimental_strain=19F-Asp, growth_ratio=0.1577768)
+Experiment(“19F_CDM”, control_media=CDM, experimental media=CDM, control_strain=19F, experimental_strain=19F-Cys, growth_ratio=0.02427277)
+Experiment(“19F_CDM”, control_media=CDM, experimental media=CDM, control_strain=19F, experimental_strain=19F-Gln, growth_ratio=0.12752002)
+Experiment(“19F_CDM”, control_media=CDM, experimental media=CDM, control_strain=19F, experimental_strain=19F-Glu, growth_ratio=0.14547937)
+Experiment(“19F_CDM”, control_media=CDM, experimental media=CDM, control_strain=19F, experimental_strain=19F-Gly, growth_ratio=0.15276418)
+Experiment(“19F_CDM”, control_media=CDM, experimental media=CDM, control_strain=19F, experimental_strain=19F-His, growth_ratio=0.05588467)
+Experiment(“19F_CDM”, control_media=CDM, experimental media=CDM, control_strain=19F, experimental_strain=19F-Ile, growth_ratio=0.12415293)
+Experiment(“19F_CDM”, control_media=CDM, experimental media=CDM, control_strain=19F, experimental_strain=19F-Leu, growth_ratio=0.02297063)
+Experiment(“19F_CDM”, control_media=CDM, experimental media=CDM, control_strain=19F, experimental_strain=19F-Lys, growth_ratio=0.15612187)
+Experiment(“19F_CDM”, control_media=CDM, experimental media=CDM, control_strain=19F, experimental_strain=19F-Met, growth_ratio=0.07663296)
+Experiment(“19F_CDM”, control_media=CDM, experimental media=CDM, control_strain=19F, experimental_strain=19F-Phe, growth_ratio=0.1452984)
+Experiment(“19F_CDM”, control_media=CDM, experimental media=CDM, control_strain=19F, experimental_strain=19F-Pro, growth_ratio=0.14777776)
+Experiment(“19F_CDM”, control_media=CDM, experimental media=CDM, control_strain=19F, experimental_strain=19F-Ser, growth_ratio=0.1463815)
+Experiment(“19F_CDM”, control_media=CDM, experimental media=CDM, control_strain=19F, experimental_strain=19F-Thr, growth_ratio=0.14387735)
+
+    # strain TIGR4
+
+Experiment(“TIGR4_CDM”, control_media=CDM, experimental_media=CDM, control_strain=TIGR4, growth_ratio=0.17165794)
+Experiment(“TIGR4_CDM”, control_media=CDM, experimental_media=CDM, control_strain=TIGR4, experimental_strain=TIGR4-Ala, growth_ratio=0.17120025)
+Experiment(“TIGR4_CDM”, control_media=CDM, experimental_media=CDM, control_strain=TIGR4, experimental_strain=TIGR4-Arg, growth_ratio=0.04471474)
+Experiment(“TIGR4_CDM”, control_media=CDM, experimental_media=CDM, control_strain=TIGR4, experimental_strain=TIGR4-Asn, growth_ratio=0.18276277)
+Experiment(“TIGR4_CDM”, control_media=CDM, experimental_media=CDM, control_strain=TIGR4, experimental_strain=TIGR4-Asp, growth_ratio=0.18395004)
+Experiment(“TIGR4_CDM”, control_media=CDM, experimental_media=CDM, control_strain=TIGR4, experimental_strain=TIGR4-Cys, growth_ratio=0.01961422)
+Experiment(“TIGR4_CDM”, control_media=CDM, experimental_media=CDM, control_strain=TIGR4, experimental_strain=TIGR4-Gln, growth_ratio=0.04353862)
+Experiment(“TIGR4_CDM”, control_media=CDM, experimental_media=CDM, control_strain=TIGR4, experimental_strain=TIGR4-Glu, growth_ratio=0.16395977)
+Experiment(“TIGR4_CDM”, control_media=CDM, experimental_media=CDM, control_strain=TIGR4, experimental_strain=TIGR4-Gly, growth_ratio=0.09956597)
+Experiment(“TIGR4_CDM”, control_media=CDM, experimental_media=CDM, control_strain=TIGR4, experimental_strain=TIGR4-His, growth_ratio=0.07433383)
+Experiment(“TIGR4_CDM”, control_media=CDM, experimental_media=CDM, control_strain=TIGR4, experimental_strain=TIGR4-Ile, growth_ratio=0.16268069)
+Experiment(“TIGR4_CDM”, control_media=CDM, experimental_media=CDM, control_strain=TIGR4, experimental_strain=TIGR4-Leu, growth_ratio=0.01832489)
+Experiment(“TIGR4_CDM”, control_media=CDM, experimental_media=CDM, control_strain=TIGR4, experimental_strain=TIGR4-Lys, growth_ratio=0.18062739)
+Experiment(“TIGR4_CDM”, control_media=CDM, experimental_media=CDM, control_strain=TIGR4, experimental_strain=TIGR4-Met, growth_ratio=0.11248514)
+Experiment(“TIGR4_CDM”, control_media=CDM, experimental_media=CDM, control_strain=TIGR4, experimental_strain=TIGR4-Phe, growth_ratio=0.17506658)
+Experiment(“TIGR4_CDM”, control_media=CDM, experimental_media=CDM, control_strain=TIGR4, experimental_strain=TIGR4-Pro, growth_ratio=0.16557553)
+Experiment(“TIGR4_CDM”, control_media=CDM, experimental_media=CDM, control_strain=TIGR4, experimental_strain=TIGR4-Ser, growth_ratio=0.16719834)
+Experiment(“TIGR4_CDM”, control_media=CDM, experimental_media=CDM, control_strain=TIGR4, experimental_strain=TIGR4-Thr, growth_ratio=0.18624213)
+
+
+#forgot the last three amino acids
+#change experimental media to minus whatever aa, bc it is not hte strain that has it removed
