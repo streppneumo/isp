@@ -32,6 +32,10 @@ Experiment(“D39_CDM-Phe”, control_media=CDM, experimental_media=CDM-Phe, con
 Experiment(“D39_CDM-Pro”, control_media=CDM, experimental_media=CDM-Pro, control_strain=D39, experimental_strain=D39, growth_ratio=0.2067433)
 Experiment(“D39_CDM-Ser”, control_media=CDM, experimental_media=CDM-Ser, control_strain=D39, experimental_strain=D39, growth_ratio=0.183829)
 Experiment(“D39_CDM-Thr”, control_media=CDM, experimental_media=CDM-Thr, control_strain=D39, experimental_strain=D39, growth_ratio=0.19752675)
+Experiment(“D39_CDM-Trp”, control_media=CDM, experimental_media=CDM-Trp, control_strain=D39, experimental_strain=D39, growth_ratio=0.15941508)
+Experiment(“D39_CDM-Tyr”, control_media=CDM, experimental_media=CDM-Tyr, control_strain=D39, experimental_strain=D39, growth_ratio=0.2145561)
+Experiment(“D39_CDM-Val”, control_media=CDM, experimental_media=CDM-Val, control_strain=D39, experimental_strain=D39, growth_ratio=0.01553346)
+
 
 #give all a unique nam
 
@@ -54,6 +58,9 @@ Experiment(“19F_CDM-Phe”, control_media=CDM, experimental media=CDM-Phe, con
 Experiment(“19F_CDM-Pro”, control_media=CDM, experimental media=CDM-Pro, control_strain=19F, experimental_strain=19F, growth_ratio=0.14777776)
 Experiment(“19F_CDM-Ser”, control_media=CDM, experimental media=CDM-Ser, control_strain=19F, experimental_strain=19F, growth_ratio=0.1463815)
 Experiment(“19F_CDM-Thr”, control_media=CDM, experimental media=CDM-Thr, control_strain=19F, experimental_strain=19F, growth_ratio=0.14387735)
+Experiment(“19F_CDM-Trp”, control_media=CDM, experimental media=CDM-Thr, control_strain=19F, experimental_strain=19F, growth_ratio=0.13990791)
+Experiment(“19F_CDM-Tyr”, control_media=CDM, experimental media=CDM-Tyr, control_strain=19F, experimental_strain=19F, growth_ratio=0.13968132)
+Experiment(“19F_CDM-Val”, control_media=CDM, experimental media=CDM-Val, control_strain=19F, experimental_strain=19F, growth_ratio=0.13069792)
 
     # strain TIGR4
 
@@ -74,8 +81,10 @@ Experiment(“TIGR4_CDM-Phe”, control_media=CDM, experimental_media=CDM-Phe, c
 Experiment(“TIGR4_CDM-Pro”, control_media=CDM, experimental_media=CDM-Pro, control_strain=TIGR4, experimental_strain=TIGR4, growth_ratio=0.16557553)
 Experiment(“TIGR4_CDM-Ser”, control_media=CDM, experimental_media=CDM-Ser, control_strain=TIGR4, experimental_strain=TIGR4, growth_ratio=0.16719834)
 Experiment(“TIGR4_CDM-Thr”, control_media=CDM, experimental_media=CDM-Thr, control_strain=TIGR4, experimental_strain=TIGR4, growth_ratio=0.18624213)
+Experiment(“TIGR4_CDM-Trp”, control_media=CDM, experimental_media=CDM-Trp, control_strain=TIGR4, experimental_strain=TIGR4, growth_ratio=0.18171011)
+Experiment(“TIGR4_CDM-Tyr”, control_media=CDM, experimental_media=CDM-Tyr, control_strain=TIGR4, experimental_strain=TIGR4, growth_ratio=0.19145178)
+Experiment(“TIGR4_CDM-Val”, control_media=CDM, experimental_media=CDM-Val, control_strain=TIGR4, experimental_strain=TIGR4, growth_ratio=0.13795122)
 
 
-#forgot the last three amino acids
-#change experimental media to minus whatever aa, bc it is not the strain that has it removed
-#name of each reaction should be unique!! 
+
+#name of each reaction should be unique!!
